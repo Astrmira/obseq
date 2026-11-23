@@ -62,7 +62,13 @@ fetch https://downloadarchive.documentfoundation.org/libreoffice/old/7.3.7.2/deb
     2c14b90744a9c2c320cca7863ae027e20ee14b9681e739ff8c2192c3672d9d80 "$work/calc.tgz"
 unpack "$work/calc.tgz" "$work/calc"
 for deb in "$work"/calc/DEBS/*.deb; do dpkg-deb -x "$deb" /; done
-ln -s /opt/libreoffice7.3/program/soffice "$root/tools/soffice"
+cat > "$root/tools/soffice" <<'SH'
+#!/bin/sh
+program=/opt/libreoffice7.3/program
+export LD_LIBRARY_PATH="$program${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+exec "$program/soffice" "$@"
+SH
+chmod 755 "$root/tools/soffice"
 ln -s soffice "$root/tools/libreoffice"
 
 fetch https://codeload.github.com/gregrahn/sqllogictest/tar.gz/c93ac416f05635ff5cc490009add936d9753d01d \
