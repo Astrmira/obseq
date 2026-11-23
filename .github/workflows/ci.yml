@@ -1,0 +1,69 @@
+name: ObsEq Reproducibility CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: obseq-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  offline-and-comparators:
+    name: Tier 1 & Tier 2 (Offline + Comparators)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check Markdown links
+        run: python3 -B scripts/check_links.py
+
+      - name: Tier 1 offline digest and receipt verification (stdlib only)
+        run: python3 -B replay.py
+
+      - name: Install hash-locked Tier 2 Python environment
+        run: |
+          python3.12 -m venv .venv
+          .venv/bin/python -m pip install --require-hashes -r requirements.lock
+          .venv/bin/python -m pip install --no-build-isolation --no-deps -e .
+
+      - name: Tier 2 comparator matrices and SQL window smoke tests
+        run: |
+          .venv/bin/python -B replay.py --comparators
+          .venv/bin/obseq-verify-windows --help
+
+  docker-native:
+    name: Tier 3 (Complete Linux Docker Image)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Build complete linux/amd64 container image
+        run: |
+          docker build --progress=plain --platform linux/amd64 \
+            -f docker/Dockerfile -t obseq-native:ci .
+          docker image inspect --format '{{.Id}} {{.Os}}/{{.Architecture}} {{.Size}}' obseq-native:ci
+
+      - name: Verify offline replay and bundled native producers (--network none)
+        run: |
+          set -euo pipefail
+          docker run --rm --network none obseq-native:ci python -B replay.py
+          docker run --rm --network none obseq-native:ci python -B replay.py --comparators
+          docker run --rm --network none obseq-native:ci sh -c '
+            set -eu
+            printf "{}\n" > /tmp/empty.json
+            mkdir -p /tmp/obseq-scratch
+            python -B replay.py --native-inputs /tmp/empty.json --scratch /tmp/obseq-scratch --timeout 480
+          '
