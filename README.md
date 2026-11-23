@@ -2,8 +2,7 @@
 
 **ObsEq** is the open benchmark corpus, multi-tool oracle adapter suite, offline exact reference collection, and zero-annotation SQL cutoff validator accompanying our PVLDB study:
 
-> **Stricter Is Not Safer: An Experimental Study of Correctness Oracles in Data Systems \[Experiment, Analysis & Benchmark\]**  
-> Xu Cao and Wenxuan Xiao (*Astrmira Tech.*)
+> **Stricter Is Not Safer: An Experimental Study of Correctness Oracles in Data Systems \[Experiment, Analysis & Benchmark\]**
 
 Every test of a data system ends in an oracle $O = (\pi, \approx, r)$ combining an **observation** $\pi$ of an execution with a **comparison relation** $\approx$ on observations. **ObsEq** evaluates 26 deployed oracle configurations (official benchmark checkers, generic comparators, and 16 configurations of `pandas`, `Polars`, `DataComPy`, `dbt`, `Great Expectations`, `Deequ`, `DVC`, and `SQLLogicTest`) alongside deployable contract-and-witness checks (`O1`–`O5`) against independent arbitrary-precision references.
 
