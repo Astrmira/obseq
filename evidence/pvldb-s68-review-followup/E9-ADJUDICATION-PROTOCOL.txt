@@ -1,0 +1,1 @@
+Frozen input: d3e06da235134c7faa792c8c5029e00d4bd21434045b6bbe90dd22fedd2769b4 (includes both ratings). Review source body/discussion for concrete successful wrong output against contract; exclude expected behavior, proposals, crash-only; unknown if unresolved evidence. Assign one primary class only.

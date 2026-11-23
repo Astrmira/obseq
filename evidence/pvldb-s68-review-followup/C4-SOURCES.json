@@ -1,0 +1,814 @@
+{
+  "rows": [
+    {
+      "archived_contract_arms": 2,
+      "category": "O4",
+      "e9_links": [
+        {
+          "id": "0ba374621546c748",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pola-rs/polars/issues/13393"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/13393"
+      ],
+      "mechanism": "categorical-membership-logical-equality",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "c665adf68ef1cf9667796a829f9fd2f89acadd1f",
+          "url": "https://github.com/pola-rs/polars/pull/13412"
+        }
+      ],
+      "versions": [
+        "0.20.3",
+        "0.20.4"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F6",
+      "e9_links": [
+        {
+          "id": "1704c4485c94173f",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/duckdb/duckdb/issues/23504"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/23504"
+      ],
+      "mechanism": "copy-summary-bound",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "7adf7a70bb9a8755d1c3f86aaf52430ff66227b2",
+          "scope": "maintainer-linked",
+          "url": "https://github.com/duckdb/duckdb/pull/23693"
+        }
+      ],
+      "versions": [
+        "1.5.4",
+        "1.5.5"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F9",
+      "e9_links": [
+        {
+          "id": "05b3c62745ba9a1c",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/duckdb/duckdb/issues/8413"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/8413"
+      ],
+      "mechanism": "group-collation-type",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "e469fe12ed508a351265b812b52744b4371a5fb9",
+          "url": "https://github.com/duckdb/duckdb/pull/9242"
+        }
+      ],
+      "versions": [
+        "0.8.1",
+        "0.9.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F2",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/63920"
+      ],
+      "mechanism": "group-null-reassignment",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "3766a73d48148a2e5621f20fb655929ee3eeac8c",
+          "url": "https://github.com/pandas-dev/pandas/pull/63961"
+        }
+      ],
+      "versions": [
+        "3.0.0",
+        "3.1.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "O4",
+      "e9_links": [
+        {
+          "id": "e13cd43e02acf948",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/duckdb/duckdb/issues/13237"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/13237"
+      ],
+      "mechanism": "insert-decimal-export",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "aef7bf23622433f828e711cf3feffb9900ffc19a",
+          "url": "https://github.com/duckdb/duckdb/pull/13308"
+        }
+      ],
+      "versions": [
+        "1.0.0",
+        "1.1.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F8",
+      "e9_links": [
+        {
+          "id": "24b53cc5eacd14fe",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pandas-dev/pandas/issues/55254"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/55254"
+      ],
+      "mechanism": "melt-timezone",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "22452174d44fd9821289e823e5d3bce21cd68315",
+          "url": "https://github.com/pandas-dev/pandas/pull/55270"
+        }
+      ],
+      "versions": [
+        "2.1.1",
+        "2.2.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F2",
+      "e9_links": [
+        {
+          "id": "050c172835a2dd23",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pola-rs/polars/issues/6335"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/6335"
+      ],
+      "mechanism": "nested-sibling-null-explode",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "fde2682c46ba753c59a856b733f7a84d99a854f7",
+          "url": "https://github.com/pola-rs/polars/pull/6339"
+        }
+      ],
+      "versions": [
+        "0.15.15",
+        "0.15.16"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F8",
+      "e9_links": [
+        {
+          "id": "06df66ae81378ec0",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pola-rs/polars/issues/20766"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/20766"
+      ],
+      "mechanism": "nested-timezone",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "cb8a7cafc4ed7cfdcd8f2762926b2fb180e56143",
+          "url": "https://github.com/pola-rs/polars/pull/20822"
+        }
+      ],
+      "versions": [
+        "1.20.0",
+        "1.22.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F2",
+      "e9_links": [
+        {
+          "id": "14420bbd4b81436a",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/duckdb/duckdb/issues/24363"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/24363"
+      ],
+      "mechanism": "null-sort-topn",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "0b2a807bd176400bad26cf8f3eb13ea2efdf1e53",
+          "url": "https://github.com/duckdb/duckdb/pull/24399"
+        }
+      ],
+      "versions": [
+        "1.5.5",
+        "2.0.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F9",
+      "e9_links": [
+        {
+          "id": "02050e2e7fd2c5bc",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pandas-dev/pandas/issues/65550"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/65550"
+      ],
+      "mechanism": "nullable-cumulative-group-type",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "5e53d27290368fae75f41064820a659930ca2e11",
+          "url": "https://github.com/pandas-dev/pandas/pull/65551"
+        }
+      ],
+      "versions": [
+        "3.0.3",
+        "3.1.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 12,
+      "category": "F6",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/56134",
+        "https://github.com/pandas-dev/pandas/issues/56147"
+      ],
+      "mechanism": "pandas-annual-boundaries",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "d5bd1f7eb42c1ffa11261be0bf222bf8a99366b1",
+          "scope": "archive-linked",
+          "url": "https://github.com/pandas-dev/pandas/pull/56831"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 6,
+      "category": "F6",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/50946"
+      ],
+      "mechanism": "pandas-asof-string-boundary",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "82fa27153e5b646ecdb78cfc6ecf3e1750443892",
+          "url": "https://github.com/pandas-dev/pandas/pull/62943"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 8,
+      "category": "F3",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/63219"
+      ],
+      "mechanism": "pandas-groupby-snapshot",
+      "oracle": [
+        "O1"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "6a0082e2e5233abdf386a7411120ffdb90712d9c",
+          "url": "https://github.com/pandas-dev/pandas/pull/63232"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F7",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/54380"
+      ],
+      "mechanism": "pandas-historical-rolling-moments",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "55864a0a2a8833b9b00b17236aa93c1b859051ef",
+          "url": "https://github.com/pandas-dev/pandas/pull/63143"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 6,
+      "category": "F5",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/61841"
+      ],
+      "mechanism": "pandas-idempotent-partial-key-write",
+      "oracle": [
+        "O5"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "0f9647e3539b578c82bb5aa6f5d2ec9d7b6d6a54",
+          "url": "https://github.com/pandas-dev/pandas/pull/62404"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 6,
+      "category": "F4",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/57911"
+      ],
+      "mechanism": "pandas-index-uniqueness-cache",
+      "oracle": [
+        "O2"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "dd6843ddbcef7bd6c9f23ffdd429cf452a96529d",
+          "url": "https://github.com/pandas-dev/pandas/pull/57958"
+        }
+      ],
+      "versions": [
+        "2.3.3",
+        "3.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 12,
+      "category": "F5",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/65446"
+      ],
+      "mechanism": "pandas-reversed-positional-write",
+      "oracle": [
+        "O5"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "e8c3dac6c08286381ee7e27c6d24effdfe4e4f6a",
+          "url": "https://github.com/pandas-dev/pandas/pull/65864"
+        }
+      ],
+      "versions": [
+        "2.2.3",
+        "3.1.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 540,
+      "category": "F7",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/66551"
+      ],
+      "mechanism": "pandas-timedelta-cancellation",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "9fcddfbcad41d4d1cf13e355915a83a95f3e7565",
+          "url": "https://github.com/pandas-dev/pandas/pull/66640"
+        }
+      ],
+      "versions": [
+        "2.2.3",
+        "3.1.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F2",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/27272"
+      ],
+      "mechanism": "pivot-null-buckets",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "daccd9609351c4371ea5a6d0fb52456cccbe6a21",
+          "url": "https://github.com/pola-rs/polars/pull/27273"
+        }
+      ],
+      "versions": [
+        "1.39.3",
+        "1.40.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F4",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/29788"
+      ],
+      "mechanism": "polars-cache-lineage",
+      "oracle": [
+        "O2"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "157a9f13c923990060d18e29613efed34396cfbb",
+          "url": "https://github.com/pola-rs/polars/pull/29793"
+        }
+      ],
+      "versions": [
+        "2.0.0",
+        "2.1.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 48,
+      "category": "O3",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/28344"
+      ],
+      "mechanism": "polars-categorical-series-topk",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "61a08f1aff59a89f8272ddb9af73fe23436314ca",
+          "url": "https://github.com/pola-rs/polars/pull/28359"
+        }
+      ],
+      "versions": [
+        "1.42.1",
+        "1.43.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 288,
+      "category": "O3",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/29630"
+      ],
+      "mechanism": "polars-grouped-coupled-representative",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "0d75ffe25cee829ef30b2a095a0b4a430fa59f17",
+          "url": "https://github.com/pola-rs/polars/pull/29639"
+        }
+      ],
+      "versions": [
+        "1.44.2",
+        "2.0.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 3,
+      "category": "F10",
+      "e9_links": [
+        {
+          "id": "807d8d0f0d3efba2",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/libgeos/geos/issues/1365"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/libgeos/geos/issues/1365"
+      ],
+      "mechanism": "precision-ring-measure",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "36d2dcfdea9cf2738dc5a233ee917417511e7945",
+          "url": "https://github.com/libgeos/geos/pull/1372"
+        }
+      ],
+      "versions": [
+        "3.13.1;3.14.1",
+        "3.15.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F3",
+      "e9_links": [
+        {
+          "id": "59890e2bc86255d1",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/duckdb/duckdb/issues/21207"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/21207"
+      ],
+      "mechanism": "prepared-snapshot-count",
+      "oracle": [
+        "O1"
+      ],
+      "upstream_fix_links": [],
+      "versions": [
+        "1.4.3",
+        "2.0.1"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F7",
+      "e9_links": [
+        {
+          "id": "0a8573e459bc9e68",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pandas-dev/pandas/issues/46049"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/46049"
+      ],
+      "mechanism": "rolling-variance-cancellation",
+      "oracle": [
+        "O3"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "a8968bfa696d51f73769c54f2630a9530488236a",
+          "scope": "matching kernel fix documented in the 1.5.0 release notes",
+          "url": "https://github.com/pandas-dev/pandas/pull/46431"
+        }
+      ],
+      "versions": [
+        "1.4.1",
+        "1.5.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F1",
+      "e9_links": [
+        {
+          "id": "14c38ae3f4c5ecd8",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pandas-dev/pandas/issues/53464"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pandas-dev/pandas/issues/53464"
+      ],
+      "mechanism": "styler-index-representation",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "7772f0f247acca10312062acf342f17506baf8ce",
+          "scope": "archive verified release ancestry",
+          "url": "https://github.com/pandas-dev/pandas/pull/53017"
+        }
+      ],
+      "versions": [
+        "2.0.1",
+        "2.1.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F1",
+      "e9_links": [
+        {
+          "id": "23d83ce3eb700d2d",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/pola-rs/polars/issues/12032"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/pola-rs/polars/issues/12032"
+      ],
+      "mechanism": "uint64-mixed-input",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "29539fb00f92b2520e7ccb7e076c431be29ca83a",
+          "url": "https://github.com/pola-rs/polars/pull/12045"
+        }
+      ],
+      "versions": [
+        "0.19.11",
+        "0.19.13"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 3,
+      "category": "F5",
+      "e9_links": [],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/duckdb/duckdb/issues/16698",
+        "https://github.com/duckdb/duckdb/issues/17143"
+      ],
+      "mechanism": "upsert-state-and-receipt",
+      "oracle": [
+        "O5"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "631b11e9ed4eeb21a9f54d9cf5cdacc58266a007",
+          "scope": "upstream upsert rewrite",
+          "url": "https://github.com/duckdb/duckdb/pull/18480"
+        }
+      ],
+      "versions": [
+        "1.2.1;1.2.2",
+        "1.4.0"
+      ],
+      "visible_to_ordered_equality": true
+    },
+    {
+      "archived_contract_arms": 2,
+      "category": "F10",
+      "e9_links": [
+        {
+          "id": "05a1886dda261bc5",
+          "matches_issue": true,
+          "status": "yes",
+          "url": "https://github.com/libgeos/geos/issues/565"
+        }
+      ],
+      "e9_unresolved_ids": [],
+      "issues": [
+        "https://github.com/libgeos/geos/issues/565"
+      ],
+      "mechanism": "valid-segment-intersection",
+      "oracle": [
+        "O4"
+      ],
+      "upstream_fix_links": [
+        {
+          "merge_commit": "ff0aedef09cc61dc03853b6132b59471f7cb2781",
+          "url": "https://github.com/libgeos/geos/pull/570"
+        }
+      ],
+      "versions": [
+        "3.10.2",
+        "3.10.3"
+      ],
+      "visible_to_ordered_equality": true
+    }
+  ],
+  "summary": {
+    "e9_positive_count": 82,
+    "linked_distinct_positive_issues": 15,
+    "linked_families": 15,
+    "release_pairs": 29,
+    "release_pairs_with_fix_link": 28
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "gdal": "3.10.3",
+  "max_coordinate_denominator": 288230376151711744,
+  "native_wedges_sha256": "45d8fd37248476e4f83f0ba6314d49514e308329697e38b763f18e03c7243f19",
+  "source_sha256": {
+    "ne/ne_110m_admin_0_countries.dbf": "1fee677cd4e03b367876e03861eb10197e4022a846bf92060e0313432863785b",
+    "ne/ne_110m_admin_0_countries.shp": "08e341606e8391e458c3f08deb312de664b56bfae376064c5aa0aee6681a5f55",
+    "ne/ne_110m_admin_0_countries.shx": "8b0be2ad97dd484aee5c2ebc98697d5372e832b8ae58a35a661aeef6b985668d",
+    "osm/liechtenstein.gpkg": "5b0840c72e2ef9ac1bb211235cd6dd7170c0b400b72b472749490d93399c89cd"
+  },
+  "wedges_by_layer": {
+    "gis_osm_buildings_a_free": 118757,
+    "gis_osm_landuse_a_free": 109765,
+    "gis_osm_natural_a_free": 51,
+    "gis_osm_water_a_free": 4789,
+    "ne_110m_admin_0_countries": 10365
+  }
+}

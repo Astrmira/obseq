@@ -1,0 +1,347 @@
+{
+  "a10_receipt_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+  "archive_sha256": "9cf7228b54f1edcdd4b372eb736774adf29cb4f804c9920229bac6c154833399",
+  "evaluator_sha256": "4ae77cee8df01d1f34684fceab972810d696886533d33be2e89373de6b4d3de3",
+  "metadata_sha256": "e5137ecbec4273d91344a0c8feb2aff2d4a93d5881ac40e490250dfd8db227de",
+  "observations": [
+    {
+      "cell_sha256": "370c8b2eb4f048947b7a9b69d9680a973a4d5df05e33afc9bec07490054865ce",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "a2e6d105d49553ee95e0d82f4a55d66be738c6504ae7157c6244d4465f5107f5",
+      "workbook": "00ba35ee334aa554e4641de6999cc9242c5bdcc9b8ffb1710fd1e18a4f9d6974"
+    },
+    {
+      "cell_sha256": "16ce65bc3652a7cf6bddff95a4fc08ffa4219c732f45dda08da3d61b1da03944",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "761faa485e4909657b4652910272b43eb8746503cc73425879f5f15d4b83e25f",
+      "workbook": "07843feb092ded1c8b7e6d59f43e4713e4fc03291fec5fcba06b5bc90a5d5be0"
+    },
+    {
+      "cell_sha256": "61f4555613b4669395e27dc97374cd3272090631cf9ae3f187b85721083d6033",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "8f29359bb1a23f08fc506e6232611ed3ee59006575fb569929bfa48d321655a2",
+      "workbook": "12d4dba82f1cefb27652905bb2deae25b9e13364595a11974097b75afafb8463"
+    },
+    {
+      "cell_sha256": "88b5b2c38b11941dd802af341f9b0bda4afe86965aa83c177b6cc3974295ba6d",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "8e35e0d787d441044dfcd73666770749bda4c9848624cd77d667f1381bd7b895",
+      "workbook": "13bc42f2443fdabfdfc68c5192c02e87d2ec76c719dd0042b790cf2862658fff"
+    },
+    {
+      "cell_sha256": "750066e3b1b890b80a3bb39681e56d7b9636ba21639e79dd111666fda207ebbe",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "e209388017e8617f146fe1186c9d6cf195a6274a287cddab9f6163859de0dea6",
+      "workbook": "17bfb8afb7baa39ab4f99b374bb34e1a083b3fcc7f74bef0e6b6d5cfdbc98fa6"
+    },
+    {
+      "cell_sha256": "28458abe96da6e26b70c8ad849c02adc01876d6d696aa70455d8a5dbc7f93edb",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "a9f0f7d5605a5ff1a068f63ec1a2921a34c6e012cf351ad2aa4d84594a7db30c",
+      "workbook": "1ecb0a3f8a8b3fe2dce9aaa9d8ddcf1646040e8b4c7569b570ba021766c5339a"
+    },
+    {
+      "cell_sha256": "06b47355f80f36130d23e1e60805da36d20ab41358b60d73874a707824ccef7a",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "b486b76b31bf1fd7fda957155e31dbbba1781603a3891f5b03797de3359b07a4",
+      "workbook": "24afd10cd67e9d6be8c22635743ea05b25798d8100d777149c03feb00a08dde3"
+    },
+    {
+      "cell_sha256": "46c6da99114710ca33a3ea71e96dc183d4c3402a261d4fce9823e148dc7718c7",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "aa48f267a9153acd4a938f728101d7c175939e140289ddbe32bbc8bf70495fed",
+      "workbook": "2a639f3f9797015cccf7b0b41e9678e3df821ab1b0fd74c95c911e8c1b9b7427"
+    },
+    {
+      "cell_sha256": "20a766cedf7ee56e8394eaec5715cc78b6079522c1b776123dbb34bed8bf52f7",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "2ad4e4fe6cdaf03924465e5703443bd661ce2dfba8dbb252721cf55392c2256d",
+      "workbook": "2c7a52c473d13aee23e6e24f02fce8217b8668c5ba3eb3258ae4f88ecbcead16"
+    },
+    {
+      "cell_sha256": "4e15accdf88376b33d8bdaee99224e0f10a47376e253d1df6b95120ab33dc7d7",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "dd501ce8e46efd37347e7a7c02e558aa0163ed2b238924b499dda9858363632b",
+      "workbook": "2e6c8c8d6c7f47aa58ee19e81c39958654c321bf998f77f3cc55d03ebdde0156"
+    },
+    {
+      "cell_sha256": "334e45cb116c2d9a6864c61a29a91081b4631910813000c2c27737f426c225cf",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "72b428e98cf67eeb600d9e5bee3cabfa4819858b5df056a21fe9cc58c950c8cb",
+      "workbook": "330c409436ab565cbf78f5cb45cbb2e79d5366e6884ca5a0343cbd98c47e5dc2"
+    },
+    {
+      "cell_sha256": "97716090604f76eaeee5e322ad5fe91e289a3e8689510ba35585249fa2bff841",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "a9605be10379c8c75a87e258faaed0df91870c00396252a863e533359318889f",
+      "workbook": "375109a2b59ee35a84cdea3e2cd2847a660c09e57446f918f9d04f8eee1a505f"
+    },
+    {
+      "cell_sha256": "66db5353f833a0110fbf7b5c461d0cbada23906260cf74e9cca69e5e70ba4d67",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "c39853a27bcc0eb65435b8d14beeed0781d1766b1a2cfbdcffc37ecf725fdded",
+      "workbook": "3adc601a193ec783c7c6d76696506694f5a1795e8698623a2cbb96158701b7b2"
+    },
+    {
+      "cell_sha256": "26f93dce9b965f69a32b734488f6a5f5499d584f7018ebafca0bca06342dbf20",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "c70cfb0acb588a94d2713a4b289f6e09f0de81de549d5653087bfcbb4c48f92d",
+      "workbook": "3af1b94089f8ff1b7b440bcf62b20dd797bc393d19fd6256d516d0df508bdca0"
+    },
+    {
+      "cell_sha256": "7d37db7908d5ca6cbd0adcaf807fc0a01e4021b7d9cc01c7c52c3262477e89ba",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "632055d5263961167181f73fb1ad87ea47e63dee3ddea1614d6dde01532004a8",
+      "workbook": "41285c62b300737fb3319366fd0063ece55984395ccbe6e83ad547f805e2ad87"
+    },
+    {
+      "cell_sha256": "c90f9c80b27bd26882cf65ee3189f2fb8539f465eed4bfd63db409f8ceb027ee",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "d89b5450a39fcf2c723da8f0f48f62cf9b9f1a82ab7c291fce2419de4df4e50f",
+      "workbook": "417c15f4516ec5cb6a34ee6404769b9d8dcf00d3328cc11a293c25223fd1061d"
+    },
+    {
+      "cell_sha256": "2f163ffccb3172ccf0bf193e109fba68715add5b3bf6635da07819d5e346de6e",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "2273df44b3a04b5d26481fe89342e04745225de783ece2ad77e498ce9a06f3fa",
+      "workbook": "4317f16645742444c57f87c1e186e906cb12f0f52b637dabb38c3813be8c69a2"
+    },
+    {
+      "cell_sha256": "2817213961848ddf1886d558de50b3abae5708919368bf252fc5ac3c837b45a9",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "61bb498ecf81f2edaa1ec9a9c5089692288b6a75b04ce277a58464b4920c4b91",
+      "workbook": "4925d22d5b2e8070a07a38b7b1dfa232bdcaf2a86974deb5d59d85ee5903667e"
+    },
+    {
+      "cell_sha256": "fd74e031ad10749ffb483e78cc660d5f6b4a9d78fea5971ce359e8fd61f50eee",
+      "comparisons": {
+        "negative": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        },
+        "positive": {
+          "isolated_cell": true,
+          "openpyxl_save": true
+        }
+      },
+      "gold_self_comparison": true,
+      "populated_cache_control_accepts": false,
+      "task": "c9be26fa66373f72eab671e2eeedeabd0357a45f9c4b7ef9ae53a9bb138977db",
+      "workbook": "4c5cf9379e868d13b8c1b6c3367b27fa39234362c2a960b78a52a8077afe93eb"
+    }
+  ],
+  "openpyxl": "3.1.5",
+  "summary": {
+    "isolated_cell": {
+      "both_variants_accepted": 19,
+      "no_variant_accepted": 0,
+      "one_variant_accepted": 0,
+      "task_count": 19
+    },
+    "openpyxl_save": {
+      "both_variants_accepted": 19,
+      "no_variant_accepted": 0,
+      "one_variant_accepted": 0,
+      "task_count": 19
+    },
+    "populated_cache_controls_accepted": 0
+  }
+}

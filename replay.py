@@ -109,6 +109,10 @@ def replay_receipts():
                 for row in benchmark["observations"] if row["cohort"] == cohort]
         if matrix_counts(rows) != totals or any(len(row["tool_verdicts"]) != 16 for row in rows):
             raise ValueError(f"benchmark matrix summary changed for {cohort}")
+    annotation = EVIDENCE / "e9-independent-annotation-and-adjudication"
+    output = subprocess.check_output([sys.executable, "-B", str(annotation / "check.py")])
+    if json.loads(output) != read(annotation / "RESULT.json"):
+        raise ValueError("Paired public-issue annotation and adjudication summary changed")
     development = set()
     for file in EVIDENCE.glob("e7-*/MANIFEST.json"):
         for entry in read(file)["cases"]:
@@ -118,6 +122,7 @@ def replay_receipts():
                 if digest(path) != pinned["sha256"]:
                     raise ValueError(f"development/transfer manifest mismatch: {entry['case_id']}/{name}")
     return {"original_contracts_replayed": len(predicted),
+            "public_issue_model_annotations_replayed": 300,
             "later_cases_recounted": len({(r["panel"], r["id"]) for r in later_rows}),
             "natural_release_pairs_recounted": pair_summary["release_pairs"],
             "natural_contract_arms_replayed": len(c4["observations"]),

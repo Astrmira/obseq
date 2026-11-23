@@ -1,0 +1,9 @@
+# E9 codebook reference
+
+This reference was prepared after the frozen model ratings for the new human review. It describes the retained label schema and links to the repository taxonomy. The original acquisition, annotation and adjudication protocols are preserved alongside it. Exact original invocation prompts, the full original coding instructions and rater model parameters were absent from the retained records.
+
+An issue receives `yes` when its linked evidence establishes a wrong result, `no` when the evidence establishes expected behavior or a different issue, and `unknown` when the retained evidence leaves the wrong-result decision unresolved. Closure alone does not establish a verified repair. A fix or maintainer confirmation and a reproduction can support a decision. Each positive case receives one primary mechanism label from F1–F10, O3, O4 or `other`, with `unknown` available when that mechanism remains unresolved. The mechanism definitions are in [TAXONOMY.md](../../TAXONOMY.md). Reviewers should evaluate the fit of each frozen primary label against the issue evidence as well as the wrong-result decision.
+
+The retained protocol blinds the two initial passes to peer judgments and retrieval strata. Status disagreements and positive-class disagreements go to the third adjudicator. The original two decisions remain immutable. The positive slice contains the resulting 82 model-adjudicated positives.
+
+Human reviewers can use `E9-HUMAN-REVIEW-QUEUE.tsv`. For each row, record the upstream confirmation or repair, reproduction evidence, wrong-result status, primary class, reviewer and completion time. Agreement is computed over the rows with completed human decisions and an explicitly stated denominator. No human agreement statistic is present in this packet.

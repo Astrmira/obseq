@@ -1,0 +1,5 @@
+# E9 annotation provenance and human review
+
+The acquisition protocol records the eight trackers, the twelve frozen retrieval terms, the date window, deduplication and the deterministic stratified sample. The original annotation protocol defines evidenced wrong results, expected behavior and unresolved evidence. The original adjudication rule resolves status or positive-class disagreements against the linked issue and retains the two initial ratings. The retained records identify independent model passes and the third model adjudication. Exact model parameters and full invocation prompts were not retained in this packet.
+
+The positive slice contains 82 frozen model-adjudicated labels. It supports the C4 linkage check. For independent human review, use the separate queue. It contains the issue links and blank judgment fields. Record the upstream fix or maintainer confirmation, the reproduction evidence, the reviewed status and class, the reviewer and completion time. Agreement can be computed after signed decisions exist.

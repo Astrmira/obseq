@@ -1,0 +1,343 @@
+{
+  "recorded_geometry_environment": [
+    "c++ (Debian 14.2.0-19) 14.2.0",
+    "Linux x86_64",
+    "model name\t: AMD EPYC 9V74 80-Core Processor"
+  ],
+  "rows_or_calls": 100000000,
+  "scope": "Archived workers, no new measurement",
+  "source_sha256": {
+    "e6-cross-scale-and-ratio-audit/RESULT.json": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+    "e6-cross-scale-and-ratio-audit/epoch-RAW.jsonl": "4d72a855d0bed0146d09d2b6450de4db29fe8cfcc08bfe2699d95fdd5307e516",
+    "e6-cross-scale-and-ratio-audit/geometry-RAW.csv": "bc649f9d31945a8af64cf92893e866af0291937df3dd57910ab1a7681614920f",
+    "e6-cross-scale-and-ratio-audit/intent-RAW.jsonl": "d81db3061d49b7600bad08a0ccecf1742eb4fb4147415ff924599626e0a890b9",
+    "e6-cross-scale-and-ratio-audit/representative-RAW.jsonl": "5fa1f3bbbf9076e8514e1ac634bb2827374a3b65c8f7bd29f285683055d0efa5",
+    "e6-cross-scale-and-ratio-audit/snapshot-RAW.jsonl": "64698bc3dc24500eec7739a6653323c717c28146cedea4f569bc323337d66949",
+    "e6-cross-scale-and-ratio-audit/topk-RAW.jsonl": "f06609fc1762fb724521ef1ab06f48c98f45a1d4f9cf7288a1611e8de60c5d27",
+    "e6-o4-native-100m-dyadic-queries/ENV.txt": "7c8928d9b88d0a0e08299aab352e44c07aa7e4b895b95f397fd2988b8aed5847"
+  },
+  "timing": {
+    "O1": {
+      "raw_file_sha256": {
+        "peak_rss_kib": {
+          "max": 16896,
+          "median": 16896,
+          "min": 16896
+        },
+        "wall_s": {
+          "max": 1.699361107,
+          "median": 1.528284689,
+          "min": 1.338107312
+        }
+      },
+      "sqlite_backup_logical": {
+        "peak_rss_kib": {
+          "max": 2175832,
+          "median": 2175828,
+          "min": 2175828
+        },
+        "wall_s": {
+          "max": 73.098319984,
+          "median": 72.485318674,
+          "min": 70.430646848
+        }
+      },
+      "sqlite_backup_only": {
+        "peak_rss_kib": {
+          "max": 2175684,
+          "median": 2175680,
+          "min": 2175680
+        },
+        "wall_s": {
+          "max": 5.364176653,
+          "median": 3.32991807,
+          "min": 1.806425813
+        }
+      },
+      "sqlite_native_read": {
+        "peak_rss_kib": {
+          "max": 16244,
+          "median": 16240,
+          "min": 16236
+        },
+        "wall_s": {
+          "max": 4.584522631,
+          "median": 4.515241145,
+          "min": 4.177857476
+        }
+      }
+    },
+    "O2": {
+      "epoch": {
+        "peak_rss_kib": {
+          "max": 52348,
+          "median": 52276,
+          "min": 52064
+        },
+        "wall_s": {
+          "max": 0.00022212500334717333,
+          "median": 0.00021875999664189294,
+          "min": 0.00021847800235264003
+        }
+      },
+      "exact": {
+        "peak_rss_kib": {
+          "max": 316148,
+          "median": 307956,
+          "min": 306120
+        },
+        "wall_s": {
+          "max": 16.42298786700121,
+          "median": 13.998960844000976,
+          "min": 13.440868151999894
+        }
+      },
+      "producer": {
+        "peak_rss_kib": {
+          "max": 242200,
+          "median": 241892,
+          "min": 241712
+        },
+        "wall_s": {
+          "max": 2.288389681998524,
+          "median": 2.2250756729990826,
+          "min": 2.221013612994284
+        }
+      }
+    },
+    "O3-representative": {
+      "claimed": {
+        "check_only_s": {
+          "max": 15.55238401,
+          "median": 15.019025662,
+          "min": 14.332795975
+        },
+        "peak_rss_kib": {
+          "max": 477552,
+          "median": 477316,
+          "min": 476904
+        },
+        "producer_s": {
+          "max": 9.528857182,
+          "median": 8.945825936,
+          "min": 8.704303532
+        },
+        "total_s": {
+          "max": 24.713439208,
+          "median": 23.723329194,
+          "min": 23.219206174
+        },
+        "within_worker_check_over_producer": {
+          "max": 1.725471269100959,
+          "median": 1.647507557204945,
+          "min": 1.593536531818701
+        }
+      },
+      "family": {
+        "check_only_s": {
+          "max": 13.771461922,
+          "median": 11.203898624,
+          "min": 11.019564872
+        },
+        "peak_rss_kib": {
+          "max": 481660,
+          "median": 481624,
+          "min": 481072
+        },
+        "producer_s": {
+          "max": 9.965047776,
+          "median": 9.519714045,
+          "min": 8.965208516
+        },
+        "total_s": {
+          "max": 22.736670438,
+          "median": 20.853520688,
+          "min": 20.315016979
+        },
+        "within_worker_check_over_producer": {
+          "max": 1.5361005711604354,
+          "median": 1.1675780207518796,
+          "min": 1.1205627804500602
+        }
+      },
+      "producer": {
+        "check_only_s": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "peak_rss_kib": {
+          "max": 473352,
+          "median": 472900,
+          "min": 472844
+        },
+        "producer_s": {
+          "max": 9.583569816,
+          "median": 9.301556715,
+          "min": 8.959671322
+        },
+        "total_s": {
+          "max": 9.583569816,
+          "median": 9.301556715,
+          "min": 8.959671322
+        },
+        "within_worker_check_over_producer": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      }
+    },
+    "O3-topk": {
+      "family": {
+        "check_only_s": {
+          "max": 12.434293892,
+          "median": 11.02890295,
+          "min": 10.510415366
+        },
+        "peak_rss_kib": {
+          "max": 580176,
+          "median": 579892,
+          "min": 579584
+        },
+        "producer_s": {
+          "max": 16.530748774,
+          "median": 8.179508889,
+          "min": 8.073503686
+        },
+        "total_s": {
+          "max": 28.965042666,
+          "median": 19.197998442,
+          "min": 18.689924255
+        },
+        "within_worker_check_over_producer": {
+          "max": 1.4012188461147375,
+          "median": 1.3191731115674832,
+          "min": 0.7521918130869539
+        }
+      },
+      "guard": {
+        "check_only_s": {
+          "max": 27.508682002,
+          "median": 13.995783258,
+          "min": 13.941963556
+        },
+        "peak_rss_kib": {
+          "max": 477316,
+          "median": 477032,
+          "min": 476680
+        },
+        "producer_s": {
+          "max": 8.698933957,
+          "median": 8.068707841,
+          "min": 7.7441901
+        },
+        "total_s": {
+          "max": 35.960510955,
+          "median": 22.57737025,
+          "min": 21.739973358
+        },
+        "within_worker_check_over_producer": {
+          "max": 3.2547608517604605,
+          "median": 1.8072623576221354,
+          "min": 1.60272093395777
+        }
+      },
+      "producer": {
+        "check_only_s": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "peak_rss_kib": {
+          "max": 469496,
+          "median": 469312,
+          "min": 469220
+        },
+        "producer_s": {
+          "max": 8.881073048,
+          "median": 7.861431847,
+          "min": 7.663112092
+        },
+        "total_s": {
+          "max": 8.881073048,
+          "median": 7.861431847,
+          "min": 7.663112092
+        },
+        "within_worker_check_over_producer": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0
+        }
+      }
+    },
+    "O4": {
+      "eager_exact": {
+        "peak_rss_kib": {
+          "max": 13440,
+          "median": 13440,
+          "min": 13440
+        },
+        "wall_s": {
+          "max": 4.521515683,
+          "median": 4.332701404,
+          "min": 4.257849888
+        }
+      },
+      "generation_checksum": {
+        "peak_rss_kib": {
+          "max": 13440,
+          "median": 13440,
+          "min": 13440
+        },
+        "wall_s": {
+          "max": 0.29063673,
+          "median": 0.263282931,
+          "min": 0.253940165
+        }
+      },
+      "lazy_filtered": {
+        "peak_rss_kib": {
+          "max": 13440,
+          "median": 13440,
+          "min": 13440
+        },
+        "wall_s": {
+          "max": 0.436127585,
+          "median": 0.351063647,
+          "min": 0.340960395
+        }
+      }
+    },
+    "O5": {
+      "overlay_and_intent": {
+        "apply_s": {
+          "max": 0.00822649100155104,
+          "median": 0.0017546809976920485,
+          "min": 0.0015391970009659417
+        },
+        "check_only_s": {
+          "max": 0.0006671939991065301,
+          "median": 0.0006377500030794181,
+          "min": 0.0005969690027995966
+        },
+        "full_verification_s": {
+          "max": 8.231945339997765,
+          "median": 8.037785722997796,
+          "min": 7.535839317999489
+        },
+        "peak_rss_kib": {
+          "max": 284572,
+          "median": 284368,
+          "min": 284100
+        },
+        "within_worker_check_over_apply": {
+          "max": 0.42888207212983015,
+          "median": 0.36345637977402034,
+          "min": 0.08110310933066553
+        }
+      }
+    }
+  },
+  "workers_per_cell": 5
+}

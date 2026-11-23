@@ -1,0 +1,23 @@
+{
+  "distance_from_rounded_reference_ulp": 2403532419,
+  "distance_outside_envelope_ulp": 2403532417,
+  "exact_reference": "1093/4",
+  "field": "January mean",
+  "mutant_hex": "0x1.114008f42fe83p+8",
+  "native_1_thread_hex": "0x1.1140000000000p+8",
+  "rounded_reference_hex": "0x1.1140000000000p+8",
+  "rounding_envelope_ulp": 2,
+  "row": [
+    1,
+    259
+  ],
+  "scale_factor_hex": "0x1.000008637bd06p+0",
+  "scope": "C3 TPC-DS Q39 SF10, existing M5 projection mutation",
+  "source_parts_sha256": {
+    "q39-raw-part-00.jsonl": "bbb8b82bf911c754cf5df25565d23494024137d53ebdd06f26966b2fd039884d",
+    "q39-raw-part-01.jsonl": "d84d30d10da06300094c81e20939d83390b498d036c18c9bb3cb95f1a3b32977",
+    "q39-raw-part-02.jsonl": "fff3cdace62f4fdf3b0041270044f793ec30c1e18b6180caa45091fd135871b3",
+    "q39-raw-part-03.jsonl": "8582606f417846dc135f6bd35309da0210c4b44d1cac95b6ab79c62b8ece5411",
+    "q39-raw-part-04.jsonl": "417ab3de3497ff63fb6d042aa2ad5b9fc28acc7dd15dd58f65f4e951d77ee128"
+  }
+}

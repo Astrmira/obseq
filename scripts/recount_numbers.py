@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import runpy
 from statistics import median
 
 
@@ -467,6 +468,9 @@ def recount(root=ROOT):
     for id_, (value, scope) in ratios.items():
         add(id_, path, value, 100, "percent of stated baseline", scope)
 
+    followup = runpy.run_path(str(root / "evidence/pvldb-s68-review-followup/recount.py"))
+    for metric in followup["metrics"](root):
+        add(*metric)
     return rows
 
 

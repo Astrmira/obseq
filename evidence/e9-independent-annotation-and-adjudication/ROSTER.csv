@@ -1,0 +1,301 @@
+id,title,url
+079bc157e9025ee8,Error Setting Timezone with Nodejs client,https://github.com/duckdb/duckdb/issues/9402
+07b4d2c0fe28375b,REGR: to_frame with name=None no longer gives default name,https://github.com/pandas-dev/pandas/issues/45448
+9a6658db1bbc3621,[proposal] Arrow Intermediate Representation to facilitate the transformation of row-oriented data sources into Arrow columnar representation,https://github.com/apache/arrow/issues/32508
+0adb1af3b6f0a518,Top-N window elimination returns the other side's value for a join key when the keys are 0.0 and -0.0,https://github.com/duckdb/duckdb/issues/28559
+ea13ca79d8d9509e,[CI][Packaging][Java] Publish latest nightly with SNAPSHOT version,https://github.com/apache/arrow/issues/32871
+03bfd5b3b8e44dec,Adding Custom Type Part 3,https://github.com/duckdb/duckdb/issues/4118
+08012c9e11cce926,`Count(*) does not aggregate rows`,https://github.com/pola-rs/polars/issues/21084
+07c06de314697dfb,BUG: `isin` propagates nulls for DataFrame but not Series,https://github.com/pandas-dev/pandas/issues/46326
+a57c0a1d03c8094f,"Iceberg: read the metadata tables (snapshots, history, files, manifests)",https://github.com/pola-rs/polars/issues/30219
+d298ef5991d7009a,Different results from SUM() and TOTAL(): floating-point precision or SQLite bug?,https://sqlite.org/forum/forumpost/6c99f528f1787ff7e1016261900c112be9a7395f7c8a963bdc73364e954d2a35
+44b8365f445b81d5,Incorrect JSON string representation when querying or exporting tables,https://github.com/duckdb/duckdb/issues/7123
+0b10666d5699aa0c,[C++] error: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'const int' ....,https://github.com/apache/arrow/issues/37735
+0e2ce6ba6efab5dd,value of printf output depends on precision,https://sqlite.org/forum/forumpost/6ff5e32b25639d70c06d7e902ba14d2a0394758aea890cb13602531b17d7ec05
+087f9f86e84fea31,Using `ORDER BY` within aggregate functions is slow and consumes a lot of memory.,https://github.com/duckdb/duckdb/issues/9950
+2bfea6935d718de5,BUG: Can't floor timezone-aware `Timestamp`,https://github.com/pandas-dev/pandas/issues/46757
+11a050cf37106ba7,local string cache should forbit comparing Categorical columns (e.g. in filter),https://github.com/pola-rs/polars/issues/4074
+03ed7c10697ae96f, pl.concat not working when column order differs,https://github.com/pola-rs/polars/issues/5789
+0474fa83ac56fe8c,INTERVAL type missing in ListVector::Search,https://github.com/duckdb/duckdb/issues/4121
+0bc276f09665631e,pyarrow.dataset.dataset loses type information when reading parquet files,https://github.com/apache/arrow/issues/30731
+4740f5e087a716a8,TypeError: Fill() takes no arguments  when trying to read an Excel file,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/1805
+1311e48d86e3e5b3,Prettier datatype string representation,https://github.com/pola-rs/polars/issues/5674
+11ee0599738bb4d3,streaming=True consumes all RAM when used on preloaded LazyFrames for aggregate result,https://github.com/pola-rs/polars/issues/12573
+23d8c41ebfd152c2,Inconsistent date offsets with timezone handling,https://github.com/duckdb/duckdb/issues/11979
+1b59bf047771e4ab,[CI][Java][Release] java-jars is failing on maintenance branch because arrow-bom is not found on https://repository.apache.org/snapshots,https://github.com/apache/arrow/issues/39564
+0d7147b2f7a40808,[Java] ArrowFlightJdbcTimeStampVectorAccessor:getTimestamp returns timestamp that is supposed to be in UTC time but the timezone of the timestamp object is the local timezone,https://github.com/apache/arrow/issues/36518
+1c0878d43e7de1d7,Bug2: reservoir_quantile() Silently Discards DECIMAL Type and Precision,https://github.com/duckdb/duckdb/issues/24189
+02050e2e7fd2c5bc,BUG:  `groupby` cumprod/cummin/cummax returns `Float64` for nullable integers when group key contains `NA`,https://github.com/pandas-dev/pandas/issues/65550
+28b9d42d0dbda07b,STYLE place standard library imports at top of file,https://github.com/pandas-dev/pandas/issues/49647
+20c2b025049c3a93,C API - Allow ownership of geometries to be taken from GeometryCollection types,https://github.com/libgeos/geos/issues/848
+37525a243a29b9eb,KeyError: '.mpo' when processing MIME types in OpenPyXL,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2267
+122ad421eca07217,DuckDB giving false premise of converting epoch to timezone - not following the same standards as e.g postgresql.,https://github.com/duckdb/duckdb/issues/8119
+2ff98b091eb60242,BUG: `maybe_get_tz` raises `pytz.exceptions.UnknownTimeZoneError` when building a timezone from a filename,https://github.com/pandas-dev/pandas/issues/50933
+0613c74ea1e59f9b,BUG: assert_index_equal does not consider level order,https://github.com/pandas-dev/pandas/issues/53095
+2bbdf4eb154cacfb,Add OpenDocument  format support? Excel now defaulting to saving files in .ods format,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2064
+0e9a719df70ea450,DOC: describe any expected ordering of value counts when sort=False,https://github.com/pandas-dev/pandas/issues/51420
+19ba22b2ec60a2ab,ENH: support for non-nanosecond precision in pd.Timedelta,https://github.com/pandas-dev/pandas/issues/59389
+08d4f4743e33f8ed,Arrow Batch API: support specifying the precision of a field via the column metadata,https://github.com/OSGeo/gdal/issues/15350
+09adf967fcaa8c74,VFK: Table BUD needs Multipolygon type instead of Polygon for storing building's geometry,https://github.com/OSGeo/gdal/issues/11696
+14420bbd4b81436a,Wrong result: top-N window elimination drops rows when the window ORDER BY expression yields NULL,https://github.com/duckdb/duckdb/issues/24363
+23d83ce3eb700d2d,`schema_overrides` loses precision on `uint` too large for `float`,https://github.com/pola-rs/polars/issues/12032
+0a1e35dbd09d4839,[Format] Physical representation of columnar format not well documented,https://github.com/apache/arrow/issues/39569
+10fcfe7e864aa19d,[C++][Acero] Data race in aggregate node,https://github.com/apache/arrow/issues/45788
+122fa09d2bfe445c,shared memory on systems without a unified buffer cache,https://sqlite.org/forum/forumpost/bb038244006c51b630d5cfde1f145572c3a30e99b8cdf1b2edf6cb99455d5514
+c92dfdb329f4710b,`sink_iceberg`: support custom snapshot properties,https://github.com/pola-rs/polars/issues/28792
+3f6474cfc17a5e37,Suboptimal query plan joining explicitly typed column to untyped column,https://sqlite.org/forum/forumpost/cf35dda46fff5b786ba5ebeb41bce05e1f2be20095a440ec484af0502cd74483
+cfb052b54d3cb7dd,[CI][Java] Nightly job to build docs fails due to missing arrow-c-data pom on snapshots repository,https://github.com/apache/arrow/issues/39468
+3a79216cdb011726,autotest: very rare failure on test-block-cache-write,https://github.com/OSGeo/gdal/issues/12570
+3473ae778168e4da,[Website][Docs] index page shows wrong warning bar at top when 15.0 is selected,https://github.com/apache/arrow/issues/39737
+270a49e0ff83c4af,.import -esc / -qesc: NULL deref when the option is the last argument,https://sqlite.org/forum/forumpost/3fb9be55d7b6ea9f16960660f531d2c0bfdbe18d337088d8ab0dc40fb513afcb
+0779e880f53677d5,Series.arg_min and Series.arg_max does not take into account (to disregard) null values,https://github.com/pola-rs/polars/issues/4855
+84aa06d6182efeb6,Arrow format string parsing crashes with stoi on parameterized types (e.g. GEOMETRY with CRS),https://github.com/duckdb/duckdb/issues/21691
+3525b2a13d043749,ArrowStream interface: support for timezones,https://github.com/OSGeo/gdal/issues/8460
+033f265ae024e4c8,Applying function to aggregated column fails after groupby_dynamic,https://github.com/pola-rs/polars/issues/6904
+137e7db74ac29e8f,"Add `""top_k""` strategy to `join_asof`",https://github.com/pola-rs/polars/issues/5710
+153f3f32b672fcba,`pl.concat` failed due to `json_decode` may randomize the order of fields,https://github.com/pola-rs/polars/issues/17439
+07750f74cce80d67,"When using calamine engine to read Excel files, empty rows are automatically ignored by default",https://github.com/pola-rs/polars/issues/14874
+47c6a102ba9b0ebc,Fix inconsistent `AggregationContext` representation,https://github.com/pola-rs/polars/issues/26434
+0a851cea94d000c5,[Java] jdbcToArrowVectors / sqlToArrowVectorIterator fails to handle variable decimal precision / scale,https://github.com/apache/arrow/issues/31802
+6cea9afa9aa25403,Should reducing precision produce empty or zero-length results?,https://github.com/libgeos/geos/issues/957
+1f2737b778e1e1de,Suppor Null/NA/Empty Geom codification on SHP to handle Arcgis behavior,https://github.com/OSGeo/gdal/issues/12552
+0324004b3ae27f2d,`COPY ... FROM`'s `NULL` parameter gives inconsistent results depending of the column type,https://github.com/duckdb/duckdb/issues/8590
+2740803610ae2601,BUG: Setting precision on empty point segfaults (GEOS main),https://github.com/libgeos/geos/issues/748
+0999ccd365f8a0c6,[C++] Test failure in arrow-compute-aggregate-test,https://github.com/apache/arrow/issues/12681
+23835ba67ae1ffb8,ENH: pd.DataFrame.describe(): rename top to mode,https://github.com/pandas-dev/pandas/issues/62056
+4d634f5e31016a18,Implement cell.data_type as a cached property,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2002
+eb41f3660913a1b2,Unable to use Maven snapshot,https://github.com/duckdb/duckdb/issues/8240
+0d9b65f3ce56c240,[Docs] Do all data types support NULL?,https://github.com/duckdb/duckdb/issues/2812
+147b307372cee373,BUG: loc-based slicing on multiindex only sometimes respects order of level indexers,https://github.com/pandas-dev/pandas/issues/54019
+0f48f9249d10e428,Regression in 1.0 for representation of SQLNULL in Python API,https://github.com/duckdb/duckdb/issues/12422
+bc5c38dcb8dce951,Feature request: configurable floating-point display precision in sqlite3 CLI,https://sqlite.org/forum/forumpost/107ff4e9e7ea33a417ede3a232e3c3bbaba0ca74dffad9e6684547b5484e9a6c
+010e9790a5f0629e,[C++] C++20: use standard calendar / timezone APIs,https://github.com/apache/arrow/issues/48593
+02bd9d0365dee660,[R] how to enforce type conversion in open_dataset(),https://github.com/apache/arrow/issues/32162
+1e46e2025d3818d9,"Prepared statement: top-level `ORDER BY` result is out of order with `preserve_insertion_order = false` (> 122,880 rows, threads > 1)",https://github.com/duckdb/duckdb/issues/28543
+3d3797b5b2e092ed,Set keep_links=False by default,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2000
+3a4af1807efc0033,Custom criteria in an ORDER BY,https://sqlite.org/forum/forumpost/250141af04ce37ed1e98de8ad4faf143f76ed6da39236e3ee4183f931b712dfe
+098848f2995d44d2,"GML: `fguuid:jgd2024.bl` SRS identifier not recognized, causing wrong axis order interpretation",https://github.com/OSGeo/gdal/issues/12897
+05ecd6cf50c0aa3a,[C++] GDB plugin printer gives error with extension type,https://github.com/apache/arrow/issues/31109
+0bbf27f0de47cb14,autotest: cache downloaded data between reboots,https://github.com/OSGeo/gdal/issues/15251
+1575ac413740937a,ogrinfo --formats: document what order is used,https://github.com/OSGeo/gdal/issues/8315
+046df6001e9161ca,"Support group by with decimal(precision, scale) columns",https://github.com/pola-rs/polars/issues/11078
+64b6b84b4da2bcef,"Overlay NG: ""Curved geometry types are not supported"", using GEOS 3.16.0dev",https://github.com/libgeos/geos/issues/1613
+0f64273dffb6bfdf,`top_k` does not preserve original row order,https://github.com/pola-rs/polars/issues/9401
+438405ab52d4f5e6,Outer ORDER BY causes a substantial slowdown when returning the length of a window-generated string,https://sqlite.org/forum/forumpost/264c37c95983d494c62e653a70c02473d99b5929fa433248d4b55f3e2e237bc9
+18b5534bb305aa13,`read_csv` PanicException when `pl.Decimal` used in schema with invalid precision,https://github.com/pola-rs/polars/issues/18812
+050c172835a2dd23,`explode` -> `unnest` sets all struct values to null when field value is null,https://github.com/pola-rs/polars/issues/6335
+0000dd321f872f1c,Inconsistent ordering of descending nulls in `sort_indices` and `rank` functions.,https://github.com/apache/arrow/issues/36118
+058b68797d5140be,[C++] Add option to set the default project id in GcsFilesystem,https://github.com/apache/arrow/issues/36227
+965455c00f10c9a2,"time,timezone",https://sqlite.org/forum/forumpost/867d34c435289ea1c1040e3d8482ff0a1dd7f0eddce8c9d7785d55a7d998a362
+0fc4bf8e3ec9761f,[C++] Kernel to convert timestamp with timezone to wall time,https://github.com/apache/arrow/issues/33143
+0c2a4758a82644c6,VSI_CACHE causing bad range requests in some circumstance (/vsizip//vsis3/),https://github.com/OSGeo/gdal/issues/9658
+2a81af8162f87302,BUG: Docker build without cache leads to error due to identity issues,https://github.com/pandas-dev/pandas/issues/47163
+bbe112fdddb07ecb,Support parsing numbers without loss of precision,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2203
+17dd7bf6e67cac68,GeoJSON: inconsistent COORDINATE_PRECISION with WRITE_BBOX,https://github.com/OSGeo/gdal/issues/7319
+0bf8ef5f7b24d6e4,API: value_counts with nullable dtype should return np.int64 like everything else,https://github.com/pandas-dev/pandas/issues/44679
+aeff3ba57002d1f5,Library import is slow due to cache prepopulation,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2137
+1f72ce8b40308723,BUG: aggregate function on transposed resampled data frame raises ValueError,https://github.com/pandas-dev/pandas/issues/46904
+139761d1e05a1b34,`TopNWindowElimination` optimizer crashes on join + geometry predicate + `qualify`,https://github.com/duckdb/duckdb/issues/23925
+2b699a204287a2df,Remove wrong use of typename in greedy_dual_size_cache.h,https://github.com/apache/arrow/issues/30640
+00205cfe15e9ad72,Cached over/groupby result ,https://github.com/pola-rs/polars/issues/12284
+e8fd926ff662d053,Pivot cache is fully parsed multiple times,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2281
+0286f69e59411319,Left join doesn't preserve order of left for right missing values,https://github.com/apache/arrow/issues/37542
+30874877d304af13,[C++][Gandiva] Compiled expression cache returns wrong results for different expressions with the same ToString(),https://github.com/apache/arrow/issues/55614
+2aaecd06900dda15,"`MergedCell.border` returns propagated borders from top-left cell, not actual XML borders",https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2324
+4d6822fc4a16f736,ENH: set `__module__` on top-level public objects,https://github.com/pandas-dev/pandas/issues/55178
+05bbfd97f7c47e9a,BUG: Series.combine_first loss of precision,https://github.com/pandas-dev/pandas/issues/60128
+14c38ae3f4c5ecd8,BUG: Index lost precision when styling,https://github.com/pandas-dev/pandas/issues/53464
+353583dc98c845e9,&& stats pruning returns NULL geometry rows,https://github.com/duckdb/duckdb/issues/24256
+2189fe6ec7955966,how to set different type or color for some words in a same xlsx sheet cell?,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/1871
+0658df98cef512c4,TYP:  Remove Sequence[str] in type annotations,https://github.com/pandas-dev/pandas/issues/47232
+d850ab0e6941ff42,Doc: explain that tests are only available from a git snapshot,https://github.com/OSGeo/gdal/issues/7772
+1e8dd1df3b98dec7,[Python] the type of ParquetLogicalType not correctly returned for Geometry/Geography,https://github.com/apache/arrow/issues/50849
+1851c343f96003db,[C++][Parquet] Align Parquet geometry/geography CRS handling with arrow-rs and Parquet spec,https://github.com/apache/arrow/issues/55598
+050cf812253d1138,SELECT FROM parquet file ignores timezone information,https://github.com/duckdb/duckdb/issues/3080
+10156e90e5eff847,Common subplan elimination panics with reused derived LazyFrame and aggregate filter,https://github.com/pola-rs/polars/issues/29667
+071cc5d9b9d65c2c,`gdal vector combine` silently drops Triangle geometries,https://github.com/OSGeo/gdal/issues/15117
+cf6ca76c20a234bd,Unable to differentiate between TYPE_NULL and TYPE_NUMERIC,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/1924
+0275d217daff20f5,ORDER BY ALL not working in window functions,https://github.com/duckdb/duckdb/issues/12464
+0bcc4ee733bb545e,Default .join behavior with categorical columns,https://github.com/pola-rs/polars/issues/7632
+095c237fb7917486,DuckDB: redundant double negation prevents contradictory aggregate predicates from producing an EMPTY_RESULT plan,https://github.com/duckdb/duckdb/issues/24141
+53bf0e36f8df4e3b,NOT NULL constraint,https://sqlite.org/forum/forumpost/4198f57229c79c1333535a13a10445613b9edce1ade8b30551dc0e45c9d5d274
+09b8e2d72ce3cd5d,Panic in cache_states when .cache() is the root of a query containing a shared subplan,https://github.com/pola-rs/polars/issues/29541
+0588d735285a6981,"ArrowInvalid: Unable to merge: Field date has incompatible types: string vs dictionary<values=string, indices=int32, ordered=0>",https://github.com/pola-rs/polars/issues/5936
+0233c21d0eb73d52,Inconsistent array concatenation behaviour with respect to NULL values,https://github.com/duckdb/duckdb/issues/11781
+011b24061a5a1b1b,[R] legacy timezone symlinks cause CRAN failures,https://github.com/apache/arrow/issues/37671
+e13cd43e02acf948,"CLI - incorrect decimal representation in "".mode insert""",https://github.com/duckdb/duckdb/issues/13237
+029bc8b981ac2091,Is Difference only valid for geometries of the same dimension?,https://github.com/libgeos/geos/issues/1316
+04b3012ef31cc623,SNKV: KV store on top of (old) SQLite B-tree implementation,https://sqlite.org/forum/forumpost/ed12ad6bd4cfed10262ef28af995fca77bb6ff750492ce9dc3826a4d452f4692
+59890e2bc86255d1,Prepared statements can reuse snapshot-pruned plans across transactions because `RequireRebind()` only checks catalog identity,https://github.com/duckdb/duckdb/issues/21207
+499faeeea465879d,PERF: skip to_datetime cache=True overhead for input shapes where it cannot help,https://github.com/pandas-dev/pandas/issues/65380
+22b4a9147bfd93a1,analyzeAggregate() loop checks a[0] instead of a[i] when matching source table cursors,https://sqlite.org/forum/forumpost/91f770273df0631fe2fc430b25555a94a2ce52baa143acdcb08e3e35b9952e19
+5ea5ef19dd43a517,[R][Documentation] Improve text in top-level package README,https://github.com/apache/arrow/issues/35875
+02f5dc8f2901385e,Missing expression: get timezone,https://github.com/pola-rs/polars/issues/5168
+0214ad3d12106a12,[C++] Option for match_substring* to return false on NULL input,https://github.com/apache/arrow/issues/31466
+5f65504b9c600f6b,GEOMETRY malformed WKB can change after checkpoint,https://github.com/duckdb/duckdb/issues/24296
+0ab81ad005813742,[Docs][Release] Update documentation to clarify that only source verification is necessary to be run in order to vote the release,https://github.com/apache/arrow/issues/40833
+2e0df1713f4b17f2,Reading XLSX: error with defaultColWidthPt,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/1791
+1cb413d712b5f5b9,"Intersection of polygons gives incorrect results, depending on order of arguments",https://github.com/libgeos/geos/issues/1405
+003487d81c794dec,"BUG: loss of precision when adding np.nan to int64 columns, e.g. left join and replace",https://github.com/pandas-dev/pandas/issues/54032
+0afd7b3c59daee52,ENH: df.corr().top_correlated_features(N) A function to return from a dataframe the feature pairs ordered by strongest correlation (top N),https://github.com/pandas-dev/pandas/issues/59639
+1870a62414cea308,Keep original order of rows for polars.cut(),https://github.com/pola-rs/polars/issues/4286
+04e6e5b519ea2e42,DOC: clarify that result_type='reduce' has no effect when applying np universal function to dataframe,https://github.com/pandas-dev/pandas/issues/49190
+0e495b336b7fdaa6,Gitpod default workpace and a fully functional gdal,https://github.com/OSGeo/gdal/issues/5442
+2b074504d8d31c69,BUG: tz_convert doesn't work for multiple timezones,https://github.com/pandas-dev/pandas/issues/54645
+104be97edd7df886,Clearing fsspec filesystem caches segfaults Python runtime,https://github.com/duckdb/duckdb/issues/11875
+428cfadaa8aac4e6,[Python] RecordBatch string representation should mimic Table's column preview,https://github.com/apache/arrow/issues/35415
+05b3c62745ba9a1c,ints are converted to strings by GROUP BY if default_collation=NOCASE,https://github.com/duckdb/duckdb/issues/8413
+0d736a7cde5618f7,ENH: Add mapping of nullable columns to pandas.to_sql,https://github.com/pandas-dev/pandas/issues/63116
+174b7fd48c8281bc,FlatGeobuf: Rows with empty or null geometries are not written (or read?) to/from FlatGeobuf file,https://github.com/OSGeo/gdal/issues/7401
+0c23dde6bcf8e61a,[CI][Docs] test-ubuntu-default-docs is failing with no space left on device,https://github.com/apache/arrow/issues/36543
+009e9f40286c2d25,"gdal vector rasterize - clip to requested geometry, not source dataset",https://github.com/OSGeo/gdal/issues/13519
+0681a7b4707de9a4,DEPR: `keep_default_dates` and  `convert_dates` in `read_json`,https://github.com/pandas-dev/pandas/issues/59161
+43f632e91d07c8da,Interpolated Z Value Different for Same Location using Different Geometry Types,https://github.com/libgeos/geos/issues/1368
+0b374489f0a699b3,Pre-release snapshot sqlite3_analyzer.exe linked against tcl90.dll,https://sqlite.org/forum/forumpost/28f81dd8fbee0a848114bd6003d224d4b0d14c9e0e20a20c4332df723aa4068b
+70302168d8ceec39,CMake: remove the new `PROJECT_IS_TOP_LEVEL` logic,https://github.com/libgeos/geos/issues/648
+87f5f8ee47ea0061,"OGR_WKT_PRECISION=[0,1,2,3] cause exponential notation side effect",https://github.com/OSGeo/gdal/issues/10075
+04f016fad3d2fab6,DuckDB.jl `execute` doesn't like non-null terminated strings,https://github.com/duckdb/duckdb/issues/12688
+ec603f334a4e3ff5,Issues with Pivot Cache,https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2161
+15b68ab13f178124,JDBC ResultSet Metadata Decimal precision and scale always 0,https://github.com/duckdb/duckdb/issues/3840
+66449c69a8723fec,Locating descendant nodes of a set of nodes within the results of an ordered walk of a tree?,https://sqlite.org/forum/forumpost/2a147dee693ac5b10833c7fec6ece92707b462d2a3cf4c89679281d3ba9c753c
+09f680cae904e31d,BUG: Adding a random function argument to DataFrameGroupBy.aggregate changes the grouping object from Series to DataFrame.,https://github.com/pandas-dev/pandas/issues/47701
+0b8d493d575d953a,isnan seems to treat nan parameters as `NULL`,https://github.com/duckdb/duckdb/issues/4623
+32c573be25d3b08e,[Docs][Python] Add more levels of nesting to top-level Python docs,https://github.com/apache/arrow/issues/47685
+77d90b20b8ba3a2c,Add support for vector (gdal) geometries,https://github.com/pola-rs/polars/issues/3208
+05c2594f3c6a914c,Split support for MultiSurface geometries with curves,https://github.com/libgeos/geos/issues/1518
+3773e374d14b3ae3,"`.bottom_k()` as an alias for `.top_k(..., descending=True)`",https://github.com/pola-rs/polars/issues/7914
+11b41f89da41109c,Parse NULL fields in PostgreSQL text representation as NULL,https://github.com/duckdb/duckdb/issues/23789
+293b463418edb264,Regression in DuckDB 1.5.5: HTTPFS cache no longer reused for repeated read_parquet() requests,https://github.com/duckdb/duckdb/issues/24474
+35329ec0cea76c62,[C++][FlightRPC] Optionally cache serialized ListFlights serverside,https://github.com/apache/arrow/issues/31208
+094132c496d71137,[CI][Python] Use pipx to install GCS testbench in order to decouple version of Python under test,https://github.com/apache/arrow/issues/38183
+1a3e120cdf52c7f1,GPKG: Arrow stream returns features with NULL geometry when a spatial filter is set,https://github.com/OSGeo/gdal/issues/15465
+202a7e3d1387c72e,duckdb to/from pandas does not preserve timezone awareness,https://github.com/duckdb/duckdb/issues/4267
+388cc133204fb0ad,snapshot isolation for hctree?,https://sqlite.org/forum/forumpost/cc0e5842822da7bc4cc7dfc99b38217b8c9b7c7715bacb8e426f31f2abc26003
+0570e43a959d1e0d,[Java] Incorrect results from JDBC Adapter from Postgres of non-nullable column through left join,https://github.com/apache/arrow/issues/20312
+009ab01d6cf05716,BUG:  pandas.read_parquet () dtype_backend argument does not get the default value as documented,https://github.com/pandas-dev/pandas/issues/59332
+08f83bd1d39dbf53,[C++][Compute][Acero] Poor aggregate performance when there is a large number of batches on the build side,https://github.com/apache/arrow/issues/45847
+b82398cb0f445cf4,datetime with timezone seems not working,https://sqlite.org/forum/forumpost/f3d164015a5c157fecbb421e5469015b9910e28779f94ada87bd75bc609eab45
+0507e7efeb4bad3b,"INTERNAL Error: ""Failed to bind column reference"" — window-over-aggregate used both standalone and inside arithmetic in a GROUP BY projection",https://github.com/duckdb/duckdb/issues/23383
+05a1886dda261bc5,Geometry.intersects is wrong for intersection very close to boundary point,https://github.com/libgeos/geos/issues/565
+0b890ef051b1187d,"New method on list namespace: `list.first_where(predicate, default=None)`",https://github.com/pola-rs/polars/issues/22628
+0897717296a82de1,Inconsistent defaults for inferring integral types,https://github.com/pola-rs/polars/issues/8041
+3de1010cd2b76ca9,BUG: Timestamp breaks DST support of ZoneInfo timezones,https://github.com/pandas-dev/pandas/issues/54462
+06ee27602344ac83,Documentation: Unclear behavior of UDF NULL returns with DEFAULT null_handling,https://github.com/duckdb/duckdb/issues/14989
+037ab4121aa546b0,Python column type hints,https://github.com/pola-rs/polars/issues/3623
+89e48b1d19e0f805,"`MergedCell.border` returns propagated borders from top-left cell, not actual XML borders",https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2313
+075db05015546f00,Move scalar array representation to a lower-level,https://github.com/pola-rs/polars/issues/26390
+0fc83e535d4e7db9,"Change `.str.to_datetime` to default to microsecond precision for format specifiers `""%f""` and `""%.f""`",https://github.com/pola-rs/polars/issues/13592
+063a56939baaf88f,"OpenFileGDB: save geometry much longer than old feature, arcmap can not open",https://github.com/OSGeo/gdal/issues/9388
+0a1efab12aa47acc,Test case 1 for Geometry Splitter (split CompoundCurve with LineString),https://github.com/libgeos/geos/issues/1438
+05e1a698a6fd5171,[1.4.4]  Can't use appendDefault to append default SEQUENCE number,https://github.com/duckdb/duckdb/issues/21071
+124396a87c07d5d3,Top-N MIN with row-dependent n fails in a singleton window frame,https://github.com/duckdb/duckdb/issues/24449
+0a8573e459bc9e68,BUG: Pandas rolling std precision error,https://github.com/pandas-dev/pandas/issues/46049
+6bf3df8c0ba1a86d,lemon default YYREALLOC/YYFREE breakage,https://sqlite.org/forum/forumpost/f47a67f59fad84979d5771017a8fdc6003c95420bd8a6660aa5c4f490c9f4031
+3757df5c236c725c,"Problem with FlushCache(true) to mimic a cache ""drop""",https://github.com/OSGeo/gdal/issues/8938
+096e92547cc8b1cc,date_range doesn't accept str for low/high (contradicting type hints),https://github.com/pola-rs/polars/issues/6267
+02a2051692958c5e,Multi-argument distinct aggregate binding error,https://github.com/duckdb/duckdb/issues/3046
+06c16b2c3cc9d4cf,ENH: Bring over Microsoft typing stubs as starting point for typing public API,https://github.com/pandas-dev/pandas/issues/45253
+057fa47289d32251,unexpected behaviour of .arr() when value is NULL,https://github.com/pola-rs/polars/issues/5812
+08c172d075e1a7d7,duckdb segv seg faults depending on python import order,https://github.com/duckdb/duckdb/issues/12541
+104a20f3d67f8e6b,PERF: Inefficient data representation when building dataframe from 2D NumPy array,https://github.com/pandas-dev/pandas/issues/50756
+04d7c2779d65412a,BUILD: Pandas now install dependencies by default that have conflicting licensing with MIT,https://github.com/pandas-dev/pandas/issues/55424
+08510dc365d6786a,DOC: unused Series axis parameter arbitrarily defaults to 0 or None,https://github.com/pandas-dev/pandas/issues/47146
+0a2e5a32676090d7,"external_file_cache_spill: queries fail with ""failed to offload data block"" once spilled cache blocks fill `max_temp_directory_size`, instead of blocks being dropped or evicted",https://github.com/duckdb/duckdb/issues/27981
+5d94d060a6acb91f,Btree KEYS order maintenance,https://sqlite.org/forum/forumpost/d9e27bab1f1e798f13c9643fb4c160de5b0e1d86ada32b2324984aba27407bee
+09f4fab69b41532a,Panic exception when top_k function try to take more values than series length,https://github.com/pola-rs/polars/issues/5886
+0a216f3b6216dfc8,Schema inference in from_dicts fails and is order-dependent,https://github.com/pola-rs/polars/issues/5611
+1704c4485c94173f,Parquet COPY (RETURN_STATS) returns incorrect file-level min/max for high-precision (INT128-backed) DECIMAL columns spanning multiple row groups,https://github.com/duckdb/duckdb/issues/23504
+16f588a0380816db,zarr test fails when run out-of-order,https://github.com/OSGeo/gdal/issues/8507
+023084c10d5a6f8a,"OpenFileGDB: table with a non-editable field that has a default value fails to open (field-descriptor parse desync, 0 fields / 0 features)",https://github.com/OSGeo/gdal/issues/14910
+4a4bf9e85df9179a,Feature request - 'histogram' aggregate function,https://sqlite.org/forum/forumpost/bfa3a528a8695416949d0a6615372b9c864f6e2c85c24f9a6139a91c19359dfb
+0a95217dd4dd60e9,OFTTime field type in Geopackage (GPKG),https://github.com/OSGeo/gdal/issues/8850
+3f666c72f6600a1d,Aggregate function with new ORDER BY and custom separator?,https://sqlite.org/forum/forumpost/f389adfaf7ee990b9282fb274151a5e4993c8a4d226ab1387feb83032efbbbeb
+03b4f4b976ae5754,--field-selector in gdal vector change-field-type instead of --field-name + --src-field-type ?,https://github.com/OSGeo/gdal/issues/13098
+4929c206cb1cf692,PERF: Remove _item_cache,https://github.com/pandas-dev/pandas/issues/50547
+06df66ae81378ec0,Polars does not retain timezone information when reading data from a nested dictionary,https://github.com/pola-rs/polars/issues/20766
+255afdf7d8c35be0,BUG: Dropped Index Name on Aggregated Index Column with MultiIndexed DataFrame,https://github.com/pandas-dev/pandas/issues/60603
+0aeb45a30b4fc69a,Utilize new type hinting functionality through `__future__` import,https://github.com/pola-rs/polars/issues/3862
+20b3ef8b114d027c,Sorting Guaranteed for `LazyFrame.top_k`,https://github.com/pola-rs/polars/issues/21451
+128f11c73790e530,"[C++] Migrate SCALAR_AGGREGATE, HASH_AGGREGATE functions to use ExecSpan",https://github.com/apache/arrow/issues/32178
+410edf43dc9cc4dc,gdal_merge.py doesn't support bottom-to-top images,https://github.com/OSGeo/gdal/issues/8754
+410490f13b702c2f,(latest 270) Maven Snapshot does not exist,https://github.com/duckdb/duckdb/issues/7390
+d5a2184804e171e9,SQLITE_BUSY on cache size reached,https://sqlite.org/forum/forumpost/bff5c3ccbce11d2d86adb08f45ddec34597292a33a7fbc362d0ea6db979f843d
+1b9783208b1ba754,Feature Request: way for `EXPLAIN ANALYZE` to return a JSON string instead of the ascii representation as a result set,https://github.com/duckdb/duckdb/issues/3094
+0347880094d809d8,`T_MultiAssignRef` expression type not implemented,https://github.com/duckdb/duckdb/issues/7069
+05ea44e69195f85a,[Dev] merge_arrow_pr.py uses 16.1.0 as the default fix version,https://github.com/apache/arrow/issues/41282
+4139e5e02e18ca1a,DEPR: cache_dates in read_csv,https://github.com/pandas-dev/pandas/issues/68705
+0816b6ee04ebd724,BUG: Cannot slice index using boolean type series,https://github.com/pandas-dev/pandas/issues/45806
+0699f056ce27052e,"Text/varchar parameters cause ""Binder Error: Inconsistent types found for parameter"" when used in a combination with bigint column.",https://github.com/duckdb/duckdb/issues/4042
+1ff7e61e30d75960,[Java] Support for textual JSON schema representation (was: JSON representation of pojo.Schema is incompatible with flatbuffers JSON generated via C++ API),https://github.com/apache/arrow/issues/33203
+26701aa041150000,DOC: Incorrect missing-value representation in Python StringDtype documentation,https://github.com/pandas-dev/pandas/issues/69006
+a57aeb468257a9df,"0.11 Snapshot: Cannot create a list of types STRUCT(t VARCHAR, len INTEGER) and STRUCT(VARCHAR, INTEGER)",https://github.com/duckdb/duckdb/issues/11467
+019e2f912d882d5f,"Default threads and async_threads ignore the CPU affinity mask (taskset, numactl)",https://github.com/duckdb/duckdb/issues/27750
+807d8d0f0d3efba2,set precision replaces an M value with NaN when grid size > 0 (on polygons),https://github.com/libgeos/geos/issues/1365
+24b53cc5eacd14fe,BUG: melt method doesn't seem to preserve timezone settings.,https://github.com/pandas-dev/pandas/issues/55254
+0636c8651e169ea5,aggregate(df).* is a syntax error but should be unnest(aggregate(df)),https://github.com/duckdb/duckdb/issues/13055
+0b9e9af7b5af4971,[C++]  DECIMAL's precision and scale compute rules in add/substract and divide  is different with doc,https://github.com/apache/arrow/issues/40123
+03b6fd51fa112e92,"`.groupby(..., maintain_order=True)` doesn't always maintain order.",https://github.com/pola-rs/polars/issues/2112
+783f3a785037c178,Bug: issue with decimal scale/precision,https://github.com/duckdb/duckdb/issues/4486
+01416b5f16286b3d,BUG: Misleading error message when aggregating duplicate columns,https://github.com/pandas-dev/pandas/issues/55964
+065447b422c55247,CSV reader on .zst and lag/lead: line order is not preserved ,https://github.com/duckdb/duckdb/issues/12933
+0c1a82c370f923be,Zero cardinality estimation lead to disastrous join ordering (on parquet tpch q21),https://github.com/duckdb/duckdb/issues/11638
+3ecf2954e55bd651,PostgreSQL incompatibility: Incorrect correlated subquery caching,https://github.com/duckdb/duckdb/issues/17011
+829f40682dc54599,"Enable ""default"" properties to create reproducible .xlsx files",https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/1952
+031b964146964d2c,Inconsitency between comparing with null and .max() of null,https://github.com/pola-rs/polars/issues/7064
+122b0753bda82afe,Change file cache metadata serialization to use bincode instead of JSON,https://github.com/pola-rs/polars/issues/17491
+00df0d9a777b1b6e,Timezone not recognized after reading parquet/delta_lake ,https://github.com/pola-rs/polars/issues/7530
+0110dce64a3d1a57,Retain timezone when importing localized Python datetime objects,https://github.com/pola-rs/polars/issues/4174
+2d0157506551f071,[Parquet][C++] Implement Geography and Geometry types in the C++ Parquet implementation,https://github.com/apache/arrow/issues/45522
+0c99cfbf3c30127b,Categorical type turned into str type after pickle serde,https://github.com/pola-rs/polars/issues/4983
+2f30e9cccd4ce503,How to get Arrow Schema for PostgreSQL column of hstore(map) and geometry types in JdbcToArrowUtils.jdbcToArrowSchema ?,https://github.com/apache/arrow/issues/14039
+0d14e68f62f1f625,When using ORDER BY the client interface uses all available memory when .execute(),https://github.com/duckdb/duckdb/issues/16166
+1472afbb62d2c676,BUG: polygon intersection sensitive to winding order since GEOS 3.10,https://github.com/libgeos/geos/issues/827
+efab4caa24616309,How does SQLite handles precision in queries? Issue in > query.,https://sqlite.org/forum/forumpost/b97e5d7dd947116ab13c9392b8fab5ed6d87c1d49d0c04d4de298e172d0949a6
+1aebbc8932942b6c,"[Dev] Add top-level `.editorconfig` for C++, Python...",https://github.com/apache/arrow/issues/44805
+223d56ec35f69916,[CI][C++] Improve ccache performance by using more general cache keys,https://github.com/apache/arrow/issues/50046
+4a9200694cdd6b1e,Reducing precision results in empty polygon unnecessarily (GEOSGeom_setPrecision),https://github.com/libgeos/geos/issues/1058
+6019c8fb54336957,GEOSCoordSeq_create returns NULL pointer,https://github.com/libgeos/geos/issues/996
+0087209ed8f52076,OGR GML: GeometryType 0 instead of 7 on mixed Geometries,https://github.com/OSGeo/gdal/issues/6616
+01a9f7ed2d209b6d,struct: constructor with null values in fields creates error if more than one dictionary provided,https://github.com/pola-rs/polars/issues/3461
+123172676ee68289,OpenFileGDB  does not support incorrect field defaults,https://github.com/OSGeo/gdal/issues/7589
+00252aabd8e93614,"ENH: read_sas(..., format='sas7bdat') to handle page type 16384 (""metc"")",https://github.com/pandas-dev/pandas/issues/46293
+d1dcb6e9748eec42,Native `scan_iceberg` without snapshot ID does not scan latest table if collected once,https://github.com/pola-rs/polars/issues/23905
+987ffb79ec022cd6,BUG: Wrong representation of float while reading as str from csv file ,https://github.com/pandas-dev/pandas/issues/47837
+61233b9e4adee863,missing CMAKE_BUILD_TYPE when using Visual Studio to build,https://github.com/libgeos/geos/issues/932
+0cad43bedeeac00a,Snapshot isolation violation during concurrent transactional DELETE and INSERT,https://github.com/duckdb/duckdb/issues/26781
+1b2d9017af157ef4,RasterIO crashes with panBandMap == NULL when using COG driver and Create(),https://github.com/OSGeo/gdal/issues/14711
+14febff023052e6c,ZSTD Parquet creation defaults to level 1?,https://github.com/OSGeo/gdal/issues/12750
+0ba374621546c748,`is_in` returns False for categoricals when global string cache is enabled,https://github.com/pola-rs/polars/issues/13393
+0eeb208dd4619e9b,"ESRIJSON: Date Only, Time Only, and Big Integer field types read as String",https://github.com/OSGeo/gdal/issues/13093
+1f7a50ffc0dc59c1,TypeError: 'float' object is not subscriptable from Translator(),https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2256
+02857ffc2715adae,[C++] Add cast to Null from any type?,https://github.com/apache/arrow/issues/30734
+09a698bebdfddcf5,Make polars.Expr.str.replace and polars.Series.str.replace default to similar behavior of built python and rust replace methods,https://github.com/pola-rs/polars/issues/14780
+132c0885ab13377b,"default_connection: When closed, default_connection() returns the closed connection",https://github.com/duckdb/duckdb/issues/16135
+f1fdb0960842d9e5,"ValueError: All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters",https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2156
+6215815d2f3f06ea,Improve `Duration => Utf8` cast; currently returns stringified physical (Int64) representation ,https://github.com/pola-rs/polars/issues/7174
+4de06aa8b1f5a891,"netCDF: GeoTransform metadata ignored, resulting in precision loss",https://github.com/OSGeo/gdal/issues/11993
+220c68800b2358a8,BUG: normalize_json no longer supports top-level missing entries,https://github.com/pandas-dev/pandas/issues/64188
+065c969b870bd9aa,[R] infer_type() fails for lists where the first element is NULL,https://github.com/apache/arrow/issues/32881
+49ade067ec631b18,How to get the local timezone offset and name?,https://sqlite.org/forum/forumpost/5277127f73c36f641c08f494440de6f06d9e45a40a86b4bb1155948f28f48d3e
+6985de1de0cbea75,PERF: Inefficient data representation when building dataframe from NumPy array using copy=True,https://github.com/pandas-dev/pandas/issues/52438
+2d99b85ecb6bdfff,ENH: include cache in memory_usage,https://github.com/pandas-dev/pandas/issues/58529
+3e7203e863187708,INTERNAL error when combining `FILE_FLAGS_NULL_IF_NOT_EXISTS` with a caching mode,https://github.com/duckdb/duckdb/issues/28984
+3888d854ae7f969d,Top-N is much slower than Sort operator,https://github.com/duckdb/duckdb/issues/13801
+57df4a1bbafa048e,Display of string values is inconsistent between notebook-df representation and print(df),https://github.com/pola-rs/polars/issues/28229
+0a5370ccdb75e77b,BUG: remove_unused_levels does not keep index levels order,https://github.com/pandas-dev/pandas/issues/61245
+a9ab61ae514897d2,Suboptimal query plan when testing NOT NULL against a VIEW containing a LEFT JOIN,https://sqlite.org/forum/forumpost/aebab25f6fd096949ab28fc970d877b04ff09cd5b90bb52ea2d2f6d7a0953ca2
+065ddfbb03db658b,invalid timezone when converting from pandas,https://github.com/pola-rs/polars/issues/10501
+0ef76e2c5da031bf,Aggregating on Decimal dtype Results in All Nulls,https://github.com/pola-rs/polars/issues/21304
+042278a73360cda9,[Python] Extension array data type should default to the storage type if to_pandas_dtype is not implemented,https://github.com/apache/arrow/issues/34165
+03e425f1a983ef49,ENH: Can pandas.Series.str.len returns a nullable pd.Int64Dtype rather than float64,https://github.com/pandas-dev/pandas/issues/51948
+08efb9eb1d04a6b6,[C++] S3FileSystem Should set the content-type header to application/octet-stream if not specified,https://github.com/apache/arrow/issues/30796
+068c4c272c6baeb8,GEOMETRY checkpoint canonicalization breaks indexes/constraints,https://github.com/duckdb/duckdb/issues/24301
+169f78530feb3c5a,BUG: Dataframe.aggregate has inconsistent behaviour for empty dataframe,https://github.com/pandas-dev/pandas/issues/62443
+582ab631e3c29ae3,can we use window function as aggregate function,https://sqlite.org/forum/forumpost/59b650a1a5325b7b1eb10e07fdc921770abe431e96a59ae08930c96bc4c13b70
+f26069404b676ce0,-f missing from top of ogr2ogr man page,https://github.com/OSGeo/gdal/issues/14328
+695be198fd1c6e2f,Loss of Precision when Writing HUGEINT Columns to Parquet,https://github.com/duckdb/duckdb/issues/21180
+14e89bdd9b6df98d,GeoPackage rtree leaf order is platform dependent,https://github.com/OSGeo/gdal/issues/14685
+0df80e72c750aed0,[C++][Arrow Flight SQL ODBC] update default precision and scale descriptor values,https://github.com/apache/arrow/issues/47872
+17ef0e13933bf817,PERF: `agg` is an order of magnitude slower with `pyarrow` dtypes,https://github.com/pandas-dev/pandas/issues/54065
+00450dd764783e73,"Support order by with decimal(precision, scale) columns ",https://github.com/pola-rs/polars/issues/11079
+0057e99a7e08c733,Inserting nested datatypes causes unexpected conversion of numerical type,https://github.com/duckdb/duckdb/issues/3955

@@ -1,0 +1,423 @@
+{
+  "human_review": "pending",
+  "positive_rows": [
+    {
+      "category": "F5",
+      "id": "07b4d2c0fe28375b",
+      "url": "https://github.com/pandas-dev/pandas/issues/45448"
+    },
+    {
+      "category": "O4",
+      "id": "0adb1af3b6f0a518",
+      "url": "https://github.com/duckdb/duckdb/issues/28559"
+    },
+    {
+      "category": "other",
+      "id": "08012c9e11cce926",
+      "url": "https://github.com/pola-rs/polars/issues/21084"
+    },
+    {
+      "category": "O4",
+      "id": "44b8365f445b81d5",
+      "url": "https://github.com/duckdb/duckdb/issues/7123"
+    },
+    {
+      "category": "O4",
+      "id": "11a050cf37106ba7",
+      "url": "https://github.com/pola-rs/polars/issues/4074"
+    },
+    {
+      "category": "F9",
+      "id": "0bc276f09665631e",
+      "url": "https://github.com/apache/arrow/issues/30731"
+    },
+    {
+      "category": "F8",
+      "id": "0d7147b2f7a40808",
+      "url": "https://github.com/apache/arrow/issues/36518"
+    },
+    {
+      "category": "F9",
+      "id": "1c0878d43e7de1d7",
+      "url": "https://github.com/duckdb/duckdb/issues/24189"
+    },
+    {
+      "category": "F9",
+      "id": "02050e2e7fd2c5bc",
+      "url": "https://github.com/pandas-dev/pandas/issues/65550"
+    },
+    {
+      "category": "F8",
+      "id": "122ad421eca07217",
+      "url": "https://github.com/duckdb/duckdb/issues/8119"
+    },
+    {
+      "category": "F6",
+      "id": "0613c74ea1e59f9b",
+      "url": "https://github.com/pandas-dev/pandas/issues/53095"
+    },
+    {
+      "category": "F10",
+      "id": "09adf967fcaa8c74",
+      "url": "https://github.com/OSGeo/gdal/issues/11696"
+    },
+    {
+      "category": "F2",
+      "id": "14420bbd4b81436a",
+      "url": "https://github.com/duckdb/duckdb/issues/24363"
+    },
+    {
+      "category": "F1",
+      "id": "23d83ce3eb700d2d",
+      "url": "https://github.com/pola-rs/polars/issues/12032"
+    },
+    {
+      "category": "other",
+      "id": "3a79216cdb011726",
+      "url": "https://github.com/OSGeo/gdal/issues/12570"
+    },
+    {
+      "category": "F2",
+      "id": "0779e880f53677d5",
+      "url": "https://github.com/pola-rs/polars/issues/4855"
+    },
+    {
+      "category": "F8",
+      "id": "3525b2a13d043749",
+      "url": "https://github.com/OSGeo/gdal/issues/8460"
+    },
+    {
+      "category": "F2",
+      "id": "1f2737b778e1e1de",
+      "url": "https://github.com/OSGeo/gdal/issues/12552"
+    },
+    {
+      "category": "F2",
+      "id": "0324004b3ae27f2d",
+      "url": "https://github.com/duckdb/duckdb/issues/8590"
+    },
+    {
+      "category": "other",
+      "id": "0999ccd365f8a0c6",
+      "url": "https://github.com/apache/arrow/issues/12681"
+    },
+    {
+      "category": "other",
+      "id": "147b307372cee373",
+      "url": "https://github.com/pandas-dev/pandas/issues/54019"
+    },
+    {
+      "category": "O4",
+      "id": "0f48f9249d10e428",
+      "url": "https://github.com/duckdb/duckdb/issues/12422"
+    },
+    {
+      "category": "other",
+      "id": "1e46e2025d3818d9",
+      "url": "https://github.com/duckdb/duckdb/issues/28543"
+    },
+    {
+      "category": "F10",
+      "id": "098848f2995d44d2",
+      "url": "https://github.com/OSGeo/gdal/issues/12897"
+    },
+    {
+      "category": "F2",
+      "id": "050c172835a2dd23",
+      "url": "https://github.com/pola-rs/polars/issues/6335"
+    },
+    {
+      "category": "F10",
+      "id": "17dd7bf6e67cac68",
+      "url": "https://github.com/OSGeo/gdal/issues/7319"
+    },
+    {
+      "category": "F4",
+      "id": "30874877d304af13",
+      "url": "https://github.com/apache/arrow/issues/55614"
+    },
+    {
+      "category": "O4",
+      "id": "2aaecd06900dda15",
+      "url": "https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2324"
+    },
+    {
+      "category": "F1",
+      "id": "05bbfd97f7c47e9a",
+      "url": "https://github.com/pandas-dev/pandas/issues/60128"
+    },
+    {
+      "category": "F1",
+      "id": "14c38ae3f4c5ecd8",
+      "url": "https://github.com/pandas-dev/pandas/issues/53464"
+    },
+    {
+      "category": "F2",
+      "id": "353583dc98c845e9",
+      "url": "https://github.com/duckdb/duckdb/issues/24256"
+    },
+    {
+      "category": "F9",
+      "id": "1e8dd1df3b98dec7",
+      "url": "https://github.com/apache/arrow/issues/50849"
+    },
+    {
+      "category": "F10",
+      "id": "1851c343f96003db",
+      "url": "https://github.com/apache/arrow/issues/55598"
+    },
+    {
+      "category": "F8",
+      "id": "050cf812253d1138",
+      "url": "https://github.com/duckdb/duckdb/issues/3080"
+    },
+    {
+      "category": "F10",
+      "id": "071cc5d9b9d65c2c",
+      "url": "https://github.com/OSGeo/gdal/issues/15117"
+    },
+    {
+      "category": "other",
+      "id": "0275d217daff20f5",
+      "url": "https://github.com/duckdb/duckdb/issues/12464"
+    },
+    {
+      "category": "O4",
+      "id": "e13cd43e02acf948",
+      "url": "https://github.com/duckdb/duckdb/issues/13237"
+    },
+    {
+      "category": "F3",
+      "id": "59890e2bc86255d1",
+      "url": "https://github.com/duckdb/duckdb/issues/21207"
+    },
+    {
+      "category": "F10",
+      "id": "5f65504b9c600f6b",
+      "url": "https://github.com/duckdb/duckdb/issues/24296"
+    },
+    {
+      "category": "F10",
+      "id": "1cb413d712b5f5b9",
+      "url": "https://github.com/libgeos/geos/issues/1405"
+    },
+    {
+      "category": "F1",
+      "id": "003487d81c794dec",
+      "url": "https://github.com/pandas-dev/pandas/issues/54032"
+    },
+    {
+      "category": "F9",
+      "id": "05b3c62745ba9a1c",
+      "url": "https://github.com/duckdb/duckdb/issues/8413"
+    },
+    {
+      "category": "F2",
+      "id": "174b7fd48c8281bc",
+      "url": "https://github.com/OSGeo/gdal/issues/7401"
+    },
+    {
+      "category": "F10",
+      "id": "43f632e91d07c8da",
+      "url": "https://github.com/libgeos/geos/issues/1368"
+    },
+    {
+      "category": "other",
+      "id": "04f016fad3d2fab6",
+      "url": "https://github.com/duckdb/duckdb/issues/12688"
+    },
+    {
+      "category": "F9",
+      "id": "15b68ab13f178124",
+      "url": "https://github.com/duckdb/duckdb/issues/3840"
+    },
+    {
+      "category": "F9",
+      "id": "09f680cae904e31d",
+      "url": "https://github.com/pandas-dev/pandas/issues/47701"
+    },
+    {
+      "category": "F2",
+      "id": "0b8d493d575d953a",
+      "url": "https://github.com/duckdb/duckdb/issues/4623"
+    },
+    {
+      "category": "F2",
+      "id": "1a3e120cdf52c7f1",
+      "url": "https://github.com/OSGeo/gdal/issues/15465"
+    },
+    {
+      "category": "F8",
+      "id": "202a7e3d1387c72e",
+      "url": "https://github.com/duckdb/duckdb/issues/4267"
+    },
+    {
+      "category": "F2",
+      "id": "0570e43a959d1e0d",
+      "url": "https://github.com/apache/arrow/issues/20312"
+    },
+    {
+      "category": "F9",
+      "id": "009ab01d6cf05716",
+      "url": "https://github.com/pandas-dev/pandas/issues/59332"
+    },
+    {
+      "category": "F10",
+      "id": "05a1886dda261bc5",
+      "url": "https://github.com/libgeos/geos/issues/565"
+    },
+    {
+      "category": "F8",
+      "id": "3de1010cd2b76ca9",
+      "url": "https://github.com/pandas-dev/pandas/issues/54462"
+    },
+    {
+      "category": "F7",
+      "id": "0a8573e459bc9e68",
+      "url": "https://github.com/pandas-dev/pandas/issues/46049"
+    },
+    {
+      "category": "F6",
+      "id": "1704c4485c94173f",
+      "url": "https://github.com/duckdb/duckdb/issues/23504"
+    },
+    {
+      "category": "other",
+      "id": "023084c10d5a6f8a",
+      "url": "https://github.com/OSGeo/gdal/issues/14910"
+    },
+    {
+      "category": "F9",
+      "id": "0a95217dd4dd60e9",
+      "url": "https://github.com/OSGeo/gdal/issues/8850"
+    },
+    {
+      "category": "F8",
+      "id": "06df66ae81378ec0",
+      "url": "https://github.com/pola-rs/polars/issues/20766"
+    },
+    {
+      "category": "F10",
+      "id": "807d8d0f0d3efba2",
+      "url": "https://github.com/libgeos/geos/issues/1365"
+    },
+    {
+      "category": "F8",
+      "id": "24b53cc5eacd14fe",
+      "url": "https://github.com/pandas-dev/pandas/issues/55254"
+    },
+    {
+      "category": "other",
+      "id": "03b6fd51fa112e92",
+      "url": "https://github.com/pola-rs/polars/issues/2112"
+    },
+    {
+      "category": "F1",
+      "id": "783f3a785037c178",
+      "url": "https://github.com/duckdb/duckdb/issues/4486"
+    },
+    {
+      "category": "other",
+      "id": "065447b422c55247",
+      "url": "https://github.com/duckdb/duckdb/issues/12933"
+    },
+    {
+      "category": "F2",
+      "id": "031b964146964d2c",
+      "url": "https://github.com/pola-rs/polars/issues/7064"
+    },
+    {
+      "category": "F8",
+      "id": "0110dce64a3d1a57",
+      "url": "https://github.com/pola-rs/polars/issues/4174"
+    },
+    {
+      "category": "F9",
+      "id": "0c99cfbf3c30127b",
+      "url": "https://github.com/pola-rs/polars/issues/4983"
+    },
+    {
+      "category": "F10",
+      "id": "1472afbb62d2c676",
+      "url": "https://github.com/libgeos/geos/issues/827"
+    },
+    {
+      "category": "F10",
+      "id": "4a9200694cdd6b1e",
+      "url": "https://github.com/libgeos/geos/issues/1058"
+    },
+    {
+      "category": "F10",
+      "id": "0087209ed8f52076",
+      "url": "https://github.com/OSGeo/gdal/issues/6616"
+    },
+    {
+      "category": "F3",
+      "id": "d1dcb6e9748eec42",
+      "url": "https://github.com/pola-rs/polars/issues/23905"
+    },
+    {
+      "category": "O4",
+      "id": "987ffb79ec022cd6",
+      "url": "https://github.com/pandas-dev/pandas/issues/47837"
+    },
+    {
+      "category": "F3",
+      "id": "0cad43bedeeac00a",
+      "url": "https://github.com/duckdb/duckdb/issues/26781"
+    },
+    {
+      "category": "O4",
+      "id": "0ba374621546c748",
+      "url": "https://github.com/pola-rs/polars/issues/13393"
+    },
+    {
+      "category": "F9",
+      "id": "0eeb208dd4619e9b",
+      "url": "https://github.com/OSGeo/gdal/issues/13093"
+    },
+    {
+      "category": "F10",
+      "id": "4de06aa8b1f5a891",
+      "url": "https://github.com/OSGeo/gdal/issues/11993"
+    },
+    {
+      "category": "other",
+      "id": "0a5370ccdb75e77b",
+      "url": "https://github.com/pandas-dev/pandas/issues/61245"
+    },
+    {
+      "category": "F2",
+      "id": "0ef76e2c5da031bf",
+      "url": "https://github.com/pola-rs/polars/issues/21304"
+    },
+    {
+      "category": "F9",
+      "id": "03e425f1a983ef49",
+      "url": "https://github.com/pandas-dev/pandas/issues/51948"
+    },
+    {
+      "category": "F4",
+      "id": "068c4c272c6baeb8",
+      "url": "https://github.com/duckdb/duckdb/issues/24301"
+    },
+    {
+      "category": "F9",
+      "id": "169f78530feb3c5a",
+      "url": "https://github.com/pandas-dev/pandas/issues/62443"
+    },
+    {
+      "category": "F1",
+      "id": "695be198fd1c6e2f",
+      "url": "https://github.com/duckdb/duckdb/issues/21180"
+    }
+  ],
+  "scope": "Frozen model-adjudicated E9 positive slice",
+  "source_sha256": {
+    "ADJUDICATED.jsonl": "14252dd1d5e9ce4c960fdbd9a814d0ca28059925a1360d4b69394e07065dd90f",
+    "RATER-A.jsonl": "f2f4c72307c17205181f0382778bacc285d115c63a5aa34619dfff7fbc3000ef",
+    "RATER-B.jsonl": "1b163e3392c0bd39e2641c7c75c067f5ec63b922fddc359abafb9bcd66481a4a",
+    "RESULT.json": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+    "ROSTER.csv": "057b0c7256bea60b1da76462e76654d0c978ef950699c11ae7eb9cd8e990383f"
+  }
+}

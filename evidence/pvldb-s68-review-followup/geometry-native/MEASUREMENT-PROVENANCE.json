@@ -1,0 +1,22 @@
+{
+  "compiler": "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0",
+  "compiler_flags": [
+    "-std=c++20",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "environment_reference": "../AST-PROVENANCE.json",
+  "exact_labels_sha256": "ec28fa8322b34953da30154b344344606f2b6aef75973c7ff58ce8e0bf40ffb5",
+  "executed_code_sha256": {
+    "geometry_native_float.cpp": "70bb297c27207b235f63ccd33825ad0f01e27a2b17e7e34a27f7d23da60fbf86",
+    "run.cpp": "2d4cbdab43c2aca15b885b634a8ea036e9bb07c981b4054b46c4acd1b4a37377"
+  },
+  "executed_sequential_driver_sha256": "7f3d30ba585d4fc083b2f3a8e050fc61c991bfe79918fdcbbaf83bd71c4747cf",
+  "native_wedges_sha256": "45d8fd37248476e4f83f0ba6314d49514e308329697e38b763f18e03c7243f19",
+  "procedure": "After the AST and O5 pilot jobs ended, run five fresh workers per arm with rotated arm order. O5 final measurements start after this geometry series.",
+  "series_utc": [
+    "2026-11-23T18:21:58Z",
+    "2026-11-23T18:22:56Z"
+  ]
+}

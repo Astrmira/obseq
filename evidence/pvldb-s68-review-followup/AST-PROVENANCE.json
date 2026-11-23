@@ -1,0 +1,1212 @@
+{
+  "environment": {
+    "allowed_logical_cpu_range": "64-95",
+    "cache": "No system cache drop. Producer precedes the validator in a fresh process. Separate diagnostic follows in that same worker.",
+    "cpu": "Intel Xeon Platinum 8352V",
+    "cpu_quota_cores": 32,
+    "data_filesystem": "XFS data volume on /dev/md0, 100 GiB",
+    "duckdb_memory_limit": "34GB",
+    "kernel": "Linux 5.4.0-155-generic x86_64",
+    "load": "Shared remote host. Some measurements overlap geometry pressure and native-predicate pilots and O5 timing pilots.",
+    "memory_limit_bytes": 64424509440,
+    "os": "Ubuntu 22.04.5 LTS",
+    "python": "3.12.3",
+    "runtime_versions": [
+      "DuckDB 1.4.3",
+      "PyArrow 22.0.0",
+      "sqlglot 28.0.0"
+    ],
+    "threads": {
+      "clickbench": 8,
+      "tpcds": 1,
+      "tpch": 1
+    }
+  },
+  "input_sha256": {
+    "acquisition": "8788eb357b3b76507b2e16345d80e36dcc41c770018a5624c44e3164eae0719b",
+    "censuses/clickbench": "8de8e7dd3eeb6a7be80ff65e50c1a7c37249d08e16bfbbd9a3d6906a5bbfecef",
+    "censuses/tpcds": "ecb8a2ecf369b17703fd0b27e76953555d81bd12e311b30c61bd0761ec96a1fe",
+    "censuses/tpch": "b92c3f7577a72edf48829823a49b5f3833e191a908426d3cf65a0405fd2553e2",
+    "compiler": "37f153e1ce741d4aa59f647bccc290c71e6ee4d7a75205f1b81b1ca292abd809",
+    "databases/tpcds": "04873e09dec07413aa1494487fa384837511705c7cbca7c7693fa5a37c3a1ce7",
+    "databases/tpch": "20eea1c455bec4feb405a320db42eb27ad0b0ba81c85ce61bf7426f31b4ef29d",
+    "harness": "03ecca4dbe97cda92e284e408f1a77d8d33d5df8c57b3faab82e0d9ef3684f5d",
+    "plan": "f9c9cfb41cf2f8ce94dce74f575277b9632c481fbb5edd738573653c00312d6e",
+    "queries/clickbench": "274ffe1c4f83baad2fc177bbb6773bbdab0db779faeb2970de8cc531292a5dc6",
+    "queries/tpcds": "9fa66087e6bddb4a8cb32b993d888209b023eb3432b3e229275c5a8d0ab2ef6c",
+    "queries/tpch": "723d8a920cf8322c1feb72fc8a747455ebba64f992d68b5bf65cc63609522485",
+    "validator": "deecd099db9f3a8f6bd8c9e3d52d4bc40f7d8366a74daddb023a2e5084955be0"
+  },
+  "original_config_sha256": "7367bab617269bd1cebe0d5c9056cf4a70e98fd469c8234777e427ea90c77cf4",
+  "repeats": 5,
+  "rss": "Process high-water marks include native producer allocations.",
+  "stages": "Unchanged validator recomputes candidates. Diagnostic stages separately bind/compile, materialize candidates by CTAS, then check the materialized relation.",
+  "windows": {
+    "clickbench": [
+      {
+        "candidate_rows": 9040,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 9,
+        "sql_sha256": "6df1314fd14204a7d30f1e2477f7961a2522f3fff949ddd9c63b01667a02b881",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 9040,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 10,
+        "sql_sha256": "1d926dc106c7c8b97f2f18bb4ffc6e2c2eddb49cd9f7fe7388110d45dbaccd72",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 165,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 11,
+        "sql_sha256": "3466c76d1bc529188c0f92081709c19d24785b0eecf4b1f67524721f3e6219b2",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 302,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 12,
+        "sql_sha256": "cc9256e7e5ca07318a7562dbe2adae4c57f9b322aa8c696c9c64d8f02bd62701",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 6019102,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 13,
+        "sql_sha256": "9ed884e06110bf4073c446d66f998791f10a351ff9dbcd89d9aa43bcf7cadc68",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 6019102,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 14,
+        "sql_sha256": "862c4315ee7b469cc441e233bf5c7e538fd8595ccbe741636a7e7cb11de35895",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 6474212,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 15,
+        "sql_sha256": "21f4e918643f952dfc23cb2413edceed988cd1a3c4b6d3d8b7c8b0adf456cf47",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 17630976,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 16,
+        "sql_sha256": "a2511c640a5c2d2693b705ac28b08896e1f9e06dd6697e4f2a9b5d0e270c0d2c",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 24070560,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 17,
+        "sql_sha256": "93449e58f04fa9b0b65559f4808d4f76a9dacde93cf57267475b1a0ed1b3c8ef",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 56384822,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 19,
+        "sql_sha256": "beb03b125b8ab7f6caa1f0611cb6948cf469373265d08d10424970184af351d1",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 677,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 22,
+        "sql_sha256": "da76d5dbccea5ea39ae4a58e0f77510f512d777c1542ef9705226ea24805e978",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 2
+      },
+      {
+        "candidate_rows": 3673,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 23,
+        "sql_sha256": "3ee5b50515692a5773d67ca98eb5698f7abda8878fbb8494fe2b7340b3c6cb3e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 15911,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 24,
+        "sql_sha256": "4f32584ea081100ce9ee58193d62ce1a128b3be34a43ba3a12028b52aec4e3ac",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 13172392,
+        "lower_boundary_split": false,
+        "lower_peers": 4,
+        "query": 25,
+        "sql_sha256": "7d1413e4d2dd07e409f909b91266b72b536a6bc81e47ebbde0b9255347153d61",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 8
+      },
+      {
+        "candidate_rows": 13172392,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 26,
+        "sql_sha256": "84a44a78b7c5ef6d7ee87bcb4aded0ff34108b5f3752871169561af2fd304cf9",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 13172392,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 27,
+        "sql_sha256": "8c56a9f793fb96e14ea1e76fbacbd6680f267291779576c46c9b2b19a75228e7",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 100,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 28,
+        "sql_sha256": "fd12bf0b7528b94af179e65bb2108ff3ab64082df7e065935763db30f2644111",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 77,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 29,
+        "sql_sha256": "4ee16102e16da9236fef04adde5329d0297ad883eed89eaf0192e99c677a7811",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 5730331,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 31,
+        "sql_sha256": "a9a277e2d02a2314b508716d857aa9d02685909272cf2487cf43cfecfa808c4a",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 2
+      },
+      {
+        "candidate_rows": 13172392,
+        "lower_boundary_split": false,
+        "lower_peers": 13172392,
+        "query": 32,
+        "sql_sha256": "d347d85d9c9ed20c99ab9049e3bc4a560f50ca112e1f38731804dbaa462130d7",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 13172392
+      },
+      {
+        "candidate_rows": 99997493,
+        "lower_boundary_split": false,
+        "lower_peers": 4,
+        "query": 33,
+        "sql_sha256": "9716e4333d306e28288ae400aa314b7e075ce627be3d54bc256060d1d9da78a5",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 99997489
+      },
+      {
+        "candidate_rows": 18342019,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 34,
+        "sql_sha256": "77d4a9ab7da740b5c097696f5e89535f2ce7cdacbdfc210cf00d1f5e07e67944",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 18342019,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 35,
+        "sql_sha256": "9d5024bf38e61a674f689a9089ff71647ce82c8211c885014c5e82813a55df40",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 9762046,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 36,
+        "sql_sha256": "b5a6b55cccb5ee22c956d45d8b0530042f8462b307c9e0c78bb9f2382bdc5cb5",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 298787,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 37,
+        "sql_sha256": "2c45a4e168ff8d1394f52ec0429ddf86ecf6a5cae759a909a93cf80aac6a418d",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 42155,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 38,
+        "sql_sha256": "19e2ae5be83bbd703cdf64f8e7d2db992d855ce000d423e48cef1fdc0fbd0c43",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 13299,
+        "lower_boundary_split": true,
+        "lower_peers": 1235,
+        "query": 39,
+        "sql_sha256": "fe1335dcf694efc54b37cb3c7971cc4f7271c675ba91d00917a2e4d160d5febf",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 1235
+      },
+      {
+        "candidate_rows": 426328,
+        "lower_boundary_split": true,
+        "lower_peers": 114,
+        "query": 40,
+        "sql_sha256": "afdb8338f83b3c7c391ff7fa51815d9d86850f86d2659a57506eac398a8716bd",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 114
+      },
+      {
+        "candidate_rows": 41194,
+        "lower_boundary_split": true,
+        "lower_peers": 9,
+        "query": 41,
+        "sql_sha256": "c312c8cc5e8be9c803e96f7025907634b8581be1aa238359a0b208119bb0352b",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 9
+      },
+      {
+        "candidate_rows": 10948,
+        "lower_boundary_split": true,
+        "lower_peers": 4276,
+        "query": 42,
+        "sql_sha256": "adc1cd2fd6cb8359dc7d2798f6cc727d0c10b5d25bcc8a214a53efbd7034b860",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 4276
+      },
+      {
+        "candidate_rows": 1440,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 43,
+        "sql_sha256": "d9af9ee4a20eaa4f26a6a5302716489acb09e0f10ae28267dde085bd681443d7",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      }
+    ],
+    "tpcds": [
+      {
+        "candidate_rows": 45702,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 1,
+        "sql_sha256": "4bb3e9f7f14954669ce4c685eda1caf89f112ce1bedb5c7275318fbfd73e97f2",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 365,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 3,
+        "sql_sha256": "aa90e325656bd08a5ffab30ef660c6fce06e856c2f7975562e221562f5054c36",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 620,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 4,
+        "sql_sha256": "97c5894b2651a60ffe18177af6072bc8afd0e50a8f0000699974da771ceeffd3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1291,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 5,
+        "sql_sha256": "228fb8f1a69c0899ced8c696d0da63ea1ac712eba99c77d85b490dd76038e84f",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 51,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 6,
+        "sql_sha256": "5461b610eb2c3101167f3a0f18dc05fdccdef1763b46816a2b4105f1ebc070b9",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 39483,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 7,
+        "sql_sha256": "3a43a0860a86b6f0d6ee182d05b41b1b8422d267e8c35a3fc8d8f9907d406b98",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 9,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 8,
+        "sql_sha256": "657f0e625b26009d6ec73d9d09ac32687209af63a3e9f78d2de777833216b5b9",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 126,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 10,
+        "sql_sha256": "d4199508dbc233b3d7b877001645beeafb4699677b6efc1d7d464d653662d42b",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 4185,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 11,
+        "sql_sha256": "b9f6dee534ee5dc1c2693fd4d9668f6e8d7e52797ece829968861c4da14aa342",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 11201,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 12,
+        "sql_sha256": "4f31a294bbb2fb066e918361e86f524271871ceb635e10ac9afa9b72a068068b",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 55562,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 14,
+        "sql_sha256": "a10708d77bfb2da2b7c2b2b876a51a5141641809af4ca243099faa6e9ea4f0f3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 524,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 15,
+        "sql_sha256": "7e7cc81e4eb44752d10c47af788a364f70bcd647d70b4329452c1b567929f833",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 16,
+        "sql_sha256": "45049a2ecd9261d941812b4b52309be5454ea25281c3e0bca2b21f84502e7465",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 0,
+        "lower_boundary_split": false,
+        "lower_peers": null,
+        "query": 17,
+        "sql_sha256": "311a7271a53d72e07acd829f09c2a17bc090d5af4773e7de399f066f94d8c35b",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 52755,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 18,
+        "sql_sha256": "ebc1e6cc069902abc3ac87b637b5b02e3f08f076cd3d9dd15303327e8c6b225c",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 936,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 19,
+        "sql_sha256": "bb7638aa2f322ded77c8eb6e9f06ba8a9bd21fdb3ecb27e2acbe7da681e7ad39",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 14107,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 20,
+        "sql_sha256": "cad0d675d7acb5dae53950a38501b5ac2ce23e9fa3c95e1b606b6b2efd4d7b4e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 18749,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 21,
+        "sql_sha256": "640f57dfc60d25f60171b9b6c6f2eada8083b5f4577858b9cc3c1c304ea83294",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 203751,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 22,
+        "sql_sha256": "935579b8b9b82fc3065f504af045e4e7e1e87185a26e7bc36a98bd3eee5ec1df",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 717,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 23,
+        "sql_sha256": "ac14d74ed9b53d331bd88b6bd001183f273d1e4349b31557f2ab9ab59cbf3895",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 2,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 25,
+        "sql_sha256": "e25301476c5ce8007b6cc94f72a1d62c898d9cbaac6b17bfb9528f24ac91edfc",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 27774,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 26,
+        "sql_sha256": "32d208d11cc5a1663528a81abd4168ec9c46c39e591ab5f80e37d0b98da190bb",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 39547,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 27,
+        "sql_sha256": "bb7928b546f36d99bad2d369ddfcef13d43b5b30ecb10a63e688628e876eb115",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 8,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 29,
+        "sql_sha256": "30f64f3635410e873a06169215e382851c868f73319149a527adfbceb2434bc8",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 1569,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 30,
+        "sql_sha256": "b20d5113977e5936f53e7f2cb99eaeabbfa63c6d8fa98c8cf6629a06b10076e8",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 977,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 33,
+        "sql_sha256": "947bbb2cd3db4fb94ea833e16c3330df368ade50a32cd74c62cf2915605f1150",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 57758,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 35,
+        "sql_sha256": "0ea20c6c2e25c56d1b256aaa531318661b907d839d2925d2bb48d3345346065d",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 166,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 36,
+        "sql_sha256": "188c47bcba1bf229310ba36622c37c9c632af5f6950b83cb5fff29d59b8a732e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 2,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 37,
+        "sql_sha256": "f0c4d121766f5112a92cd2f6c14cec3ee28d689431e3d155ae521c53d9c80d21",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 5298,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 40,
+        "sql_sha256": "d30c0576b8e7de9b43f26f1fbd92381ed9eacbb2c0ad7ed343d651afba552fe1",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 41,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 41,
+        "sql_sha256": "939a111a6503d3a9f75c03f7888224b2537ec04e669ddb9bb3a74ccc7649f93c",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 11,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 42,
+        "sql_sha256": "5f5a73022aa2734b5c2a819332df5c288556ff3305b4da4e4c73dac3c5711a24",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 18,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 43,
+        "sql_sha256": "aef363e3bb67d0772cd184a7e55b0a337443eda9785657bf70edb3b4c685f875",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 10,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 44,
+        "sql_sha256": "b650f133b8f16088044d5feef737330ef0b9db1933a4ae8267d30d638a9bb64e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 49,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 45,
+        "sql_sha256": "907c83f62e210e564bd9c60bff4c8e9af5e7dcfb4ca6fccd946b22a55b0320f9",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 28482,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 46,
+        "sql_sha256": "0c87a152ab2e194901ef6e429c783011c76825a1e656bb4067729207196b07b3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 94805,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 47,
+        "sql_sha256": "52a53fd26b6e8a4e0ef6bdc3f87799338f8c161af0b4cc31e23d68ca6072a9f3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 46,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 49,
+        "sql_sha256": "cc63838caa7eff20a130494b4f8d12ec29de4b2b861bb84748ecd0edd01d7bb3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 51,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 50,
+        "sql_sha256": "449e3ce036d72f31578b049c4b15bbd50350e2ad39628ee7358f228683f7dceb",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 141409,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 51,
+        "sql_sha256": "a68ba235faf1fec5f70e6833c0de4b82c955f17cbff8173acd76b8945e0d9fea",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 478,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 52,
+        "sql_sha256": "3f810b09d758dc10c6f7300fa740bcf64ad3f99725ccdeff770a25c6d682d30f",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 2618,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 53,
+        "sql_sha256": "5410b708d2de9a86b9ecb8579fa6b9d24c2a00c378524e9071c18871f63b5271",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 54,
+        "sql_sha256": "9df16b46def919530282ddb7d18fb04d30c67424153f7a3c87f3d60565d977f4",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 382,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 55,
+        "sql_sha256": "8d611e03883ec0d593aa5d5ffd42d02d028529fe72fd604147c4e34fb84192df",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 2618,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 56,
+        "sql_sha256": "c6a35d5f97cf87c2c059b17f0ec982614105ec19c2fc0a04c9326384f5fe4b0b",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 111526,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 57,
+        "sql_sha256": "3b72788cb9bd70911e7e4d1ab9bb2f5c47ce5b7f3bcaa1b004e200419de6c20e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 31,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 58,
+        "sql_sha256": "e1ca660c8b703f29d5124de6c4cf6e0f38ce1baeac56c08dd8c0201a2a6e56c3",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 129948,
+        "lower_boundary_split": false,
+        "lower_peers": 49,
+        "query": 59,
+        "sql_sha256": "2137eef7a8171764cf930f56bfc119b1033502880f89e912c9486ebef0a1f794",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 49
+      },
+      {
+        "candidate_rows": 9534,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 60,
+        "sql_sha256": "0771b160900b88ac2b3cd85da31a6393bb44f9c98f51bb6e688455cbad5c990a",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 61,
+        "sql_sha256": "96069e73d3bae7d90a76eef2e5e40f2c441100096865cd42c3ee6068e631b7ac",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 420,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 62,
+        "sql_sha256": "a9776da0805af03d8010367b0d7427563e6e91f33616346a7457e074a450f167",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1167,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 63,
+        "sql_sha256": "30a83cd8e11a9d4b52d8c25694a2d578a187e1d75a8f32c3ac8fd12083a32ceb",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 181701,
+        "lower_boundary_split": false,
+        "lower_peers": 74,
+        "query": 65,
+        "sql_sha256": "ca2a5a2d0a80789388b7602c6ae1e32563db1172f88dd565bc7130e73b4d2d95",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 10,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 66,
+        "sql_sha256": "a3a07df1572b10ca5da7db0170b54045ffbfc60f73afe1a40d4d83d4ba3d573f",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 1107,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 67,
+        "sql_sha256": "fd33ffe7f31cd116e8f1cc4077bbe927d462b4df94435507b3d49ee3ee40ecac",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 6287,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 68,
+        "sql_sha256": "05ecbb96a41f83b622813cf6fa981181788c166c5ee7a8ca16cdc41813b6d154",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 3387,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 69,
+        "sql_sha256": "70bf7fd5017ef9f43ee754f1da336c9fa5795c25b136efd937ec54d729ff06fb",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 7,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 70,
+        "sql_sha256": "712e80802f24b111e09f3cd685f46e75202009524b132609781d02f703fb08c7",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 42095,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 72,
+        "sql_sha256": "8646866ad7d1ba9e888b70c7f5ccf6480f8085475381b8ca747c85c0c409a744",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 4202,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 74,
+        "sql_sha256": "ce3c5bef42e6d8f44037afaee0802849888a47930053c7d5b28d8ba8ab1d4668",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 570,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 75,
+        "sql_sha256": "f9159e82033688a3cd5fa499dc55ef3be66bc7ce447d6239068eb6bd15945c5d",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 653,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 76,
+        "sql_sha256": "29ab90a722582024074888f0c398da7b0c766ec97da56facdf41ee95e3616bc0",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 169,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 77,
+        "sql_sha256": "e4fff077e327e54143b705d9a3392b0dbca05bfaef67c9dbb4b305d438d05039",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 735,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 78,
+        "sql_sha256": "f2842fed01b2936d5dddb0afefe84f4309147664930f97f38515aff7f2819416",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 78111,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 79,
+        "sql_sha256": "3e158c9089e06f5a801116469218c27e7fcaff705b2ceb4bba29b3dbe451f516",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 520,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 80,
+        "sql_sha256": "b05ac664972bde94ddd71accee4f7b90b43e090c3f349a08c2eb3fcb644b6fee",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 3384,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 81,
+        "sql_sha256": "26d45470b157d9aad80709b7529a0ec5f97a31c216cc7342423461d4d4040880",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 6,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 82,
+        "sql_sha256": "126d0bda5bf9fc9824caf6620cf393f1aa0e66446a16db51be4891ddea7b4d54",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 561,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 83,
+        "sql_sha256": "a518b319097f0f9cde099e550b03dc020d075b886d052d326fcef75bea88e030",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1201,
+        "lower_boundary_split": false,
+        "lower_peers": 2,
+        "query": 84,
+        "sql_sha256": "2f8eedca3b710ecd4abcc5a3ee22b0a051ccd757fe6c31ce68d028e3c23e87bc",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 15,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 85,
+        "sql_sha256": "09f2031d466106cfe8a42db595bf2184d0db3144f1d323b74556b02911bde766",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 168,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 86,
+        "sql_sha256": "25014d455cbaf008a84a0c919cc6af8c502b7c147d69931bcf512e4634f4df16",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 5671,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 89,
+        "sql_sha256": "3a53eb42db11990dc11cab4183724b9328af6285cc9181dfb797440ba116ff2a",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 90,
+        "sql_sha256": "866f422328ea50014e2704a9514ea537f3d93376e3941d39859a293f4c1b67e6",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 92,
+        "sql_sha256": "b4fa45f2580bc30be6d3c1e0f9a968e55b9ff0e79a912f2d7a6050d5049b30bc",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 54944,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 93,
+        "sql_sha256": "b0346b477c8f528d3a948eb3fef746b68d0abfa3dbe1a96f4516b17c37e09059",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 94,
+        "sql_sha256": "d6ee49b73dd7e24affd6973f95c2b77913a63789845ce81e6e373342db4e468f",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 95,
+        "sql_sha256": "925f3944c0eeec6d675aef6599375671e06f1c320a90efbbdda89d5f91b6283c",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 1,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 96,
+        "sql_sha256": "ef0fb7bd1cadb3d1d011b04506e6b537221b8836eb99715e229692d838fb346e",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null
+      },
+      {
+        "candidate_rows": 720,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 99,
+        "sql_sha256": "ee7009261a59252e30d67def9e9fb58d350c54cd84c10df166c279f4a73df9c5",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      }
+    ],
+    "tpch": [
+      {
+        "candidate_rows": 4667,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 2,
+        "sql_sha256": "a2219893f952dd2a2586ab297d909ec2d440faabb5e692f24880158aa6877344",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 114003,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 3,
+        "sql_sha256": "1f120d790d4914652cbf3fbc0fa28ed6573e4adee61ae7164a8c3d99b7c6b7fe",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 381105,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 10,
+        "sql_sha256": "0b48b00cffa3776b32e67e9041191dea25095e2a952ee5251990b9c8585031ed",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 624,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 18,
+        "sql_sha256": "8c5076061727d974f96708f0da930fc58843eac297a80c7ad658d64d152a19bb",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      },
+      {
+        "candidate_rows": 4009,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 21,
+        "sql_sha256": "b29463f30a64e45a795047ee6e557e6c3c1f01fc612acc997873594048e74b59",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "filtered_over_float_median_within_repeat": 1.2048329224360161,
+  "filtered_over_float_ratio_of_medians": 1.2070710627328336,
+  "raw_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+  "scope": "Five fresh workers per arm on the original native wedges, after the AST and O5 pilots completed",
+  "timing": {
+    "eager_exact": {
+      "fallbacks_per_run": [
+        0
+      ],
+      "wall_s": {
+        "max": 7.699862319,
+        "median": 7.541544296,
+        "min": 7.52442126
+      },
+      "wrong_signs_per_run": [
+        0
+      ]
+    },
+    "filtered_exact": {
+      "fallbacks_per_run": [
+        21744
+      ],
+      "wall_s": {
+        "max": 1.756874092,
+        "median": 1.742752305,
+        "min": 1.73322441
+      },
+      "wrong_signs_per_run": [
+        0
+      ]
+    },
+    "generation_checksum": {
+      "fallbacks_per_run": [
+        0
+      ],
+      "wall_s": {
+        "max": 0.745495833,
+        "median": 0.662537845,
+        "min": 0.66075839
+      },
+      "wrong_signs_per_run": [
+        0
+      ]
+    },
+    "pure_binary64": {
+      "fallbacks_per_run": [
+        0
+      ],
+      "wall_s": {
+        "max": 1.474748247,
+        "median": 1.443786003,
+        "min": 1.441067694
+      },
+      "wrong_signs_per_run": [
+        0
+      ]
+    }
+  }
+}

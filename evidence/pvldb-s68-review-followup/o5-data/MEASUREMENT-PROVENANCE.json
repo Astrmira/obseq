@@ -1,0 +1,18 @@
+{
+  "binding_receipt_sha256": "e68c829df19259ff208f5d50474c3dd1b439fd1c39e39122079472817a19b999",
+  "cache": "No OS cache drop. Original native geometry series finishes before these workers start.",
+  "duckdb_memory_limit": "400MB",
+  "duckdb_threads": 1,
+  "environment_reference": "../AST-PROVENANCE.json",
+  "executed_code_sha256": {
+    "archived-o5.py": "a1c701cab2901fe0de430e536da7dc02943cf3a1ee8e4ce4eb2a4be225f26604",
+    "o5_cost.py": "a186f038e45dc7a07891ded9da52be00e3193f48687fd07f9ef9991c423d04bc"
+  },
+  "executed_series_driver_sha256": "3b096ee32a64a3c9ae1fd1eb829cc8b7b3f6ce24504397d44d934d31881e01b4",
+  "input_manifest_sha256": "2464f35a9a0e2b97780c30e2adbfd2f2a73930e01816e98f8807340cee33a45e",
+  "series_utc": [
+    "2026-11-23T18:22:56Z",
+    "2026-11-23T18:31:05Z"
+  ],
+  "verification": "Each worker checks apply/receipt counts, the full 100M backing rows, zero post-state differences and zero orphan overlays."
+}

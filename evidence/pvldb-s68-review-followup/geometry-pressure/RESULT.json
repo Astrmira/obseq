@@ -1,0 +1,76 @@
+{
+  "by_injected_per_mille": {
+    "1": {
+      "eager_exact": {
+        "fallbacks_per_run": 0,
+        "max_ns": 6011147215,
+        "median_ns": 4365179792,
+        "min_ns": 4360182064,
+        "wrong_signs_per_run": 0
+      },
+      "filtered_exact": {
+        "fallbacks_per_run": 100000,
+        "max_ns": 2895868754,
+        "median_ns": 1993623098,
+        "min_ns": 1939950965,
+        "wrong_signs_per_run": 0
+      },
+      "pure_binary64": {
+        "fallbacks_per_run": 0,
+        "max_ns": 1303269624,
+        "median_ns": 614222671,
+        "min_ns": 609445705,
+        "wrong_signs_per_run": 100000
+      }
+    },
+    "10": {
+      "eager_exact": {
+        "fallbacks_per_run": 0,
+        "max_ns": 6498954521,
+        "median_ns": 4436731844,
+        "min_ns": 4402265214,
+        "wrong_signs_per_run": 0
+      },
+      "filtered_exact": {
+        "fallbacks_per_run": 1000000,
+        "max_ns": 2077322559,
+        "median_ns": 2006737568,
+        "min_ns": 2004048161,
+        "wrong_signs_per_run": 0
+      },
+      "pure_binary64": {
+        "fallbacks_per_run": 0,
+        "max_ns": 922363424,
+        "median_ns": 617127467,
+        "min_ns": 615675266,
+        "wrong_signs_per_run": 1000000
+      }
+    },
+    "100": {
+      "eager_exact": {
+        "fallbacks_per_run": 0,
+        "max_ns": 5246039568,
+        "median_ns": 4867394768,
+        "min_ns": 4818794857,
+        "wrong_signs_per_run": 0
+      },
+      "filtered_exact": {
+        "fallbacks_per_run": 10000000,
+        "max_ns": 4102572003,
+        "median_ns": 2897884456,
+        "min_ns": 2651288860,
+        "wrong_signs_per_run": 0
+      },
+      "pure_binary64": {
+        "fallbacks_per_run": 0,
+        "max_ns": 1073105461,
+        "median_ns": 627570302,
+        "min_ns": 626346364,
+        "wrong_signs_per_run": 10000000
+      }
+    }
+  },
+  "raw_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+  "workers_per_cell": 5,
+  "workload": "authored 100M-call stress panel"
+}

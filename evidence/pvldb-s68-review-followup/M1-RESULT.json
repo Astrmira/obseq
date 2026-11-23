@@ -1,0 +1,1782 @@
+{
+  "dbt": {
+    "dbt_test_exit": 1,
+    "freshness_exit": 0,
+    "freshness_sources": 30
+  },
+  "observations": [
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-0-fault",
+      "legal": false,
+      "mechanism": "F3",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "logical_digest": "46f7a5fbe5c83c36eb0e2929103b392bac92a95802833e800f136f4ce2aff761"
+      },
+      "witness": {
+        "logical_digest": "465d674ce6bae7911e62c34c8ec4790981ae2eb73f9db75b8f8fe54a2d2c25a1"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-0-legal",
+      "legal": true,
+      "mechanism": "F3",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "logical_digest": "46f7a5fbe5c83c36eb0e2929103b392bac92a95802833e800f136f4ce2aff761"
+      },
+      "witness": {
+        "logical_digest": "46f7a5fbe5c83c36eb0e2929103b392bac92a95802833e800f136f4ce2aff761"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-1-fault",
+      "legal": false,
+      "mechanism": "F3",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "logical_digest": "4911192f97cbb132a215f2cb768e8d461d87ae510f6055f8fc06ab3d3f687eb9"
+      },
+      "witness": {
+        "logical_digest": "5cc6a8a697bb6f2fcb468ef02cf2a76e9ad3f5da223682f1ca29288836ee66b3"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-1-legal",
+      "legal": true,
+      "mechanism": "F3",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "logical_digest": "4911192f97cbb132a215f2cb768e8d461d87ae510f6055f8fc06ab3d3f687eb9"
+      },
+      "witness": {
+        "logical_digest": "4911192f97cbb132a215f2cb768e8d461d87ae510f6055f8fc06ab3d3f687eb9"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-2-fault",
+      "legal": false,
+      "mechanism": "F3",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "logical_digest": "52fdd99fd0e9ff926fae1f2b7990cd89bd4aa101ad23852282e5631a2f3941b6"
+      },
+      "witness": {
+        "logical_digest": "12849a365ef01811c2acec26370164969d77976ec5f6ece5096f4d70ff167427"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F3-2-legal",
+      "legal": true,
+      "mechanism": "F3",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "logical_digest": "52fdd99fd0e9ff926fae1f2b7990cd89bd4aa101ad23852282e5631a2f3941b6"
+      },
+      "witness": {
+        "logical_digest": "52fdd99fd0e9ff926fae1f2b7990cd89bd4aa101ad23852282e5631a2f3941b6"
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-0-fault",
+      "legal": false,
+      "mechanism": "F4",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "epoch": 2,
+        "value": 7
+      },
+      "witness": {
+        "epoch": 1,
+        "value": 6
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-0-legal",
+      "legal": true,
+      "mechanism": "F4",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "epoch": 2,
+        "value": 7
+      },
+      "witness": {
+        "epoch": 2,
+        "value": 7
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-1-fault",
+      "legal": false,
+      "mechanism": "F4",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "epoch": 2,
+        "value": 9
+      },
+      "witness": {
+        "epoch": 1,
+        "value": 8
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-1-legal",
+      "legal": true,
+      "mechanism": "F4",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "epoch": 2,
+        "value": 9
+      },
+      "witness": {
+        "epoch": 2,
+        "value": 9
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-2-fault",
+      "legal": false,
+      "mechanism": "F4",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "epoch": 2,
+        "value": 11
+      },
+      "witness": {
+        "epoch": 1,
+        "value": 10
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C1-F4-2-legal",
+      "legal": true,
+      "mechanism": "F4",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "epoch": 2,
+        "value": 11
+      },
+      "witness": {
+        "epoch": 2,
+        "value": 11
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-0-fault",
+      "legal": false,
+      "mechanism": "F5",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [
+          [
+            "CLEAR",
+            0
+          ]
+        ],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-0-legal",
+      "legal": true,
+      "mechanism": "F5",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-1-fault",
+      "legal": false,
+      "mechanism": "F5",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [
+          [
+            "CLEAR",
+            1
+          ]
+        ],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-1-legal",
+      "legal": true,
+      "mechanism": "F5",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-2-fault",
+      "legal": false,
+      "mechanism": "F5",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [
+          [
+            "CLEAR",
+            2
+          ]
+        ],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C1",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": null,
+      "id": "C1-F5-2-legal",
+      "legal": true,
+      "mechanism": "F5",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "effects": [],
+        "value": null
+      },
+      "witness": {
+        "effects": [],
+        "value": null
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P01",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "write",
+            8,
+            -1
+          ]
+        ],
+        "state": [
+          [
+            5,
+            null
+          ],
+          [
+            8,
+            -1
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "write",
+            8,
+            -1
+          ]
+        ],
+        "state": [
+          [
+            5,
+            null
+          ],
+          [
+            8,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P02",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            8,
+            9
+          ]
+        ],
+        "state": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            8,
+            9
+          ]
+        ],
+        "state": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P03",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            21,
+            null
+          ],
+          [
+            "write",
+            22,
+            0
+          ],
+          [
+            "write",
+            21,
+            1
+          ]
+        ],
+        "state": [
+          [
+            21,
+            1
+          ],
+          [
+            22,
+            0
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            21,
+            null
+          ],
+          [
+            "write",
+            22,
+            0
+          ],
+          [
+            "write",
+            21,
+            1
+          ]
+        ],
+        "state": [
+          [
+            21,
+            1
+          ],
+          [
+            22,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P04",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            11,
+            0
+          ],
+          [
+            "clear",
+            12,
+            null
+          ]
+        ],
+        "state": [
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            12,
+            0
+          ],
+          [
+            "clear",
+            11,
+            null
+          ]
+        ],
+        "state": [
+          [
+            11,
+            null
+          ],
+          [
+            12,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P05",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [],
+        "state": []
+      },
+      "witness": {
+        "committed": false,
+        "events": [],
+        "state": []
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P06",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            2,
+            null
+          ],
+          [
+            "write",
+            2,
+            6
+          ],
+          [
+            "clear",
+            7,
+            null
+          ]
+        ],
+        "state": [
+          [
+            2,
+            6
+          ],
+          [
+            7,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": false,
+        "events": [],
+        "state": [
+          [
+            2,
+            6
+          ],
+          [
+            7,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P07",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [],
+        "state": [
+          [
+            0,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [],
+        "state": [
+          [
+            0,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P08",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            4,
+            -4
+          ],
+          [
+            "clear",
+            -2,
+            null
+          ],
+          [
+            "clear",
+            4,
+            null
+          ]
+        ],
+        "state": [
+          [
+            -2,
+            null
+          ],
+          [
+            4,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            4,
+            -4
+          ],
+          [
+            "clear",
+            -2,
+            null
+          ],
+          [
+            "clear",
+            4,
+            null
+          ]
+        ],
+        "state": [
+          [
+            -2,
+            null
+          ],
+          [
+            4,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P09",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            6,
+            4
+          ],
+          [
+            "write",
+            6,
+            4
+          ]
+        ],
+        "state": [
+          [
+            6,
+            4
+          ],
+          [
+            9,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            6,
+            4
+          ],
+          [
+            "write",
+            6,
+            4
+          ]
+        ],
+        "state": [
+          [
+            6,
+            4
+          ],
+          [
+            9,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P10",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            3,
+            null
+          ],
+          [
+            "write",
+            1,
+            -7
+          ],
+          [
+            "write",
+            3,
+            4
+          ]
+        ],
+        "state": [
+          [
+            1,
+            -7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            3,
+            null
+          ],
+          [
+            "write",
+            3,
+            4
+          ],
+          [
+            "write",
+            1,
+            -7
+          ]
+        ],
+        "state": [
+          [
+            1,
+            -7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P11",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            21,
+            null
+          ],
+          [
+            "write",
+            22,
+            0
+          ],
+          [
+            "write",
+            21,
+            1
+          ]
+        ],
+        "state": [
+          [
+            21,
+            1
+          ],
+          [
+            22,
+            0
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            21,
+            null
+          ],
+          [
+            "write",
+            22,
+            1
+          ],
+          [
+            "write",
+            21,
+            1
+          ]
+        ],
+        "state": [
+          [
+            21,
+            1
+          ],
+          [
+            22,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P12",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [],
+        "state": [
+          [
+            0,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            0,
+            null
+          ]
+        ],
+        "state": [
+          [
+            0,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P13",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            3,
+            null
+          ],
+          [
+            "write",
+            1,
+            -7
+          ],
+          [
+            "write",
+            3,
+            4
+          ]
+        ],
+        "state": [
+          [
+            1,
+            -7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            3,
+            null
+          ],
+          [
+            "write",
+            1,
+            -7
+          ],
+          [
+            "write",
+            3,
+            4
+          ]
+        ],
+        "state": [
+          [
+            1,
+            -7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P14",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            4,
+            -4
+          ],
+          [
+            "clear",
+            -2,
+            null
+          ],
+          [
+            "clear",
+            4,
+            null
+          ]
+        ],
+        "state": [
+          [
+            -2,
+            null
+          ],
+          [
+            4,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            4,
+            -4
+          ],
+          [
+            "clear",
+            4,
+            null
+          ],
+          [
+            "clear",
+            -2,
+            null
+          ]
+        ],
+        "state": [
+          [
+            -2,
+            null
+          ],
+          [
+            4,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P15",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            -1,
+            5
+          ],
+          [
+            "clear",
+            -1,
+            null
+          ],
+          [
+            "write",
+            -1,
+            3
+          ]
+        ],
+        "state": [
+          [
+            -1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            -1,
+            6
+          ],
+          [
+            "clear",
+            -1,
+            null
+          ],
+          [
+            "write",
+            -1,
+            3
+          ]
+        ],
+        "state": [
+          [
+            -1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P16",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            2,
+            null
+          ],
+          [
+            "write",
+            2,
+            6
+          ],
+          [
+            "clear",
+            7,
+            null
+          ]
+        ],
+        "state": [
+          [
+            2,
+            6
+          ],
+          [
+            7,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            2,
+            null
+          ],
+          [
+            "write",
+            2,
+            6
+          ],
+          [
+            "clear",
+            7,
+            null
+          ]
+        ],
+        "state": [
+          [
+            2,
+            6
+          ],
+          [
+            7,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P17",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "write",
+            8,
+            -1
+          ]
+        ],
+        "state": [
+          [
+            5,
+            null
+          ],
+          [
+            8,
+            -1
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "clear",
+            5,
+            null
+          ],
+          [
+            "write",
+            8,
+            -1
+          ]
+        ],
+        "state": [
+          [
+            5,
+            null
+          ],
+          [
+            8,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P18",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            1,
+            null
+          ],
+          [
+            "write",
+            2,
+            7
+          ]
+        ],
+        "state": [
+          [
+            1,
+            null
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            1,
+            null
+          ],
+          [
+            "write",
+            2,
+            7
+          ]
+        ],
+        "state": [
+          [
+            1,
+            null
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P19",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "clear",
+            1,
+            null
+          ],
+          [
+            "write",
+            2,
+            7
+          ]
+        ],
+        "state": [
+          [
+            1,
+            null
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            2,
+            7
+          ],
+          [
+            "clear",
+            1,
+            null
+          ]
+        ],
+        "state": [
+          [
+            1,
+            null
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P20",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            11,
+            0
+          ],
+          [
+            "clear",
+            12,
+            null
+          ]
+        ],
+        "state": [
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            11,
+            0
+          ],
+          [
+            "clear",
+            12,
+            null
+          ]
+        ],
+        "state": [
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P21",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            8,
+            9
+          ]
+        ],
+        "state": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            8,
+            9
+          ],
+          [
+            "write",
+            9,
+            8
+          ]
+        ],
+        "state": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P22",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [],
+        "state": []
+      },
+      "witness": {
+        "committed": true,
+        "events": [],
+        "state": []
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": true,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P23",
+      "legal": true,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": true,
+      "python_assert_accepts": true,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            -1,
+            5
+          ],
+          [
+            "clear",
+            -1,
+            null
+          ],
+          [
+            "write",
+            -1,
+            3
+          ]
+        ],
+        "state": [
+          [
+            -1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            -1,
+            5
+          ],
+          [
+            "clear",
+            -1,
+            null
+          ],
+          [
+            "write",
+            -1,
+            3
+          ]
+        ],
+        "state": [
+          [
+            -1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "cohort": "C2",
+      "dbt_singular_accepts": false,
+      "dbt_stock_source_freshness": "pass",
+      "id": "C2-P24",
+      "legal": false,
+      "mechanism": "ordered-intervention",
+      "obseq_accepts": false,
+      "python_assert_accepts": false,
+      "reference": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            6,
+            4
+          ],
+          [
+            "write",
+            6,
+            4
+          ]
+        ],
+        "state": [
+          [
+            6,
+            4
+          ],
+          [
+            9,
+            null
+          ]
+        ]
+      },
+      "witness": {
+        "committed": true,
+        "events": [
+          [
+            "write",
+            6,
+            4
+          ]
+        ],
+        "state": [
+          [
+            6,
+            4
+          ],
+          [
+            9,
+            null
+          ]
+        ]
+      }
+    }
+  ],
+  "sqlite": "3.49.1",
+  "summary": {
+    "C1": {
+      "dbt_singular_accepts": {
+        "true_accept": 9,
+        "true_reject": 9
+      },
+      "dbt_stock_source_freshness": {
+        "false_accept": 3,
+        "not_applicable": 12,
+        "true_accept": 3
+      },
+      "obseq_accepts": {
+        "true_accept": 9,
+        "true_reject": 9
+      },
+      "python_assert_accepts": {
+        "true_accept": 9,
+        "true_reject": 9
+      }
+    },
+    "C2": {
+      "dbt_singular_accepts": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "dbt_stock_source_freshness": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "obseq_accepts": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "python_assert_accepts": {
+        "true_accept": 12,
+        "true_reject": 12
+      }
+    }
+  },
+  "versions": {
+    "dbt-core": "1.10.15",
+    "dbt-duckdb": "1.9.6",
+    "duckdb": "2.0.1"
+  }
+}

@@ -4136,6 +4136,1435 @@
       "artifact_path": "evidence/TPCH-SF1-CROSS-ENGINE.json",
       "source_sha256": "ee17e65ec5138b707c5871fb2f09edc6534702511263a732750e30eff30f70d3",
       "replay": "python -B scripts/recount_numbers.py a1.tpch.sf1.postgres_comparison"
+    },
+    {
+      "id": "s68.m1.obseq_accepts",
+      "value": {
+        "true_accept": 21,
+        "true_reject": 21,
+        "false_accept": 0,
+        "false_reject": 0,
+        "not_applicable": 0
+      },
+      "denominator": 42,
+      "unit": "paired execution arms",
+      "scope": "C1 F3/F4/F5 and all 12 C2 pairs. Explicit identical witnesses for the three assertion arms. Stock freshness checks recent loaded_at timestamps on F4 and C2, with F3/F5 inapplicable.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M1-RESULT.json",
+      "source_sha256": "5d17db67309323dfa3cdb9d4c1cd82753f662030de87a17e49d1d8b236a404c4",
+      "replay": "python -B scripts/recount_numbers.py s68.m1.obseq_accepts"
+    },
+    {
+      "id": "s68.m1.python_assert_accepts",
+      "value": {
+        "true_accept": 21,
+        "true_reject": 21,
+        "false_accept": 0,
+        "false_reject": 0,
+        "not_applicable": 0
+      },
+      "denominator": 42,
+      "unit": "paired execution arms",
+      "scope": "C1 F3/F4/F5 and all 12 C2 pairs. Explicit identical witnesses for the three assertion arms. Stock freshness checks recent loaded_at timestamps on F4 and C2, with F3/F5 inapplicable.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M1-RESULT.json",
+      "source_sha256": "5d17db67309323dfa3cdb9d4c1cd82753f662030de87a17e49d1d8b236a404c4",
+      "replay": "python -B scripts/recount_numbers.py s68.m1.python_assert_accepts"
+    },
+    {
+      "id": "s68.m1.dbt_singular_accepts",
+      "value": {
+        "true_accept": 21,
+        "true_reject": 21,
+        "false_accept": 0,
+        "false_reject": 0,
+        "not_applicable": 0
+      },
+      "denominator": 42,
+      "unit": "paired execution arms",
+      "scope": "C1 F3/F4/F5 and all 12 C2 pairs. Explicit identical witnesses for the three assertion arms. Stock freshness checks recent loaded_at timestamps on F4 and C2, with F3/F5 inapplicable.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M1-RESULT.json",
+      "source_sha256": "5d17db67309323dfa3cdb9d4c1cd82753f662030de87a17e49d1d8b236a404c4",
+      "replay": "python -B scripts/recount_numbers.py s68.m1.dbt_singular_accepts"
+    },
+    {
+      "id": "s68.m1.dbt_stock_source_freshness",
+      "value": {
+        "true_accept": 15,
+        "true_reject": 0,
+        "false_accept": 15,
+        "false_reject": 0,
+        "not_applicable": 12
+      },
+      "denominator": 42,
+      "unit": "paired execution arms",
+      "scope": "C1 F3/F4/F5 and all 12 C2 pairs. Explicit identical witnesses for the three assertion arms. Stock freshness checks recent loaded_at timestamps on F4 and C2, with F3/F5 inapplicable.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M1-RESULT.json",
+      "source_sha256": "5d17db67309323dfa3cdb9d4c1cd82753f662030de87a17e49d1d8b236a404c4",
+      "replay": "python -B scripts/recount_numbers.py s68.m1.dbt_stock_source_freshness"
+    },
+    {
+      "id": "s68.m1.dvc_dependency_invalidation",
+      "value": {
+        "cases": 6,
+        "tracked_changed": 6,
+        "omitted_changed": 0
+      },
+      "denominator": 6,
+      "unit": "native DVC stages",
+      "scope": "Three WAL changes and three UDF definition changes, with and without explicitly declared dependencies.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/DVC-RESULT.json",
+      "source_sha256": "f55be3148365e700f997271acd362063e364ff7dcf749d23d387dd31ee21425b",
+      "replay": "python -B scripts/recount_numbers.py s68.m1.dvc_dependency_invalidation"
+    },
+    {
+      "id": "s68.m2.execution_bound",
+      "value": {
+        "true_accept": 9,
+        "true_reject": 12,
+        "false_accept": 0,
+        "false_reject": 0
+      },
+      "denominator": 21,
+      "unit": "native SQLite execution arms",
+      "scope": "12 binding faults and 9 legal controls across O1 snapshot handles, O2 commit/epoch coupling and O5 intent.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M2-RESULT.json",
+      "source_sha256": "40bbc1bce47a79af70df2de853d95e43ca970500a09db67f49fc48a353b7bfbf",
+      "replay": "python -B scripts/recount_numbers.py s68.m2.execution_bound"
+    },
+    {
+      "id": "s68.m2.request_layer",
+      "value": {
+        "true_accept": 9,
+        "true_reject": 0,
+        "false_accept": 12,
+        "false_reject": 0
+      },
+      "denominator": 21,
+      "unit": "native SQLite execution arms",
+      "scope": "12 binding faults and 9 legal controls across O1 snapshot handles, O2 commit/epoch coupling and O5 intent.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/M2-RESULT.json",
+      "source_sha256": "40bbc1bce47a79af70df2de853d95e43ca970500a09db67f49fc48a353b7bfbf",
+      "replay": "python -B scripts/recount_numbers.py s68.m2.request_layer"
+    },
+    {
+      "id": "s68.spreadsheet.openpyxl_save.both_mutually_exclusive_formulas_accepted",
+      "value": 19,
+      "denominator": 19,
+      "unit": "tasks",
+      "scope": "Pinned stock grader accepts both =1000000000 and =-1000000000 without recalculation. At least one candidate per task is wrong independently of the unknown gold value.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/SPREADSHEET-RESULT.json",
+      "source_sha256": "419fdca64648b071004d74cb0bbffdec205e4947d6db7a57832c1bbaff36a088",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.openpyxl_save.both_mutually_exclusive_formulas_accepted"
+    },
+    {
+      "id": "s68.spreadsheet.isolated_cell.both_mutually_exclusive_formulas_accepted",
+      "value": 19,
+      "denominator": 19,
+      "unit": "tasks",
+      "scope": "Pinned stock grader accepts both =1000000000 and =-1000000000 without recalculation. At least one candidate per task is wrong independently of the unknown gold value.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/SPREADSHEET-RESULT.json",
+      "source_sha256": "419fdca64648b071004d74cb0bbffdec205e4947d6db7a57832c1bbaff36a088",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.isolated_cell.both_mutually_exclusive_formulas_accepted"
+    },
+    {
+      "id": "s68.spreadsheet.populated_cache_controls_rejected",
+      "value": 19,
+      "denominator": 19,
+      "unit": "tasks",
+      "scope": "A populated string-cache control at the same edited cell is rejected by the pinned stock grader.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/SPREADSHEET-RESULT.json",
+      "source_sha256": "419fdca64648b071004d74cb0bbffdec205e4947d6db7a57832c1bbaff36a088",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.populated_cache_controls_rejected"
+    },
+    {
+      "id": "s68.c4.e9_positive_links",
+      "value": 15,
+      "denominator": 82,
+      "unit": "frozen positive public issues",
+      "scope": "Distinct frozen E9 positive labels whose IDs and issue URLs match a native C4 release-pair family.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/C4-SOURCES.json",
+      "source_sha256": "180686aee252ea2004c6293a9e63e849e3239075d0dfd9612e3c9220594c4698",
+      "replay": "python -B scripts/recount_numbers.py s68.c4.e9_positive_links"
+    },
+    {
+      "id": "s68.c4.release_pairs_with_fix_link",
+      "value": 28,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Verified upstream merged-PR links. DuckDB issue 21207 remains unresolved.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/C4-SOURCES.json",
+      "source_sha256": "180686aee252ea2004c6293a9e63e849e3239075d0dfd9612e3c9220594c4698",
+      "replay": "python -B scripts/recount_numbers.py s68.c4.release_pairs_with_fix_link"
+    },
+    {
+      "id": "s68.table7.o1.raw_file_sha256",
+      "value": {
+        "wall_s": {
+          "median": 1.528284689,
+          "min": 1.338107312,
+          "max": 1.699361107
+        },
+        "peak_rss_kib": {
+          "median": 16896,
+          "min": 16896,
+          "max": 16896
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.raw_file_sha256"
+    },
+    {
+      "id": "s68.table7.o1.sqlite_backup_logical",
+      "value": {
+        "wall_s": {
+          "median": 72.485318674,
+          "min": 70.430646848,
+          "max": 73.098319984
+        },
+        "peak_rss_kib": {
+          "median": 2175828,
+          "min": 2175828,
+          "max": 2175832
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_logical"
+    },
+    {
+      "id": "s68.table7.o1.sqlite_backup_only",
+      "value": {
+        "wall_s": {
+          "median": 3.32991807,
+          "min": 1.806425813,
+          "max": 5.364176653
+        },
+        "peak_rss_kib": {
+          "median": 2175680,
+          "min": 2175680,
+          "max": 2175684
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_only"
+    },
+    {
+      "id": "s68.table7.o1.sqlite_native_read",
+      "value": {
+        "wall_s": {
+          "median": 4.515241145,
+          "min": 4.177857476,
+          "max": 4.584522631
+        },
+        "peak_rss_kib": {
+          "median": 16240,
+          "min": 16236,
+          "max": 16244
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_native_read"
+    },
+    {
+      "id": "s68.table7.o2.epoch",
+      "value": {
+        "wall_s": {
+          "median": 0.00021875999664189294,
+          "min": 0.00021847800235264003,
+          "max": 0.00022212500334717333
+        },
+        "peak_rss_kib": {
+          "median": 52276,
+          "min": 52064,
+          "max": 52348
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.epoch"
+    },
+    {
+      "id": "s68.table7.o2.exact",
+      "value": {
+        "wall_s": {
+          "median": 13.998960844000976,
+          "min": 13.440868151999894,
+          "max": 16.42298786700121
+        },
+        "peak_rss_kib": {
+          "median": 307956,
+          "min": 306120,
+          "max": 316148
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.exact"
+    },
+    {
+      "id": "s68.table7.o2.producer",
+      "value": {
+        "wall_s": {
+          "median": 2.2250756729990826,
+          "min": 2.221013612994284,
+          "max": 2.288389681998524
+        },
+        "peak_rss_kib": {
+          "median": 241892,
+          "min": 241712,
+          "max": 242200
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.producer"
+    },
+    {
+      "id": "s68.table7.o3-topk.family",
+      "value": {
+        "producer_s": {
+          "median": 8.179508889,
+          "min": 8.073503686,
+          "max": 16.530748774
+        },
+        "check_only_s": {
+          "median": 11.02890295,
+          "min": 10.510415366,
+          "max": 12.434293892
+        },
+        "total_s": {
+          "median": 19.197998442,
+          "min": 18.689924255,
+          "max": 28.965042666
+        },
+        "within_worker_check_over_producer": {
+          "median": 1.3191731115674832,
+          "min": 0.7521918130869539,
+          "max": 1.4012188461147375
+        },
+        "peak_rss_kib": {
+          "median": 579892,
+          "min": 579584,
+          "max": 580176
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.family"
+    },
+    {
+      "id": "s68.table7.o3-topk.guard",
+      "value": {
+        "producer_s": {
+          "median": 8.068707841,
+          "min": 7.7441901,
+          "max": 8.698933957
+        },
+        "check_only_s": {
+          "median": 13.995783258,
+          "min": 13.941963556,
+          "max": 27.508682002
+        },
+        "total_s": {
+          "median": 22.57737025,
+          "min": 21.739973358,
+          "max": 35.960510955
+        },
+        "within_worker_check_over_producer": {
+          "median": 1.8072623576221354,
+          "min": 1.60272093395777,
+          "max": 3.2547608517604605
+        },
+        "peak_rss_kib": {
+          "median": 477032,
+          "min": 476680,
+          "max": 477316
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.guard"
+    },
+    {
+      "id": "s68.table7.o3-topk.producer",
+      "value": {
+        "producer_s": {
+          "median": 7.861431847,
+          "min": 7.663112092,
+          "max": 8.881073048
+        },
+        "check_only_s": {
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "total_s": {
+          "median": 7.861431847,
+          "min": 7.663112092,
+          "max": 8.881073048
+        },
+        "within_worker_check_over_producer": {
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "peak_rss_kib": {
+          "median": 469312,
+          "min": 469220,
+          "max": 469496
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.producer"
+    },
+    {
+      "id": "s68.table7.o3-representative.claimed",
+      "value": {
+        "producer_s": {
+          "median": 8.945825936,
+          "min": 8.704303532,
+          "max": 9.528857182
+        },
+        "check_only_s": {
+          "median": 15.019025662,
+          "min": 14.332795975,
+          "max": 15.55238401
+        },
+        "total_s": {
+          "median": 23.723329194,
+          "min": 23.219206174,
+          "max": 24.713439208
+        },
+        "within_worker_check_over_producer": {
+          "median": 1.647507557204945,
+          "min": 1.593536531818701,
+          "max": 1.725471269100959
+        },
+        "peak_rss_kib": {
+          "median": 477316,
+          "min": 476904,
+          "max": 477552
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.claimed"
+    },
+    {
+      "id": "s68.table7.o3-representative.family",
+      "value": {
+        "producer_s": {
+          "median": 9.519714045,
+          "min": 8.965208516,
+          "max": 9.965047776
+        },
+        "check_only_s": {
+          "median": 11.203898624,
+          "min": 11.019564872,
+          "max": 13.771461922
+        },
+        "total_s": {
+          "median": 20.853520688,
+          "min": 20.315016979,
+          "max": 22.736670438
+        },
+        "within_worker_check_over_producer": {
+          "median": 1.1675780207518796,
+          "min": 1.1205627804500602,
+          "max": 1.5361005711604354
+        },
+        "peak_rss_kib": {
+          "median": 481624,
+          "min": 481072,
+          "max": 481660
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.family"
+    },
+    {
+      "id": "s68.table7.o3-representative.producer",
+      "value": {
+        "producer_s": {
+          "median": 9.301556715,
+          "min": 8.959671322,
+          "max": 9.583569816
+        },
+        "check_only_s": {
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "total_s": {
+          "median": 9.301556715,
+          "min": 8.959671322,
+          "max": 9.583569816
+        },
+        "within_worker_check_over_producer": {
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "peak_rss_kib": {
+          "median": 472900,
+          "min": 472844,
+          "max": 473352
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.producer"
+    },
+    {
+      "id": "s68.table7.o4.generation_checksum",
+      "value": {
+        "wall_s": {
+          "median": 0.263282931,
+          "min": 0.253940165,
+          "max": 0.29063673
+        },
+        "peak_rss_kib": {
+          "median": 13440,
+          "min": 13440,
+          "max": 13440
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.generation_checksum"
+    },
+    {
+      "id": "s68.table7.o4.eager_exact",
+      "value": {
+        "wall_s": {
+          "median": 4.332701404,
+          "min": 4.257849888,
+          "max": 4.521515683
+        },
+        "peak_rss_kib": {
+          "median": 13440,
+          "min": 13440,
+          "max": 13440
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.eager_exact"
+    },
+    {
+      "id": "s68.table7.o4.lazy_filtered",
+      "value": {
+        "wall_s": {
+          "median": 0.351063647,
+          "min": 0.340960395,
+          "max": 0.436127585
+        },
+        "peak_rss_kib": {
+          "median": 13440,
+          "min": 13440,
+          "max": 13440
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.lazy_filtered"
+    },
+    {
+      "id": "s68.table7.o5.overlay_and_intent",
+      "value": {
+        "apply_s": {
+          "median": 0.0017546809976920485,
+          "min": 0.0015391970009659417,
+          "max": 0.00822649100155104
+        },
+        "check_only_s": {
+          "median": 0.0006377500030794181,
+          "min": 0.0005969690027995966,
+          "max": 0.0006671939991065301
+        },
+        "full_verification_s": {
+          "median": 8.037785722997796,
+          "min": 7.535839317999489,
+          "max": 8.231945339997765
+        },
+        "within_worker_check_over_apply": {
+          "median": 0.36345637977402034,
+          "min": 0.08110310933066553,
+          "max": 0.42888207212983015
+        },
+        "peak_rss_kib": {
+          "median": 284368,
+          "min": 284100,
+          "max": 284572
+        }
+      },
+      "denominator": 5,
+      "unit": "worker measurements",
+      "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
+      "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o5.overlay_and_intent"
+    },
+    {
+      "id": "s68.o4.pressure.1_per_mille.mode0",
+      "value": {
+        "wall_s": {
+          "median": 0.614222671,
+          "min": 0.609445705,
+          "max": 1.303269624
+        },
+        "wrong_signs_per_run": 100000,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode0"
+    },
+    {
+      "id": "s68.o4.pressure.1_per_mille.mode1",
+      "value": {
+        "wall_s": {
+          "median": 1.993623098,
+          "min": 1.939950965,
+          "max": 2.895868754
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 100000
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode1"
+    },
+    {
+      "id": "s68.o4.pressure.1_per_mille.mode2",
+      "value": {
+        "wall_s": {
+          "median": 4.365179792,
+          "min": 4.360182064,
+          "max": 6.011147215
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode2"
+    },
+    {
+      "id": "s68.o4.pressure.10_per_mille.mode0",
+      "value": {
+        "wall_s": {
+          "median": 0.617127467,
+          "min": 0.615675266,
+          "max": 0.922363424
+        },
+        "wrong_signs_per_run": 1000000,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode0"
+    },
+    {
+      "id": "s68.o4.pressure.10_per_mille.mode1",
+      "value": {
+        "wall_s": {
+          "median": 2.006737568,
+          "min": 2.004048161,
+          "max": 2.077322559
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 1000000
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode1"
+    },
+    {
+      "id": "s68.o4.pressure.10_per_mille.mode2",
+      "value": {
+        "wall_s": {
+          "median": 4.436731844,
+          "min": 4.402265214,
+          "max": 6.498954521
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode2"
+    },
+    {
+      "id": "s68.o4.pressure.100_per_mille.mode0",
+      "value": {
+        "wall_s": {
+          "median": 0.627570302,
+          "min": 0.626346364,
+          "max": 1.073105461
+        },
+        "wrong_signs_per_run": 10000000,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode0"
+    },
+    {
+      "id": "s68.o4.pressure.100_per_mille.mode1",
+      "value": {
+        "wall_s": {
+          "median": 2.897884456,
+          "min": 2.65128886,
+          "max": 4.102572003
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 10000000
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode1"
+    },
+    {
+      "id": "s68.o4.pressure.100_per_mille.mode2",
+      "value": {
+        "wall_s": {
+          "median": 4.867394768,
+          "min": 4.818794857,
+          "max": 5.246039568
+        },
+        "wrong_signs_per_run": 0,
+        "fallbacks_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
+      "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode2"
+    },
+    {
+      "id": "s68.q39.m5.distance_outside_envelope_ulp",
+      "value": 2403532417,
+      "denominator": 2,
+      "unit": "binary64 representable steps",
+      "scope": "Existing SF10 M5 mutation changes the January mean at warehouse/item (1,259), with exact reference 1093/4.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/Q39-M5-DISTANCE.json",
+      "source_sha256": "e5e3ddb9c05e2f1b6b9a469ca2efd184a496223802a0d1f9c4b84c8eaadc11d7",
+      "replay": "python -B scripts/recount_numbers.py s68.q39.m5.distance_outside_envelope_ulp"
+    },
+    {
+      "id": "s68.spreadsheet.exclusions.no_formula",
+      "value": 903,
+      "denominator": 2000,
+      "unit": "source workbook paths",
+      "scope": "Frozen Calc admission exclusions before formula-cache comparison.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.exclusions.no_formula"
+    },
+    {
+      "id": "s68.spreadsheet.exclusions.frozen_manifest_active_scope",
+      "value": 155,
+      "denominator": 2000,
+      "unit": "source workbook paths",
+      "scope": "Frozen Calc admission exclusions before formula-cache comparison.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.exclusions.frozen_manifest_active_scope"
+    },
+    {
+      "id": "s68.spreadsheet.exclusions.formula_or_package_admission",
+      "value": 45,
+      "denominator": 2000,
+      "unit": "source workbook paths",
+      "scope": "Frozen Calc admission exclusions before formula-cache comparison.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.exclusions.formula_or_package_admission"
+    },
+    {
+      "id": "s68.spreadsheet.missing_recalculated_cache",
+      "value": 1,
+      "denominator": 175517,
+      "unit": "formula cells",
+      "scope": "Residual missing/untyped value after Calc recalculation.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.missing_recalculated_cache"
+    },
+    {
+      "id": "s68.spreadsheet.pass_to_fail_reasons",
+      "value": {
+        "missing_cache": 25,
+        "textafter": 1
+      },
+      "denominator": 26,
+      "unit": "targeted workbooks",
+      "scope": "25 missing-cache cases and one TEXTAFTER case among the 26 original-to-recalculated grading changes.",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -B scripts/recount_numbers.py s68.spreadsheet.pass_to_fail_reasons"
+    },
+    {
+      "id": "s68.q39.exact_threshold_ties",
+      "value": 0,
+      "denominator": 1019995,
+      "unit": "January/February groups",
+      "scope": "SF10 exact rational threshold census over all tested groups.",
+      "artifact_path": "evidence/e7-archived-native-replay-extension-10/packages/tpcds-sf10-q39-exact-threshold/q39-result.json",
+      "source_sha256": "5ac0966c6548a1367e8f6a25757d3e7a56ae0bcb393a7e806b3251d9ce392c08",
+      "replay": "python -B scripts/recount_numbers.py s68.q39.exact_threshold_ties"
+    },
+    {
+      "id": "s68.o5.archived_overlay_writes",
+      "value": 3,
+      "denominator": 100000000,
+      "unit": "sparse overlay rows",
+      "scope": "Archived Table 7 applies three overlays over a 100M-row immutable backing relation and records four intents.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py s68.o5.archived_overlay_writes"
+    },
+    {
+      "id": "s68.ast.negative_controls_rejected",
+      "value": 750,
+      "denominator": 750,
+      "unit": "authored candidate outputs",
+      "scope": "201 shape controls plus 549 equal-cardinality membership, multiplicity and ordering controls.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.negative_controls_rejected"
+    },
+    {
+      "id": "s68.ast.completed_windows",
+      "value": 116,
+      "denominator": 116,
+      "unit": "SQL windows",
+      "scope": "Five fresh full-scale workers per window, TPC SF10 and all publisher ClickBench partitions.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.completed_windows"
+    },
+    {
+      "id": "s68.ast.producer_ns",
+      "value": {
+        "median": 1306511970.5,
+        "p90": 5712460928.5,
+        "max": 27778133971
+      },
+      "denominator": 116,
+      "unit": "nanoseconds",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.producer_ns"
+    },
+    {
+      "id": "s68.ast.validator_ns",
+      "value": {
+        "median": 1468993687.0,
+        "p90": 6542399452.0,
+        "max": 28089994542
+      },
+      "denominator": 116,
+      "unit": "nanoseconds",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_ns"
+    },
+    {
+      "id": "s68.ast.compile_ns",
+      "value": {
+        "median": 9227499.0,
+        "p90": 16518522.5,
+        "max": 56662737
+      },
+      "denominator": 116,
+      "unit": "nanoseconds",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_ns"
+    },
+    {
+      "id": "s68.ast.candidate_ns",
+      "value": {
+        "median": 1053466298.5,
+        "p90": 6036798864.0,
+        "max": 27716701629
+      },
+      "denominator": 116,
+      "unit": "nanoseconds",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_ns"
+    },
+    {
+      "id": "s68.ast.staged_check_ns",
+      "value": {
+        "median": 14039466.5,
+        "p90": 276887298.5,
+        "max": 4894726758
+      },
+      "denominator": 116,
+      "unit": "nanoseconds",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_ns"
+    },
+    {
+      "id": "s68.ast.e2e_worker_peak_rss_kib",
+      "value": {
+        "median": 591414.0,
+        "p90": 1929382.0,
+        "max": 7259456
+      },
+      "denominator": 116,
+      "unit": "KiB",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.e2e_worker_peak_rss_kib"
+    },
+    {
+      "id": "s68.ast.staged_worker_peak_rss_kib",
+      "value": {
+        "median": 607358.0,
+        "p90": 1986870.0,
+        "max": 12374584
+      },
+      "denominator": 116,
+      "unit": "KiB",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_worker_peak_rss_kib"
+    },
+    {
+      "id": "s68.ast.validator_over_producer",
+      "value": {
+        "median": 1.169669458664064,
+        "p90": 2.80284577179249,
+        "max": 10.878050625668546
+      },
+      "denominator": 116,
+      "unit": "ratio",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_over_producer"
+    },
+    {
+      "id": "s68.ast.compile_over_producer",
+      "value": {
+        "median": 0.007115891095082132,
+        "p90": 0.03741045911143629,
+        "max": 0.4268123397008733
+      },
+      "denominator": 116,
+      "unit": "ratio",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_over_producer"
+    },
+    {
+      "id": "s68.ast.candidate_over_producer",
+      "value": {
+        "median": 0.8224574531590447,
+        "p90": 1.0893892431310803,
+        "max": 2.9334007254993866
+      },
+      "denominator": 116,
+      "unit": "ratio",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_over_producer"
+    },
+    {
+      "id": "s68.ast.staged_check_over_producer",
+      "value": {
+        "median": 0.02178180454264813,
+        "p90": 0.19122303847503613,
+        "max": 4.724784444654119
+      },
+      "denominator": 116,
+      "unit": "ratio",
+      "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_over_producer"
+    },
+    {
+      "id": "s68.ast.slowest_validator",
+      "value": [
+        {
+          "suite": "clickbench",
+          "candidate_rows": 77,
+          "lower_boundary_split": false,
+          "lower_peers": 1,
+          "query": 29,
+          "sql_sha256": "4ee16102e16da9236fef04adde5329d0297ad883eed89eaf0192e99c677a7811",
+          "status": "verified",
+          "upper_boundary_split": false,
+          "upper_peers": 1,
+          "producer_ns": 27778133971,
+          "validator_ns": 28089994542,
+          "compile_ns": 12419803,
+          "candidate_ns": 27716701629,
+          "staged_check_ns": 19378992,
+          "e2e_worker_peak_rss_kib": 1919412,
+          "staged_worker_peak_rss_kib": 1952860,
+          "validator_over_producer": 1.010384372884653,
+          "compile_over_producer": 0.00044653578722581965,
+          "candidate_over_producer": 1.000039481335461,
+          "staged_check_over_producer": 0.0006976347662600882
+        },
+        {
+          "suite": "tpcds",
+          "candidate_rows": 1107,
+          "lower_boundary_split": false,
+          "lower_peers": 1,
+          "query": 67,
+          "sql_sha256": "fd33ffe7f31cd116e8f1cc4077bbe927d462b4df94435507b3d49ee3ee40ecac",
+          "status": "verified",
+          "upper_boundary_split": false,
+          "upper_peers": 1,
+          "producer_ns": 20271853246,
+          "validator_ns": 20073149278,
+          "compile_ns": 11077337,
+          "candidate_ns": 19534457073,
+          "staged_check_ns": 24446070,
+          "e2e_worker_peak_rss_kib": 1902764,
+          "staged_worker_peak_rss_kib": 1908972,
+          "validator_over_producer": 1.0038517344156785,
+          "compile_over_producer": 0.0005493788230407147,
+          "candidate_over_producer": 0.9724254259918675,
+          "staged_check_over_producer": 0.001204858422374511
+        },
+        {
+          "suite": "tpcds",
+          "candidate_rows": 620,
+          "lower_boundary_split": false,
+          "lower_peers": 1,
+          "query": 4,
+          "sql_sha256": "97c5894b2651a60ffe18177af6072bc8afd0e50a8f0000699974da771ceeffd3",
+          "status": "verified",
+          "upper_boundary_split": false,
+          "upper_peers": 1,
+          "producer_ns": 11524001593,
+          "validator_ns": 17004205326,
+          "compile_ns": 25252718,
+          "candidate_ns": 16432347077,
+          "staged_check_ns": 12259658,
+          "e2e_worker_peak_rss_kib": 1969824,
+          "staged_worker_peak_rss_kib": 1982060,
+          "validator_over_producer": 1.4801528261483838,
+          "compile_over_producer": 0.0021913150389825707,
+          "candidate_over_producer": 1.430374692611065,
+          "staged_check_over_producer": 0.0010515620608393024
+        }
+      ],
+      "denominator": 116,
+      "unit": "per-window profiles",
+      "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.slowest_validator"
+    },
+    {
+      "id": "s68.ast.largest_candidate",
+      "value": {
+        "suite": "clickbench",
+        "candidate_rows": 99997493,
+        "lower_boundary_split": false,
+        "lower_peers": 4,
+        "query": 33,
+        "sql_sha256": "9716e4333d306e28288ae400aa314b7e075ce627be3d54bc256060d1d9da78a5",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 99997489,
+        "producer_ns": 4709461231,
+        "validator_ns": 7263146504,
+        "compile_ns": 10361371,
+        "candidate_ns": 6177184033,
+        "staged_check_ns": 2905008679,
+        "e2e_worker_peak_rss_kib": 7259456,
+        "staged_worker_peak_rss_kib": 12374584,
+        "validator_over_producer": 1.5609273373629333,
+        "compile_over_producer": 0.002180616876921853,
+        "candidate_over_producer": 1.3305399401019706,
+        "staged_check_over_producer": 0.6194957772219181
+      },
+      "denominator": 116,
+      "unit": "per-window profiles",
+      "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_candidate"
+    },
+    {
+      "id": "s68.ast.largest_boundary_peer_group",
+      "value": {
+        "suite": "clickbench",
+        "candidate_rows": 99997493,
+        "lower_boundary_split": false,
+        "lower_peers": 4,
+        "query": 33,
+        "sql_sha256": "9716e4333d306e28288ae400aa314b7e075ce627be3d54bc256060d1d9da78a5",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 99997489,
+        "producer_ns": 4709461231,
+        "validator_ns": 7263146504,
+        "compile_ns": 10361371,
+        "candidate_ns": 6177184033,
+        "staged_check_ns": 2905008679,
+        "e2e_worker_peak_rss_kib": 7259456,
+        "staged_worker_peak_rss_kib": 12374584,
+        "validator_over_producer": 1.5609273373629333,
+        "compile_over_producer": 0.002180616876921853,
+        "candidate_over_producer": 1.3305399401019706,
+        "staged_check_over_producer": 0.6194957772219181
+      },
+      "denominator": 116,
+      "unit": "per-window profiles",
+      "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_boundary_peer_group"
+    },
+    {
+      "id": "s68.ast.clickbench_q32",
+      "value": {
+        "suite": "clickbench",
+        "candidate_rows": 13172392,
+        "lower_boundary_split": false,
+        "lower_peers": 13172392,
+        "query": 32,
+        "sql_sha256": "d347d85d9c9ed20c99ab9049e3bc4a560f50ca112e1f38731804dbaa462130d7",
+        "status": "verified",
+        "upper_boundary_split": true,
+        "upper_peers": 13172392,
+        "producer_ns": 1735401440,
+        "validator_ns": 2399298520,
+        "compile_ns": 6411030,
+        "candidate_ns": 1911725455,
+        "staged_check_ns": 409877676,
+        "e2e_worker_peak_rss_kib": 1224392,
+        "staged_worker_peak_rss_kib": 1838196,
+        "validator_over_producer": 1.3721280091723613,
+        "compile_over_producer": 0.0037726794304157063,
+        "candidate_over_producer": 1.109816522670426,
+        "staged_check_over_producer": 0.23915014378909202
+      },
+      "denominator": 116,
+      "unit": "per-window profiles",
+      "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.clickbench_q32"
+    },
+    {
+      "id": "s68.ast.max_relative_overhead_window",
+      "value": {
+        "suite": "tpcds",
+        "candidate_rows": 41,
+        "lower_boundary_split": false,
+        "lower_peers": 1,
+        "query": 41,
+        "sql_sha256": "939a111a6503d3a9f75c03f7888224b2537ec04e669ddb9bb3a74ccc7649f93c",
+        "status": "verified",
+        "upper_boundary_split": false,
+        "upper_peers": null,
+        "producer_ns": 35116250,
+        "validator_ns": 385932024,
+        "compile_ns": 14998088,
+        "candidate_ns": 29340348,
+        "staged_check_ns": 7712216,
+        "e2e_worker_peak_rss_kib": 186480,
+        "staged_worker_peak_rss_kib": 190740,
+        "validator_over_producer": 10.878050625668546,
+        "compile_over_producer": 0.4268123397008733,
+        "candidate_over_producer": 0.8302731049714164,
+        "staged_check_over_producer": 0.21662278507415147
+      },
+      "denominator": 116,
+      "unit": "per-window profiles",
+      "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s68.ast.max_relative_overhead_window"
+    },
+    {
+      "id": "s68.o4.native.generation_checksum",
+      "value": {
+        "wall_s": {
+          "median": 0.662537845,
+          "min": 0.66075839,
+          "max": 0.745495833
+        },
+        "fallbacks_per_run": 0,
+        "wrong_signs_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.generation_checksum"
+    },
+    {
+      "id": "s68.o4.native.eager_exact",
+      "value": {
+        "wall_s": {
+          "median": 7.541544296,
+          "min": 7.52442126,
+          "max": 7.699862319
+        },
+        "fallbacks_per_run": 0,
+        "wrong_signs_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.eager_exact"
+    },
+    {
+      "id": "s68.o4.native.filtered_exact",
+      "value": {
+        "wall_s": {
+          "median": 1.742752305,
+          "min": 1.73322441,
+          "max": 1.756874092
+        },
+        "fallbacks_per_run": 21744,
+        "wrong_signs_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_exact"
+    },
+    {
+      "id": "s68.o4.native.pure_binary64",
+      "value": {
+        "wall_s": {
+          "median": 1.443786003,
+          "min": 1.441067694,
+          "max": 1.474748247
+        },
+        "fallbacks_per_run": 0,
+        "wrong_signs_per_run": 0
+      },
+      "denominator": 100000000,
+      "unit": "predicate calls per worker",
+      "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.pure_binary64"
+    },
+    {
+      "id": "s68.o4.native.filtered_over_plain_float",
+      "value": {
+        "median_within_repeat": 1.2048329224360161,
+        "min": 1.1913044111589306,
+        "max": 1.2127368424650842,
+        "ratio_of_medians": 1.2070710627328336
+      },
+      "denominator": 5,
+      "unit": "worker pairs",
+      "scope": "Filtered exact predicate versus ordinary binary64 on identical inputs, with fixed compiler flags and rotated arm order.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_over_plain_float"
+    },
+    {
+      "id": "s68.o5.overlay_3",
+      "value": {
+        "apply_s": {
+          "median": 0.002827008,
+          "min": 0.002772813,
+          "max": 0.003566902
+        },
+        "witness_s": {
+          "median": 0.000858064,
+          "min": 0.000833735,
+          "max": 0.001106096
+        },
+        "verify_s": {
+          "median": 5.501438865,
+          "min": 5.473046704,
+          "max": 5.644692463
+        },
+        "receipt_rows": [
+          4
+        ],
+        "witness_over_apply": 0.3082246006669799,
+        "peak_rss_kib": {
+          "median": 338828,
+          "max": 338936
+        }
+      },
+      "denominator": 100000000,
+      "unit": "backing rows",
+      "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_3"
+    },
+    {
+      "id": "s68.o5.overlay_1000",
+      "value": {
+        "apply_s": {
+          "median": 0.009575174,
+          "min": 0.009284756,
+          "max": 0.009607453
+        },
+        "witness_s": {
+          "median": 0.002112864,
+          "min": 0.002015964,
+          "max": 0.002209211
+        },
+        "verify_s": {
+          "median": 6.496089273,
+          "min": 6.487292507,
+          "max": 6.552073391
+        },
+        "receipt_rows": [
+          1333
+        ],
+        "witness_over_apply": 0.22048779479098762,
+        "peak_rss_kib": {
+          "median": 354340,
+          "max": 354600
+        }
+      },
+      "denominator": 100000000,
+      "unit": "backing rows",
+      "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_1000"
+    },
+    {
+      "id": "s68.o5.overlay_100000",
+      "value": {
+        "apply_s": {
+          "median": 0.581915713,
+          "min": 0.575052819,
+          "max": 1.063339337
+        },
+        "witness_s": {
+          "median": 0.151021388,
+          "min": 0.148244264,
+          "max": 0.283046636
+        },
+        "verify_s": {
+          "median": 77.984143878,
+          "min": 77.935708855,
+          "max": 84.995485027
+        },
+        "receipt_rows": [
+          133333
+        ],
+        "witness_over_apply": 0.2587122050415888,
+        "peak_rss_kib": {
+          "median": 452376,
+          "max": 456328
+        }
+      },
+      "denominator": 100000000,
+      "unit": "backing rows",
+      "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_100000"
     }
   ]
 }

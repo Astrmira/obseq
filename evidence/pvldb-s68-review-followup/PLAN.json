@@ -1,0 +1,33 @@
+{
+  "scope": "ObsEq second-review follow-up, Experiment Plan 6.8",
+  "protocol": "Freeze these rules and the executed code before scoring. Retain complete per-case receipts and report failures and inapplicable arms.",
+  "m1": {
+    "c1": "Reuse the three original F3 WAL-copy, F4 stored-UDF and F5 NULL-start KEEP/CLEAR variants per family, each paired with a legal execution.",
+    "c2": "Replay all 24 frozen executions of the 12 ordered-intervention cases.",
+    "equal_information": "Compare the same contract reference and observed witness using ObsEq, a Python assertion, and one dbt singular data test.",
+    "stock": "Run documented dbt source freshness on available load timestamps and DVC stage status with explicit dependencies. Run lakeFS only if a usable service is available."
+  },
+  "m2": {
+    "variants": [1, 2, 3],
+    "o1": "Compare a captured requested snapshot ID against the ID read inside the transaction actually answering the query. A different generation with an identical output is the fault.",
+    "o2": "Inject a successful data commit followed by process exit before the epoch commit, and an epoch commit followed by a rolled-back data write. Compare against an atomic positive control.",
+    "o5": "Compare a request-layer KEEP against a database-trigger receipt for the actual committed KEEP or CLEAR. The projected state starts and ends NULL.",
+    "controls": "Each family and variant has a same-transaction or same-handle legal control. The predeclared contract is the reference."
+  },
+  "m6": {
+    "suite_scales": {"tpch": 10, "tpcds": 10, "clickbench": "full"},
+    "expected_windows": {"tpch": 5, "tpcds": 80, "clickbench": 31},
+    "repeats": 5,
+    "worker": "Fresh process per query/repetition. Run the original producer and collect its Arrow output, then time the unchanged public validator call. In a separate pass of that worker, time its schema bind/AST compile, a CTAS of the exact candidate relation, and the same checker over the materialized relation.",
+    "scope": "End-to-end validator times recompute the candidate relation. Phase timings use an explicitly materialized temporary table and are diagnostics, not additive to the unmodified validator measurement.",
+    "cache": "No system cache drop. Record warm/unspecified OS cache conditions and process high-water RSS. Retain worst queries and verified candidate sizes from the prior census.",
+    "summary": "Report median, interpolated p90, max across per-query medians and the individual samples, including every failed worker."
+  },
+  "spreadsheet": {
+    "roster": "Use the original A10 observations whose gold file passes self-comparison and has at least one missing-cache formula inside a declared grading range. Choose the lowest lexicographic existing hashed workbook ID per task and first eligible cell by sheet, row and column.",
+    "untouched_control": "Run the unmodified pinned grader on original vs original.",
+    "mutations": "Replace the eligible formula with two different numeric constants as formulas. Because their evaluated values differ beyond grader tolerance, acceptance of both proves at least one invalid result per task, independently of the unknown original value.",
+    "variants": "Run the normal openpyxl save without recalculation. Also splice only the resulting formula cell into a byte-preserved copy of the gold workbook to isolate the edited cell from cache clearing elsewhere.",
+    "privacy": "Keep workbook/task labels hashed. Retain no original XLSX or cell values in the evidence bundle."
+  }
+}

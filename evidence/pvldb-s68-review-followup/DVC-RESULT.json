@@ -1,0 +1,143 @@
+{
+  "dvc": "3.66.1",
+  "observations": [
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "source.db-wal": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 1,
+        "tracked": 1
+      },
+      "expected_output": 101,
+      "family": "F3",
+      "refreshed_output": 101,
+      "stale_snapshot_value": 1,
+      "variant": 1
+    },
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "source.db-wal": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 2,
+        "tracked": 2
+      },
+      "expected_output": 102,
+      "family": "F3",
+      "refreshed_output": 102,
+      "stale_snapshot_value": 2,
+      "variant": 2
+    },
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "source.db-wal": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 3,
+        "tracked": 3
+      },
+      "expected_output": 103,
+      "family": "F3",
+      "refreshed_output": 103,
+      "stale_snapshot_value": 3,
+      "variant": 3
+    },
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "definition.py": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 8,
+        "tracked": 8
+      },
+      "expected_output": 9,
+      "family": "F4",
+      "refreshed_output": 9,
+      "stored_old_value": 8,
+      "variant": 1
+    },
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "definition.py": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 10,
+        "tracked": 10
+      },
+      "expected_output": 11,
+      "family": "F4",
+      "refreshed_output": 11,
+      "stored_old_value": 10,
+      "variant": 2
+    },
+    {
+      "after_change": {
+        "tracked": [
+          {
+            "changed deps": {
+              "definition.py": "modified"
+            }
+          }
+        ]
+      },
+      "after_tracked_repro": {},
+      "before_change": {},
+      "before_repro_outputs": {
+        "omitted": 12,
+        "tracked": 12
+      },
+      "expected_output": 13,
+      "family": "F4",
+      "refreshed_output": 13,
+      "stored_old_value": 12,
+      "variant": 3
+    }
+  ],
+  "sqlite": "3.49.1",
+  "summary": {
+    "cases": 6,
+    "omitted_changed": 0,
+    "tracked_changed": 6
+  }
+}

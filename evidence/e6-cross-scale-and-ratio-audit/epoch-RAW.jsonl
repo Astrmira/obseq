@@ -1,0 +1,16 @@
+{"rep": 0, "arm": "exact", "wall_s": 16.42298786700121, "vmhwm_kib": 306120, "result": [100000000, 0], "duckdb": "1.4.3"}
+{"rep": 0, "arm": "epoch", "wall_s": 0.00021847800235264003, "vmhwm_kib": 52064, "result": true, "duckdb": "1.4.3"}
+{"rep": 0, "arm": "producer", "wall_s": 2.2217940669943346, "vmhwm_kib": 241712, "result": [100, 299991302], "duckdb": "1.4.3"}
+{"rep": 1, "arm": "epoch", "wall_s": 0.00021993100381223485, "vmhwm_kib": 52348, "result": true, "duckdb": "1.4.3"}
+{"rep": 1, "arm": "producer", "wall_s": 2.2250756729990826, "vmhwm_kib": 241892, "result": [100, 299991302], "duckdb": "1.4.3"}
+{"rep": 1, "arm": "exact", "wall_s": 13.998960844000976, "vmhwm_kib": 310756, "result": [100000000, 0], "duckdb": "1.4.3"}
+{"rep": 2, "arm": "epoch", "wall_s": 0.00021875999664189294, "vmhwm_kib": 52276, "result": true, "duckdb": "1.4.3"}
+{"rep": 2, "arm": "producer", "wall_s": 2.2691229970005224, "vmhwm_kib": 241952, "result": [100, 299991302], "duckdb": "1.4.3"}
+{"rep": 2, "arm": "exact", "wall_s": 14.584535433998099, "vmhwm_kib": 316148, "result": [100000000, 0], "duckdb": "1.4.3"}
+{"rep": 3, "arm": "producer", "wall_s": 2.288389681998524, "vmhwm_kib": 241812, "result": [100, 299991302], "duckdb": "1.4.3"}
+{"rep": 3, "arm": "epoch", "wall_s": 0.00022212500334717333, "vmhwm_kib": 52300, "result": true, "duckdb": "1.4.3"}
+{"rep": 3, "arm": "exact", "wall_s": 13.73860310800228, "vmhwm_kib": 306324, "result": [100000000, 0], "duckdb": "1.4.3"}
+{"rep": 4, "arm": "epoch", "wall_s": 0.00021848899632459506, "vmhwm_kib": 52276, "result": true, "duckdb": "1.4.3"}
+{"rep": 4, "arm": "exact", "wall_s": 13.440868151999894, "vmhwm_kib": 307956, "result": [100000000, 0], "duckdb": "1.4.3"}
+{"rep": 4, "arm": "producer", "wall_s": 2.221013612994284, "vmhwm_kib": 242200, "result": [100, 299991302], "duckdb": "1.4.3"}
+{"arm": "control", "wall_s": 12.825061005001771, "vmhwm_kib": 342056, "result": {"irrelevant_column": {"epoch": true, "typed_diffs": 0, "producer_equal": true}, "rolled_back_relevant": {"epoch": true, "typed_diffs": 0, "producer_equal": true}, "committed_relevant": {"epoch": false, "typed_diffs": 1, "producer_equal": false}, "simulated_missed_token": {"epoch": true, "typed_diffs": 1, "producer_equal": false}}, "duckdb": "1.4.3"}

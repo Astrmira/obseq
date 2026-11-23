@@ -1,0 +1,399 @@
+{
+  "https://github.com/duckdb/duckdb/issues/13237": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "aef7bf23622433f828e711cf3feffb9900ffc19a",
+        "url": "https://github.com/duckdb/duckdb/pull/13308"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/duckdb/duckdb/pull/13308"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/16698": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "631b11e9ed4eeb21a9f54d9cf5cdacc58266a007",
+        "scope": "upstream upsert rewrite",
+        "url": "https://github.com/duckdb/duckdb/pull/18480"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/17143": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "631b11e9ed4eeb21a9f54d9cf5cdacc58266a007",
+        "scope": "upstream upsert rewrite",
+        "url": "https://github.com/duckdb/duckdb/pull/18480"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/21207": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/23504": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "7adf7a70bb9a8755d1c3f86aaf52430ff66227b2",
+        "scope": "maintainer-linked",
+        "url": "https://github.com/duckdb/duckdb/pull/23693"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/24363": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "0b2a807bd176400bad26cf8f3eb13ea2efdf1e53",
+        "url": "https://github.com/duckdb/duckdb/pull/24399"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/duckdb/duckdb/pull/24399"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/duckdb/duckdb/issues/8413": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "e469fe12ed508a351265b812b52744b4371a5fb9",
+        "url": "https://github.com/duckdb/duckdb/pull/9242"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/duckdb/duckdb/pull/9242"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/libgeos/geos/issues/1365": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "36d2dcfdea9cf2738dc5a233ee917417511e7945",
+        "url": "https://github.com/libgeos/geos/pull/1372"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/libgeos/geos/pull/1372"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/libgeos/geos/issues/565": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "ff0aedef09cc61dc03853b6132b59471f7cb2781",
+        "url": "https://github.com/libgeos/geos/pull/570"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/libgeos/geos/pull/570"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/46049": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "a8968bfa696d51f73769c54f2630a9530488236a",
+        "scope": "matching kernel fix documented in the 1.5.0 release notes",
+        "url": "https://github.com/pandas-dev/pandas/pull/46431"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/50946": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "82fa27153e5b646ecdb78cfc6ecf3e1750443892",
+        "url": "https://github.com/pandas-dev/pandas/pull/62943"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/62943"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/53464": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "7772f0f247acca10312062acf342f17506baf8ce",
+        "scope": "archive verified release ancestry",
+        "url": "https://github.com/pandas-dev/pandas/pull/53017"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/54380": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "55864a0a2a8833b9b00b17236aa93c1b859051ef",
+        "url": "https://github.com/pandas-dev/pandas/pull/63143"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/63143"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/55254": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "22452174d44fd9821289e823e5d3bce21cd68315",
+        "url": "https://github.com/pandas-dev/pandas/pull/55270"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/55270"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/56134": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "d5bd1f7eb42c1ffa11261be0bf222bf8a99366b1",
+        "scope": "archive-linked",
+        "url": "https://github.com/pandas-dev/pandas/pull/56831"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/56147": {
+    "closing_merged_prs": [],
+    "closing_refs": [],
+    "evidence_linked_merged_prs": [
+      {
+        "merge_commit": "d5bd1f7eb42c1ffa11261be0bf222bf8a99366b1",
+        "scope": "archive-linked",
+        "url": "https://github.com/pandas-dev/pandas/pull/56831"
+      }
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/57911": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "dd6843ddbcef7bd6c9f23ffdd429cf452a96529d",
+        "url": "https://github.com/pandas-dev/pandas/pull/57958"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/57958"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/61841": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "0f9647e3539b578c82bb5aa6f5d2ec9d7b6d6a54",
+        "url": "https://github.com/pandas-dev/pandas/pull/62404"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/62404"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/63219": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "6a0082e2e5233abdf386a7411120ffdb90712d9c",
+        "url": "https://github.com/pandas-dev/pandas/pull/63232"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/63232"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/63920": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "3766a73d48148a2e5621f20fb655929ee3eeac8c",
+        "url": "https://github.com/pandas-dev/pandas/pull/63961"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/63961"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/65446": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "e8c3dac6c08286381ee7e27c6d24effdfe4e4f6a",
+        "url": "https://github.com/pandas-dev/pandas/pull/65864"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/Anjney4/pandas/pull/1",
+      "https://github.com/pandas-dev/pandas/pull/65864"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/65550": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "5e53d27290368fae75f41064820a659930ca2e11",
+        "url": "https://github.com/pandas-dev/pandas/pull/65551"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/65551"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pandas-dev/pandas/issues/66551": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "9fcddfbcad41d4d1cf13e355915a83a95f3e7565",
+        "url": "https://github.com/pandas-dev/pandas/pull/66640"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pandas-dev/pandas/pull/66640"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/12032": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "29539fb00f92b2520e7ccb7e076c431be29ca83a",
+        "url": "https://github.com/pola-rs/polars/pull/12045"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/12045"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/13393": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "c665adf68ef1cf9667796a829f9fd2f89acadd1f",
+        "url": "https://github.com/pola-rs/polars/pull/13412"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/13412"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/20766": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "cb8a7cafc4ed7cfdcd8f2762926b2fb180e56143",
+        "url": "https://github.com/pola-rs/polars/pull/20822"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/20822"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/27272": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "daccd9609351c4371ea5a6d0fb52456cccbe6a21",
+        "url": "https://github.com/pola-rs/polars/pull/27273"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/27273"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/28344": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "61a08f1aff59a89f8272ddb9af73fe23436314ca",
+        "url": "https://github.com/pola-rs/polars/pull/28359"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/28359"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/29630": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "0d75ffe25cee829ef30b2a095a0b4a430fa59f17",
+        "url": "https://github.com/pola-rs/polars/pull/29639"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/29639"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/29788": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "157a9f13c923990060d18e29613efed34396cfbb",
+        "url": "https://github.com/pola-rs/polars/pull/29793"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/29793"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  },
+  "https://github.com/pola-rs/polars/issues/6335": {
+    "closing_merged_prs": [
+      {
+        "merge_commit": "fde2682c46ba753c59a856b733f7a84d99a854f7",
+        "url": "https://github.com/pola-rs/polars/pull/6339"
+      }
+    ],
+    "closing_refs": [
+      "https://github.com/pola-rs/polars/pull/6339"
+    ],
+    "state": "CLOSED",
+    "status": "read"
+  }
+}
