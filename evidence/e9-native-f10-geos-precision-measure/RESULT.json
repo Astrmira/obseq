@@ -1,0 +1,20 @@
+[
+  {
+    "nan_m_count": 1,
+    "positive_grid_last_m": "NaN",
+    "version": "3.13.1-CAPI-1.19.2",
+    "zero_grid_last_m": 7.0
+  },
+  {
+    "nan_m_count": 1,
+    "positive_grid_last_m": "NaN",
+    "version": "3.14.1-CAPI-1.20.5",
+    "zero_grid_last_m": 7.0
+  },
+  {
+    "nan_m_count": 0,
+    "positive_grid_last_m": 7.0,
+    "version": "3.15.0-CAPI-1.21.0",
+    "zero_grid_last_m": 7.0
+  }
+]

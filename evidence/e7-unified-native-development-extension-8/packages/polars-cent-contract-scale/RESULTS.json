@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "decimal_default_accepts": 0,
+    "default_forward_accepts": 82002,
+    "default_reverse_accepts": 82002,
+    "exact_float_accepts": 0,
+    "negative_decimal_default_accepts": 0,
+    "negative_default_forward_accepts": 0,
+    "negative_default_reverse_accepts": 0,
+    "negative_exact_float_accepts": 0,
+    "negative_rows": 9006,
+    "nonnegative_decimal_default_accepts": 0,
+    "nonnegative_default_forward_accepts": 82002,
+    "nonnegative_default_reverse_accepts": 82002,
+    "nonnegative_exact_float_accepts": 0,
+    "nonnegative_rows": 90994,
+    "orientation_disagrees": 0,
+    "rows": 100000,
+    "unchanged_controls": 100
+  },
+  "duckdb": "1.4.3",
+  "known_positive_nontransitivity": true,
+  "polars": "2.1.0",
+  "source_key_cents_sha256": "95d47618429bba7a8fff1e39a33d72543f89391f0ae8e27692f6eed9e61c4cb1",
+  "source_ranges_signed_cents": {
+    "default_forward_negative_reject": [
+      -99992,
+      -12
+    ],
+    "default_forward_nonnegative_accept": [
+      100000,
+      999993
+    ],
+    "default_forward_nonnegative_reject": [
+      0,
+      99987
+    ],
+    "default_reverse_negative_reject": [
+      -99992,
+      -12
+    ],
+    "default_reverse_nonnegative_accept": [
+      100000,
+      999993
+    ],
+    "default_reverse_nonnegative_reject": [
+      0,
+      99987
+    ]
+  },
+  "timings": null
+}

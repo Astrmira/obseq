@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "README.md": "d2c4630d62b7a859f5359dcc61094a7faf5d79981de85e392c32b3a8aa86ab7f",
+    "check.py": "51df2a60d48c9cf8d82e4d9ba2fc41021c78514ecffeba654c8066a4cd756796",
+    "manifest.json": "0d1147f56d851a1657f6d1b65089507808b2d8889bc0a53c247c80c809f9ce87",
+    "result.json": "856cd6e6c46d77f11fa7c2c2ac4bb4d8812b7f0ee81fc7b721ae961c7d6de0d7"
+  },
+  "predecessor": "284bd61509c4216edf9f52d4974e738b164ec42a",
+  "project": "semantic-benchmark"
+}

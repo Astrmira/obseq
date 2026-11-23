@@ -1,0 +1,309 @@
+{
+  "cohorts": [
+    {
+      "day": 2,
+      "invalid_endpoint_guard": 0,
+      "selected": 171149,
+      "strata": [
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 13670,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 2,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 41599,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 2921,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 31,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 8786,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 1539,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 20,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 4533,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 2152,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 6417,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 3,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 9756,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 3,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 81,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 2,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 3,
+          "pickup_candidates": 2,
+          "provider": "HV0003",
+          "rows": 27840,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0005",
+          "rows": 1,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0005",
+          "rows": 24849,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 1,
+          "provider": "HV0005",
+          "rows": 14,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 1,
+          "provider": "HV0005",
+          "rows": 3984,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 2,
+          "provider": "HV0005",
+          "rows": 7,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 2,
+          "pickup_candidates": 2,
+          "provider": "HV0005",
+          "rows": 2872,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 2,
+          "provider": "HV0005",
+          "rows": 3635,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 3,
+          "pickup_candidates": 2,
+          "provider": "HV0005",
+          "rows": 33,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 2,
+          "matching_reported_duration": 2,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 3,
+          "pickup_candidates": 2,
+          "provider": "HV0005",
+          "rows": 16407,
+          "wall_difference_equals_duration": true
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "invalid_endpoint_guard": 0,
+      "selected": 123660,
+      "strata": [
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 0,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 20839,
+          "wall_difference_equals_duration": false
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0003",
+          "rows": 63169,
+          "wall_difference_equals_duration": true
+        },
+        {
+          "dropoff_candidates": 1,
+          "matching_reported_duration": 1,
+          "missing_duration": false,
+          "negative_duration": false,
+          "nonnegative_pairs": 1,
+          "pickup_candidates": 1,
+          "provider": "HV0005",
+          "rows": 39652,
+          "wall_difference_equals_duration": true
+        }
+      ]
+    }
+  ],
+  "duckdb": "2.0.1",
+  "monthly_rows": 20818240,
+  "pyarrow": "26.0.1",
+  "source_sha256": "a17ebafe3b6b1927f9b1b4cfc9062a328867b79a871ce762bfb16a841024f1e0",
+  "zone_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95"
+}

@@ -1,0 +1,73 @@
+{
+  "controls": {
+    "duplicate_bag_reorder": {
+      "canonicalized": true,
+      "exact_bag": true,
+      "exact_native_except_all": [
+        0,
+        0
+      ],
+      "stock": false
+    },
+    "global_reverse": {
+      "canonicalized": true,
+      "exact_bag": true,
+      "exact_native_except_all": [
+        0,
+        0
+      ],
+      "stock": false
+    },
+    "missing_one_duplicate": {
+      "canonicalized": false,
+      "exact_bag": false,
+      "exact_native_except_all": [
+        1,
+        0
+      ],
+      "stock": false
+    },
+    "per_group_rotate": {
+      "canonicalized": true,
+      "exact_bag": true,
+      "exact_native_except_all": [
+        0,
+        0
+      ],
+      "stock": false
+    },
+    "replace_duplicate_same_count": {
+      "canonicalized": false,
+      "exact_bag": false,
+      "exact_native_except_all": [
+        1,
+        1
+      ],
+      "stock": false
+    },
+    "same_key_payload_association": {
+      "canonicalized": false,
+      "exact_bag": false,
+      "exact_native_except_all": [
+        2,
+        2
+      ],
+      "stock": false
+    },
+    "unchanged": {
+      "canonicalized": true,
+      "exact_bag": true,
+      "exact_native_except_all": [
+        0,
+        0
+      ],
+      "stock": true
+    }
+  },
+  "datacompy": "0.16.8",
+  "duckdb": "1.4.3",
+  "groups": 10,
+  "pandas": "2.2.3",
+  "panel_rows": 2048,
+  "source_sha256": "29205553b85cee0eb36a52b0d16ed1a8067ba066ac28d7c2a995a5db371f7061"
+}

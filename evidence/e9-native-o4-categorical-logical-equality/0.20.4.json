@@ -1,0 +1,75 @@
+{
+  "membership": {
+    "False": {
+      "cedar": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          0
+        ],
+        "positive": [
+          true
+        ]
+      },
+      "fir": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          0
+        ],
+        "positive": [
+          true
+        ]
+      },
+      "pine": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          0
+        ],
+        "positive": [
+          true
+        ]
+      }
+    },
+    "True": {
+      "cedar": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          0
+        ],
+        "positive": [
+          true
+        ]
+      },
+      "fir": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          1
+        ],
+        "positive": [
+          true
+        ]
+      },
+      "pine": {
+        "negative": [
+          false
+        ],
+        "physical": [
+          2
+        ],
+        "positive": [
+          true
+        ]
+      }
+    }
+  },
+  "polars": "0.20.4"
+}

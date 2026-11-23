@@ -1,0 +1,307 @@
+{
+  "compact_author_transfer_receipts": {
+    "development": 3
+  },
+  "independent_six": {
+    "authored_cases": 138,
+    "case_channels": 282,
+    "interface": "eab-independent-suite-2",
+    "panels": [
+      {
+        "adjudication_sha256": "3c3b028464d7f9be6f8257f27cad60f0fc128ce62a869e1bfcd60c41ff079775",
+        "authored_cases": 18,
+        "case_channels": 18,
+        "channels": [
+          "DuckDB"
+        ],
+        "input_sha256": "843cf87577e3ddf6d88ae9dfab2dd0949f3f5197b4ad1d83a1682fc10374700c",
+        "panel": "heldout-group-role-and-fold-joint",
+        "prediction_sha256": "0e7a3fb68ef19d22845c71f0be50e170cbffa1440a5b7d7f792784b49d9e7427",
+        "scope": "O3 group provenance / O2 civil time"
+      },
+      {
+        "adjudication_sha256": "1952322273de7091e510708c99300ce4834151d77310b8a621523771f9313fd9",
+        "authored_cases": 24,
+        "case_channels": 72,
+        "channels": [
+          "DuckDB",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "input_sha256": "f3c4d8f0edc537fd9f3922fb4bc2b1a2f7507e52a4579ac1215d0bac3ef14f28",
+        "panel": "heldout-json-presence-and-path-shape",
+        "prediction_sha256": "85fa6837186ead44713191e34dba10031f485163f1e1a21020e6d7507d849d0d",
+        "scope": "typed JSON presence and path"
+      },
+      {
+        "adjudication_sha256": "28b5ba3edb6532873e3b34f57cd335c0fe36cab6db3c11cfb3e1f0e1ddc3785c",
+        "authored_cases": 24,
+        "case_channels": 72,
+        "channels": [
+          "DuckDB",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "input_sha256": "4c1862db300aaa915957701225e7bc3fb692cf9c202f6db764c3fb61c1d158a2",
+        "panel": "heldout-coherent-group-representatives",
+        "prediction_sha256": "929c0c7601e4abf5d03b7fb3ee45e30fcdb0126104d68d787dd73649a63224c3",
+        "scope": "O3 coherent representative"
+      },
+      {
+        "adjudication_sha256": "4e25f2859df3c825a4d5186e12da73e6a73ecf0973e60264e29e1311a795b734",
+        "authored_cases": 24,
+        "case_channels": 24,
+        "channels": [
+          "GEOS and certified predicate"
+        ],
+        "input_sha256": "15517292a5562e086582ba6f6433e9c8d2f6e8238cf55057c7caeac6d183f476",
+        "panel": "heldout-binary64-orientation",
+        "prediction_sha256": "e09edaaef315a14642464f8d9786515615f5e2dc4e54773012432f92b9246f54",
+        "scope": "O4 binary64 orientation"
+      },
+      {
+        "adjudication_sha256": "ce992b12cd7ee0feda1bce6d624c8cba810b149e63821dcc9af105a1fe6308d5",
+        "authored_cases": 24,
+        "case_channels": 48,
+        "channels": [
+          "DuckDB",
+          "SQLite"
+        ],
+        "input_sha256": "6d906fd606fd000aa136516c249da57217087a13d62fadac9a216b2790c583e3",
+        "panel": "heldout-ordered-intervention-receipts",
+        "prediction_sha256": "9a23baca0e2726d9f9608d623acd8d7b9cdf001d47effc95209d9df2e761c35f",
+        "scope": "O5 committed ordered writes"
+      },
+      {
+        "adjudication_sha256": "3e608d84492978b9613380267dd44b3b368f0e72a1d0db464cb4cc63b6f60079",
+        "authored_cases": 24,
+        "case_channels": 48,
+        "channels": [
+          "DuckDB",
+          "SQLite"
+        ],
+        "input_sha256": "b7421e79d5488b7faa9dee89c606750e9471cebc687852ba7534872a3059fa0b",
+        "panel": "heldout-keyed-aggregate-cancellation",
+        "prediction_sha256": "db5fc8152e0695977280fa7f40de4f332c5a53f0843c434a4af1b9fc5a8faa37",
+        "scope": "F7 keyed aggregate cancellation"
+      }
+    ]
+  },
+  "interface": "E7-pinned-integration-1",
+  "narrow_independent_WKB": {
+    "case_channels": 12,
+    "cases": 6,
+    "expected": "SCORES.json",
+    "neutral_scope": "WKB wire encoding and typed shape/span; existing published scored labels"
+  },
+  "newer_six_panel_only_taxonomy": {
+    "F1": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "No int64 loss contract"
+    },
+    "F10": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Orientation is not invalid repair or precision-grid mutation"
+    },
+    "F2": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "JSON absence is not null join semantics"
+    },
+    "F3": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "No independently sealed stale snapshot"
+    },
+    "F4": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Cache controls in transfer only"
+    },
+    "F5": {
+      "eligible_cases": 24,
+      "meets_five": true,
+      "scope": "ordered writes: explicit KEEP/CLEAR/WRITE contract"
+    },
+    "F6": {
+      "eligible_cases": 8,
+      "meets_five": true,
+      "scope": "group role/fold: finite peer-band membership with producer role"
+    },
+    "F7": {
+      "eligible_cases": 24,
+      "meets_five": true,
+      "scope": "keyed aggregate cancellation"
+    },
+    "F8": {
+      "eligible_cases": 10,
+      "meets_five": true,
+      "scope": "group role/fold: finite paired fold contract"
+    },
+    "F9": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Tuple representative is not SQL storage-type drift"
+    },
+    "O3 GROUP BY representatives": {
+      "eligible_cases": 24,
+      "meets_five": true,
+      "scope": "coherent group tuples"
+    },
+    "O3 LIMIT/top-k ties": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "upper bound: group-role cohort has mixed LIMIT, RANK and DENSE_RANK"
+    },
+    "O3 ROW_NUMBER ties": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "No exact ROW_NUMBER-labeled panel"
+    },
+    "O3 coupled choices": {
+      "eligible_cases": 24,
+      "meets_five": true,
+      "scope": "coherent group tuples; overlaps representatives"
+    },
+    "O4 Excel serial": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Original-reader E4 observed data, not an independently sealed E7 panel"
+    },
+    "O4 WKB union order": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Scored binary WKB envelope is not a union-order panel"
+    },
+    "O4 geometry point-set equality": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "WKB has narrow typed 2D shape/span, not general point-set equivalence"
+    },
+    "O4 numeric text": {
+      "eligible_cases": 0,
+      "meets_five": false,
+      "scope": "Orientation decimal-vs-binary is not tested as numerical spelling equivalence"
+    }
+  },
+  "original_independent_interpreter": {
+    "coverage": {
+      "F1": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F10": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F2": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F3": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F4": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F5": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F6": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F7": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F8": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "F9": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O3/GROUP BY representative": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O3/ROW_NUMBER tie": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O3/coupled choices": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O3/top-k tie": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O4/date serial": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O4/equivalent WKB": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O4/equivalent point set": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      },
+      "O4/numeric text": {
+        "accept_legal": 3,
+        "cases": 6,
+        "match": 6,
+        "reject_illegal": 3
+      }
+    },
+    "overall": {
+      "accept_legal": 54,
+      "cases": 108,
+      "match": 108,
+      "reject_illegal": 54
+    }
+  }
+}

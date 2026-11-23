@@ -1,0 +1,3 @@
+[exact] finished physical left join and row-level product
+[right_float64] finished physical left join and row-level product
+left_join_exit=0

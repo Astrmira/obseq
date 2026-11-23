@@ -1,0 +1,167 @@
+{
+  "accept_count": 6,
+  "authored_policy_native_primitives": 4,
+  "case_ids": 6,
+  "decisions": 12,
+  "named_native": 8,
+  "native_decisions": [
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-01",
+      "historical_candidate": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-01",
+      "historical_candidate": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-02",
+      "historical_candidate": {
+        "utc": "2024-03-31T01:20:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "error": "nonexistent"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-02",
+      "historical_candidate": {
+        "utc": "2024-03-31T01:20:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "error": "nonexistent"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-03",
+      "historical_candidate": {
+        "error": "ambiguous"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "error": "ambiguous"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-03",
+      "historical_candidate": {
+        "error": "ambiguous"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "error": "ambiguous"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-04",
+      "historical_candidate": {
+        "utc": "2024-04-06T14:45:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "utc": "2024-04-06T15:15:00Z"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-04",
+      "historical_candidate": {
+        "utc": "2024-04-06T14:45:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "utc": "2024-04-06T15:15:00Z"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-05",
+      "historical_candidate": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-05",
+      "historical_candidate": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "native_candidate_accepted": true,
+      "native_expected": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "reference_candidate_accepted": true,
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-06",
+      "historical_candidate": {
+        "utc": "2031-09-16T03:15:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "error": "invalid_offset"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-06",
+      "historical_candidate": {
+        "utc": "2031-09-16T03:15:00Z"
+      },
+      "native_candidate_accepted": false,
+      "native_expected": {
+        "error": "invalid_offset"
+      },
+      "reference_candidate_accepted": false,
+      "scope": "native_primitive_with_declared_contract_policy"
+    }
+  ],
+  "oracle_agreements": 12,
+  "reject_count": 6
+}

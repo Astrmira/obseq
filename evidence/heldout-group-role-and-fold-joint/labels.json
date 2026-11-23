@@ -1,0 +1,787 @@
+{
+  "E7G01": {
+    "role_bags": [
+      [
+        [
+          null,
+          null,
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          null,
+          null,
+          5,
+          3
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ]
+  },
+  "E7G02": {
+    "role_bags": [
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          null,
+          null,
+          4
+        ]
+      ]
+    ]
+  },
+  "E7G03": {
+    "role_bags": [
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          "A",
+          null,
+          4
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          null,
+          null,
+          4
+        ]
+      ]
+    ]
+  },
+  "E7G04": {
+    "role_bags": [
+      [
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          null,
+          null,
+          10
+        ],
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ]
+  },
+  "E7G05": {
+    "role_bags": [
+      [
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          null,
+          null,
+          10
+        ],
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ]
+  },
+  "E7G06": {
+    "role_bags": [
+      [
+        [
+          null,
+          "x",
+          -3,
+          0
+        ],
+        [
+          null,
+          null,
+          -2,
+          0
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          null,
+          "x",
+          -3
+        ],
+        [
+          null,
+          null,
+          -2
+        ]
+      ]
+    ]
+  },
+  "E7G07": {
+    "role_bags": [
+      [
+        [
+          "B",
+          null,
+          0,
+          0
+        ],
+        [
+          "B",
+          null,
+          0,
+          1
+        ],
+        [
+          null,
+          "x",
+          2,
+          0
+        ],
+        [
+          null,
+          null,
+          0,
+          1
+        ],
+        [
+          null,
+          null,
+          0,
+          3
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "B",
+          null,
+          0
+        ],
+        [
+          "B",
+          null,
+          0
+        ],
+        [
+          null,
+          "x",
+          2
+        ],
+        [
+          null,
+          null,
+          0
+        ],
+        [
+          null,
+          null,
+          0
+        ]
+      ]
+    ]
+  },
+  "E7G08": {
+    "role_bags": [
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "projected_bags": [
+      [
+        [
+          "A",
+          "x",
+          5
+        ],
+        [
+          "A",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ]
+    ]
+  },
+  "E7T01": {
+    "start_utc": [
+      -43,
+      17
+    ],
+    "end_utc": [
+      -33,
+      27
+    ],
+    "joint": [
+      [
+        -43,
+        -33,
+        10
+      ],
+      [
+        -43,
+        27,
+        70
+      ],
+      [
+        17,
+        27,
+        10
+      ]
+    ],
+    "durations": [
+      10,
+      70
+    ],
+    "matching_observation": [
+      [
+        -43,
+        -33,
+        10
+      ],
+      [
+        17,
+        27,
+        10
+      ]
+    ]
+  },
+  "E7T02": {
+    "start_utc": [
+      -13,
+      47
+    ],
+    "end_utc": [
+      -51,
+      9
+    ],
+    "joint": [
+      [
+        -13,
+        9,
+        22
+      ]
+    ],
+    "durations": [
+      22
+    ],
+    "matching_observation": [
+      [
+        -13,
+        9,
+        22
+      ]
+    ]
+  },
+  "E7T03": {
+    "start_utc": [
+      76
+    ],
+    "end_utc": [
+      -23,
+      37
+    ],
+    "joint": [],
+    "durations": [],
+    "matching_observation": []
+  },
+  "E7T04": {
+    "start_utc": [
+      -78
+    ],
+    "end_utc": [
+      -47,
+      13
+    ],
+    "joint": [
+      [
+        -78,
+        -47,
+        31
+      ],
+      [
+        -78,
+        13,
+        91
+      ]
+    ],
+    "durations": [
+      31,
+      91
+    ],
+    "matching_observation": [
+      [
+        -78,
+        -47,
+        31
+      ]
+    ]
+  },
+  "E7T05": {
+    "start_utc": [
+      -40,
+      20
+    ],
+    "end_utc": [
+      -40,
+      20
+    ],
+    "joint": [
+      [
+        -40,
+        -40,
+        0
+      ],
+      [
+        -40,
+        20,
+        60
+      ],
+      [
+        20,
+        20,
+        0
+      ]
+    ],
+    "durations": [
+      0,
+      60
+    ],
+    "matching_observation": [
+      [
+        -40,
+        -40,
+        0
+      ],
+      [
+        20,
+        20,
+        0
+      ]
+    ]
+  },
+  "E7T06": {
+    "start_utc": [
+      -1,
+      59
+    ],
+    "end_utc": [
+      60
+    ],
+    "joint": [
+      [
+        -1,
+        60,
+        61
+      ],
+      [
+        59,
+        60,
+        1
+      ]
+    ],
+    "durations": [
+      1,
+      61
+    ],
+    "matching_observation": [
+      [
+        59,
+        60,
+        1
+      ]
+    ]
+  },
+  "E7T07": {
+    "start_utc": [
+      -60,
+      0
+    ],
+    "end_utc": [
+      -61
+    ],
+    "joint": [],
+    "durations": [],
+    "matching_observation": []
+  },
+  "E7T08": {
+    "start_utc": [
+      -17,
+      13
+    ],
+    "end_utc": [
+      -22,
+      8
+    ],
+    "joint": [
+      [
+        -17,
+        8,
+        25
+      ]
+    ],
+    "durations": [
+      25
+    ],
+    "matching_observation": [
+      [
+        -17,
+        8,
+        25
+      ]
+    ]
+  },
+  "E7T09": {
+    "start_utc": [
+      -9,
+      21
+    ],
+    "end_utc": [
+      -4,
+      26
+    ],
+    "joint": [
+      [
+        -9,
+        -4,
+        5
+      ],
+      [
+        -9,
+        26,
+        35
+      ],
+      [
+        21,
+        26,
+        5
+      ]
+    ],
+    "durations": [
+      5,
+      35
+    ],
+    "matching_observation": [
+      [
+        -9,
+        26,
+        35
+      ]
+    ]
+  },
+  "E7T10": {
+    "start_utc": [
+      -70
+    ],
+    "end_utc": [
+      70
+    ],
+    "joint": [
+      [
+        -70,
+        70,
+        140
+      ]
+    ],
+    "durations": [
+      140
+    ],
+    "matching_observation": [
+      [
+        -70,
+        70,
+        140
+      ]
+    ]
+  }
+}

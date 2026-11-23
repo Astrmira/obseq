@@ -1,0 +1,90 @@
+{
+  "explicit_tie_breaker": [
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        20
+      ],
+      [
+        1,
+        21
+      ]
+    ],
+    [
+      6,
+      1
+    ]
+  ],
+  "linear_extrema_checks": 3600,
+  "native_plan_a": [
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        20
+      ],
+      [
+        1,
+        21
+      ]
+    ],
+    [
+      6,
+      1
+    ]
+  ],
+  "native_plan_b": [
+    [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        20
+      ],
+      [
+        1,
+        22
+      ]
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "shared_receipt_totals": [
+    6,
+    1
+  ],
+  "sqlite": "3.53.1",
+  "unshared_impossible_totals": [
+    6,
+    6
+  ],
+  "valid_exact_points": [
+    [
+      1,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      6,
+      1
+    ]
+  ]
+}

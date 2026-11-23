@@ -1,0 +1,1209 @@
+{
+  "cases": [
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 1,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 2,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 3,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 4,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 5,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 6,
+      "readback": [
+        6.0,
+        6.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 6,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 6,
+      "readback": [
+        6.0,
+        6.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 7,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 3.0,
+      "readback": [
+        3.0,
+        3.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 8,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 3.0,
+      "readback": [
+        3.0,
+        3.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 9,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 10,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 11,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 12,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 13,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 14,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 15,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2.0,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 16,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2.0,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 17,
+      "group": 2,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 18,
+      "group": 2,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 19,
+      "group": 2,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 20,
+      "group": 2,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 21,
+      "group": 2,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 22,
+      "group": 2,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 23,
+      "group": 2,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 24,
+      "group": 2,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 25,
+      "group": 3,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 26,
+      "group": 3,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 27,
+      "group": 3,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 28,
+      "group": 3,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 29,
+      "group": 3,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 30,
+      "group": 3,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 31,
+      "group": 3,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 32,
+      "group": 3,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 33,
+      "group": 4,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(*)",
+      "fid": 34,
+      "group": 4,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 35,
+      "group": 4,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "COUNT(k)",
+      "fid": 36,
+      "group": 4,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 37,
+      "group": 4,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "SUM(k)",
+      "fid": 38,
+      "group": 4,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 39,
+      "group": 4,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        99.0,
+        null
+      ],
+      "semantic_drift": true,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "OGRSQL",
+      "expr": "AVG(k)",
+      "fid": 40,
+      "group": 4,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "UNSET"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 41,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 42,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 43,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 44,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 45,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 6,
+      "readback": [
+        6.0,
+        6.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 46,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 6,
+      "readback": [
+        6.0,
+        6.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 47,
+      "group": 0,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 3.0,
+      "readback": [
+        3.0,
+        3.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 48,
+      "group": 0,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 3.0,
+      "readback": [
+        3.0,
+        3.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 49,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 50,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 51,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 52,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 53,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 54,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 55,
+      "group": 1,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 2.0,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 56,
+      "group": 1,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 2.0,
+      "readback": [
+        2.0,
+        2.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 57,
+      "group": 2,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 58,
+      "group": 2,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 59,
+      "group": 2,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 60,
+      "group": 2,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 61,
+      "group": 2,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 62,
+      "group": 2,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 63,
+      "group": 2,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 64,
+      "group": 2,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 65,
+      "group": 3,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 66,
+      "group": 3,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 67,
+      "group": 3,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 68,
+      "group": 3,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 69,
+      "group": 3,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 70,
+      "group": 3,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 71,
+      "group": 3,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 72,
+      "group": 3,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 73,
+      "group": 4,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(*)",
+      "fid": 74,
+      "group": 4,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 1,
+      "readback": [
+        1.0,
+        1.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 75,
+      "group": 4,
+      "masked": false,
+      "mode": "state-copy",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "COUNT(k)",
+      "fid": 76,
+      "group": 4,
+      "masked": false,
+      "mode": "sql-null",
+      "projected": 0,
+      "readback": [
+        0.0,
+        0.0
+      ],
+      "semantic_drift": false,
+      "state": "VALUE"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 77,
+      "group": 4,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "SUM(k)",
+      "fid": 78,
+      "group": 4,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 79,
+      "group": 4,
+      "masked": true,
+      "mode": "state-copy",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    },
+    {
+      "dialect": "SQLITE",
+      "expr": "AVG(k)",
+      "fid": 80,
+      "group": 4,
+      "masked": true,
+      "mode": "sql-null",
+      "projected": null,
+      "readback": [
+        null,
+        null
+      ],
+      "semantic_drift": false,
+      "state": "NULL"
+    }
+  ],
+  "drift": 6,
+  "gdal": "3100300",
+  "materializations": 80,
+  "numpy": "2.2.4",
+  "sqlite": "3.46.1"
+}

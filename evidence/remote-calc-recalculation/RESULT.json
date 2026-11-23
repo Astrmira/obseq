@@ -1,0 +1,77 @@
+{
+  "control": {
+    "extra_exported_formulas": 0,
+    "missing_or_untyped_original": 1,
+    "missing_original_with_computed_value": 1,
+    "physical_formulas": 2,
+    "value_disagreement": 1
+  },
+  "counts": {
+    "answer": {
+      "all_source_formula_cells": 286739,
+      "equal_typed_cache": 86281,
+      "extra_exported_formulas": 6934,
+      "missing_or_untyped_original": 2389,
+      "missing_or_untyped_recalculated": 1,
+      "missing_original_with_computed_value": 2389,
+      "numeric_difference_within_1e_12": 1515,
+      "physical_formulas": 134920,
+      "signed_zero_difference": 2,
+      "type_disagreement": 44114,
+      "value_disagreement": 620
+    },
+    "input": {
+      "all_source_formula_cells": 209453,
+      "equal_typed_cache": 38233,
+      "extra_exported_formulas": 6889,
+      "missing_or_untyped_original": 795,
+      "missing_original_with_computed_value": 795,
+      "numeric_difference_within_1e_12": 755,
+      "physical_formulas": 40597,
+      "signed_zero_difference": 2,
+      "type_disagreement": 581,
+      "value_disagreement": 233
+    },
+    "other": {
+      "all_source_formula_cells": 0
+    },
+    "total": {
+      "all_source_formula_cells": 496192,
+      "equal_typed_cache": 124514,
+      "extra_exported_formulas": 13823,
+      "missing_or_untyped_original": 3184,
+      "missing_or_untyped_recalculated": 1,
+      "missing_original_with_computed_value": 3184,
+      "numeric_difference_within_1e_12": 2270,
+      "physical_formulas": 175517,
+      "signed_zero_difference": 4,
+      "type_disagreement": 44695,
+      "value_disagreement": 853
+    }
+  },
+  "libreoffice": "LibreOffice 7.3.7.2 30(Build:2)",
+  "source_paths": 2000,
+  "statuses": {
+    "answer": {
+      "formula_or_package_admission": 23,
+      "frozen_manifest_active_scope": 93,
+      "no_formula": 296,
+      "recalculated": 580
+    },
+    "input": {
+      "formula_or_package_admission": 22,
+      "frozen_manifest_active_scope": 62,
+      "no_formula": 606,
+      "recalculated": 317
+    },
+    "other": {
+      "no_formula": 1
+    },
+    "total": {
+      "formula_or_package_admission": 45,
+      "frozen_manifest_active_scope": 155,
+      "no_formula": 903,
+      "recalculated": 897
+    }
+  }
+}

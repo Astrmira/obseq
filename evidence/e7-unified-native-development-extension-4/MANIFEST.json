@@ -1,0 +1,904 @@
+{
+  "cases": [
+    {
+      "case_id": "eab-native-collation-equivalence",
+      "round": 100,
+      "mode": "system",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "deb4ed0b0e2f56349d8bad3d96526dfa7ba590204e5466b72a498ea62a87607a"
+        },
+        "check.py": {
+          "sha256": "97e4112a8f32eb644673a2aa23f6faf1029a7772d15d8dd0fca3561f13af9a63"
+        },
+        "result.json": {
+          "sha256": "28ef5045fe0871629b2f6cd3c13f10fb0e9a406d1050cb384eb309ab370c8d70"
+        }
+      }
+    },
+    {
+      "case_id": "eab-stream-to-storage-write-intent",
+      "round": 102,
+      "mode": "producer-default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "54e8092fce7bf7d0ff3bbd6e6b123b10d7ac289e11c7cb141d0b4f9e28683ab9"
+        },
+        "check.py": {
+          "sha256": "440956a221dc6a134119fd0e87b04d9b470672141418b55b65005c93b33d87cf"
+        },
+        "producer.py": {
+          "sha256": "1c9f8bde1ea421603682a878f23ed4c845218bab7fbddb79cb254ed57c82e253"
+        },
+        "result.json": {
+          "sha256": "16e0996bfd853db1f24852df1493b9341119610bdc4820a6661272ab906e7be6"
+        }
+      }
+    },
+    {
+      "case_id": "eab-fid-keyed-write-intent",
+      "round": 103,
+      "mode": "system",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "aeaa2f0d8da030fd120636077d5ead05443766c1ab3bb2cb950ba0ab1f717a30"
+        },
+        "check.py": {
+          "sha256": "e6c0647822958f6d1c2a16efb84ab2646a31b484efc45f0bfdfeeae393c6efd2"
+        },
+        "manifest.json": {
+          "sha256": "7f6dbf31884349fe20ef08f9264b13ae0de28ba7885e1431380187f0c076dfe8"
+        },
+        "result.json": {
+          "sha256": "fd82d54bf47dfd7e5ceb6fb62b4a73ca74231378e6935a98596ff84a17f112e3"
+        }
+      }
+    },
+    {
+      "case_id": "eab-semantic-snapshot-binding",
+      "round": 108,
+      "mode": "producer-default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "9ff4730a83bd9fd408917e785b9e65abe829bb97125aecd5d3b1b34a6ccc0876"
+        },
+        "check.py": {
+          "sha256": "11eb7a27be27311c95bb05b894f09fc72f0c169d9f8b453b3284f2adefbe3517"
+        },
+        "producer.py": {
+          "sha256": "634396a33f0d8b094bc96d808525d0ac36031c1f87c9b7bd843bfd130a007711"
+        },
+        "result.json": {
+          "sha256": "6d48987d7ee202fda6fa0de084b366fda82806906129f4a03cca6e5d380b512a"
+        }
+      }
+    },
+    {
+      "case_id": "eab-destination-projection-binding",
+      "round": 109,
+      "mode": "system",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "fb2e25b4ed0353fde15b9079911e43a3c322eeccec652cbbc74e3ca0970ad978"
+        },
+        "check.py": {
+          "sha256": "b0a58700dd1b4102aa8fe66a4cd742809afe7813315aa3a98ef2e72a2244ca0f"
+        },
+        "result.json": {
+          "sha256": "422335787f80f31a2a87a0c57437c28b3b599ae35f0be4f8053f9ed27316b036"
+        }
+      }
+    },
+    {
+      "case_id": "eab-geometric-set-equality",
+      "round": 110,
+      "mode": "system",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "37f1a3eae9c198621b3911a8cd887a17a761ad4afcddf0d5279dd0b06e039dd4"
+        },
+        "check.py": {
+          "sha256": "c93b960d17b6f04c72aa9c478f551adfee159ad724a8270c91a2bc0c57415147"
+        },
+        "result.json": {
+          "sha256": "0160315345f2f84ac8dbe548090739b322cbeb6b0af6d725bf06e89148bdf3ec"
+        }
+      }
+    },
+    {
+      "case_id": "eab-typed-lineage-geometry-interventions",
+      "round": 112,
+      "mode": "system",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "5a9d2218fd37fa0117fee61783e8f698c3eb301949d2f12e09ce95f15ca60867"
+        },
+        "check.py": {
+          "sha256": "04e688b2b1fc5be65476dfa966dec28bbd0e174ad7a5f7ed005527b3c54c48d5"
+        },
+        "manifest.json": {
+          "sha256": "3e22b431111ae5e6c0bfb8f71083e6a50031ceb65aabed83ebd446b9e24d95a9"
+        },
+        "result.json": {
+          "sha256": "4560d2fc4a2e79bf67eaa7e5557b8deb48c459084b2e378a71d6c07576c6bc2c"
+        }
+      }
+    },
+    {
+      "case_id": "eab-workbook-dst-authority",
+      "round": 116,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "e125f8ef3b83f63fe9c2bcbc25b36658fa7c51b6582162f8b56bce11295645e8"
+        },
+        "check.py": {
+          "sha256": "53687eb1165f956924f285b9c0b31725e02f484e4b40f64b8a94eb8d544869ca"
+        },
+        "manifest.json": {
+          "sha256": "a2e955a9c33832e85fabd0d91176875d164c2e6e8e4ffe954641944e7838e58e"
+        },
+        "result.json": {
+          "sha256": "913f4b93bd156e45b8d2d639bb4b1414966c3028ca5d61b0c961fd3aace97447"
+        }
+      }
+    },
+    {
+      "case_id": "eab-immutable-calendar-recurrence-anchor",
+      "round": 117,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "245599790c73fb6c3db696d93869b14233985445d24f9a1a71aafaa59ad5a9da"
+        },
+        "check.py": {
+          "sha256": "b7125039db126370bf35e2a815664dcb545f3a3b50b55644417122cd3f5adf5f"
+        },
+        "manifest.json": {
+          "sha256": "71f6aa7250bc41616008d88e4b7ee5d7d64ef66db3ba4f7e2a44969e8aa2ae5f"
+        },
+        "result.json": {
+          "sha256": "07792e1c18c74400bf63147fcc03beff4d4365afc47b314a70f21851f5d8f968"
+        }
+      }
+    },
+    {
+      "case_id": "eab-cascade-lineage-closure",
+      "round": 118,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "1c2669c1ac9e847a17a8cff23a82e525f525ddc3f2ceab1ce84c55847ff9e5b0"
+        },
+        "check.py": {
+          "sha256": "11c4155f038ac9d613b033bc0f823266c47be1b0745268a4c2230a13051de466"
+        },
+        "result.json": {
+          "sha256": "dd3b7795a959444b490014db80f100fa2e0a1fa2bc6e17f854957501691c52d7"
+        }
+      }
+    },
+    {
+      "case_id": "eab-sql-allowed-result-families",
+      "round": 119,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "bafc47f2e412d49281054fd3e6dcb46672f37c7c0460f128ed656e023167e3a2"
+        },
+        "check.py": {
+          "sha256": "bca28bfa5f94e820e87ef62ea63e69d86a195bec58beb1da77682f5bc89ec265"
+        },
+        "result.json": {
+          "sha256": "b632d21b9a6f69f7a3361394daa8bdf1c2c6a115a2bcfa6e19935684127ef5e7"
+        }
+      }
+    },
+    {
+      "case_id": "eab-coupled-sql-allowed-family",
+      "round": 120,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "02fe32f7240170bdceec3435eea1bb9130b586990c0da650d1ffe8ac07dd362b"
+        },
+        "check.py": {
+          "sha256": "d8fad98eaa1528fc1299873613d8751cf62d9ddc95278eaff5a940fdf40987e7"
+        },
+        "result.json": {
+          "sha256": "226b0add247cf51153d7f3811f36a6b7961301bf388d6566ffa84c9fb1e82944"
+        }
+      }
+    },
+    {
+      "case_id": "eab-typed-sql-group-representatives",
+      "round": 121,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "3751a10914cda3e2bd34b7753fdd7c1970bb9500bb74b39d971389a6d39234a7"
+        },
+        "check.py": {
+          "sha256": "f1ead8c8434a989731b2bfd1a1ec39d6e49dfae6aae470a1dde378905de499ad"
+        },
+        "result.json": {
+          "sha256": "6347255325201a1ae6ae63df9bbc43afb07daa44ee5a48ffe03823306a3da4ae"
+        }
+      }
+    },
+    {
+      "case_id": "eab-sqlite-transactional-snapshot-binding",
+      "round": 123,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "d67feb352a678d8081b2bfc637cbb0f96a67ca1baf754a88a3a5c80dd9fef1f8"
+        },
+        "check.py": {
+          "sha256": "773d58e792ef861ae742d7418142ee804bbad5fc37caa033b0549fb645aeff4b"
+        },
+        "result.json": {
+          "sha256": "7548aab000a9c8d858c2667a029c214a2942c75195c5e587dd2bf932806c6c8d"
+        }
+      }
+    },
+    {
+      "case_id": "eab-sqlite-semantic-dependency-binding",
+      "round": 124,
+      "mode": "default",
+      "kind": "native_authored_development",
+      "blobs": {
+        "README.md": {
+          "sha256": "42e0236182e9cd08409af58497b94c676db10760e99947ea6fcc43a98cb16f8a"
+        },
+        "check.py": {
+          "sha256": "296018ff323b38fe87a344fd3fe9b3c1e73a678beda16fe72aef58744b3a9152"
+        },
+        "result.json": {
+          "sha256": "c9b0197f03c5fc89b4b28cc8a0e8d9749fdade74b9e7ba1643d33eedb04e9172"
+        }
+      }
+    },
+    {
+      "case_id": "compact-native-conformance-corpus",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "result.json",
+      "blobs": {
+        "spatial.py": {
+          "sha256": "a95bebeef19e405a247775e9df32fcb9654547a71a7a1b1b1af80bc9f55f5a58"
+        },
+        "run.py": {
+          "sha256": "36496ce90987bed1d7c3c8227b07a2f9216b2bb7621fefa11096e38f35d4be08"
+        },
+        "result.json": {
+          "sha256": "4c06b9f973209a74cde7abaf4a7afb36956f83a079c1d28514a12aa1d00e32e2"
+        },
+        "rank.py": {
+          "sha256": "4ff978186ccb76de7c771376a520916e46e22aa137d3a2082435b341c19a084a"
+        },
+        "manifest.json": {
+          "sha256": "85ad7af95966039a353de67c79d1ae43222686091e163e100cd08d773a53b62e"
+        },
+        "README.md": {
+          "sha256": "c7c354dcb0446f4cfc053647c364f752a9f8e56b11e8ca186368a90bccfd3a9a"
+        }
+      }
+    },
+    {
+      "case_id": "cross-adapter-contract-transfer",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "result.json": {
+          "sha256": "14ed85a702acb657eaaead99c214660be1903e830595256c601e19f84a1a1220"
+        },
+        "oracle_contract.py": {
+          "sha256": "b7d01df28d38e78bccdd0bb3deefee26a289fde5301932f00b85029530644297"
+        },
+        "manifest.json": {
+          "sha256": "bbb8753e3c12238a387d0fd912bebcfac84d9a3e683275896593e5fd1ba57a4c"
+        },
+        "check.py": {
+          "sha256": "d9a6126c13c7c39cfaa5222e79fe8afad5efc976a5ce784bd6e9519edc73a6e2"
+        },
+        "README.md": {
+          "sha256": "dffdab655c69483d6feec2f97b67de4a689604a8971d31505c7efb6bdd19534f"
+        }
+      }
+    },
+    {
+      "case_id": "native-contract-harness",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "result.json": {
+          "sha256": "b04a7f267a0373cc902eec91adb1b80f9242a55a45e6b71820e3f6a4e6a51612"
+        },
+        "manifest.json": {
+          "sha256": "33c3fdc3e8e12921cf755e74dee6428a9dd5366dcf7c32ed35ef08ab713e5e49"
+        },
+        "check.py": {
+          "sha256": "9400c644421883c93d132c2ea1bcc6a6cb773a0fdc2f2b07171bced8e45e8217"
+        },
+        "README.md": {
+          "sha256": "849e23712b74d6ba1f53284a06d4e207b11159361a9c36ed7a27406063683eb0"
+        }
+      }
+    },
+    {
+      "case_id": "external-native-corpus-admission",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "0ee3aff7f6fa18a2768dc236b8c6f1b2efe063f2cd5f6954f1476c4345275662"
+        },
+        "check.py": {
+          "sha256": "8253fd5f8bb7bb68f4d2e83b9046a8d9606e248741981337ee38197c03e7ab5d"
+        },
+        "result.json": {
+          "sha256": "491f826a0bdfd62bbdf83a8948951e487d3a23841675f88f9d294524dd7765d7"
+        },
+        "selection.json": {
+          "sha256": "d86a6213d095060ac420cccbc18e04733c1837596f16b8218c928d99590cc525"
+        }
+      }
+    },
+    {
+      "case_id": "crs-relative-clearance-certificates",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "c489290ff18f924342b41712c098be4a33dbf5ecb6039e39e8cc41a8779cf61b"
+        },
+        "SHA256SUMS": {
+          "sha256": "04e882ba3a94e7b4cef1ea9408e8beca516fe13b2ff142628f27cdba57d87ede"
+        },
+        "check.py": {
+          "sha256": "b0cfd86d83f17efd485ddd6c7fe9fa7ba2afbc809b8726718e615180fee5ddad"
+        },
+        "oracle.py": {
+          "sha256": "16ac90b465d9cb56f0dddce72ff5d574a2179eab6d307b820964b58588ab6c70"
+        },
+        "policy.json": {
+          "sha256": "03fe9a823c6f85f85b72f68ba3a08f854a070899caccda2e35bb1927d86b3906"
+        },
+        "raw.py": {
+          "sha256": "02b2787329ef7c219be042a5cc67057948cc0d579a89b32716da33f721e55ba8"
+        },
+        "result.json": {
+          "sha256": "7464542d5461b772363dda9b0f92782a8fbaa8d4e0ad32ad4ad045cdac72bab2"
+        }
+      }
+    },
+    {
+      "case_id": "crs-round-trip-boundary-identity",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "6ca6407c718dbf61f06feee5081c520731f386d2c87d14eb3e49e345cf173bcc"
+        },
+        "check.py": {
+          "sha256": "da4a735affde02c80205cef2f1e36774900d8467ce6253a3fcba57f168d4d146"
+        },
+        "oracle.py": {
+          "sha256": "16ac90b465d9cb56f0dddce72ff5d574a2179eab6d307b820964b58588ab6c70"
+        },
+        "policy.json": {
+          "sha256": "4915b05a3bb5ff835f0f23c500c0207c131201656afc16c317620635cb1def92"
+        },
+        "raw.py": {
+          "sha256": "02b2787329ef7c219be042a5cc67057948cc0d579a89b32716da33f721e55ba8"
+        },
+        "result.json": {
+          "sha256": "61531fc92c67fe9b7371f9057eca1ed3606b50e0d782f582b72b1c8888978435"
+        }
+      }
+    },
+    {
+      "case_id": "partial-refresh-epoch-granularity",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "210a67296d64669bf2252a3e85526815490221bfbf24b4ce04a1fafa5183cebe"
+        },
+        "check.py": {
+          "sha256": "d43f6a87d26a36eb2f99f6ec9497b22174d9bb29051dddbeb8b179e414713971"
+        },
+        "manifest.json": {
+          "sha256": "c5a929ced9e3b80f4cccf180b4cf81e2d986ffcab098a42346e1ed7ddae8f21f"
+        },
+        "result.json": {
+          "sha256": "caad88f6bd5e0767c3011f5c9f1b1e36498a69be680d1be2fc03428e5cc48b6d"
+        }
+      }
+    },
+    {
+      "case_id": "external-native-hole-containment",
+      "kind": "native_external_transfer",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "e60acb67efce6bbff782922b7551c6af438a9e2cb3da19e727bf7f66a7cbe638"
+        },
+        "check.py": {
+          "sha256": "6b3aa57cc1e175526fb07087948aba87a59ea03bf288af2b4129db8a64b75792"
+        },
+        "oracle.py": {
+          "sha256": "4b837ea3529e2bf844604783044173c8ff2183844fe99e6e86b0c31528dfc097"
+        },
+        "policy.json": {
+          "sha256": "283ecd7f95ab7997f869f4b0c9cbf1dc23927c8de8f1a13e79e9283ec74ecb26"
+        },
+        "raw.py": {
+          "sha256": "02b2787329ef7c219be042a5cc67057948cc0d579a89b32716da33f721e55ba8"
+        },
+        "result.json": {
+          "sha256": "4659d04d6851dc087e6ae36eb59e41e9e57e011dbcfe4f341c1e5f9d0b415e11"
+        }
+      }
+    },
+    {
+      "case_id": "external-native-planar-containment",
+      "kind": "native_external_transfer",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "README.md": {
+          "sha256": "0c21330d3ca3ec65ef289c0f0235550e5a9b54dbd09c9f4a091031475b70f704"
+        },
+        "check.py": {
+          "sha256": "2d5f8bd98c1ccff7e6cb7764c3288435c437607b20a9e9c75e630a35475a25d6"
+        },
+        "policy.json": {
+          "sha256": "73892658a85a44f18c5adba25727e8912f7d4bb9407ef513c992c4175023a8e7"
+        },
+        "raw.py": {
+          "sha256": "02b2787329ef7c219be042a5cc67057948cc0d579a89b32716da33f721e55ba8"
+        },
+        "result.json": {
+          "sha256": "a73d4a8412eb9ac8c50091b7265c1ea050b2693cc62a4a09f757c015d4e1cc12"
+        }
+      }
+    },
+    {
+      "case_id": "selective-interval-peer-matching",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "blobs": {
+        "PLAN.json": {
+          "sha256": "7d0b2ee1534363f158f118f80de519301c7b039a38e6b185e389f15309a27b75"
+        },
+        "PLAN.sha256": {
+          "sha256": "9eb37b6832fa90dbd0790eb698bad7254a513edab2667e892151fff78cf50227"
+        },
+        "README.md": {
+          "sha256": "e026aa704cb4cf6404115d8e9ba137af7be0def2befc5b68949424ff9b1c9fb3"
+        },
+        "SHA256SUMS": {
+          "sha256": "3b62386e47963e90aef49f359e19e9245e6b33b4de39662b336c8949ef845268"
+        },
+        "check.py": {
+          "sha256": "f84eab3ebcf85991215301e7491aa24bb17823c77401887d44acb074b890c1ad"
+        },
+        "result.json": {
+          "sha256": "d9d93319cbf2f93a9257b578d0ee057aab79f302fd706e424736d799137337d0"
+        }
+      }
+    },
+    {
+      "case_id": "exact-orient2d-native-100m-scale",
+      "kind": "receipt_only",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "blobs": {
+        "COMPILER.txt": {
+          "sha256": "8054c6879046741744cebffe520ce8f1c8e09315d3d197a0fd9484307bce85ab"
+        },
+        "LABELS.sha256": {
+          "sha256": "988a2c8bc82e73f6c35365d83695ab233d3c28d1bcc3f5ff7e788a0431692722"
+        },
+        "PLAN.md": {
+          "sha256": "1fb95ba7b14121b5dc9febec456971d45869296950fdeaae2606e7a3f2d12017"
+        },
+        "PRE.sha256": {
+          "sha256": "51bbbc77bf255557ff3623889886b76a5894894372d9348e857ac14db0124d7a"
+        },
+        "RAW.csv": {
+          "sha256": "fb308daea05ab8588588483bd4c31631c14d52058e0d6d639bf7cb85aa30e836"
+        },
+        "README.md": {
+          "sha256": "eab4a7b76de40523ebc658d35c243715adee3b5c6b533dc5acec4471c2ab1b5b"
+        },
+        "RESOURCE.txt": {
+          "sha256": "9b1c862d4f9a3f43fd4d488c1e880e71b8d2f3f54e73dece04d0a01fa50e1037"
+        },
+        "RESULT.json": {
+          "sha256": "a582ec5fe5d3ba9708baef13034e8c957d96944e712bd3a415d48b35d01a09a5"
+        },
+        "SHA256SUMS": {
+          "sha256": "801037148ca8d5a4bcd8933b6457d1ff2a192fa9f3a1bd20cf49ec720b2d0094"
+        },
+        "check.py": {
+          "sha256": "62e4846d4ae083be477ac9e751bae3c5bf408f84fabd3a9a9468a419a7aeae36"
+        },
+        "run.cpp": {
+          "sha256": "08ac0589afc496c1b4c900f8ff6e06a6c9b971261179545e075c7579f28053bf"
+        }
+      }
+    },
+    {
+      "case_id": "pipeline-typed-null-join-isolation",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": "producer.py",
+      "producer_mode": "system",
+      "blobs": {
+        "README.md": {
+          "sha256": "9070bcf6323c4c2f72c9c34d90cb9bd646b4cbdc528e072ac6cfa69c445a7c28"
+        },
+        "check.py": {
+          "sha256": "87f7a59a5c1fc2a94476aafecd8dcbd66a82e6caa83eac7a1a304e42c74407fa"
+        },
+        "producer.py": {
+          "sha256": "3cef2cd227814f58535474b91f21d7b0f8a9fe76590f4ff2dd0683d24f6e4b48"
+        },
+        "result.json": {
+          "sha256": "0d2c9dd4c10b67dfbbee3b49f34b32cb85683ef85405804abf6858f1a7cada06"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "pipeline-engine-semantics-oracle",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "2d09525563142916240d14b43ae500084cc4789890c8c8dcfa0617e20c8d2a9f"
+        },
+        "check.py": {
+          "sha256": "f9ed336571dc83d768436167f505973539d5a94acff0d0106cd4e7e987d61479"
+        },
+        "result.json": {
+          "sha256": "e717f7c4d3bb318095763d68f7c53660300789a362fe57bd9316d3c65b85423a"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "pipeline-native-transport-semantics",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "ae6ae4b2aa866956ea37aa83495b68545896f4daaa2435685b05007bc0cb8f3a"
+        },
+        "check.py": {
+          "sha256": "6cb8e0a99dd50252c457e4db2dc8f0855a63012314b4bda0ac25ee2a3bffba5f"
+        },
+        "contract.md": {
+          "sha256": "80e7ce26903b4d69d6ee06323478c7ed22e1db4bfdb26d73f1901b7734e7e8fb"
+        },
+        "result.json": {
+          "sha256": "63195edbc9f6b78c71842b7bfd6dec5c97d4c31f14d15b6ad3914c50c194692c"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "pipeline-native-write-intent",
+      "kind": "native_authored_development",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "2f55094b2ff01dc64f9aa3f7e920599a45b20fd6adb28debca0d7717c8d4ae22"
+        },
+        "check.py": {
+          "sha256": "0f9c62807bae0405862168d77270eb1b5ff584c0a644b028c496f3c459eb1f45"
+        },
+        "result.json": {
+          "sha256": "4a672a27533692a2e85dc47f1dbfd1fe8d5665fcd6c826c0a73e075efcefa761"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "eab-composed-semantic-receipt",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": "producer.py",
+      "producer_mode": "system",
+      "blobs": {
+        "README.md": {
+          "sha256": "90d6d075ad7977aebdc489098513f724ca9bd4bb9538c91db5a916b85c55d37f"
+        },
+        "check.py": {
+          "sha256": "0ac2c12f4bd8785742a068e8120f26191cc62f26a0e2a5c181c256a7443ea4f0"
+        },
+        "manifest.json": {
+          "sha256": "46b433d18818527c544f7577ecee70a4968a411b18c2de6c2eadca99ff25b67d"
+        },
+        "producer.py": {
+          "sha256": "0f4564df921d31adf0f2139cb8ec52353bb0e6afdaf0df98ca8c2348b518740f"
+        },
+        "result.json": {
+          "sha256": "6f3ff4c5bc596273cc83164f792ac38f84f34d53116af4a370f0af879f4f9002"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "eab-receipt-independent-observables",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "native_consumer.py",
+      "expected": "native.json",
+      "producer": "native_producer.py",
+      "producer_mode": "system",
+      "blobs": {
+        "README.md": {
+          "sha256": "389f231a8722d0a4aa31d41ea2696116a7cf45aa8bfb954da2a1c0ec71209384"
+        },
+        "check.py": {
+          "sha256": "2f7b0a0623dc10f8a64380028f640847aa3b1da2da877081f4d0125c0582a88d"
+        },
+        "contract.json": {
+          "sha256": "fcd85a77579a1c126b98e32968af0576fa173a998a7b0b5baaae0b15a112e10c"
+        },
+        "manifest.json": {
+          "sha256": "15d39c85bf3be6a9d301396570c9687658a94474e4213c19973cc6eba88b523b"
+        },
+        "native.json": {
+          "sha256": "8c17ce460fa3d9843a986870fbf80481dba81c5f064ed2bacfd0b13c3ab28903"
+        },
+        "native_consumer.py": {
+          "sha256": "9302c75773491d19044c5b98c0ad7bbdb817a64470ff69e95efc8aa5889673e7"
+        },
+        "native_producer.py": {
+          "sha256": "33f807787773cd19f2c9cb42e71f2b3743882ef643892f3e8c71ccdee8fafd6f"
+        },
+        "result.json": {
+          "sha256": "6496a4ad1f1819ab3d31572846264956309187de8258e8b0351274c1a561441e"
+        },
+        "versions.json": {
+          "sha256": "a11f15a4693bad8deacf25f017c50b28db4a9b89a76928f09aa7fcee100c6639"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-stream-dimension-completeness",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "1153c7216dd3b531fd8d78dfa5132dddf2450bcc3b20822117cdc9ad816b39d7"
+        },
+        "check.py": {
+          "sha256": "a6657465cbe1c18d1413637f922c55e0517d6867c3bf2cb677b24b1ec30e7ab8"
+        },
+        "result.json": {
+          "sha256": "f109e6a4c00f660dcea39b5120c62b4b995f4cff0cb14c4fcc8152f51e4c0303"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-general-numeric-token-fidelity",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "d4b3f6670f8cbb7d7971ea707349e6f1b34f4d59d319d49cb14f5d345cca3c85"
+        },
+        "check.py": {
+          "sha256": "1c815e6037d72edf4a2ccde029b12e389600201e92f64667ea28a0061b918bdb"
+        },
+        "result.json": {
+          "sha256": "f3f96fc7eb161db8afe5c30a9c0c41d274be6ce7f85622532ee38abcad02bf3f"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-binary64-token-inverse-fiber",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "51b87761cb5b46f0dc34018e99997c091005c281bc7ba09abcee36d2393f434d"
+        },
+        "check.py": {
+          "sha256": "ec66c5a915a2cd02ca0301eecd3abb0dd7ac58ab326e800831a071ec7c08f9db"
+        },
+        "result.json": {
+          "sha256": "e013b71497107e778de6ba91f09b9a2a44bb1582d51f8ad5568b5e0e0d6328cc"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-named-formula-copy-resolution",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "9540650d2e109efaf9cbf6724cbd5e068c5e101d039904a5b5402c2a5beeda10"
+        },
+        "check.py": {
+          "sha256": "67d62ba45f1a84a9763a52b843f6831a918100c20c806631f5bbc4cf54dd1049"
+        },
+        "consumer.json": {
+          "sha256": "44e68c830f9529c4008172aedbc79674aef03a86f333463db7dabe0b6e4d77dc"
+        },
+        "result.json": {
+          "sha256": "0f14e65b21813cbc6aabcad114a5c8e395beb0aab99b826a3ef3c13daeb8fb91"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-structured-move-preflight",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "6cc0b87262b4765e713f9037a2ea0164cd919377f6538c528ff5ad8bfaea1b0a"
+        },
+        "check.py": {
+          "sha256": "a3267c0291ae23cc503f1b07e4a62d7722bfd1b73265118a7ee5c235bc15eb3e"
+        },
+        "result.json": {
+          "sha256": "b9ff45f23967f83269069a4bbcdeecc3391d144d6b6c6e246a585561fedd805f"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-staged-structural-preflight",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "98cb18e6d991cfe05504185519feabbd7eb565f90154b65473d4bf659b794d1d"
+        },
+        "check.py": {
+          "sha256": "0264f3f0b02372ff44a65dde245ef4dd7b2e5d5dc1fab7a68a87c458cc78d202"
+        },
+        "result.json": {
+          "sha256": "6b821a6966bd072bdafa0f012ea0a0b6a555e223a920f2076d31af2a35e1aae9"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "workbook-print-title-native-consumer",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "5cb7cd31fa2a4c51980081739f63544cce6488d86866230b4196fca71b3f388a"
+        },
+        "check.py": {
+          "sha256": "137d6708d3834646c1e94e9bd12c2e78c062e00b742fdac96fd8758e16777d7d"
+        },
+        "consumer.json": {
+          "sha256": "e351679665dc9fc123a6a92a737396800293bcc98dff12942d6e93f21d94694e"
+        },
+        "result.json": {
+          "sha256": "be47dffb0ab3d8358bf16d474063d93d5773dd2a78b4510c83955cd82d0d6674"
+        }
+      },
+      "extension": 4
+    },
+    {
+      "case_id": "whole-multipolygon-point-admission",
+      "kind": "native_external_transfer",
+      "mode": "system",
+      "entry": "check.py",
+      "expected": "results.json",
+      "producer": null,
+      "producer_mode": null,
+      "blobs": {
+        "README.md": {
+          "sha256": "f4c7d97efe46798582ccf4b0f2692d9d7778c23a769b5a651fc1b40bb1bd5583"
+        },
+        "check.py": {
+          "sha256": "8c09794d84c25946248126d69eb33dc54c0cb1679ddf4f18d51ca7e631e3812d"
+        },
+        "oracle.py": {
+          "sha256": "4b837ea3529e2bf844604783044173c8ff2183844fe99e6e86b0c31528dfc097"
+        },
+        "raw.py": {
+          "sha256": "02b2787329ef7c219be042a5cc67057948cc0d579a89b32716da33f721e55ba8"
+        },
+        "results.json": {
+          "sha256": "21e24b2e535ffcf5d1cfc03add225fc44a6fc574ee051536f264ec0708a04c6d"
+        }
+      },
+      "extension": 4
+    }
+  ]
+}

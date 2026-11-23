@@ -1,0 +1,10 @@
+{
+  "catalog": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+  "original": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2025-11.parquet",
+  "content_length": 507485661,
+  "etag": "e25c623ec4c89dec708e7fa6f84d518b-97",
+  "time_field_physical_type": "INT64",
+  "both_time_fields_parquet_logical_type": {"Type":"Timestamp","timeUnit":"microseconds","isAdjustedToUTC":false},
+  "trip_time_arrow_type": "int64",
+  "observed_authority": "official catalog + original object pinned by Content-Length and SHA256; Parquet physical and logical fields checked from original footer"
+}

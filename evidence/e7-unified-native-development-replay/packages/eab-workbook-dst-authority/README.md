@@ -1,0 +1,9 @@
+# A calendar corpus must distinguish civil wall labels from bound instants
+
+Manifest v1 declares a civil zone, occurrence selector, explicit reject-on-gap policy, POSIX-second instant representation and separate wall/instant equivalence. An authored holdout contains two identical repeated New York wall times with opposite selectors, a nonexistent time, adjacent unique times and a local-vs-UTC date boundary. The golden UTC values are independently declared in the manifest. Candidate generation is evaluated in actual pandas timezone localization and independently checked using both zoneinfo fold possibilities with reverse-localization validation. The pandas boolean is treated only as a way to enumerate candidates here, not as a generic map from fold or earlier/later. The actual timezone providers/version binding and the zoneinfo data-file digest are recorded.
+
+Native openpyxl writes and streams the wall clock as Excel datetime cells and the occurrence as a distinct typed text field. The actual pandas-resolved instant and disposition are persisted as native SQLite values and queried by stable ID. The two repeated labels decode identically but bind to instants 3,600 seconds apart. Dropping occurrence and choosing earliest silently misbinds FID 12; gap rejection works regardless. The row intended to be on November 2 local is on November 3 UTC, demonstrating why grouping must name its wall or instant domain.
+
+A reusable corpus must freeze zone rule identity, wall label and occurrence, not merely a spreadsheet date serial or formatted time. Rejection is a typed outcome rather than an arbitrary shifted-value substitute. This is historical authored North American data only, with no extrapolation to future rule changes, leap seconds, or other calendar systems. No Excel recalculation, latency or external data claim.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

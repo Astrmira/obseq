@@ -1,0 +1,514 @@
+{
+  "summary": {
+    "documented_ascii_model": {
+      "accept": 15,
+      "false_accept": 12,
+      "reject": 9
+    },
+    "duckdb_python_slt_plain": {
+      "accept": 15,
+      "false_accept": 12,
+      "reject": 6,
+      "NA": 3
+    },
+    "duckdb_python_slt_explicit_hash": {
+      "accept": 12,
+      "false_accept": 9,
+      "reject": 12
+    }
+  },
+  "rows": [
+    {
+      "case": "null-sentinel",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "NULL"
+      ],
+      "documented_ascii_candidate": [
+        "NULL"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61",
+      "candidate_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61"
+    },
+    {
+      "case": "null-sentinel",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "NULL"
+      ],
+      "documented_ascii_candidate": [
+        "NULL"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61",
+      "candidate_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61"
+    },
+    {
+      "case": "null-sentinel",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "NULL"
+      ],
+      "documented_ascii_candidate": [
+        "NULL"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61",
+      "candidate_native_hash": "1 values hashing to ca35c56c0c379f292f8fab68b3a19f61"
+    },
+    {
+      "case": "empty-sentinel",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "(empty)"
+      ],
+      "documented_ascii_candidate": [
+        "(empty)"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185",
+      "candidate_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185"
+    },
+    {
+      "case": "empty-sentinel",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "(empty)"
+      ],
+      "documented_ascii_candidate": [
+        "(empty)"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185",
+      "candidate_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185"
+    },
+    {
+      "case": "empty-sentinel",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "(empty)"
+      ],
+      "documented_ascii_candidate": [
+        "(empty)"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185",
+      "candidate_native_hash": "1 values hashing to 3df2c591789f064dfe0b67892769d185"
+    },
+    {
+      "case": "canonical-control-replacement",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "A@B"
+      ],
+      "documented_ascii_candidate": [
+        "A@B"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\nA\tB <> A@B\n================================================================================\nExpected result:\n================================================================================\nA@B\n================================================================================\nActual result:\n================================================================================\nA\tB",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b\n================================================================================",
+      "gold_native_hash": "1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d",
+      "candidate_native_hash": "1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b"
+    },
+    {
+      "case": "canonical-control-replacement",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "A@B"
+      ],
+      "documented_ascii_candidate": [
+        "A@B"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\nA\tB <> A@B\n================================================================================\nExpected result:\n================================================================================\nA@B\n================================================================================\nActual result:\n================================================================================\nA\tB",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b\n================================================================================",
+      "gold_native_hash": "1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d",
+      "candidate_native_hash": "1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b"
+    },
+    {
+      "case": "canonical-control-replacement",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "A@B"
+      ],
+      "documented_ascii_candidate": [
+        "A@B"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\nA\tB <> A@B\n================================================================================\nExpected result:\n================================================================================\nA@B\n================================================================================\nActual result:\n================================================================================\nA\tB",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b\n================================================================================",
+      "gold_native_hash": "1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d",
+      "candidate_native_hash": "1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b"
+    },
+    {
+      "case": "native-newline-shift",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "a@b",
+        "c"
+      ],
+      "documented_ascii_candidate": [
+        "a",
+        "b@c"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "NA",
+      "native_plain_detail": "embedded delimiter not admitted in plaintext gold",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69",
+      "candidate_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69"
+    },
+    {
+      "case": "native-newline-shift",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "a@b",
+        "c"
+      ],
+      "documented_ascii_candidate": [
+        "a",
+        "b@c"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "NA",
+      "native_plain_detail": "embedded delimiter not admitted in plaintext gold",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69",
+      "candidate_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69"
+    },
+    {
+      "case": "native-newline-shift",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "a@b",
+        "c"
+      ],
+      "documented_ascii_candidate": [
+        "a",
+        "b@c"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "NA",
+      "native_plain_detail": "embedded delimiter not admitted in plaintext gold",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69",
+      "candidate_native_hash": "2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69"
+    },
+    {
+      "case": "canonical-real-rounding",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.000"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d\n================================================================================",
+      "gold_native_hash": "1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011",
+      "candidate_native_hash": "1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d"
+    },
+    {
+      "case": "canonical-real-rounding",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.000"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d\n================================================================================",
+      "gold_native_hash": "1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011",
+      "candidate_native_hash": "1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d"
+    },
+    {
+      "case": "canonical-real-rounding",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.000"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d\n================================================================================",
+      "gold_native_hash": "1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011",
+      "candidate_native_hash": "1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d"
+    },
+    {
+      "case": "native-real-tolerance",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.004"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be",
+      "candidate_native_hash": "1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f"
+    },
+    {
+      "case": "native-real-tolerance",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.004"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be",
+      "candidate_native_hash": "1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f"
+    },
+    {
+      "case": "native-real-tolerance",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1.000"
+      ],
+      "documented_ascii_candidate": [
+        "1.004"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be",
+      "candidate_native_hash": "1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f"
+    },
+    {
+      "case": "wide-integer-exact-control",
+      "mode": "nosort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "9007199254740993"
+      ],
+      "documented_ascii_candidate": [
+        "9007199254740992"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\n9007199254740992 <> 9007199254740993\n================================================================================\nExpected result:\n================================================================================\n9007199254740993\n================================================================================\nActual result:\n================================================================================\n9007199254740992",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to ba75daf85b8a6e237c5c49b3375dce54\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9",
+      "candidate_native_hash": "1 values hashing to ba75daf85b8a6e237c5c49b3375dce54"
+    },
+    {
+      "case": "wide-integer-exact-control",
+      "mode": "rowsort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "9007199254740993"
+      ],
+      "documented_ascii_candidate": [
+        "9007199254740992"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\n9007199254740992 <> 9007199254740993\n================================================================================\nExpected result:\n================================================================================\n9007199254740993\n================================================================================\nActual result:\n================================================================================\n9007199254740992",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to ba75daf85b8a6e237c5c49b3375dce54\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9",
+      "candidate_native_hash": "1 values hashing to ba75daf85b8a6e237c5c49b3375dce54"
+    },
+    {
+      "case": "wide-integer-exact-control",
+      "mode": "valuesort",
+      "expected_typed_legal": false,
+      "query_gold": "SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "query_candidate": "SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "9007199254740993"
+      ],
+      "documented_ascii_candidate": [
+        "9007199254740992"
+      ],
+      "documented_ascii_equal": false,
+      "native_stock_plain": "reject",
+      "native_plain_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result in query! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nMismatch on row 1, column 1\n9007199254740992 <> 9007199254740993\n================================================================================\nExpected result:\n================================================================================\n9007199254740993\n================================================================================\nActual result:\n================================================================================\n9007199254740992",
+      "native_stock_hash": "reject",
+      "native_hash_detail": "<scratch>/fixture.test:1 \n================================================================================\nWrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!\n================================================================================\nSELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;\n================================================================================\nExpected hash value:\n================================================================================\n1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9\n================================================================================\nActual hash value:\n================================================================================\n1 values hashing to ba75daf85b8a6e237c5c49b3375dce54\n================================================================================",
+      "gold_native_hash": "1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9",
+      "candidate_native_hash": "1 values hashing to ba75daf85b8a6e237c5c49b3375dce54"
+    },
+    {
+      "case": "unchanged-typed-positive-control",
+      "mode": "nosort",
+      "expected_typed_legal": true,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "same",
+        "1"
+      ],
+      "documented_ascii_candidate": [
+        "same",
+        "1"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to 714611d82c30080a2c294d0b3b162be0",
+      "candidate_native_hash": "2 values hashing to 714611d82c30080a2c294d0b3b162be0"
+    },
+    {
+      "case": "unchanged-typed-positive-control",
+      "mode": "rowsort",
+      "expected_typed_legal": true,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "same",
+        "1"
+      ],
+      "documented_ascii_candidate": [
+        "same",
+        "1"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to 714611d82c30080a2c294d0b3b162be0",
+      "candidate_native_hash": "2 values hashing to 714611d82c30080a2c294d0b3b162be0"
+    },
+    {
+      "case": "unchanged-typed-positive-control",
+      "mode": "valuesort",
+      "expected_typed_legal": true,
+      "query_gold": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "query_candidate": "SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal",
+      "documented_ascii_gold": [
+        "1",
+        "same"
+      ],
+      "documented_ascii_candidate": [
+        "1",
+        "same"
+      ],
+      "documented_ascii_equal": true,
+      "native_stock_plain": "accept",
+      "native_plain_detail": "Type.SUCCESS",
+      "native_stock_hash": "accept",
+      "native_hash_detail": "Type.SUCCESS",
+      "gold_native_hash": "2 values hashing to a4402e61b2c4784575b97f9f5703216a",
+      "candidate_native_hash": "2 values hashing to a4402e61b2c4784575b97f9f5703216a"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Pre-test contract
+
+Compare actual GDAL SQL dialects over one OGR Memory layer on scalar aggregate pushdown. Declared SQL contract: COUNT(*) counts rows, COUNT(k) counts present keys, SUM(k) and AVG(k) skip NULLs and return NULL when there are no present keys. Compare seeded present, mixed, all-NULL, and empty selections, plus an unset-vs-explicit-null control. Distinguish rejection, correct output, result-value mismatch, and result-validity mismatch. SQLite and a Python oracle must agree. Ignore field type differences other than value/null status; use small exactly representable numbers. No claim about every GDAL backend or SQL dialect contract.
+
+Extension before sink replay: a declared SQL NULL must remain SQL NULL when materializing an aggregate into an existing nullable GeoPackage field with DEFAULT 99. OGR state-preserving copying (value, explicit null, unset) is the baseline. Intent-normalization to explicit SQL NULL is the matched treatment. Also exercise no-default and provided-value controls; inspect raw SQLite persistence. Arrow validity tests value/missing, not whether a field was explicitly supplied.

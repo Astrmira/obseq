@@ -1,0 +1,71 @@
+{
+  "across_both_sources_strict": {
+    "categories": {
+      "F1": 2,
+      "F10": 2,
+      "F2": 4,
+      "F3": 2,
+      "F4": 2,
+      "F5": 3,
+      "F6": 3,
+      "F7": 3,
+      "F8": 2,
+      "F9": 2,
+      "O3": 2,
+      "O4": 2
+    },
+    "n": 29
+  },
+  "cumulative_supplemental_including_adjacent": {
+    "categories": {
+      "F2": 2,
+      "F3": 1,
+      "F4": 2,
+      "F5": 3,
+      "F6": 2,
+      "F7": 2,
+      "O3": 2,
+      "O3-peer-frame": 1
+    },
+    "n": 15
+  },
+  "frozen_unchanged": {
+    "categories": {
+      "F1": 2,
+      "F10": 2,
+      "F2": 2,
+      "F3": 1,
+      "F6": 1,
+      "F7": 1,
+      "F8": 2,
+      "F9": 2,
+      "O4": 2
+    },
+    "n": 15
+  },
+  "new_adjacent_only": {
+    "categories": {
+      "O3-peer-frame": 1
+    },
+    "n": 1
+  },
+  "new_supplemental": {
+    "categories": {
+      "F3": 1,
+      "F4": 2,
+      "F5": 1,
+      "F6": 2,
+      "F7": 1,
+      "O3": 2
+    },
+    "n": 9
+  },
+  "prior_supplemental": {
+    "categories": {
+      "F2": 2,
+      "F5": 2,
+      "F7": 1
+    },
+    "n": 5
+  }
+}

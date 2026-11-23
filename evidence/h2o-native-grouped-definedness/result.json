@@ -1,0 +1,79 @@
+{
+  "data_rows": 10000000,
+  "duckdb": "1.4.3",
+  "matrix": [
+    {
+      "checksum_fields": 1,
+      "columns": 2,
+      "output_rows": 96,
+      "q": 1
+    },
+    {
+      "checksum_fields": 1,
+      "columns": 3,
+      "output_rows": 9216,
+      "q": 2
+    },
+    {
+      "checksum_fields": 2,
+      "columns": 3,
+      "output_rows": 95001,
+      "q": 3
+    },
+    {
+      "checksum_fields": 3,
+      "columns": 4,
+      "output_rows": 96,
+      "q": 4
+    },
+    {
+      "checksum_fields": 3,
+      "columns": 4,
+      "output_rows": 95001,
+      "q": 5
+    },
+    {
+      "checksum_fields": 2,
+      "columns": 4,
+      "output_rows": 9216,
+      "q": 6
+    },
+    {
+      "checksum_fields": 1,
+      "columns": 2,
+      "output_rows": 95001,
+      "q": 7
+    },
+    {
+      "checksum_fields": 1,
+      "columns": 2,
+      "output_rows": 190002,
+      "q": 8
+    },
+    {
+      "checksum_fields": 1,
+      "columns": 3,
+      "output_rows": 9216,
+      "q": 9
+    },
+    {
+      "checksum_fields": 2,
+      "columns": 8,
+      "output_rows": 9999993,
+      "q": 10
+    }
+  ],
+  "q10": {
+    "both_count_sum": 10000000,
+    "data_table_null_aggregates": 0,
+    "data_table_zero_aggregates": 499998,
+    "duckdb_null_aggregates": 499998,
+    "duckdb_zero_aggregates": 0,
+    "native_exact_key_count_map_for_missing_vs_zero_identical": true,
+    "native_groups": 9999993,
+    "oracle_all_null_keys": 4896,
+    "oracle_exact_keys": 99799,
+    "stock_same_engine_checksum_equal_after_null_to_zero": true,
+    "witness_stratum": "id001"
+  }
+}

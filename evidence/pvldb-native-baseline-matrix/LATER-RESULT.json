@@ -1,0 +1,7163 @@
+{
+  "cases": 138,
+  "comparison_cell_summary_excluding_alternate_decimal": {
+    "byte_hash": {
+      "NA": 228
+    },
+    "datacompy_keyed": {
+      "NA": 2,
+      "false_accept": 11,
+      "false_reject": 17,
+      "true_accept": 163,
+      "true_reject": 35
+    },
+    "multiset": {
+      "false_accept": 12,
+      "false_reject": 9,
+      "true_accept": 171,
+      "true_reject": 36
+    },
+    "ordered": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "pandas_check_like": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "pandas_default": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "pandas_dtype_relaxed": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "polars_default": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "polars_ignore_order": {
+      "false_accept": 12,
+      "false_reject": 9,
+      "true_accept": 171,
+      "true_reject": 36
+    },
+    "rowcount": {
+      "false_accept": 39,
+      "true_accept": 180,
+      "true_reject": 9
+    },
+    "rtol1e-5": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "rtol1e-9": {
+      "false_accept": 11,
+      "false_reject": 19,
+      "true_accept": 161,
+      "true_reject": 37
+    },
+    "schema": {
+      "false_accept": 34,
+      "false_reject": 5,
+      "true_accept": 175,
+      "true_reject": 14
+    },
+    "set": {
+      "false_accept": 12,
+      "false_reject": 9,
+      "true_accept": 171,
+      "true_reject": 36
+    },
+    "sqlite_integrity": {
+      "NA": 228
+    },
+    "sum": {
+      "false_accept": 24,
+      "false_reject": 9,
+      "true_accept": 171,
+      "true_reject": 24
+    }
+  },
+  "observations": [
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F001",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F002",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F003",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F004",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F005",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F006",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F007",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F008",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F009",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {
+        "datacompy_keyed": "inapplicable_natural_key"
+      },
+      "tool_verdicts": {
+        "datacompy_keyed": null,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F010",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F011",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F012",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F013",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F014",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F015",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F016",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F017",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F018",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F019",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F020",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F021",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F022",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "F023",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "F024",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-coherent-group-representatives",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "0fef24d89e77",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "141dabb17d93",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "6ccfc8a42756",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "618af6b50cc6",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "a28378eb9bfc",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "02b73fcb7d52",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "83780c82d0ca",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "e436679a970f",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "3023f90ccf7e",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "a0aa4ff33d00",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "ea649f8d2e2e",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "fee874afb3d7",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "a28b90557544",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "0972bb8f044e",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "1b84f76666e3",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "d6af50298f3d",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "27af05c4d444",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {
+        "datacompy_keyed": "inapplicable_natural_key"
+      },
+      "tool_verdicts": {
+        "datacompy_keyed": null,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "9e65d3809066",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "99367f60a5ea",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "5a94c041b448",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "75a68d29b87f",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "352b71303f70",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "5eb606b73f15",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "03d1af37e95d",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-keyed-aggregate-cancellation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P02",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P07",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P08",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P09",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P10",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "P11",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P12",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P13",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P14",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P15",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P16",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P17",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P18",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P19",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P20",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "P21",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P22",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P23",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "frozen_candidate",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "P24",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "panel": "heldout-ordered-intervention-receipts",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q15",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q15",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "q15",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q16",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q16",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "q16",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q17",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q17",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "q17",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "stock_geos",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q24",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "plain_float",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "q24",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "alternate_decimal_diagnostic",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "q24",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-binary64-orientation",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J11",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J12",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J13",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J14",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J15",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J15",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J15",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J16",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J16",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J16",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J17",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J17",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J17",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J18",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J19",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J20",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J21",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J22",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J23",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "duckdb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J24",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "postgres",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J24",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "sqlite",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "J24",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-json-presence-and-path-shape",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7G02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7G04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7G05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G05",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7G06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7G07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G07",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_projected_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "nullness_shortcut",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7G08",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T07",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T08",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T08",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T09",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "id": "E7T09",
+      "key_mode": "physical_position",
+      "legal": false,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "arm": "native_duration_member",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "arm": "earliest_only",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "id": "E7T10",
+      "key_mode": "physical_position",
+      "legal": true,
+      "panel": "heldout-group-role-and-fold-joint",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    }
+  ],
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  }
+}

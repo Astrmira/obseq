@@ -1,0 +1,12 @@
+{
+ "schema":"spatial-receipt/v1",
+ "universe":"nonempty closed rectangles with integer coordinates; areal overlap",
+ "comparison":"exact per eligible FID integer overlap area, plus exact threshold membership family",
+ "old_region":[0,0,3,3],
+ "new_region":[1,0,4,3],
+ "required_epoch":1,
+ "threshold":2,
+ "fields":["fid","partition","rectangle"],
+ "rows":[[11,"north",[0,0,1,2]],[12,"north",[3,0,4,2]],[13,"north",[1,0,3,2]],
+         [21,"west",[0,0,4,2]],[22,"west",[1,0,2,1]],[23,"west",[4,0,5,2]]]
+}

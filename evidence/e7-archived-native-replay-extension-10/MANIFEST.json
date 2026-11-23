@@ -1,0 +1,281 @@
+{
+  "base_reference": "36d2a7cd254744b057d9d38705f2984303e8419d",
+  "cases": [
+    {
+      "case_id": "exact-orient2d-adaptive-native-corpus",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "243727.json",
+      "args": [
+        "{WEDGE}",
+        "=243727"
+      ],
+      "python_path": [],
+      "blobs": {
+        "1000.json": {
+          "sha256": "e577bdc8059abb3d27ef2c030e0e9c38fb03fc84f4708040ed2bcfeb5222aef2"
+        },
+        "100000.json": {
+          "sha256": "d1ddc3a33144390db0e51a01c2a938916be68caa27be8e14b7addfbdba2f85db"
+        },
+        "1000000.json": {
+          "sha256": "c2c709c882cdb777a488d9f62790ff6af6b857ec82346438577401e2198f0b0e"
+        },
+        "243727.json": {
+          "sha256": "495d4c5595d4271ad19501f5aaeb1d2e0cf60b40aed9d6c014e9995bb8ce1f89"
+        },
+        "EVIDENCE.json": {
+          "sha256": "bd4314cb7fb68adbfbbb10c701dbd2060363f6d52130285eb9196f2d0e38178c"
+        },
+        "PLAN.md": {
+          "sha256": "181b651bbbbaded7823e371d14ec74dd2657e3cbb4b4d5c17d9ff547e8f040e9"
+        },
+        "PRE.sha256": {
+          "sha256": "381cbcc0cb75c62c4294a95f48a28bfb1a533662b0cbf30c01035df229549d11"
+        },
+        "README.md": {
+          "sha256": "19b2e5f253ba6ee09f49bec6a75160f65740ab9e3b9719285080287713dda31c"
+        },
+        "RESULT.json": {
+          "sha256": "bdbc95ada66991d8ffabef595162b516e125520c80aa702ff90d1a9473e9184d"
+        },
+        "SHA256SUMS": {
+          "sha256": "1f88b220c8d400ed47e1d63c7ff9c22d402a682780809b140d60c351d583e74a"
+        },
+        "SOURCE.json": {
+          "sha256": "7f8acc2a30b082faf55c7906db513d4b23bf817095b6d3d85ed3bf084c358866"
+        },
+        "check.py": {
+          "sha256": "baddbe6ac81ffa12ab07f5f17e3a488823ecaa874fa52afb413eb506ab8fb032"
+        },
+        "prep.py": {
+          "sha256": "10220d935c530dc8ba9bb2950f5bfa93961a9e08146a0ee7aa1aa0f4ed70d80c"
+        },
+        "run.py": {
+          "sha256": "8308ce639382e5170a38940d8fb2b76dfb55f879b5de8fa414476010ffe85b3f"
+        }
+      },
+      "extension": 10,
+      "timeout": 180,
+      "projection": "orientation-semantic"
+    },
+    {
+      "case_id": "lakefs-native-snapshot-checksums",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{LAKE_BIN}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "CASES.json": {
+          "sha256": "9cc7b5c7562bed6fa6e1df4449d4323b6c27df06ca9135d2239fc86509a0e86f"
+        },
+        "EVIDENCE.json": {
+          "sha256": "93eb1ece470f2e720d0c5c8e6e77f20a299dd9211f2a8df248ba9da33099116f"
+        },
+        "README.md": {
+          "sha256": "a4af4d081260db1bb1b6c30cbbb4e63ddab25923ef9a0303bbd75d67bb1e1ca6"
+        },
+        "RESULT.json": {
+          "sha256": "f1da6a9bbe2a6fbb1d3b1f75821d5a908b22e7784acaab3116cde31fa439344e"
+        },
+        "SHA256SUMS": {
+          "sha256": "2013f3f55fa9a29540933b8fb88c6eadd3df2b2a5f97449f854b32aee04fc821"
+        },
+        "run.py": {
+          "sha256": "363d40486d29f758575eef6e17b1fcac86aee6b86736b11b119ca4025cdc2c40"
+        }
+      },
+      "extension": 10,
+      "timeout": 180,
+      "verified_input_files": [
+        {
+          "role": "LAKE_BIN",
+          "file": "lakefs",
+          "sha256": "313b9557da433dd244db6831a78ca2c6724052de545fb22268cf1713b838eae6"
+        },
+        {
+          "role": "LAKE_BIN",
+          "file": "lakectl",
+          "sha256": "21cdbe04bd7a7c9d393dfad32694c4ebcc9e962a822da7ba1df0522f795340c8"
+        }
+      ]
+    },
+    {
+      "case_id": "h2o-factorized-association-moments",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{H2O_DIR}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "f26afce9a3c71805ea6673818c8b69130ee5634d26f7188cf7c00bf4ab6248e0"
+        },
+        "README.md": {
+          "sha256": "021bf2e8e3a3f9a295fd1c640d903b263b2da85cca37c1fabecc6b55bcf1f0bf"
+        },
+        "RESULT.json": {
+          "sha256": "825a57484a15a87f3c78f28514656be95748e6c89f3e2f1175764e2bd5d00f0c"
+        },
+        "SHA256SUMS": {
+          "sha256": "772263655e68f44e390a71d084ee46bea7a1102b6effad058e5a79fcd7733148"
+        },
+        "run.py": {
+          "sha256": "e41928db78ec34f93cb268986aa14c0109dc31525cf43e991d6da86655de10dd"
+        }
+      },
+      "extension": 10,
+      "timeout": 180
+    },
+    {
+      "case_id": "tpcds-sf10-q39-exact-threshold",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "q39.py",
+      "expected": "q39-result.json",
+      "args": [
+        "{E1}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "885f9109f99389be4c3f3fa7bbc29c3f54f7a2a0b8d845022d0e640cbfbe18d7"
+        },
+        "INPUTS.sha256": {
+          "sha256": "e992937a6a75a19931ad86e327c1ec08be025971d0473c7aa9bafbd8bb6384aa"
+        },
+        "PLAN.json": {
+          "sha256": "21733ab10e3276e718c2dd543c876c5ef3461163e7ac2aecb284ed6fd8aac01a"
+        },
+        "PLAN.sha256": {
+          "sha256": "0abefd84a3dc8ea061ed6a0c9708063ac4677ba17a5d85d23e30943d1eefc950"
+        },
+        "PUBLICATION-FILES.txt": {
+          "sha256": "e50efa54bd19cc4f7cb9d12ef41dd51accce264997c4f809a2e441205e10ec4a"
+        },
+        "README.md": {
+          "sha256": "5ccd30b7a9f9782f0a50c7aabec41071c545b41a1f2d27c3dfaf2f107f4c2b9d"
+        },
+        "SHA256SUMS": {
+          "sha256": "08e390568079486e6e41b26190365a7d71730074071f541018483c43264d257c"
+        },
+        "check.py": {
+          "sha256": "279190960ead84225b619dcdbb780b2dbd2953b648206a1ee2541293a95d99bb"
+        },
+        "generate.py": {
+          "sha256": "d40d799ab1ece48205dd4bffe1e873ff85e8207bb87f63c29a083827d49c05e3"
+        },
+        "q39-portable-result.json": {
+          "sha256": "e7c8abf8040400014cfb29202f652e8f5f1d3772829be65de50acd826e477543"
+        },
+        "q39-replay-result.json": {
+          "sha256": "8df880aef4c7b45c3c499ac27d31115655be919c9b2e3c819054ce530ab80903"
+        },
+        "q39-result.json": {
+          "sha256": "5ac0966c6548a1367e8f6a25757d3e7a56ae0bcb393a7e806b3251d9ce392c08"
+        },
+        "q39.py": {
+          "sha256": "a1ca2966ec94b5fb756e13445c1dba657e9ab7c47f8a163b4343b2e648cecbd9"
+        },
+        "tpcds-counts.json": {
+          "sha256": "14eccf438acd954192d10c2761a8e9bbbbcde116a3cba1da9ec1e539516e2d84"
+        }
+      },
+      "extension": 10,
+      "timeout": 180,
+      "projection": "q39-threshold-semantic",
+      "scratch_input_links": {
+        "tpcds.duckdb": "SF10_TPCDS"
+      }
+    },
+    {
+      "case_id": "e3-f10-native-census-vertex-preservation",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{CENSUS}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "f53155b00ab3e76119e487acbd39e9fbccc7a8cf8d98b89f12cb4b15b5d524ff"
+        },
+        "PLAN.md": {
+          "sha256": "12c9f0e57c084a485351e9275314280fb16e56cf024a3828ef346eaa68473950"
+        },
+        "PLAN.sha256": {
+          "sha256": "bf1cf8f0fff2524aff8c7a38e2b3992b667f7f16df1db4fcc5281d417cc9d07d"
+        },
+        "README.md": {
+          "sha256": "0fc60fc047eab26f9e972f2442469ca1411558724e39704542a2ba7f0ab01149"
+        },
+        "RESULT.json": {
+          "sha256": "7a10d6c3281485fd439bef51ac73e97b4f7b8ddbbb8644b1a351242671b1a122"
+        },
+        "SHA256SUMS": {
+          "sha256": "c0e5e9fbc07552661e142205fec5d1b03c4a862b6651cf60bdf8e352e306730c"
+        },
+        "read_gdal.py": {
+          "sha256": "6d68e1d19d8b000de00028e52f6d38740dc934c005c88326d4dac35d41f73977"
+        },
+        "run.py": {
+          "sha256": "7d82ae5a7ee598703186dc2ed976d1877d786403419ce053431218631108939b"
+        }
+      },
+      "extension": 10,
+      "timeout": 180
+    },
+    {
+      "case_id": "e3-f5-native-osm-field-mask",
+      "kind": "native_external_transfer",
+      "mode": "system",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{OSM}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "3766470390b8637e9536d73d5247b71f2b01960962085ec9af84abf0834391f8"
+        },
+        "PLAN.md": {
+          "sha256": "39f99b64da290f00f04d7404b85fc968b5a23b75497cdf62a28b35170cf8135f"
+        },
+        "PLAN.sha256": {
+          "sha256": "ce294bc800cfb328ce0420c3c63785b9937e0f107f5f3f3f01763b6e4e0d3dfa"
+        },
+        "README.md": {
+          "sha256": "845447c55dadad1b18e22d50dfa3e820ca9b258f56ea9d3179b17414900ede8d"
+        },
+        "RESULT.json": {
+          "sha256": "c2ec4280a93aee93c013b525d9a0f7bd169f4fb31eea9907a4547494fdc7a43a"
+        },
+        "SHA256SUMS": {
+          "sha256": "47bb6ff3bcf8b178b57cb6f4cd9ce4f340329e5791fe8fefed27a516855fff05"
+        },
+        "run.py": {
+          "sha256": "0a9c498d3a935c30e52c10c51d5c3866844f233f589e1f2a700aadb713c32235"
+        }
+      },
+      "extension": 10,
+      "timeout": 180
+    }
+  ]
+}

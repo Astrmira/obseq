@@ -1,0 +1,168 @@
+{
+  "host_tzdata_header": "# version 2026c",
+  "host_tzdata_sha256": "af5c1d3bebe136d372c131bb1a45725f955a8cc2a5ae2fc5a31d3b372e145f49",
+  "polars": "2.1.0",
+  "pyarrow": "26.0.1",
+  "rows": [
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-01",
+      "detail": {
+        "named_policy": "latest"
+      },
+      "output": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-01",
+      "detail": {
+        "named_policy": "latest"
+      },
+      "output": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-02",
+      "detail": {
+        "named_policy": "raise",
+        "native_error_family": "ArrowInvalid"
+      },
+      "output": {
+        "error": "nonexistent"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-02",
+      "detail": {
+        "named_policy": "raise",
+        "native_error_family": "ComputeError"
+      },
+      "output": {
+        "error": "nonexistent"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-03",
+      "detail": {
+        "named_policy": "raise",
+        "native_error_family": "ArrowInvalid"
+      },
+      "output": {
+        "error": "ambiguous"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-03",
+      "detail": {
+        "named_policy": "raise",
+        "native_error_family": "ComputeError"
+      },
+      "output": {
+        "error": "ambiguous"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-04",
+      "detail": {
+        "named_policy": "select_explicit_offset",
+        "possible_utc_and_offset_seconds": [
+          [
+            "2024-04-06T14:45:00Z",
+            39600
+          ],
+          [
+            "2024-04-06T15:15:00Z",
+            37800
+          ]
+        ]
+      },
+      "output": {
+        "utc": "2024-04-06T15:15:00Z"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-04",
+      "detail": {
+        "named_policy": "select_explicit_offset",
+        "possible_utc_and_offset_seconds": [
+          [
+            "2024-04-06T14:45:00Z",
+            39600
+          ],
+          [
+            "2024-04-06T15:15:00Z",
+            37800
+          ]
+        ]
+      },
+      "output": {
+        "utc": "2024-04-06T15:15:00Z"
+      },
+      "scope": "native_named_timezone"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-05",
+      "detail": {
+        "authored_policy": "add_forward_gap_then_use_new_offset",
+        "gap_seconds": 1800
+      },
+      "output": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-05",
+      "detail": {
+        "authored_policy": "add_forward_gap_then_use_new_offset",
+        "gap_seconds": 1800
+      },
+      "output": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "PyArrow",
+      "case_id": "E7H-F8-06",
+      "detail": {
+        "authored_policy": "offset_set_membership",
+        "native_member": false
+      },
+      "output": {
+        "error": "invalid_offset"
+      },
+      "scope": "native_primitive_with_declared_contract_policy"
+    },
+    {
+      "adapter": "Polars",
+      "case_id": "E7H-F8-06",
+      "detail": {
+        "authored_policy": "offset_set_membership",
+        "native_member": false
+      },
+      "output": {
+        "error": "invalid_offset"
+      },
+      "scope": "native_primitive_with_declared_contract_policy"
+    }
+  ]
+}

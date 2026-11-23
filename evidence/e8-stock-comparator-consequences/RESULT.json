@@ -1,0 +1,47 @@
+{
+  "h2o": {
+    "nontrivial_payload_exchange": true,
+    "rows": 10000000,
+    "stock_checksums": [
+      {
+        "arm": "clean",
+        "rounded_stock_chk": "475042480.57;423957578.77"
+      },
+      {
+        "arm": "payload_exchange",
+        "rounded_stock_chk": "475042480.57;423957578.77"
+      },
+      {
+        "arm": "one_unit_positive_control",
+        "rounded_stock_chk": "475042480.57;423957579.77"
+      }
+    ],
+    "witness_source_check": "predecessor hash-pinned exact observer"
+  },
+  "tpcds": {
+    "results": [
+      {
+        "arm": "native_1_to_4",
+        "cwi": "match",
+        "typed": true
+      },
+      {
+        "arm": "native_4_to_1",
+        "cwi": "match",
+        "typed": true
+      },
+      {
+        "arm": "exact_key_plus_one",
+        "cwi": "match",
+        "typed": false
+      },
+      {
+        "arm": "double_approximate_positive_control",
+        "cwi": "diff",
+        "typed": false
+      }
+    ],
+    "rows": 2433,
+    "rows_with_numeric_drift": 458
+  }
+}

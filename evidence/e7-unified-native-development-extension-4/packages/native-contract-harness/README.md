@@ -1,0 +1,13 @@
+# Semantic benchmark harness: artifact, state, and allowed output are separate gates
+
+This project fixture demonstrates a reusable receipt interface rather than a universal executor. Freeze the manifest before execution, provide an independent reference over its declared domain, and implement an adapter that emits three separately checkable observations.
+
+1. **Artifact binding:** versioned manifest digest plus digest of the canonical ordered primary input rows as observed by the native reader. The manifest binds the comparison and eligible universe. Physical SQLite bytes are monitored separately; equal byte identity does not establish fresh derivations.
+2. **Derived state:** runtime profile or epoch and the exact eligible stable-ID-to-score map used by the operator. Old values can be tolerated only under a different declared contract; this manifest requires current input-derived scores, whether or not an old score changes the final winner.
+3. **Allowed output family:** selected stable IDs satisfying per-group cardinality and score cutoffs, without prescribing the tie witness. The oracle independently enumerates small eligible subsets and compares their sorted score lists to the required top-k lists. In a larger version, exact per-block cutoff guards replace enumeration for this operator; downstream identity-dependent contracts may impose further constraints.
+
+The native SQLite holdout uses a persisted generated score plus a changed same-name application runtime profile. It holds the source artifact bytes and logical input rows fixed throughout. Two refined executions choose opposite ID orders within tied scores. Both are valid witnesses under the declared coarser contract. One stale-score route chooses an invalid winner; a second stale-score route produces exactly the same legal IDs as the correct execution, and still fails the derivation requirement. Two deliberate receipt mutants separately misbind the manifest or introduce an ineligible ID; these are protocol checks, not engine defects. Native observations pass through serialized JSON before validation; the result contains separate verdict bits and the actual typed receipts.
+
+The artifact and runtime claims here are local controlled evidence, not remote attestation. The native adapter wires one small integer ranking function and one predicate; schema interfaces can be reused by a new artifact adapter only with an independently scoped domain oracle. The benchmark does not infer arbitrary SQL allowed families, enforce deterministic tie breaking, generalize to other engines or claim measured production failure rates/speed.
+
+Replay: `python3 -IB check.py | cmp - result.json` on pinned SQLite 3.53.1.

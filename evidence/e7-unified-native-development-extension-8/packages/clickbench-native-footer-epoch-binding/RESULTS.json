@@ -1,0 +1,141 @@
+{
+  "cached_predicate": 0,
+  "cached_predicate_cache_metadata_false": 0,
+  "duckdb": "1.4.3",
+  "files": {
+    "a": {
+      "bytes": 132710,
+      "row_groups": [
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 4,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 16447,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 32890,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 49333,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 65776,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 82219,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 98662,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 0,
+          "minimum": 0,
+          "offset": 115105,
+          "rows": 4096
+        }
+      ],
+      "sha256": "e6b6c742742dc24c450b196c4bb978880fbdb0afaf8cff2c312d5099ee9a5643"
+    },
+    "b": {
+      "bytes": 132710,
+      "row_groups": [
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 4,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 16447,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 32890,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 49333,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 65776,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 82219,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 52,
+          "minimum": 0,
+          "offset": 98662,
+          "rows": 4096
+        },
+        {
+          "bytes": 16443,
+          "maximum": 13,
+          "minimum": 0,
+          "offset": 115105,
+          "rows": 4096
+        }
+      ],
+      "sha256": "3ec3d115bc533caaf5080c5d0d5a2a6050421d7396bed757e73812d48799c27a"
+    }
+  },
+  "fresh_predicate": 959,
+  "held_current_positive": 0,
+  "known_positive_new": 959,
+  "later_fragment_metadata_matches_b": true,
+  "physical_layout_same": true,
+  "predicate_after_inspecting_b_metadata": 0,
+  "pyarrow": "26.0.1",
+  "row_schema_same": true,
+  "rows": 32768,
+  "unfiltered_warm_positive": 959
+}

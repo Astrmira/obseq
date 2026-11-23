@@ -1,0 +1,3 @@
+Original prospective plan digest: df33dabbf17c9ab3b9a7a610df3e1d50209e6b13e53ffa147e2a0f9487b26d6e
+Original predeclared local source receipt digest: bb58c6caeb8b567e9ae5a2273851607030bb797f75ee494f020cba037056e4fc
+Distribution changes only the source locator and verifies its unchanged file digest in the checker.

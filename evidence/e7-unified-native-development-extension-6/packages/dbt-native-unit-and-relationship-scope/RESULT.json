@@ -1,0 +1,45 @@
+{
+  "coupled_data": {
+    "invalid_mixed": "fail",
+    "legal_asc": "pass",
+    "legal_desc": "pass"
+  },
+  "data_code": 1,
+  "fixed_unit": {
+    "fixed_same_golden_invalid_mixed": "fail",
+    "fixed_same_golden_legal_asc": "pass",
+    "fixed_same_golden_legal_desc": "fail"
+  },
+  "generic_status": {
+    "not": [
+      "pass",
+      "pass",
+      "pass"
+    ],
+    "relationships": [
+      "pass",
+      "pass",
+      "pass",
+      "pass",
+      "pass",
+      "pass"
+    ],
+    "unique": [
+      "pass",
+      "pass",
+      "pass"
+    ]
+  },
+  "independent": {
+    "invalid_mixed": false,
+    "legal_asc": true,
+    "legal_desc": true
+  },
+  "total_stock_generic": 12,
+  "unit_code": 1,
+  "versions": {
+    "dbt-core": "1.10.15",
+    "dbt-duckdb": "1.9.6",
+    "duckdb": "2.0.1"
+  }
+}

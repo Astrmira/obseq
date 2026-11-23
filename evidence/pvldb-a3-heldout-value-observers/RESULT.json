@@ -1,0 +1,1051 @@
+{
+  "pandas": "2.2.3",
+  "panels": {
+    "heldout-keyed-aggregate-cancellation": {
+      "invalid": 12,
+      "legal": 12,
+      "observations": [
+        {
+          "id": "0fef24d89e77",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "141dabb17d93",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "6ccfc8a42756",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "618af6b50cc6",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "a28378eb9bfc",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "02b73fcb7d52",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "83780c82d0ca",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "e436679a970f",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "3023f90ccf7e",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": false,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "a0aa4ff33d00",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "ea649f8d2e2e",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "fee874afb3d7",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "a28b90557544",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "0972bb8f044e",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "1b84f76666e3",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "d6af50298f3d",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "27af05c4d444",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "9e65d3809066",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "99367f60a5ea",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "5a94c041b448",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "75a68d29b87f",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "352b71303f70",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "5eb606b73f15",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "03d1af37e95d",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        }
+      ],
+      "summary": {
+        "byte_hash": {
+          "NA": 24
+        },
+        "multiset": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "ordered": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_check_like": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_default": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_dtype_relaxed": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "rowcount": {
+          "false_accept": 11,
+          "true_accept": 12,
+          "true_reject": 1
+        },
+        "rtol1e-5": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "rtol1e-9": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "schema": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "set": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "sqlite_integrity": {
+          "NA": 24
+        },
+        "sum": {
+          "false_accept": 8,
+          "true_accept": 12,
+          "true_reject": 4
+        }
+      }
+    },
+    "heldout-ordered-intervention-receipts": {
+      "invalid": 12,
+      "legal": 12,
+      "observations": [
+        {
+          "id": "P01",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P02",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P03",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P04",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P05",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P06",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P07",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P08",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P09",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P10",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P11",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "P12",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P13",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P14",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P15",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P16",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P17",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P18",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P19",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P20",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P21",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "id": "P22",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P23",
+          "legal": true,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "id": "P24",
+          "legal": false,
+          "observers": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        }
+      ],
+      "summary": {
+        "byte_hash": {
+          "NA": 24
+        },
+        "multiset": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "ordered": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_check_like": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_default": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_dtype_relaxed": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "rowcount": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "rtol1e-5": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "rtol1e-9": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "schema": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "set": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "sqlite_integrity": {
+          "NA": 24
+        },
+        "sum": {
+          "false_accept": 10,
+          "true_accept": 12,
+          "true_reject": 2
+        }
+      }
+    }
+  },
+  "transaction_engine": "1.4.3"
+}

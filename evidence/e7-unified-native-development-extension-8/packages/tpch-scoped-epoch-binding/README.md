@@ -1,0 +1,19 @@
+# E6 O2: version witnesses for a scoped native join aggregate
+
+An isolated native correctness experiment on the already generated DuckDB TPC-H SF10 supplier (100,000 rows) and nation (25 rows) projections. We copy only the required typed columns into a new in-memory DuckDB connection. The region-zero supplier count and Decimal balance sum by nation is an authored workload over these standard generated rows, not a stock TPC-H query or a real-world prevalence sample. The initial query has 19,837 contributors and five groups. The exact readable source projections are admitted by the canonical typed digest in RESULTS.json, not by database filename. A separate Python evaluator builds the complete contributor relation and independently evaluates all grouped results using integer cents. Its exact dependency comparison is rowwise; digest serves as a replay identity only.
+
+For this narrow contract, the contributor relation is the equivalence being witnessed, not merely the eventual aggregates. The dependency tuple includes physical logical source key, associated nation key and name, and exact balance. Changing it can matter even if aggregates happen to coincide. We compare four checkpoints: whole-table counts/max-key, the global mutation epoch, an OLD-only participation epoch, and a two-counter scoped epoch. Each controlled edit and its receipt are written atomically in the same DuckDB transaction. Initial projections were preserved and restored between cases, each a separate branch of the initial state; counter numbers must not be compared between these branches. The supported writer protocol is sequential typed single-row value/reparent edits on fixed unique keys, complete referential integrity, and complete write interception with nonwrapping monotone counters plus immutable scope/query identity; bypass, unknown write or a new key/schema/namespace must invalidate or be separately admitted. This is not automatic native dependency tracking, a distributed/concurrent claim, or a timing comparison.
+
+## Sufficient rule
+- Supplier-only statement: if its projected row changes, advance S when its old **or** new nation is in region zero.
+- Nation-only statement: if its projected row changes, advance N when its old **or** new region is zero. This may conservatively invalidate if that nation has no supplier.
+- Group statement inputs and both epochs must be read at the same snapshot. Per-statement classification uses that transaction's preceding state, including earlier writes. If a dependency relation changes then at least one statement changed its contribution; one of its two relevant scopes must have held, so at least one counter advances. Equality of both counters thus implies dependency equality within the same lineage. The converse does not hold for compensating changes or conservative scope.
+
+All four real output changes retain both base counts and maximum keys. The OLD-only rule misses both supplier entry (one additional contributor) and nation entry (3,991 additional contributors). Both unrelated changes fall outside the scoped check even though a global epoch invalidates; rollback advances neither. Compensating writes advance scoped counters but return exact data dependencies and output to baseline. These are authored legal staging transitions atop unchanged source tables, not observed defects in DuckDB. The tested protocol does not extend to unrestricted writes.
+
+Reproduce from the already admitted SF10 database with DuckDB 1.4.3:
+```sh
+sha256sum -c SHA256SUMS
+python3 -B check.py /path/to/tpch.duckdb | cmp - RESULTS.json
+```
+Primary context: [DuckDB TPC-H extension](https://duckdb.org/docs/stable/core_extensions/tpch), [DuckDB transactions](https://duckdb.org/docs/stable/sql/statements/transactions). No raw rows distributed, no installation and no Git changes.

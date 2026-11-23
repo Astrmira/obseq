@@ -1,0 +1,200 @@
+{
+  "oracle": {
+    "eq": [
+      [
+        1,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        5,
+        25
+      ]
+    ],
+    "null_safe": [
+      [
+        1,
+        21
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        4,
+        23
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        5,
+        25
+      ]
+    ]
+  },
+  "records": {
+    "complete": {
+      "changed_states": [],
+      "joins": {
+        "eq-default": {
+          "extra": [
+            [
+              1,
+              22
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": []
+        },
+        "eq-typed": {
+          "extra": [],
+          "missing": []
+        },
+        "null_safe-default": {
+          "extra": [
+            [
+              1,
+              22
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": []
+        },
+        "null_safe-typed": {
+          "extra": [],
+          "missing": []
+        }
+      },
+      "status_errors": []
+    },
+    "normalize-all": {
+      "changed_states": [
+        1
+      ],
+      "joins": {
+        "eq-default": {
+          "extra": [
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": [
+            [
+              1,
+              21
+            ]
+          ]
+        },
+        "eq-typed": {
+          "extra": [],
+          "missing": [
+            [
+              1,
+              21
+            ]
+          ]
+        },
+        "null_safe-default": {
+          "extra": [
+            [
+              1,
+              23
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": [
+            [
+              1,
+              21
+            ]
+          ]
+        },
+        "null_safe-typed": {
+          "extra": [
+            [
+              1,
+              23
+            ]
+          ],
+          "missing": [
+            [
+              1,
+              21
+            ]
+          ]
+        }
+      },
+      "status_errors": []
+    },
+    "sparse": {
+      "changed_states": [],
+      "joins": {
+        "eq-default": {
+          "extra": [
+            [
+              1,
+              22
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": []
+        },
+        "eq-typed": {
+          "extra": [],
+          "missing": []
+        },
+        "null_safe-default": {
+          "extra": [
+            [
+              1,
+              22
+            ],
+            [
+              2,
+              21
+            ]
+          ],
+          "missing": []
+        },
+        "null_safe-typed": {
+          "extra": [],
+          "missing": []
+        }
+      },
+      "status_errors": [
+        4
+      ]
+    }
+  },
+  "versions": {
+    "gdal": "3100300",
+    "pandas": "2.2.3",
+    "sqlite_writer_oracle": "3.46.1"
+  }
+}

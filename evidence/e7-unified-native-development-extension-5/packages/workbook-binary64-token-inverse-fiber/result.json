@@ -1,0 +1,35 @@
+{
+  "decade_certificates": 617,
+  "exact_fiber_1": [
+    "0x1.0000000000000p+0",
+    "0x1.0000000000001p+0",
+    "0x1.0000000000002p+0"
+  ],
+  "full_fiber_boundary_checks": 25612,
+  "native_cells": 5041,
+  "observed_fiber_sizes": {
+    "1": 2138,
+    "2": 456,
+    "3": 489,
+    "4": 507,
+    "5": 599,
+    "6": 330,
+    "7": 236,
+    "8": 213,
+    "9": 73
+  },
+  "openpyxl": "3.1.5",
+  "sharp_maximum_positive_normal_fiber": 9,
+  "sharp_native_preimages": [
+    "0x1.f8507b0ee5d39p+896",
+    "0x1.f8507b0ee5d3ap+896",
+    "0x1.f8507b0ee5d3bp+896",
+    "0x1.f8507b0ee5d3cp+896",
+    "0x1.f8507b0ee5d3dp+896",
+    "0x1.f8507b0ee5d3ep+896",
+    "0x1.f8507b0ee5d3fp+896",
+    "0x1.f8507b0ee5d40p+896",
+    "0x1.f8507b0ee5d41p+896"
+  ],
+  "sharp_native_token": "1.040728623914258e+270"
+}

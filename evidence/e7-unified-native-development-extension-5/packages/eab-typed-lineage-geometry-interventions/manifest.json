@@ -1,0 +1,18 @@
+{
+  "version": "lineage-geometry-replay/v1",
+  "domain": "closed-unit-grid-tile-union",
+  "operation_contract": {
+    "replace": "execute authoritative proposal by stable feature ID",
+    "keep": "do not replace; preserve prior geometry by stable feature ID"
+  },
+  "equivalence": {
+    "intent": "exact action and proposal authority by stable feature ID",
+    "geometry": "exact sets of closed unit grid squares",
+    "representation": "diagnostic only"
+  },
+  "rows": [
+    {"id":11,"intent":"keep","before":[[0,0],[1,0],[1,1],[2,1]],"proposal":[[0,0],[1,0],[1,1],[2,1]],"authority":"draft"},
+    {"id":12,"intent":"replace","before":[[0,0]],"proposal":[[0,1],[1,1],[1,0],[2,0]],"authority":"authoritative"},
+    {"id":13,"intent":"replace","before":[[0,1],[1,1],[1,0],[2,0]],"proposal":[[0,0],[1,0],[1,1],[2,1]],"authority":"authoritative"}
+  ]
+}

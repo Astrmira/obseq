@@ -1,0 +1,13 @@
+# Benchmark an allowed result family, not a single golden witness
+
+**Claim to falsify.** For top-k by descending integer score with no tie breaker, a correct result contains k distinct eligible IDs, every ID above the cutoff and only IDs at or above it. Lower and higher boundary cases are intentional. This is a candidate for a workload stratum where exact ID equality to one reference output overrejects, while comparing only score values underchecks eligibility and identity.
+
+The native SQLite query uses the same partial ORDER BY inside ROW_NUMBER, with two forced index paths differing only in physical order within score ties. In the matched fixture the actual outputs are {10,11,12} and {10,12,13}; both are legal. We independently enumerate all subsets of the eligible rows with the exact top-k score multiset. Both engine outputs pass; a hand-authored outside-universe ID with exactly the same score is rejected although score-only comparison cannot detect it. The compact verifier uses the cutoff guard above, which is exact: higher IDs are mandatory, lower IDs forbidden, and the remaining cardinality is chosen from the tie class. A true explicit tie-breaker would instead make exact ID equality an appropriate gate.
+
+**Why this matters downstream.** An operation that depends only on scores can consume any legal witness. An identity-sensitive use needs its own declared contract. For the fixture, positive weights 1, 2 and 4 on the three tied rows (zero on the mandatory row) yield legal downstream totals 3, 5 and 6. The two actual native witnesses produce 3 and 6, but the continuous interval [3,6] permits impossible 4. An exact downstream oracle must evaluate the legal image when tractable, or declare a weaker bound rather than treating it as exact allowable outputs.
+
+**Corpus taxonomy.** Keep four distinct oracle types: exact durable identity/status; equivalence quotient over representations (e.g. spatial set vs raw encoding); membership in a declared nondeterministic result family; and explicit temporal/lineage action and effect checks. Do not infer one from another; in particular, tie allowance is not authority to ignore eligibility. This staged taxonomy is falsifiable on the actual two-plan differential plus outside-universe mutant. It is not a survey of all database operators or an empirical failure-rate claim.
+
+Across 108 authored SQLite cases, 28 have differing legal outputs between forced plans; 1,467 exact subset checks validate the compact guard. The statement has a final ORDER BY ID only to make emission stable and not to break ties inside ROW_NUMBER. No execution speed or preferences for actual application tie-breaking are claimed.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "F001",
+    "accepted": true
+  },
+  {
+    "id": "F002",
+    "accepted": false
+  },
+  {
+    "id": "F003",
+    "accepted": true
+  },
+  {
+    "id": "F004",
+    "accepted": false
+  },
+  {
+    "id": "F005",
+    "accepted": false
+  },
+  {
+    "id": "F006",
+    "accepted": true
+  },
+  {
+    "id": "F007",
+    "accepted": false
+  },
+  {
+    "id": "F008",
+    "accepted": false
+  },
+  {
+    "id": "F009",
+    "accepted": false
+  },
+  {
+    "id": "F010",
+    "accepted": true
+  },
+  {
+    "id": "F011",
+    "accepted": false
+  },
+  {
+    "id": "F012",
+    "accepted": true
+  },
+  {
+    "id": "F013",
+    "accepted": false
+  },
+  {
+    "id": "F014",
+    "accepted": true
+  },
+  {
+    "id": "F015",
+    "accepted": false
+  },
+  {
+    "id": "F016",
+    "accepted": true
+  },
+  {
+    "id": "F017",
+    "accepted": false
+  },
+  {
+    "id": "F018",
+    "accepted": true
+  },
+  {
+    "id": "F019",
+    "accepted": false
+  },
+  {
+    "id": "F020",
+    "accepted": true
+  },
+  {
+    "id": "F021",
+    "accepted": false
+  },
+  {
+    "id": "F022",
+    "accepted": false
+  },
+  {
+    "id": "F023",
+    "accepted": false
+  },
+  {
+    "id": "F024",
+    "accepted": true
+  }
+]

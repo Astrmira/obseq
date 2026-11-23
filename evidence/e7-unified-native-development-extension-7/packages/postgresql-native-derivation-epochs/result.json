@@ -1,0 +1,91 @@
+{
+  "PostgreSQL": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+  "bucket_queries_per_index": 17,
+  "input_rows": 24926,
+  "native_phases": {
+    "v1_baseline": {
+      "expr": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 0
+      },
+      "phase": "v1_baseline",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 0
+      }
+    },
+    "v1_direct_rewrite_without_reindex": {
+      "expr": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 0
+      },
+      "phase": "v1_direct_rewrite_without_reindex",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 0
+      }
+    },
+    "v1_replace_again": {
+      "expr": {
+        "missing_bucket_memberships": 24926,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 24926
+      },
+      "phase": "v1_replace_again",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 24926,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 24926
+      }
+    },
+    "v2_reindex_both": {
+      "expr": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 0
+      },
+      "phase": "v2_reindex_both",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 24926,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 24926
+      }
+    },
+    "v2_replace_function": {
+      "expr": {
+        "missing_bucket_memberships": 24926,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 24926
+      },
+      "phase": "v2_replace_function",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 24926,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 24926
+      }
+    },
+    "v2_rewrite_generated": {
+      "expr": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_eval",
+        "wrong_bucket_memberships": 0
+      },
+      "phase": "v2_rewrite_generated",
+      "plain_seq_current_by_all_ids": true,
+      "stored": {
+        "missing_bucket_memberships": 0,
+        "native_index": "idx_stored",
+        "wrong_bucket_memberships": 0
+      }
+    }
+  }
+}

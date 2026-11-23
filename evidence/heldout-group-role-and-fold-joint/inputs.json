@@ -1,0 +1,279 @@
+[
+  {
+    "id": "E7G01",
+    "family": "group",
+    "rows": [
+      [
+        null,
+        null,
+        5
+      ]
+    ],
+    "selection": "limit",
+    "k": 1,
+    "offset": 0
+  },
+  {
+    "id": "E7G02",
+    "family": "group",
+    "rows": [
+      [
+        "A",
+        null,
+        4
+      ],
+      [
+        "A",
+        "red",
+        0
+      ]
+    ],
+    "selection": "rank",
+    "k": 1,
+    "offset": 0
+  },
+  {
+    "id": "E7G03",
+    "family": "group",
+    "rows": [
+      [
+        "A",
+        null,
+        4
+      ],
+      [
+        "A",
+        "red",
+        0
+      ]
+    ],
+    "selection": "limit",
+    "k": 2,
+    "offset": 1
+  },
+  {
+    "id": "E7G04",
+    "family": "group",
+    "rows": [
+      [
+        null,
+        "x",
+        3
+      ],
+      [
+        null,
+        null,
+        2
+      ],
+      [
+        "B",
+        null,
+        5
+      ]
+    ],
+    "selection": "rank",
+    "k": 2,
+    "offset": 0
+  },
+  {
+    "id": "E7G05",
+    "family": "group",
+    "rows": [
+      [
+        null,
+        "x",
+        3
+      ],
+      [
+        null,
+        null,
+        2
+      ],
+      [
+        "B",
+        null,
+        5
+      ]
+    ],
+    "selection": "dense_rank",
+    "k": 2,
+    "offset": 0
+  },
+  {
+    "id": "E7G06",
+    "family": "group",
+    "rows": [
+      [
+        null,
+        null,
+        -2
+      ],
+      [
+        null,
+        "x",
+        -3
+      ],
+      [
+        "B",
+        null,
+        -4
+      ]
+    ],
+    "selection": "limit",
+    "k": 2,
+    "offset": 0
+  },
+  {
+    "id": "E7G07",
+    "family": "group",
+    "rows": [
+      [
+        null,
+        "x",
+        1
+      ],
+      [
+        null,
+        "x",
+        1
+      ],
+      [
+        null,
+        null,
+        -2
+      ],
+      [
+        "B",
+        null,
+        0
+      ]
+    ],
+    "selection": "rank",
+    "k": 2,
+    "offset": 0
+  },
+  {
+    "id": "E7G08",
+    "family": "group",
+    "rows": [
+      [
+        "A",
+        "x",
+        5
+      ],
+      [
+        "A",
+        null,
+        0
+      ],
+      [
+        "B",
+        null,
+        5
+      ]
+    ],
+    "selection": "limit",
+    "k": 3,
+    "offset": 2
+  },
+  {
+    "id": "E7T01",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 77,
+    "end_local": 87,
+    "observed_duration": 10
+  },
+  {
+    "id": "E7T02",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 107,
+    "end_local": 69,
+    "observed_duration": 22
+  },
+  {
+    "id": "E7T03",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 136,
+    "end_local": 97,
+    "observed_duration": 21
+  },
+  {
+    "id": "E7T04",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 42,
+    "end_local": 73,
+    "observed_duration": 31
+  },
+  {
+    "id": "E7T05",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 80,
+    "end_local": 80,
+    "observed_duration": 0
+  },
+  {
+    "id": "E7T06",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 119,
+    "end_local": 120,
+    "observed_duration": 1
+  },
+  {
+    "id": "E7T07",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 60,
+    "end_local": 59,
+    "observed_duration": 0
+  },
+  {
+    "id": "E7T08",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 105,
+    "offset_after": 75,
+    "start_local": 88,
+    "end_local": 83,
+    "observed_duration": 25
+  },
+  {
+    "id": "E7T09",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 105,
+    "offset_after": 75,
+    "start_local": 96,
+    "end_local": 101,
+    "observed_duration": 35
+  },
+  {
+    "id": "E7T10",
+    "family": "paired_civil",
+    "transition_utc": 0,
+    "offset_before": 120,
+    "offset_after": 60,
+    "start_local": 50,
+    "end_local": 130,
+    "observed_duration": 140
+  }
+]

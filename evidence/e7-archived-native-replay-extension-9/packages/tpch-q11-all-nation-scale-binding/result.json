@@ -1,0 +1,252 @@
+[
+  {
+    "eligible_parts": 296720,
+    "eligible_source_rows": 314720,
+    "highest_group_share_exact": "1855355086/78767083766497",
+    "nation": "ALGERIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 10130,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 301731,
+    "eligible_source_rows": 320560,
+    "highest_group_share_exact": "715817107/26746847946423",
+    "nation": "ARGENTINA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9322,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 301049,
+    "eligible_source_rows": 319600,
+    "highest_group_share_exact": "415434450/13297884852899",
+    "nation": "BRAZIL",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9363,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 305247,
+    "eligible_source_rows": 324320,
+    "highest_group_share_exact": "985638453/40566328281152",
+    "nation": "CANADA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8690,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 300316,
+    "eligible_source_rows": 319040,
+    "highest_group_share_exact": "1171058441/39988816745876",
+    "nation": "CHINA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9467,
+    "scale10_workload_tied_value_excess": 5
+  },
+  {
+    "eligible_parts": 300152,
+    "eligible_source_rows": 318480,
+    "highest_group_share_exact": "1988239275/79773842827406",
+    "nation": "EGYPT",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9574,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 297534,
+    "eligible_source_rows": 315600,
+    "highest_group_share_exact": "1015492007/39404221416928",
+    "nation": "ETHIOPIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9940,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 298633,
+    "eligible_source_rows": 316880,
+    "highest_group_share_exact": "1041069778/39574394432369",
+    "nation": "FRANCE",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9964,
+    "scale10_workload_tied_value_excess": 2
+  },
+  {
+    "eligible_parts": 304774,
+    "eligible_source_rows": 323920,
+    "highest_group_share_exact": "24857041/988160215274",
+    "nation": "GERMANY",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8685,
+    "scale10_workload_tied_value_excess": 2
+  },
+  {
+    "eligible_parts": 306965,
+    "eligible_source_rows": 326320,
+    "highest_group_share_exact": "584381629/20408035173912",
+    "nation": "INDIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8440,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 299547,
+    "eligible_source_rows": 317920,
+    "highest_group_share_exact": "767126753/26473534479287",
+    "nation": "INDONESIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9789,
+    "scale10_workload_tied_value_excess": 3
+  },
+  {
+    "eligible_parts": 303025,
+    "eligible_source_rows": 321840,
+    "highest_group_share_exact": "972297931/40330350849871",
+    "nation": "IRAN",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9181,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 308064,
+    "eligible_source_rows": 327600,
+    "highest_group_share_exact": "2183646926/81800714678473",
+    "nation": "IRAQ",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8406,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 301660,
+    "eligible_source_rows": 320720,
+    "highest_group_share_exact": "2244501722/80521344728487",
+    "nation": "JAPAN",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9218,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 296234,
+    "eligible_source_rows": 314640,
+    "highest_group_share_exact": "2421855495/78745064865658",
+    "nation": "JORDAN",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 10364,
+    "scale10_workload_tied_value_excess": 4
+  },
+  {
+    "eligible_parts": 304422,
+    "eligible_source_rows": 323520,
+    "highest_group_share_exact": "60730471/2313457820605",
+    "nation": "KENYA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8951,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 300330,
+    "eligible_source_rows": 319200,
+    "highest_group_share_exact": "573376495/15987281108891",
+    "nation": "MOROCCO",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9522,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 295792,
+    "eligible_source_rows": 313920,
+    "highest_group_share_exact": "2253169699/78638553351483",
+    "nation": "MOZAMBIQUE",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 10265,
+    "scale10_workload_tied_value_excess": 4
+  },
+  {
+    "eligible_parts": 300387,
+    "eligible_source_rows": 319280,
+    "highest_group_share_exact": "1956967408/79874715917367",
+    "nation": "PERU",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9384,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 303531,
+    "eligible_source_rows": 322320,
+    "highest_group_share_exact": "258416097/8976267238564",
+    "nation": "ROMANIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 8991,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 302923,
+    "eligible_source_rows": 321680,
+    "highest_group_share_exact": "2344540288/80483844064201",
+    "nation": "RUSSIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9062,
+    "scale10_workload_tied_value_excess": 1
+  },
+  {
+    "eligible_parts": 301833,
+    "eligible_source_rows": 320800,
+    "highest_group_share_exact": "2019485086/80338928133707",
+    "nation": "SAUDI ARABIA",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9241,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 299104,
+    "eligible_source_rows": 317840,
+    "highest_group_share_exact": "2220061239/79692413659220",
+    "nation": "UNITED KINGDOM",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9722,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 301519,
+    "eligible_source_rows": 320320,
+    "highest_group_share_exact": "1879919042/80048572367027",
+    "nation": "UNITED STATES",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9348,
+    "scale10_workload_tied_value_excess": 0
+  },
+  {
+    "eligible_parts": 300893,
+    "eligible_source_rows": 318960,
+    "highest_group_share_exact": "2208862105/79611879865933",
+    "nation": "VIETNAM",
+    "qualification_literal": 0,
+    "qualification_literal_tied_value_excess": 0,
+    "scale10_workload": 9650,
+    "scale10_workload_tied_value_excess": 4
+  }
+]

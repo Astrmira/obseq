@@ -1,0 +1,579 @@
+{
+  "observations": [
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-18",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-18",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M6_id_float64_roundtrip",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-18",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M2_swap_group_counts",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-18",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "clickbench-25",
+      "key_columns": null,
+      "legal": true,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "derived_legal_boundary_alternate",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "clickbench-25",
+      "key_columns": null,
+      "legal": true,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "M3_same_score_ineligible_empty_phrase",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "clickbench-25",
+      "key_columns": null,
+      "legal": false,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_to_4",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpcds-39",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_exact_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpcds-39",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M5_near_float",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpcds-39",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "large_float_control",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpcds-39",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "projected_peer_sort_asc",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": true,
+      "id": "tpcds-59",
+      "key_columns": null,
+      "legal": true,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "projected_peer_sort_desc",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": true,
+      "id": "tpcds-59",
+      "key_columns": null,
+      "legal": true,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "shape_negative",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "tpcds-59",
+      "key_columns": null,
+      "legal": false,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "M4_nullness_in_place_of_grouping",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "tpcds-86",
+      "key_columns": null,
+      "legal": false,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "M7_drop_null_detail_groups",
+      "cohort": "benchmark",
+      "datacompy_natural_key": null,
+      "datacompy_positional": false,
+      "id": "tpcds-86",
+      "key_columns": null,
+      "legal": false,
+      "natural_key_error": "inapplicable_natural_key",
+      "positional_error": null
+    },
+    {
+      "arm": "qualification_fraction_on_scale_bound_workload",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpch-11",
+      "key_columns": [
+        0
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "reverse_secondary_order",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "tpch-21",
+      "key_columns": [
+        0
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": true,
+      "datacompy_positional": true,
+      "id": "clickbench-31",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-31",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M2_swap_nonkeys",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-31",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M5_two_ulp_width",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-31",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-32",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-32",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M2_swap_nonkeys",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-32",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M6_id_float64_roundtrip",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-32",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M5_two_ulp_width",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-32",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-33",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-33",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M2_swap_nonkeys",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-33",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M6_id_float64_roundtrip",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-33",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M5_two_ulp_width",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-33",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-39",
+      "key_columns": [
+        0
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-40",
+      "key_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-40",
+      "key_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-41",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": true,
+      "id": "clickbench-41",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M2_swap_nonkeys",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-41",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "native_1_thread",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-42",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": true,
+      "natural_key_error": null,
+      "positional_error": null
+    },
+    {
+      "arm": "M1_integer_key_plus_one",
+      "cohort": "benchmark",
+      "datacompy_natural_key": false,
+      "datacompy_positional": false,
+      "id": "clickbench-42",
+      "key_columns": [
+        0,
+        1
+      ],
+      "legal": false,
+      "natural_key_error": null,
+      "positional_error": null
+    }
+  ],
+  "totals": {
+    "ClickBench": {
+      "datacompy_natural_key": {
+        "NA_illegal": 1,
+        "NA_legal": 2,
+        "false_reject": 7,
+        "true_accept": 1,
+        "true_reject": 18
+      },
+      "datacompy_positional": {
+        "false_accept": 7,
+        "false_reject": 9,
+        "true_accept": 1,
+        "true_reject": 12
+      }
+    },
+    "TPC": {
+      "datacompy_natural_key": {
+        "NA_illegal": 3,
+        "NA_legal": 2,
+        "false_reject": 1,
+        "true_reject": 5
+      },
+      "datacompy_positional": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 8
+      }
+    }
+  },
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  }
+}

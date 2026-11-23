@@ -1,0 +1,12 @@
+{
+  "data_small.csv": "14df95af7ba489ba48d8824b1d6ea81921e2a396845dc096e43e89a1b7241f3d",
+  "download_data.sh": "ceaa3ae3e6fce307695a4d51e24325e1defabebaa671dd3b49d9806ba9ebe6d5",
+  "dt.deb": "ecfa633a3b2f9b55b8303e743a01682f1195f437e463144df58a100d9011e7f6",
+  "generated/G1_1e7_1e2_5_0.csv": "6bd993a223db3b177f9f501eb11725e494f3b04c63780504a1a13e2471d8e911",
+  "generator.R": "bfcc1b01bee40a9051315d468b46b6dc0e98a7c7e6f3a1ca0175c4952c8cded6",
+  "groupby-datatable.R": "4f24ad3fbde8b87dee9327d19286b94d37b6ba6151877a2925361457a1cf05fe",
+  "groupby-duckdb.py": "d23ede9d21ca8933f2aea169639a5ffc8cea2b05ad24b2325a02df495d6ade5f",
+  "helpers.py": "d64c4ecafab8e2fc2534f42402ca959e79f83f972a6dea8c50fc31771d1784f6",
+  "pinned.tar.gz": "b4359cca07153a6db2980a3c0ec706567a37d86351c9060feda69a86675e8806",
+  "r.deb": "6c529a906d2a26cf78e6c24eaa96e0bbd061b032e6c824f9a61e5f313353b155"
+}

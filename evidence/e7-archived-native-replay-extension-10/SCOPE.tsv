@@ -1,0 +1,7 @@
+case_id	status	note
+exact-orient2d-adaptive-native-corpus	PASS_stable	Actually re-executed 243727 original GDAL wedges against GEOS and an exact arithmetic implementation. Receipt comparison excludes timer samples, timer medians and peak RSS; retains every sign digest, count, and fallback count. Not the separate 100M receipt-only scope.
+tpcds-sf10-q39-exact-threshold	PASS_stable	Actually executed original signed native query and exact enumeration. Allows recorded thread-schedule-dependent cross-thread changed-row count and four-thread exact binary64 disagreements; four-thread max ULP must be at most 2. All threshold, cardinality, single-thread and other semantic fields equal.
+h2o-stock-projection-switch-observer	PASS_not_counted	Native exact replay passed but overlaps the earlier 10M cohort and moment discriminator; excluded reserve.
+tpch-sf10-q21-secondary-rank	NA_not_attempted	Original may spill up to 3.2 GB; exceeds available shared scratch safety margin.
+e3-f10-native-census-vertex-preservation	PASS	Pinned E3 transfer replay; no incremental E3 finding and no holdout credit.
+e3-f5-native-osm-field-mask	PASS	Pinned E3 transfer replay; no incremental E3 finding and no holdout credit.

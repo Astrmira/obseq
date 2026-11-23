@@ -1,0 +1,168 @@
+{
+  "admitted": {
+    "1": [
+      0,
+      7
+    ],
+    "2": [
+      0,
+      6
+    ],
+    "3": [
+      0,
+      6
+    ],
+    "4": [
+      0,
+      15
+    ],
+    "9": [
+      0,
+      22
+    ],
+    "10": [
+      0,
+      9
+    ]
+  },
+  "artifact_sha256": "386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+  "changed_vertices": 53,
+  "cross_representation_categories": {
+    "exact-midpoint:boundary->boundary": 1,
+    "exact-midpoint:boundary->exterior": 11,
+    "exact-midpoint:boundary->interior": 3,
+    "one-ulp-midpoint:exterior->boundary": 2,
+    "one-ulp-midpoint:exterior->exterior": 11,
+    "one-ulp-midpoint:exterior->interior": 2,
+    "one-ulp-midpoint:interior->boundary": 1,
+    "one-ulp-midpoint:interior->exterior": 7,
+    "one-ulp-midpoint:interior->interior": 7,
+    "vertex:boundary->boundary": 65
+  },
+  "example_transitions": {
+    "exact-midpoint:boundary->exterior": {
+      "component": 0,
+      "fid": 1,
+      "original_hex": [
+        "0x1.ae41ae5ea23c3p+1",
+        "-0x1.b33d5ca832560p+5"
+      ],
+      "roundtrip_edge_hex": [
+        [
+          "0x1.ac3b03b43a972p+1",
+          "-0x1.b35932007f620p+5"
+        ],
+        [
+          "0x1.b048590909e13p+1",
+          "-0x1.b321874fe54a3p+5"
+        ]
+      ],
+      "roundtrip_edge_orientation": "6802512511995/19807040628566084398385987584",
+      "roundtrip_hex": [
+        "0x1.ae41ae5ea23c2p+1",
+        "-0x1.b33d5ca832560p+5"
+      ],
+      "source_edge_hex": [
+        [
+          "0x1.ac3b03b43a972p+1",
+          "-0x1.b35932007f61fp+5"
+        ],
+        [
+          "0x1.b048590909e14p+1",
+          "-0x1.b321874fe54a1p+5"
+        ]
+      ]
+    },
+    "exact-midpoint:boundary->interior": {
+      "component": 0,
+      "fid": 3,
+      "original_hex": [
+        "0x1.ade02c84781adp+2",
+        "0x1.ac8dd8b4537b6p+5"
+      ],
+      "roundtrip_edge_hex": [
+        [
+          "0x1.b06ad72aecbf8p+2",
+          "0x1.ac80cdff17b0cp+5"
+        ],
+        [
+          "0x1.ab5581de03762p+2",
+          "0x1.ac9ae3698f45ep+5"
+        ]
+      ],
+      "roundtrip_edge_orientation": "-44713468447307/79228162514264337593543950336",
+      "roundtrip_hex": [
+        "0x1.ade02c84781adp+2",
+        "0x1.ac8dd8b4537b6p+5"
+      ],
+      "source_edge_hex": [
+        [
+          "0x1.b06ad72aecbf8p+2",
+          "0x1.ac80cdff17b0ep+5"
+        ],
+        [
+          "0x1.ab5581de03762p+2",
+          "0x1.ac9ae3698f45ep+5"
+        ]
+      ]
+    },
+    "one-ulp-midpoint:exterior->boundary": {
+      "component": 0,
+      "fid": 3,
+      "original_hex": [
+        "0x1.ade02c84781adp+2",
+        "0x1.ac8dd8b4537b5p+5"
+      ],
+      "roundtrip_hex": [
+        "0x1.ade02c84781adp+2",
+        "0x1.ac8dd8b4537b5p+5"
+      ]
+    },
+    "one-ulp-midpoint:exterior->interior": {
+      "component": 0,
+      "fid": 9,
+      "original_hex": [
+        "0x1.9d3f02c84ee43p+6",
+        "0x1.5304b82590592p+3"
+      ],
+      "roundtrip_hex": [
+        "0x1.9d3f02c84ee42p+6",
+        "0x1.5304b82590594p+3"
+      ]
+    },
+    "one-ulp-midpoint:interior->boundary": {
+      "component": 0,
+      "fid": 4,
+      "original_hex": [
+        "-0x1.10cd97e2a8dfdp+6",
+        "0x1.86ed38336af08p+3"
+      ],
+      "roundtrip_hex": [
+        "-0x1.10cd97e2a8dfdp+6",
+        "0x1.86ed38336af06p+3"
+      ]
+    },
+    "one-ulp-midpoint:interior->exterior": {
+      "component": 0,
+      "fid": 4,
+      "original_hex": [
+        "-0x1.11a287e262945p+6",
+        "0x1.88fb8d6cdc94bp+3"
+      ],
+      "roundtrip_hex": [
+        "-0x1.11a287e262945p+6",
+        "0x1.88fb8d6cdc94dp+3"
+      ]
+    }
+  },
+  "excluded": [],
+  "gdal": "3100300",
+  "policy_sha256": "4915b05a3bb5ff835f0f23c500c0207c131201656afc16c317620635cb1def92",
+  "predicate_mismatches_per_representation": {},
+  "probes": 110,
+  "proj": [
+    9,
+    6,
+    0
+  ]
+}

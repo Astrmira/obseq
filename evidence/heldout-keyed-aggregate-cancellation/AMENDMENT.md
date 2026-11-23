@@ -1,0 +1,1 @@
+Corrected SQL assembly to put FROM before GROUP BY. This execution-only amendment, original freeze, and new observer bytes precede any successful observation or access to labels. No operators or fixtures changed.

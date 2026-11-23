@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "E7H-O4-pointset-01",
+    "mismatches_by_direction": [
+      0,
+      0
+    ],
+    "duckdb_typed_membership": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-02",
+    "mismatches_by_direction": [
+      2,
+      2
+    ],
+    "duckdb_typed_membership": false
+  },
+  {
+    "case_id": "E7H-O4-pointset-03",
+    "mismatches_by_direction": [
+      0,
+      0
+    ],
+    "duckdb_typed_membership": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-04",
+    "mismatches_by_direction": [
+      1,
+      0
+    ],
+    "duckdb_typed_membership": false
+  },
+  {
+    "case_id": "E7H-O4-pointset-05",
+    "mismatches_by_direction": [
+      0,
+      0
+    ],
+    "duckdb_typed_membership": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-06",
+    "mismatches_by_direction": [
+      1,
+      0
+    ],
+    "duckdb_typed_membership": false
+  }
+]

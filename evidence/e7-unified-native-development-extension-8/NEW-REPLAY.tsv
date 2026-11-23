@@ -1,0 +1,10 @@
+native-bag-comparator-coercion	native_external_transfer	PASS
+cross-engine-bag-comparator-admission	native_external_transfer	PASS
+hvfhv-native-fold-duration-constraints	native_external_transfer	PASS
+hvfhv-native-three-event-order	native_external_transfer	PASS
+polars-cent-contract-scale	native_external_transfer	PASS
+tpch-scoped-epoch-binding	native_authored_development	PASS
+clickbench-native-footer-epoch-binding	native_authored_development	PASS
+clickbench-native-id-cast-boundaries	native_external_transfer	PASS
+clickbench-two-partition-projected-queries	native_external_transfer	PASS
+publisher-cutoff-observability	native_external_transfer	PASS

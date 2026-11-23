@@ -1,0 +1,474 @@
+{
+  "pins": {
+    "BLIND.json": "8e86163e65e0deaa46f3450f7600aa03361141f9406e73b235e0c648a5804831",
+    "check.py": "f005d93a52f8a4b69f772ef5c81a1cdc469df4c93a695f2f8ac24b57292b1cb6"
+  },
+  "results": {
+    "E7H-F9-01": {
+      "cases": [
+        {
+          "candidate": [
+            "integer",
+            "4"
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "decimal",
+            "4.0"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "float64",
+            "4.0"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "integer",
+            "4.0"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "decimal",
+            "4"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            "4"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 0,
+        "slotwise": 2,
+        "tag_unbound": 4
+      },
+      "fixed_first_false_rejects": 1,
+      "original_admissible": false,
+      "proposals": 6
+    },
+    "E7H-F9-02": {
+      "cases": [
+        {
+          "candidate": [
+            "varchar",
+            "Haze"
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "text",
+            "HAZE"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "varchar",
+            "HAZE"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "text",
+            "Haze"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            "Haze"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 0,
+        "slotwise": 2,
+        "tag_unbound": 3
+      },
+      "fixed_first_false_rejects": 1,
+      "original_admissible": true,
+      "proposals": 5
+    },
+    "E7H-F9-03": {
+      "cases": [
+        {
+          "candidate": [
+            "smallint",
+            "7"
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "decimal",
+            "7.00"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "smallint",
+            "7.00"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "decimal",
+            "7"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            "7"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 0,
+        "slotwise": 2,
+        "tag_unbound": 3
+      },
+      "fixed_first_false_rejects": 1,
+      "original_admissible": false,
+      "proposals": 5
+    },
+    "E7H-F9-04": {
+      "cases": [
+        {
+          "candidate": [
+            "boolean",
+            true
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "integer",
+            1
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "boolean",
+            1
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "integer",
+            true
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            true
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": true,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 0,
+        "slotwise": 2,
+        "tag_unbound": 3
+      },
+      "fixed_first_false_rejects": 1,
+      "original_admissible": true,
+      "proposals": 5
+    },
+    "E7H-F9-05": {
+      "cases": [
+        {
+          "candidate": [
+            "bytes",
+            "41"
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "text",
+            "A"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "bytes",
+            "A"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "text",
+            "41"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            "41"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 1,
+        "slotwise": 0,
+        "tag_unbound": 0
+      },
+      "fixed_first_false_rejects": 0,
+      "original_admissible": false,
+      "proposals": 5
+    },
+    "E7H-F9-06": {
+      "cases": [
+        {
+          "candidate": [
+            "binary64-bits",
+            "8000000000000000"
+          ],
+          "decisions": {
+            "fixed_first": true,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "binary64-bits",
+            "0000000000000000"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": true,
+            "slotwise": true,
+            "tag_unbound": true,
+            "typed_coupled": true
+          }
+        },
+        {
+          "candidate": [
+            "other",
+            "8000000000000000"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        },
+        {
+          "candidate": [
+            "binary64-bits",
+            "8000000000000001"
+          ],
+          "decisions": {
+            "fixed_first": false,
+            "order_unbound": false,
+            "slotwise": false,
+            "tag_unbound": false,
+            "typed_coupled": false
+          }
+        }
+      ],
+      "false_admits": {
+        "order_unbound": 0,
+        "slotwise": 0,
+        "tag_unbound": 0
+      },
+      "fixed_first_false_rejects": 1,
+      "original_admissible": true,
+      "proposals": 4
+    }
+  },
+  "versions": {
+    "duckdb": "1.4.3",
+    "sqlite": "3.53.1"
+  }
+}

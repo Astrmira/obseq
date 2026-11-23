@@ -1,0 +1,8 @@
+h2o-native-null-policy-join	native_external_transfer	PASS
+tpch-q11-all-nation-scale-binding	native_external_transfer	PASS
+slt-native-port-framing-scope	native_authored_development	PASS
+sparse-float-join-discriminators	native_external_transfer	PASS
+supplied-cwi-tool-q39	native_external_transfer	PASS
+stock-dbt-scoped-freshness	native_authored_development	PASS
+tpch-sf10-bundled-vs-workload-q11	native_external_transfer	PASS
+tlc-joint-fold-interval-validation	native_external_transfer	PASS

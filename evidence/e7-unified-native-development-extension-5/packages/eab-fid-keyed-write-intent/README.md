@@ -1,0 +1,9 @@
+# An Arrow validity mask cannot transport lineage or patch intent
+
+This controlled extension uses a native OGR Memory Arrow stream through GDAL's NumPy adapter, a manifest sidecar and real GeoPackage writes verified by closed-file SQLite readback. The same physical int64 key field carries a known authoritative cached value, literal zero, a missing formula cache, explicit clear, and keep. The manifest is authoritative for this authored case; the validity mask identifies only present/missing, not source meaning. The above-2^53 cache value remains an exact signed int64. The raw JSON fixture is parsed by Python's exact integer parser; this is not a claim about JavaScript interchange.
+
+The unadorned payload cannot distinguish await-cache from keep or clear: three missing-key states carry identical Arrow observations but demand different status and, for clear versus keep, different storage values. An FID-keyed lineage sidecar makes intent orthogonal to batch boundaries and provides an explicit authority condition for a present cache. Revoking that authority preserves prior state and reports untrusted-cache even though Arrow data are unchanged. It is a separate expected diagnostic test, not a failure of the correct modified contract.
+
+The fixture uses 5-row vs 2-row batch capacities; in the latter test a deliberate relay reverses native batch delivery order without changing records inside any batch. Positional lineage mapping happens to pass the first ordering and fails after relay, while FID mapping passes both. Payload-only mapping clears the await-cache and keep rows in both cases. Stable IDs, per-candidate coverage, and separated operation/schema are evidence reuse conditions. No assertion about implicit ordering guarantees, freshness of actual formulas, Arrow writes, or throughput.
+
+Replay: `/usr/bin/python3 -IB check.py | cmp - result.json`.

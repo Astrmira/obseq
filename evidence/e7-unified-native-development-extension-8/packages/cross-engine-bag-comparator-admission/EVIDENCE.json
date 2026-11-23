@@ -1,0 +1,11 @@
+{
+  "files_sha256": {
+    "INPUTS.sha256": "ab3a07f353a1971eb4d49f33a53e41825601bdeaf22700cdbf1f2bfabf63006f",
+    "README.md": "adaf3cbc1391771f247669e2193ed7c9805a21bb40a77082591c275291a08921",
+    "RESULT.json": "3606695186cb56521a37b5c55878bbc53933dff4e1f0498d8e11d7975f4b9da2",
+    "SHA256SUMS": "c93ea20bd4c22f2e2f8fc648c8aa13f399cb7962163aff1ffe2b20c63650a2b0",
+    "check.py": "0a36ccb2a3b95e4823b6376cc060c587ac6af27fc35ba994764f6ab22713b06f"
+  },
+  "predecessor": "3b84d2d6cb9c973eb7240e04c88de01faa79263e",
+  "project": "semantic-benchmark"
+}

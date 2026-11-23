@@ -1,0 +1,16 @@
+{
+  "scipy": "1.17.0",
+  "authored_dense_sparse_controls": 450,
+  "scalar_controls": 1156,
+  "literal_controls": 21,
+  "interval_predicate_checks": 19196,
+  "separate_columns_accept_jointly_invalid": true,
+  "scale": {
+    "rows": 20000,
+    "full_cross": 400000000,
+    "best_fixed_axis": 100010000,
+    "row_adaptive": 20000,
+    "real_graph_edges": 20000,
+    "full_matching": true
+  }
+}

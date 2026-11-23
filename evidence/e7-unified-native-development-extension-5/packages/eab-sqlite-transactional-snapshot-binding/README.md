@@ -1,0 +1,9 @@
+# Reproducibility: the same SQLite main-file hash can name two logical views
+
+The contract is an exact, independently stated stable-ID projection of the logical state a workload reads. A small native on-disk SQLite case enables WAL, checkpoints one known starting row, and opens a transaction that actually reads it. After a writer commits an update plus insertion, a fresh reader observes [(1,21),(2,0)] while the pinned reader still observes [(1,17)]. The main-file bytes remain identical to the checkpointed starting artifact. A passive checkpoint with the pinned reader held reports one log frame and zero checkpointed frames.
+
+A copied main file consequently opens at the old state. The native SQLite backup API, when run using the explicitly selected pinned or fresh read connection, materializes each of their respective expected snapshots into a separate file, as checked by reopen. Conversely after releasing readers and running a truncate checkpoint, the main-file hash changes while the fresh logical result remains unchanged. File-byte identity is therefore neither sufficient to establish which view the benchmark read in the first comparison, nor necessary for reproducing the declared logical result in the second.
+
+Practical benchmark receipt: bind the source snapshot semantics and exact stable-ID projection, record whether the input is an engine-materialized standalone snapshot or a live transactional source, and include the engine and relevant journaling/checkpoint settings. If physical bytes are the metric, declare the artifact boundary (standalone persisted copy versus live store and sidecars) and distinguish it from logical equality. The test snapshots through SQLite, not a recipe to copy live sidecar files. It does not cover arbitrary concurrent backup workloads, cross-database transactions, timings, or filesystem durability.
+
+Replay SQLite 3.53.1: `python3 -IB check.py | cmp - result.json`.

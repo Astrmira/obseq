@@ -1,0 +1,1054 @@
+{
+  "engine_results": {
+    "DuckDB": {
+      "observations": {
+        "E7H-F7-01": [
+          {
+            "arm": "original",
+            "candidate": {
+              "north": 28,
+              "south": 33
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "north": 23,
+              "south": 38
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "north": 23,
+              "other": 38
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-02": [
+          {
+            "arm": "original",
+            "candidate": {
+              "items": [
+                3,
+                7,
+                -9,
+                3
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                3,
+                7
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                7
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              3
+            ],
+            "native_sums": [
+              4,
+              1
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": false
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "items": [
+                -8,
+                2,
+                3,
+                7
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-4",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                7,
+                0,
+                3
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              5
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-03": [
+          {
+            "arm": "original",
+            "candidate": {
+              "closed": 2,
+              "held": 2,
+              "open": 2
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "closed": 1,
+              "held": 2,
+              "open": 3
+            },
+            "exact": true,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "closed": 2,
+              "held": 1,
+              "open": 3
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "closed": 1,
+              "notheld": 2,
+              "open": 3
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-04": [
+          {
+            "arm": "original",
+            "candidate": {
+              "net": 6
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "net": 0
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              0
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "net": -6
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              -6
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          },
+          {
+            "arm": "authored-4",
+            "candidate": {
+              "net": -2
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              -2
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          }
+        ],
+        "E7H-F7-05": [
+          {
+            "arm": "original",
+            "candidate": {
+              "a": 4,
+              "b": -4
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "c": 0
+            },
+            "exact": true,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "d": 0
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "c": 0,
+              "d": 0
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              4
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-06": [
+          {
+            "arm": "original",
+            "candidate": {
+              "events": [
+                [
+                  "b",
+                  "sale",
+                  2
+                ],
+                [
+                  "a",
+                  "refund",
+                  -2
+                ]
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  -2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ]
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  2
+                ],
+                [
+                  "b",
+                  "sale",
+                  -2
+                ]
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  -2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ]
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              3
+            ],
+            "native_sums": [
+              0,
+              2
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": false
+          }
+        ]
+      },
+      "version": "1.4.3"
+    },
+    "SQLite": {
+      "observations": {
+        "E7H-F7-01": [
+          {
+            "arm": "original",
+            "candidate": {
+              "north": 28,
+              "south": 33
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "north": 23,
+              "south": 38
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "north": 23,
+              "other": 38
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              61,
+              61
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-02": [
+          {
+            "arm": "original",
+            "candidate": {
+              "items": [
+                3,
+                7,
+                -9,
+                3
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                3,
+                7
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                7
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              3
+            ],
+            "native_sums": [
+              4,
+              1
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": false
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "items": [
+                -8,
+                2,
+                3,
+                7
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              4
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-4",
+            "candidate": {
+              "items": [
+                -9,
+                3,
+                7,
+                0,
+                3
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              5
+            ],
+            "native_sums": [
+              4,
+              4
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-03": [
+          {
+            "arm": "original",
+            "candidate": {
+              "closed": 2,
+              "held": 2,
+              "open": 2
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "closed": 1,
+              "held": 2,
+              "open": 3
+            },
+            "exact": true,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "closed": 2,
+              "held": 1,
+              "open": 3
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "closed": 1,
+              "notheld": 2,
+              "open": 3
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-04": [
+          {
+            "arm": "original",
+            "candidate": {
+              "net": 6
+            },
+            "exact": true,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              6
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "net": 0
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              0
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "net": -6
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              -6
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          },
+          {
+            "arm": "authored-4",
+            "candidate": {
+              "net": -2
+            },
+            "exact": false,
+            "native_counts": [
+              4,
+              1
+            ],
+            "native_sums": [
+              6,
+              -2
+            ],
+            "net_and_presented_row_count": null,
+            "net_only": false
+          }
+        ],
+        "E7H-F7-05": [
+          {
+            "arm": "original",
+            "candidate": {
+              "a": 4,
+              "b": -4
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "c": 0
+            },
+            "exact": true,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "d": 0
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              3
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "a": 4,
+              "b": -4,
+              "c": 0,
+              "d": 0
+            },
+            "exact": false,
+            "native_counts": [
+              3,
+              4
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": true
+          }
+        ],
+        "E7H-F7-06": [
+          {
+            "arm": "original",
+            "candidate": {
+              "events": [
+                [
+                  "b",
+                  "sale",
+                  2
+                ],
+                [
+                  "a",
+                  "refund",
+                  -2
+                ]
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-1",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  -2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ]
+              ]
+            },
+            "exact": true,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-2",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  2
+                ],
+                [
+                  "b",
+                  "sale",
+                  -2
+                ]
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              2
+            ],
+            "native_sums": [
+              0,
+              0
+            ],
+            "net_and_presented_row_count": true,
+            "net_only": true
+          },
+          {
+            "arm": "authored-3",
+            "candidate": {
+              "events": [
+                [
+                  "a",
+                  "refund",
+                  -2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ],
+                [
+                  "b",
+                  "sale",
+                  2
+                ]
+              ]
+            },
+            "exact": false,
+            "native_counts": [
+              2,
+              3
+            ],
+            "native_sums": [
+              0,
+              2
+            ],
+            "net_and_presented_row_count": false,
+            "net_only": false
+          }
+        ]
+      },
+      "version": "3.53.1"
+    }
+  },
+  "summary_per_engine": {
+    "authored": {
+      "exact_accept": 5,
+      "net_false_admit": 8,
+      "net_plus_count_false_admit": 6,
+      "proposals": 18
+    },
+    "original": {
+      "exact_accept": 3,
+      "net_false_admit": 3,
+      "net_plus_count_false_admit": 2,
+      "proposals": 6
+    }
+  }
+}

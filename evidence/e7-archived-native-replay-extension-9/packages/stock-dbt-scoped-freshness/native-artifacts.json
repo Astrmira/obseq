@@ -1,0 +1,957 @@
+{
+  "current_both_histogram": {
+    "artifact": {
+      "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/sources/v3.json",
+        "dbt_version": "1.10.15",
+        "generated_at": "2026-11-21T18:23:01.343957Z",
+        "invocation_id": "3375d0a8-ff1c-41ce-99fe-f6e6f38da18a",
+        "invocation_started_at": "2026-11-21T18:22:59.988152Z",
+        "env": {}
+      },
+      "results": [
+        {
+          "unique_id": "source.audit.beats.filtered_a",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:01.277705+00:00",
+          "max_loaded_at_time_ago_in_s": 123.277705,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='A'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:01.244853Z",
+              "completed_at": "2026-11-21T18:23:01.244860Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:01.245132Z",
+              "completed_at": "2026-11-21T18:23:01.284524Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.04109501838684082
+        },
+        {
+          "unique_id": "source.audit.beats.filtered_b",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:01.294797+00:00",
+          "max_loaded_at_time_ago_in_s": 123.294797,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='B'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:01.288333Z",
+              "completed_at": "2026-11-21T18:23:01.288338Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:01.288933Z",
+              "completed_at": "2026-11-21T18:23:01.297263Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.009831666946411133
+        },
+        {
+          "unique_id": "source.audit.beats.global_max",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:01.305385+00:00",
+          "max_loaded_at_time_ago_in_s": 123.305385,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:01.299692Z",
+              "completed_at": "2026-11-21T18:23:01.299695Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:01.299922Z",
+              "completed_at": "2026-11-21T18:23:01.307275Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.00824594497680664
+        },
+        {
+          "unique_id": "source.audit.beats.naive_min_observed",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:01.319061+00:00",
+          "max_loaded_at_time_ago_in_s": 123.319061,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:01.309415Z",
+              "completed_at": "2026-11-21T18:23:01.309438Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:01.309718Z",
+              "completed_at": "2026-11-21T18:23:01.323155Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.01442408561706543
+        },
+        {
+          "unique_id": "source.audit.beats.scope_complete_min",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:01.333824+00:00",
+          "max_loaded_at_time_ago_in_s": 123.333824,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:01.326198Z",
+              "completed_at": "2026-11-21T18:23:01.326201Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:01.326615Z",
+              "completed_at": "2026-11-21T18:23:01.336831Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.011963367462158203
+        }
+      ],
+      "elapsed_time": 0.13398075103759766
+    },
+    "returncode": 0
+  },
+  "B_stalled_same_histogram": {
+    "artifact": {
+      "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/sources/v3.json",
+        "dbt_version": "1.10.15",
+        "generated_at": "2026-11-21T18:23:04.057116Z",
+        "invocation_id": "db14f93f-2cbb-4b25-842b-df68adbefeac",
+        "invocation_started_at": "2026-11-21T18:23:02.847414Z",
+        "env": {}
+      },
+      "results": [
+        {
+          "unique_id": "source.audit.beats.filtered_a",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:03.970036+00:00",
+          "max_loaded_at_time_ago_in_s": 125.970036,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='A'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:03.923888Z",
+              "completed_at": "2026-11-21T18:23:03.923893Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:03.924142Z",
+              "completed_at": "2026-11-21T18:23:03.981792Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.058905839920043945
+        },
+        {
+          "unique_id": "source.audit.beats.filtered_b",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:03.991408+00:00",
+          "max_loaded_at_time_ago_in_s": 14405.991408,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='B'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:03.984462Z",
+              "completed_at": "2026-11-21T18:23:03.984467Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:03.984722Z",
+              "completed_at": "2026-11-21T18:23:03.994179Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.010443449020385742
+        },
+        {
+          "unique_id": "source.audit.beats.global_max",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:04.003632+00:00",
+          "max_loaded_at_time_ago_in_s": 126.003632,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:03.997865Z",
+              "completed_at": "2026-11-21T18:23:03.997868Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:03.998099Z",
+              "completed_at": "2026-11-21T18:23:04.005900Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.008690834045410156
+        },
+        {
+          "unique_id": "source.audit.beats.naive_min_observed",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:04.019476+00:00",
+          "max_loaded_at_time_ago_in_s": 14406.019476,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:04.008169Z",
+              "completed_at": "2026-11-21T18:23:04.008171Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:04.008431Z",
+              "completed_at": "2026-11-21T18:23:04.022988Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.015426874160766602
+        },
+        {
+          "unique_id": "source.audit.beats.scope_complete_min",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:04.042528+00:00",
+          "max_loaded_at_time_ago_in_s": 14406.042528,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:04.026173Z",
+              "completed_at": "2026-11-21T18:23:04.026177Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:04.026589Z",
+              "completed_at": "2026-11-21T18:23:04.049005Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.023931264877319336
+        }
+      ],
+      "elapsed_time": 0.1825568675994873
+    },
+    "returncode": 1
+  },
+  "B_absent_same_histogram": {
+    "artifact": {
+      "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/sources/v3.json",
+        "dbt_version": "1.10.15",
+        "generated_at": "2026-11-21T18:23:06.846787Z",
+        "invocation_id": "8aaf7723-7953-4deb-ade4-5f9d697a599c",
+        "invocation_started_at": "2026-11-21T18:23:05.715328Z",
+        "env": {}
+      },
+      "results": [
+        {
+          "unique_id": "source.audit.beats.filtered_a",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:06.780611+00:00",
+          "max_loaded_at_time_ago_in_s": 128.780611,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='A'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:06.745786Z",
+              "completed_at": "2026-11-21T18:23:06.745791Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:06.746026Z",
+              "completed_at": "2026-11-21T18:23:06.788384Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.04335188865661621
+        },
+        {
+          "unique_id": "source.audit.beats.filtered_b",
+          "max_loaded_at": "0001-01-01T00:00:00+00:00",
+          "snapshotted_at": "2026-11-21T18:23:06.796765+00:00",
+          "max_loaded_at_time_ago_in_s": 63930882186.79677,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='B'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:06.790906Z",
+              "completed_at": "2026-11-21T18:23:06.790910Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:06.791142Z",
+              "completed_at": "2026-11-21T18:23:06.799421Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.009202241897583008
+        },
+        {
+          "unique_id": "source.audit.beats.global_max",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:06.808658+00:00",
+          "max_loaded_at_time_ago_in_s": 128.808658,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:06.803162Z",
+              "completed_at": "2026-11-21T18:23:06.803167Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:06.803495Z",
+              "completed_at": "2026-11-21T18:23:06.810483Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.009496212005615234
+        },
+        {
+          "unique_id": "source.audit.beats.naive_min_observed",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:06.823030+00:00",
+          "max_loaded_at_time_ago_in_s": 128.82303,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:06.812757Z",
+              "completed_at": "2026-11-21T18:23:06.812760Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:06.812985Z",
+              "completed_at": "2026-11-21T18:23:06.827022Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.01490640640258789
+        },
+        {
+          "unique_id": "source.audit.beats.scope_complete_min",
+          "max_loaded_at": "1970-01-01T00:00:00+00:00",
+          "snapshotted_at": "2026-11-21T18:23:06.837288+00:00",
+          "max_loaded_at_time_ago_in_s": 1795285386.837288,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:06.829653Z",
+              "completed_at": "2026-11-21T18:23:06.829656Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:06.829907Z",
+              "completed_at": "2026-11-21T18:23:06.840002Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.011087417602539062
+        }
+      ],
+      "elapsed_time": 0.14288091659545898
+    },
+    "returncode": 1
+  },
+  "unknown_C_old_but_out_of_scope": {
+    "artifact": {
+      "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/sources/v3.json",
+        "dbt_version": "1.10.15",
+        "generated_at": "2026-11-21T18:23:09.786703Z",
+        "invocation_id": "c7031db8-ca30-4146-ba3c-7571d2c75d72",
+        "invocation_started_at": "2026-11-21T18:23:08.618409Z",
+        "env": {}
+      },
+      "results": [
+        {
+          "unique_id": "source.audit.beats.filtered_a",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:09.726061+00:00",
+          "max_loaded_at_time_ago_in_s": 131.726061,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='A'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:09.698901Z",
+              "completed_at": "2026-11-21T18:23:09.698906Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:09.699142Z",
+              "completed_at": "2026-11-21T18:23:09.732473Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.03441429138183594
+        },
+        {
+          "unique_id": "source.audit.beats.filtered_b",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:09.740613+00:00",
+          "max_loaded_at_time_ago_in_s": 131.740613,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='B'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:09.734633Z",
+              "completed_at": "2026-11-21T18:23:09.734637Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:09.734887Z",
+              "completed_at": "2026-11-21T18:23:09.743102Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.009137153625488281
+        },
+        {
+          "unique_id": "source.audit.beats.global_max",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:09.750048+00:00",
+          "max_loaded_at_time_ago_in_s": 131.750048,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:09.745161Z",
+              "completed_at": "2026-11-21T18:23:09.745164Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:09.745415Z",
+              "completed_at": "2026-11-21T18:23:09.751898Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.007303953170776367
+        },
+        {
+          "unique_id": "source.audit.beats.naive_min_observed",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:09.762742+00:00",
+          "max_loaded_at_time_ago_in_s": 131.762742,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:09.753973Z",
+              "completed_at": "2026-11-21T18:23:09.753975Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:09.754198Z",
+              "completed_at": "2026-11-21T18:23:09.765475Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.01218867301940918
+        },
+        {
+          "unique_id": "source.audit.beats.scope_complete_min",
+          "max_loaded_at": "2026-11-21T18:20:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:09.775418+00:00",
+          "max_loaded_at_time_ago_in_s": 131.775418,
+          "status": "pass",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:09.768093Z",
+              "completed_at": "2026-11-21T18:23:09.768097Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:09.768431Z",
+              "completed_at": "2026-11-21T18:23:09.778236Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.010832548141479492
+        }
+      ],
+      "elapsed_time": 0.1211545467376709
+    },
+    "returncode": 0
+  },
+  "both_aged": {
+    "artifact": {
+      "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/sources/v3.json",
+        "dbt_version": "1.10.15",
+        "generated_at": "2026-11-21T18:23:12.650129Z",
+        "invocation_id": "61f5d685-e50a-4eea-8ae3-437b0ff09471",
+        "invocation_started_at": "2026-11-21T18:23:11.326830Z",
+        "env": {}
+      },
+      "results": [
+        {
+          "unique_id": "source.audit.beats.filtered_a",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:12.573615+00:00",
+          "max_loaded_at_time_ago_in_s": 14414.573615,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='A'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:12.540858Z",
+              "completed_at": "2026-11-21T18:23:12.540864Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:12.541136Z",
+              "completed_at": "2026-11-21T18:23:12.581313Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.04140830039978027
+        },
+        {
+          "unique_id": "source.audit.beats.filtered_b",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:12.593509+00:00",
+          "max_loaded_at_time_ago_in_s": 14414.593509,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": "shard='B'"
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:12.584276Z",
+              "completed_at": "2026-11-21T18:23:12.584282Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:12.584833Z",
+              "completed_at": "2026-11-21T18:23:12.597329Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.013970136642456055
+        },
+        {
+          "unique_id": "source.audit.beats.global_max",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:12.607635+00:00",
+          "max_loaded_at_time_ago_in_s": 14414.607635,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:12.600049Z",
+              "completed_at": "2026-11-21T18:23:12.600055Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:12.600334Z",
+              "completed_at": "2026-11-21T18:23:12.609753Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.010447263717651367
+        },
+        {
+          "unique_id": "source.audit.beats.naive_min_observed",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:12.623648+00:00",
+          "max_loaded_at_time_ago_in_s": 14414.623648,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:12.612625Z",
+              "completed_at": "2026-11-21T18:23:12.612628Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:12.612874Z",
+              "completed_at": "2026-11-21T18:23:12.626549Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.014800786972045898
+        },
+        {
+          "unique_id": "source.audit.beats.scope_complete_min",
+          "max_loaded_at": "2026-11-21T14:22:58+00:00",
+          "snapshotted_at": "2026-11-21T18:23:12.638310+00:00",
+          "max_loaded_at_time_ago_in_s": 14414.63831,
+          "status": "error",
+          "criteria": {
+            "warn_after": {
+              "count": 30,
+              "period": "minute"
+            },
+            "error_after": {
+              "count": 60,
+              "period": "minute"
+            },
+            "filter": null
+          },
+          "adapter_response": {
+            "_message": "OK"
+          },
+          "timing": [
+            {
+              "name": "compile",
+              "started_at": "2026-11-21T18:23:12.629511Z",
+              "completed_at": "2026-11-21T18:23:12.629515Z"
+            },
+            {
+              "name": "execute",
+              "started_at": "2026-11-21T18:23:12.629799Z",
+              "completed_at": "2026-11-21T18:23:12.641713Z"
+            }
+          ],
+          "thread_id": "Thread-1 (worker)",
+          "execution_time": 0.013608694076538086
+        }
+      ],
+      "elapsed_time": 0.1703503131866455
+    },
+    "returncode": 1
+  }
+}

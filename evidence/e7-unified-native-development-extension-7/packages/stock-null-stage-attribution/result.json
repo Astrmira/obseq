@@ -1,0 +1,900 @@
+{
+  "cwi_source_sha256": "65171e4a8a54b5330fba5c97c4d705f34410c62748d9180cb2e161b628a7540f",
+  "pandas": "2.2.3",
+  "arrow": "26.0.1",
+  "pandas_parse": {
+    "reference": {
+      "dtypes": [
+        "int64",
+        "float64"
+      ],
+      "pandas_null_mask": [
+        false,
+        true,
+        false
+      ]
+    },
+    "swap": {
+      "dtypes": [
+        "int64",
+        "float64"
+      ],
+      "pandas_null_mask": [
+        true,
+        false,
+        false
+      ]
+    },
+    "finite": {
+      "dtypes": [
+        "int64",
+        "float64"
+      ],
+      "pandas_null_mask": [
+        false,
+        true,
+        false
+      ]
+    },
+    "valid_nan": {
+      "dtypes": [
+        "int64",
+        "float64"
+      ],
+      "pandas_null_mask": [
+        false,
+        true,
+        false
+      ]
+    }
+  },
+  "typed": {
+    "reference": {
+      "ids": [
+        101,
+        102,
+        103
+      ],
+      "valid": [
+        true,
+        false,
+        true
+      ],
+      "values": [
+        20.0,
+        null,
+        5.0
+      ],
+      "validity_byte": "05"
+    },
+    "swap": {
+      "ids": [
+        101,
+        102,
+        103
+      ],
+      "valid": [
+        false,
+        true,
+        true
+      ],
+      "values": [
+        null,
+        20.0,
+        5.0
+      ],
+      "validity_byte": "06"
+    },
+    "finite": {
+      "ids": [
+        101,
+        102,
+        103
+      ],
+      "valid": [
+        true,
+        false,
+        true
+      ],
+      "values": [
+        40.0,
+        null,
+        5.0
+      ],
+      "validity_byte": "05"
+    },
+    "valid_nan": {
+      "ids": [
+        101,
+        102,
+        103
+      ],
+      "valid": [
+        true,
+        true,
+        true
+      ],
+      "values": [
+        20.0,
+        "valid_NaN",
+        5.0
+      ],
+      "validity_byte": null
+    }
+  },
+  "cwi_trials": [
+    {
+      "reference": "reference",
+      "candidate": "swap",
+      "stock_class": "match",
+      "exit": 1,
+      "typed_values_equal": false,
+      "typed_validity_equal": false
+    },
+    {
+      "reference": "swap",
+      "candidate": "reference",
+      "stock_class": "match",
+      "exit": 1,
+      "typed_values_equal": false,
+      "typed_validity_equal": false
+    },
+    {
+      "reference": "reference",
+      "candidate": "finite",
+      "stock_class": "diff",
+      "exit": 0,
+      "typed_values_equal": false,
+      "typed_validity_equal": true
+    },
+    {
+      "reference": "finite",
+      "candidate": "reference",
+      "stock_class": "diff",
+      "exit": 0,
+      "typed_values_equal": false,
+      "typed_validity_equal": true
+    },
+    {
+      "reference": "reference",
+      "candidate": "valid_nan",
+      "stock_class": "match",
+      "exit": 1,
+      "typed_values_equal": false,
+      "typed_validity_equal": false
+    },
+    {
+      "reference": "valid_nan",
+      "candidate": "reference",
+      "stock_class": "match",
+      "exit": 1,
+      "typed_values_equal": false,
+      "typed_validity_equal": false
+    }
+  ],
+  "duckdb_trials": [
+    {
+      "duckdb": "1.4.2",
+      "build": [
+        "v1.4.2",
+        "68d7555f68",
+        "Andium"
+      ],
+      "paths": {
+        "default_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', quote '\"', delimiter ',', header 1);\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              null,
+              true
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,\n102,\"\"\n103,NULL\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              null,
+              true
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "nullstr_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', quote '\"', delimiter ',', header 1, NULLSTR 'NULL');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              null,
+              true
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,NULL\n102,\n103,\"NULL\"\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              null,
+              true
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "parquet": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.parquet' (FORMAT 'parquet');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "duckdb": "1.4.3",
+      "build": [
+        "v1.4.3",
+        "d1dc88f950",
+        "Andium"
+      ],
+      "paths": {
+        "default_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', quote '\"', delimiter ',', header 1);\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              null,
+              true
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,\n102,\"\"\n103,NULL\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              null,
+              true
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "nullstr_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', quote '\"', delimiter ',', header 1, NULLSTR 'NULL');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              null,
+              true
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,NULL\n102,\n103,\"NULL\"\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              null,
+              true
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "parquet": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.parquet' (FORMAT 'parquet');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "duckdb": "2.0.1",
+      "build": [
+        "v2.0.1",
+        "8d78114e90",
+        "Cyanoptera"
+      ],
+      "paths": {
+        "default_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', allow_quoted_nulls false, quote '\"', delimiter ',', header 1);\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,\n102,\"\"\n103,NULL\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              null,
+              true
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "nullstr_csv": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.csv' (FORMAT 'csv', allow_quoted_nulls false, quote '\"', delimiter ',', header 1, nullstr 'NULL');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "csv_text": "k,v\n101,NULL\n102,\n103,\"NULL\"\n104,q\n",
+          "explicit_quoted_nulls_false": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "explicit_quoted_nulls_true": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              null,
+              true
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        },
+        "parquet": {
+          "generated_load": "COPY test FROM '<EXPORT_DIR>/test.parquet' (FORMAT 'parquet');\n",
+          "expected": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ],
+          "roundtrip": [
+            [
+              101,
+              null,
+              true
+            ],
+            [
+              102,
+              "",
+              false
+            ],
+            [
+              103,
+              "NULL",
+              false
+            ],
+            [
+              104,
+              "q",
+              false
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

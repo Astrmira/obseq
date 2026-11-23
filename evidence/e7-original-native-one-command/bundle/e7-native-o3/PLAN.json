@@ -1,0 +1,8 @@
+{
+  "selection": "All 24 O3 cases, exactly six per subtype: top-k tie, ROW_NUMBER tie, coupled choices, GROUP BY representative.",
+  "engines": ["SQLite", "DuckDB", "Polars SQLContext", "DataFusion"],
+  "scorer": "Frozen e7-scored/check.py legal() with native rows structurally reconstructed as candidate; source values untouched. SQL plan may choose one lawful deterministic tie ordering; any valid native alternative passes the existential/membership oracle.",
+  "schema": "Native integer scores and positions, string IDs, native missing input values; Boolean keep fixture encoded as integer flag at intake, used as non-null equality predicate. Clock-independent, one fixed fixture order per engine.",
+  "controls": "Exactly one predeclared deliberately altered query for every case (e.g. discarded cutoff peers, duplicate DENSE_RANK, wrong NULL ordering, split row projection, normalized spellings replacing original values). Correct-by-coincidence controls retained and never reclassified. Execution/planning errors retained separately as unsupported_or_error.",
+  "claims": "Selection is frozen and all arms entered in denominator; no performance, generic SQL portability, or product-bug claim. Scoped comparison with the independently locked contracts."
+}

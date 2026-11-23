@@ -1,0 +1,230 @@
+{
+  "cells": [
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 3,
+      "first_quota": 57,
+      "hour": 17,
+      "last_quota": 51,
+      "max_force_first": 84,
+      "max_force_last": 82
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 3,
+      "first_quota": 57,
+      "hour": 17,
+      "last_quota": 47,
+      "max_force_first": 82,
+      "max_force_last": 73
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 3,
+      "first_quota": 52,
+      "hour": 18,
+      "last_quota": 56,
+      "max_force_first": 79,
+      "max_force_last": 86
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 3,
+      "first_quota": 52,
+      "hour": 18,
+      "last_quota": 57,
+      "max_force_first": 82,
+      "max_force_last": 88
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 10,
+      "first_quota": 49,
+      "hour": 17,
+      "last_quota": 46,
+      "max_force_first": 72,
+      "max_force_last": 68
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 10,
+      "first_quota": 49,
+      "hour": 17,
+      "last_quota": 51,
+      "max_force_first": 74,
+      "max_force_last": 76
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 10,
+      "first_quota": 56,
+      "hour": 18,
+      "last_quota": 56,
+      "max_force_first": 83,
+      "max_force_last": 85
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 10,
+      "first_quota": 56,
+      "hour": 18,
+      "last_quota": 63,
+      "max_force_first": 88,
+      "max_force_last": 96
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 17,
+      "first_quota": 44,
+      "hour": 17,
+      "last_quota": 49,
+      "max_force_first": 69,
+      "max_force_last": 75
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 17,
+      "first_quota": 44,
+      "hour": 17,
+      "last_quota": 51,
+      "max_force_first": 72,
+      "max_force_last": 80
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 17,
+      "first_quota": 41,
+      "hour": 18,
+      "last_quota": 51,
+      "max_force_first": 67,
+      "max_force_last": 75
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 17,
+      "first_quota": 41,
+      "hour": 18,
+      "last_quota": 55,
+      "max_force_first": 66,
+      "max_force_last": 80
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 24,
+      "first_quota": 49,
+      "hour": 17,
+      "last_quota": 48,
+      "max_force_first": 74,
+      "max_force_last": 76
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 24,
+      "first_quota": 49,
+      "hour": 17,
+      "last_quota": 47,
+      "max_force_first": 76,
+      "max_force_last": 72
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        3
+      ],
+      "day": 24,
+      "first_quota": 52,
+      "hour": 18,
+      "last_quota": 49,
+      "max_force_first": 79,
+      "max_force_last": 80
+    },
+    {
+      "bad_first": true,
+      "bad_last": true,
+      "bands": [
+        2,
+        5
+      ],
+      "day": 24,
+      "first_quota": 52,
+      "hour": 18,
+      "last_quota": 44,
+      "max_force_first": 80,
+      "max_force_last": 74
+    }
+  ],
+  "observable_rejections": 32,
+  "pooled_admissible_extreme_controls": 32
+}

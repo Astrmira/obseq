@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "ADAPTER-RECEIPT.json": "b3d29dec0385d537aa9a1d516dc7dca99311a3f01773319c985ee5dbabd56a9f",
+    "ADAPTER.sha256": "b78c6050ee591c7a9873a047a69b98a7fb556df42c0c8116b1c3bdc324d89f16",
+    "PLAN.json": "bc62e1ffb243922f6b27ba718f9aa2c7ab342123af1f85427862fad0f0272459",
+    "PRE.sha256": "66b9d5eab5cb11209832465cd4b1aa6c80e0134c759b3c8d526ef5a75fc89839",
+    "README.md": "c71b29ecc895f7fb7b7cc64efb8bf5f220eb93d1ab6eaaafe621f7cec8759f07",
+    "SHA256SUMS": "a8f14334f51423babf961e12777849d7f7b7cc6b16bbcd3cf2460cb9cc56e971",
+    "check.py": "2311f5b3598eb740cb24e2b44607367f6e81b46f9398fd25091f61889ccbef36",
+    "result-143.json": "6c6c7ee64bb71e7ffe9c60d160a0a9c9db0c352f9306db30fcace1e3d37e9311",
+    "result-201.json": "bcbcc510fbf4d3e9b771e2646e4a4502bbb42c873d04e47e6a0037a67fb9a85e"
+  },
+  "predecessor": "54d86afdbe6c707aa46f1857b9e188f7799a8410",
+  "project": "semantic-benchmark"
+}

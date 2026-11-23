@@ -1,0 +1,15 @@
+exact-dyadic-predicate-gate	native_external_transfer	PASS
+forward-projection-edge-admission	native_external_transfer	PASS
+native-variant-write-intent-preservation	native_authored_development	PASS
+oisst-positional-aggregate-cancellation	native_external_transfer	PASS
+osm-native-fts-content-freshness	native_external_transfer	PASS
+osm-native-typed-identifier-persistence	native_external_transfer	PASS
+stock-pandas-categorical-contracts	native_external_transfer	PASS
+tlc-coherent-group-representatives	native_external_transfer	PASS
+tlc-native-tristate-json-patch	native_external_transfer	PASS
+tlc-two-boundary-offset-membership	native_external_transfer	PASS
+native-schema-presence-write-intent	native_authored_development	PASS
+tlc-native-utc-flow-counts	native_external_transfer	PASS
+tlc-native-null-session-bridges	native_external_transfer	PASS
+geometry-grid-relations	native_external_transfer	PASS
+variant-native-presence-projection	native_authored_development	PASS

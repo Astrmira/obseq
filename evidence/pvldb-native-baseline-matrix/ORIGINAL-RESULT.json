@@ -1,0 +1,5715 @@
+{
+  "cases": 108,
+  "counts": {
+    "byte_hash": {
+      "NA": 108
+    },
+    "datacompy_keyed": {
+      "false_accept": 2,
+      "false_reject": 24,
+      "true_accept": 30,
+      "true_reject": 52
+    },
+    "multiset": {
+      "false_reject": 20,
+      "true_accept": 34,
+      "true_reject": 54
+    },
+    "ordered": {
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 54
+    },
+    "pandas_check_like": {
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 54
+    },
+    "pandas_default": {
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 54
+    },
+    "pandas_dtype_relaxed": {
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 54
+    },
+    "polars_default": {
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 54
+    },
+    "polars_ignore_order": {
+      "false_reject": 20,
+      "true_accept": 34,
+      "true_reject": 54
+    },
+    "rowcount": {
+      "false_accept": 47,
+      "false_reject": 2,
+      "true_accept": 52,
+      "true_reject": 7
+    },
+    "rtol1e-5": {
+      "false_accept": 2,
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 52
+    },
+    "rtol1e-9": {
+      "false_accept": 2,
+      "false_reject": 23,
+      "true_accept": 31,
+      "true_reject": 52
+    },
+    "schema": {
+      "false_accept": 50,
+      "true_accept": 54,
+      "true_reject": 4
+    },
+    "set": {
+      "false_reject": 19,
+      "true_accept": 35,
+      "true_reject": 54
+    },
+    "sqlite_integrity": {
+      "NA": 108
+    },
+    "sum": {
+      "false_accept": 45,
+      "false_reject": 3,
+      "true_accept": 51,
+      "true_reject": 9
+    }
+  },
+  "inputs_sha256": {
+    "BLIND.json": "8e86163e65e0deaa46f3450f7600aa03361141f9406e73b235e0c648a5804831",
+    "ORIGINAL-REFERENCES.json": "803ec822bb3a8db7522ce2a4cb1d8f31f37aefbab19669b308941ce14bcc9b04",
+    "PREDICTIONS.json": "12db32c2ebfc6c19924534218aadd95320d659da967206abe564175eaa5a8ad6"
+  },
+  "observations": [
+    {
+      "candidate_rows": [
+        [
+          "match",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "match": false
+      },
+      "id": "E7H-F1-01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "match",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "value",
+          -9007199254740996
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "value": "-9007199254740995"
+      },
+      "id": "E7H-F1-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "value",
+          -9007199254740995
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "groups",
+          2
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": 2
+      },
+      "id": "E7H-F1-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "groups",
+          2
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "integer",
+          9007199254740997
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "integer": "9007199254740997"
+      },
+      "id": "E7H-F1-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "integer",
+          9007199254740997
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "max",
+          -9223372036854775808
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "max": "-9223372036854775807"
+      },
+      "id": "E7H-F1-05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "max",
+          -9223372036854775807
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "difference",
+          15
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F1",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "difference": "15"
+      },
+      "id": "E7H-F1-06",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "difference",
+          15
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "pairs": [
+          [
+            "b",
+            "d"
+          ]
+        ]
+      },
+      "id": "E7H-F2-01",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "pairs": [
+          [
+            "a",
+            "r"
+          ]
+        ]
+      },
+      "id": "E7H-F2-02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "pairs": []
+      },
+      "id": "E7H-F2-03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          "c"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "pairs": [
+          [
+            "a",
+            "c"
+          ],
+          [
+            "b",
+            "c"
+          ]
+        ]
+      },
+      "id": "E7H-F2-04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "equal",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "equal": false
+      },
+      "id": "E7H-F2-05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "equal",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F2",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "pairs": [
+          [
+            "a",
+            null
+          ],
+          [
+            "b",
+            "d"
+          ]
+        ]
+      },
+      "id": "E7H-F2-06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "present",
+          false
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "present": false
+      },
+      "id": "E7H-F3-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "present",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "balance",
+          19
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "balance": 17
+      },
+      "id": "E7H-F3-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "balance",
+          17
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "active",
+          1
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "active": 1
+      },
+      "id": "E7H-F3-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "active",
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "credit",
+          2
+        ],
+        [
+          "debit",
+          4
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "credit": 7,
+        "debit": 4
+      },
+      "id": "E7H-F3-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "credit",
+          7
+        ],
+        [
+          "debit",
+          4
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "value",
+          "west"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "value": "west"
+      },
+      "id": "E7H-F3-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "value",
+          "west"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "amber"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "F3",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "values": [
+          "amber",
+          "amber"
+        ]
+      },
+      "id": "E7H-F3-06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "amber"
+        ],
+        [
+          "amber"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "subtotal",
+          77
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "subtotal": 99
+      },
+      "id": "E7H-F4-01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "subtotal",
+          99
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "mean",
+          16.5
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "float"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "mean": 16.5
+      },
+      "id": "E7H-F4-02",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "mean",
+          16.5
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "k"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "ids": []
+      },
+      "id": "E7H-F4-03",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "grandTotal",
+          35
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "grandTotal": 35
+      },
+      "id": "E7H-F4-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "grandTotal",
+          35
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "A",
+          8
+        ],
+        [
+          "B",
+          8
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "A": 3,
+        "B": 8
+      },
+      "id": "E7H-F4-05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          8
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "width",
+          6
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F4",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "width": 6
+      },
+      "id": "E7H-F4-06",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "width",
+          6
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "nick",
+          "ivory"
+        ],
+        [
+          "note",
+          null
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "nick": "ivory",
+        "note": null
+      },
+      "id": "E7H-F5-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "nick",
+          "ivory"
+        ],
+        [
+          "note",
+          null
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "tags",
+          "[\"red\"]"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "tags": []
+      },
+      "id": "E7H-F5-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "tags",
+          "[]"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "enabled",
+          "false"
+        ],
+        [
+          "retries",
+          "4"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "enabled": false,
+        "retries": 4
+      },
+      "id": "E7H-F5-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "enabled",
+          "false"
+        ],
+        [
+          "retries",
+          "4"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "memo",
+          "oak"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "memo": null
+      },
+      "id": "E7H-F5-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "memo",
+          null
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "count",
+          0
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "count": 0
+      },
+      "id": "E7H-F5-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "count",
+          0
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "tag",
+          null
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F5",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "tag": "null"
+      },
+      "id": "E7H-F5-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "tag",
+          "null"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "u"
+        ],
+        [
+          "w"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "u",
+          "v"
+        ]
+      },
+      "id": "E7H-F6-01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "u"
+        ],
+        [
+          "v"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "id",
+          "c"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "id": "a"
+      },
+      "id": "E7H-F6-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "id",
+          "a"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "id",
+          "p"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "id": "q"
+      },
+      "id": "E7H-F6-03",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "id",
+          "q"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "id",
+          "q"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "id": "q"
+      },
+      "id": "E7H-F6-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "id",
+          "q"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "j"
+        ],
+        [
+          "j"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "h",
+          "j"
+        ]
+      },
+      "id": "E7H-F6-05",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "h"
+        ],
+        [
+          "j"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "id",
+          "r"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F6",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "id": "r"
+      },
+      "id": "E7H-F6-06",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "id",
+          "r"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "north",
+          28
+        ],
+        [
+          "south",
+          33
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "north": 23,
+        "south": 38
+      },
+      "id": "E7H-F7-01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "north",
+          23
+        ],
+        [
+          "south",
+          38
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          3
+        ],
+        [
+          7
+        ],
+        [
+          -9
+        ],
+        [
+          3
+        ]
+      ],
+      "carrier_types": [
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "items": [
+          -9,
+          3,
+          3,
+          7
+        ]
+      },
+      "id": "E7H-F7-02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          -9
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          7
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "closed",
+          2
+        ],
+        [
+          "held",
+          2
+        ],
+        [
+          "open",
+          2
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "closed": 1,
+        "held": 2,
+        "open": 3
+      },
+      "id": "E7H-F7-03",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "closed",
+          1
+        ],
+        [
+          "held",
+          2
+        ],
+        [
+          "open",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "net",
+          6
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "net": 6
+      },
+      "id": "E7H-F7-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "net",
+          6
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          4
+        ],
+        [
+          "b",
+          -4
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "a": 4,
+        "b": -4,
+        "c": 0
+      },
+      "id": "E7H-F7-05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "a",
+          4
+        ],
+        [
+          "b",
+          -4
+        ],
+        [
+          "c",
+          0
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "b",
+          "sale",
+          2
+        ],
+        [
+          "a",
+          "refund",
+          -2
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text",
+        "int"
+      ],
+      "family": "F7",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "events": [
+          [
+            "a",
+            "refund",
+            -2
+          ],
+          [
+            "b",
+            "sale",
+            2
+          ]
+        ]
+      },
+      "id": "E7H-F7-06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a",
+          "refund",
+          -2
+        ],
+        [
+          "b",
+          "sale",
+          2
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "utc",
+          "2023-11-05T06:40:00Z"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "utc": "2023-11-05T06:40:00Z"
+      },
+      "id": "E7H-F8-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "utc",
+          "2023-11-05T06:40:00Z"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "utc",
+          "2024-03-31T01:20:00Z"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "error": "nonexistent"
+      },
+      "id": "E7H-F8-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "error",
+          "nonexistent"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "error",
+          "ambiguous"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "error": "ambiguous"
+      },
+      "id": "E7H-F8-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "error",
+          "ambiguous"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "utc",
+          "2024-04-06T14:45:00Z"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "utc": "2024-04-06T15:15:00Z"
+      },
+      "id": "E7H-F8-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "utc",
+          "2024-04-06T15:15:00Z"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "utc",
+          "2029-06-10T01:12:00Z"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "utc": "2029-06-10T01:12:00Z"
+      },
+      "id": "E7H-F8-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "utc",
+          "2029-06-10T01:12:00Z"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "utc",
+          "2031-09-16T03:15:00Z"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F8",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "error": "invalid_offset"
+      },
+      "id": "E7H-F8-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "error",
+          "invalid_offset"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "float64",
+          "4.0"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "integer",
+          "4"
+        ]
+      },
+      "id": "E7H-F9-01",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "integer",
+          "4"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "HAZE"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "varchar",
+          "Haze"
+        ]
+      },
+      "id": "E7H-F9-02",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "varchar",
+          "Haze"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "smallint",
+          "7.00"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "smallint",
+          "7"
+        ]
+      },
+      "id": "E7H-F9-03",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "smallint",
+          "7"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "boolean",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "boolean",
+          true
+        ]
+      },
+      "id": "E7H-F9-04",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "boolean",
+          true
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "A"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "bytes",
+          "41"
+        ]
+      },
+      "id": "E7H-F9-05",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "bytes",
+          "41"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "binary64-bits",
+          "8000000000000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "F9",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "repr": [
+          "binary64-bits",
+          "8000000000000000"
+        ]
+      },
+      "id": "E7H-F9-06",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "binary64-bits",
+          "8000000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "inside",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "inside": false
+      },
+      "id": "E7H-F10-01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "inside",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "intersects",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "intersects": true
+      },
+      "id": "E7H-F10-02",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "intersects",
+          true
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "overlap",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "overlap": false
+      },
+      "id": "E7H-F10-03",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "overlap",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "member",
+          false
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "member": false
+      },
+      "id": "E7H-F10-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "member",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "within",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "within": true
+      },
+      "id": "E7H-F10-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "within",
+          true
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "meet",
+          true
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "bool"
+      ],
+      "family": "F10",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "meet": false
+      },
+      "id": "E7H-F10-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "meet",
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "d"
+        ],
+        [
+          "a"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "id": "E7H-O3-topk-01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "z"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "z",
+          "b"
+        ]
+      },
+      "id": "E7H-O3-topk-02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "z"
+        ],
+        [
+          "b"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a"
+        ],
+        [
+          "c"
+        ],
+        [
+          "b"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "id": "E7H-O3-topk-03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "j"
+        ],
+        [
+          "k"
+        ],
+        [
+          "h"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "j",
+          "k",
+          "l"
+        ]
+      },
+      "id": "E7H-O3-topk-04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "j"
+        ],
+        [
+          "k"
+        ],
+        [
+          "l"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "a",
+          "c"
+        ]
+      },
+      "id": "E7H-O3-topk-05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "s"
+        ],
+        [
+          "t"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O3-topk",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "q",
+          "r"
+        ]
+      },
+      "id": "E7H-O3-topk-06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "q"
+        ],
+        [
+          "r"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          1
+        ],
+        [
+          "c",
+          1
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 1
+        }
+      },
+      "id": "E7H-O3-row_number-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          1
+        ],
+        [
+          "c",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 3
+        }
+      },
+      "id": "E7H-O3-row_number-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "x",
+          2
+        ],
+        [
+          "y",
+          1
+        ],
+        [
+          "z",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "numbers": {
+          "x": 1,
+          "y": 2,
+          "z": 3
+        }
+      },
+      "id": "E7H-O3-row_number-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "x",
+          1
+        ],
+        [
+          "y",
+          2
+        ],
+        [
+          "z",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "q",
+          2
+        ],
+        [
+          "r",
+          1
+        ],
+        [
+          "s",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "numbers": {
+          "q": 1,
+          "r": 2,
+          "s": 3
+        }
+      },
+      "id": "E7H-O3-row_number-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "q",
+          1
+        ],
+        [
+          "r",
+          2
+        ],
+        [
+          "s",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "i",
+          3
+        ],
+        [
+          "j",
+          2
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "numbers": {
+          "i": 2,
+          "j": 3
+        }
+      },
+      "id": "E7H-O3-row_number-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "i",
+          2
+        ],
+        [
+          "j",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          4
+        ],
+        [
+          "d",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-row_number",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 3,
+          "d": 4
+        }
+      },
+      "id": "E7H-O3-row_number-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          3
+        ],
+        [
+          "d",
+          4
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "days",
+          "5"
+        ],
+        [
+          "vendor",
+          "\"m\""
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "days": 2,
+        "vendor": "m"
+      },
+      "id": "E7H-O3-coupled-01",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "days",
+          "2"
+        ],
+        [
+          "vendor",
+          "\"m\""
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "A",
+          "[\"V\",9]"
+        ],
+        [
+          "B",
+          "[\"Z\",8]"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "A": [
+          "U",
+          4
+        ],
+        "B": [
+          "Z",
+          8
+        ]
+      },
+      "id": "E7H-O3-coupled-02",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "A",
+          "[\"U\",4]"
+        ],
+        [
+          "B",
+          "[\"Z\",8]"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "first",
+          "j"
+        ],
+        [
+          "last",
+          "j"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "first": "j",
+        "last": "k"
+      },
+      "id": "E7H-O3-coupled-03",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "first",
+          "j"
+        ],
+        [
+          "last",
+          "k"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "from",
+          "s"
+        ],
+        [
+          "to",
+          "r"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "from": "p",
+        "to": "q"
+      },
+      "id": "E7H-O3-coupled-04",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "from",
+          "p"
+        ],
+        [
+          "to",
+          "q"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "ids",
+          "[\"a\",\"c\"]"
+        ],
+        [
+          "sum",
+          "5"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "sum": 5
+      },
+      "id": "E7H-O3-coupled-05",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "ids",
+          "[\"a\",\"b\"]"
+        ],
+        [
+          "sum",
+          "5"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "normalized",
+          "aloe"
+        ],
+        [
+          "raw",
+          "ALoe"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O3-coupled",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "normalized": "aloe",
+        "raw": "ALoe"
+      },
+      "id": "E7H-O3-coupled-06",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "normalized",
+          "aloe"
+        ],
+        [
+          "raw",
+          "ALoe"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "TEAL",
+          2
+        ],
+        [
+          "gold",
+          1
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": [
+          [
+            "Teal",
+            2
+          ],
+          [
+            "gold",
+            1
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "Teal",
+          2
+        ],
+        [
+          "gold",
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "x",
+          2
+        ],
+        [
+          "y",
+          1
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": [
+          [
+            "x ",
+            2
+          ],
+          [
+            "y",
+            1
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "x ",
+          2
+        ],
+        [
+          "y",
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          3,
+          3
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "carrier_types": [
+        "int",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "groups": [
+          [
+            -3,
+            3
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          -3,
+          3
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "P",
+          "BEE",
+          1
+        ],
+        [
+          "Q",
+          "bee",
+          2
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": [
+          [
+            "P",
+            "Bee",
+            1
+          ],
+          [
+            "Q",
+            "BEE",
+            2
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "P",
+          "Bee",
+          1
+        ],
+        [
+          "Q",
+          "BEE",
+          2
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "sKy",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": [
+          [
+            "sKy",
+            3
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "sKy",
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "NULL",
+          3
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "int"
+      ],
+      "family": "O3-group_repr",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "groups": [
+          [
+            null,
+            2
+          ],
+          [
+            "NULL",
+            1
+          ]
+        ]
+      },
+      "id": "E7H-O3-group_repr-06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          null,
+          2
+        ],
+        [
+          "NULL",
+          1
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "00000000013ff0000000000000c000000000000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "0101000000000000000000f03f00000000000000c0"
+      },
+      "id": "E7H-O4-wkb-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "hex",
+          "0101000000000000000000f03f00000000000000c0"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "0000000001c0000000000000003ff0000000000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "0101000000000000000000f03f00000000000000c0"
+      },
+      "id": "E7H-O4-wkb-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "hex",
+          "0101000000000000000000f03f00000000000000c0"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "010100000000000000000000000000000000000840"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "000000000180000000000000004008000000000000"
+      },
+      "id": "E7H-O4-wkb-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "hex",
+          "000000000180000000000000004008000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "0000000001000000000000000040000000000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "000000000100000000000000004000000000000000"
+      },
+      "id": "E7H-O4-wkb-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "hex",
+          "000000000100000000000000004000000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "000000000200000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "010200000000000000"
+      },
+      "id": "E7H-O4-wkb-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "hex",
+          "010200000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "hex",
+          "010400000000000000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-wkb",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "hex": "010200000000000000"
+      },
+      "id": "E7H-O4-wkb-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "hex",
+          "010200000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "-625E-6"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "-0.0006250"
+      },
+      "id": "E7H-O4-numtext-01",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "text",
+          "-0.0006250"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "1"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "1.00000000000000001"
+      },
+      "id": "E7H-O4-numtext-02",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "text",
+          "1.00000000000000001"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "+0.000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "-0.00E+11"
+      },
+      "id": "E7H-O4-numtext-03",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "text",
+          "-0.00E+11"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "1,234"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "1234"
+      },
+      "id": "E7H-O4-numtext-04",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "text",
+          "1234"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "34e20"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "3400000000000000000000"
+      },
+      "id": "E7H-O4-numtext-05",
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference_rows": [
+        [
+          "text",
+          "3400000000000000000000"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "text",
+          "1e-500"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-numtext",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "text": "0.0"
+      },
+      "id": "E7H-O4-numtext-06",
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference_rows": [
+        [
+          "text",
+          "0.0"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "-1"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": -1
+      },
+      "id": "E7H-O4-dateserial-01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "-1"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "59"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": 60
+      },
+      "id": "E7H-O4-dateserial-02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "60"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "1.25"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": "1.25"
+      },
+      "id": "E7H-O4-dateserial-03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "1.25"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "-1.25"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": "-0.25"
+      },
+      "id": "E7H-O4-dateserial-04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "-0.25"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "61"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": 61
+      },
+      "id": "E7H-O4-dateserial-05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "61"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "2"
+        ]
+      ],
+      "carrier_types": [
+        "text"
+      ],
+      "family": "O4-dateserial",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "serial": 2.5
+      },
+      "id": "E7H-O4-dateserial-06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "2.5"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "carrier_types": [
+        "int",
+        "int"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "points": [
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-01",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "carrier_types": [
+        "int",
+        "int"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-02",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "0.5",
+          "2.50"
+        ],
+        [
+          "1",
+          "+0.000"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "points": [
+          [
+            "1.00",
+            "-0"
+          ],
+          [
+            ".50",
+            "2.5"
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-03",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          "1.00",
+          "-0"
+        ],
+        [
+          ".50",
+          "2.5"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "carrier_types": [
+        "text",
+        "text"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "gold": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0.5,
+            0.5
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-04",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0.5",
+          "0.5"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          4,
+          8,
+          0
+        ],
+        [
+          1,
+          3,
+          -1
+        ]
+      ],
+      "carrier_types": [
+        "int",
+        "int",
+        "int"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "points": [
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            7
+          ],
+          [
+            4,
+            8,
+            9
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-05",
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference_rows": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    {
+      "candidate_rows": [
+        [
+          1,
+          3,
+          0
+        ]
+      ],
+      "carrier_types": [
+        "int",
+        "int",
+        "int"
+      ],
+      "family": "O4-pointset",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "gold": {
+        "points": [
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            7
+          ]
+        ]
+      },
+      "id": "E7H-O4-pointset-06",
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference_rows": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          7
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    }
+  ],
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  }
+}

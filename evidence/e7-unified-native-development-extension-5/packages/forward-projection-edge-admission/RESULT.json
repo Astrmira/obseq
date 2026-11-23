@@ -1,0 +1,273 @@
+{
+  "cases": [
+    {
+      "analytic_real_arithmetic_bound_m": 63.24517044,
+      "case": "north",
+      "n": 32,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": -38188.98219348,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "negative",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": -38392.39998109,
+          "dense_native_and_exact": false,
+          "dense_vertical_signed_gap_m": -37.44528791,
+          "illustrative_centimeter_box_chord_sign": "negative",
+          "source_native_and_exact": true,
+          "t": "33/64"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    },
+    {
+      "analytic_real_arithmetic_bound_m": 63.24517044,
+      "case": "south",
+      "n": 32,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": 38188.98219348,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "positive",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": 38392.39998109,
+          "dense_native_and_exact": false,
+          "dense_vertical_signed_gap_m": 37.44528791,
+          "illustrative_centimeter_box_chord_sign": "positive",
+          "source_native_and_exact": true,
+          "t": "33/64"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    },
+    {
+      "analytic_real_arithmetic_bound_m": 0.0,
+      "case": "horizontal",
+      "n": 2,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "3/4"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    },
+    {
+      "analytic_real_arithmetic_bound_m": 63.24517044,
+      "case": "vertical",
+      "n": 32,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "33/64"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    },
+    {
+      "analytic_real_arithmetic_bound_m": 36.74503608,
+      "case": "equator_symmetric",
+      "n": 64,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": -728.59488556,
+          "dense_native_and_exact": false,
+          "dense_vertical_signed_gap_m": -0.51744258,
+          "illustrative_centimeter_box_chord_sign": "negative",
+          "source_native_and_exact": true,
+          "t": "65/128"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    },
+    {
+      "analytic_real_arithmetic_bound_m": 50.93244969,
+      "case": "north_heldout",
+      "n": 64,
+      "rows": [
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "0"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": -126846.66204483,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "negative",
+          "source_native_and_exact": true,
+          "t": "1/2"
+        },
+        {
+          "chord_native_and_exact": false,
+          "chord_vertical_signed_gap_m": -127136.15795401,
+          "dense_native_and_exact": false,
+          "dense_vertical_signed_gap_m": -30.43619522,
+          "illustrative_centimeter_box_chord_sign": "negative",
+          "source_native_and_exact": true,
+          "t": "65/128"
+        },
+        {
+          "chord_native_and_exact": true,
+          "chord_vertical_signed_gap_m": 0.0,
+          "dense_native_and_exact": true,
+          "dense_vertical_signed_gap_m": 0.0,
+          "illustrative_centimeter_box_chord_sign": "unresolved",
+          "source_native_and_exact": true,
+          "t": "1"
+        }
+      ]
+    }
+  ],
+  "gdal": "3.10.3",
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "proj": [
+    9,
+    6,
+    0
+  ]
+}

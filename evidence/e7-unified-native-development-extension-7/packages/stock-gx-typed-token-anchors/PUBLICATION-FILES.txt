@@ -1,0 +1,9 @@
+PLAN.json
+PLAN.sha256
+README.md
+artifact.json
+check.py
+requirements.txt
+result.json
+PUBLICATION-FILES.txt
+SHA256SUMS

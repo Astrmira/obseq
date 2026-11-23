@@ -1,0 +1,21 @@
+{
+  "fallback": 14,
+  "geos": "3.13.1-CAPI-1.19.2",
+  "mismatch_ids": {
+    "certified": [],
+    "decimal_contract": [
+      "q15",
+      "q16",
+      "q17",
+      "q24"
+    ],
+    "plain_float": [],
+    "stock_geos": []
+  },
+  "panel": 24,
+  "truth_signs": {
+    "-1": 7,
+    "0": 7,
+    "1": 10
+  }
+}

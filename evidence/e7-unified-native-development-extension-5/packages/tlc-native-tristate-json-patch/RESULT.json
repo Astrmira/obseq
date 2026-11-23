@@ -1,0 +1,36 @@
+{
+  "full_native_duckdb": {
+    "clear": 19942,
+    "clear_prior_has_value": 19942,
+    "coalesce_scalar_mismatches": 19942,
+    "coalesce_typed_mismatches": 19942,
+    "keep": 1014740,
+    "keep_prior_has_value": 1,
+    "omission_coerced_scalar_mismatches": 1,
+    "omission_coerced_typed_mismatches": 1034682,
+    "rows": 4181443,
+    "stock_merge_scalar_mismatches": 0,
+    "stock_merge_typed_mismatches": 19942,
+    "write": 3146761
+  },
+  "prefix_native_sqlite": {
+    "clear": 48,
+    "clear_prior_has_value": 48,
+    "coalesce_scalar_mismatches": 48,
+    "coalesce_typed_mismatches": 48,
+    "keep": 0,
+    "keep_prior_has_value": 0,
+    "omission_coerced_scalar_mismatches": 0,
+    "omission_coerced_typed_mismatches": 48,
+    "rows": 4096,
+    "stock_merge_scalar_mismatches": 0,
+    "stock_merge_typed_mismatches": 48,
+    "write": 4048
+  },
+  "source_sha256": "2cf2f3127f96d4d5dea30f8afe05119cf8e4ba57bd9e60b789d3f296fc8459ab",
+  "versions": {
+    "duckdb": "2.0.1",
+    "pyarrow": "26.0.1",
+    "sqlite": "3.53.1"
+  }
+}

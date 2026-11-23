@@ -1,0 +1,54 @@
+{
+  "DuckDB": {
+    "exact_keyed_bag": {
+      "TN": 12,
+      "TP": 12
+    },
+    "per_group_moments_extrema": {
+      "FP": 5,
+      "TN": 7,
+      "TP": 12
+    },
+    "per_group_sum_and_counts": {
+      "FP": 8,
+      "TN": 4,
+      "TP": 12
+    },
+    "per_group_value_bag": {
+      "FP": 5,
+      "TN": 7,
+      "TP": 12
+    },
+    "shape_count_and_distinct_keys": {
+      "FP": 10,
+      "TN": 2,
+      "TP": 12
+    }
+  },
+  "SQLite": {
+    "exact_keyed_bag": {
+      "TN": 12,
+      "TP": 12
+    },
+    "per_group_moments_extrema": {
+      "FP": 5,
+      "TN": 7,
+      "TP": 12
+    },
+    "per_group_sum_and_counts": {
+      "FP": 8,
+      "TN": 4,
+      "TP": 12
+    },
+    "per_group_value_bag": {
+      "FP": 5,
+      "TN": 7,
+      "TP": 12
+    },
+    "shape_count_and_distinct_keys": {
+      "FP": 10,
+      "TN": 2,
+      "TP": 12
+    }
+  }
+}

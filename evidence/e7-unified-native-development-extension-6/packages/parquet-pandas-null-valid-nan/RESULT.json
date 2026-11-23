@@ -1,0 +1,106 @@
+{
+  "arrow_counts": [
+    [
+      2048,
+      2048,
+      0
+    ],
+    [
+      2048,
+      2047,
+      1
+    ]
+  ],
+  "duckdb_counts": [
+    [
+      2048,
+      2048,
+      0
+    ],
+    [
+      2048,
+      2047,
+      1
+    ]
+  ],
+  "mixed_control": {
+    "arrow_counts": [
+      [
+        2048,
+        1024,
+        0
+      ],
+      [
+        2048,
+        1023,
+        1
+      ]
+    ],
+    "duckdb_count_and_sum_kind": [
+      [
+        1024,
+        "finite"
+      ],
+      [
+        1025,
+        "nan"
+      ]
+    ],
+    "pandas_matches": {
+      "arrow_backend": false,
+      "default_numpy": true,
+      "numpy_nullable": false
+    }
+  },
+  "original_native_panel": {
+    "field": "Airport_fee",
+    "nans": 0,
+    "nulls": 1014740,
+    "rows": 4181444,
+    "sha256": "2cf2f3127f96d4d5dea30f8afe05119cf8e4ba57bd9e60b789d3f296fc8459ab"
+  },
+  "pandas": {
+    "arrow_backend": {
+      "amount_dtype": "double[pyarrow]",
+      "match": false,
+      "null_marker_counts": [
+        2048,
+        2047
+      ]
+    },
+    "default_numpy": {
+      "amount_dtype": "float64",
+      "match": true,
+      "null_marker_counts": [
+        2048,
+        2048
+      ]
+    },
+    "numpy_nullable": {
+      "amount_dtype": "Float64",
+      "match": false,
+      "null_marker_counts": [
+        2048,
+        2047
+      ]
+    }
+  },
+  "polars": {
+    "match": false,
+    "nans": [
+      0,
+      1
+    ],
+    "nulls": [
+      2048,
+      2047
+    ]
+  },
+  "selected_rows": 2048,
+  "versions": {
+    "arrow": "26.0.1",
+    "duckdb": "2.0.1",
+    "pandas": "2.2.3",
+    "polars": "2.1.0"
+  }
+}

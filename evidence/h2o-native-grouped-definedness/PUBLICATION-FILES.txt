@@ -1,0 +1,8 @@
+INPUTS.json
+PLAN.json
+PLAN.sha256
+PUBLICATION-FILES.txt
+README.md
+SHA256SUMS
+check.py
+result.json

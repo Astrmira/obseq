@@ -1,0 +1,11 @@
+{
+  "input": "NYC TLC public Yellow Taxi Parquet, selected March files from pre-existing E4 anchors at years 2014, 2019, 2025, 2026; exact SHA256-bound immutable source files",
+  "question": "Does cutoff membership admit native, no-golden validation with comparison to optimized rerun; does a strict-count-only check miss omissions under provenance?",
+  "score": "native tpep_pickup_datetime; include only times in the named March, rank latest first; identity file-relative row ordinal",
+  "k": [32, 1024],
+  "reference": "independent PyArrow row-group sequence and NumPy integer microsecond comparisons after exact declared schema conversion to timestamp us",
+  "gold": "stock DuckDB ORDER BY score DESC LIMIT k; lower/higher secondary row ordinal only to construct legitimate alternatives; decouple semantic golden from timings",
+  "faults": ["duplicate ID", "wrong score on real ID", "outside-file ID", "non-monotone score order", "coherent row below strict cutoff, retaining at least one actual cutoff row", "too short", "omit a strict winner and replace by a spare cutoff peer when present"],
+  "timing": "DuckDB 2.0.1 one CPU/thread; warm input cache; same installed engine; seven timed interleaved randomized trials per file/k arm, fresh connection setup not timed; full TOP_N execute+fetch vs candidate guard execute+fetch and local validation; source hash outside timer; no memory claim",
+  "scope": "single immutable local file, timestamp scores, exact physical ID, rank operator alone; no scheduler/provenance trust or broader end-to-end performance claim"
+}

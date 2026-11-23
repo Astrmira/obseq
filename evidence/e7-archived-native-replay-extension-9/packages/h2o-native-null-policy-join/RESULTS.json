@@ -1,0 +1,111 @@
+{
+  "direct_sample_rows": 5000,
+  "distinct_key_histograms": [
+    95010,
+    95010
+  ],
+  "duckdb": "1.4.3",
+  "excluded_null_split": 500000,
+  "full": {
+    "global_complete": {
+      "l_matched": 4285694,
+      "l_rows": 4285694,
+      "l_unmatched": 0,
+      "mask0": 193455687,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 193455687,
+      "pairs_with_id3_null": 0,
+      "r_rows": 4288303
+    },
+    "key_complete": {
+      "l_matched": 4510906,
+      "l_rows": 4510906,
+      "l_unmatched": 0,
+      "mask0": 214340026,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 214340026,
+      "pairs_with_id3_null": 20884339,
+      "r_rows": 4514102
+    },
+    "nullsafe": {
+      "l_matched": 4748329,
+      "l_rows": 4748329,
+      "l_unmatched": 0,
+      "mask0": 214340026,
+      "mask1": 0,
+      "mask2": 5640417509,
+      "mask3": 0,
+      "pairs": 5854757535,
+      "pairs_with_id3_null": 574699642,
+      "r_rows": 4751671
+    },
+    "ordinary": {
+      "l_matched": 4510906,
+      "l_rows": 4748329,
+      "l_unmatched": 237423,
+      "mask0": 214340026,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 214340026,
+      "pairs_with_id3_null": 20884339,
+      "r_rows": 4751671
+    }
+  },
+  "full_rows": 10000000,
+  "full_scope": "factorized exact pair counts only",
+  "native_literal_sample": {
+    "global_complete": {
+      "l_matched": 66,
+      "l_rows": 2168,
+      "l_unmatched": 2102,
+      "mask0": 67,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 67,
+      "pairs_with_id3_null": 0,
+      "r_rows": 2083
+    },
+    "key_complete": {
+      "l_matched": 76,
+      "l_rows": 2306,
+      "l_unmatched": 2230,
+      "mask0": 77,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 77,
+      "pairs_with_id3_null": 10,
+      "r_rows": 2197
+    },
+    "nullsafe": {
+      "l_matched": 193,
+      "l_rows": 2423,
+      "l_unmatched": 2230,
+      "mask0": 77,
+      "mask1": 0,
+      "mask2": 1472,
+      "mask3": 0,
+      "pairs": 1549,
+      "pairs_with_id3_null": 179,
+      "r_rows": 2324
+    },
+    "ordinary": {
+      "l_matched": 76,
+      "l_rows": 2423,
+      "l_unmatched": 2347,
+      "mask0": 77,
+      "mask1": 0,
+      "mask2": 0,
+      "mask3": 0,
+      "pairs": 77,
+      "pairs_with_id3_null": 10,
+      "r_rows": 2324
+    }
+  }
+}

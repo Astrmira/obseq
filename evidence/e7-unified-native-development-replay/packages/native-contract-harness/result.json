@@ -1,0 +1,212 @@
+{
+  "allowed": [
+    [
+      10,
+      21
+    ],
+    [
+      10,
+      22
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      11,
+      22
+    ]
+  ],
+  "manifest_hash": "05a44fb69b10f92609c7d5245a89593b67c03349c3a575ff897d8db70d12325d",
+  "native_receipts": {
+    "current-forward": {
+      "ids": [
+        10,
+        21
+      ],
+      "logical_rows_hash": "dfbecae243981ec2aa0275377f18f35766160affb44f165a1f0eaa0999da90d3",
+      "manifest_hash": "05a44fb69b10f92609c7d5245a89593b67c03349c3a575ff897d8db70d12325d",
+      "runtime_epoch": 1,
+      "scores": [
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          21,
+          11
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          23,
+          7
+        ]
+      ]
+    },
+    "current-reverse": {
+      "ids": [
+        11,
+        22
+      ],
+      "logical_rows_hash": "dfbecae243981ec2aa0275377f18f35766160affb44f165a1f0eaa0999da90d3",
+      "manifest_hash": "05a44fb69b10f92609c7d5245a89593b67c03349c3a575ff897d8db70d12325d",
+      "runtime_epoch": 1,
+      "scores": [
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          21,
+          11
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          23,
+          7
+        ]
+      ]
+    },
+    "stale": {
+      "ids": [
+        10,
+        20
+      ],
+      "logical_rows_hash": "dfbecae243981ec2aa0275377f18f35766160affb44f165a1f0eaa0999da90d3",
+      "manifest_hash": "05a44fb69b10f92609c7d5245a89593b67c03349c3a575ff897d8db70d12325d",
+      "runtime_epoch": 1,
+      "scores": [
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          22,
+          9
+        ],
+        [
+          23,
+          7
+        ]
+      ]
+    },
+    "stale-but-allowed": {
+      "ids": [
+        10,
+        21
+      ],
+      "logical_rows_hash": "dfbecae243981ec2aa0275377f18f35766160affb44f165a1f0eaa0999da90d3",
+      "manifest_hash": "05a44fb69b10f92609c7d5245a89593b67c03349c3a575ff897d8db70d12325d",
+      "runtime_epoch": 1,
+      "scores": [
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          21,
+          11
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          23,
+          7
+        ]
+      ]
+    }
+  },
+  "sqlite": "3.53.1",
+  "verdicts": {
+    "current-forward": {
+      "artifact": true,
+      "derived": true,
+      "output": true
+    },
+    "current-reverse": {
+      "artifact": true,
+      "derived": true,
+      "output": true
+    },
+    "eligibility-mutant": {
+      "artifact": true,
+      "derived": true,
+      "output": false
+    },
+    "stale": {
+      "artifact": true,
+      "derived": false,
+      "output": false
+    },
+    "stale-but-allowed": {
+      "artifact": true,
+      "derived": false,
+      "output": true
+    },
+    "wrong-binding": {
+      "artifact": false,
+      "derived": true,
+      "output": true
+    }
+  }
+}

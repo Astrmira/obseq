@@ -1,0 +1,11 @@
+# Shared top-k witnesses constrain downstream results jointly
+
+The finite manifest is the authored table and quotas in check.py. Stable IDs are unique, scores and metrics are integer, and the quota is 1 in group 0 and 2 in group 1. Each group must include every row strictly above its cutoff and fill the remaining quota with cutoff ties. Different groups choose independently, but both downstream consumers must use **the same chosen row-ID selection**.
+
+Native SQLite runs the same window query for two forced index paths, with opposite ID order on score ties. Under score-only order the two legal witnesses give metric vectors (6,1) and (1,6); combining the first consumer's six from plan A and the second's six from plan B is not achievable with any shared witness. The test materializes a shared stable-ID selection and reads both sums through it. With explicit total tie-breaking by ID ascending inside ROW_NUMBER, both index paths independently use the same IDs and yield (6,1). A final presentation order does not itself implement tie resolution.
+
+**Cheap exact range versus exact set.** For any linear functional αX+βY of the shared additive metrics, score each tie row with its contribution and choose the smallest or largest required number in every cutoff block; add all mandatory row contributions. Exchange within each independently constrained block proves those are exact extrema. This takes sorting time rather than enumerating all witnesses. It does not give joint membership. In the fixture the exact moment pairs are (1,6), (3,4), (4,3), (6,1), obtained by independent subset enumeration. Even complete linear-extrema information only characterizes their convex hull, whose integer point (2,5) is not realizable. Separate marginal ranges additionally admit impossible (6,6), formed by combining incompatible witnesses.
+
+The 3,600 exact comparisons cross linear directions with 144 seeded authored quota instances, distinct from the actual native two-plan fixture. Practical QA: share an explicit selection receipt, or declare a total tie breaker when downstream equal identity is required; use exact analytic extrema only when bounds are the contract. Interacting quotas across groups, other tie semantics, and performance are not established.
+
+Replay: `python3 -IB check.py | cmp - result.json` on SQLite 3.53.1.

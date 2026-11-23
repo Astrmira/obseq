@@ -1,0 +1,64 @@
+{
+  "F1": [
+    {"match": false}, {"value": "-9007199254740995"}, {"groups": 2},
+    {"integer": "9007199254740997"}, {"max": "-9223372036854775807"}, {"difference": "15"}
+  ],
+  "F2": [
+    {"pairs": [["b", "d"]]}, {"pairs": [["a", "r"]]}, {"pairs": []},
+    {"pairs": [["a", "c"], ["b", "c"]]}, {"equal": false}, {"pairs": [["a", null], ["b", "d"]]}
+  ],
+  "F3": [
+    {"present": false}, {"balance": 17}, {"active": 1},
+    {"debit": 4, "credit": 7}, {"value": "west"}, {"values": ["amber", "amber"]}
+  ],
+  "F4": [
+    {"subtotal": 99}, {"mean": 16.5}, {"ids": []},
+    {"grandTotal": 35}, {"A": 3, "B": 8}, {"width": 6}
+  ],
+  "F5": [
+    {"nick": "ivory", "note": null}, {"tags": []}, {"enabled": false, "retries": 4},
+    {"memo": null}, {"count": 0}, {"tag": "null"}
+  ],
+  "F6": [
+    {"ids": ["u", "v"]}, {"id": "a"}, {"id": "q"},
+    {"id": "q"}, {"ids": ["h", "j"]}, {"id": "r"}
+  ],
+  "F7": [
+    {"north": 23, "south": 38}, {"items": [-9, 3, 3, 7]}, {"open": 3, "closed": 1, "held": 2},
+    {"net": 6}, {"a": 4, "b": -4, "c": 0}, {"events": [["a", "refund", -2], ["b", "sale", 2]]}
+  ],
+  "F8": [
+    {"utc": "2023-11-05T06:40:00Z"}, {"error": "nonexistent"}, {"error": "ambiguous"},
+    {"utc": "2024-04-06T15:15:00Z"}, {"utc": "2029-06-10T01:12:00Z"}, {"error": "invalid_offset"}
+  ],
+  "F9": [
+    {"repr": ["integer", "4"]}, {"repr": ["varchar", "Haze"]}, {"repr": ["smallint", "7"]},
+    {"repr": ["boolean", true]}, {"repr": ["bytes", "41"]}, {"repr": ["binary64-bits", "8000000000000000"]}
+  ],
+  "F10": [
+    {"inside": false}, {"intersects": true}, {"overlap": false},
+    {"member": false}, {"within": true}, {"meet": false}
+  ],
+  "O3-topk": [
+    {"ids": ["a", "b", "c"]}, {"ids": ["z", "b"]}, {"ids": ["a", "b", "c"]},
+    {"ids": ["j", "k", "l"]}, {"ids": ["a", "c"]}, {"ids": ["q", "r"]}
+  ],
+  "O3-row_number": [
+    {"numbers": {"a": 1, "b": 2, "c": 1}}, {"numbers": {"a": 1, "b": 2, "c": 3}},
+    {"numbers": {"x": 1, "y": 2, "z": 3}}, {"numbers": {"q": 1, "r": 2, "s": 3}},
+    {"numbers": {"i": 2, "j": 3}}, {"numbers": {"a": 1, "b": 2, "c": 3, "d": 4}}
+  ],
+  "O3-coupled": [
+    {"vendor": "m", "days": 2}, {"A": ["U", 4], "B": ["Z", 8]}, {"first": "j", "last": "k"},
+    {"from": "p", "to": "q"}, {"ids": ["a", "b"], "sum": 5}, {"raw": "ALoe", "normalized": "aloe"}
+  ],
+  "O3-group_repr": [
+    {"groups": [["Teal", 2], ["gold", 1]]}, {"groups": [["x ", 2], ["y", 1]]},
+    {"groups": [[-3, 3], [-1, 1]]}, {"groups": [["P", "Bee", 1], ["Q", "BEE", 2]]},
+    {"groups": [["sKy", 3]]}, {"groups": [[null, 2], ["NULL", 1]]}
+  ],
+  "O4-dateserial": [
+    {"serial": -1}, {"serial": 60}, {"serial": "1.25"},
+    {"serial": "-0.25"}, {"serial": 61}, {"serial": 2.5}
+  ]
+}

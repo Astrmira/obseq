@@ -1,0 +1,234 @@
+{
+  "execution": "Targeted native Linux replays of the packages previously recorded as receipt divergences or execution failures; separate from the historical full archive run.",
+  "case_groups": {
+    "prior_receipt_divergences": {
+      "counts": {
+        "PASS_stable": 21,
+        "PASS": 1
+      },
+      "cases": [
+        {
+          "id": "eab-native-collation-equivalence",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-stream-to-storage-write-intent",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-fid-keyed-write-intent",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-semantic-snapshot-binding",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-destination-projection-binding",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-workbook-dst-authority",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-cascade-lineage-closure",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-sql-allowed-result-families",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-coupled-sql-allowed-family",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-typed-sql-group-representatives",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-sqlite-transactional-snapshot-binding",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-sqlite-semantic-dependency-binding",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "native-contract-harness",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "pipeline-typed-null-join-isolation",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "pipeline-engine-semantics-oracle",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "pipeline-native-transport-semantics",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "pipeline-native-write-intent",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-composed-semantic-receipt",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "eab-receipt-independent-observables",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "stale-join-key-eligibility",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "sqlite-stored-field-evaluation-epoch",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "polars-group-min-cross-version",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        }
+      ]
+    },
+    "prior_execution_failures": {
+      "counts": {
+        "PASS": 16,
+        "PASS_stable": 1
+      },
+      "cases": [
+        {
+          "id": "eab-immutable-calendar-recurrence-anchor",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "compact-native-conformance-corpus",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "external-native-corpus-admission",
+          "kind": "native_authored_development",
+          "status": "PASS_stable"
+        },
+        {
+          "id": "crs-relative-clearance-certificates",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "crs-round-trip-boundary-identity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "external-native-hole-containment",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "external-native-planar-containment",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "selective-interval-peer-matching",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "whole-multipolygon-point-admission",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "exact-dyadic-predicate-gate",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "native-variant-write-intent-preservation",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "stock-deequ-common-keyed",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "xlsx-native-style-type-drift",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "polars-cent-contract-scale",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "clickbench-native-footer-epoch-binding",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "slt-native-port-framing-scope",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "supplied-cwi-tool-q39",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "details": [
+    "GDAL 3.10.3, GEOS 3.13.1 and PROJ 9.6.0 with explicit resource paths. The QGIS map matches the seal of the archived cases.",
+    "The normalized results compare all verdict, count, input-identity and witness fields; the selected receipt exclusions are version fields.",
+    "The workbook producer used the shipped New York zone file. Its input digest is retained.",
+    "SQLite 3.53.1 and the three separate Polars sites were used for the cross-version run.",
+    "The publisher archive and bundled selection CSV are SHA-identical to the workbook plan. The recovered bundled CWI SF1 reference also matches its input SHA-256. Both packages passed the targeted follow-up."
+  ],
+  "historical_h2o_timeout_followup": {
+    "id": "h2o-factorized-association-moments",
+    "status": "PASS",
+    "timeout_seconds": 480,
+    "wall_seconds": 128.838
+  },
+  "historical_unbound_cases_check": {
+    "cases": 36,
+    "NA_input_binding": 36,
+    "exit_code": 0
+  }
+}

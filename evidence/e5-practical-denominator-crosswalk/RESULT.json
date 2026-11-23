@@ -1,0 +1,595 @@
+{
+  "isolated_native_decisions": 1404,
+  "methods": {
+    "datacompy_keyed": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 9,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "dbt_stock_relationships": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 29,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 32,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "dbt_typed_fixed_golden": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 33,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "deequ_stock_size": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 0,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 21,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 0,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 27,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "deequ_typed_fixed_golden": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 33,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "duckdb_python_slt_hash_rowsort": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 3,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 60
+        },
+        "E3": {
+          "NA": 6,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 30
+        }
+      }
+    },
+    "duckdb_python_slt_literal_nosort": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 3,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 60
+        },
+        "E3": {
+          "NA": 6,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 30
+        }
+      }
+    },
+    "duckdb_python_slt_literal_rowsort": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 3,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 60
+        },
+        "E3": {
+          "NA": 6,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 30
+        }
+      }
+    },
+    "duckdb_python_slt_literal_valuesort": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 3,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 60
+        },
+        "E3": {
+          "NA": 6,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 30
+        }
+      }
+    },
+    "dvc_fixed_bytes": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "gx_reference_rowcount": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 0,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 21,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 0,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 27,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "pandas_check_like": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "pandas_default": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "pandas_dtype_relaxed": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 8,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "polars_default": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 31,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 34,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    },
+    "polars_ignore_order": {
+      "complete_case_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 30,
+          "native_determinate": 57,
+          "total": 57
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 24,
+          "total": 24
+        }
+      },
+      "native_own_mask": {
+        "E2": {
+          "NA": 0,
+          "incorrect": 33,
+          "native_determinate": 60,
+          "total": 60
+        },
+        "E3": {
+          "NA": 0,
+          "incorrect": 3,
+          "native_determinate": 30,
+          "total": 30
+        }
+      }
+    }
+  },
+  "missed_intent_F5_ids": [
+    64,
+    74,
+    84
+  ],
+  "number_configurations": 16,
+  "original_rows": 90,
+  "paired_covered_by_all": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89
+  ],
+  "separate_scopes": {
+    "Deequ suggestions": {
+      "scope": "separate 24 held-out F7, not common90"
+    },
+    "SQLancer": {
+      "scope": "native comparative execution not included"
+    },
+    "canonical SQLite SLT": {
+      "scope": "not executed"
+    },
+    "dbt stock unit tests": {
+      "scope": "separate authored tied-witness fixture: no original common90 denominator"
+    },
+    "lakeFS": {
+      "authored_legal_false_reject": 1,
+      "original_E3_false_admits": 3,
+      "scope": "original E3 F3/F7 6 plus separate legal reordered control, no shared 90 pooling"
+    }
+  },
+  "void_cells": 36
+}

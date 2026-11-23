@@ -1,0 +1,33 @@
+{
+  "pandas": "2.2.3",
+  "source_commit": "61ba82e7f6868760dcfbfa4347fe06cfd67a798f",
+  "source_sha256": "65171e4a8a54b5330fba5c97c4d705f34410c62748d9180cb2e161b628a7540f",
+  "ref_sha256": "d6a19c750e963e1b8847ed329596cc5643f95ff84600c70c1c75b0eeb5beacc9",
+  "rows": 243,
+  "results": [
+    {
+      "arm": "native one to four",
+      "stock_cwi": "match",
+      "stock_exit": 1,
+      "typed_contract": true
+    },
+    {
+      "arm": "native four to one",
+      "stock_cwi": "match",
+      "stock_exit": 1,
+      "typed_contract": true
+    },
+    {
+      "arm": "coherent integer key mutation",
+      "stock_cwi": "match",
+      "stock_exit": 1,
+      "typed_contract": false
+    },
+    {
+      "arm": "large numerical mutation",
+      "stock_cwi": "diff",
+      "stock_exit": 0,
+      "typed_contract": false
+    }
+  ]
+}

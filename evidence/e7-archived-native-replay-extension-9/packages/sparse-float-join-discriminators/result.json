@@ -1,0 +1,53 @@
+[
+  {
+    "all_domain_distinct": 22743,
+    "ambiguous_occurrences": 4,
+    "authored_null_pair": 1,
+    "case": "TweetIDs-self",
+    "conditional_tag_bits": 4,
+    "float_false_pairs": 2,
+    "known_colliding_buckets": 1,
+    "left": 22743,
+    "max_conditional_bits": 1,
+    "pair_counts": {
+      "exact": 22744,
+      "repaired": 22744,
+      "symmetric_float": 22746
+    },
+    "right": 22743
+  },
+  {
+    "all_domain_distinct": 22743,
+    "ambiguous_occurrences": 2,
+    "authored_null_pair": 1,
+    "case": "TweetIDs-parity",
+    "conditional_tag_bits": 2,
+    "float_false_pairs": 1,
+    "known_colliding_buckets": 1,
+    "left": 11372,
+    "max_conditional_bits": 1,
+    "pair_counts": {
+      "exact": 1,
+      "repaired": 1,
+      "symmetric_float": 2
+    },
+    "right": 11371
+  },
+  {
+    "all_domain_distinct": 79842,
+    "ambiguous_occurrences": 0,
+    "authored_null_pair": 1,
+    "case": "ClickBench-UserID-parity",
+    "conditional_tag_bits": 0,
+    "float_false_pairs": 0,
+    "known_colliding_buckets": 0,
+    "left": 500000,
+    "max_conditional_bits": 0,
+    "pair_counts": {
+      "exact": 16818333,
+      "repaired": 16818333,
+      "symmetric_float": 16818333
+    },
+    "right": 500000
+  }
+]

@@ -1,0 +1,9 @@
+{
+ "cwi_source_commit":"61ba82e7f6868760dcfbfa4347fe06cfd67a798f",
+ "cwi_source_sha256":"65171e4a8a54b5330fba5c97c4d705f34410c62748d9180cb2e161b628a7540f",
+ "author_controls":{"reference":"101\t20.0\n102\tNULL\n103\t5.0\n","swap":"101\tNULL\n102\t20.0\n103\t5.0\n","finite":"101\t40.0\n102\tNULL\n103\t5.0\n","valid_nan":"101\t20.0\n102\tNaN\n103\t5.0\n"},
+ "native_stock_artifact_tool":"unpinned fixtures are not allowed; use CWI stock tool with pandas 2.2.3 both directions, dtype and keyed validity cross-check",
+ "duckdb_versions":["1.4.2","1.4.3","2.0.1"],
+ "export_native":"author keyed table of NULL, empty string, literal NULL, and text; native CSV default and explicit NULLSTR, native default IMPORT, explicit preserve/collapse read options, and native Parquet control",
+ "limitations":"authored quiet offline correctness fixtures; external reported 2.0.0-alpha38195 unaffected in this plan, do not infer first fixed release"
+}

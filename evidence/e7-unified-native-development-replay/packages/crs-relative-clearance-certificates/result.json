@@ -1,0 +1,67 @@
+{
+  "admitted_components": 6,
+  "artifact_sha256": "386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+  "contrast_witnesses": {
+    "edge-only": {
+      "fid": 1,
+      "isolated_label": "interior",
+      "joint_label": "exterior",
+      "original_label": "boundary",
+      "point_hex": [
+        "0x1.bd11ae5c913a0p+1",
+        "-0x1.b35f9ca2508c9p+5"
+      ]
+    },
+    "point-only": {
+      "fid": 3,
+      "isolated_label": "boundary",
+      "joint_label": "interior",
+      "original_label": "boundary",
+      "point_hex": [
+        "0x1.ade02c84781adp+2",
+        "0x1.ac8dd8b4537b6p+5"
+      ]
+    }
+  },
+  "excluded": [],
+  "gdal": "3100300",
+  "isolated_vs_joint_label_differences": {
+    "edge-only": 53,
+    "point-only": 18
+  },
+  "native_mismatches": 0,
+  "policy_sha256": "03fe9a823c6f85f85b72f68ba3a08f854a070899caccda2e35bb1927d86b3906",
+  "probe_kinds": {
+    "bbox-grid": 54,
+    "midpoint": 15,
+    "offset": 270
+  },
+  "proj": [
+    9,
+    6,
+    0
+  ],
+  "summary": {
+    "both": {
+      "category_changed": 49,
+      "hull_certified": 281,
+      "radius_certified": 220,
+      "tests": 339,
+      "uncertified_but_unchanged": 9
+    },
+    "edge-only": {
+      "category_changed": 44,
+      "hull_certified": 288,
+      "radius_certified": 222,
+      "tests": 339,
+      "uncertified_but_unchanged": 7
+    },
+    "point-only": {
+      "category_changed": 50,
+      "hull_certified": 288,
+      "radius_certified": 239,
+      "tests": 339,
+      "uncertified_but_unchanged": 1
+    }
+  }
+}

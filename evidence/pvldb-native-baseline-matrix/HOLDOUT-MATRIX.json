@@ -1,0 +1,2954 @@
+{
+  "cases": {
+    "later": 138,
+    "original": 108
+  },
+  "group_denominators": {
+    "later/heldout-binary64-orientation": {
+      "legal": 48
+    },
+    "later/heldout-coherent-group-representatives": {
+      "illegal": 14,
+      "legal": 10
+    },
+    "later/heldout-group-role-and-fold-joint/fold": {
+      "illegal": 4,
+      "legal": 16
+    },
+    "later/heldout-group-role-and-fold-joint/group_role": {
+      "illegal": 6,
+      "legal": 10
+    },
+    "later/heldout-json-presence-and-path-shape": {
+      "legal": 72
+    },
+    "later/heldout-keyed-aggregate-cancellation": {
+      "illegal": 12,
+      "legal": 12
+    },
+    "later/heldout-ordered-intervention-receipts": {
+      "illegal": 12,
+      "legal": 12
+    },
+    "original/F1": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F10": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F2": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F3": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F4": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F5": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F6": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F7": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F8": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/F9": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O3-coupled": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O3-group_repr": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O3-row_number": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O3-topk": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O4-dateserial": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O4-numtext": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O4-pointset": {
+      "illegal": 3,
+      "legal": 3
+    },
+    "original/O4-wkb": {
+      "illegal": 3,
+      "legal": 3
+    }
+  },
+  "methods_by_group": {
+    "later/heldout-binary64-orientation": {
+      "byte_hash": {
+        "NA": 48
+      },
+      "datacompy_keyed": {
+        "true_accept": 48
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 48
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 48
+      },
+      "deequ_stock_size": {
+        "true_accept": 48
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 48
+      },
+      "dvc_fingerprint": {
+        "true_accept": 48
+      },
+      "great_expectations_rowcount": {
+        "true_accept": 48
+      },
+      "multiset": {
+        "true_accept": 48
+      },
+      "ordered": {
+        "true_accept": 48
+      },
+      "pandas_check_like": {
+        "true_accept": 48
+      },
+      "pandas_default": {
+        "true_accept": 48
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 48
+      },
+      "polars_default": {
+        "true_accept": 48
+      },
+      "polars_ignore_order": {
+        "true_accept": 48
+      },
+      "rowcount": {
+        "true_accept": 48
+      },
+      "rtol1e-5": {
+        "true_accept": 48
+      },
+      "rtol1e-9": {
+        "true_accept": 48
+      },
+      "schema": {
+        "true_accept": 48
+      },
+      "set": {
+        "true_accept": 48
+      },
+      "slt_nosort": {
+        "true_accept": 48
+      },
+      "slt_rowsort": {
+        "true_accept": 48
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 48
+      },
+      "slt_valuesort": {
+        "true_accept": 48
+      },
+      "sqlite_integrity": {
+        "NA": 48
+      },
+      "sum": {
+        "true_accept": 48
+      }
+    },
+    "later/heldout-coherent-group-representatives": {
+      "byte_hash": {
+        "NA": 24
+      },
+      "datacompy_keyed": {
+        "NA": 1,
+        "false_accept": 3,
+        "false_reject": 4,
+        "true_accept": 6,
+        "true_reject": 10
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 4,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 10
+      },
+      "dbt_typed_fixed_golden": {
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 11
+      },
+      "deequ_stock_size": {
+        "false_accept": 10,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "deequ_typed_fixed_golden": {
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 11
+      },
+      "dvc_fingerprint": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 10,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "multiset": {
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 11
+      },
+      "ordered": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "pandas_check_like": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "pandas_default": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "pandas_dtype_relaxed": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "polars_default": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "polars_ignore_order": {
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 11
+      },
+      "rowcount": {
+        "false_accept": 10,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "rtol1e-5": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "rtol1e-9": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 12
+      },
+      "schema": {
+        "false_accept": 5,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 9
+      },
+      "set": {
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 11
+      },
+      "slt_nosort": {
+        "NA": 2,
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 6,
+        "true_reject": 12
+      },
+      "slt_rowsort": {
+        "NA": 2,
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 6,
+        "true_reject": 11
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 3,
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 6,
+        "true_reject": 10
+      },
+      "slt_valuesort": {
+        "NA": 3,
+        "false_accept": 3,
+        "false_reject": 2,
+        "true_accept": 6,
+        "true_reject": 10
+      },
+      "sqlite_integrity": {
+        "NA": 24
+      },
+      "sum": {
+        "false_accept": 6,
+        "false_reject": 2,
+        "true_accept": 8,
+        "true_reject": 8
+      }
+    },
+    "later/heldout-group-role-and-fold-joint/fold": {
+      "byte_hash": {
+        "NA": 20
+      },
+      "datacompy_keyed": {
+        "false_reject": 6,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 4,
+        "false_reject": 2,
+        "true_accept": 14
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "deequ_stock_size": {
+        "true_accept": 16,
+        "true_reject": 4
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "dvc_fingerprint": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "great_expectations_rowcount": {
+        "true_accept": 16,
+        "true_reject": 4
+      },
+      "multiset": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "ordered": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "pandas_check_like": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "pandas_default": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "polars_default": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "polars_ignore_order": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "rowcount": {
+        "true_accept": 16,
+        "true_reject": 4
+      },
+      "rtol1e-5": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "rtol1e-9": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "schema": {
+        "true_accept": 16,
+        "true_reject": 4
+      },
+      "set": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      },
+      "slt_nosort": {
+        "NA": 4,
+        "false_reject": 2,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "slt_rowsort": {
+        "NA": 4,
+        "false_reject": 2,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 4,
+        "false_reject": 2,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "slt_valuesort": {
+        "NA": 4,
+        "false_reject": 2,
+        "true_accept": 10,
+        "true_reject": 4
+      },
+      "sqlite_integrity": {
+        "NA": 20
+      },
+      "sum": {
+        "false_reject": 2,
+        "true_accept": 14,
+        "true_reject": 4
+      }
+    },
+    "later/heldout-group-role-and-fold-joint/group_role": {
+      "byte_hash": {
+        "NA": 16
+      },
+      "datacompy_keyed": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 1,
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 5
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "deequ_stock_size": {
+        "false_accept": 6,
+        "true_accept": 10
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "dvc_fingerprint": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 6,
+        "true_accept": 10
+      },
+      "multiset": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "ordered": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "pandas_check_like": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "pandas_default": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "polars_default": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "polars_ignore_order": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "rowcount": {
+        "false_accept": 6,
+        "true_accept": 10
+      },
+      "rtol1e-5": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "rtol1e-9": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "schema": {
+        "false_accept": 5,
+        "false_reject": 3,
+        "true_accept": 7,
+        "true_reject": 1
+      },
+      "set": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "slt_nosort": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "slt_rowsort": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "slt_valuesort": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      },
+      "sqlite_integrity": {
+        "NA": 16
+      },
+      "sum": {
+        "false_reject": 5,
+        "true_accept": 5,
+        "true_reject": 6
+      }
+    },
+    "later/heldout-json-presence-and-path-shape": {
+      "byte_hash": {
+        "NA": 72
+      },
+      "datacompy_keyed": {
+        "true_accept": 72
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 72
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 72
+      },
+      "deequ_stock_size": {
+        "true_accept": 72
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 72
+      },
+      "dvc_fingerprint": {
+        "true_accept": 72
+      },
+      "great_expectations_rowcount": {
+        "true_accept": 72
+      },
+      "multiset": {
+        "true_accept": 72
+      },
+      "ordered": {
+        "true_accept": 72
+      },
+      "pandas_check_like": {
+        "true_accept": 72
+      },
+      "pandas_default": {
+        "true_accept": 72
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 72
+      },
+      "polars_default": {
+        "true_accept": 72
+      },
+      "polars_ignore_order": {
+        "true_accept": 72
+      },
+      "rowcount": {
+        "true_accept": 72
+      },
+      "rtol1e-5": {
+        "true_accept": 72
+      },
+      "rtol1e-9": {
+        "true_accept": 72
+      },
+      "schema": {
+        "true_accept": 72
+      },
+      "set": {
+        "true_accept": 72
+      },
+      "slt_nosort": {
+        "true_accept": 72
+      },
+      "slt_rowsort": {
+        "true_accept": 72
+      },
+      "slt_rowsort_hash_threshold1": {
+        "true_accept": 72
+      },
+      "slt_valuesort": {
+        "true_accept": 72
+      },
+      "sqlite_integrity": {
+        "NA": 72
+      },
+      "sum": {
+        "true_accept": 72
+      }
+    },
+    "later/heldout-keyed-aggregate-cancellation": {
+      "byte_hash": {
+        "NA": 24
+      },
+      "datacompy_keyed": {
+        "NA": 1,
+        "false_reject": 1,
+        "true_accept": 11,
+        "true_reject": 11
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 1,
+        "true_accept": 12,
+        "true_reject": 11
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "deequ_stock_size": {
+        "false_accept": 11,
+        "true_accept": 12,
+        "true_reject": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "dvc_fingerprint": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 11,
+        "true_accept": 12,
+        "true_reject": 1
+      },
+      "multiset": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "ordered": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "pandas_check_like": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "pandas_default": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "polars_default": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "polars_ignore_order": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "rowcount": {
+        "false_accept": 11,
+        "true_accept": 12,
+        "true_reject": 1
+      },
+      "rtol1e-5": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "rtol1e-9": {
+        "false_reject": 10,
+        "true_accept": 2,
+        "true_reject": 12
+      },
+      "schema": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "set": {
+        "true_accept": 12,
+        "true_reject": 12
+      },
+      "slt_nosort": {
+        "NA": 1,
+        "false_reject": 10,
+        "true_accept": 1,
+        "true_reject": 12
+      },
+      "slt_rowsort": {
+        "NA": 1,
+        "true_accept": 11,
+        "true_reject": 12
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 1,
+        "true_accept": 11,
+        "true_reject": 12
+      },
+      "slt_valuesort": {
+        "NA": 2,
+        "false_accept": 3,
+        "true_accept": 11,
+        "true_reject": 8
+      },
+      "sqlite_integrity": {
+        "NA": 24
+      },
+      "sum": {
+        "false_accept": 8,
+        "true_accept": 12,
+        "true_reject": 4
+      }
+    },
+    "later/heldout-ordered-intervention-receipts": {
+      "byte_hash": {
+        "NA": 24
+      },
+      "datacompy_keyed": {
+        "false_accept": 8,
+        "false_reject": 1,
+        "true_accept": 11,
+        "true_reject": 4
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "deequ_typed_fixed_golden": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "multiset": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "rtol1e-5": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 12,
+        "true_accept": 12
+      },
+      "set": {
+        "false_accept": 9,
+        "true_accept": 12,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 2,
+        "false_accept": 8,
+        "true_accept": 11,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "NA": 2,
+        "false_accept": 8,
+        "true_accept": 11,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 2,
+        "false_accept": 8,
+        "true_accept": 11,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "NA": 2,
+        "false_accept": 9,
+        "true_accept": 11,
+        "true_reject": 2
+      },
+      "sqlite_integrity": {
+        "NA": 24
+      },
+      "sum": {
+        "false_accept": 10,
+        "true_accept": 12,
+        "true_reject": 2
+      }
+    },
+    "original/F1": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "rtol1e-9": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "slt_rowsort": {
+        "NA": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "slt_valuesort": {
+        "NA": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      }
+    },
+    "original/F10": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 6
+      },
+      "slt_rowsort": {
+        "NA": 6
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 6
+      },
+      "slt_valuesort": {
+        "NA": 6
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F2": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 3,
+        "true_accept": 2,
+        "true_reject": 1
+      },
+      "slt_rowsort": {
+        "NA": 3,
+        "true_accept": 2,
+        "true_reject": 1
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 2,
+        "true_accept": 2,
+        "true_reject": 2
+      },
+      "slt_valuesort": {
+        "NA": 3,
+        "true_accept": 2,
+        "true_reject": 1
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F3": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "NA": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "NA": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      }
+    },
+    "original/F4": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "slt_valuesort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "true_accept": 3,
+        "true_reject": 3
+      }
+    },
+    "original/F5": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F6": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 1,
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 2
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F7": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 1,
+        "true_accept": 3,
+        "true_reject": 2
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "rtol1e-5": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F8": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/F9": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 1,
+        "true_accept": 2,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 1,
+        "false_reject": 1,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "NA": 1,
+        "false_reject": 1,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 1,
+        "false_reject": 1,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "NA": 1,
+        "false_reject": 1,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/O3-coupled": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/O3-group_repr": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "multiset": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "rtol1e-5": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "set": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "NA": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      },
+      "slt_rowsort": {
+        "NA": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      },
+      "slt_valuesort": {
+        "NA": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "false_reject": 1,
+        "true_accept": 2
+      }
+    },
+    "original/O3-row_number": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 2,
+        "true_accept": 3,
+        "true_reject": 1
+      }
+    },
+    "original/O3-topk": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/O4-dateserial": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "NA": 6
+      },
+      "slt_valuesort": {
+        "true_accept": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/O4-numtext": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    },
+    "original/O4-pointset": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 1,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 2
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 1,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 2
+      },
+      "multiset": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 1,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 2
+      },
+      "rtol1e-5": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_accept": 1,
+        "false_reject": 3,
+        "true_reject": 2
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 2,
+        "false_reject": 2,
+        "true_accept": 1,
+        "true_reject": 1
+      }
+    },
+    "original/O4-wkb": {
+      "byte_hash": {
+        "NA": 6
+      },
+      "datacompy_keyed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_stock_relationships": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "deequ_stock_size": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "dvc_fingerprint": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "great_expectations_rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "multiset": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "ordered": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_check_like": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "pandas_dtype_relaxed": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_default": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "polars_ignore_order": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rowcount": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "rtol1e-5": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "rtol1e-9": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "schema": {
+        "false_accept": 3,
+        "true_accept": 3
+      },
+      "set": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_nosort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_rowsort_hash_threshold1": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "slt_valuesort": {
+        "false_reject": 3,
+        "true_reject": 3
+      },
+      "sqlite_integrity": {
+        "NA": 6
+      },
+      "sum": {
+        "false_accept": 3,
+        "true_accept": 3
+      }
+    }
+  },
+  "observations": 336
+}

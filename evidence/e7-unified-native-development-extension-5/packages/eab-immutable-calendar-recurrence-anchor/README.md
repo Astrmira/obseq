@@ -1,0 +1,9 @@
+# Date-only recurrence: a previous result is not the scheduling anchor
+
+This historical Gregorian benchmark is distinct from timezone ambiguity. Input is an immutable date-only anchor and slot index. The declared policy advances the year/month by the full slot index and clamps the **original** day to the target month's days. It explicitly does not roll overflow forward or update the anchor from the previous clipped output. There is no claim that alternative recurrence policies are incorrect for a different application.
+
+The fixture transports dates through native openpyxl and independently derives expected dates by ordinal month arithmetic and calendar.monthrange. Actual pandas DateOffset from the anchor and actual SQLite date(anchor,'+n months','floor') match all 112 declared slots. The alternative SQLite default ceiling semantics differ on 31 slots; iterative one-month/clamped chaining differs on 70 slots. The latter uses the same one-month clamp and still differs because it changes which date is the source. The date-only spreadsheet, versions and typed contract digest are in the replay.
+
+**Exact structural reason.** With target month lengths L1,...,Lj and initial anchor day d, chained clamping produces min(d,L1,...,Lj) at j by induction. Anchored clamping uses min(d,Lj). They match through the first shortening, so checking only that shortening is a poor benchmark; a later longer target exposes the drift. A non-leap February result of 28 is compatible with anchors 28, 29, 30 and 31 within the same preceding January, but those alternatives give four different March outputs under anchored policy. The last date alone cannot reconstruct that policy's next date. Keep the originating anchor and slot ordinal independent of materialized dates instead of inferring them from output. No recurrence-wide engine claim or measurement of execution time.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

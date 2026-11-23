@@ -1,0 +1,23 @@
+{
+  "cases": {
+    "default": {
+      "bindings": {
+        "Copy": "'Global'!$A$1",
+        "Template": "'Template'!$A$1"
+      }
+    },
+    "retarget": {
+      "bindings": {
+        "Copy": "'Copy'!$A$1",
+        "Template": "'Template'!$A$1"
+      }
+    },
+    "stale": {
+      "bindings": {
+        "Copy": "'Template'!$A$1",
+        "Template": "'Template'!$A$1"
+      }
+    }
+  },
+  "openpyxl": "3.1.5"
+}

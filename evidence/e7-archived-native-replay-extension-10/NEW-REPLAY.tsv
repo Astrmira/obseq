@@ -1,0 +1,6 @@
+exact-orient2d-adaptive-native-corpus	native_external_transfer	PASS_stable
+lakefs-native-snapshot-checksums	native_authored_development	PASS
+h2o-factorized-association-moments	native_external_transfer	PASS
+tpcds-sf10-q39-exact-threshold	native_external_transfer	PASS_stable
+e3-f10-native-census-vertex-preservation	native_external_transfer	PASS
+e3-f5-native-osm-field-mask	native_external_transfer	PASS

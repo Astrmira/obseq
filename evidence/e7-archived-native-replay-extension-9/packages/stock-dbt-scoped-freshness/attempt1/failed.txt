@@ -1,0 +1,7 @@
+[0m18:22:39  Running with dbt=1.10.15
+[0m18:22:39  Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model_paths' was unexpected)
+
+Error encountered in /tmp/tmpf99i0do1/dbt_project.yml
+

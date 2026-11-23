@@ -1,0 +1,243 @@
+{
+  "exact_projected_exchange_delta": 236821756096847444097530308,
+  "full_native_checks": {
+    "M2_payload_exchange": {
+      "columns": [
+        [
+          "id1",
+          "BIGINT"
+        ],
+        [
+          "id2",
+          "BIGINT"
+        ],
+        [
+          "id3",
+          "BIGINT"
+        ],
+        [
+          "id4",
+          "ENUM"
+        ],
+        [
+          "id5",
+          "ENUM"
+        ],
+        [
+          "id6",
+          "VARCHAR"
+        ],
+        [
+          "v1",
+          "DOUBLE"
+        ],
+        [
+          "medium_id1",
+          "BIGINT"
+        ],
+        [
+          "medium_id4",
+          "ENUM"
+        ],
+        [
+          "medium_id5",
+          "ENUM"
+        ],
+        [
+          "v2",
+          "DOUBLE"
+        ]
+      ],
+      "exact_schema_sha256": "82da36aa2a9cedeb5cb85e04d9acc4fde3b054f3f87ab0630e23d9c370a903d6",
+      "exact_v2_sum": "423957578.770283",
+      "rows": 10000000,
+      "stock_chk": "475042480.57;423957578.77"
+    },
+    "clean": {
+      "columns": [
+        [
+          "id1",
+          "BIGINT"
+        ],
+        [
+          "id2",
+          "BIGINT"
+        ],
+        [
+          "id3",
+          "BIGINT"
+        ],
+        [
+          "id4",
+          "ENUM"
+        ],
+        [
+          "id5",
+          "ENUM"
+        ],
+        [
+          "id6",
+          "VARCHAR"
+        ],
+        [
+          "v1",
+          "DOUBLE"
+        ],
+        [
+          "medium_id1",
+          "BIGINT"
+        ],
+        [
+          "medium_id4",
+          "ENUM"
+        ],
+        [
+          "medium_id5",
+          "ENUM"
+        ],
+        [
+          "v2",
+          "DOUBLE"
+        ]
+      ],
+      "exact_schema_sha256": "82da36aa2a9cedeb5cb85e04d9acc4fde3b054f3f87ab0630e23d9c370a903d6",
+      "exact_v2_sum": "423957578.770283",
+      "rows": 10000000,
+      "stock_chk": "475042480.57;423957578.77"
+    },
+    "positive_control_plus_one": {
+      "columns": [
+        [
+          "id1",
+          "BIGINT"
+        ],
+        [
+          "id2",
+          "BIGINT"
+        ],
+        [
+          "id3",
+          "BIGINT"
+        ],
+        [
+          "id4",
+          "ENUM"
+        ],
+        [
+          "id5",
+          "ENUM"
+        ],
+        [
+          "id6",
+          "VARCHAR"
+        ],
+        [
+          "v1",
+          "DOUBLE"
+        ],
+        [
+          "medium_id1",
+          "BIGINT"
+        ],
+        [
+          "medium_id4",
+          "ENUM"
+        ],
+        [
+          "medium_id5",
+          "ENUM"
+        ],
+        [
+          "v2",
+          "DOUBLE"
+        ]
+      ],
+      "exact_schema_sha256": "82da36aa2a9cedeb5cb85e04d9acc4fde3b054f3f87ab0630e23d9c370a903d6",
+      "exact_v2_sum": "423957579.770283",
+      "rows": 10000000,
+      "stock_chk": "475042480.57;423957579.77"
+    }
+  },
+  "projection_rows_per_arm": 2,
+  "source_rows": 10000000,
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  },
+  "witness_comparisons": {
+    "M2_payload_exchange": {
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "physical_position",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    },
+    "clean": {
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "physical_position",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      }
+    },
+    "positive_control_plus_one": {
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "key_mode": "physical_position",
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      }
+    }
+  }
+}

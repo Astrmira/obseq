@@ -1,0 +1,406 @@
+{
+  "base_reference": "8c3e2f6b7f68aff0ddbc950db25e216e1898250b",
+  "cases": [
+    {
+      "case_id": "native-bag-comparator-coercion",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "DUCK143.json",
+      "args": [
+        "{TWEET}"
+      ],
+      "python_path": [
+        "DUCK143"
+      ],
+      "blobs": {
+        "DUCK143.json": {
+          "sha256": "a609160f8191db22c794ed31b017c1867e2b5e45bbb0dd0cdbf7f6cc73335bcb"
+        },
+        "DUCK201.json": {
+          "sha256": "325b3199821cab18bea9da741c37e0785e44633daf1d6adb62d107cf31275642"
+        },
+        "EVIDENCE.json": {
+          "sha256": "5ede2f04a063db8bf2e4ae327ba9f9b34a8e656a4f69ada2652b669b6f74b3a2"
+        },
+        "INPUTS.sha256": {
+          "sha256": "ab3a07f353a1971eb4d49f33a53e41825601bdeaf22700cdbf1f2bfabf63006f"
+        },
+        "README.md": {
+          "sha256": "c5f1dcdf793e99ec8c92e94d9d5c51896e591ccd61082b2200361ab05b370e96"
+        },
+        "SHA256SUMS": {
+          "sha256": "f9f66a55e9039a5a8194bf84369eddd2046e8d1729ec6be40d4e875273fef95a"
+        },
+        "check.py": {
+          "sha256": "d7b248ba2aa1c1dd9f3946dd476c95ad5a3a5085a85e997b4c3bfc99d2d39285"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "cross-engine-bag-comparator-admission",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{TWEET}",
+        "{PG17_BIN}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "425c0b123c8374865f942c73a69d48914c446062d6a8d61595cd5ac6e5e2b1a3"
+        },
+        "INPUTS.sha256": {
+          "sha256": "ab3a07f353a1971eb4d49f33a53e41825601bdeaf22700cdbf1f2bfabf63006f"
+        },
+        "README.md": {
+          "sha256": "1a0100dcf587c86a6b074cfad0668a3e8124eb74f34a7120eba7e41fcf8eb614"
+        },
+        "RESULT.json": {
+          "sha256": "3606695186cb56521a37b5c55878bbc53933dff4e1f0498d8e11d7975f4b9da2"
+        },
+        "SHA256SUMS": {
+          "sha256": "a387e7608af3e9f70ba54007d3908cbf7876f01edb0c843403c23adda3d710af"
+        },
+        "check.py": {
+          "sha256": "0a36ccb2a3b95e4823b6376cc060c587ac6af27fc35ba994764f6ab22713b06f"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "hvfhv-native-fold-duration-constraints",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{HVFHV}",
+        "{NY_TZ}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "ADMISSION.json": {
+          "sha256": "c3e96298a0a21ff145988a0f24a7b9b53506af3c959bcb5174f25fac76a5ad1c"
+        },
+        "EVIDENCE.json": {
+          "sha256": "ac2bc489d9c4d7cbd45337432b34b272b76ba81a0962d9e1343bf41619ff3200"
+        },
+        "PLAN.md": {
+          "sha256": "cd8224d05d7fd78948dc3fb3040314d42437def1fd3f2da595b48171b43bd00e"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "1d5f381860141f658535e8343c59dc73b08c43ac742108a15decd25027331649"
+        },
+        "README.md": {
+          "sha256": "5dfeaff9dd7b40bf293d236d9fe3140bb6bbfe0ffce62596e717b057b4ca637a"
+        },
+        "RESULT.json": {
+          "sha256": "a50e2f70423c52991cee02c7ebdb8142ac169c4c29b339efa2a9883052a73be3"
+        },
+        "SHA256SUMS": {
+          "sha256": "85455bd7494e572b58b0b3f521163caf50b1f02fdd605dc878d74be0e5591d34"
+        },
+        "SOURCE.sha256": {
+          "sha256": "3d957754ad6d71498839b244df1867a1c062eafbac750c8cc0a0b9775155a141"
+        },
+        "check.py": {
+          "sha256": "802fdb407a7d1ef75ac6ba041084f19db7447f2a4cbd1d6c39c283178d68e1e9"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "hvfhv-native-three-event-order",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{HVFHV}",
+        "{NY_TZ}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "799428935aa46fb24a6f581c657046483df83f5f696c60a726bdd96574d89f30"
+        },
+        "PLAN.md": {
+          "sha256": "cfbdbf9b875c5f7827f20e44054ba1c1f21c9b3893e2ebd3115a26571346a46f"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "3da35a031c6468bf42ad1bab469cee374f247696c26fe5ea5261c0626a4c975a"
+        },
+        "README.md": {
+          "sha256": "3b98c8c11c521865b21b39b05cf85ae2fe6b5ef33ff085b9c15ddeaa70d688dd"
+        },
+        "RESULT.json": {
+          "sha256": "b2183de9eb68d29a5c8edf7d697b63912fd1a8a74241285c2be8c27a409df461"
+        },
+        "SHA256SUMS": {
+          "sha256": "500f485308ab7e167c31080a3e1dedf0efc1dfc32dc389d4b408742c35712d94"
+        },
+        "check.py": {
+          "sha256": "a53eccb13a3a1b01b02a279399b6b419afecc769832ef34788309008b20342b7"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "polars-cent-contract-scale",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULTS.json",
+      "args": [
+        "{SF10_DB}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "1b4dfed534ac09be97e2ab3fb85a3e21d1a2a489a2b07e9d8f27ebdb2fee2412"
+        },
+        "PLAN.txt": {
+          "sha256": "5595bea28a5375d01a61cae8fc7dff8ebbbf080ce831011769335c3791335df5"
+        },
+        "PREEXECUTION-ORIGINAL.sha256": {
+          "sha256": "3333ec940391b27728e28300b50cbb7c87ddfff8272ef2adcfb32502677104f4"
+        },
+        "README.md": {
+          "sha256": "a293d0fe9458e223bd6402ca8da63ae37e47f9a8373605f4939bec2e439571d6"
+        },
+        "RESULTS.json": {
+          "sha256": "9bf46e0c58b667904f0a3abcb0ee2ae65fcd0d59e8e07ed9c90f75628175f1ed"
+        },
+        "SHA256SUMS": {
+          "sha256": "32e483b138fab5a341b61206b469b4400608b364875b8b186d7b676f005d2031"
+        },
+        "check.py": {
+          "sha256": "0741048c290798fd38378800bba2c452fced878c089a7b35a876de7cffa441a8"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "tpch-scoped-epoch-binding",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULTS.json",
+      "args": [
+        "{SF10_DB}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "b0a43b0dbdcb9e4692c4535c78dd97a43d7f872cfdf15b34abfdfbfa400b2453"
+        },
+        "PLAN.txt": {
+          "sha256": "6b5885458e0180864719717aaaf2e58e33185aefb28042b153ac89921682e9ac"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "e9e82694ca7a2294db15e94ac9aa4b5fb562b98c9e71d56f434ddecb1ee7420e"
+        },
+        "README.md": {
+          "sha256": "ab98fd64dab3dcaf5ece3df6ff3ac8e2b7bd02368443008622be4425f25aee2d"
+        },
+        "RESULTS.json": {
+          "sha256": "73cf60efcb1218b7a718211baa3c74ef0977b40848635bd19b5b1c34c198a3ad"
+        },
+        "SHA256SUMS": {
+          "sha256": "8c377411d79c82232c9e44269839968c193fdacd5999670713e413eff8f951f9"
+        },
+        "check.py": {
+          "sha256": "a49f0809a6fff2e0e7d3ca8880f00c2de354768418b4e94cfab5b8a57a025ed3"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "clickbench-native-footer-epoch-binding",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULTS.json",
+      "args": [
+        "{CLICK0}",
+        "{SCRATCH}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "9bf2ab71214f75378d1b316cbe0662a129b01ed771434f9a43eafac7493ef929"
+        },
+        "PLAN.txt": {
+          "sha256": "c7e17afc444ab50f0de401ad899aabd97001b6b00b54c26d66ae4e6a1fb42674"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "0fd65c3a2696da1e3717f85f864dacb3693791d3dbaa46d4a5c283c266edb560"
+        },
+        "README.md": {
+          "sha256": "82ecd83eb428345d02536b398d7682826f88247a543a49bceaf074a77a182c8c"
+        },
+        "RESULTS.json": {
+          "sha256": "f82783959b0bcec20e7cdcd5c4ed35780bd3df02c367835a730b4f01717823c1"
+        },
+        "SHA256SUMS": {
+          "sha256": "c6250b4bf9996cec144efbe61bca3c3b61c1cb31b17c1507d71b2940d5d53ea8"
+        },
+        "check.py": {
+          "sha256": "dbd8b09b6e1cbf01312cf016fb6c55c7bf6fe3013fb6143d33d3ff9b7c2de248"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "clickbench-native-id-cast-boundaries",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result-143.json",
+      "args": [
+        "{CLICK0}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "ARROW22"
+      ],
+      "blobs": {
+        "ADAPTER-RECEIPT.json": {
+          "sha256": "b3d29dec0385d537aa9a1d516dc7dca99311a3f01773319c985ee5dbabd56a9f"
+        },
+        "ADAPTER.sha256": {
+          "sha256": "b78c6050ee591c7a9873a047a69b98a7fb556df42c0c8116b1c3bdc324d89f16"
+        },
+        "EVIDENCE.json": {
+          "sha256": "d24752a046d53fc09fd71fab0009d1f494a9916e21ba0d0b46c3d938097c5a1b"
+        },
+        "PLAN.json": {
+          "sha256": "bc62e1ffb243922f6b27ba718f9aa2c7ab342123af1f85427862fad0f0272459"
+        },
+        "PRE.sha256": {
+          "sha256": "66b9d5eab5cb11209832465cd4b1aa6c80e0134c759b3c8d526ef5a75fc89839"
+        },
+        "README.md": {
+          "sha256": "ca14e263c78c22f50e9b725a2898050b718c6dbb4d1e1a0fb6cf46c38fba41eb"
+        },
+        "SHA256SUMS": {
+          "sha256": "bc4147c77d9bfd4644b3bb463fd44242de7accca6162bed7c693a2b70c100366"
+        },
+        "check.py": {
+          "sha256": "2311f5b3598eb740cb24e2b44607367f6e81b46f9398fd25091f61889ccbef36"
+        },
+        "result-143.json": {
+          "sha256": "6c6c7ee64bb71e7ffe9c60d160a0a9c9db0c352f9306db30fcace1e3d37e9311"
+        },
+        "result-201.json": {
+          "sha256": "bcbcc510fbf4d3e9b771e2646e4a4502bbb42c873d04e47e6a0037a67fb9a85e"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "clickbench-two-partition-projected-queries",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{CLICK_DIR}",
+        "{CLICK_CAPTURE}",
+        "{CLICK_SQL}",
+        "{CLICK0}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "DATASET-FOOTERS.json": {
+          "sha256": "e526f4627eb72982e828acea3995fbd4b62fdadda4b75269caa0f79b91644800"
+        },
+        "EVIDENCE.json": {
+          "sha256": "3d76f9e9d7c13103c4fc0094815acd4e14cca782be0b61d5d6aff76877567bd0"
+        },
+        "PART1.json": {
+          "sha256": "4ae728332374ea1a40107d5b11848169a75e331900fba916cfa0aabd6daeaea6"
+        },
+        "README.md": {
+          "sha256": "dc214ee1b34fad8a1190d30b7ff3d68fd2c6291b96d5eedb597451885799ccbe"
+        },
+        "RESULT.json": {
+          "sha256": "c0ac800bb1c9c5bff4d0e42154a61833f026f8b0481985d991da6de9d9431c26"
+        },
+        "SHA256SUMS": {
+          "sha256": "fa86f4bc7bf1a3b689197f2a4bdb079a4178766f43e7ee123eae85809170c943"
+        },
+        "capture.py": {
+          "sha256": "34887fe392a499d529c01fbbdd691a2393e30ae616595d53023b4c93a36ff592"
+        },
+        "check.py": {
+          "sha256": "86d14c8ec6abbc011685b0f21180c3502494a653a286df46f7e335fb5886cc38"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    },
+    {
+      "case_id": "publisher-cutoff-observability",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{H2O_GROUP}",
+        "{CLICK0}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "453176d0abdcacf4de9b9534b15d5314a89b37a347651d149872442191899334"
+        },
+        "README.md": {
+          "sha256": "4285d85cc9a8d132fdc221e34e520f9a0cd9884bcd421ff30443c9c7ce0498d3"
+        },
+        "RESULT.json": {
+          "sha256": "eddfaabd7ec95794aa8254d92574d5f2c61bbf078a63e4880627c3f3e62b1ee9"
+        },
+        "SHA256SUMS": {
+          "sha256": "40f5034b043e937689f6ead42059097d4de56b9d374218cfbadf17713348ae20"
+        },
+        "check.py": {
+          "sha256": "3738cbaa5fad7d9d7641dc364d0e206a16bd3b66542528defef7b7a57dd33193"
+        }
+      },
+      "extension": 8,
+      "timeout": 140
+    }
+  ]
+}

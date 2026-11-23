@@ -1,0 +1,7 @@
+case_id	status	note
+tpch-q11-all-nation-scale-binding	PASS_not_counted	Independent exact execution succeeded, retained as audit reserve rather than enlarging this capped tranche.
+h2o-native-null-policy-join	PASS_not_counted	Independent exact execution succeeded, retained as audit reserve rather than enlarging this capped tranche.
+clickbench-native-id-cast-boundaries	PASS	Initial run used Arrow 26.0.1; corrected pre-existing Arrow 22.0.0 binding matched frozen DuckDB 1.4.3 receipt.
+publisher-cutoff-observability	PASS	Initial run used DuckDB 1.4.3; corrected pre-existing 2.0.1 binding matched frozen receipt.
+polars-fare-scale	excluded	Near-duplicate implementation and same data domain as the archived polars-cent-contract-scale package; not counted.
+clickbench-joint-count-sum-footer	excluded	Wrapper re-executes the two-partition package in this tranche; not counted as a separate observation here.

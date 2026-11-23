@@ -1,0 +1,887 @@
+{
+  "families": 8,
+  "observations": [
+    {
+      "candidate": [
+        [
+          "d0",
+          3,
+          13
+        ],
+        [
+          "d0",
+          7,
+          16
+        ],
+        [
+          "d1",
+          3,
+          11
+        ],
+        [
+          "d1",
+          7,
+          23
+        ]
+      ],
+      "family": "group-null-reassignment",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          "d0",
+          3,
+          13
+        ],
+        [
+          "d0",
+          7,
+          7
+        ],
+        [
+          "d1",
+          3,
+          11
+        ],
+        [
+          "d1",
+          7,
+          23
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "3.0.0"
+    },
+    {
+      "candidate": [
+        [
+          "d0",
+          3,
+          13
+        ],
+        [
+          "d0",
+          7,
+          7
+        ],
+        [
+          "d1",
+          3,
+          11
+        ],
+        [
+          "d1",
+          7,
+          23
+        ]
+      ],
+      "family": "group-null-reassignment",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          "d0",
+          3,
+          13
+        ],
+        [
+          "d0",
+          7,
+          7
+        ],
+        [
+          "d1",
+          3,
+          11
+        ],
+        [
+          "d1",
+          7,
+          23
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "3.1.1"
+    },
+    {
+      "candidate": [
+        [
+          "n0",
+          0
+        ],
+        [
+          "n1",
+          0
+        ]
+      ],
+      "family": "pivot-null-buckets",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          "n0",
+          13
+        ],
+        [
+          "n1",
+          17
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "1.39.3"
+    },
+    {
+      "candidate": [
+        [
+          "n0",
+          13
+        ],
+        [
+          "n1",
+          17
+        ]
+      ],
+      "family": "pivot-null-buckets",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          "n0",
+          13
+        ],
+        [
+          "n1",
+          17
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "1.40.0"
+    },
+    {
+      "candidate": [],
+      "family": "null-sort-topn",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "1.5.5"
+    },
+    {
+      "candidate": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "family": "null-sort-topn",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "2.0.1"
+    },
+    {
+      "candidate": [
+        [
+          10,
+          5
+        ],
+        [
+          20,
+          0
+        ]
+      ],
+      "family": "prepared-snapshot-count",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          10,
+          2
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "1.4.3"
+    },
+    {
+      "candidate": [
+        [
+          10,
+          2
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "family": "prepared-snapshot-count",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          10,
+          2
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "2.0.1"
+    },
+    {
+      "candidate": [
+        [
+          0,
+          9223372036854775808
+        ],
+        [
+          1,
+          9223372036854775808
+        ],
+        [
+          2,
+          9223372036854775808
+        ]
+      ],
+      "family": "uint64-mixed-input",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          0,
+          9223372036854775775
+        ],
+        [
+          1,
+          9223372036854775833
+        ],
+        [
+          2,
+          9223372036854775843
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "0.19.11"
+    },
+    {
+      "candidate": [
+        [
+          0,
+          9223372036854775775
+        ],
+        [
+          1,
+          9223372036854775833
+        ],
+        [
+          2,
+          9223372036854775843
+        ]
+      ],
+      "family": "uint64-mixed-input",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          0,
+          9223372036854775775
+        ],
+        [
+          1,
+          9223372036854775833
+        ],
+        [
+          2,
+          9223372036854775843
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "0.19.13"
+    },
+    {
+      "candidate": [
+        [
+          1643850300000000,
+          null
+        ]
+      ],
+      "family": "nested-timezone",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "physical_position",
+      "legal": false,
+      "reference": [
+        [
+          1643850300000000,
+          "Europe/Amsterdam"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "1.20.0"
+    },
+    {
+      "candidate": [
+        [
+          1643850300000000,
+          "Europe/Amsterdam"
+        ]
+      ],
+      "family": "nested-timezone",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "physical_position",
+      "legal": true,
+      "reference": [
+        [
+          1643850300000000,
+          "Europe/Amsterdam"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "1.22.0"
+    },
+    {
+      "candidate": [
+        [
+          1,
+          "a",
+          "2023-02-01 15:00:00"
+        ],
+        [
+          2,
+          "a",
+          "2023-02-05 15:00:00"
+        ],
+        [
+          1,
+          "b",
+          "2023-02-05 15:00:00"
+        ],
+        [
+          2,
+          "b",
+          "2023-02-01 15:00:00"
+        ]
+      ],
+      "family": "melt-timezone",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          1,
+          "a",
+          "2023-02-02 00:00:00+09:00"
+        ],
+        [
+          2,
+          "a",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          1,
+          "b",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          2,
+          "b",
+          "2023-02-02 00:00:00+09:00"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "2.1.1"
+    },
+    {
+      "candidate": [
+        [
+          1,
+          "a",
+          "2023-02-02 00:00:00+09:00"
+        ],
+        [
+          2,
+          "a",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          1,
+          "b",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          2,
+          "b",
+          "2023-02-02 00:00:00+09:00"
+        ]
+      ],
+      "family": "melt-timezone",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          1,
+          "a",
+          "2023-02-02 00:00:00+09:00"
+        ],
+        [
+          2,
+          "a",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          1,
+          "b",
+          "2023-02-06 00:00:00+09:00"
+        ],
+        [
+          2,
+          "b",
+          "2023-02-02 00:00:00+09:00"
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "2.2.0"
+    },
+    {
+      "candidate": [
+        [
+          "cedar",
+          true,
+          false
+        ],
+        [
+          "fir",
+          false,
+          false
+        ],
+        [
+          "pine",
+          false,
+          false
+        ]
+      ],
+      "family": "categorical-membership-logical-equality",
+      "generic": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": false,
+      "reference": [
+        [
+          "cedar",
+          true,
+          false
+        ],
+        [
+          "fir",
+          true,
+          false
+        ],
+        [
+          "pine",
+          true,
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": false,
+        "pandas_check_like": false,
+        "pandas_default": false,
+        "pandas_dtype_relaxed": false,
+        "polars_default": false,
+        "polars_ignore_order": false
+      },
+      "version": "0.20.3"
+    },
+    {
+      "candidate": [
+        [
+          "cedar",
+          true,
+          false
+        ],
+        [
+          "fir",
+          true,
+          false
+        ],
+        [
+          "pine",
+          true,
+          false
+        ]
+      ],
+      "family": "categorical-membership-logical-equality",
+      "generic": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "key_mode": "declared_natural",
+      "legal": true,
+      "reference": [
+        [
+          "cedar",
+          true,
+          false
+        ],
+        [
+          "fir",
+          true,
+          false
+        ],
+        [
+          "pine",
+          true,
+          false
+        ]
+      ],
+      "tool_errors_or_na": {},
+      "tool_verdicts": {
+        "datacompy_keyed": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "polars_default": true,
+        "polars_ignore_order": true
+      },
+      "version": "0.20.4"
+    }
+  ],
+  "source_sha256": {
+    "e9-native-f2-roster-topn-null/1.5.5.raw": "2d0baec4d2c361a6273c8aaae8c30d6c38bb9bcb468b1c48ec78f0b211004021",
+    "e9-native-f2-roster-topn-null/2.0.1.raw": "2a02d9242e8d0b64c4a85fd62b8b86d0f1203c55184a9f8496e96c6b645abe5a",
+    "e9-native-f3-prepared-snapshot/RESULT.json": "64c24bc33fd002db689ba8ae7c58d836b8a38c83c3a29c02b0b942a30cb7575f",
+    "e9-native-historical-f1-f8-controls/RESULT.json": "420648f16624a6a31dc32a6a382563929a1b0a8addf97aeecbaca6f90896320b",
+    "e9-native-o4-categorical-logical-equality/0.20.3.json": "1d6d9aa314739e0f9ebd8392e2d492a844cf8d9cce10892fd9c2d91bb838a82a",
+    "e9-native-o4-categorical-logical-equality/0.20.4.json": "45dbd9bae09eb9a83f32373368704bd22b9b0558bd46eab4eca6cd7ed998f7fb",
+    "e9-native-ordinary-correctness-release-controls/RESULT.json": "1017e76dc1042036e005956cd6fae47fe22c17b6d40990a7ada442c9829de0b4"
+  },
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  }
+}

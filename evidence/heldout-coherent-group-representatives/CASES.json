@@ -1,0 +1,839 @@
+[
+  {
+    "id": "F001",
+    "source": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "x",
+        "rid": null,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      }
+    ]
+  },
+  {
+    "id": "F002",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": null,
+        "s": -4,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F003",
+    "source": [
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ],
+    "candidate": []
+  },
+  {
+    "id": "F004",
+    "source": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 25,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F005",
+    "source": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": null,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": 0
+      }
+    ]
+  },
+  {
+    "id": "F006",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 25,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 25,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F007",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F008",
+    "source": [
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ]
+  },
+  {
+    "id": "F009",
+    "source": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      }
+    ]
+  },
+  {
+    "id": "F010",
+    "source": [
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 3,
+        "s": null,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      }
+    ]
+  },
+  {
+    "id": "F011",
+    "source": [
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 3,
+        "s": null,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 3,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      }
+    ]
+  },
+  {
+    "id": "F012",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": null,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F013",
+    "source": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": 78,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ]
+  },
+  {
+    "id": "F014",
+    "source": [],
+    "candidate": []
+  },
+  {
+    "id": "F015",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 0,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ]
+  },
+  {
+    "id": "F016",
+    "source": [
+      {
+        "g": "x",
+        "rid": 3,
+        "s": null,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": null,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F017",
+    "source": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F018",
+    "source": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      }
+    ]
+  },
+  {
+    "id": "F019",
+    "source": [
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "nil",
+        "rid": null,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ]
+  },
+  {
+    "id": "F020",
+    "source": [
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      },
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 25,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": null,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F021",
+    "source": [
+      {
+        "g": "x",
+        "rid": 9,
+        "s": -4,
+        "d": 3,
+        "p": null,
+        "t": 2
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": null,
+        "s": -4,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F022",
+    "source": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "x",
+        "rid": 17,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "q",
+        "rid": 0,
+        "s": 3,
+        "d": null,
+        "p": null,
+        "t": null
+      },
+      {
+        "g": "X",
+        "rid": null,
+        "s": -4,
+        "d": null,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F023",
+    "source": [
+      {
+        "g": "x",
+        "rid": 51,
+        "s": 0,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ],
+    "candidate": [
+      {
+        "g": "x",
+        "rid": null,
+        "s": -4,
+        "d": 3,
+        "p": 8,
+        "t": 6
+      }
+    ]
+  },
+  {
+    "id": "F024",
+    "source": [
+      {
+        "g": "",
+        "rid": 4,
+        "s": 0,
+        "d": 0,
+        "p": null,
+        "t": 0
+      },
+      {
+        "g": "nil",
+        "rid": -2,
+        "s": null,
+        "d": null,
+        "p": 0,
+        "t": null
+      }
+    ],
+    "candidate": [
+      {
+        "g": "",
+        "rid": null,
+        "s": 0,
+        "d": 0,
+        "p": null,
+        "t": 0
+      }
+    ]
+  }
+]

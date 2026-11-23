@@ -1,0 +1,10 @@
+{
+ "source_repository":"https://github.com/cwida/tpcds-result-reproduction.git",
+ "source_commit":"61ba82e7f6868760dcfbfa4347fe06cfd67a798f",
+ "source_file":"roundingdiff.py",
+ "source_sha256":"65171e4a8a54b5330fba5c97c4d705f34410c62748d9180cb2e161b628a7540f",
+ "q39_reference_sha256":"d6a19c750e963e1b8847ed329596cc5643f95ff84600c70c1c75b0eeb5beacc9",
+ "tests":["actual one versus four threads both directions","coherent +1 exact item key mutation in first row, same shape","negative check: double nonzero approximate value in first row, same shape"],
+ "contract":"exact ordered integer warehouse/item identifiers; approximate fields within conservative 2 ULP in original physical run; rejected key mutation; exact independent Fraction key eligibility kept in first packet",
+ "routing":"Count native tool stdout class, and verify inverted file-mode exit semantics. Do not modify the upstream source or present numerical drift as a new mechanism."
+}

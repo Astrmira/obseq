@@ -1,0 +1,557 @@
+{
+  "polars_version": "1.35.2",
+  "totals": {
+    "valid": 24
+  },
+  "rows": [
+    {
+      "case_id": "E7H-O3-topk-01",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "a"
+        ],
+        [
+          "d"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "a",
+          "d",
+          "c"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-topk-02",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "z"
+        ],
+        [
+          "b"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "z",
+          "b"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-topk-03",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-topk-04",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "j"
+        ],
+        [
+          "k"
+        ],
+        [
+          "l"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "j",
+          "k",
+          "l"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-topk-05",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "a"
+        ],
+        [
+          "c"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "a",
+          "c"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-topk-06",
+      "subtype": "top-k tie",
+      "native_rows": [
+        [
+          "s"
+        ],
+        [
+          "r"
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "s",
+          "r"
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-01",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          1
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 1
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-02",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          3
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 3
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-03",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "x",
+          1
+        ],
+        [
+          "y",
+          2
+        ],
+        [
+          "z",
+          3
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "x": 1,
+          "y": 2,
+          "z": 3
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-04",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "q",
+          1
+        ],
+        [
+          "r",
+          2
+        ],
+        [
+          "s",
+          3
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "q": 1,
+          "r": 2,
+          "s": 3
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-05",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "i",
+          2
+        ],
+        [
+          "j",
+          3
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "i": 2,
+          "j": 3
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-row_number-06",
+      "subtype": "ROW_NUMBER tie",
+      "native_rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "c",
+          3
+        ],
+        [
+          "d",
+          4
+        ]
+      ],
+      "candidate": {
+        "numbers": {
+          "a": 1,
+          "b": 2,
+          "c": 3,
+          "d": 4
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-01",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "m",
+          2
+        ]
+      ],
+      "candidate": {
+        "vendor": "m",
+        "days": 2
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-02",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "A",
+          "U",
+          4
+        ],
+        [
+          "B",
+          "Z",
+          8
+        ]
+      ],
+      "candidate": {
+        "A": [
+          "U",
+          4
+        ],
+        "B": [
+          "Z",
+          8
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-03",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "j",
+          "k"
+        ]
+      ],
+      "candidate": {
+        "first": "j",
+        "last": "k"
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-04",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "p",
+          "q"
+        ]
+      ],
+      "candidate": {
+        "from": "p",
+        "to": "q"
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-05",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "a",
+          5
+        ],
+        [
+          "b",
+          5
+        ]
+      ],
+      "candidate": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "sum": 5
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-coupled-06",
+      "subtype": "coupled choices",
+      "native_rows": [
+        [
+          "ALoe",
+          "aloe"
+        ]
+      ],
+      "candidate": {
+        "raw": "ALoe",
+        "normalized": "aloe"
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-01",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          "TEAL",
+          2
+        ],
+        [
+          "gold",
+          1
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            "TEAL",
+            2
+          ],
+          [
+            "gold",
+            1
+          ]
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-02",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          "x ",
+          2
+        ],
+        [
+          "y",
+          1
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            "x ",
+            2
+          ],
+          [
+            "y",
+            1
+          ]
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-03",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          -3,
+          3
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            -3,
+            3
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-04",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          "P",
+          "Bee",
+          1
+        ],
+        [
+          "Q",
+          "BEE",
+          2
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            "P",
+            "Bee",
+            1
+          ],
+          [
+            "Q",
+            "BEE",
+            2
+          ]
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-05",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          "sKy",
+          3
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            "sKy",
+            3
+          ]
+        ]
+      },
+      "status": "valid"
+    },
+    {
+      "case_id": "E7H-O3-group_repr-06",
+      "subtype": "GROUP BY representative",
+      "native_rows": [
+        [
+          null,
+          2
+        ],
+        [
+          "NULL",
+          1
+        ]
+      ],
+      "candidate": {
+        "groups": [
+          [
+            null,
+            2
+          ],
+          [
+            "NULL",
+            1
+          ]
+        ]
+      },
+      "status": "valid"
+    }
+  ]
+}

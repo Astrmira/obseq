@@ -1,0 +1,470 @@
+{
+  "cases": [
+    {
+      "case_id": "datacompy-key-occurrence-vs-bag",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{H2O_LEFT}"
+      ],
+      "python_path": [
+        "DUCK143",
+        "E5_DEPS",
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "df13055d75ca26e93038cd1d91da98fef68e0b66b1211292d06476cf62b735c6"
+        },
+        "README.md": {
+          "sha256": "91078ee2d0ffd7475d22362fbc160e10409be4642158a325c1a8e641dd85a8bf"
+        },
+        "RESULT.json": {
+          "sha256": "9e6602924c4f27b02c7d338daa0b5a0af2d17bbf0b7e7479c4e48ab51d4b1658"
+        },
+        "SHA256SUMS": {
+          "sha256": "dfd83051bd1fad110b9696dea43d542fdb01bc9d119ef73bbb10a7fe9918d818"
+        },
+        "run.py": {
+          "sha256": "1d2154250ca0a9f82512d7804777272acf7266e77802e08b3bcac53b7bd72728"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "gx-compound-collation-scope",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{H2O_DIR}",
+        "{GX_ROOT}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "2042e8c1de0e50484e6ec6a7205a16bade6135bd87014a03305ba4b153201c66"
+        },
+        "GX-ARTIFACT.json": {
+          "sha256": "23a079a5b9cbaf15572e715e6268c3d524356350075558981fe64c0fe0137f00"
+        },
+        "README.md": {
+          "sha256": "5b0953c25d6cc7eeb86b557f99770a7a222ec43f5dda6ef97a19e9a33e8183f7"
+        },
+        "RESULT.json": {
+          "sha256": "ef9260200a5d1f68af7209d432cfc730a39a2e96bfd8e6dce75bf59cd35e71a4"
+        },
+        "SHA256SUMS": {
+          "sha256": "af2f912b966147a82dd61f7cf7edf307e073d909e45acc6c703a9a52523f1a59"
+        },
+        "check.py": {
+          "sha256": "df17eb9690c25764a89a0fbe3efd4f8dacf9e96e2249c93aaf101685295d4cdd"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "specbridge-tolerant-peer-permutation",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [
+        "{STOCK_GRADE}",
+        "{E23_RESULTS}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "a1c863f63fe3d603b4e01b34633a20dc19f9656a2dc7d196d1c0bd9804b89712"
+        },
+        "PLAN.json": {
+          "sha256": "95a7cc082daebdee9499444e1cc05c7f147cfd13a8bbb2d616c855f016428667"
+        },
+        "PLAN.sha256": {
+          "sha256": "d6142db5bcc529b5450e8f11d0908d8ff6def2d82fdbc332d80846ad0cba0bae"
+        },
+        "README.md": {
+          "sha256": "a387c7c5165de0eddfcb49903326a528b378a37b3129717fc9060ff443e06243"
+        },
+        "SHA256SUMS": {
+          "sha256": "73ca5150443c860d0f80e4173f54e0288f180810ef21e4aef126768134cfa04b"
+        },
+        "cases.csv": {
+          "sha256": "e630de86cc52455184716047dbd4b3a1e2726f167229a00a34dec6d4bd14b274"
+        },
+        "check.py": {
+          "sha256": "f090a54e79034c1421cbb4f0423efacf451bee7aaa165fcd6a6932f23d22ba3f"
+        },
+        "result.json": {
+          "sha256": "afd95233db050206c293848a6eab71600acfcd736320e200e76d57ce65352973"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "stock-null-stage-attribution",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [
+        "{CWI_COMPARE}",
+        "{E4_DEPS}",
+        "{DUCK142}",
+        "{DUCK143}",
+        "{E4_DEPS}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "556c938a0fca406981fc1604d739a93850625c0f348d5b01f828a1b31e8785fa"
+        },
+        "PLAN.json": {
+          "sha256": "cbfde068947a0672a1293fffe0b6abdc2875947d34abfef9b862cce3b40b2bca"
+        },
+        "PLAN.sha256": {
+          "sha256": "47401d2dcc24c66f297994615b0f25c64a3932c30d48be5944b33ec8a2478851"
+        },
+        "README.md": {
+          "sha256": "178ebc929f7ce8d4d62125bdc07d677b46dc827974745b9622cd166067505667"
+        },
+        "SHA256SUMS": {
+          "sha256": "d8f96564cc511a4387f14d62ede5c7ee5807186269acf0ae51db604bc38b80c5"
+        },
+        "check.py": {
+          "sha256": "236ebfb729a4fb054d5327193674f682a55ab7a4a08beb2db0acaae3ee74c514"
+        },
+        "duck.py": {
+          "sha256": "dc2052a9c92d7d5f7063933d2b71ad63585b1ff77b69e83ce9e0a804ad34ec7b"
+        },
+        "result.json": {
+          "sha256": "75eaed1fbbd3e52ac163aa5cfc2c43b1590f33c3972eedf9a823f259a2298999"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "stock-gx-typed-token-anchors",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [
+        "{GX_ROOT}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "a7f52dc78e28960e7cad2f6676ae9d5a87d7f90a29693d64097a92bed2015591"
+        },
+        "PLAN.json": {
+          "sha256": "5aeae7074d7f9f7cb15c6738b6b41cea91c27b10a4fd87ec7802f539acb93f90"
+        },
+        "PLAN.sha256": {
+          "sha256": "8900d34ae6b190e42d21fe8755c8c59688b3cc06212f096f315f71987164e9ec"
+        },
+        "PUBLICATION-FILES.txt": {
+          "sha256": "462060c9975cee4c4014ec13fcde14498272d970d31ce659a2c31884f5a1b73c"
+        },
+        "README.md": {
+          "sha256": "314dd94a6f1f376cb606862a9195d0965560a5b7d1c1a82fd5ce3074fe35810d"
+        },
+        "SHA256SUMS": {
+          "sha256": "e5a484bd86b9500c931aae8ec45779efc60f422946c767f63a7b87575d6493ff"
+        },
+        "artifact.json": {
+          "sha256": "23a079a5b9cbaf15572e715e6268c3d524356350075558981fe64c0fe0137f00"
+        },
+        "check.py": {
+          "sha256": "66a0047056a12a86e473647343e9972601e0a4e69ac1d4786137e3fa72c9793f"
+        },
+        "requirements.txt": {
+          "sha256": "db074eb13180b1f5520ab0c8adf8d74ce55dbdba079bdf7c3cb0b51a69a479ca"
+        },
+        "result.json": {
+          "sha256": "333b8ae74c9c60baad22a7837fcc3c525c5f694fa2a02cf1c73f402f738e2ba1"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "stock-deequ-common-keyed",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{DEEQU_ROOT}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "CASES.json": {
+          "sha256": "b7421e79d5488b7faa9dee89c606750e9471cebc687852ba7534872a3059fa0b"
+        },
+        "DeequControl.scala": {
+          "sha256": "0e99c7deab4f830ab7e087f16f2a9ee3f9f812ef5337b191c33c860bb5858fd6"
+        },
+        "EVIDENCE.json": {
+          "sha256": "f6011048059099699d4bfc75b198a81531aebdbd81bbd55688648563717863d5"
+        },
+        "README.md": {
+          "sha256": "71e8bba70f71a3ecda6f5f53d2c51dbabbce5be6089885ac5748a99aa0ba0c31"
+        },
+        "RESULT.json": {
+          "sha256": "d99804b3aa7db3c1d37494a2aa4a0bd2a0ab63470a76c14a9fc7adf793b601d3"
+        },
+        "SEALED_LABELS.json": {
+          "sha256": "fe1f3be17999c0c4cc982d37ffe1b1a0288891331cd60721f8b2196ca5a0c96a"
+        },
+        "SHA256SUMS": {
+          "sha256": "7bbf45c4a6db6a78b396c7b3b93879b12e80be8264c1e9fc4509b45ff0fd3efe"
+        },
+        "run.py": {
+          "sha256": "72f140b3fca49908b8fc41fc7e741e8979358b95f80a20558c402a12a9be4298"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "stock-dvc-keyed-fingerprint-audit",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{KEYED_CASES}",
+        "{KEYED_LABELS}",
+        "{DVC_SITE}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "DEPENDENCY-LOCK.json": {
+          "sha256": "5c74a390fb17399609e824ba78e21eeee4ce09496399f522b36b8de8f2974abd"
+        },
+        "EVIDENCE.json": {
+          "sha256": "a79c8c3a658c42b109fdb20c5fe95fbbb4f0fdad021077721bd2797a6755f62e"
+        },
+        "PLAN.md": {
+          "sha256": "8fd269c378032da69e2b83d569521c06e459e6219f60b9baf441f83a3aa162f7"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "d16d97804d008e00782c385c425e363efb9112f05ffc6c5dc13c7021b1ecf457"
+        },
+        "README.md": {
+          "sha256": "9ba5c5f95dfe7d052a42fb19bcf1f39125f428144930f9e0ef58958c487b5e13"
+        },
+        "RESULT.json": {
+          "sha256": "928564a4f7129f73b482f5fe607b90520a9d0780702d9fe78fd94af6ccecb159"
+        },
+        "SHA256SUMS": {
+          "sha256": "84489f711560a12beeb3cf18e88b378894e196f05d4b230c43714b9b8b5e2c89"
+        },
+        "check.py": {
+          "sha256": "8cdd8cfe0e4c47551fbc7d4c89cee985569f9df1fe25f6e0491a18342b848425"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "postgresql-native-derivation-epochs",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [
+        "{TLC}",
+        "{PG17_BIN}",
+        "{SCRATCH}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "e2fd7ec87aaaf7ded72ef96ef2ffe8fb33ef85843e5bbe29e5efd0ba5fe68d9e"
+        },
+        "PACKAGE.sha256": {
+          "sha256": "38fd1f35f785c343667f4a733007c1aa9c88f81c3c162730716cc01104954ddf"
+        },
+        "PLAN.json": {
+          "sha256": "37e2de513938a2a930b9b2000b95d2c1fdc14a0875de7e645372126ec6ae277a"
+        },
+        "PRE.sha256": {
+          "sha256": "fb7778ea136af03c462990daaff3b9ddc0f09413ad2aff06983877b1d5a39911"
+        },
+        "README.md": {
+          "sha256": "0cb1deeed0b6ecc43635ddb054f4f0ceb2ccb0573bb96d249596bb22f0040810"
+        },
+        "SECOND-CONTROL.txt": {
+          "sha256": "c4f1a1c24bb80800e85d13a38bece30f3e45f088d024a941eb5962cfd559986e"
+        },
+        "SECOND.sha256": {
+          "sha256": "5528a0c0fbd4633a0d19a701d1ac2339ac20f893f2f839e9c51f2fb4cbce0844"
+        },
+        "SHA256SUMS": {
+          "sha256": "ecb18d69b8c7b8bd8ac3cbf8980411a48ddffd43d789dca4ee37eb9e286cb3c0"
+        },
+        "SOURCE.sha256": {
+          "sha256": "c7c651a26d4e4c69066d4c4db8a0165d5ff58dc38c151a08778bb686bcddf7c5"
+        },
+        "check.py": {
+          "sha256": "bbfa6c82fc986171b696cdf249633dfebda497e14e432cca3791a6fad1fb7286"
+        },
+        "result-initial.json": {
+          "sha256": "9096dbff3e29aad99ce800c8a102e718c4f097396b57a4d8d4cd59fb5cdc0f27"
+        },
+        "result.json": {
+          "sha256": "29c61425573453f4887ab836b49e47b9974ea3e45a8d95296b7ac35526ec8d13"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "xlsx-native-style-type-drift",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "7427fe67d6648d4a37c08c2a21d69e420f3a310673559b8433fa470b2e55708b"
+        },
+        "PLAN.md": {
+          "sha256": "87221ca88436a6789167bbdf1c9c6fdee830a580961f5cc63f50a2266f320fa9"
+        },
+        "README.md": {
+          "sha256": "b62e956e7561b5ac5147694746208a31e3ea4aa994b46d65e140e5f54a97131a"
+        },
+        "SHA256SUMS": {
+          "sha256": "3062fea3786ad8dfb8dfde65d339de15faa0ff4436f2302f85225e26634751bf"
+        },
+        "result.json": {
+          "sha256": "1a6bb199ff9aa4225db394e89280a12c9d99556b945dfbce06c023084eb2e5f8"
+        },
+        "run.py": {
+          "sha256": "5483530f9c503773a18e8572eb9bbdced5649a1da2c1294178e7f04bacd84ca9"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "stock-gx-netcdf-source-support",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULTS.json",
+      "args": [
+        "{GOES}",
+        "{OISST2}"
+      ],
+      "python_path": [
+        "GX_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "0bb0bce1d3e68f5b1d8cd1a0b11169ff75e4e50774494c9e1ca239a7f1d8cc4c"
+        },
+        "PLAN.txt": {
+          "sha256": "c12363dabc6877ed3df6ec3169c4f24b21e1a90aec05b1316ac9c4a23f5a8323"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "0554e2659948da3428adb49183302a281b340eb1c9352aa597066096f926a585"
+        },
+        "README.md": {
+          "sha256": "539ad2c9443c51dded8b112ab4af8c7e36eaed7093d20461fb03b77fcf723028"
+        },
+        "RESULTS.json": {
+          "sha256": "9b2b2346237d41afdb091494fff27851b8ba441e38586bb5a74fd73014ad545e"
+        },
+        "SHA256SUMS": {
+          "sha256": "2346410b7bc9a9b8677cde34d8166d7523e0bf5c45e18fa8e3b9a307a0e34143"
+        },
+        "SOURCES.sha256": {
+          "sha256": "83952cc090a521f25d39203d511c6817dddc8b7c83331bd167a88349c532dd15"
+        },
+        "check.py": {
+          "sha256": "882b0815ca38c912351cf2353d619873692f4604b1680fab505413a554251a83"
+        },
+        "extract.py": {
+          "sha256": "590cdafbba47275678cc21e476926901f9ffb5a88687bdaba30206fb1bd47dfb"
+        }
+      },
+      "extension": 7,
+      "timeout": 165
+    },
+    {
+      "case_id": "polars-group-min-cross-version",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "verify.py",
+      "expected": "e5.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "6e0bb20d678e7f3ae6e5705cfda7c853cfb4e7830a1cd5363471bee2d6c8f48f"
+        },
+        "README.md": {
+          "sha256": "3bf3e5ef75035cf38946b38a0a7ab57cac898974ea610cbc95226edab084bca0"
+        },
+        "SHA256SUMS": {
+          "sha256": "37b608f1cdd9767988e3b0a4e75ecfe8db8bfe53f90c239d8afff85b23e4a650"
+        },
+        "UPSTREAM-PATCH.sha256": {
+          "sha256": "6c7922195a7a9a9308b3ae9a8bcd05d7df8065b3b2ba518918b7a04f57cb17a4"
+        },
+        "check.py": {
+          "sha256": "64da3b457e0811b29b71da9a292d7fefdcc26aff34039102202332d9ea902713"
+        },
+        "e1.json": {
+          "sha256": "f0c60f529dbff447618660eced8560aeb42777f3eab253ea4065cdf3e18338f4"
+        },
+        "e4.json": {
+          "sha256": "f54b1de8597836ae9e8b7dedf1018a7894b3d421b2177ccebb230685b11d13c2"
+        },
+        "e5.json": {
+          "sha256": "edef39e5ab215c344ea614babf41a693de5293fc4b5b590cec64b830a3291c39"
+        },
+        "verify.py": {
+          "sha256": "e2df46c145192ec9063910e5595047947b689cd358711375c296eb66975b933c"
+        }
+      },
+      "extension": 7,
+      "timeout": 165,
+      "arms": [
+        {
+          "site": "E5_DEPS",
+          "entry": "verify.py",
+          "expected": "e5.json"
+        },
+        {
+          "site": "E1_MORE",
+          "entry": "verify.py",
+          "expected": "e1.json"
+        },
+        {
+          "site": "E4_DEPS",
+          "entry": "verify.py",
+          "expected": "e4.json"
+        }
+      ]
+    }
+  ]
+}

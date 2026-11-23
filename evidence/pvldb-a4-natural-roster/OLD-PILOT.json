@@ -1,0 +1,6055 @@
+{
+  "arm": "old",
+  "numpy": "2.5.5",
+  "pandas": "2.2.3",
+  "rows": [
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": false,
+      "mode": "positional_frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "shallow": false
+    },
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": false,
+      "mode": "positional_array",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "shallow": false
+    },
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": true,
+      "mode": "labelled_frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "shallow": false
+    },
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": false,
+      "mode": "positional_frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "shallow": true
+    },
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": false,
+      "mode": "positional_array",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "shallow": true
+    },
+    {
+      "family": "pandas-reversed-positional-write",
+      "legal": true,
+      "mode": "labelled_frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      },
+      "shallow": true
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048569
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048569
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048569
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048569,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048569,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048569,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048569
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048569
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048569
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048569,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048569,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048569,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048569,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048575
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048575
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048575
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048575,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048575,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048575,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048575
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048575
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048575
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048575,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048575,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048575,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048575,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048576,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048576,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048576,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048576,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048577
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048577
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048577
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048577,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048577,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048577,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048577
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048577
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048577
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048577,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048577,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048577,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048577,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048583
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048583
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        0,
+        1048583
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048583,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048583,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -1048576,
+        1048583,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048583
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048583
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -1048576,
+        1048583
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048583,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048583,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        1048583,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        -1048576,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        1048583,
+        0,
+        -1048576
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963961
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963961
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963961
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963961,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963961,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963961,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963961
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963961
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963961
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963961,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963961,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963961,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963961,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963967
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963967
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963967
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963967,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963967,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963967,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963967
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963967
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963967
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963967,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963967,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963967,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963967,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963968,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963968,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963968,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963968,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963969
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963969
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963969
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963969,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963969,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963969,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963969
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963969
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963969
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963969,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963969,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963969,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963969,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963975
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963975
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        0,
+        36028797018963975
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963975,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963975,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -36028797018963968,
+        36028797018963975,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963975
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963975
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -36028797018963968,
+        36028797018963975
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963975,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963975,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        36028797018963975,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        -36028797018963968,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        -36028797018963968,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        0,
+        -36028797018963968
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        36028797018963975,
+        0,
+        -36028797018963968
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693945
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693945
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693945
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693945,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693945,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693945,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693945
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693945
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693945
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693945,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693945,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693945,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693945,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693951
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693951
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693951
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693951,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693951,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693951,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693951
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693951
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693951
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693951,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693951,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693951,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693951,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693952,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693952,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693952,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693952,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693953
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693953
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693953
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693953,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693953,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693953,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693953
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693953
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693953
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693953,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693953,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693953,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693953,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693959
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693959
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        0,
+        2305843009213693959
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693959,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693959,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        -2305843009213693952,
+        2305843009213693959,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693959
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693959
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        -2305843009213693952,
+        2305843009213693959
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693959,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693959,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        0,
+        2305843009213693959,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        -2305843009213693952,
+        0
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        -2305843009213693952,
+        0
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "series",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        0,
+        -2305843009213693952
+      ],
+      "legal": false,
+      "mode": "frame",
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "family": "pandas-timedelta-cancellation",
+      "input": [
+        2305843009213693959,
+        0,
+        -2305843009213693952
+      ],
+      "legal": true,
+      "mode": "group",
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "files_sha256": {
+    "README.md": "3bf3e5ef75035cf38946b38a0a7ab57cac898974ea610cbc95226edab084bca0",
+    "SHA256SUMS": "37b608f1cdd9767988e3b0a4e75ecfe8db8bfe53f90c239d8afff85b23e4a650",
+    "UPSTREAM-PATCH.sha256": "6c7922195a7a9a9308b3ae9a8bcd05d7df8065b3b2ba518918b7a04f57cb17a4",
+    "check.py": "64da3b457e0811b29b71da9a292d7fefdcc26aff34039102202332d9ea902713",
+    "e1.json": "f0c60f529dbff447618660eced8560aeb42777f3eab253ea4065cdf3e18338f4",
+    "e4.json": "f54b1de8597836ae9e8b7dedf1018a7894b3d421b2177ccebb230685b11d13c2",
+    "e5.json": "edef39e5ab215c344ea614babf41a693de5293fc4b5b590cec64b830a3291c39",
+    "verify.py": "e2df46c145192ec9063910e5595047947b689cd358711375c296eb66975b933c"
+  },
+  "predecessor": "c72a32c36983f8cb94423579334074cbab378f73",
+  "project": "semantic-benchmark"
+}

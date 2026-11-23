@@ -1,0 +1,10 @@
+# XLSX-to-GeoPackage: a missing formula cache is not a NULL write
+
+**Independent boundary contract.** For an authored spreadsheet patch, require source coverage by stable FID, and distinguish a specified CLEAR from a WRITE with an uncached formula. This benchmark labels the latter needs-value and keeps the old stored value, without pretending that evaluation or the requested write completed. An available cache is used here because the fixture supplies its exact authoritative value; dual reading alone cannot certify freshness in production. Preserve unrelated fields. At the writer boundary require successful status on each executable action and inspect raw persisted values by FID. The oracle independently specifies source actions and sink values, not merely agreement between readers.
+
+The XLSX has an authoritative cached formula (4), an explicit CLEAR, a physically present formula with no cache, and a literal zero beyond a stale dimension. The producer uses actual openpyxl streaming and emits stable IDs across the process boundary; the consumer uses actual GDAL GeoPackage SetFeature and closed-file SQLite readback. The default value-oriented adapter omits the outside-dimension zero and turns the uncached formula into CLEAR, both visible in the database. Resetting dimensions handles coverage but still clears a prior value incorrectly. Resetting dimensions and matching formula view to the cached-value view on this fixed fixture preserve the declared state and report needs-value for the uncached action.
+
+The useful conjunction is coverage + value provenance + operation intent, not simply “read more rows.” The sink's successful write acknowledgment for an erroneous CLEAR is not evidence of an end-to-end correct patch. This is one controlled composition with no claim about formula freshness, Excel recalculation, arbitrary status handling or transactional guarantees.
+
+Replay from this directory (shell pipefail):
+`python3 -IB producer.py | /usr/bin/python3 -IB check.py | cmp - result.json`.

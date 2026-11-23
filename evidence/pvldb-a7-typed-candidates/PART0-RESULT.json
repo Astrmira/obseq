@@ -1,0 +1,36 @@
+{
+  "duckdb": "1.4.3",
+  "exact_bag_changed": [
+    18,
+    19,
+    23,
+    31,
+    32,
+    33,
+    39,
+    40,
+    41
+  ],
+  "exact_order_changed": [
+    11,
+    18,
+    19,
+    23,
+    31,
+    32,
+    33,
+    36,
+    39,
+    40,
+    41
+  ],
+  "pyarrow": "22.0.0",
+  "scope": "publisher hits_0.parquet only",
+  "shard_sha256": "fa134fe101e68324e0de851146fda69624f5cbb707d387141d1c2a88a219a16d",
+  "source_rows": 1000000,
+  "stock_sql_sha256": "274ffe1c4f83baad2fc177bbb6773bbdab0db779faeb2970de8cc531292a5dc6",
+  "successful_queries_by_threads": {
+    "1": 43,
+    "8": 43
+  }
+}

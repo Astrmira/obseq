@@ -1,0 +1,8 @@
+{"schema":"join-derived-epoch/v1",
+ "comparison":"integer ordinary equality, null never matches",
+ "epoch":{"materialization":0,"runtime":1},
+ "eligible":"left active = 1",
+ "left":[[11,0,1],[12,1,1],[13,2,1],[14,7,1],[15,null,1],[16,1,0]],
+ "right":[[21,0],[22,0],[23,1],[24,1],[25,2],[26,2],[27,null]],
+ "payload":"all matching rows emit the same text",
+ "rule":"input 0..2 maps to (input+epoch)%3; other integers map to input+epoch; null maps to null"}

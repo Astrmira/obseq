@@ -1,0 +1,3 @@
+binary,INTEGER,1
+nocase_group,VARCHAR,1
+nocase_plain,INTEGER,1

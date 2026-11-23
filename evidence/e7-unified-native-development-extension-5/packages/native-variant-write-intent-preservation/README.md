@@ -1,0 +1,16 @@
+# EA&B: native Parquet VARIANT preserves sparse intent that a narrow projection discards
+
+The preceding flat-column study showed that forcing absent and explicit null into one ordinary SQL NULL loses write intent. An existing native alternative is enough to preserve it: Apache Parquet already defines distinct absent and Variant-null object states, including in [shredded fields](https://parquet.apache.org/docs/file-format/types/variantshredding/#objects). We tested the [stock DuckDB 2.0 VARIANT and SHREDDING machinery](https://duckdb.org/docs/2.0/sql/data_types/variant), not a replacement binary format.
+
+## Independently observed stages
+
+1. Reuse the 20 existing choices of three clears among six keys. Extend each by three SET controls: JSON string "null", numeric zero, and JSON string "0". An authored operation oracle expects absent → KEEP (41), present JSON null → CLEAR (SQL NULL), present value → SET as the same JSON value. Native json_exists/json_type on the original JSON agrees for all rows.
+2. DuckDB 2.0.1 writes the original VARIANT column to Parquet with default options and separate explicit INTEGER and explicit VARCHAR shredding. Native metadata reports the VARIANT type and both typed/untyped children for the explicit cases. All 20 distinct operation patterns remain distinct files for each mode. The whole-object reconstruction to JSON preserves field existence, JSON kind, and the exact scalar controls, and all 120 checks of native MERGE (20 patterns × 3 writers × default and disabled optimizer) match final state immutably. No Spark or foreign reader claim.
+3. The common direct nullable child path v.k, however, gives SQL NULL and the same VARIANT_NULL report for both absent and present-null keys on this runtime. Materializing its direct scalar result as a new Parquet file makes **all 60 flat files byte-identical**. A native skip-null MERGE then misses all three clears in every pattern even though the original Parquet file retained the necessary information. Native subtype names for JSON number zero are recorded, not required to match the pre-file VARIANT's integer subtype. This is a contract-level problem with the chosen result projection, not data loss in the original file or a DuckDB defect claim. Default versus globally disabled optimizer gives the same observation on these controls, not a guarantee for arbitrary pushdown, other casts or releases.
+
+Different effects still require different contracts. The same explicit JSON null removes an object key when passed to stock DuckDB json_merge_patch under [RFC 7396](https://datatracker.ietf.org/doc/html/rfc7396), but clears a relational cell to SQL NULL under the above policy; skip-null keeps the cell. This contrast is observed in native SQL, not inferred from the wire type. If whole-object reconstruction is too expensive, carry the relevant presence fact with the value at the first projection; this study does not benchmark either path.
+
+Inputs are authored minimal patches, not prevalence or engine security claims. All operations are in isolated scratch. Reproduce with a pinned local DuckDB 2.0.1 site and an empty writable scratch location:
+
+    python3 -IB check.py DUCKDB_SITE SCRATCH_PATH | cmp - result.json
+    sha256sum -c SHA256SUMS

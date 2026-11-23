@@ -1,0 +1,24 @@
+{
+  "schema": "scoped-replay/v1",
+  "artifact": {
+    "format": "SQLite",
+    "identity": "canonical ordered raw input rows",
+    "columns": ["id", "group", "base", "sensitivity", "eligible"],
+    "rows": [[10,0,10,1,1],[11,0,10,1,1],[12,0,8,0,1],[13,0,100,1,0],
+             [20,1,10,0,1],[21,1,9,2,1],[22,1,9,2,1],[23,1,7,0,1]]
+  },
+  "derivation": {
+    "logical_name": "rank_score/2",
+    "materialization_epoch": 0,
+    "required_runtime_epoch": 1,
+    "rule": "base + epoch * sensitivity",
+    "freshness_scope": "all eligible score fields"
+  },
+  "output": {
+    "type": "allowed_top_k",
+    "quota_by_group": {"0":1,"1":1},
+    "eligible": "eligible = 1",
+    "identity": "stable unique input ID",
+    "tie_breaker": null
+  }
+}

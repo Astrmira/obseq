@@ -1,0 +1,37 @@
+{
+  "admitted_generator": true,
+  "exit": 0,
+  "files": {
+    "J1_1e7_1e1_5_0.csv": {
+      "expected": "id1,id4,v2",
+      "expected_rows": 10,
+      "header": "id1,id4,v2",
+      "rows": 10,
+      "sha256": "035dd56bbe5a599248fa069566887d92d6998ed7c1f9a2a8822e8773edadcd82"
+    },
+    "J1_1e7_1e4_5_0.csv": {
+      "expected": "id1,id2,id4,id5,v2",
+      "expected_rows": 10000,
+      "header": "id1,id2,id4,id5,v2",
+      "rows": 10000,
+      "sha256": "f2e8ce2fd70647d1930a6401b3ca4786f361f85b7456ff7ddcee90a5e721fce1"
+    },
+    "J1_1e7_1e7_5_0.csv": {
+      "expected": "id1,id2,id3,id4,id5,id6,v2",
+      "expected_rows": 10000000,
+      "header": "id1,id2,id3,id4,id5,id6,v2",
+      "rows": 10000000,
+      "sha256": "6ee50b2d93e75ee813e03b33d05aca75395a2d708abd4530ab3d285bdcd95fef"
+    },
+    "J1_1e7_NA_5_0.csv": {
+      "expected": "id1,id2,id3,id4,id5,id6,v1",
+      "expected_rows": 10000000,
+      "header": "id1,id2,id3,id4,id5,id6,v1",
+      "rows": 10000000,
+      "sha256": "29205553b85cee0eb36a52b0d16ed1a8067ba066ac28d7c2a995a5db371f7061"
+    }
+  },
+  "guard": null,
+  "sampled_output_bytes": 891233215,
+  "sampled_peak_rss": 1860997120
+}

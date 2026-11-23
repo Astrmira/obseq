@@ -1,0 +1,217 @@
+{
+  "complete-default": {
+    "join": {
+      "changed": [],
+      "extra": [
+        [
+          "eq",
+          1,
+          22
+        ],
+        [
+          "eq",
+          2,
+          21
+        ],
+        [
+          "null_safe",
+          1,
+          22
+        ],
+        [
+          "null_safe",
+          2,
+          21
+        ]
+      ],
+      "missing": []
+    },
+    "rows": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "complete-typed": {
+    "join": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "rows": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "injected-control-only": {
+    "join": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "rows": {
+      "changed": [
+        1
+      ],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "normalize-all-default": {
+    "join": {
+      "changed": [],
+      "extra": [
+        [
+          "eq",
+          2,
+          21
+        ],
+        [
+          "null_safe",
+          1,
+          23
+        ],
+        [
+          "null_safe",
+          2,
+          21
+        ]
+      ],
+      "missing": [
+        [
+          "eq",
+          1,
+          21
+        ],
+        [
+          "null_safe",
+          1,
+          21
+        ]
+      ]
+    },
+    "rows": {
+      "changed": [
+        1
+      ],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "normalize-all-typed": {
+    "join": {
+      "changed": [],
+      "extra": [
+        [
+          "null_safe",
+          1,
+          23
+        ]
+      ],
+      "missing": [
+        [
+          "eq",
+          1,
+          21
+        ],
+        [
+          "null_safe",
+          1,
+          21
+        ]
+      ]
+    },
+    "rows": {
+      "changed": [
+        1
+      ],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "sparse-default": {
+    "join": {
+      "changed": [],
+      "extra": [
+        [
+          "eq",
+          1,
+          22
+        ],
+        [
+          "eq",
+          2,
+          21
+        ],
+        [
+          "null_safe",
+          1,
+          22
+        ],
+        [
+          "null_safe",
+          2,
+          21
+        ]
+      ],
+      "missing": []
+    },
+    "rows": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [
+        4
+      ],
+      "extra": [],
+      "missing": []
+    }
+  },
+  "sparse-typed": {
+    "join": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "rows": {
+      "changed": [],
+      "extra": [],
+      "missing": []
+    },
+    "status": {
+      "changed": [
+        4
+      ],
+      "extra": [],
+      "missing": []
+    }
+  }
+}

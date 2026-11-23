@@ -1,0 +1,6921 @@
+{
+  "family_counts": {
+    "categorical-membership-logical-equality": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "copy-summary-bound": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "group-collation-type": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "group-null-reassignment": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "insert-decimal-export": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "melt-timezone": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "nested-sibling-null-explode": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "nested-timezone": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "null-sort-topn": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "nullable-cumulative-group-type": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "pandas-annual-boundaries": {
+      "true_accept": 6,
+      "true_reject": 6
+    },
+    "pandas-asof-string-boundary": {
+      "true_accept": 3,
+      "true_reject": 3
+    },
+    "pandas-groupby-snapshot": {
+      "true_accept": 7,
+      "true_reject": 1
+    },
+    "pandas-historical-rolling-moments": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "pandas-idempotent-partial-key-write": {
+      "true_accept": 5,
+      "true_reject": 1
+    },
+    "pandas-index-uniqueness-cache": {
+      "true_accept": 3,
+      "true_reject": 3
+    },
+    "pandas-reversed-positional-write": {
+      "true_accept": 8,
+      "true_reject": 4
+    },
+    "pandas-timedelta-cancellation": {
+      "true_accept": 444,
+      "true_reject": 96
+    },
+    "pivot-null-buckets": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "polars-cache-lineage": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "polars-categorical-series-topk": {
+      "true_accept": 28,
+      "true_reject": 20
+    },
+    "polars-grouped-coupled-representative": {
+      "true_accept": 236,
+      "true_reject": 52
+    },
+    "precision-ring-measure": {
+      "true_accept": 1,
+      "true_reject": 2
+    },
+    "prepared-snapshot-count": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "rolling-variance-cancellation": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "styler-index-representation": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "uint64-mixed-input": {
+      "true_accept": 1,
+      "true_reject": 1
+    },
+    "upsert-state-and-receipt": {
+      "true_accept": 1,
+      "true_reject": 2
+    },
+    "valid-segment-intersection": {
+      "true_accept": 1,
+      "true_reject": 1
+    }
+  },
+  "observations": [
+    {
+      "arm": "0.20.3",
+      "contract_accepts": false,
+      "family": "categorical-membership-logical-equality",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.20.4",
+      "contract_accepts": true,
+      "family": "categorical-membership-logical-equality",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.5.4",
+      "contract_accepts": false,
+      "family": "copy-summary-bound",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.5.5",
+      "contract_accepts": true,
+      "family": "copy-summary-bound",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.8.1",
+      "contract_accepts": false,
+      "family": "group-collation-type",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.9.1",
+      "contract_accepts": true,
+      "family": "group-collation-type",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "3.0.0",
+      "contract_accepts": false,
+      "family": "group-null-reassignment",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.1.1",
+      "contract_accepts": true,
+      "family": "group-null-reassignment",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.0.0",
+      "contract_accepts": false,
+      "family": "insert-decimal-export",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.1.0",
+      "contract_accepts": true,
+      "family": "insert-decimal-export",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "2.1.1",
+      "contract_accepts": false,
+      "family": "melt-timezone",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "2.2.0",
+      "contract_accepts": true,
+      "family": "melt-timezone",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.15.15",
+      "contract_accepts": false,
+      "family": "nested-sibling-null-explode",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "0.15.16",
+      "contract_accepts": true,
+      "family": "nested-sibling-null-explode",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.20.0",
+      "contract_accepts": false,
+      "family": "nested-timezone",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.22.0",
+      "contract_accepts": true,
+      "family": "nested-timezone",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.5.5",
+      "contract_accepts": false,
+      "family": "null-sort-topn",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.1",
+      "contract_accepts": true,
+      "family": "null-sort-topn",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.3",
+      "contract_accepts": false,
+      "family": "nullable-cumulative-group-type",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "3.1.0",
+      "contract_accepts": true,
+      "family": "nullable-cumulative-group-type",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "2.3.3:0",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:1",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:2",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:3",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:4",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:5",
+      "contract_accepts": false,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:0",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:1",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:2",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:3",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:4",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:5",
+      "contract_accepts": true,
+      "family": "pandas-annual-boundaries",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:0",
+      "contract_accepts": false,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:1",
+      "contract_accepts": false,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:2",
+      "contract_accepts": false,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:0",
+      "contract_accepts": true,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:1",
+      "contract_accepts": true,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0:2",
+      "contract_accepts": true,
+      "family": "pandas-asof-string-boundary",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:0",
+      "contract_accepts": false,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": false,
+      "oracle": "O1"
+    },
+    {
+      "arm": "2.3.3:1",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "2.3.3:2",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "2.3.3:3",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "3.0.0:0",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "3.0.0:1",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "3.0.0:2",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "3.0.0:3",
+      "contract_accepts": true,
+      "family": "pandas-groupby-snapshot",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "2.3.3",
+      "contract_accepts": false,
+      "family": "pandas-historical-rolling-moments",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.0.0",
+      "contract_accepts": true,
+      "family": "pandas-historical-rolling-moments",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.3.3:0",
+      "contract_accepts": true,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "2.3.3:1",
+      "contract_accepts": false,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "2.3.3:2",
+      "contract_accepts": true,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "3.0.0:0",
+      "contract_accepts": true,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "3.0.0:1",
+      "contract_accepts": true,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "3.0.0:2",
+      "contract_accepts": true,
+      "family": "pandas-idempotent-partial-key-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "2.3.3:0",
+      "contract_accepts": false,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": false,
+      "oracle": "O2"
+    },
+    {
+      "arm": "2.3.3:1",
+      "contract_accepts": false,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": false,
+      "oracle": "O2"
+    },
+    {
+      "arm": "2.3.3:2",
+      "contract_accepts": false,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": false,
+      "oracle": "O2"
+    },
+    {
+      "arm": "3.0.0:0",
+      "contract_accepts": true,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": true,
+      "oracle": "O2"
+    },
+    {
+      "arm": "3.0.0:1",
+      "contract_accepts": true,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": true,
+      "oracle": "O2"
+    },
+    {
+      "arm": "3.0.0:2",
+      "contract_accepts": true,
+      "family": "pandas-index-uniqueness-cache",
+      "historical_legal": true,
+      "oracle": "O2"
+    },
+    {
+      "arm": "new:0",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:1",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:2",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:3",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:4",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:5",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:0",
+      "contract_accepts": false,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:1",
+      "contract_accepts": false,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:2",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:3",
+      "contract_accepts": false,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:4",
+      "contract_accepts": false,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "old:5",
+      "contract_accepts": true,
+      "family": "pandas-reversed-positional-write",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "new:0",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:1",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:10",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:100",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:101",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:102",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:103",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:104",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:105",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:106",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:107",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:108",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:109",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:11",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:110",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:111",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:112",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:113",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:114",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:115",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:116",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:117",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:118",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:119",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:12",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:120",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:121",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:122",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:123",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:124",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:125",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:126",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:127",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:128",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:129",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:13",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:130",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:131",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:132",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:133",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:134",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:135",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:136",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:137",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:138",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:139",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:14",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:140",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:141",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:142",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:143",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:144",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:145",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:146",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:147",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:148",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:149",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:15",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:150",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:151",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:152",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:153",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:154",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:155",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:156",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:157",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:158",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:159",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:16",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:160",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:161",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:162",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:163",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:164",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:165",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:166",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:167",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:168",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:169",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:17",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:170",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:171",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:172",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:173",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:174",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:175",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:176",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:177",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:178",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:179",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:18",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:180",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:181",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:182",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:183",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:184",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:185",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:186",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:187",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:188",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:189",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:19",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:190",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:191",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:192",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:193",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:194",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:195",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:196",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:197",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:198",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:199",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:2",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:20",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:200",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:201",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:202",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:203",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:204",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:205",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:206",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:207",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:208",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:209",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:21",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:210",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:211",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:212",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:213",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:214",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:215",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:216",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:217",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:218",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:219",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:22",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:220",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:221",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:222",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:223",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:224",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:225",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:226",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:227",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:228",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:229",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:23",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:230",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:231",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:232",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:233",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:234",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:235",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:236",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:237",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:238",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:239",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:24",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:240",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:241",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:242",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:243",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:244",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:245",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:246",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:247",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:248",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:249",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:25",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:250",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:251",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:252",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:253",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:254",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:255",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:256",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:257",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:258",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:259",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:26",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:260",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:261",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:262",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:263",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:264",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:265",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:266",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:267",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:268",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:269",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:27",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:28",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:29",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:3",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:30",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:31",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:32",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:33",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:34",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:35",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:36",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:37",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:38",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:39",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:4",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:40",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:41",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:42",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:43",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:44",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:45",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:46",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:47",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:48",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:49",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:5",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:50",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:51",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:52",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:53",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:54",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:55",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:56",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:57",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:58",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:59",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:6",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:60",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:61",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:62",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:63",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:64",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:65",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:66",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:67",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:68",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:69",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:7",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:70",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:71",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:72",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:73",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:74",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:75",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:76",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:77",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:78",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:79",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:8",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:80",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:81",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:82",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:83",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:84",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:85",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:86",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:87",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:88",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:89",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:9",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:90",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:91",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:92",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:93",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:94",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:95",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:96",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:97",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:98",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "new:99",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:0",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:1",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:10",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:100",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:101",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:102",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:103",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:104",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:105",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:106",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:107",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:108",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:109",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:11",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:110",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:111",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:112",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:113",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:114",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:115",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:116",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:117",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:118",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:119",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:12",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:120",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:121",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:122",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:123",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:124",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:125",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:126",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:127",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:128",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:129",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:13",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:130",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:131",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:132",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:133",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:134",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:135",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:136",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:137",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:138",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:139",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:14",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:140",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:141",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:142",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:143",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:144",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:145",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:146",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:147",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:148",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:149",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:15",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:150",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:151",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:152",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:153",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:154",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:155",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:156",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:157",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:158",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:159",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:16",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:160",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:161",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:162",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:163",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:164",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:165",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:166",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:167",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:168",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:169",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:17",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:170",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:171",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:172",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:173",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:174",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:175",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:176",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:177",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:178",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:179",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:18",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:180",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:181",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:182",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:183",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:184",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:185",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:186",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:187",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:188",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:189",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:19",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:190",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:191",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:192",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:193",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:194",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:195",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:196",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:197",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:198",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:199",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:2",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:20",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:200",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:201",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:202",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:203",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:204",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:205",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:206",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:207",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:208",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:209",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:21",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:210",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:211",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:212",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:213",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:214",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:215",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:216",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:217",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:218",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:219",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:22",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:220",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:221",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:222",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:223",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:224",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:225",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:226",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:227",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:228",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:229",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:23",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:230",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:231",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:232",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:233",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:234",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:235",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:236",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:237",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:238",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:239",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:24",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:240",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:241",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:242",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:243",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:244",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:245",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:246",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:247",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:248",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:249",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:25",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:250",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:251",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:252",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:253",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:254",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:255",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:256",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:257",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:258",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:259",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:26",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:260",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:261",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:262",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:263",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:264",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:265",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:266",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:267",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:268",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:269",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:27",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:28",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:29",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:3",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:30",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:31",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:32",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:33",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:34",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:35",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:36",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:37",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:38",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:39",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:4",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:40",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:41",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:42",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:43",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:44",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:45",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:46",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:47",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:48",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:49",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:5",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:50",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:51",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:52",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:53",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:54",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:55",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:56",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:57",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:58",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:59",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:6",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:60",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:61",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:62",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:63",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:64",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:65",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:66",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:67",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:68",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:69",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:7",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:70",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:71",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:72",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:73",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:74",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:75",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:76",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:77",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:78",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:79",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:8",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:80",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:81",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:82",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:83",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:84",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:85",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:86",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:87",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:88",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:89",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:9",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:90",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:91",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:92",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:93",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:94",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:95",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:96",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:97",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:98",
+      "contract_accepts": true,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "old:99",
+      "contract_accepts": false,
+      "family": "pandas-timedelta-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.39.3",
+      "contract_accepts": false,
+      "family": "pivot-null-buckets",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.40.0",
+      "contract_accepts": true,
+      "family": "pivot-null-buckets",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0",
+      "contract_accepts": false,
+      "family": "polars-cache-lineage",
+      "historical_legal": false,
+      "oracle": "O2"
+    },
+    {
+      "arm": "2.1.0",
+      "contract_accepts": true,
+      "family": "polars-cache-lineage",
+      "historical_legal": true,
+      "oracle": "O2"
+    },
+    {
+      "arm": "1.42.1/h,l,m1,m2",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/h,l,m2,m1",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/h,m1,l,m2",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/h,m1,m2,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/h,m2,l,m1",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/h,m2,m1,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,h,m1,m2",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,h,m2,m1",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,m1,h,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,m1,m2,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,m2,h,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/l,m2,m1,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,h,l,m2",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,h,m2,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,l,h,m2",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,l,m2,h",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,m2,h,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m1,m2,l,h",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,h,l,m1",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,h,m1,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,l,h,m1",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,l,m1,h",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,m1,h,l",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.42.1/m2,m1,l,h",
+      "contract_accepts": false,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,l,m1,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,l,m2,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,m1,l,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,m1,m2,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,m2,l,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/h,m2,m1,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,h,m1,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,h,m2,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,m1,h,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,m1,m2,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,m2,h,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/l,m2,m1,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,h,l,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,h,m2,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,l,h,m2",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,l,m2,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,m2,h,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m1,m2,l,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,h,l,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,h,m1,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,l,h,m1",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,l,m1,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,m1,h,l",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.43.0/m2,m1,l,h",
+      "contract_accepts": true,
+      "family": "polars-categorical-series-topk",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/plain_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/0",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/1",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/12",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/13",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/14",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/15",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/16",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/17",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/18",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/2",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/20",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/24",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/26",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/3",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/30",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/32",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/4",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/5",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/6",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/8",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/0",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/1",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/10",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/11",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/12",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/13",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/14",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/15",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/16",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/17",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/18",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/19",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/2",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/20",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/21",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/22",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/23",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/24",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/25",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/26",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/27",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/3",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/30",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/31",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/32",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/33",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/4",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/5",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/6",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/7",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/8",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.44.2/reverse_unique/9",
+      "contract_accepts": false,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/plain_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_ties/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/0",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/1",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/10",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/11",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/12",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/13",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/14",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/15",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/16",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/17",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/18",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/19",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/2",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/20",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/21",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/22",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/23",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/24",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/25",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/26",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/27",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/28",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/29",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/3",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/30",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/31",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/32",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/33",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/34",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/35",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/4",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/5",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/6",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/7",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/8",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.0/reverse_unique/9",
+      "contract_accepts": true,
+      "family": "polars-grouped-coupled-representative",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "3.13.1",
+      "contract_accepts": false,
+      "family": "precision-ring-measure",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "3.14.1",
+      "contract_accepts": false,
+      "family": "precision-ring-measure",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "3.15.0",
+      "contract_accepts": true,
+      "family": "precision-ring-measure",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.4.3",
+      "contract_accepts": false,
+      "family": "prepared-snapshot-count",
+      "historical_legal": false,
+      "oracle": "O1"
+    },
+    {
+      "arm": "2.0.1",
+      "contract_accepts": true,
+      "family": "prepared-snapshot-count",
+      "historical_legal": true,
+      "oracle": "O1"
+    },
+    {
+      "arm": "1.4.1",
+      "contract_accepts": false,
+      "family": "rolling-variance-cancellation",
+      "historical_legal": false,
+      "oracle": "O3"
+    },
+    {
+      "arm": "1.5.0",
+      "contract_accepts": true,
+      "family": "rolling-variance-cancellation",
+      "historical_legal": true,
+      "oracle": "O3"
+    },
+    {
+      "arm": "2.0.1",
+      "contract_accepts": false,
+      "family": "styler-index-representation",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "2.1.0",
+      "contract_accepts": true,
+      "family": "styler-index-representation",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.19.11",
+      "contract_accepts": false,
+      "family": "uint64-mixed-input",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "0.19.13",
+      "contract_accepts": true,
+      "family": "uint64-mixed-input",
+      "historical_legal": true,
+      "oracle": "O4"
+    },
+    {
+      "arm": "1.2.1",
+      "contract_accepts": false,
+      "family": "upsert-state-and-receipt",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "1.2.2",
+      "contract_accepts": false,
+      "family": "upsert-state-and-receipt",
+      "historical_legal": false,
+      "oracle": "O5"
+    },
+    {
+      "arm": "1.4.0",
+      "contract_accepts": true,
+      "family": "upsert-state-and-receipt",
+      "historical_legal": true,
+      "oracle": "O5"
+    },
+    {
+      "arm": "3.10.2",
+      "contract_accepts": false,
+      "family": "valid-segment-intersection",
+      "historical_legal": false,
+      "oracle": "O4"
+    },
+    {
+      "arm": "3.10.3",
+      "contract_accepts": true,
+      "family": "valid-segment-intersection",
+      "historical_legal": true,
+      "oracle": "O4"
+    }
+  ],
+  "pairs_with_illegal_arms": 29,
+  "pairs_with_legal_arms": 29,
+  "pairs_with_legal_rejects": 0,
+  "pairs_with_missed_faults": 0,
+  "release_pairs": 29,
+  "scope": "case-specific contract checks over archived native projections",
+  "source_sha256": {
+    "e9-native-f10-geos-precision-measure/RESULT.json": "bf6beffb2be8f59d998e39e00ca9e824161653ac428210c4d383e16eebdde791",
+    "e9-native-f10-valid-segment-intersection/3.10.2.raw": "ee25b24ebbfbbe2f638555d6797ad9760202b5543a97194d5b82c6a172a35ebe",
+    "e9-native-f10-valid-segment-intersection/3.10.3.raw": "2917d4f4cf04ab8e12dff90c2c65bffe81a5ecaba38eedc244ec6270ac9e92ab",
+    "e9-native-f3-prepared-snapshot/RESULT.json": "64c24bc33fd002db689ba8ae7c58d836b8a38c83c3a29c02b0b942a30cb7575f",
+    "e9-supplemental-f4-polars-cached-lineage/RESULT.json": "033e50f7f2f5783abccd49beab7ff5f7277ea246a3c52d83044db2fe5e78fa46",
+    "e9-supplemental-f7-pandas-rolling-future-window/RESULT.json": "9056d3266e00b0e808c320e4d77385cc2af450e55ec4863a8172729ced13e4f6",
+    "e9-supplemental-o3-polars-group-representative/1.44.2.json": "b02b3f8fa57f11c4b6ebfed79b58fd3c934eb4010cfe1905a1753c81b7c2dfbc",
+    "e9-supplemental-o3-polars-group-representative/2.0.0.json": "92a877af79d8f52a2986256164ba9cccc8f8ae26777b2d15460feeab676e1836",
+    "pvldb-a4-natural-roster/E5-LEGACY.json": "6fc3c2032fae5ae1a99943992d439b839cc6cbfd627d40a41a92ee4cdd90f78d",
+    "pvldb-a4-natural-roster/NEW-PILOT.json": "149e9f798baed2d498dc0a22aa006366c8c9fdb7eb0007d85301e1cdc535aaa9",
+    "pvldb-a4-natural-roster/OLD-PILOT.json": "163896d6466093c6e68b7722b85197b35ae77c2c0bc8551bb4d16f94bdec552b",
+    "pvldb-a4-natural-roster/ROSTER.json": "49af0e8bd91077d544c2067e528be1e9123ba32914a8827031acdedfb8dec28b",
+    "pvldb-a4-natural-roster/TYPED-LEGACY-ARMS.jsonl": "fd3af39f8c31fd0a26cc61406d66a0f89cbdb6276f6541b40bd20960982a6ba8",
+    "pvldb-native-baseline-matrix/NATURAL-EXTENDED-RESULT.json": "649c8e834e9908fedc8acabd96f6f97475862fbe2698177edb8cd63fc9ea04d6",
+    "pvldb-native-baseline-matrix/NATURAL-RESULT.json": "f569bb3ef89c6483fb273d2af17670c7cf212f1123ae46f8f3afa3a46cc04a7e"
+  }
+}

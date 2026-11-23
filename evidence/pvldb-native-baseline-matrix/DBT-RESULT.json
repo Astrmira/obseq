@@ -1,0 +1,5764 @@
+{
+  "native_cases_executed": 714,
+  "observations": [
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F1-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-04",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F2-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F3-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F4-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F5-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-05",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F6-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-05",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F7-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F8-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-02",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F9-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-F10-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-topk-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-row_number-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-01",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-02",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-03",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-04",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-coupled-06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O3-group_repr-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-wkb-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-numtext-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-dateserial-06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-02",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-04",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "original",
+      "id": "E7H-O4-pointset-06",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F001",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F002",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F003",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F004",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F005",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F006",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F007",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F008",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F009",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F010",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F011",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F012",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F013",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F014",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F015",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F016",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F017",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F018",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F019",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F020",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F021",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F022",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F023",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-coherent-group-representatives/F024",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/0fef24d89e77",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/141dabb17d93",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/6ccfc8a42756",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/618af6b50cc6",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/a28378eb9bfc",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/02b73fcb7d52",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/83780c82d0ca",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/e436679a970f",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/3023f90ccf7e",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/a0aa4ff33d00",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/ea649f8d2e2e",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/fee874afb3d7",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/a28b90557544",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/0972bb8f044e",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/1b84f76666e3",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/d6af50298f3d",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/27af05c4d444",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/9e65d3809066",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/99367f60a5ea",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/5a94c041b448",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/75a68d29b87f",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/352b71303f70",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/5eb606b73f15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-keyed-aggregate-cancellation/03d1af37e95d",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P01",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P05",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P06",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P10",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P11",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P12",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P14",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P15",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P19",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P21",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "frozen_candidate",
+      "cohort": "later",
+      "id": "heldout-ordered-intervention-receipts/P24",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q11",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q11",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q12",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q12",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q14",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q14",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q19",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q19",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q21",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q21",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "stock_geos",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q24",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "plain_float",
+      "cohort": "later",
+      "id": "heldout-binary64-orientation/q24",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J11",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J11",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J11",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J12",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J12",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J12",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J13",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J14",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J14",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J14",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J15",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J16",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J17",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J18",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J19",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J19",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J19",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J20",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J21",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J21",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J21",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J22",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J23",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "duckdb",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J24",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "postgres",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J24",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "sqlite",
+      "cohort": "later",
+      "id": "heldout-json-presence-and-path-shape/J24",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G02",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G03",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G04",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G05",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G06",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G07",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_projected_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G08",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "nullness_shortcut",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7G08",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T01",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T01",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T02",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T02",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T03",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T04",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T05",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T05",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T06",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T06",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T07",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T08",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T08",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T09",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T09",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "native_duration_member",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "earliest_only",
+      "cohort": "later",
+      "id": "heldout-group-role-and-fold-joint/E7T10",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "3.0.0",
+      "cohort": "natural",
+      "id": "group-null-reassignment",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.1.1",
+      "cohort": "natural",
+      "id": "group-null-reassignment",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.39.3",
+      "cohort": "natural",
+      "id": "pivot-null-buckets",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.40.0",
+      "cohort": "natural",
+      "id": "pivot-null-buckets",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.5.5",
+      "cohort": "natural",
+      "id": "null-sort-topn",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.1",
+      "cohort": "natural",
+      "id": "null-sort-topn",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.4.3",
+      "cohort": "natural",
+      "id": "prepared-snapshot-count",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.1",
+      "cohort": "natural",
+      "id": "prepared-snapshot-count",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "0.19.11",
+      "cohort": "natural",
+      "id": "uint64-mixed-input",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "0.19.13",
+      "cohort": "natural",
+      "id": "uint64-mixed-input",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.20.0",
+      "cohort": "natural",
+      "id": "nested-timezone",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.22.0",
+      "cohort": "natural",
+      "id": "nested-timezone",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.1.1",
+      "cohort": "natural",
+      "id": "melt-timezone",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.2.0",
+      "cohort": "natural",
+      "id": "melt-timezone",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "0.20.3",
+      "cohort": "natural",
+      "id": "categorical-membership-logical-equality",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "0.20.4",
+      "cohort": "natural",
+      "id": "categorical-membership-logical-equality",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "0.8.1",
+      "cohort": "natural",
+      "id": "group-collation-type",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "0.9.1",
+      "cohort": "natural",
+      "id": "group-collation-type",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.0.0",
+      "cohort": "natural",
+      "id": "insert-decimal-export",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.1.0",
+      "cohort": "natural",
+      "id": "insert-decimal-export",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.2.1",
+      "cohort": "natural",
+      "id": "upsert-state-and-receipt",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.2.2",
+      "cohort": "natural",
+      "id": "upsert-state-and-receipt",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.4.0",
+      "cohort": "natural",
+      "id": "upsert-state-and-receipt",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.5.4",
+      "cohort": "natural",
+      "id": "copy-summary-bound",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.5.5",
+      "cohort": "natural",
+      "id": "copy-summary-bound",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "3.13.1",
+      "cohort": "natural",
+      "id": "precision-ring-measure",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.14.1",
+      "cohort": "natural",
+      "id": "precision-ring-measure",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.15.0",
+      "cohort": "natural",
+      "id": "precision-ring-measure",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.4.1",
+      "cohort": "natural",
+      "id": "rolling-variance-cancellation",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.5.0",
+      "cohort": "natural",
+      "id": "rolling-variance-cancellation",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "3.0.3",
+      "cohort": "natural",
+      "id": "nullable-cumulative-group-type",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.1.0",
+      "cohort": "natural",
+      "id": "nullable-cumulative-group-type",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "0.15.15",
+      "cohort": "natural",
+      "id": "nested-sibling-null-explode",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "0.15.16",
+      "cohort": "natural",
+      "id": "nested-sibling-null-explode",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.1",
+      "cohort": "natural",
+      "id": "styler-index-representation",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.1.0",
+      "cohort": "natural",
+      "id": "styler-index-representation",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "3.10.2",
+      "cohort": "natural",
+      "id": "valid-segment-intersection",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.10.3",
+      "cohort": "natural",
+      "id": "valid-segment-intersection",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0",
+      "cohort": "natural",
+      "id": "polars-cache-lineage",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.1.0",
+      "cohort": "natural",
+      "id": "polars-cache-lineage",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.3.3",
+      "cohort": "natural",
+      "id": "pandas-historical-rolling-moments",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "3.0.0",
+      "cohort": "natural",
+      "id": "pandas-historical-rolling-moments",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,l,m1,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,l,m2,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,m1,l,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,m1,m2,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,m2,l,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/h,m2,m1,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/l,h,m1,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/l,h,m2,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": true,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/l,m1,h,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.42.1/l,m1,m2,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.42.1/l,m2,h,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.42.1/l,m2,m1,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.42.1/m1,h,l,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m1,h,m2,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m1,l,h,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m1,l,m2,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m1,m2,h,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m1,m2,l,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,h,l,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,h,m1,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,l,h,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,l,m1,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,m1,h,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.42.1/m2,m1,l,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.43.0/h,l,m1,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/h,l,m2,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/h,m1,l,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/h,m1,m2,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/h,m2,l,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/h,m2,m1,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,h,m1,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,h,m2,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,m1,h,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,m1,m2,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,m2,h,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/l,m2,m1,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,h,l,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,h,m2,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,l,h,m2",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,l,m2,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,m2,h,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m1,m2,l,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,h,l,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,h,m1,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,l,h,m1",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,l,m1,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,m1,h,l",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.43.0/m2,m1,l,h",
+      "cohort": "natural",
+      "id": "polars-categorical-series-topk",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/plain_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/plain_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_all_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_unique/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_unique/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_unique/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": false,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "1.44.2/reverse_unique/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "1.44.2/reverse_unique/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/plain_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/plain_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_all_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": false,
+      "typed_fixed_golden": false
+    },
+    {
+      "arm": "2.0.0/reverse_ties/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_ties/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/0",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/1",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/2",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/3",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/4",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/5",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/6",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/7",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/8",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/9",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/10",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/11",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/12",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/13",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/14",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/15",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/16",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/17",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/18",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/19",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/20",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/21",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/22",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/23",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/24",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/25",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/26",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/27",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/28",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/29",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/30",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/31",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/32",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/33",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/34",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    },
+    {
+      "arm": "2.0.0/reverse_unique/35",
+      "cohort": "natural",
+      "id": "polars-grouped-coupled-representative",
+      "legal": true,
+      "stock_relationships": true,
+      "typed_fixed_golden": true
+    }
+  ],
+  "summaries": {
+    "later": {
+      "stock_relationships": {
+        "false_accept": 19,
+        "false_reject": 9,
+        "true_accept": 171,
+        "true_reject": 29
+      },
+      "typed_fixed_golden": {
+        "false_accept": 12,
+        "false_reject": 9,
+        "true_accept": 171,
+        "true_reject": 36
+      }
+    },
+    "natural": {
+      "stock_relationships": {
+        "false_accept": 6,
+        "false_reject": 153,
+        "true_accept": 131,
+        "true_reject": 88
+      },
+      "typed_fixed_golden": {
+        "false_reject": 153,
+        "true_accept": 131,
+        "true_reject": 94
+      }
+    },
+    "original": {
+      "stock_relationships": {
+        "false_accept": 5,
+        "false_reject": 19,
+        "true_accept": 35,
+        "true_reject": 49
+      },
+      "typed_fixed_golden": {
+        "false_reject": 20,
+        "true_accept": 34,
+        "true_reject": 54
+      }
+    }
+  },
+  "versions": {
+    "dbt-core": "1.10.15",
+    "dbt-duckdb": "1.9.6",
+    "duckdb": "2.0.1"
+  }
+}

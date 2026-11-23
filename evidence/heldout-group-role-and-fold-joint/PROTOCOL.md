@@ -1,0 +1,9 @@
+# EA&B E7 independent, synthetic oracle pack
+
+Unscored manifest: metadata only. Frozen inputs are the sole source for native implementation. Do not inspect labels or oracle before committing predictions. No engine runs, evaluation rates or generalization estimates are included. No IANA zone data is required.
+
+Group: for each [a,b,value] input row (including duplicates), sum integer values over GROUPING SETS ((a,b),(a),()). Render omitted keys as NULL. Full row is [a,b,sum,mask], where mask=2*GROUPING(a)+GROUPING(b); projected row drops mask. The sole sorting/ranking key is sum descending, globally (no partition, no secondary order). Limit discards offset then takes k. Rank/dense_rank filter the respective SQL rank <=k. Return complete sets of legal *bags* of emitted rows under unspecified peer order, not one fixed ordering. Each bag is an array that retains multiplicity. Ignore ordering within each bag and across alternative bags for comparisons. Compare projected and full bags separately. A single execution can witness membership, not exhaustiveness.
+
+Time: all readings are integer minutes on one synthetic coordinate system. UTC u maps to local u+offset_before for u<transition_utc and u+offset_after otherwise. Start/end are independently inverted; keep exactly the pairs with end>=start. Report distinct marginal UTC lists, admissible triples [start UTC,end UTC,duration] (minutes), distinct admissible durations, and all admissible triples compatible with observed_duration. Observation is an extra projection constraint, not a filter on the primary joint set. Empty sets are valid. Compare lists as sets here. No preferred fold, stochastic prior, real-region claim, or implied demand to issue one particular warning.
+
+Reproduce: python3 oracle.py > reconstructed.json; cmp labels.json reconstructed.json. Recorded hashes fix exact bytes. Seal is an integrity commitment, not encryption or proof of separation of personnel.

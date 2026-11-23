@@ -1,0 +1,20 @@
+{
+  "roots": {
+    "replay": {
+      "manifest_sha256": "90eeb231388529f4e576c8bd572029d1ca719c9bab7715a742c7652252129bc4",
+      "source_path": "evidence/e7-unified-native-development-replay/MANIFEST.json"
+    },
+    "extension-4": {
+      "manifest_sha256": "ed5e833cbf2813f4c13419d3ec5f2c305d021c054751daff889cdad3d6ced242",
+      "source_path": "evidence/e7-unified-native-development-extension-4/MANIFEST.json"
+    },
+    "extension-5": {
+      "manifest_sha256": "92cd22b89481daf93b1ce70dc4718c7fb96db8b5ad1099f88849cadb38be6061",
+      "source_path": "evidence/e7-unified-native-development-extension-5/MANIFEST.json"
+    },
+    "extension-6": {
+      "manifest_sha256": "2706c725f4bd7c2eff35b71f6e02a5c61d31461aed8f27559760e176c53e2289",
+      "source_path": "evidence/e7-unified-native-development-extension-6/MANIFEST.json"
+    }
+  }
+}

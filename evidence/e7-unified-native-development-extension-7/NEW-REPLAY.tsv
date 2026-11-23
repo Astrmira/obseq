@@ -1,0 +1,11 @@
+datacompy-key-occurrence-vs-bag	native_external_transfer	PASS
+gx-compound-collation-scope	native_external_transfer	PASS
+specbridge-tolerant-peer-permutation	native_authored_development	PASS
+stock-null-stage-attribution	native_authored_development	PASS
+stock-gx-typed-token-anchors	native_authored_development	PASS
+stock-deequ-common-keyed	native_authored_development	PASS
+stock-dvc-keyed-fingerprint-audit	native_authored_development	PASS
+postgresql-native-derivation-epochs	native_external_transfer	PASS
+xlsx-native-style-type-drift	native_external_transfer	PASS
+stock-gx-netcdf-source-support	native_external_transfer	PASS
+polars-group-min-cross-version	native_authored_development	PASS

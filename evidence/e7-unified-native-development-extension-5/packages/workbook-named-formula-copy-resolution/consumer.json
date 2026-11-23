@@ -1,0 +1,35 @@
+{
+  "cases": {
+    "default": {
+      "bindings": {
+        "Copy": "'Global'!$A$1",
+        "Template": "'Template'!$A$1"
+      },
+      "consumer": {
+        "Copy": 200,
+        "Template": 20
+      }
+    },
+    "retarget": {
+      "bindings": {
+        "Copy": "'Copy'!$A$1",
+        "Template": "'Template'!$A$1"
+      },
+      "consumer": {
+        "Copy": 40,
+        "Template": 20
+      }
+    },
+    "stale": {
+      "bindings": {
+        "Copy": "'Template'!$A$1",
+        "Template": "'Template'!$A$1"
+      },
+      "consumer": {
+        "Copy": 20,
+        "Template": 20
+      }
+    }
+  },
+  "openpyxl": "3.1.5"
+}

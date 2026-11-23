@@ -1,0 +1,189 @@
+{
+  "replay": {
+    "reversed-two": {
+      "batch_sizes": [
+        2,
+        2,
+        1
+      ],
+      "order": [
+        15,
+        13,
+        14,
+        11,
+        12
+      ],
+      "results": {
+        "fid": {
+          "drift": [],
+          "status": {
+            "11": "written",
+            "12": "written",
+            "13": "needs-value",
+            "14": "written",
+            "15": "kept"
+          },
+          "values": {
+            "11": 9007199254740993,
+            "12": 0,
+            "13": 83,
+            "14": null,
+            "15": 85
+          }
+        },
+        "payload": {
+          "drift": [
+            13,
+            15
+          ],
+          "status": {
+            "11": "written",
+            "12": "written",
+            "13": "written",
+            "14": "written",
+            "15": "written"
+          },
+          "values": {
+            "11": 9007199254740993,
+            "12": 0,
+            "13": null,
+            "14": null,
+            "15": null
+          }
+        },
+        "position": {
+          "drift": [
+            11,
+            12,
+            14
+          ],
+          "status": {
+            "11": "written",
+            "12": "kept",
+            "13": "unavailable",
+            "14": "needs-value",
+            "15": "unavailable"
+          },
+          "values": {
+            "11": null,
+            "12": 82,
+            "13": 83,
+            "14": 84,
+            "15": 85
+          }
+        },
+        "untrusted-cache": {
+          "drift": [
+            11
+          ],
+          "status": {
+            "11": "untrusted-cache",
+            "12": "written",
+            "13": "needs-value",
+            "14": "written",
+            "15": "kept"
+          },
+          "values": {
+            "11": 81,
+            "12": 0,
+            "13": 83,
+            "14": null,
+            "15": 85
+          }
+        }
+      }
+    },
+    "sorted-five": {
+      "batch_sizes": [
+        5
+      ],
+      "order": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "results": {
+        "fid": {
+          "drift": [],
+          "status": {
+            "11": "written",
+            "12": "written",
+            "13": "needs-value",
+            "14": "written",
+            "15": "kept"
+          },
+          "values": {
+            "11": 9007199254740993,
+            "12": 0,
+            "13": 83,
+            "14": null,
+            "15": 85
+          }
+        },
+        "payload": {
+          "drift": [
+            13,
+            15
+          ],
+          "status": {
+            "11": "written",
+            "12": "written",
+            "13": "written",
+            "14": "written",
+            "15": "written"
+          },
+          "values": {
+            "11": 9007199254740993,
+            "12": 0,
+            "13": null,
+            "14": null,
+            "15": null
+          }
+        },
+        "position": {
+          "drift": [],
+          "status": {
+            "11": "written",
+            "12": "written",
+            "13": "needs-value",
+            "14": "written",
+            "15": "kept"
+          },
+          "values": {
+            "11": 9007199254740993,
+            "12": 0,
+            "13": 83,
+            "14": null,
+            "15": 85
+          }
+        },
+        "untrusted-cache": {
+          "drift": [
+            11
+          ],
+          "status": {
+            "11": "untrusted-cache",
+            "12": "written",
+            "13": "needs-value",
+            "14": "written",
+            "15": "kept"
+          },
+          "values": {
+            "11": 81,
+            "12": 0,
+            "13": 83,
+            "14": null,
+            "15": 85
+          }
+        }
+      }
+    }
+  },
+  "versions": [
+    "3100300",
+    "2.2.4",
+    "3.46.1"
+  ]
+}

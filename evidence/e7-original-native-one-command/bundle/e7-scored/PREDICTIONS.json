@@ -1,0 +1,650 @@
+[
+  {
+    "case_id": "E7H-F1-01",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F1-02",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F1-03",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F1-04",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F1-05",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F1-06",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F2-01",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F2-02",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F2-03",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F2-04",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F2-05",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F2-06",
+    "class": "F2",
+    "subtype": "null_policy",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F3-01",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F3-02",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F3-03",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F3-04",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F3-05",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F3-06",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F4-01",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F4-02",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F4-03",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F4-04",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F4-05",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F4-06",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F5-01",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F5-02",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F5-03",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F5-04",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F5-05",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F5-06",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F6-01",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F6-02",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F6-03",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F6-04",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F6-05",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F6-06",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F7-01",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F7-02",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F7-03",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F7-04",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F7-05",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F7-06",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F8-01",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F8-02",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F8-03",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F8-04",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F8-05",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F8-06",
+    "class": "F8",
+    "subtype": "civil_time",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F9-01",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F9-02",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F9-03",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F9-04",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F9-05",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F9-06",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F10-01",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F10-02",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F10-03",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-F10-04",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F10-05",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-F10-06",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-topk-01",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-topk-02",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-topk-03",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-topk-04",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-topk-05",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-topk-06",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-row_number-01",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-row_number-02",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-row_number-03",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-row_number-04",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-row_number-05",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-row_number-06",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-coupled-01",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-coupled-02",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-coupled-03",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-coupled-04",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-coupled-05",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-coupled-06",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-group_repr-01",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-group_repr-02",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-group_repr-03",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-group_repr-04",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O3-group_repr-05",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O3-group_repr-06",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-wkb-01",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-wkb-02",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-wkb-03",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-wkb-04",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-wkb-05",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-wkb-06",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-numtext-01",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-numtext-02",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-numtext-03",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-numtext-04",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-numtext-05",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-numtext-06",
+    "class": "O4",
+    "subtype": "numeric text",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-dateserial-01",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-dateserial-02",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-dateserial-03",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-dateserial-04",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-dateserial-05",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-dateserial-06",
+    "class": "O4",
+    "subtype": "date serial",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-pointset-01",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-02",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-pointset-03",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-04",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": false
+  },
+  {
+    "case_id": "E7H-O4-pointset-05",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": true
+  },
+  {
+    "case_id": "E7H-O4-pointset-06",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "predicted_legal": false
+  }
+]

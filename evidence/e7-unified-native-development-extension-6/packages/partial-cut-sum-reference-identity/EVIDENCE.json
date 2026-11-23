@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "README.md": "1809bee5aac5424b1d5db238c72164cd3ce5df75e471425f5056baaf3db9a9b9",
+    "check.py": "64458a4479a3fa2ec1ead8fefb40ea93e8f88380dc59e95668c7725fce0643d8",
+    "consumer.json": "5250056b1340478b2c8c2cd47c49b835f4aba8f2a1f32f405f13eaa415b358b4",
+    "result.json": "c3d96badaeadaeef586348772e315cf7b3402b779ce3fb12f4bb1d41ec489893"
+  },
+  "predecessor": "5ff364238e9cf559a6a53d15a81c6536c3cecc86",
+  "project": "workbook"
+}

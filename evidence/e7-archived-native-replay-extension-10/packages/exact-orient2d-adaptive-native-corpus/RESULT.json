@@ -1,0 +1,69 @@
+{
+  "frozen_measurements": {
+    "1000": {
+      "one_in_64_cancellation_controls": {
+        "fallback_count": 22,
+        "median_ns": {
+          "always_exact": 2322336,
+          "filtered": 394634
+        }
+      },
+      "ring_tiled": {
+        "fallback_count": 6,
+        "median_ns": {
+          "always_exact": 2499964,
+          "filtered": 379241
+        }
+      }
+    },
+    "100000": {
+      "one_in_64_cancellation_controls": {
+        "fallback_count": 1577,
+        "median_ns": {
+          "always_exact": 287983000,
+          "filtered": 39378127
+        }
+      },
+      "ring_tiled": {
+        "fallback_count": 14,
+        "median_ns": {
+          "always_exact": 232193896,
+          "filtered": 34322325
+        }
+      }
+    },
+    "243727": {
+      "one_in_64_cancellation_controls": {
+        "fallback_count": 3859,
+        "median_ns": {
+          "always_exact": 586627523,
+          "filtered": 100888755
+        }
+      },
+      "ring_tiled": {
+        "fallback_count": 53,
+        "median_ns": {
+          "always_exact": 552531198,
+          "filtered": 84662226
+        }
+      }
+    },
+    "1000000": {
+      "one_in_64_cancellation_controls": {
+        "fallback_count": 15842,
+        "median_ns": {
+          "always_exact": 2439149395,
+          "filtered": 451245186
+        }
+      },
+      "ring_tiled": {
+        "fallback_count": 225,
+        "median_ns": {
+          "always_exact": 2355426692,
+          "filtered": 352971526
+        }
+      }
+    }
+  },
+  "no_filter_float_hard_mismatch": 200
+}

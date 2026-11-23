@@ -1,0 +1,31 @@
+{
+  "checkpointed_during_reader": 0,
+  "fresh_logical_readback": [
+    [
+      1,
+      21
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "main_artifact_readback": [
+    [
+      1,
+      17
+    ]
+  ],
+  "physical": {
+    "changed_hash_after_checkpoint": true,
+    "same_main_hash_before_checkpoint": true
+  },
+  "pinned_logical_readback": [
+    [
+      1,
+      17
+    ]
+  ],
+  "sqlite": "3.53.1",
+  "wal_frames_during_reader": 1
+}

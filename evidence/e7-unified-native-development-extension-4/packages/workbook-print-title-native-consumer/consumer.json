@@ -1,0 +1,81 @@
+{
+  "cases": {
+    "plain-copy": {
+      "headers": [
+        true,
+        false,
+        false
+      ],
+      "pages": [
+        [
+          2,
+          46
+        ],
+        [
+          47,
+          92
+        ],
+        [
+          93,
+          116
+        ]
+      ],
+      "print_title_defs": []
+    },
+    "repair": {
+      "headers": [
+        true,
+        true,
+        true
+      ],
+      "pages": [
+        [
+          2,
+          46
+        ],
+        [
+          47,
+          91
+        ],
+        [
+          92,
+          116
+        ]
+      ],
+      "print_title_defs": [
+        [
+          "0",
+          "'Copy'!$1:$1"
+        ]
+      ]
+    },
+    "template": {
+      "headers": [
+        true,
+        true,
+        true
+      ],
+      "pages": [
+        [
+          2,
+          46
+        ],
+        [
+          47,
+          91
+        ],
+        [
+          92,
+          116
+        ]
+      ],
+      "print_title_defs": [
+        [
+          "0",
+          "'Template'!$1:$1"
+        ]
+      ]
+    }
+  },
+  "openpyxl": "3.1.5"
+}

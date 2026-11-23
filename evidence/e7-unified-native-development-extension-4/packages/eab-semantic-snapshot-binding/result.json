@@ -1,0 +1,30 @@
+{
+  "gdal": "3100300",
+  "openpyxl": "3.1.5",
+  "results": {
+    "A/A": {
+      "drift": [],
+      "payload_match": true,
+      "semantic_match": true
+    },
+    "B-repacked/B": {
+      "drift": [],
+      "payload_match": true,
+      "semantic_match": true
+    },
+    "B/A": {
+      "drift": [
+        12,
+        13
+      ],
+      "payload_match": true,
+      "semantic_match": false
+    },
+    "B/B": {
+      "drift": [],
+      "payload_match": true,
+      "semantic_match": true
+    }
+  },
+  "sqlite": "3.46.1"
+}

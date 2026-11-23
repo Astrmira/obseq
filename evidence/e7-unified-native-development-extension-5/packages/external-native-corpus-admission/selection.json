@@ -1,0 +1,10 @@
+{
+ "schema":"external-native-admission/v1",
+ "selection":"Use installed QGIS package sample, not selected by observed GEOS behavior",
+ "source":"/usr/share/qgis/resources/data/world_map.gpkg",
+ "read_only":true,
+ "cohort":"first GeoPackage geometry table in binary name order; first 12 non-null geometries in ascending sole integer primary key",
+ "unchanged_runner_domain":"closed nonempty axis-aligned integer grid rectangles",
+ "required_for_spatial_overlap":"independent area/selection oracle for every eligible exact source geometry",
+ "fallback_diagnostic":"If the domain gate rejects, compare SQlite raw GPKG embedded 2D Polygon/MultiPolygon WKB vertex-derived envelopes to GDAL native after reopen. Do not call this overlap conformance."
+}

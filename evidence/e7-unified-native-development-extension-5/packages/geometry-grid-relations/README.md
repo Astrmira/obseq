@@ -1,0 +1,20 @@
+# E4: valid single-feature precision reduction changes pair relations
+
+Native [Shapely GEOS set_precision](https://shapely.readthedocs.io/en/stable/reference/shapely.set_precision.html) with valid_output promises per-feature validity, not preserved shared topology or nonempty output. Test the already admitted [Natural Earth admin-0 1:110m v5.1.1](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/) and [Geofabrik Liechtenstein OSM building polygons](https://download.geofabrik.de/europe/liechtenstein.html). Source files are pinned by SHA. OGR checks geographic WGS84 longitude/latitude data order and exports XY WKB in memory. Operations are planar in coordinate degrees; not projected ground-distance scales or real-world geographies. No source attributes or geometry exports.
+
+The denominator is unordered pairs with intersecting planar envelopes before or after the specified operation. Both the original and new envelope candidate sets are necessary: a newly related pair need not have intersected originally. Any pair absent from their union is disjoint at both phases. Report four semantic categories: positive-area common interior, shared linear boundary, point-only boundary contact, or disjoint. Empty outputs are counted separately, and changes involving only surviving nonempty geometries are explicit. Shapely 2.2.0 GEOS 3.14.1 and direct [native C API](https://libgeos.org/doxygen/geos__c_8h.html) GEOS 3.13.1 agree on output envelopes, validity, emptiness and those relationship categories on every admitted pair, not necessarily exact geometry or byte representation. Zero-grid control changes none.
+
+| Layer and grid, degrees | Candidate pairs | Changed pair relation | Changed, both remain nonempty | Empty output features |
+|---|---:|---:|---:|---:|
+| OSM buildings, 0.00001 | 6,850 | 241 | 241 | 1 |
+| OSM buildings, 0.0001 | 10,105 | 3,560 | 3,062 | 3,371 |
+| Natural Earth, 0.00001 | 490 | 2 | 2 | 0 |
+| Natural Earth, 0.0001 | 490 | 3 | 3 | 0 |
+
+All 17,914 admitted OSM geometries and 177 Natural Earth geometries begin valid and nonempty. All outputs are valid, including empty geometries. In the finer OSM arm 81 originally disjoint pairs gain positive-area common interior; another six originally share a linear boundary and ten originally touch at points before gaining common interior. In Natural Earth one (finer) and two (coarser) formerly shared linear boundaries gain positive-area interior overlap. Not every category's count increases with coarsening: disjoint-to-area in OSM is 81 at the finer setting and 45 at the coarser one, in part a differently surviving cohort; no unconditional monotonicity claim. Neither validity checks alone nor single-feature collapse accounting certify pair relations. A policy requiring preserved adjacency/coverage must check that relation or use a jointly admitted operation whose properties match the downstream task.
+
+These are changes from an intentional intervention, distinct from earlier merge order on unchanged geometry and forward-CRS checks, not observed corruption, an engine regression, a repair guarantee, or a representative geographic trigger rate. No interpretation of disputed boundaries, device/time performance, or extrapolation to other grids and layers.
+
+Replay: sha256sum -c SHA256SUMS, then PYTHONPATH=/tmp/pvl-eab-submission/e4/deps python3 -B check.py /tmp/pvl-eab-submission/e4/inputs | cmp - RESULTS.json. Source archives and native dependencies are local prerequisites; none are included. GDAL system Python 3.10.3, Shapely 2.2.0, GEOS native builds recorded in results.
+
+The positional input root must have ne/ne_110m_admin_0_countries.{shp,shx,dbf,prj} and osm/liechtenstein.gpkg. The script reads the named layers only. The exact expected content hashes are in RESULTS.json. Set PYTHONPATH to the current admitted E4 deps (or equivalent Shapely and NumPy environment); the /usr/bin/python3 GDAL/OGR extraction and native system libgeos_c.so.1 are separate from Shapely's private GEOS build.

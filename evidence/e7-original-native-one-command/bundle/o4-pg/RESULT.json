@@ -1,0 +1,105 @@
+{
+  "cells": {
+    "E7H-O4-dateserial-01": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-dateserial-02": {
+      "independent": false,
+      "native": "unequal"
+    },
+    "E7H-O4-dateserial-03": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-dateserial-04": {
+      "independent": false,
+      "native": "unequal"
+    },
+    "E7H-O4-dateserial-05": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-dateserial-06": {
+      "independent": false,
+      "native": "unequal"
+    },
+    "E7H-O4-numtext-01": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-numtext-02": {
+      "independent": false,
+      "native": "unequal"
+    },
+    "E7H-O4-numtext-03": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-numtext-04": {
+      "independent": false,
+      "native": "invalid"
+    },
+    "E7H-O4-numtext-05": {
+      "independent": true,
+      "native": "equal"
+    },
+    "E7H-O4-numtext-06": {
+      "independent": false,
+      "native": "unequal"
+    },
+    "E7H-O4-pointset-01": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-pointset-02": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-pointset-03": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-pointset-04": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-pointset-05": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-pointset-06": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-01": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-02": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-03": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-04": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-05": {
+      "independent": true,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    },
+    "E7H-O4-wkb-06": {
+      "independent": false,
+      "native": "NA: geometry/pointset outside PostgreSQL non-spatial type lane"
+    }
+  },
+  "pins": {
+    "BLIND.json": "8e86163e65e0deaa46f3450f7600aa03361141f9406e73b235e0c648a5804831",
+    "check.py": "f005d93a52f8a4b69f772ef5c81a1cdc469df4c93a695f2f8ac24b57292b1cb6"
+  },
+  "postgres": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)"
+}

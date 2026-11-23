@@ -1,0 +1,25 @@
+{
+  "arms": {
+    "blank": {
+      "assign_mask_diff": true,
+      "matched_typed_value_differences": 0,
+      "n": 16,
+      "native_geometry_blob_diff": 0,
+      "nonnull_name_count_equal": true,
+      "physical_integrity_all_pass": true,
+      "row_count_equal": true
+    },
+    "nonempty": {
+      "assign_mask_diff": true,
+      "matched_typed_value_differences": 16,
+      "n": 16,
+      "native_geometry_blob_diff": 0,
+      "nonnull_name_count_equal": false,
+      "physical_integrity_all_pass": true,
+      "row_count_equal": true
+    }
+  },
+  "gdal": "GDAL 3.10.3, released 2025/04/01",
+  "source_sha256": "5b0840c72e2ef9ac1bb211235cd6dd7170c0b400b72b472749490d93399c89cd",
+  "sqlite": "3.46.1"
+}

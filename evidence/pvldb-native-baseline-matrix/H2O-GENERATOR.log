@@ -1,0 +1,18 @@
+libicu76.deb: OK
+libc6.deb: OK
+libstdc++6.deb: OK
+libgcc-s1.deb: OK
+R version 4.5.0 (2025-04-11) 1.17.0 
+Generate join data of 1e7 rows
+Producing keys for LHS and RHS data
+Producing LHS 1e7 data from keys
+Inputting NAs in LHS data
+Writing LHS 1e7 data J1_1e7_NA_5_0
+Producing RHS 1e1 data from keys
+Writing RHS 1e1 data J1_1e7_1e1_5_0
+Producing RHS 1e4 data from keys
+Writing RHS 1e4 data J1_1e7_1e4_5_0
+Producing RHS 1e7 data from keys
+Writing RHS 1e7 data J1_1e7_1e7_5_0
+Join datagen of 1e7 rows finished in 79s
+h2o_generator_success

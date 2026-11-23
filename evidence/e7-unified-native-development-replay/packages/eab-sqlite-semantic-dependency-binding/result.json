@@ -1,0 +1,32 @@
+{
+  "integrity_check_before_reindex_ok": false,
+  "new_runtime_full_sort": [
+    13,
+    15,
+    14,
+    11,
+    16,
+    12,
+    17
+  ],
+  "new_runtime_reindexed": [
+    13,
+    15,
+    14,
+    11,
+    16,
+    12,
+    17
+  ],
+  "old_hash_stable_without_reindex": true,
+  "old_index_new_runtime": [
+    17,
+    12,
+    11,
+    16,
+    14,
+    15,
+    13
+  ],
+  "sqlite": "3.53.1"
+}

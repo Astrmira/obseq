@@ -1,0 +1,13 @@
+# An update payload needs assignment intent, not just nullable values
+
+R95 studied newly materialized aggregate rows. Here the contract is a patch to an **existing** stable feature ID: KEEP leaves the current value, CLEAR stores semantic NULL, and ZERO stores numeric 0. A second field remains 17 throughout. These are three distinct functions of the prior value, distinguished by prior 42, giving 42, NULL, and 0 respectively. Any encoding that maps KEEP and CLEAR to the same absent payload cannot implement both from that payload and prior row alone; an independent assignment bit or equivalent information is needed. The earlier insertion rule “turn every missing value into explicit NULL” is wrong for KEEP in this update contract. Distinguishing an absent assignment is not the same as adding another scalar null value.
+
+This native replay compares sparse feature objects (omitting the control field) with complete read-modify-write feature objects. It makes and updates distinct existing FIDs, checks GDAL values and field states, then closes both on-disk drivers and verifies all FIDs/values directly in sqlite3. The matrix contains prior values 42, NULL and 0; KEEP, CLEAR and ZERO; and three orderings, which vary whether sparse/complete writes alternate, group sparse first, or use only complete writes. The explicit 0 control prevents conflating falsey data with omission.
+
+- Memory sparse SetFeature replaces omitted fields: the control becomes UNSET in all 18 sparse cases. This violates the declared patch contract, not necessarily the driver's replacement semantics.
+- SQLite driver sparse and complete cases all preserve the contract. In the GeoPackage driver, the mixed histories observed 19 errors reported as “Non existing feature”; the FIDs did exist and read back. Eight errors coincided with persisted-value mismatch; eleven would be hidden by checking values without API status. Sparse and complete treatment outcomes depend on execution order in this test. No internal cause is established.
+- On fresh dataset/layer handles using complete-only updates, all 27 tests succeed and preserve the declared results. This is a scoped work-around, not an atomic or concurrency-safe read-modify-write protocol. There are 135 update attempts overall; 26 observed persisted-value mismatches (including Memory's in-memory states).
+
+Benchmark implication: specify mutation intent separately from projected scalar schema; assert API status **and** persisted identity/data; compare repeated update-template orders with fresh controls. This experiment does not test UpdateFeature's field-index API, concurrent writers, or versions other than the recorded build.
+
+Replay: `/usr/bin/python3 -IB check.py | cmp - result.json`.

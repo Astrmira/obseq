@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "CALIBRATION.json": "da0574f1bed62c094db41edd552a1f64a70cdd0779d0a97033eb06ed61dea54d",
+    "PLAN.txt": "b7ca8d6d6ee094dec6339a4b5902a59579d147c1b7c0c9c0af82e7a3b384944d",
+    "PREFREEZE.sha256": "9b7f76061d03ae38aa21f35fcaf697d886589495625fa80dce9d3a68d84205e4",
+    "README.md": "879f8fe2237098a7e4a540347739aec5cbd610f218ec0051fc283a0257729830",
+    "RESULTS.json": "1180915b4978d7d5e2a21ffa0c9d9f7fff0c434dc5eeeed43a888793b87d9741",
+    "SHA256SUMS": "28c9af363666ca70f511c2aa87f62376515f64835905185d72bd1954163838b8",
+    "calibration.py": "029eae3eddf2e3994362140e52572da39505d6f33f76798f57af9597baecec16",
+    "check.py": "ab0b0a65b40667a698fcd41070824f371a13bd542377fd796c541cf9d75de796",
+    "gdal_read.py": "892d8e97458131a91ebd865ac1b04916b11d0e2ab994925b6fe5721ee6b5611d"
+  },
+  "predecessor": "8596a380fef4abcc3242a32b473d6af38e9c9c0b",
+  "project": "semantic-benchmark"
+}

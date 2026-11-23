@@ -1,0 +1,60 @@
+{
+  "accepted_part1_footer_suffix_bytes": 65536,
+  "duckdb": "1.4.3",
+  "exact_avg_ratio": [
+    2818304017,
+    2000000
+  ],
+  "native": [
+    [
+      2000000
+    ],
+    [
+      17486
+    ],
+    [
+      88574,
+      2000000,
+      1409.1520085
+    ]
+  ],
+  "native_stock_queries_on_two_partitions": 3,
+  "object_bytes": 297411574,
+  "physical_parquet_columns": [
+    "AdvEngineID",
+    "ResolutionWidth"
+  ],
+  "projected_compressed_bytes": 283345,
+  "pyarrow": "26.0.1",
+  "rows": 2000000,
+  "source_identity_records": [
+    {
+      "adv_max": 52,
+      "adv_min": 0,
+      "adv_nonzero": 14174,
+      "adv_total": 80778,
+      "part": 0,
+      "rows": 1000000,
+      "seal": "full-file-digest-in-checker",
+      "width_max": 6607,
+      "width_min": 0,
+      "width_nonnull": 1000000,
+      "width_total": 1604089590
+    },
+    {
+      "adv_max": 27,
+      "adv_min": 0,
+      "adv_nonzero": 3312,
+      "adv_total": 7796,
+      "part": 1,
+      "rows": 1000000,
+      "seal": "6da483086d49b7eaedc06d88332db20c0226c3a1eeb480bab8a62682ffa392b8",
+      "width_max": 5713,
+      "width_min": 0,
+      "width_nonnull": 1000000,
+      "width_total": 1214214427
+    }
+  ],
+  "width_integer_total": 2818304017,
+  "width_nonnull": 2000000
+}

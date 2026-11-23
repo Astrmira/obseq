@@ -1,0 +1,19 @@
+{
+  "blocked": {
+    "blank-dest": "destination-already-referenced",
+    "markers": "unqualified-formula",
+    "non-sum": "unqualified-formula"
+  },
+  "literal_multiset_tests": 160,
+  "openpyxl": "3.1.5",
+  "xml": {
+    "openpyxl-relative": {
+      "H8": "SUM(G7,G7,M17)",
+      "L1": "SUM(A1:E5,B2:D4,C3,A1:E5)"
+    },
+    "repair": {
+      "H8": "SUM(G7,G7,H12)",
+      "L1": "SUM(A1:E1,A5:E5,A2:A4,E2:E4,G7:I9,G7:I9,H8,A1:E1,A5:E5,A2:A4,E2:E4,G7:I9)"
+    }
+  }
+}

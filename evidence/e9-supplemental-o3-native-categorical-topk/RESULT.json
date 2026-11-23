@@ -1,0 +1,1112 @@
+{
+  "legal_counts": {
+    "1.42.1": {
+      "lexical_legal": 24,
+      "series_legal": 4
+    },
+    "1.43.0": {
+      "lexical_legal": 24,
+      "series_legal": 24
+    }
+  },
+  "results": {
+    "1.42.1": {
+      "authored": [
+        {
+          "input": [
+            "h",
+            "l",
+            "m1",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "l",
+            "m2",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m1",
+            "l",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m1",
+            "m2",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m2",
+            "l",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m2",
+            "m1",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "h",
+            "m1",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "h",
+            "m2",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m1",
+            "h",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m1",
+            "m2",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m2",
+            "h",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m2",
+            "m1",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "h",
+            "l",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "h",
+            "m2",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "l",
+            "h",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "l",
+            "m2",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "m2",
+            "h",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "m2",
+            "l",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "h",
+            "l",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "h",
+            "m1",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "l",
+            "h",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "l",
+            "m1",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "m1",
+            "h",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "m1",
+            "l",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": false,
+          "series_selected": [
+            "1",
+            "9"
+          ]
+        }
+      ],
+      "polars": "1.42.1",
+      "publisher": {
+        "bottom": [
+          "1",
+          "9"
+        ],
+        "sort": [
+          "1",
+          "3",
+          "5",
+          "9"
+        ],
+        "top": [
+          "3",
+          "5"
+        ]
+      }
+    },
+    "1.43.0": {
+      "authored": [
+        {
+          "input": [
+            "h",
+            "l",
+            "m1",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "l",
+            "m2",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m1",
+            "l",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m1",
+            "m2",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m2",
+            "l",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "h",
+            "m2",
+            "m1",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "h",
+            "m1",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "h",
+            "m2",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m1",
+            "h",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m1",
+            "m2",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m2",
+            "h",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "l",
+            "m2",
+            "m1",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "h",
+            "l",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "h",
+            "m2",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "l",
+            "h",
+            "m2"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "l",
+            "m2",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "m2",
+            "h",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m1",
+            "m2",
+            "l",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m1"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "h",
+            "l",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "h",
+            "m1",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "l",
+            "h",
+            "m1"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "l",
+            "m1",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "m1",
+            "h",
+            "l"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        },
+        {
+          "input": [
+            "m2",
+            "m1",
+            "l",
+            "h"
+          ],
+          "lexical_legal": true,
+          "selected_categories": [
+            "5",
+            "9"
+          ],
+          "selected_ids": [
+            "h",
+            "m2"
+          ],
+          "series_legal": true,
+          "series_selected": [
+            "5",
+            "9"
+          ]
+        }
+      ],
+      "polars": "1.43.0",
+      "publisher": {
+        "bottom": [
+          "1",
+          "3"
+        ],
+        "sort": [
+          "1",
+          "3",
+          "5",
+          "9"
+        ],
+        "top": [
+          "5",
+          "9"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "admitted_native": 48,
+  "cells": [
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 3,
+      "hour": 17,
+      "left_peers": 169,
+      "left_take": 57,
+      "limit": 108,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 421,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 43,
+      "right_peers": 153,
+      "right_take": 51,
+      "scope_rows": 9415,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 3,
+      "hour": 17,
+      "left_peers": 169,
+      "left_take": 57,
+      "limit": 406,
+      "mandatory_middle": 302,
+      "observable_wrong_quota_detected": 0,
+      "offset": 421,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 41,
+      "right_peers": 142,
+      "right_take": 47,
+      "scope_rows": 9415,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 3,
+      "hour": 18,
+      "left_peers": 154,
+      "left_take": 52,
+      "limit": 108,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 423,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 38,
+      "right_peers": 169,
+      "right_take": 56,
+      "scope_rows": 9383,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 3,
+      "hour": 18,
+      "left_peers": 154,
+      "left_take": 52,
+      "limit": 441,
+      "mandatory_middle": 332,
+      "observable_wrong_quota_detected": 0,
+      "offset": 423,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 39,
+      "right_peers": 171,
+      "right_take": 57,
+      "scope_rows": 9383,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 10,
+      "hour": 17,
+      "left_peers": 145,
+      "left_take": 49,
+      "limit": 95,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 371,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 40,
+      "right_peers": 139,
+      "right_take": 46,
+      "scope_rows": 9447,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 10,
+      "hour": 17,
+      "left_peers": 145,
+      "left_take": 49,
+      "limit": 388,
+      "mandatory_middle": 288,
+      "observable_wrong_quota_detected": 0,
+      "offset": 371,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 40,
+      "right_peers": 153,
+      "right_take": 51,
+      "scope_rows": 9447,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 10,
+      "hour": 18,
+      "left_peers": 168,
+      "left_take": 56,
+      "limit": 112,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 438,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 43,
+      "right_peers": 170,
+      "right_take": 56,
+      "scope_rows": 9879,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 10,
+      "hour": 18,
+      "left_peers": 168,
+      "left_take": 56,
+      "limit": 463,
+      "mandatory_middle": 344,
+      "observable_wrong_quota_detected": 0,
+      "offset": 438,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 42,
+      "right_peers": 189,
+      "right_take": 63,
+      "scope_rows": 9879,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 17,
+      "hour": 17,
+      "left_peers": 131,
+      "left_take": 44,
+      "limit": 93,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 385,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 38,
+      "right_peers": 149,
+      "right_take": 49,
+      "scope_rows": 9396,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 17,
+      "hour": 17,
+      "left_peers": 131,
+      "left_take": 44,
+      "limit": 403,
+      "mandatory_middle": 308,
+      "observable_wrong_quota_detected": 0,
+      "offset": 385,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 35,
+      "right_peers": 154,
+      "right_take": 51,
+      "scope_rows": 9396,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 17,
+      "hour": 18,
+      "left_peers": 122,
+      "left_take": 41,
+      "limit": 92,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 377,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 38,
+      "right_peers": 155,
+      "right_take": 51,
+      "scope_rows": 9473,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 17,
+      "hour": 18,
+      "left_peers": 122,
+      "left_take": 41,
+      "limit": 420,
+      "mandatory_middle": 324,
+      "observable_wrong_quota_detected": 0,
+      "offset": 377,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 39,
+      "right_peers": 166,
+      "right_take": 55,
+      "scope_rows": 9473,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 24,
+      "hour": 17,
+      "left_peers": 146,
+      "left_take": 49,
+      "limit": 97,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 369,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 38,
+      "right_peers": 145,
+      "right_take": 48,
+      "scope_rows": 8663,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 24,
+      "hour": 17,
+      "left_peers": 146,
+      "left_take": 49,
+      "limit": 366,
+      "mandatory_middle": 270,
+      "observable_wrong_quota_detected": 0,
+      "offset": 369,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 40,
+      "right_peers": 141,
+      "right_take": 47,
+      "scope_rows": 8663,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        3
+      ],
+      "day": 24,
+      "hour": 18,
+      "left_peers": 155,
+      "left_take": 52,
+      "limit": 101,
+      "mandatory_middle": 0,
+      "observable_wrong_quota_detected": 0,
+      "offset": 397,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 40,
+      "right_peers": 149,
+      "right_take": 49,
+      "scope_rows": 8720,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    },
+    {
+      "band_indices": [
+        2,
+        5
+      ],
+      "day": 24,
+      "hour": 18,
+      "left_peers": 155,
+      "left_take": 52,
+      "limit": 384,
+      "mandatory_middle": 288,
+      "observable_wrong_quota_detected": 0,
+      "offset": 397,
+      "opposite_id_refinement_changes_projection": true,
+      "projected_value_overlap": 40,
+      "right_peers": 132,
+      "right_take": 44,
+      "scope_rows": 8720,
+      "stock_legal": true,
+      "wrong_physical_quota_controls": 8
+    }
+  ],
+  "cells_with_distinct_legal_projected_bags": 16,
+  "controlled_quota_deviations": 128,
+  "duckdb": "2.0.1",
+  "observable_wrong_quota_detected": 0,
+  "pyarrow": "26.0.1",
+  "source_sha256": "2cf2f3127f96d4d5dea30f8afe05119cf8e4ba57bd9e60b789d3f296fc8459ab",
+  "tiny_literal_candidates": 963
+}

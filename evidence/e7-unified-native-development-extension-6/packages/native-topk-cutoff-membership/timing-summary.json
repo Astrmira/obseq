@@ -1,0 +1,58 @@
+[
+  {
+    "file": "2014-03.parquet",
+    "k": 32,
+    "rerun_median_ns": 417480326,
+    "guard_median_ns": 330178945,
+    "guard_over_rerun": 0.790885
+  },
+  {
+    "file": "2014-03.parquet",
+    "k": 1024,
+    "rerun_median_ns": 851174843,
+    "guard_median_ns": 393839610,
+    "guard_over_rerun": 0.462701
+  },
+  {
+    "file": "2019-03.parquet",
+    "k": 32,
+    "rerun_median_ns": 245240304,
+    "guard_median_ns": 213247099,
+    "guard_over_rerun": 0.869543
+  },
+  {
+    "file": "2019-03.parquet",
+    "k": 1024,
+    "rerun_median_ns": 584605486,
+    "guard_median_ns": 230534525,
+    "guard_over_rerun": 0.394342
+  },
+  {
+    "file": "2025-03.parquet",
+    "k": 32,
+    "rerun_median_ns": 99089280,
+    "guard_median_ns": 24933566,
+    "guard_over_rerun": 0.251627
+  },
+  {
+    "file": "2025-03.parquet",
+    "k": 1024,
+    "rerun_median_ns": 345602639,
+    "guard_median_ns": 35194925,
+    "guard_over_rerun": 0.101836
+  },
+  {
+    "file": "2026-03.parquet",
+    "k": 32,
+    "rerun_median_ns": 115063960,
+    "guard_median_ns": 48130766,
+    "guard_over_rerun": 0.418296
+  },
+  {
+    "file": "2026-03.parquet",
+    "k": 1024,
+    "rerun_median_ns": 313391834,
+    "guard_median_ns": 56025223,
+    "guard_over_rerun": 0.178771
+  }
+]

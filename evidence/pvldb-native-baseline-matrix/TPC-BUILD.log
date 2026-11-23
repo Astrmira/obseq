@@ -1,0 +1,4 @@
+{"suite": "tpcds", "scale": 1, "table": "store_sales", "rows": 2880404, "extension_sha256": "0dc0c8fcdc401257a3dceeffc1675111beb6358913ab50ffd46bc24fb581ca02"}
+{"suite": "tpch", "scale": 10, "table": "lineitem", "rows": 59986052, "extension_sha256": "415c1b36d3e30f0d94b7eba826b03f3628787c5b8a1b1fb6336f002b478bf775"}
+{"suite": "tpcds", "scale": 10, "table": "store_sales", "rows": 28800991, "extension_sha256": "0dc0c8fcdc401257a3dceeffc1675111beb6358913ab50ffd46bc24fb581ca02"}
+tpc_build_exit=0

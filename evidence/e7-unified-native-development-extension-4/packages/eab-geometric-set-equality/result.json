@@ -1,0 +1,13 @@
+{
+  "gdal": "3100300",
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "n_diff_same_envelope_and_area": 24,
+  "n_equal": 32,
+  "n_equal_structural": 3,
+  "n_equal_wkb": 3,
+  "pairs": 2016
+}

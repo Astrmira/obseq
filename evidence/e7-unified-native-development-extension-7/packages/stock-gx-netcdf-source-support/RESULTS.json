@@ -1,0 +1,106 @@
+{
+  "gx": "1.25.0",
+  "pandas": "3.1.1",
+  "reports": {
+    "BCM": {
+      "native_meta": {
+        "decoded_dtype": "uint8",
+        "fill": 255,
+        "hi": 1,
+        "lo": 0,
+        "missing": 47162,
+        "n": 3750000,
+        "native": "GDAL 3.10.3, released 2025/04/01",
+        "observed_range_invalid": 0,
+        "shape": [
+          1500,
+          2500
+        ]
+      },
+      "observed_numeric_domain_valid": true,
+      "observed_support": [
+        3702838,
+        3750000
+      ],
+      "raw": {
+        "in_range": {
+          "missing": 0,
+          "n": 3750000,
+          "success": false,
+          "unexpected": 47162
+        },
+        "nonnull": {
+          "missing": null,
+          "n": 3750000,
+          "success": true,
+          "unexpected": 0
+        }
+      },
+      "source_support_nullable": {
+        "in_range": {
+          "missing": 47162,
+          "n": 3750000,
+          "success": true,
+          "unexpected": 0
+        },
+        "nonnull": {
+          "missing": null,
+          "n": 3750000,
+          "success": false,
+          "unexpected": 47162
+        }
+      },
+      "strict_complete_scientific_grid": false
+    },
+    "sst": {
+      "native_meta": {
+        "decoded_dtype": "int16",
+        "fill": -999,
+        "hi": 4500,
+        "lo": -300,
+        "missing": 345650,
+        "n": 1036800,
+        "native": "GDAL 3.10.3, released 2025/04/01",
+        "observed_range_invalid": 0,
+        "shape": [
+          720,
+          1440
+        ]
+      },
+      "observed_numeric_domain_valid": true,
+      "observed_support": [
+        691150,
+        1036800
+      ],
+      "raw": {
+        "in_range": {
+          "missing": 0,
+          "n": 1036800,
+          "success": false,
+          "unexpected": 345650
+        },
+        "nonnull": {
+          "missing": null,
+          "n": 1036800,
+          "success": true,
+          "unexpected": 0
+        }
+      },
+      "source_support_nullable": {
+        "in_range": {
+          "missing": 345650,
+          "n": 1036800,
+          "success": true,
+          "unexpected": 0
+        },
+        "nonnull": {
+          "missing": null,
+          "n": 1036800,
+          "success": false,
+          "unexpected": 345650
+        }
+      },
+      "strict_complete_scientific_grid": false
+    }
+  }
+}

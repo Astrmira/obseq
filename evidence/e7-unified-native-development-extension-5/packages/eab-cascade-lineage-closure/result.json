@@ -1,0 +1,45 @@
+{
+  "authored_seeded_forest_cases": 64,
+  "cases": {
+    "A/off": {
+      "foreign_key_violations": 1,
+      "removed": [
+        1
+      ],
+      "returning": [
+        1
+      ]
+    },
+    "A/on": {
+      "foreign_key_violations": 0,
+      "removed": [
+        1,
+        2,
+        3
+      ],
+      "returning": [
+        1
+      ]
+    },
+    "B/off": {
+      "foreign_key_violations": 1,
+      "removed": [
+        1
+      ],
+      "returning": [
+        1
+      ]
+    },
+    "B/on": {
+      "foreign_key_violations": 0,
+      "removed": [
+        1,
+        2
+      ],
+      "returning": [
+        1
+      ]
+    }
+  },
+  "sqlite": "3.53.1"
+}

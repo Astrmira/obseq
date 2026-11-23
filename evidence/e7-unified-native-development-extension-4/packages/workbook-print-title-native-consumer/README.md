@@ -1,0 +1,9 @@
+# A sheet clone can preserve every cell yet lose repeated print headers
+
+**Print contract.** In this single-sheet authored workbook, every body row must appear once in order across all printed pages, and the header row must appear on every page with body content. Body and header labels are disjoint text markers. The contract is deliberately page-count-independent; it permits a different pagination if the observable obligations are met. Output reproduction tests a pinned exporter rather than treating the worksheet object as the rendered result.
+
+Three actual openpyxl 3.1.5 writes: template with row 1 specified as repeated print title, copy_worksheet with default copy behavior, and copy explicitly restoring title rows. The copy cases each retain identical body cells and one physical header at A1. Raw workbook XML separately checks the sheet-local _xlnm.Print_Titles definition: default copy omits it, while the repaired copy has the correct local index and copy sheet target. Removing the source after copying keeps the observation focused on one sheet and the exported page sections.
+
+The optional consumer command exports three PDFs via LibreOfficeDev 26.8.0.0.alpha0 (2c87e51eeaa2b413ff4ae097b2705eea1995d8e5), independently splits actual page text with Poppler pdftotext 25.03.0 and checks exact body row coverage, order and header presence. Template and repaired copy satisfy the page-level contract; default copy loses the repeated header on later pages despite content retention. This is not a general equivalence test for formats, expressions, graphics, layout, or Excel's print behavior. A missing marker is observable here; PDF text extraction alone is not a generic visual oracle.
+
+Replay: `python3 -IB check.py | cmp - result.json`. Actual PDF observation: `python3 -IB check.py --consumer | cmp - consumer.json`.

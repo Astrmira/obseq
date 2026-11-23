@@ -1,0 +1,13 @@
+{
+  "files_sha256": {
+    "CASES.json": "b7421e79d5488b7faa9dee89c606750e9471cebc687852ba7534872a3059fa0b",
+    "DeequControl.scala": "0e99c7deab4f830ab7e087f16f2a9ee3f9f812ef5337b191c33c860bb5858fd6",
+    "README.md": "71e8bba70f71a3ecda6f5f53d2c51dbabbce5be6089885ac5748a99aa0ba0c31",
+    "RESULT.json": "d99804b3aa7db3c1d37494a2aa4a0bd2a0ab63470a76c14a9fc7adf793b601d3",
+    "SEALED_LABELS.json": "fe1f3be17999c0c4cc982d37ffe1b1a0288891331cd60721f8b2196ca5a0c96a",
+    "SHA256SUMS": "7bbf45c4a6db6a78b396c7b3b93879b12e80be8264c1e9fc4509b45ff0fd3efe",
+    "run.py": "72f140b3fca49908b8fc41fc7e741e8979358b95f80a20558c402a12a9be4298"
+  },
+  "predecessor": "2837115c9bc9faae1cd270cc9ad8f11c25a09533",
+  "project": "semantic-benchmark"
+}

@@ -1,0 +1,11 @@
+# Read-only streaming: declared dimensions and cache visibility are different contracts
+
+On openpyxl 3.1.5, authored worksheet XML varies only the dimension metadata across six cases. The fixture has seven meaningful physical cells (literal zero, text, numbers, a formula with cache and a formula without cache). A known cache value 7 for D9+4 is placed in OOXML; there is no Excel recalculation claim. Full loads and streaming with reset_dimensions() both agree with independent expected coordinates/value identities in both formula and cached-value modes.
+
+- A1:D10 silently hides four formula-mode payloads (including cached and uncached formulas) and three cached-value payloads. A1:L20 hides three and two. An empty-looking cached stream is not proof that no formula exists.
+- A correct A1:N42 emits 588 tuple positions on the default streaming reader. An oversized A1:Z55 emits 1,092, despite identical nonempty content and still only 42 returned rows in this fixture. reset_dimensions() produces variable-length rows, 45 total tuple positions, with all correct payloads in all six arms. Position counts are not performance measurements.
+- A shifted lower bound D10:N42 does not clip the earlier records with default iter_rows() arguments on this version. An absent dimension does not clip and matches reset behavior here. The observed upper-bound effect must not be generalized to a symmetric bounding-box rule.
+
+**Boundary of a metadata-only guard.** A second authored workbook physically removes all cells outside A1:D10. It has the same stale-or-true declared dimension as the full workbook. Default streaming produces exactly the same observables, including row and tuple-position counts, in both cached and formula modes, yet a full traversal finds additional payloads in one. Thus the dimension plus a clipped iteration cannot certify completeness. Resetting dimensions before reading is sufficient for the content-only contract covered here. It changes row shapes; code with a rectangular output contract must explicitly project/pad using an independently trustworthy schema instead of equating ragged length with row content. This result says nothing about validation, charts, streaming writers, other versions or actual user files.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

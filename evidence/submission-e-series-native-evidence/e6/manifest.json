@@ -1,0 +1,38 @@
+{
+  "1000": {
+    "aggregate": [
+      1000,
+      51789170
+    ],
+    "consumer": 3058708,
+    "logical": "70cfc7570c8c43a323f6646868c101b63144e47df53fa2697777e64328976db9",
+    "physical": "756212f379f50cc451f999a7af6df40186930876c79af3be300ee523c9305733"
+  },
+  "10000": {
+    "aggregate": [
+      10000,
+      523215400
+    ],
+    "consumer": 30989079,
+    "logical": "f6c4f277ee0f73a8e4892c986323cd022d2b27798e64290b5b85b624b79b0af0",
+    "physical": "cfef527a0a76bc079e28a912e775e736101bc0815b6ab98d9201b55abfe4a295"
+  },
+  "100000": {
+    "aggregate": [
+      100000,
+      5235956737
+    ],
+    "consumer": 307898067,
+    "logical": "36535b3dc8cf86acb49e2e352c3d53f666d08b361b6da7a6bfe37578db700aa5",
+    "physical": "8e436b03b95c2dd20ec623204fea4a612660415eb061440add06b4e014109ab9"
+  },
+  "1000000": {
+    "aggregate": [
+      1000000,
+      52363759231
+    ],
+    "consumer": 3080839620,
+    "logical": "6a34b6dcafd63ff19907a972cb129f0216f10e5c6857beafa07ae77a4bc3a0e2",
+    "physical": "6f43c02436bb02a81257241e8723c66579fa2b6e5116871247a8a6ffb7f888b0"
+  }
+}

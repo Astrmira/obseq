@@ -1,0 +1,198 @@
+{
+  "geos": "3.13.1-CAPI-1.19.2",
+  "input_sha256": "15517292a5562e086582ba6f6433e9c8d2f6e8238cf55057c7caeac6d183f476",
+  "predictions": [
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q01",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": false,
+      "id": "q02",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": false,
+      "id": "q03",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q04",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q05",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q06",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q07",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q08",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q09",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": false,
+      "id": "q10",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": true,
+      "id": "q11",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": true,
+      "id": "q12",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": true,
+      "id": "q13",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q14",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q15",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q16",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 1,
+      "fallback": true,
+      "id": "q17",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": true,
+      "id": "q18",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": true,
+      "id": "q19",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q20",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": -1,
+      "decimal_contract": -1,
+      "fallback": false,
+      "id": "q21",
+      "plain_float": -1,
+      "stock_geos": -1
+    },
+    {
+      "certified": 1,
+      "decimal_contract": 1,
+      "fallback": false,
+      "id": "q22",
+      "plain_float": 1,
+      "stock_geos": 1
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 0,
+      "fallback": true,
+      "id": "q23",
+      "plain_float": 0,
+      "stock_geos": 0
+    },
+    {
+      "certified": 0,
+      "decimal_contract": 1,
+      "fallback": true,
+      "id": "q24",
+      "plain_float": 0,
+      "stock_geos": 0
+    }
+  ]
+}

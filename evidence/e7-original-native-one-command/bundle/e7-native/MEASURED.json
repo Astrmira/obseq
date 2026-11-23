@@ -1,0 +1,1556 @@
+{
+  "engine_versions": {
+    "sqlite": "3.53.1",
+    "duckdb": "1.4.3",
+    "polars": "1.35.2",
+    "datafusion": "50.1.0"
+  },
+  "scope": "12 heldout F1/F2 cases only",
+  "totals": {
+    "total|exact": {
+      "valid": 48
+    },
+    "sqlite|F1|exact": {
+      "valid": 6
+    },
+    "total|control": {
+      "invalid": 44,
+      "valid": 4
+    },
+    "sqlite|F1|control": {
+      "invalid": 6
+    },
+    "sqlite|F2|exact": {
+      "valid": 6
+    },
+    "sqlite|F2|control": {
+      "invalid": 5,
+      "valid": 1
+    },
+    "duckdb|F1|exact": {
+      "valid": 6
+    },
+    "duckdb|F1|control": {
+      "invalid": 6
+    },
+    "duckdb|F2|exact": {
+      "valid": 6
+    },
+    "duckdb|F2|control": {
+      "invalid": 5,
+      "valid": 1
+    },
+    "polars|F1|exact": {
+      "valid": 6
+    },
+    "polars|F1|control": {
+      "invalid": 6
+    },
+    "polars|F2|exact": {
+      "valid": 6
+    },
+    "polars|F2|control": {
+      "invalid": 5,
+      "valid": 1
+    },
+    "datafusion|F1|exact": {
+      "valid": 6
+    },
+    "datafusion|F1|control": {
+      "invalid": 6
+    },
+    "datafusion|F2|exact": {
+      "valid": 6
+    },
+    "datafusion|F2|control": {
+      "invalid": 5,
+      "valid": 1
+    }
+  },
+  "rows": [
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) = CAST(b AS BIGINT) AS actual FROM t",
+      "actual": 0,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) = CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": 1,
+      "expected": false,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": -9007199254740995,
+      "expected": -9007199254740995,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": -9007199254740996.0,
+      "expected": -9007199254740995,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": 2,
+      "expected": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": 1,
+      "expected": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": 9007199254740997,
+      "expected": 9007199254740997,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": 9007199254740996.0,
+      "expected": 9007199254740997,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT MAX(CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": -9223372036854775807,
+      "expected": -9223372036854775807,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT MAX(CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": -9.223372036854776e+18,
+      "expected": -9223372036854775807,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) - CAST(b AS BIGINT) AS actual FROM t",
+      "actual": 15,
+      "expected": 15,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) - CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": 0.0,
+      "expected": 15,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [],
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "expected": [],
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT COALESCE(a IS NOT DISTINCT FROM b, FALSE) FROM t",
+      "actual": 0,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT COALESCE(a = b, FALSE) FROM t",
+      "actual": 0,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) = CAST(b AS BIGINT) AS actual FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) = CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": true,
+      "expected": false,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": -9007199254740995,
+      "expected": -9007199254740995,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": -9007199254740996.0,
+      "expected": -9007199254740995,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": 2,
+      "expected": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": 1,
+      "expected": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": 9007199254740997,
+      "expected": 9007199254740997,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": 9007199254740996.0,
+      "expected": 9007199254740997,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT MAX(CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": -9223372036854775807,
+      "expected": -9223372036854775807,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT MAX(CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": -9.223372036854776e+18,
+      "expected": -9223372036854775807,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) - CAST(b AS BIGINT) AS actual FROM t",
+      "actual": 15,
+      "expected": 15,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) - CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": 0.0,
+      "expected": 15,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [],
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "expected": [],
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT COALESCE(a IS NOT DISTINCT FROM b, FALSE) FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT COALESCE(a = b, FALSE) FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "a",
+          null
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "[(col(\"a\").strict_cast(Int64)) == (col(\"b\").strict_cast(Int64))]",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "[(col(\"a\").strict_cast(Float64)) == (col(\"b\").strict_cast(Float64))]",
+      "actual": true,
+      "expected": false,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "col(\"a\").strict_cast(Int64)",
+      "actual": -9007199254740995,
+      "expected": -9007199254740995,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "col(\"a\").strict_cast(Float64)",
+      "actual": -9007199254740996.0,
+      "expected": -9007199254740995,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "col(\"a\").strict_cast(Int64).n_unique()",
+      "actual": 2,
+      "expected": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "col(\"a\").strict_cast(Float64).n_unique()",
+      "actual": 1,
+      "expected": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "col(\"a\").strict_cast(Int64)",
+      "actual": 9007199254740997,
+      "expected": 9007199254740997,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "col(\"a\").strict_cast(Float64)",
+      "actual": 9007199254740996.0,
+      "expected": 9007199254740997,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "col(\"a\").strict_cast(Int64).max()",
+      "actual": -9223372036854775807,
+      "expected": -9223372036854775807,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "col(\"a\").strict_cast(Float64).max()",
+      "actual": -9.223372036854776e+18,
+      "expected": -9223372036854775807,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "[(col(\"a\").strict_cast(Int64)) - (col(\"b\").strict_cast(Int64))]",
+      "actual": 15,
+      "expected": 15,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "[(col(\"a\").strict_cast(Float64)) - (col(\"b\").strict_cast(Float64))]",
+      "actual": 0.0,
+      "expected": 15,
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "join(on=['k0'], how='inner', nulls_equal=False).select(lid,rid)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "join(on=['k0'], how='inner', nulls_equal=True).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "join(on=['k0', 'k1'], how='inner', nulls_equal=True).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "join(on=['k0', 'k1'], how='inner', nulls_equal=False).select(lid,rid)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "join(on=['k0', 'k1'], how='inner', nulls_equal=False).select(lid,rid)",
+      "actual": [],
+      "expected": [],
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "join(on=['k0', 'k1'], how='inner', nulls_equal=True).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "expected": [],
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "join(on=['k0'], how='inner', nulls_equal=True).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "join(on=['k0'], how='inner', nulls_equal=False).select(lid,rid)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "[(col(\"a\")) ==v (col(\"b\"))].fill_null(False)",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "[(col(\"a\")) == (col(\"b\"))].fill_null(False)",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "join(on=['k0'], how='left', nulls_equal=False).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "polars",
+      "version": "1.35.2",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "join(on=['k0'], how='left', nulls_equal=True).select(lid,rid)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) = CAST(b AS BIGINT) AS actual FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-01",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) = CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": true,
+      "expected": false,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": -9007199254740995,
+      "expected": -9007199254740995,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-02",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": -9007199254740996.0,
+      "expected": -9007199254740995,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": 2,
+      "expected": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-03",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT COUNT(DISTINCT CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": 1,
+      "expected": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) AS actual FROM t",
+      "actual": 9007199254740997,
+      "expected": 9007199254740997,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-04",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) AS actual FROM t",
+      "actual": 9007199254740996.0,
+      "expected": 9007199254740997,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT MAX(CAST(a AS BIGINT)) AS actual FROM t",
+      "actual": -9223372036854775807,
+      "expected": -9223372036854775807,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-05",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT MAX(CAST(a AS DOUBLE)) AS actual FROM t",
+      "actual": -9.223372036854776e+18,
+      "expected": -9223372036854775807,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "exact",
+      "operation": "SELECT CAST(a AS BIGINT) - CAST(b AS BIGINT) AS actual FROM t",
+      "actual": 15,
+      "expected": 15,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F1-06",
+      "cls": "F1",
+      "arm": "control",
+      "operation": "SELECT CAST(a AS DOUBLE) - CAST(b AS DOUBLE) AS actual FROM t",
+      "actual": 0.0,
+      "expected": 15,
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-01",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-02",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "r"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0) AND (l.k1 = r.k1)",
+      "actual": [],
+      "expected": [],
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-03",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0) AND (l.k1 IS NOT DISTINCT FROM r.k1)",
+      "actual": [
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "expected": [],
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-04",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l INNER JOIN r ON (l.k0 = r.k0)",
+      "actual": [],
+      "expected": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "status": "invalid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT COALESCE(a IS NOT DISTINCT FROM b, FALSE) FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-05",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT COALESCE(a = b, FALSE) FROM t",
+      "actual": false,
+      "expected": false,
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "exact",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 = r.k0)",
+      "actual": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "a",
+          null
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "valid"
+    },
+    {
+      "engine": "datafusion",
+      "version": "50.1.0",
+      "case_id": "E7H-F2-06",
+      "cls": "F2",
+      "arm": "control",
+      "operation": "SELECT l.lid, r.rid FROM l LEFT JOIN r ON (l.k0 IS NOT DISTINCT FROM r.k0)",
+      "actual": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "expected": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "status": "invalid"
+    }
+  ]
+}

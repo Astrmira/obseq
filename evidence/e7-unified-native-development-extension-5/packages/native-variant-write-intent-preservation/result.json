@@ -1,0 +1,3891 @@
+{
+  "duckdb": "2.0.1",
+  "patterns": {
+    "0": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "034da039f811cad39f5d8c1fb9e190f975299bc17c83cf826b1dfd572f71426a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "1a9f6c727445f88bee9d499143c0f5be896f599e208637bdd77a984d3de6728d",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "034da039f811cad39f5d8c1fb9e190f975299bc17c83cf826b1dfd572f71426a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "1": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "2b2a9f4c119a7c83965782485edf277df99c8d74946ca58c46e3da11c53d0518",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "153e0eee1f70ea87fc7bb4756882cdb214ec6a26e01de623ff5529a4993daffc",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "2b2a9f4c119a7c83965782485edf277df99c8d74946ca58c46e3da11c53d0518",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "10": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "cebd063ec2913dcb3f953376ea3f7d48a1803310041c23305f5ebb4cdcde8bf5",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "52111a96eec97adc9a1e2f1c70565dacb9dab8dfec7523b5f8661e16f7780fff",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "cebd063ec2913dcb3f953376ea3f7d48a1803310041c23305f5ebb4cdcde8bf5",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "11": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ef03de45e0c9a6b0d282ea38e8afabfff7174a9832a5ea5f4e59707483ac677a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "b3c6cf4e42bbaf686c46f017db3219c248b2dedf343d90dd04fe24401cadaa30",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ef03de45e0c9a6b0d282ea38e8afabfff7174a9832a5ea5f4e59707483ac677a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "12": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "bccefb7869ef0d1c8b9dba8d5f457939bbcd23bee0b595fab8fac0235dcb56d1",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "b6757ef70681765a7dabcd649d75b2ae26f7fd48bc224680e07102093014e3fb",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "bccefb7869ef0d1c8b9dba8d5f457939bbcd23bee0b595fab8fac0235dcb56d1",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "13": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "487ff677e03ad8f20989e7ae35628e3a4482e74b9f448dcfe09546d6d9e6cae7",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "502cccddcc7c1019afdaed0f01cd46a2b33a85a7ac97f3d12b0c0d498742b8db",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "487ff677e03ad8f20989e7ae35628e3a4482e74b9f448dcfe09546d6d9e6cae7",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "14": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "1705277f249cce5fabc573b94a8982cc52abfc6aa9143f842fd445366b285827",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "0c6ef548e9f2d491e9018a1400e95bfc3c1f3739af461d7ca8e7e0ccb94e8d94",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "1705277f249cce5fabc573b94a8982cc52abfc6aa9143f842fd445366b285827",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "15": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "197f3b5d52596a41db23b45e369afa1d174b9fc732a017b549a9d6d14d579024",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "683796a730962ca968f1a07c8d402d525eb1e4f7af43144d8243f3c8116b0d38",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "197f3b5d52596a41db23b45e369afa1d174b9fc732a017b549a9d6d14d579024",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "16": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "1c6a9ea489524c7c9ebb169300991adb21c993ee186866aae898efca6f548e21",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "6ee8515c29764f79f7b95037e1d5210cc5799403282d06b712a4eb042ef23505",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "1c6a9ea489524c7c9ebb169300991adb21c993ee186866aae898efca6f548e21",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "17": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "2c44c2a43a0f12747d62fe9d7048255ffaccdec4cc3247e9bdedb2c8bbd350c5",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "4048d5b536bb622c8155857a118f5a6d413c9708f9a5fed512fcc9d746762c70",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "2c44c2a43a0f12747d62fe9d7048255ffaccdec4cc3247e9bdedb2c8bbd350c5",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "18": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "c394b22b3731b6d2f78481200805416b3aae9bae88748014ee8bced33956a1c3",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "372c383af9950df9e22e79f0bc42c6d03ba0fea0d853d0098b9aeac7104abaf1",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "c394b22b3731b6d2f78481200805416b3aae9bae88748014ee8bced33956a1c3",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "19": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "c549a90ab72ce30d699102c9cf8fa8b3d48af4f24592878a9c8e05a872205744",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "aa93600c0af7eff03862a71d991bd3a98fe8634062f2ed70cf6f144c07b2b092",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "c549a90ab72ce30d699102c9cf8fa8b3d48af4f24592878a9c8e05a872205744",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "2": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "933f2665f996e87cd36d82d7e860cdc0acf450fbd5aac9b555a98d34688613f2",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "d84929f4f8232f8df38f13904a925fac8bef02e48f642b8c307c3366a1e5581b",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "933f2665f996e87cd36d82d7e860cdc0acf450fbd5aac9b555a98d34688613f2",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "3": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "dffc2f583d758e3ce52138a4796bda93c13cf1c9a8d68cda384c80e2fcb1c6b0",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "a993d7bd4cd7344185aa739c4207b56a8793aae241852250aef0bdd46c082817",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "dffc2f583d758e3ce52138a4796bda93c13cf1c9a8d68cda384c80e2fcb1c6b0",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "4": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "004e6387649c0b6d8ef782cea5198e2b6a93f1effb6ab3e32f3cdc6235d7f10c",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "b956883b581a195e6e7ef09d4d02e0b37eb8b88f14f4e26c8eff833151563767",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          null,
+          "41",
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "004e6387649c0b6d8ef782cea5198e2b6a93f1effb6ab3e32f3cdc6235d7f10c",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "5": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "fa5cfbc219753ce57db6e125a1ff117ac88c35890e671e06936a1aed80818d22",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "7c34ee6cff051375ec3853a0b558c9ea70613607437d3b0eb3800adbd05cdd6b",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "fa5cfbc219753ce57db6e125a1ff117ac88c35890e671e06936a1aed80818d22",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "6": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "6ae1ce853f4a8ad24c0750f09e88d3e53333054a5335d57738fecb120de27f9a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ed2f44af6a0351a0c01969a4d57cc5af1c71c6e57afd43b6e4dfb298f13a62b4",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          null,
+          "41",
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "6ae1ce853f4a8ad24c0750f09e88d3e53333054a5335d57738fecb120de27f9a",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "7": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ae9180b553d5a49b021ad68dbffb060296e54a2dfb26ebcaf5c845078c6ef85e",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "4876f05c3363e12333ec60e154191f9f2c376126bd5aa3c71be98bea8163bbe1",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          null,
+          "41",
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ae9180b553d5a49b021ad68dbffb060296e54a2dfb26ebcaf5c845078c6ef85e",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "8": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "f5cafb9cb26f34daabfa16c8ce2f4ec88b0e21f7922db151dc0478d99adab706",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "e0981acc8e0e7e980543ac114ef1b43194af33dc4f658efd47e304436bd3e5d0",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          null,
+          "41",
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "f5cafb9cb26f34daabfa16c8ce2f4ec88b0e21f7922db151dc0478d99adab706",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    },
+    "9": {
+      "default": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "3333b1005f62b568584b2a1b22d5775399d7396c16548b4f756f032d3a1e0275",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "integer": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "ec6ff559b5f93cf0bf60eb5a2dfe720b4ba56a9acb1d8658425c0a886ff8ff7d",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value INTEGER))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value INTEGER)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "INT32",
+            "INTEGER"
+          ]
+        ],
+        "skip_null_wrong": 3
+      },
+      "varchar": {
+        "flat": "464fc3d56b713981bf1d8878367ded33badfceb6e9f32ec4b787ebd8c1e76b55",
+        "full_merge": [
+          null,
+          "41",
+          "41",
+          "41",
+          null,
+          null,
+          "\"null\"",
+          "0",
+          "\"0\""
+        ],
+        "native_subtype_for_json_zero": "INT64",
+        "raw": "3333b1005f62b568584b2a1b22d5775399d7396c16548b4f756f032d3a1e0275",
+        "schema": [
+          [
+            "duckdb_schema",
+            null,
+            null
+          ],
+          [
+            "id",
+            "INT32",
+            "INTEGER"
+          ],
+          [
+            "v",
+            null,
+            "VARIANT"
+          ],
+          [
+            "metadata",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            null,
+            "STRUCT(k STRUCT(\"value\" BLOB, typed_value VARCHAR))"
+          ],
+          [
+            "k",
+            null,
+            "STRUCT(\"value\" BLOB, typed_value VARCHAR)"
+          ],
+          [
+            "value",
+            "BYTE_ARRAY",
+            "BLOB"
+          ],
+          [
+            "typed_value",
+            "BYTE_ARRAY",
+            "VARCHAR"
+          ]
+        ],
+        "skip_null_wrong": 3
+      }
+    }
+  },
+  "rfc7396_native_effects": [
+    {
+      "k": 7
+    },
+    {}
+  ]
+}

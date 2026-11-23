@@ -1,0 +1,42 @@
+[
+  {
+    "duckdb": "1.4.3",
+    "fresh_after": [
+      2,
+      3
+    ],
+    "native_sha256": "f8dba4b1f5c8e5f6e872f83e3b327f94c6f962f2bd3cb0acf5551cf60bbfaba2",
+    "parameterized_after": [
+      2,
+      3
+    ],
+    "prepare_after": [
+      5,
+      0
+    ],
+    "prepare_before": [
+      2,
+      0
+    ]
+  },
+  {
+    "duckdb": "2.0.1",
+    "fresh_after": [
+      2,
+      3
+    ],
+    "native_sha256": "df8f5e3fc55cc374b87156d8780062385ee832c4122a457860d29e2a927b232f",
+    "parameterized_after": [
+      2,
+      3
+    ],
+    "prepare_after": [
+      2,
+      3
+    ],
+    "prepare_before": [
+      2,
+      0
+    ]
+  }
+]

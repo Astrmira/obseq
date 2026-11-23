@@ -1,0 +1,134 @@
+{
+  "gdal": "3100300",
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "manifest_sha256": "6472fd954f1c72620a973c9b018899b6a88e30a14d16600cf786a20a0f2365d7",
+  "results": {
+    "old": {
+      "aggregate": {
+        "north": 6,
+        "west": 7
+      },
+      "artifact_geometry_and_ids_match": true,
+      "mismatching_score_ids": [
+        11,
+        12
+      ],
+      "mixed_epoch_partitions": [],
+      "partition_latest_epoch": {
+        "north": 0,
+        "west": 0
+      },
+      "partition_oldest_epoch": {
+        "north": 0,
+        "west": 0
+      },
+      "production_epoch_current": false,
+      "result_matches": false
+    },
+    "partial": {
+      "aggregate": {
+        "north": 4,
+        "west": 7
+      },
+      "artifact_geometry_and_ids_match": true,
+      "mismatching_score_ids": [
+        12
+      ],
+      "mixed_epoch_partitions": [
+        "north"
+      ],
+      "partition_latest_epoch": {
+        "north": 1,
+        "west": 0
+      },
+      "partition_oldest_epoch": {
+        "north": 0,
+        "west": 0
+      },
+      "production_epoch_current": false,
+      "result_matches": false
+    },
+    "recompute": {
+      "aggregate": {
+        "north": 6,
+        "west": 7
+      },
+      "artifact_geometry_and_ids_match": true,
+      "mismatching_score_ids": [],
+      "mixed_epoch_partitions": [],
+      "partition_latest_epoch": {
+        "north": 1,
+        "west": 1
+      },
+      "partition_oldest_epoch": {
+        "north": 1,
+        "west": 1
+      },
+      "production_epoch_current": true,
+      "result_matches": true
+    },
+    "sparse-exact": {
+      "aggregate": {
+        "north": 6,
+        "west": 7
+      },
+      "artifact_geometry_and_ids_match": true,
+      "mismatching_score_ids": [],
+      "mixed_epoch_partitions": [
+        "north"
+      ],
+      "partition_latest_epoch": {
+        "north": 1,
+        "west": 0
+      },
+      "partition_oldest_epoch": {
+        "north": 0,
+        "west": 0
+      },
+      "production_epoch_current": false,
+      "result_matches": true
+    }
+  },
+  "scores_indexed_by_fid": {
+    "11": [
+      2,
+      0,
+      0,
+      2
+    ],
+    "12": [
+      0,
+      2,
+      2,
+      0
+    ],
+    "13": [
+      4,
+      4,
+      0,
+      0
+    ],
+    "21": [
+      6,
+      6,
+      2,
+      2
+    ],
+    "22": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "23": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

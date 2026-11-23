@@ -1,0 +1,29 @@
+{
+  "binary64_row_changes": 435,
+  "engine": "1.4.3",
+  "enumerated_nonnull_source_rows": 3875781,
+  "exact_equal_threshold_groups": 0,
+  "inventory_date_range_rows": 4080000,
+  "min_nonzero_abs_cv2_gap_to_threshold": "23/2577987",
+  "native": {
+    "1": {
+      "exact_binary64_disagreements": 1293,
+      "max_ulp": 2,
+      "month_predicate_binary64_vs_exact_mismatch": {
+        "extra": 0,
+        "missing": 0
+      }
+    },
+    "4": {
+      "exact_binary64_disagreements": 1255,
+      "max_ulp": 2,
+      "month_predicate_binary64_vs_exact_mismatch": {
+        "extra": 0,
+        "missing": 0
+      }
+    }
+  },
+  "output_groups": 2433,
+  "query_sha256": "a8b5c4867a595122e52f3823ceb116729c8ea4ad80cb446bab230982e96bd6be",
+  "tested_jan_feb_groups": 1019995
+}

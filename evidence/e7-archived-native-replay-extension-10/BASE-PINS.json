@@ -1,0 +1,33 @@
+{
+  "roots": {
+    "replay": {
+      "manifest_sha256": "90eeb231388529f4e576c8bd572029d1ca719c9bab7715a742c7652252129bc4",
+      "source_path": "evidence/e7-unified-native-development-replay/MANIFEST.json"
+    },
+    "extension-4": {
+      "manifest_sha256": "ed5e833cbf2813f4c13419d3ec5f2c305d021c054751daff889cdad3d6ced242",
+      "source_path": "evidence/e7-unified-native-development-extension-4/MANIFEST.json"
+    },
+    "extension-5": {
+      "manifest_sha256": "92cd22b89481daf93b1ce70dc4718c7fb96db8b5ad1099f88849cadb38be6061",
+      "source_path": "evidence/e7-unified-native-development-extension-5/MANIFEST.json"
+    },
+    "extension-6": {
+      "manifest_sha256": "2706c725f4bd7c2eff35b71f6e02a5c61d31461aed8f27559760e176c53e2289",
+      "source_path": "evidence/e7-unified-native-development-extension-6/MANIFEST.json"
+    },
+    "extension-7": {
+      "manifest_sha256": "9268266ccfbcc3786dc207727c3ec6e4b1c4a1316fd85e065423a4f4576270ad",
+      "provenance": "published immutable baseline",
+      "source_path": "evidence/e7-unified-native-development-extension-7/MANIFEST.json"
+    },
+    "extension-8": {
+      "manifest_sha256": "1d54c593712292c81a64c55973217c43c2faf93efe0ac77ed3d3d263b798141b",
+      "source_path": "evidence/e7-unified-native-development-extension-8/MANIFEST.json"
+    },
+    "extension-9": {
+      "manifest_sha256": "2f3427b2de6cabfb0216014e9444238b61e3bfca61301e3d0f719f564e4bb8fb",
+      "source_path": "evidence/e7-archived-native-replay-extension-9/MANIFEST.json"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "external_all_vertices_2p20_exactly_scaled": true,
+  "external_orientation_routes": {
+    "interval_sign": 4129,
+    "structural_zero": 131,
+    "zero_containing_fallback": 34
+  },
+  "external_probe_coords_2p20_exactly_scaled": 1479,
+  "external_probes": 1479,
+  "gdal": "3100300",
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "mixed_global_scale_nonzero_admissible": false,
+  "mixed_or_underflow_control_routes": {
+    "overflow_fallback": 1,
+    "zero_containing_fallback": 1
+  },
+  "same_authored_T": [
+    {
+      "arithmetic_route": {
+        "zero_containing_fallback": 2
+      },
+      "exact_filter": [
+        true,
+        true
+      ],
+      "native": [
+        false,
+        true
+      ],
+      "point_hex": [
+        "0x1.0000000000000p+0",
+        "0x0.0000000000001p-1022"
+      ],
+      "scale": 0
+    },
+    {
+      "arithmetic_route": {
+        "interval_sign": 1,
+        "zero_containing_fallback": 1
+      },
+      "exact_filter": [
+        true,
+        true
+      ],
+      "native": [
+        true,
+        true
+      ],
+      "point_hex": [
+        "0x1.0000000000000p+20",
+        "0x0.0000000100000p-1022"
+      ],
+      "scale": 20
+    }
+  ]
+}

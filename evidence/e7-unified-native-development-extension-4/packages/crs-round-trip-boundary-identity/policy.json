@@ -1,0 +1,10 @@
+{
+ "schema":"crs-roundtrip-planar-identity/v1",
+ "artifact":"/usr/share/qgis/resources/data/world_map.gpkg",
+ "sha256":"386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+ "selection":"countries FIDs 1,2,3,4,9,10, first simple non-hole component of at most 80 vertices with all latitudes in [-80,80] and longitudes strictly between -180 and 180; record exclusions",
+ "operation":"EPSG:4326 to EPSG:3857 to EPSG:4326, traditional GIS axis order; apply same round-trip to all vertices and probes; persist/reopen round-tripped polygons as EPSG:4326 in disposable GeoPackage",
+ "probes":"every original vertex (control); all exactly binary64 representable edge midpoints and their immediate one-ULP y-axis neighbors (new contract stress). No other probes",
+ "oracle":"exact dyadic ring simplicity and point category independently on original and round-tripped coordinate records; distinguish predicate error at one representation from category change between representations",
+ "limits":"planar byte observations, not projected straight-edge or geodesic equivalence; no geometry-changing repairs or threshold adjustment after observation"
+}

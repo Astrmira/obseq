@@ -1,0 +1,2437 @@
+{
+  "cases": [
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 0,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 2,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 3,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 4,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 5,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 6,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 7,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 8,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 9,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 10,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 11,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 12,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 13,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 14,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 15,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 16,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 17,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 2,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 3,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 4,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 5,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 7,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 8,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 9,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 10,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 11,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 12,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 13,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 14,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 15,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 16,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 17,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 18,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 2,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 3,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 4,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 5,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 7,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 8,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 9,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 10,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 11,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 12,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 13,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 14,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 15,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 16,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 17,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 18,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "alternate",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 0,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 1,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 2,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 3,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 4,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 5,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 6,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "unset",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 7,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "null",
+        "unset"
+      ],
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "Memory",
+      "error": null,
+      "fid": 8,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "unset"
+      ],
+      "values": [
+        0,
+        null
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 9,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 10,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 11,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 12,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 13,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 14,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 15,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 16,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 17,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 2,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 3,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 4,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 5,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "OGR Error: Non existing feature",
+      "fid": 7,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 8,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 9,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "failed to bind FID '10' to statement",
+      "fid": 10,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "failed to bind FID '11' to statement",
+      "fid": 11,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "failed to bind FID '12' to statement",
+      "fid": 12,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "failed to bind FID '13' to statement",
+      "fid": 13,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "failed to bind FID '14' to statement",
+      "fid": 14,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "failed to bind FID '15' to statement",
+      "fid": 15,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "failed to bind FID '16' to statement",
+      "fid": 16,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": true,
+      "driver": "GPKG",
+      "error": "failed to bind FID '17' to statement",
+      "fid": 17,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": "failed to bind FID '18' to statement",
+      "fid": 18,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 2,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 3,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 4,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 5,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 7,
+      "intent": "keep",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 8,
+      "intent": "clear",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 9,
+      "intent": "zero",
+      "mode": "sparse",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 10,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 11,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 12,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 13,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 14,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 15,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 16,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 17,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 18,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "grouped",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 0,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 1,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 2,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 3,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 4,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 5,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 6,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 7,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "Memory",
+      "error": null,
+      "fid": 8,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 2,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 3,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 4,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 5,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 7,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 8,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "GPKG",
+      "error": null,
+      "fid": 9,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 1,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        42,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 2,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 3,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 42,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 4,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 5,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 6,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": null,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 7,
+      "intent": "keep",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 8,
+      "intent": "clear",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "null",
+        "value"
+      ],
+      "values": [
+        null,
+        17
+      ]
+    },
+    {
+      "drift": false,
+      "driver": "SQLite",
+      "error": null,
+      "fid": 9,
+      "intent": "zero",
+      "mode": "complete",
+      "order": "complete-only",
+      "prior": 0,
+      "states": [
+        "value",
+        "value"
+      ],
+      "values": [
+        0,
+        17
+      ]
+    }
+  ],
+  "drift": 26,
+  "gdal": "3100300",
+  "sqlite_oracle": "3.46.1"
+}

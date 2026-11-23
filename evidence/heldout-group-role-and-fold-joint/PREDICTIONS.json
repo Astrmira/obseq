@@ -1,0 +1,1099 @@
+[
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          null,
+          null,
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          null,
+          null,
+          5,
+          3
+        ]
+      ]
+    ],
+    "id": "E7G01",
+    "projected": [
+      [
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          null,
+          null,
+          5,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ],
+    "id": "E7G02",
+    "projected": [
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          null,
+          null,
+          4
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4,
+          0
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ],
+    "id": "E7G03",
+    "projected": [
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          "A",
+          null,
+          4
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4
+        ],
+        [
+          null,
+          null,
+          4
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          "A",
+          null,
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          4,
+          1
+        ],
+        [
+          null,
+          null,
+          4,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "id": "E7G04",
+    "projected": [
+      [
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          null,
+          null,
+          10
+        ],
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "id": "E7G05",
+    "projected": [
+      [
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          null,
+          null,
+          10
+        ],
+        [
+          null,
+          null,
+          5
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          null,
+          null,
+          10,
+          3
+        ],
+        [
+          null,
+          null,
+          5,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          null,
+          "x",
+          -3,
+          0
+        ],
+        [
+          null,
+          null,
+          -2,
+          0
+        ]
+      ]
+    ],
+    "id": "E7G06",
+    "projected": [
+      [
+        [
+          null,
+          "x",
+          -3
+        ],
+        [
+          null,
+          null,
+          -2
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          null,
+          "x",
+          -3,
+          2
+        ],
+        [
+          null,
+          null,
+          -2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "B",
+          null,
+          0,
+          0
+        ],
+        [
+          "B",
+          null,
+          0,
+          1
+        ],
+        [
+          null,
+          "x",
+          2,
+          0
+        ],
+        [
+          null,
+          null,
+          0,
+          1
+        ],
+        [
+          null,
+          null,
+          0,
+          3
+        ]
+      ]
+    ],
+    "id": "E7G07",
+    "projected": [
+      [
+        [
+          "B",
+          null,
+          0
+        ],
+        [
+          "B",
+          null,
+          0
+        ],
+        [
+          null,
+          "x",
+          2
+        ],
+        [
+          null,
+          null,
+          0
+        ],
+        [
+          null,
+          null,
+          0
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "B",
+          null,
+          0,
+          1
+        ],
+        [
+          "B",
+          null,
+          0,
+          1
+        ],
+        [
+          null,
+          "x",
+          2,
+          2
+        ],
+        [
+          null,
+          null,
+          0,
+          3
+        ],
+        [
+          null,
+          null,
+          0,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "family": "group",
+    "full": [
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ]
+    ],
+    "id": "E7G08",
+    "projected": [
+      [
+        [
+          "A",
+          "x",
+          5
+        ],
+        [
+          "A",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ],
+        [
+          "B",
+          null,
+          5
+        ]
+      ]
+    ],
+    "rendered_null_mask_full": [
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          "x",
+          5,
+          0
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          "A",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ],
+        [
+          "B",
+          null,
+          5,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "durations": [
+      10,
+      70
+    ],
+    "earliest_only": [
+      [
+        -43,
+        -33,
+        10
+      ]
+    ],
+    "end": [
+      -33,
+      27
+    ],
+    "family": "paired_civil",
+    "id": "E7T01",
+    "joint": [
+      [
+        -43,
+        -33,
+        10
+      ],
+      [
+        -43,
+        27,
+        70
+      ],
+      [
+        17,
+        27,
+        10
+      ]
+    ],
+    "observed_matches": [
+      [
+        -43,
+        -33,
+        10
+      ],
+      [
+        17,
+        27,
+        10
+      ]
+    ],
+    "start": [
+      -43,
+      17
+    ]
+  },
+  {
+    "durations": [
+      22
+    ],
+    "earliest_only": [],
+    "end": [
+      -51,
+      9
+    ],
+    "family": "paired_civil",
+    "id": "E7T02",
+    "joint": [
+      [
+        -13,
+        9,
+        22
+      ]
+    ],
+    "observed_matches": [
+      [
+        -13,
+        9,
+        22
+      ]
+    ],
+    "start": [
+      -13,
+      47
+    ]
+  },
+  {
+    "durations": [],
+    "earliest_only": [],
+    "end": [
+      -23,
+      37
+    ],
+    "family": "paired_civil",
+    "id": "E7T03",
+    "joint": [],
+    "observed_matches": [],
+    "start": [
+      76
+    ]
+  },
+  {
+    "durations": [
+      31,
+      91
+    ],
+    "earliest_only": [
+      [
+        -78,
+        -47,
+        31
+      ]
+    ],
+    "end": [
+      -47,
+      13
+    ],
+    "family": "paired_civil",
+    "id": "E7T04",
+    "joint": [
+      [
+        -78,
+        -47,
+        31
+      ],
+      [
+        -78,
+        13,
+        91
+      ]
+    ],
+    "observed_matches": [
+      [
+        -78,
+        -47,
+        31
+      ]
+    ],
+    "start": [
+      -78
+    ]
+  },
+  {
+    "durations": [
+      0,
+      60
+    ],
+    "earliest_only": [
+      [
+        -40,
+        -40,
+        0
+      ]
+    ],
+    "end": [
+      -40,
+      20
+    ],
+    "family": "paired_civil",
+    "id": "E7T05",
+    "joint": [
+      [
+        -40,
+        -40,
+        0
+      ],
+      [
+        -40,
+        20,
+        60
+      ],
+      [
+        20,
+        20,
+        0
+      ]
+    ],
+    "observed_matches": [
+      [
+        -40,
+        -40,
+        0
+      ],
+      [
+        20,
+        20,
+        0
+      ]
+    ],
+    "start": [
+      -40,
+      20
+    ]
+  },
+  {
+    "durations": [
+      1,
+      61
+    ],
+    "earliest_only": [
+      [
+        -1,
+        60,
+        61
+      ]
+    ],
+    "end": [
+      60
+    ],
+    "family": "paired_civil",
+    "id": "E7T06",
+    "joint": [
+      [
+        -1,
+        60,
+        61
+      ],
+      [
+        59,
+        60,
+        1
+      ]
+    ],
+    "observed_matches": [
+      [
+        59,
+        60,
+        1
+      ]
+    ],
+    "start": [
+      -1,
+      59
+    ]
+  },
+  {
+    "durations": [],
+    "earliest_only": [],
+    "end": [
+      -61
+    ],
+    "family": "paired_civil",
+    "id": "E7T07",
+    "joint": [],
+    "observed_matches": [],
+    "start": [
+      -60,
+      0
+    ]
+  },
+  {
+    "durations": [
+      25
+    ],
+    "earliest_only": [],
+    "end": [
+      -22,
+      8
+    ],
+    "family": "paired_civil",
+    "id": "E7T08",
+    "joint": [
+      [
+        -17,
+        8,
+        25
+      ]
+    ],
+    "observed_matches": [
+      [
+        -17,
+        8,
+        25
+      ]
+    ],
+    "start": [
+      -17,
+      13
+    ]
+  },
+  {
+    "durations": [
+      5,
+      35
+    ],
+    "earliest_only": [
+      [
+        -9,
+        -4,
+        5
+      ]
+    ],
+    "end": [
+      -4,
+      26
+    ],
+    "family": "paired_civil",
+    "id": "E7T09",
+    "joint": [
+      [
+        -9,
+        -4,
+        5
+      ],
+      [
+        -9,
+        26,
+        35
+      ],
+      [
+        21,
+        26,
+        5
+      ]
+    ],
+    "observed_matches": [
+      [
+        -9,
+        26,
+        35
+      ]
+    ],
+    "start": [
+      -9,
+      21
+    ]
+  },
+  {
+    "durations": [
+      140
+    ],
+    "earliest_only": [
+      [
+        -70,
+        70,
+        140
+      ]
+    ],
+    "end": [
+      70
+    ],
+    "family": "paired_civil",
+    "id": "E7T10",
+    "joint": [
+      [
+        -70,
+        70,
+        140
+      ]
+    ],
+    "observed_matches": [
+      [
+        -70,
+        70,
+        140
+      ]
+    ],
+    "start": [
+      -70
+    ]
+  }
+]

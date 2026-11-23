@@ -1,0 +1,22 @@
+{
+  "cells_by_cohort_format_openpyxl_gdaltype_gdal": {
+    "control|date|delta_days=0|String|not_calendar": 2,
+    "early|datetime|delta_days=0|String|not_calendar": 5,
+    "early|date|delta_days=0|Date|delta_days=-1": 3,
+    "early|date|delta_days=0|String|not_calendar": 23,
+    "early|time|delta_days=0|String|not_calendar": 18
+  },
+  "coverage": {
+    "answer|control": 1,
+    "answer|early": 26,
+    "input|control": 1,
+    "input|early": 23
+  },
+  "manifest_sha256": "e345a682a73878738e902c7b5eb3d92d191708994cbf10cac9d30e336c7ed102",
+  "paths": 14,
+  "source_sha256": "9cf7228b54f1edcdd4b372eb736774adf29cb4f804c9920229bac6c154833399",
+  "versions": {
+    "gdal": "3.10.3",
+    "openpyxl": "3.1.5"
+  }
+}

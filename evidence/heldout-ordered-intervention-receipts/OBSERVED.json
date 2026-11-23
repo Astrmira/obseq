@@ -1,0 +1,393 @@
+{
+  "case_sha256": "6d906fd606fd000aa136516c249da57217087a13d62fadac9a216b2790c583e3",
+  "cases": {
+    "P01": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P02": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P03": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P04": {
+      "DuckDB": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      }
+    },
+    "P05": {
+      "DuckDB": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P06": {
+      "DuckDB": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P07": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P08": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P09": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P10": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P11": {
+      "DuckDB": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      }
+    },
+    "P12": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P13": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P14": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P15": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P16": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P17": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P18": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P19": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": false
+      }
+    },
+    "P20": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P21": {
+      "DuckDB": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": false,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": false,
+        "typed": false
+      }
+    },
+    "P22": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P23": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": true,
+        "committed_poststate_event_count": true,
+        "poststate_only": true,
+        "typed": true
+      }
+    },
+    "P24": {
+      "DuckDB": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      },
+      "SQLite": {
+        "committed_poststate": true,
+        "committed_poststate_event_bag": false,
+        "committed_poststate_event_count": false,
+        "poststate_only": true,
+        "typed": false
+      }
+    }
+  },
+  "versions": {
+    "DuckDB": "2.0.1",
+    "SQLite": "3.53.1"
+  }
+}

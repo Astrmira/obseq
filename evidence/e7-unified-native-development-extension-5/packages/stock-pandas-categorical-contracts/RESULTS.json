@@ -1,0 +1,34 @@
+{
+  "arrow": "26.0.1",
+  "missing_zone": 0,
+  "observed_zone_ids": 260,
+  "ordered": {
+    "arrow_decoded_equal": true,
+    "categorical_false_only": true,
+    "category_rank_diff": 259,
+    "default": false,
+    "dtype_and_categorical_false": true,
+    "dtype_false_only": false,
+    "equals": false,
+    "exact_default_categories": false,
+    "native_ordered_min_diff": true,
+    "old_codebook_misdecodes_new_rows": 4180250,
+    "raw_arrow_dictionary_equal": false,
+    "rows_recoded": 4180250
+  },
+  "pandas": "3.1.1",
+  "rows": 4181444,
+  "unordered": {
+    "arrow_decoded_equal": true,
+    "categorical_false_only": true,
+    "category_rank_diff": 259,
+    "default": false,
+    "dtype_and_categorical_false": true,
+    "dtype_false_only": false,
+    "equals": true,
+    "exact_default_categories": false,
+    "old_codebook_misdecodes_new_rows": 4180250,
+    "raw_arrow_dictionary_equal": false,
+    "rows_recoded": 4180250
+  }
+}

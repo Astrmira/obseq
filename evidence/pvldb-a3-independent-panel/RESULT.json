@@ -1,0 +1,453 @@
+{
+  "cases": 24,
+  "invalid": 14,
+  "legal": 10,
+  "observations": [
+    {
+      "case": "F001",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F002",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F003",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F004",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F005",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F006",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F007",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F008",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F009",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F010",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F011",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F012",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F013",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F014",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F015",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F016",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F017",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F018",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F019",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F020",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F021",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": false,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F022",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "F023",
+      "legal": false,
+      "observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      }
+    },
+    {
+      "case": "F024",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    }
+  ],
+  "observers": {
+    "byte_hash": {
+      "NA": 24
+    },
+    "multiset": {
+      "false_accept": 3,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 11
+    },
+    "ordered": {
+      "false_accept": 2,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 12
+    },
+    "rowcount": {
+      "false_accept": 10,
+      "true_accept": 10,
+      "true_reject": 4
+    },
+    "rtol1e-5": {
+      "false_accept": 2,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 12
+    },
+    "rtol1e-9": {
+      "false_accept": 2,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 12
+    },
+    "schema": {
+      "false_accept": 5,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 9
+    },
+    "set": {
+      "false_accept": 3,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 11
+    },
+    "sqlite_integrity": {
+      "NA": 24
+    },
+    "sum": {
+      "false_accept": 6,
+      "false_reject": 2,
+      "true_accept": 8,
+      "true_reject": 8
+    }
+  },
+  "visible_fields": [
+    "g",
+    "s",
+    "d",
+    "p",
+    "t"
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "archive_packages": {
+    "development_actual": 58,
+    "receipt_only": 1,
+    "transfer_actual": 42
+  },
+  "extra_postgresql_adapter_attempts_same_panel": 24,
+  "missing": [],
+  "native_proof_aliases": {
+    "E7H-F1-01": [
+      "f12"
+    ],
+    "E7H-F1-02": [
+      "f12"
+    ],
+    "E7H-F1-03": [
+      "f12"
+    ],
+    "E7H-F1-04": [
+      "f12"
+    ],
+    "E7H-F1-05": [
+      "f12"
+    ],
+    "E7H-F1-06": [
+      "f12"
+    ],
+    "E7H-F10-01": [
+      "f10"
+    ],
+    "E7H-F10-02": [
+      "f10"
+    ],
+    "E7H-F10-03": [
+      "f10"
+    ],
+    "E7H-F10-04": [
+      "f10"
+    ],
+    "E7H-F10-05": [
+      "f10"
+    ],
+    "E7H-F10-06": [
+      "f10"
+    ],
+    "E7H-F2-01": [
+      "f12"
+    ],
+    "E7H-F2-02": [
+      "f12"
+    ],
+    "E7H-F2-03": [
+      "f12"
+    ],
+    "E7H-F2-04": [
+      "f12"
+    ],
+    "E7H-F2-05": [
+      "f12"
+    ],
+    "E7H-F2-06": [
+      "f12"
+    ],
+    "E7H-F3-01": [
+      "f34"
+    ],
+    "E7H-F3-02": [
+      "f34"
+    ],
+    "E7H-F3-03": [
+      "f34"
+    ],
+    "E7H-F3-04": [
+      "f34"
+    ],
+    "E7H-F3-05": [
+      "f34"
+    ],
+    "E7H-F3-06": [
+      "f34"
+    ],
+    "E7H-F4-01": [
+      "f34"
+    ],
+    "E7H-F4-02": [
+      "f34"
+    ],
+    "E7H-F4-03": [
+      "f34"
+    ],
+    "E7H-F4-04": [
+      "f34"
+    ],
+    "E7H-F4-05": [
+      "f34"
+    ],
+    "E7H-F4-06": [
+      "f34"
+    ],
+    "E7H-F5-01": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-02": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-03": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-04": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-05": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-06": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F6-01": [
+      "f6"
+    ],
+    "E7H-F6-02": [
+      "f6"
+    ],
+    "E7H-F6-03": [
+      "f6"
+    ],
+    "E7H-F6-04": [
+      "f6"
+    ],
+    "E7H-F6-05": [
+      "f6"
+    ],
+    "E7H-F6-06": [
+      "f6"
+    ],
+    "E7H-F7-01": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-02": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-03": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-04": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-05": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-06": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F8-01": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-02": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-03": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-04": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-05": [
+      "f8_native_primitive_with_declared_contract_policy_PyArrow",
+      "f8_native_primitive_with_declared_contract_policy_Polars"
+    ],
+    "E7H-F8-06": [
+      "f8_native_primitive_with_declared_contract_policy_PyArrow",
+      "f8_native_primitive_with_declared_contract_policy_Polars"
+    ],
+    "E7H-F9-01": [
+      "f9"
+    ],
+    "E7H-F9-02": [
+      "f9"
+    ],
+    "E7H-F9-03": [
+      "f9"
+    ],
+    "E7H-F9-04": [
+      "f9"
+    ],
+    "E7H-F9-05": [
+      "f9"
+    ],
+    "E7H-F9-06": [
+      "f9"
+    ],
+    "E7H-O3-coupled-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O4-dateserial-01": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-02": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-03": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-04": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-05": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-06": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-01": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-02": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-03": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-04": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-05": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-06": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-pointset-01": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-02": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-03": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-04": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-05": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-06": [
+      "o4_pointset"
+    ],
+    "E7H-O4-wkb-01": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-02": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-03": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-04": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-05": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-06": [
+      "o4_wkb"
+    ]
+  },
+  "original_at_least_one_supported_native": 108,
+  "original_authored": 108,
+  "original_by_subtype": {
+    "F1": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F10": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F2": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F3": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F4": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F5": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F6": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F7": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F8": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "F9": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O3/GROUP BY representative": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O3/ROW_NUMBER tie": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O3/coupled choices": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O3/top-k tie": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O4/date serial": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O4/equivalent WKB": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O4/equivalent point set": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    },
+    "O4/numeric text": {
+      "at_least_one_native_receipt": 6,
+      "frozen": 6
+    }
+  },
+  "separate_independent_panels": {
+    "authored_cases": 138,
+    "case_channels": 282,
+    "interface": "eab-independent-suite-2",
+    "panels": [
+      {
+        "adjudication_sha256": "3c3b028464d7f9be6f8257f27cad60f0fc128ce62a869e1bfcd60c41ff079775",
+        "authored_cases": 18,
+        "case_channels": 18,
+        "channels": [
+          "DuckDB"
+        ],
+        "input_sha256": "843cf87577e3ddf6d88ae9dfab2dd0949f3f5197b4ad1d83a1682fc10374700c",
+        "panel": "heldout-group-role-and-fold-joint",
+        "prediction_sha256": "0e7a3fb68ef19d22845c71f0be50e170cbffa1440a5b7d7f792784b49d9e7427",
+        "scope": "O3 group provenance / O2 civil time"
+      },
+      {
+        "adjudication_sha256": "1952322273de7091e510708c99300ce4834151d77310b8a621523771f9313fd9",
+        "authored_cases": 24,
+        "case_channels": 72,
+        "channels": [
+          "DuckDB",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "input_sha256": "f3c4d8f0edc537fd9f3922fb4bc2b1a2f7507e52a4579ac1215d0bac3ef14f28",
+        "panel": "heldout-json-presence-and-path-shape",
+        "prediction_sha256": "85fa6837186ead44713191e34dba10031f485163f1e1a21020e6d7507d849d0d",
+        "scope": "typed JSON presence and path"
+      },
+      {
+        "adjudication_sha256": "28b5ba3edb6532873e3b34f57cd335c0fe36cab6db3c11cfb3e1f0e1ddc3785c",
+        "authored_cases": 24,
+        "case_channels": 72,
+        "channels": [
+          "DuckDB",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "input_sha256": "4c1862db300aaa915957701225e7bc3fb692cf9c202f6db764c3fb61c1d158a2",
+        "panel": "heldout-coherent-group-representatives",
+        "prediction_sha256": "929c0c7601e4abf5d03b7fb3ee45e30fcdb0126104d68d787dd73649a63224c3",
+        "scope": "O3 coherent representative"
+      },
+      {
+        "adjudication_sha256": "4e25f2859df3c825a4d5186e12da73e6a73ecf0973e60264e29e1311a795b734",
+        "authored_cases": 24,
+        "case_channels": 24,
+        "channels": [
+          "GEOS and certified predicate"
+        ],
+        "input_sha256": "15517292a5562e086582ba6f6433e9c8d2f6e8238cf55057c7caeac6d183f476",
+        "panel": "heldout-binary64-orientation",
+        "prediction_sha256": "e09edaaef315a14642464f8d9786515615f5e2dc4e54773012432f92b9246f54",
+        "scope": "O4 binary64 orientation"
+      },
+      {
+        "adjudication_sha256": "ce992b12cd7ee0feda1bce6d624c8cba810b149e63821dcc9af105a1fe6308d5",
+        "authored_cases": 24,
+        "case_channels": 48,
+        "channels": [
+          "DuckDB",
+          "SQLite"
+        ],
+        "input_sha256": "6d906fd606fd000aa136516c249da57217087a13d62fadac9a216b2790c583e3",
+        "panel": "heldout-ordered-intervention-receipts",
+        "prediction_sha256": "9a23baca0e2726d9f9608d623acd8d7b9cdf001d47effc95209d9df2e761c35f",
+        "scope": "O5 committed ordered writes"
+      },
+      {
+        "adjudication_sha256": "3e608d84492978b9613380267dd44b3b368f0e72a1d0db464cb4cc63b6f60079",
+        "authored_cases": 24,
+        "case_channels": 48,
+        "channels": [
+          "DuckDB",
+          "SQLite"
+        ],
+        "input_sha256": "b7421e79d5488b7faa9dee89c606750e9471cebc687852ba7534872a3059fa0b",
+        "panel": "heldout-keyed-aggregate-cancellation",
+        "prediction_sha256": "db5fc8152e0695977280fa7f40de4f332c5a53f0843c434a4af1b9fc5a8faa37",
+        "scope": "F7 keyed aggregate cancellation"
+      }
+    ]
+  }
+}

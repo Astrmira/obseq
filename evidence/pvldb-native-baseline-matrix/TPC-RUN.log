@@ -1,0 +1,8 @@
+Please note that you are missing the optional dependency: fugue. If you need to use this functionality it must be installed.
+Please note that you are missing the optional dependency: snowflake. If you need to use this functionality it must be installed.
+Please note that you are missing the optional dependency: spark. If you need to use this functionality it must be installed.
+archived-run/a3-later-e5/tabular.py:3: UserWarning: Python 3.12 and above currently is not supported by Spark and Ray. Please note that some functionality will not work and currently is not supported.
+  import datacompy
+archived-run/a3-later-e5/tabular.py:3: UserWarning: SparkPandasCompare currently only supports Numpy < 2.Please note that the SparkPandasCompare functionality will not work and currently is not supported.
+  import datacompy
+tpc_score_exit=0

@@ -1,0 +1,443 @@
+{
+  "missing": [],
+  "native_reexecution_stages": [
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "8a18fd733ab2b94d2a7523b7e36f874ed070808d8763e0b38914545a7c8ab089",
+      "stage": "e7-native/MEASURED.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "f8cb3a70789e0667789e76509add2f7d8b12058b6105dd5774e455f3700dcf24",
+      "stage": "e7-native-f34/MEASURED.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "697b90959ce92ddbaf0a0ef14019af034c69c2f26916043f0faec292bdba3edb",
+      "stage": "f5/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "1dbc9673a0b8178b2ac535e13d6864c277a112201e70eb5c883abb9c916a36b4",
+      "stage": "f6/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "7b0117fc470ecc31923b1730b1621974994a9ff6b4526d517d1ddd30d3e3722b",
+      "stage": "f7/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "31240f0bd041b3b0333e0ab5c6ada8dc46b1024c96873cf3a128e557fb07ff15",
+      "stage": "f9/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "2732ebb798893c8a90d49375ce72f275e1f73550eacab72bb526ff6617f0da81",
+      "stage": "f10/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "5e6662ff54800396d1b2c9ecf8f71b3381cb61e90b996c457375fe705976621e",
+      "stage": "f8/NATIVE.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "5729c2353d45c031e55237603c6aaf406aaf02223ecabd9042ca183628bd3646",
+      "stage": "f8/RESULT.json"
+    },
+    {
+      "comparison": "typed_coverage_and_status_projection",
+      "expected_sha256": "ac839f373c8c28bc20909c2bd8e1cba3fe36a46dd73e8a2eb1a4e2116e5c78c4",
+      "stage": "e7-native-o3/MEASURED.json"
+    },
+    {
+      "comparison": "typed_coverage_and_status_projection",
+      "expected_sha256": "8eccb8a7cd5d5699d88f0a95a09bf8dbbb857120f4b0517d326ca8553a5c346a",
+      "stage": "e7-native-o3/POLARS-MEASURED.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "f0c0bf63d37e626d052e1fc780dea9316e0056017568f1a9d3100a5bf470d174",
+      "stage": "e7-native-o4-wkb/MEASURED.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "5e44b24dd9382d8916337fcabb69b98116a6559b10d76a17cb8dffc3e46c763a",
+      "stage": "e7-native-o4-wkb/SCORES.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "9ccc4e799cae556e198d22e50ac78a40536b80b6f0d408e89cefb708ef07388e",
+      "stage": "o4-pg/RESULT.json"
+    },
+    {
+      "comparison": "exact_bytes",
+      "expected_sha256": "ef0a8153a45fa22f162a670f99247aa53d3447eb685166a5d3ae6d4bf40d04f1",
+      "stage": "o4-points/POINTSET-SCOPED.json"
+    }
+  ],
+  "original_cases": 108,
+  "support": {
+    "E7H-F1-01": [
+      "f12"
+    ],
+    "E7H-F1-02": [
+      "f12"
+    ],
+    "E7H-F1-03": [
+      "f12"
+    ],
+    "E7H-F1-04": [
+      "f12"
+    ],
+    "E7H-F1-05": [
+      "f12"
+    ],
+    "E7H-F1-06": [
+      "f12"
+    ],
+    "E7H-F10-01": [
+      "f10"
+    ],
+    "E7H-F10-02": [
+      "f10"
+    ],
+    "E7H-F10-03": [
+      "f10"
+    ],
+    "E7H-F10-04": [
+      "f10"
+    ],
+    "E7H-F10-05": [
+      "f10"
+    ],
+    "E7H-F10-06": [
+      "f10"
+    ],
+    "E7H-F2-01": [
+      "f12"
+    ],
+    "E7H-F2-02": [
+      "f12"
+    ],
+    "E7H-F2-03": [
+      "f12"
+    ],
+    "E7H-F2-04": [
+      "f12"
+    ],
+    "E7H-F2-05": [
+      "f12"
+    ],
+    "E7H-F2-06": [
+      "f12"
+    ],
+    "E7H-F3-01": [
+      "f34"
+    ],
+    "E7H-F3-02": [
+      "f34"
+    ],
+    "E7H-F3-03": [
+      "f34"
+    ],
+    "E7H-F3-04": [
+      "f34"
+    ],
+    "E7H-F3-05": [
+      "f34"
+    ],
+    "E7H-F3-06": [
+      "f34"
+    ],
+    "E7H-F4-01": [
+      "f34"
+    ],
+    "E7H-F4-02": [
+      "f34"
+    ],
+    "E7H-F4-03": [
+      "f34"
+    ],
+    "E7H-F4-04": [
+      "f34"
+    ],
+    "E7H-F4-05": [
+      "f34"
+    ],
+    "E7H-F4-06": [
+      "f34"
+    ],
+    "E7H-F5-01": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-02": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-03": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-04": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-05": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F5-06": [
+      "f5_sqlite_and_postgresql"
+    ],
+    "E7H-F6-01": [
+      "f6"
+    ],
+    "E7H-F6-02": [
+      "f6"
+    ],
+    "E7H-F6-03": [
+      "f6"
+    ],
+    "E7H-F6-04": [
+      "f6"
+    ],
+    "E7H-F6-05": [
+      "f6"
+    ],
+    "E7H-F6-06": [
+      "f6"
+    ],
+    "E7H-F7-01": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-02": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-03": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-04": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-05": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F7-06": [
+      "f7_DuckDB",
+      "f7_SQLite"
+    ],
+    "E7H-F8-01": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-02": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-03": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-04": [
+      "f8_native_named_timezone_PyArrow",
+      "f8_native_named_timezone_Polars"
+    ],
+    "E7H-F8-05": [
+      "f8_native_primitive_with_declared_contract_policy_PyArrow",
+      "f8_native_primitive_with_declared_contract_policy_Polars"
+    ],
+    "E7H-F8-06": [
+      "f8_native_primitive_with_declared_contract_policy_PyArrow",
+      "f8_native_primitive_with_declared_contract_policy_Polars"
+    ],
+    "E7H-F9-01": [
+      "f9"
+    ],
+    "E7H-F9-02": [
+      "f9"
+    ],
+    "E7H-F9-03": [
+      "f9"
+    ],
+    "E7H-F9-04": [
+      "f9"
+    ],
+    "E7H-F9-05": [
+      "f9"
+    ],
+    "E7H-F9-06": [
+      "f9"
+    ],
+    "E7H-O3-coupled-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-coupled-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-group_repr-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-row_number-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-01": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-02": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-03": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-04": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-05": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O3-topk-06": [
+      "o3_sql",
+      "o3_polars_eager"
+    ],
+    "E7H-O4-dateserial-01": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-02": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-03": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-04": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-05": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-dateserial-06": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-01": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-02": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-03": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-04": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-05": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-numtext-06": [
+      "o4_pg_scalar"
+    ],
+    "E7H-O4-pointset-01": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-02": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-03": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-04": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-05": [
+      "o4_pointset"
+    ],
+    "E7H-O4-pointset-06": [
+      "o4_pointset"
+    ],
+    "E7H-O4-wkb-01": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-02": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-03": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-04": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-05": [
+      "o4_wkb"
+    ],
+    "E7H-O4-wkb-06": [
+      "o4_wkb"
+    ]
+  }
+}

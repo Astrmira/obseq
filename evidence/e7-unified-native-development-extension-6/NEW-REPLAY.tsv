@@ -1,0 +1,11 @@
+partial-cut-sum-reference-identity	native_authored_development	PASS
+safe-shared-formula-rectangles	native_authored_development	PASS
+scalar-cut-reference-identity	native_authored_development	PASS
+shared-formula-cut-identity	native_authored_development	PASS
+workbook-date-serial-preservation	native_authored_development	PASS
+stale-join-key-eligibility	native_authored_development	PASS
+sqlite-stored-field-evaluation-epoch	native_authored_development	PASS
+parquet-pandas-null-valid-nan	native_external_transfer	PASS
+native-topk-cutoff-membership	native_external_transfer	PASS
+xlsx-native-early-date-readers	native_external_transfer	PASS
+dbt-native-unit-and-relationship-scope	native_authored_development	PASS

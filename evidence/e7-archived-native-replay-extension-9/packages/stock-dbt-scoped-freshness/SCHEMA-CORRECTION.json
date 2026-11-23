@@ -1,0 +1,1 @@
+{"reason":"dbt rejected model_paths spelling before executing any query or producing native outcomes. Changed to model-paths only; no case clock offsets, source configs, reference or decision semantics changed."}

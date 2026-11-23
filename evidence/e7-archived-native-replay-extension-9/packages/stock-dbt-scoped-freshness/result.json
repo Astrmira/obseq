@@ -1,0 +1,104 @@
+{
+  "fixtures": {
+    "B_absent_same_histogram": {
+      "frontiers": {
+        "A": -2,
+        "B": null
+      },
+      "global_row_count": 4,
+      "global_time_histogram": {
+        "-240": 2,
+        "-2": 2
+      },
+      "reference": false,
+      "status": {
+        "filtered_a": "pass",
+        "filtered_b": "error",
+        "global_max": "pass",
+        "naive_min_observed": "pass",
+        "scope_complete_min": "error"
+      }
+    },
+    "B_stalled_same_histogram": {
+      "frontiers": {
+        "A": -2,
+        "B": -240
+      },
+      "global_row_count": 4,
+      "global_time_histogram": {
+        "-240": 2,
+        "-2": 2
+      },
+      "reference": false,
+      "status": {
+        "filtered_a": "pass",
+        "filtered_b": "error",
+        "global_max": "pass",
+        "naive_min_observed": "error",
+        "scope_complete_min": "error"
+      }
+    },
+    "both_aged": {
+      "frontiers": {
+        "A": -240,
+        "B": -240
+      },
+      "global_row_count": 4,
+      "global_time_histogram": {
+        "-360": 2,
+        "-240": 2
+      },
+      "reference": false,
+      "status": {
+        "filtered_a": "error",
+        "filtered_b": "error",
+        "global_max": "error",
+        "naive_min_observed": "error",
+        "scope_complete_min": "error"
+      }
+    },
+    "current_both_histogram": {
+      "frontiers": {
+        "A": -2,
+        "B": -2
+      },
+      "global_row_count": 4,
+      "global_time_histogram": {
+        "-240": 2,
+        "-2": 2
+      },
+      "reference": true,
+      "status": {
+        "filtered_a": "pass",
+        "filtered_b": "pass",
+        "global_max": "pass",
+        "naive_min_observed": "pass",
+        "scope_complete_min": "pass"
+      }
+    },
+    "unknown_C_old_but_out_of_scope": {
+      "frontiers": {
+        "A": -2,
+        "B": -2
+      },
+      "global_row_count": 4,
+      "global_time_histogram": {
+        "-240": 2,
+        "-2": 2
+      },
+      "reference": true,
+      "status": {
+        "filtered_a": "pass",
+        "filtered_b": "pass",
+        "global_max": "pass",
+        "naive_min_observed": "pass",
+        "scope_complete_min": "pass"
+      }
+    }
+  },
+  "versions": {
+    "dbt-core": "1.10.15",
+    "dbt-duckdb": "1.9.6",
+    "duckdb": "2.0.1"
+  }
+}

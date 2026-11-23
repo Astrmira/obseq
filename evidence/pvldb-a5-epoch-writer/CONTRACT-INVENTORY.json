@@ -1,0 +1,6230 @@
+{
+  "counts": {
+    "benchmark": {
+      "not_measured": 189,
+      "query_snapshot_derived": 116
+    },
+    "development": {
+      "declared_once": 22,
+      "per_case_statement": 36
+    },
+    "later": {
+      "panel_definition": 138
+    },
+    "original": {
+      "per_case_statement": 108
+    }
+  },
+  "development_contract_sources": {
+    "O1": {
+      "declared_once": 2,
+      "per_case_statement": 2
+    },
+    "O1,O2": {
+      "declared_once": 1,
+      "per_case_statement": 1
+    },
+    "O1,O2,O3,O4,O5": {
+      "declared_once": 1,
+      "per_case_statement": 1
+    },
+    "O1,O4": {
+      "per_case_statement": 1
+    },
+    "O1,O5": {
+      "declared_once": 2,
+      "per_case_statement": 3
+    },
+    "O2": {
+      "declared_once": 2,
+      "per_case_statement": 3
+    },
+    "O3": {
+      "per_case_statement": 3
+    },
+    "O3,O4": {
+      "per_case_statement": 3
+    },
+    "O4": {
+      "declared_once": 8,
+      "per_case_statement": 3
+    },
+    "O4,O5": {
+      "per_case_statement": 1
+    },
+    "O5": {
+      "declared_once": 2,
+      "per_case_statement": 13
+    },
+    "comparison": {
+      "declared_once": 4,
+      "per_case_statement": 2
+    }
+  },
+  "entries": [
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpch/2",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpch/3",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/4",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/5",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/6",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/7",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/8",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/9",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpch/10",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/11",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/12",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/13",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/14",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/15",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/16",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/17",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpch/18",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/19",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/20",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpch/21",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpch/22",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/1",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/3",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/4",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/5",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/6",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/7",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/8",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/9",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 8
+      },
+      "id": "tpcds/10",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/11",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/12",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/13",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/14",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/15",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/16",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/17",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/18",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/19",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/20",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/21",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/22",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/23",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/24",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/25",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/26",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/27",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/28",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/29",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 13
+      },
+      "id": "tpcds/30",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/31",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/32",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/33",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/34",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 6
+      },
+      "id": "tpcds/35",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/36",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/37",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/38",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/39",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/40",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/41",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/42",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 9
+      },
+      "id": "tpcds/43",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/44",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/45",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/46",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 11
+      },
+      "id": "tpcds/47",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/48",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/49",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 10
+      },
+      "id": "tpcds/50",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/51",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/52",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/53",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/54",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/55",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/56",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 10
+      },
+      "id": "tpcds/57",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/58",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/59",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/60",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/61",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/62",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/63",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/64",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/65",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/66",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 10
+      },
+      "id": "tpcds/67",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/68",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/69",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/70",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/71",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/72",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/73",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/74",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/75",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/76",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/77",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 10
+      },
+      "id": "tpcds/78",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 5
+      },
+      "id": "tpcds/79",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/80",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 16
+      },
+      "id": "tpcds/81",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/82",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/83",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/84",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 4
+      },
+      "id": "tpcds/85",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/86",
+      "other_static_indicators": [
+        "ranking_windows"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/87",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/88",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 9
+      },
+      "id": "tpcds/89",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/90",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/91",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/92",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "tpcds/93",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/94",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/95",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "tpcds/96",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/97",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "tpcds/98",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 3
+      },
+      "id": "tpcds/99",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/1.1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/1.2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/1.3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/2.1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/2.2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/2.3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/3.1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/3.2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/3.3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/3.4",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/4.1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/4.2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "ssb/4.3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/10a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/10b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/10c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/11a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/11b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/11c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/11d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/12a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/12b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/12c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/13a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/13b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/13c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/13d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/14a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/14b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/14c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/15a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/15b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/15c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/15d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/16a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/16b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/16c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/16d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17e",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/17f",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/18a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/18b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/18c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/19a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/19b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/19c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/19d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/1a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/1b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/1c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/1d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/20a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/20b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/20c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/21a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/21b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/21c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/22a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/22b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/22c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/22d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/23a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/23b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/23c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/24a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/24b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/25a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/25b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/25c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/26a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/26b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/26c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/27a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/27b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/27c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/28a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/28b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/28c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/29a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/29b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/29c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/2a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/2b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/2c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/2d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/30a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/30b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/30c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/31a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/31b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/31c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/32a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/32b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/33a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/33b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/33c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/3a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/3b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/3c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/4a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/4b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/4c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/5a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/5b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/5c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6e",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/6f",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/7a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/7b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/7c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/8a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/8b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/8c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/8d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/9a",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/9b",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/9c",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "job/9d",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/4",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/5",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/6",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/7",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/8",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/9",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/10",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/11",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/12",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/13",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/14",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/15",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/16",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/17",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/18",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/19",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/20",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/21",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/22",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/23",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/24",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/25",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/26",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 2
+      },
+      "id": "clickbench/27",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/28",
+      "other_static_indicators": [
+        "unresolved_reduction_inputs"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/29",
+      "other_static_indicators": [
+        "unresolved_reduction_inputs"
+      ],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "clickbench/30",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/31",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/32",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/33",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/34",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/35",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/36",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/37",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 0,
+        "order_keys": 1
+      },
+      "id": "clickbench/38",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 1,
+        "order_keys": 1
+      },
+      "id": "clickbench/39",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 1,
+        "order_keys": 1
+      },
+      "id": "clickbench/40",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 1,
+        "order_keys": 1
+      },
+      "id": "clickbench/41",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 1,
+        "order_keys": 1
+      },
+      "id": "clickbench/42",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "O3 ordered projected window",
+      "fields": {
+        "offset_clause": 1,
+        "order_keys": 1
+      },
+      "id": "clickbench/43",
+      "other_static_indicators": [],
+      "source": "query_snapshot_derived"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-3",
+      "other_static_indicators": [
+        "float_inputs"
+      ],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-4",
+      "other_static_indicators": [
+        "float_inputs"
+      ],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-5",
+      "other_static_indicators": [
+        "float_inputs"
+      ],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-6",
+      "other_static_indicators": [
+        "float_inputs"
+      ],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-7",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-8",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-9",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/groupby-10",
+      "other_static_indicators": [
+        "float_inputs"
+      ],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/join-1",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/join-2",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/join-3",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/join-4",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "benchmark",
+      "contract": "unclassified",
+      "fields": null,
+      "id": "h2o/join-5",
+      "other_static_indicators": [],
+      "source": "not_measured"
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-01",
+      "source": "per_case_statement",
+      "statement_words": 9
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-02",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-03",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-04",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-05",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "integral_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F1-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-02",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-03",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-04",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-05",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "null_policy",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F2-06",
+      "source": "per_case_statement",
+      "statement_words": 16
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-01",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-02",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-03",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-04",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-05",
+      "source": "per_case_statement",
+      "statement_words": 17
+    },
+    {
+      "cohort": "original",
+      "contract": "logical_snapshot",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F3-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-02",
+      "source": "per_case_statement",
+      "statement_words": 9
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-03",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-04",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-05",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "derived_freshness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F4-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-01",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-02",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-03",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-04",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-05",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "keep_clear_write",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F5-06",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-01",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-02",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-03",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-04",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-05",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "boundary_witness",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F6-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-02",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-03",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-04",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-05",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "aggregate_cancellation",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F7-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-02",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-03",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-04",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-05",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "civil_time",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F8-06",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-01",
+      "source": "per_case_statement",
+      "statement_words": 17
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-02",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-03",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-04",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-05",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "representative_identity",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F9-06",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-02",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-03",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-04",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-05",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "geometry_predicate",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-F10-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-02",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-03",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-04",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-05",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "top-k tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-topk-06",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-01",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-02",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-03",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-04",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-05",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "ROW_NUMBER tie",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-row_number-06",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-01",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-02",
+      "source": "per_case_statement",
+      "statement_words": 16
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-03",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-04",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-05",
+      "source": "per_case_statement",
+      "statement_words": 16
+    },
+    {
+      "cohort": "original",
+      "contract": "coupled choices",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-coupled-06",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-01",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-02",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-03",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-04",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-05",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "GROUP BY representative",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O3-group_repr-06",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-01",
+      "source": "per_case_statement",
+      "statement_words": 11
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-02",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-03",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-04",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-05",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent WKB",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-wkb-06",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-01",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-02",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-03",
+      "source": "per_case_statement",
+      "statement_words": 9
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-04",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-05",
+      "source": "per_case_statement",
+      "statement_words": 8
+    },
+    {
+      "cohort": "original",
+      "contract": "numeric text",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-numtext-06",
+      "source": "per_case_statement",
+      "statement_words": 16
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-01",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-02",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-03",
+      "source": "per_case_statement",
+      "statement_words": 15
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-04",
+      "source": "per_case_statement",
+      "statement_words": 13
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-05",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "date serial",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-dateserial-06",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-01",
+      "source": "per_case_statement",
+      "statement_words": 9
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-02",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-03",
+      "source": "per_case_statement",
+      "statement_words": 9
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-04",
+      "source": "per_case_statement",
+      "statement_words": 12
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-05",
+      "source": "per_case_statement",
+      "statement_words": 14
+    },
+    {
+      "cohort": "original",
+      "contract": "equivalent point set",
+      "fields": {
+        "statements": 1
+      },
+      "id": "E7H-O4-pointset-06",
+      "source": "per_case_statement",
+      "statement_words": 10
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q01",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q02",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q03",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q04",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q05",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q06",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q07",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q08",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q09",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q10",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q11",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q12",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q13",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q14",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q15",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q16",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q17",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q18",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q19",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q20",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q21",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q22",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q23",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-binary64-orientation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "q24",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F001",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F002",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F003",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F004",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F005",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F006",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F007",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F008",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F009",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F010",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F011",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F012",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F013",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F014",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F015",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F016",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F017",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F018",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F019",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F020",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F021",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F022",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F023",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-coherent-group-representatives",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "F024",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G01",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G02",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G03",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G04",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G05",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G06",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G07",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7G08",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T01",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T02",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T03",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T04",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T05",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T06",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T07",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T08",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T09",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-group-role-and-fold-joint",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "E7T10",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J01",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J02",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J03",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J04",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J05",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J06",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J07",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J08",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J09",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J10",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J11",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J12",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J13",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J14",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J15",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J16",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J17",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J18",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J19",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J20",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J21",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J22",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J23",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-json-presence-and-path-shape",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "J24",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "02b73fcb7d52",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "03d1af37e95d",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "0972bb8f044e",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "0fef24d89e77",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "141dabb17d93",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "1b84f76666e3",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "27af05c4d444",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "3023f90ccf7e",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "352b71303f70",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "5a94c041b448",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "5eb606b73f15",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "618af6b50cc6",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "6ccfc8a42756",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "75a68d29b87f",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "83780c82d0ca",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "99367f60a5ea",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "9e65d3809066",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "a0aa4ff33d00",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "a28378eb9bfc",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "a28b90557544",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "d6af50298f3d",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "e436679a970f",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "ea649f8d2e2e",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-keyed-aggregate-cancellation",
+      "fields": {
+        "clauses": 3
+      },
+      "id": "fee874afb3d7",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P01",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P02",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P03",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P04",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P05",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P06",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P07",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P08",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P09",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P10",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P11",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P12",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P13",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P14",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P15",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P16",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P17",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P18",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P19",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P20",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P21",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P22",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P23",
+      "source": "panel_definition"
+    },
+    {
+      "cohort": "later",
+      "contract": "heldout-ordered-intervention-receipts",
+      "fields": {
+        "clauses": 4
+      },
+      "id": "P24",
+      "source": "panel_definition"
+    },
+    {
+      "archive_manifest": "e7-archived-native-replay-extension-10/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1",
+      "contract_clauses": [
+        "object identity",
+        "commit reference",
+        "checksum carrier"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "lakefs-native-snapshot-checksums",
+      "replay_code_nonblank_lines": 75,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-archived-native-replay-extension-9/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "stock runner",
+        "typed cells",
+        "row order",
+        "hash threshold"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "slt-native-port-framing-scope",
+      "replay_code_nonblank_lines": 129,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-archived-native-replay-extension-9/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O2",
+      "contract_clauses": [
+        "loaded timestamp",
+        "freshness threshold",
+        "observed partition"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "stock-dbt-scoped-freshness",
+      "replay_code_nonblank_lines": 61,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "collation",
+        "nullable key",
+        "stable row identity"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "eab-native-collation-equivalence",
+      "replay_code_nonblank_lines": 43,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "stable FID",
+        "patch coverage",
+        "CLEAR",
+        "WRITE",
+        "formula-cache authority"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-stream-to-storage-write-intent",
+      "replay_code_nonblank_lines": 34,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "stable FID",
+        "signed key encoding",
+        "per-row operation",
+        "closed-file state"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-fid-keyed-write-intent",
+      "replay_code_nonblank_lines": 70,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O5",
+      "contract_clauses": [
+        "operation identity",
+        "typed payload",
+        "KEEP",
+        "CLEAR",
+        "logical workbook content"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-semantic-snapshot-binding",
+      "replay_code_nonblank_lines": 49,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O5",
+      "contract_clauses": [
+        "destination before-state",
+        "source operation",
+        "affected identity",
+        "post-state"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-destination-projection-binding",
+      "replay_code_nonblank_lines": 56,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "closed unit squares",
+        "exact incidence",
+        "feature identity"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "eab-geometric-set-equality",
+      "replay_code_nonblank_lines": 50,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4,O5",
+      "contract_clauses": [
+        "stable FID",
+        "action",
+        "before geometry",
+        "proposal authority",
+        "unit-grid set equivalence"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-typed-lineage-geometry-interventions",
+      "replay_code_nonblank_lines": 63,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "civil zone",
+        "repeated-time selector",
+        "gap policy",
+        "instant encoding",
+        "wall-time projection"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-workbook-dst-authority",
+      "replay_code_nonblank_lines": 57,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "immutable date anchor",
+        "slot index",
+        "month advance",
+        "original-day clamp"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-immutable-calendar-recurrence-anchor",
+      "replay_code_nonblank_lines": 38,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "stable ID",
+        "forest edge",
+        "selected roots",
+        "descendant closure",
+        "survivor state"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-cascade-lineage-closure",
+      "replay_code_nonblank_lines": 46,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3",
+      "contract_clauses": [
+        "eligible inputs",
+        "identity",
+        "integer order key",
+        "window cardinality",
+        "peer rule"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-sql-allowed-result-families",
+      "replay_code_nonblank_lines": 52,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3",
+      "contract_clauses": [
+        "group",
+        "stable ID",
+        "score",
+        "metric",
+        "quota",
+        "joint admissibility"
+      ],
+      "fields": {
+        "clauses": 6
+      },
+      "id": "eab-coupled-sql-allowed-family",
+      "replay_code_nonblank_lines": 63,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3,O4",
+      "contract_clauses": [
+        "typed domain",
+        "exact key equality",
+        "group eligibility",
+        "representative rule"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-typed-sql-group-representatives",
+      "replay_code_nonblank_lines": 49,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1",
+      "contract_clauses": [
+        "transaction snapshot",
+        "stable ID",
+        "projected state"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "eab-sqlite-transactional-snapshot-binding",
+      "replay_code_nonblank_lines": 39,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O2",
+      "contract_clauses": [
+        "logical file state",
+        "registered collation",
+        "index dependency",
+        "dependency identity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-sqlite-semantic-dependency-binding",
+      "replay_code_nonblank_lines": 43,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O2,O3,O4,O5",
+      "contract_clauses": [
+        "native route",
+        "domain",
+        "reference",
+        "development or transfer membership"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "compact-native-conformance-corpus",
+      "replay_code_nonblank_lines": 63,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O5",
+      "contract_clauses": [
+        "inherited manifest",
+        "formula policy",
+        "adapter projection"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "cross-adapter-contract-transfer",
+      "replay_code_nonblank_lines": 67,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O2,O3,O4,O5",
+      "contract_clauses": [
+        "manifest",
+        "independent reference",
+        "adapter receipt"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "native-contract-harness",
+      "replay_code_nonblank_lines": 79,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O4",
+      "contract_clauses": [
+        "pinned corpus",
+        "layer selector",
+        "stable key order",
+        "geometry observation"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "external-native-corpus-admission",
+      "replay_code_nonblank_lines": 81,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "pinned feature",
+        "source and target CRS",
+        "ring projection",
+        "clearance test"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "crs-relative-clearance-certificates",
+      "replay_code_nonblank_lines": 140,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "pinned FIDs",
+        "admitted ring structure",
+        "source and target CRS",
+        "boundary identity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "crs-round-trip-boundary-identity",
+      "replay_code_nonblank_lines": 95,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O2",
+      "contract_clauses": [
+        "input geometry",
+        "changed scope",
+        "production epoch",
+        "dependent score"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "partial-refresh-epoch-granularity",
+      "replay_code_nonblank_lines": 73,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3,O4",
+      "contract_clauses": [
+        "peer universe",
+        "interval rule",
+        "selected positions",
+        "projection"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "selective-interval-peer-matching",
+      "replay_code_nonblank_lines": 102,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "stable IDs",
+        "signed integer keys",
+        "inner bag join",
+        "NULL policy"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "pipeline-typed-null-join-isolation",
+      "replay_code_nonblank_lines": 30,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "side identity",
+        "typed key",
+        "mixed predicate",
+        "bag multiplicity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "pipeline-engine-semantics-oracle",
+      "replay_code_nonblank_lines": 54,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "OGR dialect",
+        "projected type",
+        "scalar value",
+        "aggregate rule"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "pipeline-native-transport-semantics",
+      "replay_code_nonblank_lines": 67,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "stable feature ID",
+        "KEEP",
+        "CLEAR",
+        "ZERO",
+        "unaffected field"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "pipeline-native-write-intent",
+      "replay_code_nonblank_lines": 44,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O5",
+      "contract_clauses": [
+        "signed-int64 keys",
+        "NULL",
+        "stable row ID",
+        "typed operation",
+        "expected effect"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "eab-composed-semantic-receipt",
+      "replay_code_nonblank_lines": 49,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O5",
+      "contract_clauses": [
+        "int64 string encoding",
+        "nullable values",
+        "receipt kind",
+        "projected operation and effects"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "eab-receipt-independent-observables",
+      "replay_code_nonblank_lines": 58,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1",
+      "contract_clauses": [
+        "worksheet extent",
+        "physical cells",
+        "formula and cache status",
+        "admitted value projection"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-stream-dimension-completeness",
+      "replay_code_nonblank_lines": 67,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "General number format",
+        "exact integer",
+        "binary64 bits",
+        "signed zero"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-general-numeric-token-fidelity",
+      "replay_code_nonblank_lines": 54,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "positive normal binary64",
+        "formatter version",
+        "token inverse",
+        "admissible source domain"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-binary64-token-inverse-fiber",
+      "replay_code_nonblank_lines": 73,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "source sheet",
+        "clone cell",
+        "local name",
+        "global name",
+        "reference-resolution rule"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "workbook-named-formula-copy-resolution",
+      "replay_code_nonblank_lines": 58,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "anchored formula group",
+        "group extent",
+        "blank destination",
+        "affected members"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-structured-move-preflight",
+      "replay_code_nonblank_lines": 48,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "move plan",
+        "atomic staging",
+        "structural checks",
+        "committed effects"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-staged-structural-preflight",
+      "replay_code_nonblank_lines": 96,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-4/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "ordered body labels",
+        "title labels",
+        "page coverage",
+        "native rendering projection"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-print-title-native-consumer",
+      "replay_code_nonblank_lines": 43,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-5/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "typed variant presence",
+        "absent member",
+        "explicit null",
+        "stored value"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "native-variant-write-intent-preservation",
+      "replay_code_nonblank_lines": 76,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-5/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "column presence",
+        "value nullness",
+        "consumer action",
+        "stable identity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "native-schema-presence-write-intent",
+      "replay_code_nonblank_lines": 85,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-5/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "variant path presence",
+        "child tag",
+        "typed value",
+        "operation label"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "variant-native-presence-projection",
+      "replay_code_nonblank_lines": 234,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "cut rectangle",
+        "destination",
+        "admitted SUM grammar",
+        "original reference identity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "partial-cut-sum-reference-identity",
+      "replay_code_nonblank_lines": 138,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "OOXML shared group",
+        "original formula expansion",
+        "cut",
+        "retargeted identities"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "safe-shared-formula-rectangles",
+      "replay_code_nonblank_lines": 149,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "cut rectangle",
+        "blank destination",
+        "scalar grammar",
+        "original cell identity"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "scalar-cut-reference-identity",
+      "replay_code_nonblank_lines": 104,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O5",
+      "contract_clauses": [
+        "shared index",
+        "master",
+        "child",
+        "bystander reference",
+        "post-cut identity"
+      ],
+      "fields": {
+        "clauses": 5
+      },
+      "id": "shared-formula-cut-identity",
+      "replay_code_nonblank_lines": 126,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "stored numeric serial",
+        "display format",
+        "parsed date",
+        "original calculation semantics"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "workbook-date-serial-preservation",
+      "replay_code_nonblank_lines": 53,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O2",
+      "contract_clauses": [
+        "materialized join key",
+        "dependency revision",
+        "row eligibility",
+        "stable ID bag"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "stale-join-key-eligibility",
+      "replay_code_nonblank_lines": 55,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O2",
+      "contract_clauses": [
+        "stored generated field",
+        "deterministic function contract",
+        "evaluation epoch"
+      ],
+      "fields": {
+        "clauses": 3
+      },
+      "id": "sqlite-stored-field-evaluation-epoch",
+      "replay_code_nonblank_lines": 35,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-6/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "stock dbt version",
+        "unit expectation",
+        "relationships scope",
+        "key declaration"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "dbt-native-unit-and-relationship-scope",
+      "replay_code_nonblank_lines": 98,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3",
+      "contract_clauses": [
+        "complete tie pool",
+        "numeric tolerance",
+        "peer order",
+        "projected membership"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "specbridge-tolerant-peer-permutation",
+      "replay_code_nonblank_lines": 58,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "stock CWI comparator",
+        "NULL policy",
+        "original producer version",
+        "attributed stage"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "stock-null-stage-attribution",
+      "replay_code_nonblank_lines": 39,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O4",
+      "contract_clauses": [
+        "regex matching semantics",
+        "typed token",
+        "anchoring",
+        "valid numeric domain"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "stock-gx-typed-token-anchors",
+      "replay_code_nonblank_lines": 50,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "comparison",
+      "contract_clauses": [
+        "key projection",
+        "nullable long values",
+        "stock constraint",
+        "independent labels"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "stock-deequ-common-keyed",
+      "replay_code_nonblank_lines": 36,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1",
+      "contract_clauses": [
+        "serialized carrier",
+        "hash algorithm",
+        "logical key",
+        "pinned interpretation"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "stock-dvc-keyed-fingerprint-audit",
+      "replay_code_nonblank_lines": 44,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-7/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O3,O4",
+      "contract_clauses": [
+        "original string",
+        "lowercase group",
+        "minimal original value",
+        "exact group bag"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "polars-group-min-cross-version",
+      "replay_code_nonblank_lines": 21,
+      "source": "per_case_statement"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-8/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O2",
+      "contract_clauses": [
+        "exact source tables",
+        "relevant projection",
+        "update scope",
+        "tracked revision"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "tpch-scoped-epoch-binding",
+      "replay_code_nonblank_lines": 90,
+      "source": "declared_once"
+    },
+    {
+      "archive_manifest": "e7-unified-native-development-extension-8/MANIFEST.json",
+      "cohort": "development",
+      "contract": "O1,O2",
+      "contract_clauses": [
+        "pinned Parquet source",
+        "signed key",
+        "footer projection",
+        "binding scope"
+      ],
+      "fields": {
+        "clauses": 4
+      },
+      "id": "clickbench-native-footer-epoch-binding",
+      "replay_code_nonblank_lines": 80,
+      "source": "declared_once"
+    }
+  ],
+  "panel_definitions": {
+    "heldout-binary64-orientation": [
+      "binary64 coordinates",
+      "exact orientation sign",
+      "ordered point triple"
+    ],
+    "heldout-coherent-group-representatives": [
+      "group identity",
+      "rank score",
+      "joint representative fields"
+    ],
+    "heldout-group-role-and-fold-joint": [
+      "explicit grouping role",
+      "civil-time fold",
+      "coupled projection"
+    ],
+    "heldout-json-presence-and-path-shape": [
+      "path",
+      "presence",
+      "container shape",
+      "typed value"
+    ],
+    "heldout-keyed-aggregate-cancellation": [
+      "row key",
+      "nullable value",
+      "exact keyed bag"
+    ],
+    "heldout-ordered-intervention-receipts": [
+      "initial state",
+      "ordered intent",
+      "effect identity",
+      "post-state"
+    ]
+  }
+}

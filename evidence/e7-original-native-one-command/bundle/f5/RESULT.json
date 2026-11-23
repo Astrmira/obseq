@@ -1,0 +1,184 @@
+{
+  "cases": {
+    "E7H-F5-01": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "nick": "ivory"
+            }
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "nick": "ivory",
+              "note": "ok"
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "nick": "ivory",
+          "note": null
+        }
+      ],
+      "original_admissible": true
+    },
+    "E7H-F5-02": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": true,
+          "steps": [
+            {
+              "tags": []
+            }
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "tags": [
+                "red"
+              ]
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "tags": []
+        }
+      ],
+      "original_admissible": false
+    },
+    "E7H-F5-03": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": true,
+          "steps": [
+            {
+              "enabled": false,
+              "retries": 4
+            }
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "enabled": true,
+              "retries": 4
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "enabled": false,
+          "retries": 4
+        }
+      ],
+      "original_admissible": true
+    },
+    "E7H-F5-04": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": false,
+          "steps": [
+            {},
+            {}
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "memo": "oak"
+            },
+            {
+              "memo": "oak"
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "memo": null
+        },
+        {
+          "memo": null
+        }
+      ],
+      "original_admissible": false
+    },
+    "E7H-F5-05": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": true,
+          "steps": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "count": 12
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "count": 0
+        }
+      ],
+      "original_admissible": true
+    },
+    "E7H-F5-06": {
+      "controls": {
+        "rfc_merge": {
+          "contract_pass": true,
+          "steps": [
+            {
+              "tag": "null"
+            }
+          ]
+        },
+        "truthiness": {
+          "contract_pass": false,
+          "steps": [
+            {
+              "tag": null
+            }
+          ]
+        }
+      },
+      "exact_matches_frozen_oracle": true,
+      "native_SQLite_PostgreSQL_steps": [
+        {
+          "tag": "null"
+        }
+      ],
+      "original_admissible": false
+    }
+  },
+  "pins": {
+    "BLIND.json": "8e86163e65e0deaa46f3450f7600aa03361141f9406e73b235e0c648a5804831",
+    "check.py": "f005d93a52f8a4b69f772ef5c81a1cdc469df4c93a695f2f8ac24b57292b1cb6"
+  },
+  "postgres": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+  "sqlite": "3.53.1"
+}

@@ -1,0 +1,18 @@
+{
+  "files_sha256": {
+    "INPUTS.sha256": "7454ba993257ebef3ed90152b4df7c80df624300f6744c260a25abc3fe69cd37",
+    "PLAN.json": "6364c90c741749c574fbc2d065507dce978a229cecee3be0ced6430942ed09ed",
+    "PREEXECUTION.sha256": "3a59386b675075e233bb8a948dead09a76d257c009211b16730ae2c9c01a4887",
+    "README.md": "3e7f6896fbaeb3fcccbc12cd2ab5b953b350ee31e8b49a0d2c68e1a8d8d939d2",
+    "SHA256SUMS": "50f20d76a701232bc835dc5cc08b923c3254455a54a28105124d00707b208a3c",
+    "TIMING-RETRY.json": "f1d3c09c480b2fb8a2d49dcbfabedd0769835051ef579426e832c7ad543c7600",
+    "TIMING-RETRY.sha256": "83aa08691226de474a400617421e4b9b1c2c4e1d91867714012dd31bf6c52aa9",
+    "check.py": "80be7d6b4021ca77166d66929a683550ce4c2a766719881b2c69a7c1b61f8c2b",
+    "result.json": "a2e16d22a42bf033260f84690ab6b17654db57930732af7652896e193a2d8a91",
+    "summarize.py": "69baf27572e839b319388f1579f3475c06650596dbe6441b617a3de0bad5c70c",
+    "timing-summary.json": "7af02457b869cca31e223bc4108cc3c3c6c377dad482470fc532cc8c4eb36a25",
+    "timing.csv": "153fe8e6bf2b6591ae58380ef1cc2ef8de319cf396fd9c3170964f2c24f67638"
+  },
+  "predecessor": "55bd51e856ec66de600717c166bff419f939457e",
+  "project": "semantic-benchmark"
+}

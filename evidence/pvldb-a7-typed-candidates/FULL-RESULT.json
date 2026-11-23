@@ -1,0 +1,27 @@
+{
+  "acquisition_sha256": "8788eb357b3b76507b2e16345d80e36dcc41c770018a5624c44e3164eae0719b",
+  "duckdb": "1.4.3",
+  "pyarrow": "22.0.0",
+  "source_rows": 99997497,
+  "source_shards": 100,
+  "stock_sql_sha256": "274ffe1c4f83baad2fc177bbb6773bbdab0db779faeb2970de8cc531292a5dc6",
+  "successful_queries_by_threads": {
+    "1": 43,
+    "8": 43
+  },
+  "two_independent_family_checks": {
+    "observed_membership": {
+      "q18_threads1": true,
+      "q18_threads8": true,
+      "q25_threads1": true,
+      "q25_threads8": true
+    },
+    "q25_available_boundary_slots": 6,
+    "q25_boundary_distinct_phrases": 8,
+    "q25_boundary_rows": 8,
+    "q25_distinct_projected_bags_admitted": true,
+    "q25_mandatory_rows": 4,
+    "q25_qualifying_rows": 13172392,
+    "q25_strict_boundary_tie": true
+  }
+}

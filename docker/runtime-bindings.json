@@ -1,0 +1,17 @@
+{
+  "ARROW19": "/opt/obseq/arrow19",
+  "ARROW22": "/opt/obseq/venv/lib/python3.12/site-packages",
+  "CWI_COMPARE": "/opt/obseq/tools/roundingdiff.py",
+  "DEEQU_ROOT": "/opt/obseq/deequ",
+  "DUCK142": "/opt/obseq/duck142",
+  "DUCK143": "/opt/obseq/duck143",
+  "E1_MORE": "/opt/obseq/e1-more",
+  "E4_DEPS": "/opt/obseq/e4-site",
+  "E5_DEPS": "/opt/obseq/venv/lib/python3.12/site-packages",
+  "KEYED_CASES": "/opt/obseq/evidence/heldout-keyed-aggregate-cancellation/CASES.json",
+  "KEYED_LABELS": "/opt/obseq/evidence/heldout-keyed-aggregate-cancellation/SEALED_LABELS.json",
+  "NY_TZ": "/opt/obseq/zoneinfo/America/New_York",
+  "PG17_BIN": "/opt/obseq/pgsql/bin",
+  "QGIS_WORLD_MAP": "/opt/obseq/tools/world_map.gpkg",
+  "SLT": "/opt/obseq/slt"
+}

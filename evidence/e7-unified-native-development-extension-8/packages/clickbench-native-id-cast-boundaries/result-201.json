@@ -1,0 +1,54 @@
+{
+  "columns": {
+    "UserID": {
+      "bigint_source": {
+        "authored_null_pairs_added": 1,
+        "both_false_pairs": 0,
+        "both_lost_pairs": 0,
+        "collided_buckets": 0,
+        "collided_exact_keys": 0,
+        "distinct": 79842,
+        "exact_pairs": 16818333,
+        "keys_changed": 76893,
+        "original_nulls": 0,
+        "population": 1000000,
+        "source_exact_nonnull_pairs": 16818332,
+        "unilateral_false_pairs": 0,
+        "unilateral_lost_pairs": 16231626
+      },
+      "widening_control": {
+        "distinct_widened_double_diff": 0,
+        "exact_before_widening": 0,
+        "negative_diff": 0,
+        "unilateral_false_pairs": 0,
+        "unilateral_lost_pairs": 16231626
+      }
+    },
+    "WatchID": {
+      "bigint_source": {
+        "authored_null_pairs_added": 1,
+        "both_false_pairs": 0,
+        "both_lost_pairs": 0,
+        "collided_buckets": 0,
+        "collided_exact_keys": 0,
+        "distinct": 1000000,
+        "exact_pairs": 1,
+        "keys_changed": 999005,
+        "original_nulls": 0,
+        "population": 1000000,
+        "source_exact_nonnull_pairs": 0,
+        "unilateral_false_pairs": 0,
+        "unilateral_lost_pairs": 0
+      },
+      "widening_control": {
+        "distinct_widened_double_diff": 0,
+        "exact_before_widening": 0,
+        "negative_diff": 0,
+        "unilateral_false_pairs": 0,
+        "unilateral_lost_pairs": 0
+      }
+    }
+  },
+  "duckdb": "2.0.1",
+  "pyarrow": "26.0.1"
+}

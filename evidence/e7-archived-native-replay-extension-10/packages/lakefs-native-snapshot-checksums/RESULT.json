@@ -1,0 +1,55 @@
+{
+  "decisions": [
+    {
+      "arm": 0,
+      "bytes_equal": true,
+      "case": "F3",
+      "checksum_equal": true,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 0,
+      "bytes_equal": false,
+      "case": "F7",
+      "checksum_equal": false,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 1,
+      "bytes_equal": true,
+      "case": "F3",
+      "checksum_equal": true,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 1,
+      "bytes_equal": false,
+      "case": "F7",
+      "checksum_equal": false,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 2,
+      "bytes_equal": true,
+      "case": "F3",
+      "checksum_equal": true,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 2,
+      "bytes_equal": false,
+      "case": "F7",
+      "checksum_equal": false,
+      "typed_answers_equal": false
+    },
+    {
+      "arm": 0,
+      "bytes_equal": false,
+      "case": "legal-reorder-control",
+      "checksum_equal": false,
+      "typed_answers_equal": true
+    }
+  ],
+  "sqlite": "3.53.1",
+  "version": "lakefs version 1.86.0"
+}

@@ -1,0 +1,10 @@
+{
+ "schema":"stage-receipt/v1",
+ "claim":"exact conformance of an authored patch followed by a relational inner join",
+ "integers":"canonical decimal strings; nullable key alone may be JSON null",
+ "identity":{"patch_status":"source row ID","persisted":"source row ID","join":"source and right row ID pair"},
+ "comparators":{"patch_status":"exact ID-to-status map","persisted":"exact ID-to-typed-row map","join":"exact sets of ID pairs by named predicate"},
+ "required_success":"Each stage must have no missing, extra or changed keyed record; implicit coercions and stale manifest digests are invalid.",
+ "replay_binding":"sha256 of canonical UTF-8 JSON [contract,manifest], plus independently supplied expected engine versions",
+ "scope":"authored nullable signed int64 joins and stable-id write intents; not hash attestation or timing"
+}

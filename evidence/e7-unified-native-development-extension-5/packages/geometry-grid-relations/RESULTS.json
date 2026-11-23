@@ -1,0 +1,127 @@
+{
+  "datasets": {
+    "ne": {
+      "admitted": 177,
+      "excluded_invalid_or_empty": 0,
+      "metrics": {
+        "0.0": {
+          "candidate_pairs": 490,
+          "changed": 0,
+          "changed_nonempty": 0,
+          "empty": 0,
+          "invalid": 0,
+          "transition": {
+            "disjoint->disjoint": 176,
+            "edge->edge": 313,
+            "point->point": 1
+          }
+        },
+        "0.0001": {
+          "candidate_pairs": 490,
+          "changed": 3,
+          "changed_nonempty": 3,
+          "empty": 0,
+          "invalid": 0,
+          "transition": {
+            "disjoint->disjoint": 175,
+            "disjoint->point": 1,
+            "edge->area": 2,
+            "edge->edge": 311,
+            "point->point": 1
+          }
+        },
+        "1e-05": {
+          "candidate_pairs": 490,
+          "changed": 2,
+          "changed_nonempty": 2,
+          "empty": 0,
+          "invalid": 0,
+          "transition": {
+            "disjoint->disjoint": 175,
+            "disjoint->point": 1,
+            "edge->area": 1,
+            "edge->edge": 312,
+            "point->point": 1
+          }
+        }
+      },
+      "source": {
+        "ne_110m_admin_0_countries.dbf": "1fee677cd4e03b367876e03861eb10197e4022a846bf92060e0313432863785b",
+        "ne_110m_admin_0_countries.prj": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+        "ne_110m_admin_0_countries.shp": "08e341606e8391e458c3f08deb312de664b56bfae376064c5aa0aee6681a5f55",
+        "ne_110m_admin_0_countries.shx": "8b0be2ad97dd484aee5c2ebc98697d5372e832b8ae58a35a661aeef6b985668d"
+      },
+      "total": 177
+    },
+    "osm_buildings": {
+      "admitted": 17914,
+      "excluded_invalid_or_empty": 0,
+      "metrics": {
+        "0.0": {
+          "candidate_pairs": 6232,
+          "changed": 0,
+          "changed_nonempty": 0,
+          "empty": 0,
+          "invalid": 0,
+          "transition": {
+            "area->area": 16,
+            "disjoint->disjoint": 3907,
+            "edge->edge": 2245,
+            "point->point": 64
+          }
+        },
+        "0.0001": {
+          "candidate_pairs": 10105,
+          "changed": 3560,
+          "changed_nonempty": 3062,
+          "empty": 3371,
+          "invalid": 0,
+          "transition": {
+            "area->area": 10,
+            "area->disjoint": 2,
+            "area->edge": 4,
+            "disjoint->area": 45,
+            "disjoint->disjoint": 5252,
+            "disjoint->edge": 611,
+            "disjoint->point": 1872,
+            "edge->area": 1,
+            "edge->disjoint": 527,
+            "edge->edge": 1258,
+            "edge->point": 459,
+            "point->area": 2,
+            "point->disjoint": 21,
+            "point->edge": 16,
+            "point->point": 25
+          }
+        },
+        "1e-05": {
+          "candidate_pairs": 6850,
+          "changed": 241,
+          "changed_nonempty": 241,
+          "empty": 1,
+          "invalid": 0,
+          "transition": {
+            "area->area": 14,
+            "area->edge": 2,
+            "disjoint->area": 81,
+            "disjoint->disjoint": 4311,
+            "disjoint->edge": 18,
+            "disjoint->point": 115,
+            "edge->area": 6,
+            "edge->edge": 2236,
+            "edge->point": 3,
+            "point->area": 10,
+            "point->edge": 6,
+            "point->point": 48
+          }
+        }
+      },
+      "source": {
+        "liechtenstein.gpkg": "5b0840c72e2ef9ac1bb211235cd6dd7170c0b400b72b472749490d93399c89cd"
+      },
+      "total": 17914
+    }
+  },
+  "geos_new": "3.14.1",
+  "geos_old": "3.13.1-CAPI-1.19.2"
+}

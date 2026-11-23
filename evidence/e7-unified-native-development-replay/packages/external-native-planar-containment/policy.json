@@ -1,0 +1,10 @@
+{
+ "schema":"exact-planar-component-containment/v1",
+ "artifact":"/usr/share/qgis/resources/data/world_map.gpkg",
+ "sha256":"386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+ "cohort":"Binary-first geometry table, first 12 non-null geometry blobs by integer primary key. For each supported row, use first component in storage order with exactly one ring, 3..80 distinct vertices, exact nonzero area, no collinear adjacent edges, and no nonadjacent intersections. Retain all unsupported row outcomes. Treat each admitted component independently, never whole feature union.",
+ "semantics":"Planar binary64 coordinates as exact dyadic rationals. Separate interior, boundary, exterior; strict contains excludes boundary.",
+ "probes":"All vertices and representable exact edge midpoints; nextafter each vertex along four axis directions plus deterministic 7 by 7 bounding-box lattice and one outside margin point; de-duplicate. Native receives the identical binary64 coordinates.",
+ "boundary":"Oracle boundary requires exact dyadic orientation zero and segment bounding box inclusion. Native compare Contains and Intersects.",
+ "limits":"No holes, multipolygon union, geodesics, distance, area metrics, invalid rings, CRS conversion, performance claims or replacement of exclusions."
+}

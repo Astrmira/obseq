@@ -1,0 +1,19 @@
+{
+  "affected_value_cells": [
+    "D2",
+    "E3"
+  ],
+  "nonshareable_pair": "C2:D2",
+  "ordinary_singletons": [
+    "C2",
+    "H8"
+  ],
+  "raw_mismatched_follower": "D2",
+  "safe_shared_ranges": [
+    "D2:E3",
+    "B3:C3",
+    "B4:C5",
+    "D4:E5"
+  ],
+  "source_shared_range": "B2:E5"
+}

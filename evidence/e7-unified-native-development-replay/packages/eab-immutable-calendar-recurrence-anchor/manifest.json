@@ -1,0 +1,8 @@
+{
+ "schema":"monthly-recurrence/v1",
+ "domain":"Gregorian date-only, positive one-month slots",
+ "clip":"min(original anchor day, target month length)",
+ "selector":"slot computed from immutable anchor; prior clipped due date is an output only",
+ "anchors":["2019-01-31","2020-01-31","2024-01-30","2024-01-29","2024-01-28","2024-03-31","2024-12-31"],
+ "slots":16
+}

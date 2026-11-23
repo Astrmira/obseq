@@ -1,0 +1,54 @@
+{
+  "DuckDB": {
+    "committed_poststate": {
+      "FP": 7,
+      "TN": 5,
+      "TP": 12
+    },
+    "committed_poststate_event_bag": {
+      "FP": 3,
+      "TN": 9,
+      "TP": 12
+    },
+    "committed_poststate_event_count": {
+      "FP": 4,
+      "TN": 8,
+      "TP": 12
+    },
+    "poststate_only": {
+      "FP": 9,
+      "TN": 3,
+      "TP": 12
+    },
+    "typed": {
+      "TN": 12,
+      "TP": 12
+    }
+  },
+  "SQLite": {
+    "committed_poststate": {
+      "FP": 7,
+      "TN": 5,
+      "TP": 12
+    },
+    "committed_poststate_event_bag": {
+      "FP": 3,
+      "TN": 9,
+      "TP": 12
+    },
+    "committed_poststate_event_count": {
+      "FP": 4,
+      "TN": 8,
+      "TP": 12
+    },
+    "poststate_only": {
+      "FP": 9,
+      "TN": 3,
+      "TP": 12
+    },
+    "typed": {
+      "TN": 12,
+      "TP": 12
+    }
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "cases_sha256": "f3c4d8f0edc537fd9f3922fb4bc2b1a2f7507e52a4579ac1215d0bac3ef14f28",
+  "predictions": [
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": false
+      },
+      "id": "J01",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": false
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": false
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": 3
+      },
+      "id": "J02",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": 3
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": 3
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 0
+      },
+      "id": "J03",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 0
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 0
+      }
+    },
+    {
+      "duckdb": {
+        "status": "explicit-null",
+        "step": null
+      },
+      "id": "J04",
+      "postgres": {
+        "status": "explicit-null",
+        "step": null
+      },
+      "sqlite": {
+        "status": "explicit-null",
+        "step": null
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "id": "J05",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-index",
+        "step": 1
+      },
+      "id": "J06",
+      "postgres": {
+        "status": "missing-index",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "missing-index",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-key",
+        "step": 1
+      },
+      "id": "J07",
+      "postgres": {
+        "status": "missing-key",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "missing-key",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 1
+      },
+      "id": "J08",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 0
+      },
+      "id": "J09",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 0
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 0
+      }
+    },
+    {
+      "duckdb": {
+        "status": "explicit-null",
+        "step": null
+      },
+      "id": "J10",
+      "postgres": {
+        "status": "explicit-null",
+        "step": null
+      },
+      "sqlite": {
+        "status": "explicit-null",
+        "step": null
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": "true"
+      },
+      "id": "J11",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": "true"
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": "true"
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": {
+          "k": [
+            1,
+            {
+              "n": false
+            }
+          ]
+        }
+      },
+      "id": "J12",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": {
+          "k": [
+            1,
+            {
+              "n": false
+            }
+          ]
+        }
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": {
+          "k": [
+            1,
+            {
+              "n": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": [
+          0,
+          1
+        ]
+      },
+      "id": "J13",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": [
+          0,
+          1
+        ]
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": "null"
+      },
+      "id": "J14",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": "null"
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": "null"
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 1
+      },
+      "id": "J15",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": -2
+      },
+      "id": "J16",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": -2
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": -2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "id": "J17",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-key",
+        "step": 2
+      },
+      "id": "J18",
+      "postgres": {
+        "status": "missing-key",
+        "step": 2
+      },
+      "sqlite": {
+        "status": "missing-key",
+        "step": 2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-index",
+        "step": 2
+      },
+      "id": "J19",
+      "postgres": {
+        "status": "missing-index",
+        "step": 2
+      },
+      "sqlite": {
+        "status": "missing-index",
+        "step": 2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-key",
+        "step": 1
+      },
+      "id": "J20",
+      "postgres": {
+        "status": "missing-key",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "missing-key",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "value",
+        "step": null,
+        "value": ""
+      },
+      "id": "J21",
+      "postgres": {
+        "status": "value",
+        "step": null,
+        "value": ""
+      },
+      "sqlite": {
+        "status": "value",
+        "step": null,
+        "value": ""
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "id": "J22",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 2
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 2
+      }
+    },
+    {
+      "duckdb": {
+        "status": "missing-index",
+        "step": 1
+      },
+      "id": "J23",
+      "postgres": {
+        "status": "missing-index",
+        "step": 1
+      },
+      "sqlite": {
+        "status": "missing-index",
+        "step": 1
+      }
+    },
+    {
+      "duckdb": {
+        "status": "wrong-container",
+        "step": 3
+      },
+      "id": "J24",
+      "postgres": {
+        "status": "wrong-container",
+        "step": 3
+      },
+      "sqlite": {
+        "status": "wrong-container",
+        "step": 3
+      }
+    }
+  ],
+  "versions": {
+    "duckdb": "2.0.1",
+    "postgres": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+    "sqlite": "3.53.1"
+  }
+}

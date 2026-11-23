@@ -1,0 +1,682 @@
+{
+  "all_scope_receipts": [
+    [
+      119,
+      "scope-size",
+      14,
+      0
+    ],
+    [
+      121,
+      "scope-size",
+      31,
+      0
+    ],
+    [
+      128,
+      "scope-size",
+      15,
+      0
+    ],
+    [
+      135,
+      "scope-size",
+      30,
+      0
+    ],
+    [
+      139,
+      "scope-size",
+      23,
+      0
+    ],
+    [
+      144,
+      "scope-size",
+      20,
+      0
+    ],
+    [
+      145,
+      "ring-unqualified",
+      7,
+      0
+    ],
+    [
+      146,
+      "admitted",
+      6,
+      0
+    ],
+    [
+      147,
+      "admitted",
+      6,
+      0
+    ],
+    [
+      148,
+      "scope-size",
+      41,
+      0
+    ],
+    [
+      151,
+      "scope-size",
+      41,
+      0
+    ],
+    [
+      152,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      153,
+      "scope-size",
+      73,
+      0
+    ],
+    [
+      156,
+      "scope-size",
+      29,
+      0
+    ],
+    [
+      157,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      158,
+      "scope-size",
+      56,
+      0
+    ],
+    [
+      160,
+      "scope-size",
+      16,
+      0
+    ],
+    [
+      161,
+      "admitted",
+      11,
+      0
+    ],
+    [
+      163,
+      "admitted",
+      3,
+      0
+    ],
+    [
+      166,
+      "scope-size",
+      42,
+      0
+    ],
+    [
+      169,
+      "admitted",
+      11,
+      0
+    ],
+    [
+      170,
+      "admitted",
+      5,
+      0
+    ],
+    [
+      175,
+      "admitted",
+      11,
+      0
+    ],
+    [
+      181,
+      "scope-size",
+      16,
+      0
+    ],
+    [
+      186,
+      "admitted",
+      11,
+      0
+    ],
+    [
+      188,
+      "scope-size",
+      27,
+      0
+    ],
+    [
+      192,
+      "admitted",
+      7,
+      0
+    ],
+    [
+      195,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      198,
+      "admitted",
+      9,
+      0
+    ],
+    [
+      201,
+      "scope-size",
+      16,
+      0
+    ],
+    [
+      208,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      211,
+      "scope-size",
+      94,
+      0
+    ],
+    [
+      212,
+      "scope-size",
+      8,
+      0
+    ],
+    [
+      214,
+      "scope-size",
+      2,
+      0
+    ],
+    [
+      216,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      220,
+      "admitted",
+      6,
+      0
+    ],
+    [
+      222,
+      "scope-size",
+      6,
+      0
+    ],
+    [
+      225,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      226,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      228,
+      "scope-size",
+      14,
+      0
+    ],
+    [
+      233,
+      "admitted",
+      8,
+      0
+    ],
+    [
+      234,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      239,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      258,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      259,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      262,
+      "ring-unqualified",
+      6,
+      0
+    ],
+    [
+      263,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      265,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      266,
+      "scope-size",
+      42,
+      0
+    ],
+    [
+      272,
+      "scope-size",
+      7,
+      0
+    ],
+    [
+      273,
+      "admitted",
+      2,
+      0
+    ],
+    [
+      274,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      275,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      276,
+      "ring-unqualified",
+      2,
+      0
+    ],
+    [
+      278,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      280,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      283,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      284,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      301,
+      "scope-size",
+      3,
+      0
+    ],
+    [
+      302,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      304,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      312,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      316,
+      "scope-size",
+      19,
+      0
+    ],
+    [
+      318,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      322,
+      "admitted",
+      3,
+      0
+    ],
+    [
+      323,
+      "admitted",
+      5,
+      0
+    ],
+    [
+      326,
+      "admitted",
+      4,
+      0
+    ],
+    [
+      327,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      332,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      334,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      339,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      340,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      342,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      346,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      348,
+      "admitted",
+      3,
+      0
+    ],
+    [
+      350,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      353,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      369,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      373,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      374,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      375,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      376,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      380,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      383,
+      "unsupported-wrapper",
+      null,
+      0
+    ],
+    [
+      389,
+      "scope-size",
+      12,
+      0
+    ],
+    [
+      394,
+      "scope-size",
+      7,
+      0
+    ],
+    [
+      397,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      398,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      399,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      402,
+      "scope-size",
+      2,
+      0
+    ],
+    [
+      406,
+      "scope-size",
+      1,
+      0
+    ],
+    [
+      407,
+      "scope-size",
+      2,
+      0
+    ]
+  ],
+  "authored": {
+    "T_contact": {
+      "exact_and_native": [
+        false,
+        true
+      ],
+      "xy_binary64": [
+        "0x1.0000000000000p+0",
+        "0x0.0p+0"
+      ]
+    },
+    "T_regular_exterior": {
+      "exact_and_native": [
+        false,
+        false
+      ],
+      "xy_binary64": [
+        "0x1.c000000000000p+0",
+        "0x1.0000000000000p-3"
+      ]
+    },
+    "T_smallest_normal_interior": {
+      "exact_and_native": [
+        true,
+        true
+      ],
+      "xy_binary64": [
+        "0x1.0000000000000p+0",
+        "0x1.0000000000000p-1022"
+      ]
+    },
+    "T_touch": {
+      "contact_probes": 1,
+      "contacts": 1,
+      "differences": [
+        {
+          "exact": [
+            true,
+            true
+          ],
+          "native_component_or": [
+            false,
+            true
+          ],
+          "native_whole": [
+            false,
+            true
+          ],
+          "xy_binary64": [
+            "0x1.0000000000000p+0",
+            "0x0.0000000000001p-1022"
+          ]
+        }
+      ],
+      "point_probes": 139
+    },
+    "cross_rejected": {},
+    "edge_rejected": {},
+    "nested_rejected": {},
+    "power_two_scaled_stress_same_membership": [
+      true,
+      true
+    ],
+    "tangent_nested_rejected": {},
+    "touch_hole_inside": {
+      "contact_probes": 1,
+      "contacts": 1,
+      "differences": [],
+      "point_probes": 195
+    },
+    "vertex": {
+      "contact_probes": 1,
+      "contacts": 1,
+      "differences": [],
+      "point_probes": 142
+    }
+  },
+  "dissolved_seam_not_component_contains": true,
+  "external": [
+    {
+      "contact_probes": 0,
+      "differences": [],
+      "fid": 146,
+      "n_contacts": 0,
+      "native_valid_postcheck": true,
+      "point_probes": 453
+    },
+    {
+      "contact_probes": 0,
+      "differences": [],
+      "fid": 147,
+      "n_contacts": 0,
+      "native_valid_postcheck": true,
+      "point_probes": 497
+    },
+    {
+      "contact_probes": 0,
+      "differences": [],
+      "fid": 152,
+      "n_contacts": 0,
+      "native_valid_postcheck": true,
+      "point_probes": 307
+    },
+    {
+      "contact_probes": 0,
+      "differences": [],
+      "fid": 157,
+      "n_contacts": 0,
+      "native_valid_postcheck": true,
+      "point_probes": 222
+    }
+  ],
+  "full_scanned": 92,
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "native": "3100300",
+  "qualification": {
+    "admitted": 23,
+    "ring-unqualified": 3,
+    "scope-size": 65,
+    "unsupported-wrapper": 1
+  },
+  "source_sha256": "386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669"
+}

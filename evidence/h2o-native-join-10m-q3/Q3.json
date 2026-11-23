@@ -1,0 +1,34 @@
+{
+  "aggregate_q3_checksum_swap_keeps_defined_sum": true,
+  "authored_null_key_witness": {
+    "nullsafe": 7,
+    "sql_eq": null
+  },
+  "double_three_decimal_sensitivity": {
+    "original": [
+      "475042480.57",
+      "423957578.77"
+    ],
+    "swapped": [
+      "475042480.57",
+      "423957578.77"
+    ]
+  },
+  "duckdb": "1.4.3",
+  "input_sha256": {
+    "J1_1e7_1e1_5_0.csv": "035dd56bbe5a599248fa069566887d92d6998ed7c1f9a2a8822e8773edadcd82",
+    "J1_1e7_1e4_5_0.csv": "f2e8ce2fd70647d1930a6401b3ca4786f361f85b7456ff7ddcee90a5e721fce1",
+    "J1_1e7_1e7_5_0.csv": "6ee50b2d93e75ee813e03b33d05aca75395a2d708abd4530ab3d285bdcd95fef",
+    "J1_1e7_NA_5_0.csv": "29205553b85cee0eb36a52b0d16ed1a8067ba066ac28d7c2a995a5db371f7061"
+  },
+  "join_literal_operator_and_nullsafe_equal_on_complete_source": true,
+  "q3_projection": {
+    "left_nonnull_unmatched": 952610,
+    "left_null": 500220,
+    "matched": 8547170,
+    "rows": 10000000,
+    "v1_micros": 475042480569814,
+    "v2_micros": 423957578770283
+  },
+  "swapped_distinct_payload_count": 2
+}

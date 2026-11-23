@@ -1,0 +1,23 @@
+{
+  "different_valid_native_results": 28,
+  "literal_allowed_set_checks": 1467,
+  "native_cases": 108,
+  "same_native_query_valid_witnesses": {
+    "ia": [
+      10,
+      11,
+      12
+    ],
+    "ib": [
+      10,
+      12,
+      13
+    ]
+  },
+  "sqlite": "3.53.1",
+  "valid_downstream_totals": [
+    3,
+    5,
+    6
+  ]
+}

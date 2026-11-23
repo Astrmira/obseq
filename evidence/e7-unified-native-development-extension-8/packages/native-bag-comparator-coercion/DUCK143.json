@@ -1,0 +1,35 @@
+{
+  "domain_collision_classes": 1,
+  "engine": "1.4.3",
+  "exact_int_reference_directions": [
+    10665,
+    10665
+  ],
+  "exact_integer_changed": 10665,
+  "exclusive_null_control_rows": 1,
+  "legal_declared_numeric_value_equal_directions": [
+    0,
+    0
+  ],
+  "mixed_native_except_all_directions": [
+    0,
+    0
+  ],
+  "nested_absent_vs_null_directions": [
+    0,
+    0
+  ],
+  "nested_types": [
+    "STRUCT(id BIGINT)",
+    "STRUCT(id BIGINT, memo VARCHAR)"
+  ],
+  "same_typed_bag_duplicate_directions": [
+    1,
+    1
+  ],
+  "same_typed_distinct_duplicate_directions": [
+    0,
+    0
+  ],
+  "source_rows": 22743
+}

@@ -1,0 +1,470 @@
+{
+  "engine": "1.4.3",
+  "queries": [
+    {
+      "decimal_scales": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "metadata": {
+        "M5_relative_to_certified_native": 5.00000000069889e-07,
+        "required_rows": 2433,
+        "source_contract": "sealed independent exact source and ULP receipt"
+      },
+      "observations": [
+        {
+          "arm": "native_1_to_4",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": true,
+          "stock_cwi": true,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "polars_default": true,
+            "polars_ignore_order": true
+          }
+        },
+        {
+          "arm": "M1_exact_key_plus_one",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "stock_cwi": true,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        },
+        {
+          "arm": "M5_near_float",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "stock_cwi": true,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "polars_default": true,
+            "polars_ignore_order": true
+          }
+        },
+        {
+          "arm": "large_float_control",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "stock_cwi": false,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        }
+      ],
+      "query": "tpcds-39"
+    },
+    {
+      "decimal_scales": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "metadata": {
+        "position_differences_ascending_vs_descending": 0,
+        "required_rows": 100,
+        "source_contract": "SQL-derived complete projected rank window"
+      },
+      "observations": [
+        {
+          "arm": "projected_peer_sort_asc",
+          "generic": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          },
+          "key_mode": "physical_position",
+          "legal": true,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "polars_default": true,
+            "polars_ignore_order": true
+          }
+        },
+        {
+          "arm": "projected_peer_sort_desc",
+          "generic": {
+            "byte_hash": null,
+            "multiset": true,
+            "ordered": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          },
+          "key_mode": "physical_position",
+          "legal": true,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": true,
+            "pandas_check_like": true,
+            "pandas_default": true,
+            "pandas_dtype_relaxed": true,
+            "polars_default": true,
+            "polars_ignore_order": true
+          }
+        },
+        {
+          "arm": "shape_negative",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": false,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "physical_position",
+          "legal": false,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        }
+      ],
+      "query": "tpcds-59"
+    },
+    {
+      "decimal_scales": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "metadata": {
+        "M7_detail_rows_removed": 49,
+        "groups_wrongly_inferred_by_nullability": 57,
+        "mutant_exact_against_its_own_declared_contract": true,
+        "null_dimension_rendering_collisions": 11,
+        "qualifying_join_facts": 1446551,
+        "stock_exact": true,
+        "stock_head_hierarchy_counts": {
+          "0": 88,
+          "1": 11,
+          "2": 1
+        },
+        "stock_mutant_output_bag_symdiff": 114,
+        "tagged_output_rows_before_limit": 168,
+        "wrong_head_hierarchy_counts": {
+          "0": 32,
+          "1": 65,
+          "2": 3
+        }
+      },
+      "observations": [
+        {
+          "arm": "M4_nullness_in_place_of_grouping",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "tool_errors_or_na": {
+            "datacompy_keyed": "inapplicable_natural_key"
+          },
+          "tool_verdicts": {
+            "datacompy_keyed": null,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        },
+        {
+          "arm": "M7_drop_null_detail_groups",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": false,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": false,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "tool_errors_or_na": {
+            "datacompy_keyed": "inapplicable_natural_key"
+          },
+          "tool_verdicts": {
+            "datacompy_keyed": null,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        }
+      ],
+      "query": "tpcds-86"
+    },
+    {
+      "decimal_scales": [
+        null,
+        2
+      ],
+      "metadata": {
+        "biggest_group_cents": 2038277362,
+        "german_suppliers": 4049,
+        "qualifying_input_groups": 304774,
+        "qualifying_input_rows": 323920,
+        "results": {
+          "bundled": {
+            "fraction": "1/10000",
+            "matched_exact_oracle": true,
+            "output_rows": 0,
+            "threshold_cents_rational": "81029137652468/10000",
+            "value_tie_count_excess": 0
+          },
+          "scale_bound": {
+            "fraction": "1/100000",
+            "matched_exact_oracle": true,
+            "output_rows": 8685,
+            "threshold_cents_rational": "81029137652468/100000",
+            "value_tie_count_excess": 2
+          }
+        },
+        "scale_bound_sql_digest": "bbbb76a3350a92622a9c004f06b826663aef08974ae34df5a5d0a9f387077115",
+        "stock_sql_digest": "f313c766fac507c1204fb6f2bacd35719a61a11c0f69601302555150dddeda78"
+      },
+      "observations": [
+        {
+          "arm": "qualification_fraction_on_scale_bound_workload",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": false,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": false,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        }
+      ],
+      "query": "tpch-11"
+    },
+    {
+      "decimal_scales": [
+        null,
+        null
+      ],
+      "metadata": {
+        "as_specified_distinct_memberships": 1,
+        "boundary_count": 16,
+        "engine": "1.4.3",
+        "mandatory_before_boundary": 92,
+        "memberships_admissible_if_dropping_secondary_sort": 15071474661,
+        "native_complete_supplier_count_map_equals_rollup_rewrite": true,
+        "native_full_name_order_count_histogram": {
+          "1": 1,
+          "10": 479,
+          "11": 461,
+          "12": 361,
+          "13": 286,
+          "14": 206,
+          "15": 129,
+          "16": 74,
+          "17": 52,
+          "18": 20,
+          "19": 12,
+          "2": 6,
+          "20": 4,
+          "21": 2,
+          "22": 1,
+          "24": 1,
+          "3": 36,
+          "4": 74,
+          "5": 168,
+          "6": 298,
+          "7": 362,
+          "8": 469,
+          "9": 507
+        },
+        "native_reverse_secondary_membership_symmetric_difference": 16,
+        "ordered_position_differences_with_reverse_secondary": 98,
+        "peers_at_boundary": 74,
+        "qualifying_suppliers": 4009,
+        "query_sha256": "b29463f30a64e45a795047ee6e557e6c3c1f01fc612acc997873594048e74b59",
+        "reversed_secondary_full_order_sha256": "9708526e16963fc30043024db1c5071e5fda455c9f3f99e5e7de9ff0c0ab67f8",
+        "stock_full_order_sha256": "c946cb861a1d33134ca27a2fead7b8dcaa4a8014471d82a6f2517cb72abad294",
+        "taken_from_boundary": 8
+      },
+      "observations": [
+        {
+          "arm": "reverse_secondary_order",
+          "generic": {
+            "byte_hash": null,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          },
+          "key_mode": "declared_natural",
+          "legal": false,
+          "tool_errors_or_na": {},
+          "tool_verdicts": {
+            "datacompy_keyed": false,
+            "pandas_check_like": false,
+            "pandas_default": false,
+            "pandas_dtype_relaxed": false,
+            "polars_default": false,
+            "polars_ignore_order": false
+          }
+        }
+      ],
+      "query": "tpch-21"
+    }
+  ],
+  "replayed_independent_source_drivers": {
+    "q11.py": "d2cb5a6ca4eee6ba857dd8f433277295008143cfa235b4b5c6b22dce8f9febf4",
+    "q21.py": "a4b78b7c4b33290c98d32a0c2ec57513d7cbfc8c22275457b782ef2fe410da13",
+    "q86.py": "836cb88eb6ae18788640e19109d7cff09874400080d89b41787f758bbc759d8f"
+  },
+  "scale": 10,
+  "versions": {
+    "datacompy": "0.16.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "polars": "1.31.0"
+  }
+}

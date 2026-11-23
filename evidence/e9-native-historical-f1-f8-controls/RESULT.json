@@ -1,0 +1,380 @@
+[
+  {
+    "arms": [
+      {
+        "case": "pl-int",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/polars/0.19.11/json",
+            "name": "polars",
+            "sha256": "2ac2890c96736dee83335b1f0b403233aba18b86760505e81eb9f96112afc55d",
+            "url": "https://files.pythonhosted.org/packages/78/94/144f69515766d43eb6111e7a0dfde4a9c928a74edee1a26a1f1100aa60f8/polars-0.19.11-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "0.19.11"
+          }
+        ],
+        "result": {
+          "case": "pl-int",
+          "control": {
+            "dtype": "UInt64",
+            "rank": [
+              0,
+              1,
+              2
+            ],
+            "values": [
+              11,
+              12,
+              13
+            ]
+          },
+          "expected": [
+            9223372036854775775,
+            9223372036854775833,
+            9223372036854775843
+          ],
+          "observed": {
+            "dtype": "UInt64",
+            "rank": [
+              0,
+              1,
+              2
+            ],
+            "values": [
+              9223372036854775808,
+              9223372036854775808,
+              9223372036854775808
+            ]
+          },
+          "passes": false,
+          "version": "0.19.11"
+        },
+        "status": "executed twice",
+        "version": "0.19.11"
+      },
+      {
+        "case": "pl-int",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/polars/0.19.13/json",
+            "name": "polars",
+            "sha256": "b34b19b3734bfc6b33fbb9aa0a53f13138d765ca2ebf5e59442d0c38dac55db0",
+            "url": "https://files.pythonhosted.org/packages/da/65/781919f655e0a8035dd1c67ee212c531e2946dd5bdd8e19715e14b98bf0d/polars-0.19.13-cp38-abi3-manylinux_2_28_x86_64.whl",
+            "version": "0.19.13"
+          }
+        ],
+        "result": {
+          "case": "pl-int",
+          "control": {
+            "dtype": "UInt64",
+            "rank": [
+              0,
+              1,
+              2
+            ],
+            "values": [
+              11,
+              12,
+              13
+            ]
+          },
+          "expected": [
+            9223372036854775775,
+            9223372036854775833,
+            9223372036854775843
+          ],
+          "observed": {
+            "dtype": "UInt64",
+            "rank": [
+              0,
+              1,
+              2
+            ],
+            "values": [
+              9223372036854775775,
+              9223372036854775833,
+              9223372036854775843
+            ]
+          },
+          "passes": true,
+          "version": "0.19.13"
+        },
+        "status": "executed twice",
+        "version": "0.19.13"
+      }
+    ],
+    "case": "pl-int",
+    "category": "F1",
+    "status": "historical wrong result and later correction both observed"
+  },
+  {
+    "arms": [
+      {
+        "case": "pl-tz",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/polars/1.20.0/json",
+            "name": "polars",
+            "sha256": "4996e17cb6f57d9aeaf79f66c54ef2913cea7bd025410c076ef8c05d4f7d792a",
+            "url": "https://files.pythonhosted.org/packages/2a/1a/862b8bf65182b261022292a1cd49728db876a1ef64ff377d6f7b17653886/polars-1.20.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "1.20.0"
+          }
+        ],
+        "result": {
+          "case": "pl-tz",
+          "control": {
+            "dtype": "Datetime(time_unit='us', time_zone='UTC')",
+            "epoch_microseconds": 1643850300000000,
+            "time_zone": "UTC"
+          },
+          "expected": 1643850300000000,
+          "observed": {
+            "dtype": "Datetime(time_unit='us', time_zone=None)",
+            "epoch_microseconds": 1643850300000000,
+            "time_zone": null
+          },
+          "passes": false,
+          "version": "1.20.0"
+        },
+        "status": "executed twice",
+        "version": "1.20.0"
+      },
+      {
+        "case": "pl-tz",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/polars/1.22.0/json",
+            "name": "polars",
+            "sha256": "94f25b4ef131da046d05b8235c5f29997630ee2125ebc0553b92258e88f7a8fa",
+            "url": "https://files.pythonhosted.org/packages/91/b6/d7967ca14b8bacf7d3db96b55213571c43443f8802229606cca60458780b/polars-1.22.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "1.22.0"
+          }
+        ],
+        "result": {
+          "case": "pl-tz",
+          "control": {
+            "dtype": "Datetime(time_unit='us', time_zone='Europe/Amsterdam')",
+            "epoch_microseconds": 1643850300000000,
+            "time_zone": "Europe/Amsterdam"
+          },
+          "expected": 1643850300000000,
+          "observed": {
+            "dtype": "Datetime(time_unit='us', time_zone='Europe/Amsterdam')",
+            "epoch_microseconds": 1643850300000000,
+            "time_zone": "Europe/Amsterdam"
+          },
+          "passes": true,
+          "version": "1.22.0"
+        },
+        "status": "executed twice",
+        "version": "1.22.0"
+      }
+    ],
+    "case": "pl-tz",
+    "category": "F8",
+    "status": "historical wrong result and later correction both observed"
+  },
+  {
+    "arms": [
+      {
+        "case": "pd-tz",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/pandas/2.1.1/json",
+            "name": "pandas",
+            "sha256": "29deb61de5a8a93bdd033df328441a79fcf8dd3c12d5ed0b41a395eef9cd76f0",
+            "url": "https://files.pythonhosted.org/packages/41/db/fc107df31c06976764e753074cc71cbe1c7062481f668746f8d498cafcb6/pandas-2.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "2.1.1"
+          },
+          {
+            "manifest": "https://pypi.org/pypi/numpy/1.26.4/json",
+            "name": "numpy",
+            "sha256": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+            "url": "https://files.pythonhosted.org/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "1.26.4"
+          }
+        ],
+        "result": {
+          "case": "pd-tz",
+          "control": {
+            "input_values": [
+              [
+                "2023-02-02 00:00:00+09:00",
+                "2023-02-06 00:00:00+09:00"
+              ],
+              [
+                "2023-02-06 00:00:00+09:00",
+                "2023-02-02 00:00:00+09:00"
+              ]
+            ],
+            "zones": [
+              "Asia/Tokyo",
+              "Asia/Tokyo"
+            ]
+          },
+          "expected": [
+            [
+              1,
+              "a",
+              "2023-02-02 00:00:00+09:00"
+            ],
+            [
+              2,
+              "a",
+              "2023-02-06 00:00:00+09:00"
+            ],
+            [
+              1,
+              "b",
+              "2023-02-06 00:00:00+09:00"
+            ],
+            [
+              2,
+              "b",
+              "2023-02-02 00:00:00+09:00"
+            ]
+          ],
+          "observed": {
+            "dtype": "datetime64[ns]",
+            "typed": [
+              [
+                1,
+                "a",
+                "2023-02-01 15:00:00"
+              ],
+              [
+                2,
+                "a",
+                "2023-02-05 15:00:00"
+              ],
+              [
+                1,
+                "b",
+                "2023-02-05 15:00:00"
+              ],
+              [
+                2,
+                "b",
+                "2023-02-01 15:00:00"
+              ]
+            ],
+            "zone": "None"
+          },
+          "passes": false,
+          "version": "2.1.1"
+        },
+        "status": "executed twice",
+        "version": "2.1.1"
+      },
+      {
+        "case": "pd-tz",
+        "locks": [
+          {
+            "manifest": "https://pypi.org/pypi/pandas/2.2.0/json",
+            "name": "pandas",
+            "sha256": "761cb99b42a69005dec2b08854fb1d4888fdf7b05db23a8c5a099e4b886a2106",
+            "url": "https://files.pythonhosted.org/packages/b2/a5/7f14d11f5bb3ca5681f6827616ccfbb03ec9504322674e4f962a5e9e404b/pandas-2.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "2.2.0"
+          },
+          {
+            "manifest": "https://pypi.org/pypi/numpy/1.26.4/json",
+            "name": "numpy",
+            "sha256": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+            "url": "https://files.pythonhosted.org/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "version": "1.26.4"
+          }
+        ],
+        "result": {
+          "case": "pd-tz",
+          "control": {
+            "input_values": [
+              [
+                "2023-02-02 00:00:00+09:00",
+                "2023-02-06 00:00:00+09:00"
+              ],
+              [
+                "2023-02-06 00:00:00+09:00",
+                "2023-02-02 00:00:00+09:00"
+              ]
+            ],
+            "zones": [
+              "Asia/Tokyo",
+              "Asia/Tokyo"
+            ]
+          },
+          "expected": [
+            [
+              1,
+              "a",
+              "2023-02-02 00:00:00+09:00"
+            ],
+            [
+              2,
+              "a",
+              "2023-02-06 00:00:00+09:00"
+            ],
+            [
+              1,
+              "b",
+              "2023-02-06 00:00:00+09:00"
+            ],
+            [
+              2,
+              "b",
+              "2023-02-02 00:00:00+09:00"
+            ]
+          ],
+          "observed": {
+            "dtype": "datetime64[ns, Asia/Tokyo]",
+            "typed": [
+              [
+                1,
+                "a",
+                "2023-02-02 00:00:00+09:00"
+              ],
+              [
+                2,
+                "a",
+                "2023-02-06 00:00:00+09:00"
+              ],
+              [
+                1,
+                "b",
+                "2023-02-06 00:00:00+09:00"
+              ],
+              [
+                2,
+                "b",
+                "2023-02-02 00:00:00+09:00"
+              ]
+            ],
+            "zone": "Asia/Tokyo"
+          },
+          "passes": true,
+          "version": "2.2.0"
+        },
+        "status": "executed twice",
+        "version": "2.2.0"
+      }
+    ],
+    "case": "pd-tz",
+    "category": "F8",
+    "status": "historical wrong result and later correction both observed"
+  },
+  {
+    "arms": [
+      {
+        "case": "duck-type",
+        "status": "not scored",
+        "version": "0.8.1"
+      },
+      {
+        "case": "duck-type",
+        "status": "no compatible official wheel",
+        "version": "0.9.1"
+      }
+    ],
+    "case": "duck-type",
+    "category": "F9",
+    "status": "not scored"
+  }
+]

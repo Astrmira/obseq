@@ -1,0 +1,41 @@
+{
+  "cutoff_peer_output_rows": 2,
+  "cutoff_peer_size": 49,
+  "decisions": {
+    "native": {
+      "accepted": true,
+      "observed_rows": 100
+    },
+    "projected_peer_sort_asc": {
+      "accepted": true,
+      "observed_rows": 100
+    },
+    "projected_peer_sort_desc": {
+      "accepted": true,
+      "observed_rows": 100
+    },
+    "same_count_invalid_ratio": {
+      "accepted": false,
+      "observed_rows": 100
+    },
+    "shape_negative": {
+      "accepted": false,
+      "observed_rows": 99
+    }
+  },
+  "duckdb": "1.4.3",
+  "position_differences_ascending_vs_descending": 0,
+  "pyarrow": "22.0.0",
+  "query_sha256": "2137eef7a8171764cf930f56bfc119b1033502880f89e912c9486ebef0a1f794",
+  "required_rows": 100,
+  "sales_rows_scanned": 11213853,
+  "selected_peer_bands": 3,
+  "source_contract": "independent exact batch sales sums, source-store pairing and date-dimension multiplicity",
+  "typed_window_verdicts": {
+    "native": true,
+    "projected_peer_sort_asc": true,
+    "projected_peer_sort_desc": true,
+    "same_count_invalid_ratio": false,
+    "shape_negative": false
+  }
+}

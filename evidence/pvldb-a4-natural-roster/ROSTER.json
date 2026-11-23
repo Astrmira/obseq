@@ -1,0 +1,427 @@
+[
+  {
+    "artifact_commit": "8c537808522db8d87dc205cd17db28adf3ae085e",
+    "category": "F2",
+    "family": "group-null-reassignment",
+    "frozen_roster_ids": [],
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/63920"
+    ],
+    "new": "3.1.1",
+    "old": "3.0.0",
+    "packet": "e9-native-ordinary-correctness-release-controls",
+    "readme_sha256": "e661331c4d3234c04411d3646ebb069a11295f522f40193338fbdd3b694c87b0",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "8c537808522db8d87dc205cd17db28adf3ae085e",
+    "category": "F2",
+    "family": "pivot-null-buckets",
+    "frozen_roster_ids": [],
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/27272"
+    ],
+    "new": "1.40.0",
+    "old": "1.39.3",
+    "packet": "e9-native-ordinary-correctness-release-controls",
+    "readme_sha256": "e661331c4d3234c04411d3646ebb069a11295f522f40193338fbdd3b694c87b0",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "f47bc95b52e708eacbc798fef2860f102782ca9c",
+    "category": "F1",
+    "family": "uint64-mixed-input",
+    "frozen_roster_ids": [
+      "23d83ce3eb700d2d"
+    ],
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/12032"
+    ],
+    "new": "0.19.13",
+    "old": "0.19.11",
+    "packet": "e9-native-historical-f1-f8-controls",
+    "readme_sha256": "ba424045cb2edcae824741639f57f3bd91b7d006148531950fee3d5ecd43f3c9",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "f47bc95b52e708eacbc798fef2860f102782ca9c",
+    "category": "F8",
+    "family": "nested-timezone",
+    "frozen_roster_ids": [
+      "06df66ae81378ec0"
+    ],
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/20766"
+    ],
+    "new": "1.22.0",
+    "old": "1.20.0",
+    "packet": "e9-native-historical-f1-f8-controls",
+    "readme_sha256": "ba424045cb2edcae824741639f57f3bd91b7d006148531950fee3d5ecd43f3c9",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "f47bc95b52e708eacbc798fef2860f102782ca9c",
+    "category": "F8",
+    "family": "melt-timezone",
+    "frozen_roster_ids": [
+      "24b53cc5eacd14fe"
+    ],
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/55254"
+    ],
+    "new": "2.2.0",
+    "old": "2.1.1",
+    "packet": "e9-native-historical-f1-f8-controls",
+    "readme_sha256": "ba424045cb2edcae824741639f57f3bd91b7d006148531950fee3d5ecd43f3c9",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "a88e5250f66cc9304fdcb550deb293570a6a907f",
+    "category": "F9",
+    "family": "group-collation-type",
+    "frozen_roster_ids": [
+      "05b3c62745ba9a1c"
+    ],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/8413"
+    ],
+    "new": "0.9.1",
+    "old": "0.8.1",
+    "packet": "e9-native-historical-f9-duckdb-cli",
+    "readme_sha256": "d41c6ebd8344c0a1576a19b77e69eee5437293a9f176016360b112db966af99b",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "ff74a030fb135d902e9f0525ae5b3a1b2164ce91",
+    "category": "O4",
+    "family": "insert-decimal-export",
+    "frozen_roster_ids": [
+      "e13cd43e02acf948"
+    ],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/13237"
+    ],
+    "new": "1.1.0",
+    "old": "1.0.0",
+    "packet": "e9-native-historical-o4-decimal-export",
+    "readme_sha256": "bfbc16abd44d8a1e631f173208afa6f65e242df78e6211d1ab37de9f04e129c0",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "70a27b05ed1166d55c4e455bdbcd11c4b4ac92df",
+    "category": "F5",
+    "family": "upsert-state-and-receipt",
+    "frozen_roster_ids": [],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/16698",
+      "https://github.com/duckdb/duckdb/issues/17143"
+    ],
+    "new": "1.4.0",
+    "old": "1.2.1;1.2.2",
+    "packet": "e9-native-historical-f5-upsert-effects",
+    "readme_sha256": "95c35ce54a7235039b63d25e3756487b0eb83887336b3f78dd0b5b28c2c78a29",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "5acf4be91c04a4b7aeb5eb45fceca169316bed0a",
+    "category": "F6",
+    "family": "copy-summary-bound",
+    "frozen_roster_ids": [
+      "1704c4485c94173f"
+    ],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/23504"
+    ],
+    "new": "1.5.5",
+    "old": "1.5.4",
+    "packet": "e9-native-f6-parquet-claimed-stats",
+    "readme_sha256": "4e97b10e6248b114e50b5f3f3ffbe50db590c5a0af5f10049568fed88d9d81d0",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "56c61912f1c70e53f6ccb6040e29c143424ee75f",
+    "category": "F10",
+    "family": "precision-ring-measure",
+    "frozen_roster_ids": [
+      "807d8d0f0d3efba2"
+    ],
+    "issues": [
+      "https://github.com/libgeos/geos/issues/1365"
+    ],
+    "new": "3.15.0",
+    "old": "3.13.1;3.14.1",
+    "packet": "e9-native-f10-geos-precision-measure",
+    "readme_sha256": "174de6081892fccff1d2dee2c6954bcb17010761b3bdeca64f97f8c162fcdcfb",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "b0f426287048355671ed1751b74b9df779b88432",
+    "category": "F2",
+    "family": "null-sort-topn",
+    "frozen_roster_ids": [
+      "14420bbd4b81436a"
+    ],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/24363"
+    ],
+    "new": "2.0.1",
+    "old": "1.5.5",
+    "packet": "e9-native-f2-roster-topn-null",
+    "readme_sha256": "6efbe9b79a6bbefaa8171e4d9f4eb01b1449ffd3793ae0fe1bf408bc08211dce",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "0baef1ae34ae0917bfe57ec2313154d62f60f501",
+    "category": "F3",
+    "family": "prepared-snapshot-count",
+    "frozen_roster_ids": [
+      "59890e2bc86255d1"
+    ],
+    "issues": [
+      "https://github.com/duckdb/duckdb/issues/21207"
+    ],
+    "new": "2.0.1",
+    "old": "1.4.3",
+    "packet": "e9-native-f3-prepared-snapshot",
+    "readme_sha256": "e9752cb9e879bf041244af45793d93d47160f8222eeb473753e5eeb0cf0d9113",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "25e28b9822f1426ce5a876cce1956a0b3e74df32",
+    "category": "F7",
+    "family": "rolling-variance-cancellation",
+    "frozen_roster_ids": [
+      "0a8573e459bc9e68"
+    ],
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/46049"
+    ],
+    "new": "1.5.0",
+    "old": "1.4.1",
+    "packet": "e9-native-f7-pandas-rolling-std",
+    "readme_sha256": "0dab9b2b79983bfd0a63efee855c05514f936d3c55def070c1580098f3f464d4",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "7684f91bbd621fe4bb94af1228c4f6adc0d97d94",
+    "category": "F9",
+    "family": "nullable-cumulative-group-type",
+    "frozen_roster_ids": [
+      "02050e2e7fd2c5bc"
+    ],
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/65550"
+    ],
+    "new": "3.1.0",
+    "old": "3.0.3",
+    "packet": "e9-native-f9-nullable-cumulative-type",
+    "readme_sha256": "8897d732fd51583b1e849a414b7d426b9b434c3c2a445a37f0ef418f4e6803f0",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "51a19d254f4a4cd55a6446a35e4e3664c5a42d15",
+    "category": "O4",
+    "family": "categorical-membership-logical-equality",
+    "frozen_roster_ids": [
+      "0ba374621546c748"
+    ],
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/13393"
+    ],
+    "new": "0.20.4",
+    "old": "0.20.3",
+    "packet": "e9-native-o4-categorical-logical-equality",
+    "readme_sha256": "3147bcd95806a54d57f3231f2314f08ce6330829338b5ce39cc59a4a5a5ee69c",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "6d3e97440c390331057595da2d435688ca5a47ad",
+    "category": "F2",
+    "family": "nested-sibling-null-explode",
+    "frozen_roster_ids": [
+      "050c172835a2dd23"
+    ],
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/6335"
+    ],
+    "new": "0.15.16",
+    "old": "0.15.15",
+    "packet": "e9-native-f2-polars-unnest-sibling-null",
+    "readme_sha256": "f9e1eab31df169e195bddb45205baa1c7de5bd6a0aacd64c17672ffb807f2c06",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "745e1071e93f8700fa654675e939e40b151c3040",
+    "category": "F1",
+    "family": "styler-index-representation",
+    "frozen_roster_ids": [
+      "14c38ae3f4c5ecd8"
+    ],
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/53464"
+    ],
+    "new": "2.1.0",
+    "old": "2.0.1",
+    "packet": "e9-native-f1-styler-index-representation",
+    "readme_sha256": "14edb2582e7c223246dd4726fcee896e83b3ee57975f9b5e1f54796b36240d45",
+    "scope": "frozen_300"
+  },
+  {
+    "artifact_commit": "a664f95500c928429fad77f11a5c13481adbddc9",
+    "category": "F10",
+    "family": "valid-segment-intersection",
+    "frozen_roster_ids": [
+      "05a1886dda261bc5"
+    ],
+    "issues": [
+      "https://github.com/libgeos/geos/issues/565"
+    ],
+    "new": "3.10.3",
+    "old": "3.10.2",
+    "packet": "e9-native-f10-valid-segment-intersection",
+    "readme_sha256": "6d7adf5b02ac656b40b6c479732b31df964cc32f5998439671ebe9c11a00d6f1",
+    "scope": "frozen_300"
+  },
+  {
+    "category": "F5",
+    "family": "pandas-reversed-positional-write",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/65446"
+    ],
+    "new": "3.1.1",
+    "old": "2.2.3",
+    "packet": "e9-supplemental-f5-positional-write",
+    "readme_sha256": "281c9d32a773da6f4d7d9b6e3e742c8cd0b924f3e25354766c11f7c38535d4c8",
+    "scope": "supplemental"
+  },
+  {
+    "category": "F7",
+    "family": "pandas-timedelta-cancellation",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/66551"
+    ],
+    "new": "3.1.1",
+    "old": "2.2.3",
+    "packet": "e9-supplemental-f7-timedelta-cancellation",
+    "readme_sha256": "be4785075aa8e1a74994845743db6c79a69d7d7cc1bbc2ebf686be5633816812",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "6c0b5f3134253501e1c17693a5ab3ab1292a8011",
+    "category": "F3",
+    "family": "pandas-groupby-snapshot",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/63219"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f3-pandas-groupby-snapshot",
+    "readme_sha256": "87b98099e60f6a93defdc1da6c7e2110ad1a8c5515e423e7ffb29770c3152e57",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "7ee9e209f7b68653a1944174ece309e42ca02b99",
+    "category": "F4",
+    "family": "polars-cache-lineage",
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/29788"
+    ],
+    "new": "2.1.0",
+    "old": "2.0.0",
+    "packet": "e9-supplemental-f4-polars-cached-lineage",
+    "readme_sha256": "ce7e75a62e9f1b239add1928d5fb5cc72fb0a6f603a61855231cda50b64d58d7",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "46859f67284e51d4705c9d440ce53bb82cfaab5c",
+    "category": "F5",
+    "family": "pandas-idempotent-partial-key-write",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/61841"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f5-pandas-partial-key-write",
+    "readme_sha256": "15a67d145f8defd4b4a31fd2cbcf8790d0f5af8362a06e1fe8cb7c4a5bc96135",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "2ed10c1aba9bef652e428e394fc93b6463d80785",
+    "category": "F6",
+    "family": "pandas-annual-boundaries",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/56134",
+      "https://github.com/pandas-dev/pandas/issues/56147"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f6-pandas-ordered-boundaries",
+    "readme_sha256": "ecdedb019b18c9933b092bfe79c929ef6e9060988c27243a2dd9e9c1726a61b7",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "2ed10c1aba9bef652e428e394fc93b6463d80785",
+    "category": "F6",
+    "family": "pandas-asof-string-boundary",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/50946"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f6-pandas-ordered-boundaries",
+    "readme_sha256": "ecdedb019b18c9933b092bfe79c929ef6e9060988c27243a2dd9e9c1726a61b7",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "845f3ce60cbd1f51dc7e26c3aba5bdee8a0f6506",
+    "category": "F7",
+    "family": "pandas-historical-rolling-moments",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/54380"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f7-pandas-rolling-future-window",
+    "readme_sha256": "b598a9b334b325d9b02b24012e284fc1be41d437f71b839450467bf6745b5203",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "ddede05f8a767ea01cb7df13d43a416caffa5f7b",
+    "category": "O3",
+    "family": "polars-categorical-series-topk",
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/28344"
+    ],
+    "new": "1.43.0",
+    "old": "1.42.1",
+    "packet": "e9-supplemental-o3-native-categorical-topk",
+    "readme_sha256": "40bfc96f53fb5f34f82aa50192178a1bd84fadc54d5a5e858ec7a061ce9d7596",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "921ab3f4c9c9da246ac5246b127a650a06c6b76b",
+    "category": "O3",
+    "family": "polars-grouped-coupled-representative",
+    "issues": [
+      "https://github.com/pola-rs/polars/issues/29630"
+    ],
+    "new": "2.0.0",
+    "old": "1.44.2",
+    "packet": "e9-supplemental-o3-polars-group-representative",
+    "readme_sha256": "79dd102895efc90c4dcb6de27cb022898305ba72af2372fcef8e0f0f702f4c49",
+    "scope": "supplemental"
+  },
+  {
+    "artifact_commit": "86ce6bd0aef68209ebbc61d485b560a81ad14641",
+    "category": "F4",
+    "family": "pandas-index-uniqueness-cache",
+    "issues": [
+      "https://github.com/pandas-dev/pandas/issues/57911"
+    ],
+    "new": "3.0.0",
+    "old": "2.3.3",
+    "packet": "e9-supplemental-f4-pandas-index-uniqueness-cache",
+    "readme_sha256": "b10991963ddf765766a4c9e9fa42a2a0d1e514fd176f89b4a825aeb15da300e7",
+    "scope": "supplemental"
+  }
+]

@@ -1,0 +1,5 @@
+arm,legal,ordered,multiset,set,byte_hash,rtol1e-5,rtol1e-9,sum,rowcount,schema,sqlite_integrity,stock_cwi
+native_1_to_4,True,False,False,False,False,True,True,False,True,True,,True
+native_4_to_1,True,False,False,False,False,True,True,False,True,True,,True
+M1_exact_key_plus_one,False,False,False,False,False,False,False,False,True,True,,True
+large_float_control,False,False,False,False,False,False,False,False,True,True,,False

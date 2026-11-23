@@ -1,0 +1,1103 @@
+{
+  "execution": {
+    "bound_roles": [
+      "ARROW22",
+      "CLICK0",
+      "CLICK_DIR",
+      "CLICK_SQL",
+      "CWI_COMPARE",
+      "DBT_DEPS",
+      "DEEQU_ROOT",
+      "DUCK143",
+      "DVC_SITE",
+      "E4_DEPS",
+      "E5_DEPS",
+      "GX_DEPS",
+      "H2O_DIR",
+      "H2O_LEFT",
+      "H2O_STOCK",
+      "KEYED_CASES",
+      "KEYED_LABELS",
+      "NY_TZ",
+      "Q39_REFERENCE",
+      "SF10_DB",
+      "SF10_ROOT",
+      "SF10_TPCDS",
+      "SLT"
+    ],
+    "command": "python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH",
+    "date": "2026-11-23",
+    "default_python": "3.12.3",
+    "missing_role_counts": {
+      "ARROW19": 1,
+      "CENSUS": 1,
+      "CLICK_CAPTURE": 1,
+      "DUCK142": 1,
+      "E1": 3,
+      "E4_INPUTS": 3,
+      "GOES": 1,
+      "GX_ROOT": 2,
+      "H2O_GROUP": 1,
+      "HVFHV": 2,
+      "LAKE_BIN": 1,
+      "OISST1": 1,
+      "OSM": 3,
+      "STOCK_GRADE": 1,
+      "TLC": 8,
+      "TLC_DIR": 1,
+      "TW8": 1,
+      "TWEET": 2,
+      "WEDGE": 1,
+      "XLSX_ARCHIVE": 1
+    },
+    "notes": [
+      "The 22 passing entries include one receipt-only archive entry.",
+      "The default system Python lacked the pinned osgeo runtime. Other failures include mismatched wheel versions and incomplete local dependency or input paths."
+    ],
+    "platform": "remote Linux server",
+    "system_python": "3.10.12"
+  },
+  "follow_up": [
+    {
+      "execution": {
+        "command": "PROJ_DATA=PROJ_RESOURCES GDAL_DATA=GDAL_RESOURCES python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH --system-python GDAL_PYTHON",
+        "platform": "same remote Linux server and input bindings as the first run",
+        "receipt_only_entries": 1,
+        "system_runtime": {
+          "gdal": "3.10.3",
+          "geos": "3.13.1",
+          "proj": "9.6.0",
+          "sqlite": "3.53.4"
+        }
+      },
+      "records": [
+        {
+          "id": "eab-native-collation-equivalence",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-stream-to-storage-write-intent",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-fid-keyed-write-intent",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-semantic-snapshot-binding",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-destination-projection-binding",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-geometric-set-equality",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "eab-typed-lineage-geometry-interventions",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "eab-workbook-dst-authority",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-immutable-calendar-recurrence-anchor",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "eab-cascade-lineage-closure",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-sql-allowed-result-families",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-coupled-sql-allowed-family",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-typed-sql-group-representatives",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-sqlite-transactional-snapshot-binding",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-sqlite-semantic-dependency-binding",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "compact-native-conformance-corpus",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "cross-adapter-contract-transfer",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "native-contract-harness",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "external-native-corpus-admission",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "crs-relative-clearance-certificates",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "crs-round-trip-boundary-identity",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "partial-refresh-epoch-granularity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "external-native-hole-containment",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "external-native-planar-containment",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "selective-interval-peer-matching",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "exact-orient2d-native-100m-scale",
+          "kind": "receipt_only",
+          "status": "PASS"
+        },
+        {
+          "id": "pipeline-typed-null-join-isolation",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "pipeline-engine-semantics-oracle",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "pipeline-native-transport-semantics",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "pipeline-native-write-intent",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-composed-semantic-receipt",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "eab-receipt-independent-observables",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "workbook-stream-dimension-completeness",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-general-numeric-token-fidelity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-binary64-token-inverse-fiber",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-named-formula-copy-resolution",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-structured-move-preflight",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-staged-structural-preflight",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-print-title-native-consumer",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "whole-multipolygon-point-admission",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "exact-dyadic-predicate-gate",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "forward-projection-edge-admission",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "native-variant-write-intent-preservation",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "oisst-positional-aggregate-cancellation",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "osm-native-fts-content-freshness",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "osm-native-typed-identifier-persistence",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "stock-pandas-categorical-contracts",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-coherent-group-representatives",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-native-tristate-json-patch",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-two-boundary-offset-membership",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "native-schema-presence-write-intent",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-native-utc-flow-counts",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-native-null-session-bridges",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "geometry-grid-relations",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "variant-native-presence-projection",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "partial-cut-sum-reference-identity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "safe-shared-formula-rectangles",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "scalar-cut-reference-identity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "shared-formula-cut-identity",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "workbook-date-serial-preservation",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "stale-join-key-eligibility",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "sqlite-stored-field-evaluation-epoch",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "parquet-pandas-null-valid-nan",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "native-topk-cutoff-membership",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "xlsx-native-early-date-readers",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "dbt-native-unit-and-relationship-scope",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "datacompy-key-occurrence-vs-bag",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "gx-compound-collation-scope",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "specbridge-tolerant-peer-permutation",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "stock-null-stage-attribution",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "stock-gx-typed-token-anchors",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "stock-deequ-common-keyed",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "stock-dvc-keyed-fingerprint-audit",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "postgresql-native-derivation-epochs",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "xlsx-native-style-type-drift",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "stock-gx-netcdf-source-support",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "polars-group-min-cross-version",
+          "kind": "native_authored_development",
+          "status": "FAIL_divergence"
+        },
+        {
+          "id": "native-bag-comparator-coercion",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "cross-engine-bag-comparator-admission",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "hvfhv-native-fold-duration-constraints",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "hvfhv-native-three-event-order",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "polars-cent-contract-scale",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "tpch-scoped-epoch-binding",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "clickbench-native-footer-epoch-binding",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "clickbench-native-id-cast-boundaries",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "clickbench-two-partition-projected-queries",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "publisher-cutoff-observability",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "h2o-native-null-policy-join",
+          "kind": "native_external_transfer",
+          "status": "PASS"
+        },
+        {
+          "id": "tpch-q11-all-nation-scale-binding",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "slt-native-port-framing-scope",
+          "kind": "native_authored_development",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "sparse-float-join-discriminators",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "supplied-cwi-tool-q39",
+          "kind": "native_external_transfer",
+          "status": "FAIL_execution"
+        },
+        {
+          "id": "stock-dbt-scoped-freshness",
+          "kind": "native_authored_development",
+          "status": "PASS"
+        },
+        {
+          "id": "tpch-sf10-bundled-vs-workload-q11",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "tlc-joint-fold-interval-validation",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "exact-orient2d-adaptive-native-corpus",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "lakefs-native-snapshot-checksums",
+          "kind": "native_authored_development",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "h2o-factorized-association-moments",
+          "kind": "native_external_transfer",
+          "status": "NA_runtime"
+        },
+        {
+          "id": "tpcds-sf10-q39-exact-threshold",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "e3-f10-native-census-vertex-preservation",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        },
+        {
+          "id": "e3-f5-native-osm-field-mask",
+          "kind": "native_external_transfer",
+          "status": "NA_input_binding"
+        }
+      ],
+      "status_counts": {
+        "FAIL_divergence": 22,
+        "FAIL_execution": 17,
+        "NA_input_binding": 36,
+        "NA_runtime": 1,
+        "PASS": 25
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "eab-native-collation-equivalence",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-stream-to-storage-write-intent",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-fid-keyed-write-intent",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-semantic-snapshot-binding",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-destination-projection-binding",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-geometric-set-equality",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-typed-lineage-geometry-interventions",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-workbook-dst-authority",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-immutable-calendar-recurrence-anchor",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-cascade-lineage-closure",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-sql-allowed-result-families",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-coupled-sql-allowed-family",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-typed-sql-group-representatives",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-sqlite-transactional-snapshot-binding",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "eab-sqlite-semantic-dependency-binding",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "compact-native-conformance-corpus",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "cross-adapter-contract-transfer",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "native-contract-harness",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "external-native-corpus-admission",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "crs-relative-clearance-certificates",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "crs-round-trip-boundary-identity",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "partial-refresh-epoch-granularity",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "external-native-hole-containment",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "external-native-planar-containment",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "selective-interval-peer-matching",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "exact-orient2d-native-100m-scale",
+      "kind": "receipt_only",
+      "status": "PASS"
+    },
+    {
+      "id": "pipeline-typed-null-join-isolation",
+      "kind": "native_authored_development",
+      "status": "FAIL_producer"
+    },
+    {
+      "id": "pipeline-engine-semantics-oracle",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "pipeline-native-transport-semantics",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "pipeline-native-write-intent",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "eab-composed-semantic-receipt",
+      "kind": "native_authored_development",
+      "status": "FAIL_producer"
+    },
+    {
+      "id": "eab-receipt-independent-observables",
+      "kind": "native_authored_development",
+      "status": "FAIL_producer"
+    },
+    {
+      "id": "workbook-stream-dimension-completeness",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-general-numeric-token-fidelity",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-binary64-token-inverse-fiber",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-named-formula-copy-resolution",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-structured-move-preflight",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-staged-structural-preflight",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-print-title-native-consumer",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "whole-multipolygon-point-admission",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "exact-dyadic-predicate-gate",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "forward-projection-edge-admission",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "native-variant-write-intent-preservation",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "oisst-positional-aggregate-cancellation",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "osm-native-fts-content-freshness",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "osm-native-typed-identifier-persistence",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "stock-pandas-categorical-contracts",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-coherent-group-representatives",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-native-tristate-json-patch",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-two-boundary-offset-membership",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "native-schema-presence-write-intent",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-native-utc-flow-counts",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-native-null-session-bridges",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "geometry-grid-relations",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "variant-native-presence-projection",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "partial-cut-sum-reference-identity",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "safe-shared-formula-rectangles",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "scalar-cut-reference-identity",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "shared-formula-cut-identity",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "workbook-date-serial-preservation",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "stale-join-key-eligibility",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "sqlite-stored-field-evaluation-epoch",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "parquet-pandas-null-valid-nan",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "native-topk-cutoff-membership",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "xlsx-native-early-date-readers",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "dbt-native-unit-and-relationship-scope",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "datacompy-key-occurrence-vs-bag",
+      "kind": "native_external_transfer",
+      "status": "PASS"
+    },
+    {
+      "id": "gx-compound-collation-scope",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "specbridge-tolerant-peer-permutation",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "stock-null-stage-attribution",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "stock-gx-typed-token-anchors",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "stock-deequ-common-keyed",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "stock-dvc-keyed-fingerprint-audit",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "postgresql-native-derivation-epochs",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "xlsx-native-style-type-drift",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "stock-gx-netcdf-source-support",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "polars-group-min-cross-version",
+      "kind": "native_authored_development",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "native-bag-comparator-coercion",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "cross-engine-bag-comparator-admission",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "hvfhv-native-fold-duration-constraints",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "hvfhv-native-three-event-order",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "polars-cent-contract-scale",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "tpch-scoped-epoch-binding",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "clickbench-native-footer-epoch-binding",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "clickbench-native-id-cast-boundaries",
+      "kind": "native_external_transfer",
+      "status": "PASS"
+    },
+    {
+      "id": "clickbench-two-partition-projected-queries",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "publisher-cutoff-observability",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "h2o-native-null-policy-join",
+      "kind": "native_external_transfer",
+      "status": "PASS"
+    },
+    {
+      "id": "tpch-q11-all-nation-scale-binding",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "slt-native-port-framing-scope",
+      "kind": "native_authored_development",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "sparse-float-join-discriminators",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "supplied-cwi-tool-q39",
+      "kind": "native_external_transfer",
+      "status": "FAIL_execution"
+    },
+    {
+      "id": "stock-dbt-scoped-freshness",
+      "kind": "native_authored_development",
+      "status": "PASS"
+    },
+    {
+      "id": "tpch-sf10-bundled-vs-workload-q11",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "tlc-joint-fold-interval-validation",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "exact-orient2d-adaptive-native-corpus",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "lakefs-native-snapshot-checksums",
+      "kind": "native_authored_development",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "h2o-factorized-association-moments",
+      "kind": "native_external_transfer",
+      "status": "FAIL_divergence"
+    },
+    {
+      "id": "tpcds-sf10-q39-exact-threshold",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "e3-f10-native-census-vertex-preservation",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    },
+    {
+      "id": "e3-f5-native-osm-field-mask",
+      "kind": "native_external_transfer",
+      "status": "NA_input_binding"
+    }
+  ],
+  "status_counts": {
+    "FAIL_divergence": 13,
+    "FAIL_execution": 27,
+    "FAIL_producer": 3,
+    "NA_input_binding": 36,
+    "PASS": 22
+  }
+}

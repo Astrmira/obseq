@@ -1,0 +1,1288 @@
+{
+  "status": "verified_scoped_numbers",
+  "numbers": [
+    {
+      "id": "a1.queries_parsed",
+      "value": 305,
+      "denominator": 305,
+      "unit": "queries",
+      "scope": "Pinned SQL across TPC-H, TPC-DS, SSB, JOB, ClickBench and H2O.",
+      "source_sha256": "97b173fd39266cf3575ece16df851478cfdee9bcdc43860afd691961f870f7a4",
+      "replay": "python -B run.py SOURCES JOB_SQL_DIR STOCK_SQL H2O_CHECKOUT OUTPUT --schemas SCHEMAS.json",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/INVENTORY.json"
+    },
+    {
+      "id": "a2.q39.cwi_m1_false_accept",
+      "value": 1,
+      "denominator": 1,
+      "unit": "authored M1 controls",
+      "scope": "One coherent exact-key mutation of an independently certified native TPC-DS SF10 Q39 output.",
+      "source_sha256": "ae19c417c78b185cd0b7761650bfd55d13c8481ec1a3ff1aaca4d28821e162a8",
+      "replay": "python -IB run.py NATIVE_Q39 SF10_SHA_JSON STOCK_CWI FROZEN_E2 OUTPUT",
+      "artifact_path": "evidence/pvldb-a2-q39-real-output/RESULT.json"
+    },
+    {
+      "id": "a3.stable_order.false_reject",
+      "value": 2,
+      "denominator": 10,
+      "unit": "legal held-out cases",
+      "scope": "Sealed later-138 representative panel, against a source-derived lexicographic reference.",
+      "source_sha256": "93fc674edb6a1a4c5d706ef9e46ed0162325210fab9a7285985103a6c31f308a",
+      "replay": "python -IB run.py SEALED_PANEL A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-a3-independent-panel/RESULT.json"
+    },
+    {
+      "id": "a3.stable_order.false_accept",
+      "value": 2,
+      "denominator": 14,
+      "unit": "invalid held-out cases",
+      "scope": "Same representative panel, with ordinary observers on g,s,d,p,t.",
+      "source_sha256": "93fc674edb6a1a4c5d706ef9e46ed0162325210fab9a7285985103a6c31f308a",
+      "replay": "python -IB run.py SEALED_PANEL A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-a3-independent-panel/RESULT.json"
+    },
+    {
+      "id": "a4.natural_fault_pilot.old_invalid",
+      "value": 100,
+      "denominator": 276,
+      "unit": "native observations",
+      "scope": "Two pandas families with pandas 2.2.3 and NumPy 2.5.5.",
+      "source_sha256": "163896d6466093c6e68b7722b85197b35ae77c2c0bc8551bb4d16f94bdec552b",
+      "replay": "python -IB pilot.py NEW_SITE old A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/OLD-PILOT.json"
+    },
+    {
+      "id": "a4.natural_fault_pilot.new_invalid",
+      "value": 0,
+      "denominator": 276,
+      "unit": "native observations",
+      "scope": "The same two pandas families with pandas 3.1.1 and NumPy 2.5.5.",
+      "source_sha256": "149e9f798baed2d498dc0a22aa006366c8c9fdb7eb0007d85301e1cdc535aaa9",
+      "replay": "python -IB pilot.py NEW_SITE new A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/NEW-PILOT.json"
+    },
+    {
+      "id": "a6.textafter_name_error",
+      "value": 42042,
+      "denominator": 44695,
+      "unit": "cells",
+      "scope": "Occurrences of unsupported TEXTAFTER in the dominant answer workbook, out of the original Calc cache type disagreements.",
+      "source_sha256": "d9e2b65f72986e131dbbf62bbbd6306debaf9e3a455ee60335dcd60325bb89e6",
+      "replay": "/usr/bin/python3 -IB textafter.py FROZEN_CALC cluster WORKSPACE",
+      "artifact_path": "evidence/pvldb-a6-cache-transitions/TEXTAFTER-CLUSTER.json"
+    },
+    {
+      "id": "a7.partition0.split_cutoff",
+      "value": 11,
+      "denominator": 31,
+      "unit": "ORDER BY/LIMIT queries",
+      "scope": "Eight-thread cutoff census on the one-million-row publisher shard hits_0.parquet.",
+      "source_sha256": "d14107b63ab8e4b95e5b4bac104302d51e27b3e407e65b23a1a988e855bbe3f3",
+      "replay": "Use A1 cutoffs.py census with the pinned stock SQL, one hits_0.parquet adapter and threads=8.",
+      "status": "superseded_for_population_estimates",
+      "full_cohort_source": "a7.full.split_cutoff",
+      "superseded_by": "a7.full.split_cutoff",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/PART0-CUTOFFS.jsonl"
+    },
+    {
+      "id": "a7.full.split_cutoff",
+      "value": 8,
+      "denominator": 31,
+      "unit": "ORDER BY/LIMIT queries",
+      "scope": "Native cutoff census over all 100 publisher shards.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.native_bag_difference",
+      "value": 7,
+      "denominator": 43,
+      "unit": "stock queries",
+      "scope": "Exact bag comparison between one-thread and eight-thread native outputs.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.native_order_difference",
+      "value": 9,
+      "denominator": 43,
+      "unit": "stock queries",
+      "scope": "Exact ordered comparison between one-thread and eight-thread native outputs.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.q25_projected_legal_bags",
+      "value": 28,
+      "denominator": 1,
+      "unit": "legal bags per query",
+      "scope": "Eight distinct cutoff peer projections for six open slots in ClickBench Q25.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.userid_float64_one_side_lost_pairs",
+      "value": 2193366948,
+      "denominator": 2246850803,
+      "unit": "exact non-null join pairs",
+      "scope": "Alternating native shard rows in both arms, one arm cast to float64.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.watchid_float64_collided_exact_keys",
+      "value": 2,
+      "denominator": 99997493,
+      "unit": "distinct source keys",
+      "scope": "WatchID keys represented in a float64 bucket with multiple exact keys.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a2.clickbench.tolerance_1e_9_false_accept",
+      "value": 2,
+      "denominator": 4,
+      "unit": "invalid observations",
+      "scope": "M1/M2/M3/M6 controls on authentic Q18/Q25 outputs with independent source labels.",
+      "source_sha256": "e12710b224994f8c65fd39b74db0d72463dd12fec53b8a0d9ad46020d94eceab",
+      "replay": "python -IB score.py ACQUISITION OUTPUT ../remote-clickbench-full/run.py ../pvldb-a2-q39-real-output/run.py ../submission-e-series-native-evidence/e23/check.py STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-A2.json"
+    },
+    {
+      "id": "a2.clickbench.grouped_window_native_outputs_valid",
+      "value": 14,
+      "denominator": 14,
+      "unit": "native outputs",
+      "scope": "Independent Parquet/NumPy source adjudication of Q31–Q33 and Q39–Q42 at 1 and 8 threads.",
+      "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
+      "replay": "python -IB run.py ACQUISITION STOCK_SQL FULL_OUTPUT FROZEN_RUNNER A2_RUNNER E2_SOURCE STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.grouped_window_rtol1e9_false_reject",
+      "value": 6,
+      "denominator": 7,
+      "unit": "query observations",
+      "scope": "E2 relative tolerance on the grouped-window native/controlled matrix.",
+      "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
+      "replay": "python -IB run.py ACQUISITION STOCK_SQL FULL_OUTPUT FROZEN_RUNNER A2_RUNNER E2_SOURCE STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.grouped_window_rtol1e9_false_accept",
+      "value": 8,
+      "denominator": 15,
+      "unit": "query observations",
+      "scope": "E2 relative tolerance on the grouped-window native/controlled matrix.",
+      "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
+      "replay": "python -IB run.py ACQUISITION STOCK_SQL FULL_OUTPUT FROZEN_RUNNER A2_RUNNER E2_SOURCE STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.user_left_join_raw_exact",
+      "value": 2250443892,
+      "denominator": 99997497,
+      "unit": "raw join rows",
+      "scope": "Output cardinality of the native raw left join from alternating full-cohort source rows.",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -IB run.py ACQUISITION PRIOR_ID_CAST FROZEN_RUNNER A2_RUNNER E2_SOURCE OUTPUT STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.user_left_join_raw_right_float64",
+      "value": 102080691,
+      "denominator": 99997497,
+      "unit": "raw join rows",
+      "scope": "Output cardinality of the native raw left join from alternating full-cohort source rows.",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -IB run.py ACQUISITION PRIOR_ID_CAST FROZEN_RUNNER A2_RUNNER E2_SOURCE OUTPUT STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.user_left_join_rollup_changed_rows",
+      "value": 45003747,
+      "denominator": 49998749,
+      "unit": "left occurrence rows",
+      "scope": "Both outputs retain one row per left occurrence with an exact matched-pair count.",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -IB run.py ACQUISITION PRIOR_ID_CAST FROZEN_RUNNER A2_RUNNER E2_SOURCE OUTPUT STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json"
+    },
+    {
+      "id": "a3.ordered_intervention.pandas_false_accept",
+      "value": 9,
+      "denominator": 12,
+      "unit": "sealed invalid executions",
+      "scope": "The value-only pandas default on the independent later-138 intervention panel.",
+      "source_sha256": "7fff5a08c66c0540b914df72203cd81e2a02e9cfef89bd807c3efc9221773f9e",
+      "replay": "python -IB run.py E7_LATER_PANELS A2_RUNNER E2_SOURCE",
+      "artifact_path": "evidence/pvldb-a3-heldout-value-observers/RESULT.json"
+    },
+    {
+      "id": "a4.pandas_supplement_2_3_3_invalid_outputs",
+      "value": 14,
+      "denominator": 19,
+      "unit": "native outputs",
+      "scope": "Fresh native replay of five supplemental pandas release-pair families.",
+      "source_sha256": "8a2035ab76e80c2a79bd7d7cbec1953e23d588dc906838714392bff01c91f456",
+      "replay": "python -B paired_pandas.py EVIDENCE_ROOT A3_RUNNER A2_RUNNER E2_SOURCE",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/PAIRED-PANDAS-2.3.3.json"
+    },
+    {
+      "id": "a5.durable.outside_change",
+      "value": 1.981190353286753,
+      "denominator": 1,
+      "unit": "tracked / untracked",
+      "scope": "Median of five within-pair latency ratios for durable DuckDB SF1 writes, with one COMMIT per transaction.",
+      "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
+      "replay": "python -IB run.py PINNED_TPCH_QUERY_JSON SIGNED_TPCH_EXTENSION --durable-db NEW_DB_PATH",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json"
+    },
+    {
+      "id": "a5.durable.scoped_change",
+      "value": 1.9985703461469617,
+      "denominator": 1,
+      "unit": "tracked / untracked",
+      "scope": "Median of five within-pair latency ratios for durable DuckDB SF1 writes, with one COMMIT per transaction.",
+      "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
+      "replay": "python -IB run.py PINNED_TPCH_QUERY_JSON SIGNED_TPCH_EXTENSION --durable-db NEW_DB_PATH",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json"
+    },
+    {
+      "id": "a5.durable.scoped_zero",
+      "value": 1.144419067649667,
+      "denominator": 1,
+      "unit": "tracked / untracked",
+      "scope": "Median of five within-pair latency ratios for durable DuckDB SF1 writes, with one COMMIT per transaction.",
+      "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
+      "replay": "python -IB run.py PINNED_TPCH_QUERY_JSON SIGNED_TPCH_EXTENSION --durable-db NEW_DB_PATH",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json"
+    },
+    {
+      "id": "a10.missing_cache.cells_in_answer_position",
+      "value": 1198,
+      "denominator": 2389,
+      "unit": "formula cells",
+      "scope": "A6 target coordinates within the SpreadsheetBench V1 official grading ranges.",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -IB run.py PINNED_V1_ARCHIVE A6_PRIVATE_WORKSPACE STOCK_EVALUATION_PY EVALUATOR_SHA256",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json"
+    },
+    {
+      "id": "a10.textafter.cells_in_answer_position",
+      "value": 42042,
+      "denominator": 42042,
+      "unit": "formula cells",
+      "scope": "A6 target coordinates within the SpreadsheetBench V1 official grading ranges.",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -IB run.py PINNED_V1_ARCHIVE A6_PRIVATE_WORKSPACE STOCK_EVALUATION_PY EVALUATOR_SHA256",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json"
+    },
+    {
+      "id": "a10.original_vs_recalculated.pass_to_fail",
+      "value": 26,
+      "denominator": 49,
+      "unit": "self-passing targeted answer files",
+      "scope": "Original V1 files scored against original versus Calc 7.3.7.2 exports.",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -IB run.py PINNED_V1_ARCHIVE A6_PRIVATE_WORKSPACE STOCK_EVALUATION_PY EVALUATOR_SHA256",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json"
+    },
+    {
+      "id": "e4.tlc.transition_month_population",
+      "value": 316763226,
+      "denominator": 316763226,
+      "unit": "source rows",
+      "scope": "All 35 published clock-transition months in the pinned NYC TLC index.",
+      "source_sha256": "ac7b30cb1c5cf7e107a7c6049b9b563934a9d6227302eb8220c6db8e295ef2ef",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json"
+    },
+    {
+      "id": "e4.tlc.ambiguous_trips",
+      "value": 481749,
+      "denominator": 149314076,
+      "unit": "in-month pickup rows",
+      "scope": "Ambiguous local hours in the 17 published NYC TLC fall transition months.",
+      "source_sha256": "ac7b30cb1c5cf7e107a7c6049b9b563934a9d6227302eb8220c6db8e295ef2ef",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json"
+    },
+    {
+      "id": "e5.common.configurations",
+      "value": 16,
+      "denominator": 16,
+      "unit": "tested configurations",
+      "scope": "Shared E2/E3 cohort, with applicability recorded independently per method.",
+      "source_sha256": "79a48305afb26c0f36f82b0456822ed170fb85278ceb820747bf2da1de122817",
+      "replay": "python -B check.py LOCAL_RECEIPTS_ROOT",
+      "artifact_path": "evidence/e5-practical-denominator-crosswalk/RESULT.json"
+    },
+    {
+      "id": "e9.sample.wrong_result_yes",
+      "value": 82,
+      "denominator": 300,
+      "unit": "sampled public issues",
+      "scope": "Adjudicated, deliberately query-selected frozen public issue sample. The coded unresolved cases remain in the denominator.",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+    },
+    {
+      "id": "e9.native_release_pairs",
+      "value": 29,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "15 from the frozen public issue sample and 14 purposefully found supplements.",
+      "source_sha256": "ae0bea6fdc03d3802ae42b204a36384937249494030822c614e94af803ee7169",
+      "replay": "python -B check.py ORIGINAL_ROSTER.csv",
+      "artifact_path": "evidence/e9-all-class-release-coverage/RESULT.json"
+    },
+    {
+      "id": "e23.byte_hash.false_reject",
+      "value": 8,
+      "denominator": 8,
+      "unit": "assessed observations",
+      "scope": "Only byte-artifact carriers in the authored development cohort.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "e23.byte_hash.false_accept",
+      "value": 3,
+      "denominator": 3,
+      "unit": "assessed observations",
+      "scope": "Only byte-artifact carriers in the authored development cohort.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "e6.o1.backup_and_typed_digest",
+      "value": 1605.347673,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Separate SQLite native read median.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "e6.o2.trusted_epoch_check",
+      "value": 0.009832,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Separate H2O Q1 producer median. Reader check only.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "e6.o3.topk_guard_increment",
+      "value": 180.726236,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Additional checker time versus producer in same worker.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "e6.o3.topk_family_increment",
+      "value": 131.917311,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Additional checker time versus producer in same worker.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "e6.o4.lazy_filtered_vs_generate",
+      "value": 133.340831,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Separate C++ generation/checksum median. Derived dyadic queries.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "e6.o5.witness_vs_sparse_apply",
+      "value": 36.345638,
+      "denominator": 100,
+      "unit": "percent of stated baseline",
+      "scope": "Within-worker witness stage over scoped sparse apply. 100M backing rows and four intent rows.",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -IB check.py",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    },
+    {
+      "id": "a1.clickbench.typed_ordered_windows",
+      "value": 31,
+      "denominator": 31,
+      "unit": "queries",
+      "scope": "Exact projected window membership and multiplicity on the loaded full ClickBench snapshot; both frozen thread arms.",
+      "source_sha256": "e20846c72f64ba0c28c500e0f80e3c8e286327ae8e16cd59fce3f42b84f3f450",
+      "replay": "python -B verify_windows.py clickbench STOCK_SQL OUTPUT --native PRIVATE_CANDIDATES --acquisition ACQUISITION --upstream A7_RUNNER --stores HIT_STORE_A HIT_STORE_B",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/VERIFY-CLICKBENCH.jsonl"
+    },
+    {
+      "id": "a3.original.rowcount.false_accept",
+      "value": 47,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.original.rowcount.false_reject",
+      "value": 2,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.original.pandas_default.false_accept",
+      "value": 0,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.original.pandas_default.false_reject",
+      "value": 23,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.original.polars_ignore_order.false_accept",
+      "value": 0,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.original.polars_ignore_order.false_reject",
+      "value": 20,
+      "denominator": 54,
+      "unit": "candidate observations",
+      "scope": "original sealed cohort, fixed table projection. 108 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "06f98bd2227c3166b024ee1555c63d8b3eafb8297c86f7bbc3cdf6459378a5ff",
+      "replay": "python -B original.py E7_SCORED ORIGINAL-REFERENCES.json A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/ORIGINAL-RESULT.json"
+    },
+    {
+      "id": "a3.later.rowcount.false_accept",
+      "value": 39,
+      "denominator": 48,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a3.later.rowcount.false_reject",
+      "value": 0,
+      "denominator": 180,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a3.later.pandas_default.false_accept",
+      "value": 11,
+      "denominator": 48,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a3.later.pandas_default.false_reject",
+      "value": 19,
+      "denominator": 180,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a3.later.polars_ignore_order.false_accept",
+      "value": 12,
+      "denominator": 48,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a3.later.polars_ignore_order.false_reject",
+      "value": 9,
+      "denominator": 180,
+      "unit": "candidate observations",
+      "scope": "later sealed cohort, fixed table projection. 138 distinct cases; excluded alternate decimal policy control.",
+      "source_sha256": "bf7e2ce1be2b55ec652561e912926e14481bc435340cd2d65a77340cf57f4af5",
+      "replay": "python -B later.py PANELS REPRESENTATIVE_RUNNER VALUE_RUNNER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/LATER-RESULT.json"
+    },
+    {
+      "id": "a2.q86.nullness_role_misclassified",
+      "value": 57,
+      "denominator": 168,
+      "unit": "groups before LIMIT",
+      "scope": "TPC-DS SF10 Q86 source aggregation. Substitutes rendered nullness for GROUPING roles.",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B tpc.py PRIOR_DRIVERS QUERY_BUNDLES DATASET Q39_RECEIPTS A1_VERIFIER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json"
+    },
+    {
+      "id": "a2.q11.scale_bound_output_rows",
+      "value": 8685,
+      "denominator": 304774,
+      "unit": "part groups",
+      "scope": "TPC-H SF10 local workload; scale-bound fraction 1/100000. Bundled qualification fraction returns zero rows.",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B tpc.py PRIOR_DRIVERS QUERY_BUNDLES DATASET Q39_RECEIPTS A1_VERIFIER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json"
+    },
+    {
+      "id": "a2.q21.reversed_secondary_membership_difference",
+      "value": 16,
+      "denominator": 100,
+      "unit": "rows in symmetric difference / head size",
+      "scope": "TPC-H SF10 ordered head. Reversing the specified supplier-name secondary key replaces eight head members.",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B tpc.py PRIOR_DRIVERS QUERY_BUNDLES DATASET Q39_RECEIPTS A1_VERIFIER A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json"
+    },
+    {
+      "id": "a4.archived_pairs.ordered_detected",
+      "value": 8,
+      "denominator": 8,
+      "unit": "release pairs",
+      "scope": "Eight additional archived old/new release pairs with independently established exact references in the declared projection. Scoped observed old-version detections.",
+      "source_sha256": "f569bb3ef89c6483fb273d2af17670c7cf212f1123ae46f8f3afa3a46cc04a7e",
+      "replay": "python -B natural.py E9_ARCHIVE A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/NATURAL-RESULT.json"
+    },
+    {
+      "id": "a4.roster.ordered.detected_pairs",
+      "value": 29,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "One count per affected release-pair family with at least one exact, source-adjudicated illegal observation detected.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.rowcount.detected_pairs",
+      "value": 4,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "One count per affected release-pair family with at least one exact, source-adjudicated illegal observation detected.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.sum.detected_pairs",
+      "value": 17,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "One count per affected release-pair family with at least one exact, source-adjudicated illegal observation detected.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a2.q39.m5_relative_perturbation",
+      "value": 5.00000000069889e-07,
+      "denominator": 1,
+      "unit": "fractional perturbation",
+      "scope": "Single authored low-amplitude change outside the source ULP envelope on TPC-DS SF10 Q39.",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B tpc.py PRIOR_DRIVERS QUERY_BUNDLES DATASET Q39_RECEIPTS A1_VERIFIER A2_RUNNER FROZEN_E2 --cwi STOCK_ROUNDINGDIFF",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json"
+    },
+    {
+      "id": "a2.h2o.q3.native_rows",
+      "value": 10000000,
+      "denominator": 10000000,
+      "unit": "native join rows",
+      "scope": "The full regenerated H2O 10M Q3 snapshot, pinned publisher projection.",
+      "source_sha256": "d26d40f72e5c67bb52f2243e65e8647ffc94cfb9a22f69c28cb49bd86136bdfc",
+      "replay": "python -B h2o.py ARCHIVED_PROJECTED_OBSERVER H2O_INPUT STOCK_JOIN STOCK_HELPERS A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/H2O-RESULT.json"
+    },
+    {
+      "id": "a2.h2o.q3.checksum_m2_false_accept",
+      "value": 1,
+      "denominator": 1,
+      "unit": "authored two-payload exchanges",
+      "scope": "Full native checksum and exact column sum are equal after an exact projected right-payload reassociation.",
+      "source_sha256": "d26d40f72e5c67bb52f2243e65e8647ffc94cfb9a22f69c28cb49bd86136bdfc",
+      "replay": "python -B h2o.py ARCHIVED_PROJECTED_OBSERVER H2O_INPUT STOCK_JOIN STOCK_HELPERS A2_RUNNER FROZEN_E2",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/H2O-RESULT.json"
+    },
+    {
+      "id": "a7.full.source_rows",
+      "value": 99997497,
+      "denominator": 99997497,
+      "unit": "rows",
+      "scope": "Full SHA-pinned ClickBench input.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -B summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.source_bytes",
+      "value": 14737666736,
+      "denominator": 14737666736,
+      "unit": "bytes",
+      "scope": "Full SHA-pinned ClickBench input.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -B summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a7.full.source_shards",
+      "value": 100,
+      "denominator": 100,
+      "unit": "publisher shards",
+      "scope": "Full SHA-pinned ClickBench input.",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -B summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    },
+    {
+      "id": "a2.clickbench.exact_matched_pairs",
+      "value": 2246850803,
+      "denominator": 2246850803,
+      "unit": "matched pairs",
+      "scope": "Full exact join before the one-side float64 intervention.",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -B run.py ACQUISITION PRIOR_CAST UPSTREAM A2_RUNNER FROZEN_E2 OUTPUT STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json"
+    },
+    {
+      "id": "a2.clickbench.fraction_of_exact_matches_lost",
+      "value": 0.9761960807862328,
+      "denominator": 2246850803,
+      "unit": "fraction of exact matched pairs",
+      "scope": "2,193,366,948 missing matches relative to the exact 2,246,850,803 matched pairs.",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -B run.py ACQUISITION PRIOR_CAST UPSTREAM A2_RUNNER FROZEN_E2 OUTPUT STORE_1 STORE_2",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json"
+    },
+    {
+      "id": "a1.benchmark_suites",
+      "value": 6,
+      "denominator": 6,
+      "unit": "benchmark suites",
+      "scope": "Frozen SQL inventory across TPC-H, TPC-DS, SSB, JOB, ClickBench and H2O.",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B contract_inventory.py EVIDENCE",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json"
+    },
+    {
+      "id": "a1.derived_ordered_windows",
+      "value": 116,
+      "denominator": 305,
+      "unit": "distinct SQL queries",
+      "scope": "Queries with an ordered-window contract evaluated on the pinned snapshots.",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B contract_inventory.py EVIDENCE",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json"
+    },
+    {
+      "id": "a5.development.declared_once",
+      "value": 22,
+      "denominator": 58,
+      "unit": "authored development packages",
+      "scope": "Contract-source labels anchored to the frozen development archive.",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B contract_inventory.py EVIDENCE",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json"
+    },
+    {
+      "id": "a5.development.per_case_statement",
+      "value": 36,
+      "denominator": 58,
+      "unit": "authored development packages",
+      "scope": "Contract-source labels anchored to the frozen development archive.",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B contract_inventory.py EVIDENCE",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json"
+    },
+    {
+      "id": "a1.tpch.sf1.split_cutoffs",
+      "value": 0,
+      "denominator": 5,
+      "unit": "top-level ordered windows",
+      "scope": "Observed source rank windows on SF1.",
+      "source_sha256": "b319caa7137d0cd3afae88c950de72dfce7000516b208148bc8e30c51bab7206",
+      "replay": "python -IB cutoffs.py tpch STOCK_SQL OUT --extension SIGNED_EXTENSION --scale 1",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/TPCH-SF1-CUTOFFS.jsonl"
+    },
+    {
+      "id": "a1.tpcds.sf1.split_cutoffs",
+      "value": 1,
+      "denominator": 80,
+      "unit": "top-level ordered windows",
+      "scope": "Observed source rank windows on SF1.",
+      "source_sha256": "f56e9b5f4535f69846ba3bcc24748cc1ae4157b3e9878ecb31f1a549e321b95b",
+      "replay": "python -IB cutoffs.py tpcds STOCK_SQL OUT --extension SIGNED_EXTENSION --scale 1",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/TPCDS-SF1-CUTOFFS.jsonl"
+    },
+    {
+      "id": "a1.tpch.sf10.split_cutoffs",
+      "value": 0,
+      "denominator": 5,
+      "unit": "top-level ordered windows",
+      "scope": "Observed source rank windows on SF10.",
+      "source_sha256": "b92c3f7577a72edf48829823a49b5f3833e191a908426d3cf65a0405fd2553e2",
+      "replay": "python -IB cutoffs.py tpch STOCK_SQL OUT --extension SIGNED_EXTENSION --scale 10",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/TPCH-SF10-CUTOFFS.jsonl"
+    },
+    {
+      "id": "a1.tpcds.sf10.split_cutoffs",
+      "value": 1,
+      "denominator": 80,
+      "unit": "top-level ordered windows",
+      "scope": "Observed source rank windows on SF10.",
+      "source_sha256": "ecb8a2ecf369b17703fd0b27e76953555d81bd12e311b30c61bd0761ec96a1fe",
+      "replay": "python -IB cutoffs.py tpcds STOCK_SQL OUT --extension SIGNED_EXTENSION --scale 10",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/TPCDS-SF10-CUTOFFS.jsonl"
+    },
+    {
+      "id": "a4.roster.datacompy_keyed.detected_pairs",
+      "value": 27,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.dbt_stock_relationships.detected_pairs",
+      "value": 26,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.dbt_typed_fixed_golden.detected_pairs",
+      "value": 29,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.deequ_stock_size.detected_pairs",
+      "value": 4,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.deequ_typed_fixed_golden.detected_pairs",
+      "value": 29,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.dvc_fingerprint.detected_pairs",
+      "value": 29,
+      "denominator": 29,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.slt_nosort.detected_pairs",
+      "value": 24,
+      "denominator": 24,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.slt_rowsort.detected_pairs",
+      "value": 24,
+      "denominator": 24,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.slt_rowsort_hash_threshold1.detected_pairs",
+      "value": 22,
+      "denominator": 22,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.slt_valuesort.detected_pairs",
+      "value": 22,
+      "denominator": 23,
+      "unit": "release-pair families",
+      "scope": "At least one invalid arm rejected among release pairs with a determinate result for this method.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py A4_ROSTER NATIVE_MATRIX",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a6.recalculated.type_disagreement",
+      "value": 44695,
+      "denominator": 175517,
+      "unit": "physical formula caches",
+      "scope": "Original stored cache versus Calc export, across input and answer files.",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "Replay the paired LibreOffice exports and cache audit in remote-calc-recalculation/README.md",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json"
+    },
+    {
+      "id": "a6.recalculated.value_disagreement",
+      "value": 853,
+      "denominator": 175517,
+      "unit": "physical formula caches",
+      "scope": "Original stored cache versus Calc export, across input and answer files.",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "Replay the paired LibreOffice exports and cache audit in remote-calc-recalculation/README.md",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json"
+    },
+    {
+      "id": "e9.sample.public_trackers",
+      "value": 8,
+      "denominator": 8,
+      "unit": "trackers",
+      "scope": "Distinct trackers in the frozen adjudicated sample.",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "Replay the frozen adjudication summary",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+    },
+    {
+      "id": "e9.sample.issues",
+      "value": 300,
+      "denominator": 300,
+      "unit": "issues",
+      "scope": "Frozen 300-issue sample reviewed under the declared acquisition protocol.",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "Replay the frozen adjudication summary",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+    },
+    {
+      "id": "e9.sample.o3_wrong_result",
+      "value": 0,
+      "denominator": 82,
+      "unit": "adjudicated wrong-result issues",
+      "scope": "O3 labels among confirmed wrong-result cases in the frozen sample.",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "Replay the frozen adjudication summary",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+    },
+    {
+      "id": "e4.geometry.invalid_scoped_originals",
+      "value": 0,
+      "denominator": 22005,
+      "unit": "original geometries",
+      "scope": "Three GEOS release matrix, Natural Earth countries, OSM Liechtenstein and US Census states. The province study has a separate population.",
+      "source_sha256": "8ac9364022306ae6ad64a26523f7da2444333e5ebd2f0e30fdae3842a502c247",
+      "replay": "Replay the pinned three-release original validity scan",
+      "artifact_path": "evidence/e4-direct-geos-version-order-matrix/RESULT.json"
+    },
+    {
+      "id": "a1.audit.resolved_agreements",
+      "value": 135,
+      "denominator": 135,
+      "unit": "decisive mechanism cells",
+      "scope": "30 frozen queries and five axes, with 3 positive and 132 negative agreements. 15 of 150 cells are unresolved.",
+      "source_sha256": "acf620651c3edc2ddcde8b5613d0c47cf32c8f402d34be00a69b5066d62afd98",
+      "replay": "Recompute the five-axis projection from SQL-AUDIT.tsv and INVENTORY.json",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SQL-AUDIT.md"
+    },
+    {
+      "id": "study.engines_and_libraries",
+      "value": 9,
+      "denominator": 9,
+      "unit": "producer/consumer families",
+      "scope": "DuckDB, PostgreSQL, SQLite, DataFusion, Polars, pandas, GDAL/GEOS, openpyxl and LibreOffice Calc. PyArrow is counted as a carrier.",
+      "source_sha256": "d5eea56b41e52675cc5a96e771d9543a581e6f97fff0ad6f07487e0b18946078",
+      "replay": "Count the runtime_families in STUDY-SUBJECTS.json.",
+      "artifact_path": "evidence/STUDY-SUBJECTS.json"
+    },
+    {
+      "id": "a2.e5.comparisons",
+      "value": 44,
+      "denominator": 44,
+      "unit": "comparison pairs",
+      "scope": "40 full emitted results, three H2O changed-row comparisons and one fixed UserID rollup projection.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full_emitted_results",
+      "value": 40,
+      "denominator": 44,
+      "unit": "comparison pairs",
+      "scope": "Complete emitted results from nine ClickBench and five SF10 TPC queries.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full.fixed_bag_detected",
+      "value": 27,
+      "denominator": 27,
+      "unit": "comparison pairs",
+      "scope": "Illegal full output arms rejected by each of dbt and Deequ fixed typed bag.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full.fixed_bag_false_rejects",
+      "value": 9,
+      "denominator": 13,
+      "unit": "comparison pairs",
+      "scope": "Legal full output arms rejected by each of dbt and Deequ fixed typed bag.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full.frame_detected",
+      "value": 23,
+      "denominator": 27,
+      "unit": "comparison pairs",
+      "scope": "Illegal full output arms rejected by each of the three pandas and two Polars configurations.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full.row_count_detected",
+      "value": 3,
+      "denominator": 27,
+      "unit": "comparison pairs",
+      "scope": "Illegal full output arms rejected by each of stock Deequ size and GX row count.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.full.slt_na",
+      "value": 9,
+      "denominator": 40,
+      "unit": "comparison pairs",
+      "scope": "Full output comparisons lacking a lossless SQLLogicTest carrier in all four configurations.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a2.e5.left_join_projected_detection",
+      "value": 14,
+      "denominator": 16,
+      "unit": "E5 configurations",
+      "scope": "6,199 paired left occurrences from pinned full rollups. Stock GX and Deequ size accept.",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B merge_e5.py RECEIPTS (see the matrix README to regenerate the five native receipts)",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json"
+    },
+    {
+      "id": "a3.holdouts.distinct_cases",
+      "value": 246,
+      "denominator": 246,
+      "unit": "cases",
+      "scope": "Original 108 and later 138. More than one producer arm is scored for some cases.",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B holdout_summary.py .",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json"
+    },
+    {
+      "id": "a3.holdouts.scored_observations",
+      "value": 336,
+      "denominator": 336,
+      "unit": "observations",
+      "scope": "108 original observations and 228 later observations; excludes 24 alternate decimal diagnostics.",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B holdout_summary.py .",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.ordered.pairs_with_legal_rejection",
+      "value": 2,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Exact ordered comparison rejects at least one contract-legal arm on each of these pairs.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py . ../pvldb-native-baseline-matrix",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.roster.fully_determinate_e5",
+      "value": 12,
+      "denominator": 16,
+      "unit": "E5 configurations",
+      "scope": "Configurations with at least one determinate illegal arm in every release pair.",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B aggregate.py . ../pvldb-native-baseline-matrix",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json"
+    },
+    {
+      "id": "a4.legacy.e5_observations",
+      "value": 590,
+      "denominator": 590,
+      "unit": "native observations",
+      "scope": "Original seven pandas release pairs, with old and new versions counted separately.",
+      "source_sha256": "6fc3c2032fae5ae1a99943992d439b839cc6cbfd627d40a41a92ee4cdd90f78d",
+      "replay": "Replay legacy_pairs.py and e5_pairs.py following the A4 and common matrix READMEs.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/E5-LEGACY.json"
+    },
+    {
+      "id": "c1.legal.mechanisms",
+      "value": 7,
+      "denominator": 7,
+      "unit": "mechanisms",
+      "scope": "Frozen C1 mechanism inventory; date serial cases share one legal mechanism.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "Count the distinct case names in the E2/E3 receipt and pool the date serial cases.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "c1.legal.arms",
+      "value": 60,
+      "denominator": 90,
+      "unit": "observations",
+      "scope": "Frozen authored development cohort C1.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "Count expected_legal in the E2/E3 receipt.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "c1.illegal.mechanisms",
+      "value": 10,
+      "denominator": 10,
+      "unit": "mechanisms",
+      "scope": "Frozen C1 mechanism inventory; date serial cases share one legal mechanism.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "Count the distinct case names in the E2/E3 receipt and pool the date serial cases.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "c1.illegal.arms",
+      "value": 30,
+      "denominator": 90,
+      "unit": "observations",
+      "scope": "Frozen authored development cohort C1.",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "Count expected_legal in the E2/E3 receipt.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json"
+    },
+    {
+      "id": "a8.native.first_remote.passed",
+      "value": 22,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Remote run with system Python 3.10.12. Includes one receipt-only entry.",
+      "source_sha256": "b70b385014e2b9d50a9bfc86cf23cba44cf9ef943d2dfa599ba644c8b0f1f6ae",
+      "replay": "python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH",
+      "artifact_path": "evidence/NATIVE-ARCHIVE-VALIDATION.json"
+    },
+    {
+      "id": "a8.native.gdal_remote.passed",
+      "value": 25,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Second remote run with pinned GDAL, GEOS and PROJ. Includes one receipt-only entry.",
+      "source_sha256": "b70b385014e2b9d50a9bfc86cf23cba44cf9ef943d2dfa599ba644c8b0f1f6ae",
+      "replay": "python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH --system-python GDAL_PYTHON",
+      "artifact_path": "evidence/NATIVE-ARCHIVE-VALIDATION.json"
+    },
+    {
+      "id": "a1.equal_length_window_controls_rejected",
+      "value": 549,
+      "denominator": 549,
+      "unit": "certified control arms",
+      "scope": "Across the TPC-H, TPC-DS and ClickBench suite/scale windows.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B summarize_controls.py ."
+    },
+    {
+      "id": "a1.windows_with_equal_length_controls",
+      "value": 115,
+      "denominator": 116,
+      "unit": "distinct SQL windows",
+      "scope": "TPC-DS Q17 is empty at both scales.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B summarize_controls.py ."
+    },
+    {
+      "id": "c3.clickbench.datacompy_natural_key.false_reject",
+      "value": 7,
+      "denominator": 8,
+      "unit": "applicable legal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.clickbench.datacompy_natural_key.false_accept",
+      "value": 0,
+      "denominator": 18,
+      "unit": "applicable illegal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.clickbench.datacompy_positional.false_reject",
+      "value": 9,
+      "denominator": 10,
+      "unit": "applicable legal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.clickbench.datacompy_positional.false_accept",
+      "value": 7,
+      "denominator": 19,
+      "unit": "applicable illegal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.tpc.datacompy_natural_key.false_reject",
+      "value": 1,
+      "denominator": 1,
+      "unit": "applicable legal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.tpc.datacompy_natural_key.false_accept",
+      "value": 0,
+      "denominator": 5,
+      "unit": "applicable illegal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.tpc.datacompy_positional.false_reject",
+      "value": 1,
+      "denominator": 3,
+      "unit": "applicable legal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c3.tpc.datacompy_positional.false_accept",
+      "value": 0,
+      "denominator": 8,
+      "unit": "applicable illegal complete-output comparisons",
+      "scope": "Pinned DataComPy 0.16.8 over the complete-output C3 cohort.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-DATACOMPY-KEYS.json",
+      "source_sha256": "3163fe292196a77494b8938e0f082b069d69a5f3b1f76c5631dbc6e2ec486472",
+      "replay": "python -B merge_e5.py BENCHMARK-E5-RESULT.json --key-diagnostic BENCHMARK-DATACOMPY-KEYS.json"
+    },
+    {
+      "id": "c4.contract_replay.pairs_with_missed_faults",
+      "value": 0,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Case-specific typed contracts evaluated over archived native output projections.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
+      "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
+      "replay": "python -B verify_contracts.py .."
+    },
+    {
+      "id": "c4.contract_replay.pairs_with_legal_rejects",
+      "value": 0,
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Case-specific typed contracts evaluated over archived native output projections.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
+      "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
+      "replay": "python -B verify_contracts.py .."
+    },
+    {
+      "id": "c3.q59.independent_labels_agreement",
+      "value": 5,
+      "denominator": 5,
+      "unit": "candidate arms",
+      "scope": "Independent TPC-DS SF10 source reconstruction versus the typed window verifier.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
+      "source_sha256": "0c11d9763be3f81fb3aa394ccc7f33d179d89ee15afad33046e2d9d6b8a3c0bc",
+      "replay": "python -B q59.py QUERIES_JSON SF10_TPCDS_DB --verify-window ../pvldb-a1-query-inventory/verify_windows.py"
+    }
+  ]
+}

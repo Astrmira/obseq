@@ -1,0 +1,5 @@
+case_id	status	blocking_or_exclusion
+stale-reference-perturbation-control	FAIL_execution	Ordinary headless LibreOffice XLSX conversion exited 137 before result; no macro mode attempted.
+workbook-closed-formula-cache-audit	excluded	Not selected for native development expansion: primarily archive/static admission with native arithmetic cross-check, not normal workbook consumer.
+two-outlier-rank-one-floor-sum	excluded	Exact arithmetic algorithm only; no native workbook or database path executed.
+h2o-native-grouped-definedness	NA_not_attempted	Original replay needs several GiB scratch; no large staging allowed.

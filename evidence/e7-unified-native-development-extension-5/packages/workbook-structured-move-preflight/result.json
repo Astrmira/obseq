@@ -1,0 +1,177 @@
+{
+  "cases": {
+    "array/split-anchor": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "ref": "C1:D3",
+            "t": "array"
+          },
+          "A1:B3*2"
+        ]
+      },
+      "occupied": [
+        "C2",
+        "C3",
+        "D1",
+        "D2",
+        "D3",
+        "F6"
+      ]
+    },
+    "array/whole-off": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "ref": "C1:D3",
+            "t": "array"
+          },
+          "A1:B3*2"
+        ]
+      },
+      "occupied": [
+        "F6",
+        "F7",
+        "F8",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    },
+    "array/whole-on": {
+      "err": "'ArrayFormula' object is not subscriptable",
+      "formula": {
+        "F6": [
+          {
+            "ref": "C1:D3",
+            "t": "array"
+          },
+          "A1:B3*2"
+        ]
+      },
+      "occupied": [
+        "D1",
+        "F6",
+        "F7",
+        "F8",
+        "G7",
+        "G8"
+      ]
+    },
+    "array/whole-repaired": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "ref": "F6:G8",
+            "t": "array"
+          },
+          "A1:B3*2"
+        ]
+      },
+      "occupied": [
+        "F6",
+        "F7",
+        "F8",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    },
+    "table/split-anchor": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "dt2D": "1",
+            "r1": "A1",
+            "r2": "B1",
+            "ref": "C1:D3",
+            "t": "dataTable"
+          },
+          null
+        ]
+      },
+      "occupied": [
+        "C2",
+        "C3",
+        "D1",
+        "D2",
+        "D3",
+        "F6"
+      ]
+    },
+    "table/whole-off": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "dt2D": "1",
+            "r1": "A1",
+            "r2": "B1",
+            "ref": "C1:D3",
+            "t": "dataTable"
+          },
+          null
+        ]
+      },
+      "occupied": [
+        "F6",
+        "F7",
+        "F8",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    },
+    "table/whole-on": {
+      "err": "'DataTableFormula' object is not subscriptable",
+      "formula": {
+        "F6": [
+          {
+            "dt2D": "1",
+            "r1": "A1",
+            "r2": "B1",
+            "ref": "C1:D3",
+            "t": "dataTable"
+          },
+          null
+        ]
+      },
+      "occupied": [
+        "D1",
+        "F6",
+        "F7",
+        "F8",
+        "G7",
+        "G8"
+      ]
+    },
+    "table/whole-repaired": {
+      "err": null,
+      "formula": {
+        "F6": [
+          {
+            "dt2D": "1",
+            "r1": "A1",
+            "r2": "B1",
+            "ref": "F6:G8",
+            "t": "dataTable"
+          },
+          null
+        ]
+      },
+      "occupied": [
+        "F6",
+        "F7",
+        "F8",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    }
+  },
+  "openpyxl": "3.1.5"
+}

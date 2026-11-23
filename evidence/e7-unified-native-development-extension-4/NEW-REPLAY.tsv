@@ -1,0 +1,14 @@
+pipeline-typed-null-join-isolation	native_authored_development	PASS
+pipeline-engine-semantics-oracle	native_authored_development	PASS
+pipeline-native-transport-semantics	native_authored_development	PASS
+pipeline-native-write-intent	native_authored_development	PASS
+eab-composed-semantic-receipt	native_authored_development	PASS
+eab-receipt-independent-observables	native_authored_development	PASS
+workbook-stream-dimension-completeness	native_authored_development	PASS
+workbook-general-numeric-token-fidelity	native_authored_development	PASS
+workbook-binary64-token-inverse-fiber	native_authored_development	PASS
+workbook-named-formula-copy-resolution	native_authored_development	PASS
+workbook-structured-move-preflight	native_authored_development	PASS
+workbook-staged-structural-preflight	native_authored_development	PASS
+workbook-print-title-native-consumer	native_authored_development	PASS
+whole-multipolygon-point-admission	native_external_transfer	PASS

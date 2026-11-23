@@ -1,0 +1,12 @@
+{
+  "files_sha256": {
+    "PLAN.md": "cfbdbf9b875c5f7827f20e44054ba1c1f21c9b3893e2ebd3115a26571346a46f",
+    "PREFREEZE.sha256": "3da35a031c6468bf42ad1bab469cee374f247696c26fe5ea5261c0626a4c975a",
+    "README.md": "1bd288b2fdc7fdfdb4845bebb24376cde8f7d0e9b5379eccd0908f36d777650f",
+    "RESULT.json": "b2183de9eb68d29a5c8edf7d697b63912fd1a8a74241285c2be8c27a409df461",
+    "SHA256SUMS": "37ff0b35bdb4f3134af0101ad84680a420c8041f1375ecb89c207a2413dc50ae",
+    "check.py": "a53eccb13a3a1b01b02a279399b6b419afecc769832ef34788309008b20342b7"
+  },
+  "predecessor": "0e9b1cae16b79470c23a2a449eb3baa735dcba48",
+  "project": "semantic-benchmark"
+}

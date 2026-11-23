@@ -1,0 +1,483 @@
+[
+  {
+    "file": "2014-03.parquet",
+    "file_rows": 15428134,
+    "eligible": 15428134,
+    "k": 32,
+    "cutoff_us": 1396310378000000,
+    "strictly_above": 28,
+    "cutoff_peers": 5,
+    "peer_choices_symmetric_difference": 2,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ],
+      [
+        "missing_strict_winner_same_cutoff",
+        false,
+        true
+      ]
+    ]
+  },
+  {
+    "file": "2014-03.parquet",
+    "file_rows": 15428134,
+    "eligible": 15428134,
+    "k": 1024,
+    "cutoff_us": 1396310109000000,
+    "strictly_above": 1022,
+    "cutoff_peers": 2,
+    "peer_choices_symmetric_difference": 0,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ]
+    ]
+  },
+  {
+    "file": "2019-03.parquet",
+    "file_rows": 7866620,
+    "eligible": 7866110,
+    "k": 32,
+    "cutoff_us": 1554076763000000,
+    "strictly_above": 31,
+    "cutoff_peers": 3,
+    "peer_choices_symmetric_difference": 2,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ],
+      [
+        "missing_strict_winner_same_cutoff",
+        false,
+        true
+      ]
+    ]
+  },
+  {
+    "file": "2019-03.parquet",
+    "file_rows": 7866620,
+    "eligible": 7866110,
+    "k": 1024,
+    "cutoff_us": 1554075979000000,
+    "strictly_above": 1021,
+    "cutoff_peers": 3,
+    "peer_choices_symmetric_difference": 0,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ]
+    ]
+  },
+  {
+    "file": "2025-03.parquet",
+    "file_rows": 4145257,
+    "eligible": 4145224,
+    "k": 32,
+    "cutoff_us": 1743465579000000,
+    "strictly_above": 30,
+    "cutoff_peers": 2,
+    "peer_choices_symmetric_difference": 0,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ]
+    ]
+  },
+  {
+    "file": "2025-03.parquet",
+    "file_rows": 4145257,
+    "eligible": 4145224,
+    "k": 1024,
+    "cutoff_us": 1743464641000000,
+    "strictly_above": 1023,
+    "cutoff_peers": 2,
+    "peer_choices_symmetric_difference": 2,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ],
+      [
+        "missing_strict_winner_same_cutoff",
+        false,
+        true
+      ]
+    ]
+  },
+  {
+    "file": "2026-03.parquet",
+    "file_rows": 3952451,
+    "eligible": 3952432,
+    "k": 32,
+    "cutoff_us": 1775001556000000,
+    "strictly_above": 31,
+    "cutoff_peers": 2,
+    "peer_choices_symmetric_difference": 2,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ],
+      [
+        "missing_strict_winner_same_cutoff",
+        false,
+        true
+      ]
+    ]
+  },
+  {
+    "file": "2026-03.parquet",
+    "file_rows": 3952451,
+    "eligible": 3952432,
+    "k": 1024,
+    "cutoff_us": 1775000436000000,
+    "strictly_above": 1021,
+    "cutoff_peers": 4,
+    "peer_choices_symmetric_difference": 2,
+    "cases": [
+      [
+        "legal_ascending_peer_id",
+        true,
+        true
+      ],
+      [
+        "legal_descending_peer_id",
+        true,
+        true
+      ],
+      [
+        "native_default_order",
+        true,
+        true
+      ],
+      [
+        "duplicate_id",
+        false,
+        false
+      ],
+      [
+        "wrong_score_on_real_id",
+        false,
+        false
+      ],
+      [
+        "outside_file_id",
+        false,
+        false
+      ],
+      [
+        "non_monotone",
+        false,
+        false
+      ],
+      [
+        "displaced_by_below_cutoff",
+        false,
+        false
+      ],
+      [
+        "too_short",
+        false,
+        false
+      ],
+      [
+        "missing_strict_winner_same_cutoff",
+        false,
+        true
+      ]
+    ]
+  }
+]

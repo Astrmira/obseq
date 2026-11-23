@@ -1,0 +1,266 @@
+{
+  "observations": [
+    {
+      "both_wait_labels": 60709,
+      "day": 2,
+      "excluded": {},
+      "legal_order_but_default_rejects": 15825,
+      "no_legal_order": 611,
+      "selected": 171149,
+      "strata": [
+        {
+          "default_order": false,
+          "legal_chains": 0,
+          "provider": "HV0003",
+          "rows": 426,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": false,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 429,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": false,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 10686,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 1112,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 52223,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0003",
+          "rows": 384,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0003",
+          "rows": 11312,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0003",
+          "rows": 1574,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 3,
+          "provider": "HV0003",
+          "rows": 349,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 3,
+          "provider": "HV0003",
+          "rows": 8895,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 4,
+          "provider": "HV0003",
+          "rows": 430,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 4,
+          "provider": "HV0003",
+          "rows": 31527,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": false,
+          "legal_chains": 0,
+          "provider": "HV0005",
+          "rows": 185,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": false,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 195,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": false,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 4515,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 484,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 23348,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0005",
+          "rows": 132,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0005",
+          "rows": 3925,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 2,
+          "provider": "HV0005",
+          "rows": 786,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 3,
+          "provider": "HV0005",
+          "rows": 127,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 3,
+          "provider": "HV0005",
+          "rows": 4023,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": true,
+          "legal_chains": 4,
+          "provider": "HV0005",
+          "rows": 178,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 4,
+          "provider": "HV0005",
+          "rows": 13904,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": true
+        }
+      ]
+    },
+    {
+      "both_wait_labels": 0,
+      "day": 9,
+      "excluded": {},
+      "legal_order_but_default_rejects": 0,
+      "no_legal_order": 546,
+      "selected": 123660,
+      "strata": [
+        {
+          "default_order": false,
+          "legal_chains": 0,
+          "provider": "HV0003",
+          "rows": 349,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 1668,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0003",
+          "rows": 81991,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        },
+        {
+          "default_order": false,
+          "legal_chains": 0,
+          "provider": "HV0005",
+          "rows": 197,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 901,
+          "wait_above15_possible": true,
+          "wait_at_most15_possible": false
+        },
+        {
+          "default_order": true,
+          "legal_chains": 1,
+          "provider": "HV0005",
+          "rows": 38554,
+          "wait_above15_possible": false,
+          "wait_at_most15_possible": true
+        }
+      ]
+    }
+  ],
+  "source_sha256": "a17ebafe3b6b1927f9b1b4cfc9062a328867b79a871ce762bfb16a841024f1e0",
+  "zone_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95"
+}

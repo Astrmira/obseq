@@ -1,0 +1,125 @@
+{
+  "scores": {
+    "duckdb": {
+      "coupled": {
+        "counts": {
+          "true_accept": 10,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": []
+      },
+      "fixed_golden": {
+        "counts": {
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": [
+          "F006",
+          "F020"
+        ]
+      },
+      "marginal": {
+        "counts": {
+          "false_accept": 6,
+          "true_accept": 10,
+          "true_reject": 8
+        },
+        "false_accept": [
+          "F002",
+          "F004",
+          "F011",
+          "F013",
+          "F015",
+          "F021"
+        ],
+        "false_reject": []
+      }
+    },
+    "postgres": {
+      "coupled": {
+        "counts": {
+          "true_accept": 10,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": []
+      },
+      "fixed_golden": {
+        "counts": {
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": [
+          "F006",
+          "F020"
+        ]
+      },
+      "marginal": {
+        "counts": {
+          "false_accept": 6,
+          "true_accept": 10,
+          "true_reject": 8
+        },
+        "false_accept": [
+          "F002",
+          "F004",
+          "F011",
+          "F013",
+          "F015",
+          "F021"
+        ],
+        "false_reject": []
+      }
+    },
+    "sqlite": {
+      "coupled": {
+        "counts": {
+          "true_accept": 10,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": []
+      },
+      "fixed_golden": {
+        "counts": {
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 14
+        },
+        "false_accept": [],
+        "false_reject": [
+          "F006",
+          "F020"
+        ]
+      },
+      "marginal": {
+        "counts": {
+          "false_accept": 6,
+          "true_accept": 10,
+          "true_reject": 8
+        },
+        "false_accept": [
+          "F002",
+          "F004",
+          "F011",
+          "F013",
+          "F015",
+          "F021"
+        ],
+        "false_reject": []
+      }
+    }
+  },
+  "source_accept": 10,
+  "source_reject": 14,
+  "versions": {
+    "duckdb": "2.0.1",
+    "postgres": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+    "sqlite": "3.53.1"
+  }
+}

@@ -1,0 +1,1 @@
+The prospective 4,096-pair physical prefix has no KEEP cases. Preserve it. A deterministic complementary SQLite check takes the first missing-source transition, with four predecessor pairs and seven subsequent pairs; this tests the omitted-member path without searching for special mismatches or modifying the full DuckDB cohort.

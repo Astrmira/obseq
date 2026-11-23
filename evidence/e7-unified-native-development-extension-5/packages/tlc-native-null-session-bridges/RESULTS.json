@@ -1,0 +1,32 @@
+{
+  "arrow": "26.0.1",
+  "duckdb": "1.4.3",
+  "eligible_rows": 273682,
+  "known_rows": 272696,
+  "physical_rows": 4181444,
+  "thresholds": {
+    "60": {
+      "all_sessions": 35174,
+      "all_unknown_sessions": 298,
+      "altered_known_to_known_edges": 75,
+      "cross_baseline_merges": 0,
+      "known_drop_sessions": 34951,
+      "known_rows_in_split_baseline": 720,
+      "surviving_baseline_sessions": 34876,
+      "surviving_sessions_split": 75
+    },
+    "300": {
+      "all_sessions": 6407,
+      "all_unknown_sessions": 23,
+      "altered_known_to_known_edges": 76,
+      "cross_baseline_merges": 0,
+      "known_drop_sessions": 6460,
+      "known_rows_in_split_baseline": 5730,
+      "surviving_baseline_sessions": 6384,
+      "surviving_sessions_split": 71
+    }
+  },
+  "unknown_rows": 986,
+  "vendor_zones": 7,
+  "verified_bridge_scalars": 272690
+}

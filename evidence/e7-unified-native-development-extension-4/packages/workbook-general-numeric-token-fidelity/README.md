@@ -1,0 +1,9 @@
+# Normal and streaming readers can agree after a lossy numeric write
+
+**Typed contract.** Preserve exact Python integers and IEEE-754 binary64 values (including their sign bit at zero) on General-formatted numeric worksheet cells. This is an interchange contract for the tested Python library, not Excel's documented precision contract. An independent raw XML parser decodes decimal integer tokens as integers and exponent/decimal tokens as binary64; outputs compare exact integers or packed binary64 bits. The native openpyxl 3.1.5 classic and read-only readers are then checked separately.
+
+For 510 seeded and targeted values, both native readers show the same 196 typed mismatches on writer output, with the independent XML-token comparison identifying the same failing cells. In the openpyxl-generated XML, 1.0 and its next two larger binary64 values all become the token `1`; the next smaller binary64 value survives. Similarly 2^53 and 2^53+1 both become the integer token `9007199254740992`. A separate typed corner is `-0.0`: its token `-0` is parsed as integer zero and loses the sign. These cases localize failure to the write/token contract, not streaming row omissions or 1900-date handling. Agreement between consumers is not a fidelity witness.
+
+For the three distinct values that share token `1`, any fixed-width local side information sufficient to distinguish them needs at least two bits on this subset. This is a lower bound, not an all-value error bound or encoding proposal. As a control, author tokens from Python's repr (shortest round-trip decimal for floats, exact base-10 integer for ints). Both readers then recover every original value, but an ordinary openpyxl no-edit resave again emits exactly the lossy default tokens. The scoped control edits only simple numeric worksheet XML; it is not a general workbook repair approach, and no Microsoft Excel or LibreOffice behavior was tested.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

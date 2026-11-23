@@ -1,0 +1,52 @@
+{
+  "clickbench": {
+    "24": {
+      "cutoff_class": 4,
+      "cutoff_distinct_projected_values": 2,
+      "cutoff_slots": 2,
+      "eligible": 69354,
+      "key": "EventTime",
+      "legal_refinements_select_different_physical_ids": true,
+      "legal_refinements_select_different_projected_multisets": true,
+      "stock_projection_is_admissible": true,
+      "strict": 8
+    },
+    "25": {
+      "cutoff_class": 19,
+      "cutoff_distinct_projected_values": 1,
+      "cutoff_slots": 2,
+      "eligible": 69354,
+      "key": "SearchPhrase",
+      "legal_refinements_select_different_physical_ids": true,
+      "legal_refinements_select_different_projected_multisets": false,
+      "stock_projection_is_admissible": true,
+      "strict": 8
+    },
+    "26": {
+      "cutoff_class": 2,
+      "cutoff_distinct_projected_values": 1,
+      "cutoff_slots": 2,
+      "eligible": 69354,
+      "key": "EventTime, SearchPhrase",
+      "legal_refinements_select_different_physical_ids": false,
+      "legal_refinements_select_different_projected_multisets": false,
+      "stock_projection_is_admissible": true,
+      "strict": 8
+    }
+  },
+  "duckdb": "2.0.1",
+  "h2o_q8": {
+    "cutoff_multiplicities": {
+      "1": 95001
+    },
+    "groups": 95001,
+    "observable_projection_changes": 0,
+    "stock_projected_rows": 190002,
+    "straddling_class_multiplicities": {},
+    "with_two_eligible_rows": 95001
+  },
+  "inputs": {
+    "G1_1e7_1e2_5_0.csv": "6bd993a223db3b177f9f501eb11725e494f3b04c63780504a1a13e2471d8e911",
+    "hits_0.parquet": "fa134fe101e68324e0de851146fda69624f5cbb707d387141d1c2a88a219a16d"
+  }
+}

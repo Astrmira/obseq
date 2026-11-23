@@ -1,0 +1,307 @@
+[
+  {
+    "id": "J01",
+    "json_text": "[{\"x\":[4,false]}]",
+    "path": [
+      {
+        "index": 0
+      },
+      {
+        "key": "x"
+      },
+      {
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "J02",
+    "json_text": "{\"p.q\":{\"q\\\"r\":{\" s \":3}}}",
+    "path": [
+      {
+        "key": "p.q"
+      },
+      {
+        "key": "q\"r"
+      },
+      {
+        "key": " s "
+      }
+    ]
+  },
+  {
+    "id": "J03",
+    "json_text": "{\"0\":[\"x\"]}",
+    "path": [
+      {
+        "index": 0
+      },
+      {
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "J04",
+    "json_text": "[{\"\":null}]",
+    "path": [
+      {
+        "index": 0
+      },
+      {
+        "key": ""
+      }
+    ]
+  },
+  {
+    "id": "J05",
+    "json_text": "[{\"\":null}]",
+    "path": [
+      {
+        "index": 0
+      },
+      {
+        "key": ""
+      },
+      {
+        "key": "x"
+      },
+      {
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "J06",
+    "json_text": "{\"a\":[]}",
+    "path": [
+      {
+        "key": "a"
+      },
+      {
+        "index": 7
+      },
+      {
+        "key": "absent"
+      }
+    ]
+  },
+  {
+    "id": "J07",
+    "json_text": "{\"a\":{}}",
+    "path": [
+      {
+        "key": "a"
+      },
+      {
+        "key": "b"
+      },
+      {
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "J08",
+    "json_text": "{\"a\":7}",
+    "path": [
+      {
+        "key": "a"
+      },
+      {
+        "key": "b"
+      },
+      {
+        "index": 3
+      }
+    ]
+  },
+  {
+    "id": "J09",
+    "json_text": "[true]",
+    "path": [
+      {
+        "key": "0"
+      }
+    ]
+  },
+  {
+    "id": "J10",
+    "json_text": "null",
+    "path": []
+  },
+  {
+    "id": "J11",
+    "json_text": "\"true\"",
+    "path": []
+  },
+  {
+    "id": "J12",
+    "json_text": "{\"k\":[1,{\"n\":false}]}",
+    "path": []
+  },
+  {
+    "id": "J13",
+    "json_text": "[0,1]",
+    "path": []
+  },
+  {
+    "id": "J14",
+    "json_text": "{\"s\":\"null\"}",
+    "path": [
+      {
+        "key": "s"
+      }
+    ]
+  },
+  {
+    "id": "J15",
+    "json_text": "{\"s\":true}",
+    "path": [
+      {
+        "key": "s"
+      },
+      {
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "J16",
+    "json_text": "{\"a/b\":{\"~1\":[-2]}}",
+    "path": [
+      {
+        "key": "a/b"
+      },
+      {
+        "key": "~1"
+      },
+      {
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "J17",
+    "json_text": "[{\"x\":{}},{\"x\":[{\"y\":1}]}]",
+    "path": [
+      {
+        "index": 0
+      },
+      {
+        "key": "x"
+      },
+      {
+        "index": 0
+      },
+      {
+        "key": "y"
+      }
+    ]
+  },
+  {
+    "id": "J18",
+    "json_text": "{\"a\":[{}]}",
+    "path": [
+      {
+        "key": "a"
+      },
+      {
+        "index": 0
+      },
+      {
+        "key": "0"
+      },
+      {
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "J19",
+    "json_text": "{\"\":[[],[]]}",
+    "path": [
+      {
+        "key": ""
+      },
+      {
+        "index": 1
+      },
+      {
+        "index": 0
+      }
+    ]
+  },
+  {
+    "id": "J20",
+    "json_text": "{\"a\":{\"b.c\":1}}",
+    "path": [
+      {
+        "key": "a"
+      },
+      {
+        "key": "b"
+      },
+      {
+        "key": "c"
+      }
+    ]
+  },
+  {
+    "id": "J21",
+    "json_text": "[null,\"\"]",
+    "path": [
+      {
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "J22",
+    "json_text": "{\"x\":[\"z\"]}",
+    "path": [
+      {
+        "key": "x"
+      },
+      {
+        "index": 0
+      },
+      {
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "J23",
+    "json_text": "{\"x\":[7]}",
+    "path": [
+      {
+        "key": "x"
+      },
+      {
+        "index": 1
+      }
+    ]
+  },
+  {
+    "id": "J24",
+    "json_text": "{\"shape\":[{\"tag\":\"other\",\"payload\":[]},{\"tag\":\"right\",\"payload\":{\"k\":2}}]}",
+    "path": [
+      {
+        "key": "shape"
+      },
+      {
+        "index": 0
+      },
+      {
+        "key": "payload"
+      },
+      {
+        "key": "k"
+      },
+      {
+        "index": 0
+      }
+    ]
+  }
+]

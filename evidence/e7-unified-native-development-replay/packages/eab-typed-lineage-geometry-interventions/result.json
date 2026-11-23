@@ -1,0 +1,53 @@
+{
+  "cases": {
+    "authority-only": {
+      "bytes_diag": [
+        11,
+        12,
+        13
+      ],
+      "geometry": [],
+      "intent": [
+        11
+      ]
+    },
+    "both": {
+      "bytes_diag": [
+        11,
+        12,
+        13
+      ],
+      "geometry": [
+        12
+      ],
+      "intent": [
+        11
+      ]
+    },
+    "geometry-only": {
+      "bytes_diag": [
+        12,
+        13
+      ],
+      "geometry": [
+        12
+      ],
+      "intent": []
+    },
+    "pass": {
+      "bytes_diag": [
+        12,
+        13
+      ],
+      "geometry": [],
+      "intent": []
+    }
+  },
+  "gdal": "3100300",
+  "geos": [
+    3,
+    13,
+    1
+  ],
+  "manifest_sha256": "3f3ff316b7cc069bd101dcecfd631f404816d09c396bebc2868e679d593636aa"
+}

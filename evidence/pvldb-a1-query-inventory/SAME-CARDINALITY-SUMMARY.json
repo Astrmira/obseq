@@ -1,0 +1,36 @@
+{
+  "distinct_sql_windows": 116,
+  "distinct_sql_windows_with_equal_length_control": 115,
+  "equal_length_by_kind": {
+    "membership": {
+      "empty_window": 2,
+      "rejected": 199
+    },
+    "multiplicity": {
+      "empty_window": 2,
+      "excess_multiplicity_not_certified": 22,
+      "rejected": 177
+    },
+    "order": {
+      "empty_window": 2,
+      "rejected": 173,
+      "strict_end_order_not_certified": 26
+    }
+  },
+  "equal_length_controls_rejected": 549,
+  "native_outputs_accepted": 232,
+  "shape_controls_rejected": 201,
+  "source_sha256": {
+    "SAME-CARDINALITY-CLICKBENCH.jsonl": "d8a0c59c2f0162b6d10ee55a151f059c3915fc18dc427dfb0f53aa71d5b7f735",
+    "SAME-CARDINALITY-TPCDS-SF1.jsonl": "4efadd5ab5de287babad74f694637d29c401845fb81a6461867a101b0792ede7",
+    "SAME-CARDINALITY-TPCDS-SF10.jsonl": "3cca61f8dd4fa06055855a4d987608adcb7fce9ae48c895124da97ac5219ee79",
+    "SAME-CARDINALITY-TPCH-SF1.jsonl": "f6593486a2ee34b3e488e21309a504c202616908411e5f4295070c90584ec36d",
+    "SAME-CARDINALITY-TPCH-SF10.jsonl": "9094f4c0392265888c5754f80ce2dac8a238b9ed31a61bfdc8bc9a9991a0d19e",
+    "VERIFY-CLICKBENCH.jsonl": "e20846c72f64ba0c28c500e0f80e3c8e286327ae8e16cd59fce3f42b84f3f450",
+    "VERIFY-TPCDS-SF1.jsonl": "346b047f6787c0e728bf05c1f2ffb243a68bb5c622ee1bff9043e7ebdbc1c30f",
+    "VERIFY-TPCDS-SF10.jsonl": "2953bf3e51c0c71b20514cd0e8a5ea0b94cf225dd0ecef9465727d00fbea8542",
+    "VERIFY-TPCH-SF1.jsonl": "58d56bb4355aef0e2de3c5206543d23aa72344d70a8b36e4961d3a3ce378dfb2",
+    "VERIFY-TPCH-SF10.jsonl": "3eecea0b64b83fa2fd1f9a8ba8cd26cea5e97e04a2cf714dc7b377cf10139854"
+  },
+  "suite_scale_window_runs": 201
+}

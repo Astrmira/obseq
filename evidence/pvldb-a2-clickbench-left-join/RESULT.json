@@ -1,0 +1,75 @@
+{
+  "acquisition_sha256": "8788eb357b3b76507b2e16345d80e36dcc41c770018a5624c44e3164eae0719b",
+  "e2_sha256": "bf7bc7a593debbf7e42559c4acbc77ab01543c58323ed9197ba617017c02edc6",
+  "left_rows": 49998749,
+  "lost_exact_pairs": 2193366948,
+  "native_arms": {
+    "exact": {
+      "native_join_wall_seconds": 6.284252300858498,
+      "native_matched_pairs": 2246850803,
+      "raw_rows": 2250443892,
+      "raw_unmatched_rows": 3593089,
+      "rollup_bytes": 207146354,
+      "rollup_rows": 49998749,
+      "rollup_sha256": "d9f50692324722689b75a9ad48143dd5d40b11d1247f921e2c95b9950049550b"
+    },
+    "right_float64": {
+      "native_join_wall_seconds": 1.6466051042079926,
+      "native_matched_pairs": 53483855,
+      "raw_rows": 102080691,
+      "raw_unmatched_rows": 48596836,
+      "rollup_bytes": 193013446,
+      "rollup_rows": 49998749,
+      "rollup_sha256": "68cd98be2693b30a557b187beb8a02965c6161b8c2cb7d952dcfaae3c82515c8"
+    }
+  },
+  "per_left_row_product": {
+    "columns": [
+      "shard",
+      "source_row",
+      "userid",
+      "matched_pairs"
+    ],
+    "differing_rows": 45003747,
+    "fixed_stride_sample": {
+      "e2_observers": {
+        "byte_hash": null,
+        "multiset": false,
+        "ordered": false,
+        "rowcount": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "schema": true,
+        "set": false,
+        "sqlite_integrity": null,
+        "sum": false
+      },
+      "rows_per_arm": 6199,
+      "stride": 16384
+    },
+    "whole_output_ordinary_observers": {
+      "ordered_by_left_identity": false,
+      "rowcount": true,
+      "rtol1e-5": false,
+      "rtol1e-9": false,
+      "schema": true,
+      "sum": false
+    },
+    "whole_output_tool_observers": {
+      "pandas_check_like": false,
+      "pandas_default": false,
+      "pandas_dtype_relaxed": false
+    }
+  },
+  "raw_shape_observers": {
+    "rowcount": false,
+    "schema": true
+  },
+  "right_rows": 49998748,
+  "runtime": {
+    "duckdb": "1.4.3",
+    "pandas": "2.2.3",
+    "pyarrow": "22.0.0"
+  },
+  "source_rows": 99997497
+}

@@ -1,0 +1,10 @@
+{
+ "schema":"exact-planar-component-holes/v1",
+ "artifact":"/usr/share/qgis/resources/data/world_map.gpkg",
+ "sha256":"386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+ "cohort":"Same binary-first geometry layer; next 96 non-null FIDs greater than 21. Select first four qualifying components by FID, then stored component order, at most one per FID. Preserve reported exclusions among rows scanned. Unsupported wrapper stays out of scope.",
+ "qualification":"2D standard GP wrapper and Polygon/MultiPolygon WKB at storage; select one component, at least one hole, at most 220 total segments. Every ring is exactly closed, simple, nonzero exact area, unique interior vertices and non-collinear adjacent edges. Holes strictly within outer shell; rings pairwise disjoint including boundaries; no hole nesting.",
+ "probes":"Every vertex, every exactly representable boundary-edge midpoint, one-ULP x/y-neighbors of every vertex, deterministic 7x7 bounding box probes for each ring, plus shell margin point",
+ "output":"shell-boundary, hole-boundary, open area interior, hole interior, outside shell; strict contains excludes both boundaries and holes, intersects includes both boundaries but excludes hole interior.",
+ "limits":"individual planar components only; no geodesics, metrics, CRS handling, touching rings, invalid rings, nested holes, interpretation of unsupported wrapper, whole-multipolygon union, or throughput"
+}

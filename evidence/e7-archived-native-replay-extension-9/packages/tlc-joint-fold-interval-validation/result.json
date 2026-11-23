@@ -1,0 +1,257 @@
+[
+  {
+    "year": 2014,
+    "cohort": 47915,
+    "pickup_ambiguous": 42565,
+    "dropoff_ambiguous": 42548,
+    "both_ambiguous": 37198,
+    "no_feasible_pair": 0,
+    "unique_feasible_pair": 1238,
+    "unique_duration_ambiguous_instants": 0,
+    "multiple_feasible_durations": 46677,
+    "stock_invalid_despite_exists": 1238,
+    "earliest_invalid_despite_exists": 1238,
+    "groups": [
+      {
+        "pickup_choices": 1,
+        "dropoff_choices": 2,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 5350
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 1,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 5367
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 1,
+        "valid_durations": 1,
+        "stock_valid": 0,
+        "earliest_valid": 0,
+        "rows": 1238
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 3,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 35960
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "cohort": 21977,
+    "pickup_ambiguous": 19307,
+    "dropoff_ambiguous": 19583,
+    "both_ambiguous": 16913,
+    "no_feasible_pair": 0,
+    "unique_feasible_pair": 973,
+    "unique_duration_ambiguous_instants": 0,
+    "multiple_feasible_durations": 21004,
+    "stock_invalid_despite_exists": 973,
+    "earliest_invalid_despite_exists": 973,
+    "groups": [
+      {
+        "pickup_choices": 1,
+        "dropoff_choices": 2,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 2670
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 1,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 2394
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 1,
+        "valid_durations": 1,
+        "stock_valid": 0,
+        "earliest_valid": 0,
+        "rows": 973
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 3,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 15940
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "cohort": 9722,
+    "pickup_ambiguous": 8463,
+    "dropoff_ambiguous": 8858,
+    "both_ambiguous": 7599,
+    "no_feasible_pair": 0,
+    "unique_feasible_pair": 678,
+    "unique_duration_ambiguous_instants": 0,
+    "multiple_feasible_durations": 9044,
+    "stock_invalid_despite_exists": 678,
+    "earliest_invalid_despite_exists": 678,
+    "groups": [
+      {
+        "pickup_choices": 1,
+        "dropoff_choices": 2,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 1259
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 1,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 864
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 1,
+        "valid_durations": 1,
+        "stock_valid": 0,
+        "earliest_valid": 0,
+        "rows": 678
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 3,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 6921
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "cohort": 11512,
+    "pickup_ambiguous": 9869,
+    "dropoff_ambiguous": 10774,
+    "both_ambiguous": 9131,
+    "no_feasible_pair": 0,
+    "unique_feasible_pair": 1001,
+    "unique_duration_ambiguous_instants": 0,
+    "multiple_feasible_durations": 10511,
+    "stock_invalid_despite_exists": 1001,
+    "earliest_invalid_despite_exists": 1001,
+    "groups": [
+      {
+        "pickup_choices": 1,
+        "dropoff_choices": 2,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 1643
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 1,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 738
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 1,
+        "valid_durations": 1,
+        "stock_valid": 0,
+        "earliest_valid": 0,
+        "rows": 1001
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 3,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 8130
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "cohort": 14326,
+    "pickup_ambiguous": 11687,
+    "dropoff_ambiguous": 13392,
+    "both_ambiguous": 10753,
+    "no_feasible_pair": 0,
+    "unique_feasible_pair": 1431,
+    "unique_duration_ambiguous_instants": 0,
+    "multiple_feasible_durations": 12895,
+    "stock_invalid_despite_exists": 1431,
+    "earliest_invalid_despite_exists": 1431,
+    "groups": [
+      {
+        "pickup_choices": 1,
+        "dropoff_choices": 2,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 2639
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 1,
+        "valid_pairs": 2,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 934
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 1,
+        "valid_durations": 1,
+        "stock_valid": 0,
+        "earliest_valid": 0,
+        "rows": 1431
+      },
+      {
+        "pickup_choices": 2,
+        "dropoff_choices": 2,
+        "valid_pairs": 3,
+        "valid_durations": 2,
+        "stock_valid": 1,
+        "earliest_valid": 1,
+        "rows": 9322
+      }
+    ]
+  }
+]

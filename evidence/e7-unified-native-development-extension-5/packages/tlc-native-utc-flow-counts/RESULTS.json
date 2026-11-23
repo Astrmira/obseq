@@ -1,0 +1,54 @@
+{
+  "adjacent_accepted_counts": [
+    13392,
+    11961
+  ],
+  "adjacent_rejected_counts": [
+    13391,
+    11961
+  ],
+  "aggregate_bounds": {
+    "crossing": [
+      1431,
+      14326
+    ],
+    "early_dropoff": [
+      0,
+      11961
+    ],
+    "early_pickup": [
+      4070,
+      14326
+    ]
+  },
+  "arrow": "26.0.1",
+  "authored_infeasible_inside_marginals_and_chronological": [
+    11961,
+    11961,
+    [
+      2365,
+      0,
+      11961
+    ]
+  ],
+  "category_support": {
+    "2": 1431,
+    "3": 934,
+    "6": 2639,
+    "7": 9322
+  },
+  "cohort": 14326,
+  "count_pairs_independent_ordered": 91556348,
+  "count_pairs_joint_feasible": 79239731,
+  "duckdb": "2.0.1",
+  "exhaustive_quota_tests": 1992,
+  "source_rows": 4181444,
+  "stock_default": {
+    "aggregate_feasible": false,
+    "crossing_inferred": 2639,
+    "early_dropoff": 0,
+    "early_pickup": 2639,
+    "physically_unordered": 1431
+  },
+  "transition": "2025-11-02T06:00:00+00:00"
+}

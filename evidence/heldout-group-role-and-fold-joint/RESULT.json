@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G01",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": true
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G02",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": false
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G03",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": true
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G04",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": false
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G05",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": false
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G06",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": false
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G07",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": false
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "family": "group",
+      "id": "E7G08",
+      "naive_nullness_family_correct": false,
+      "provenance_ambiguous_after_projection": true
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T01",
+      "observed_duration_multiple_instant_pairs": true,
+      "physical_pairs": 3
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T02",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 1
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": true,
+      "family": "paired_civil",
+      "id": "E7T03",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 0
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T04",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 2
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T05",
+      "observed_duration_multiple_instant_pairs": true,
+      "physical_pairs": 3
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T06",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 2
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": true,
+      "family": "paired_civil",
+      "id": "E7T07",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 0
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T08",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 1
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": false,
+      "family": "paired_civil",
+      "id": "E7T09",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 3
+    },
+    {
+      "candidate_complete_family_correct": true,
+      "earliest_default_joint_complete": true,
+      "family": "paired_civil",
+      "id": "E7T10",
+      "observed_duration_multiple_instant_pairs": false,
+      "physical_pairs": 1
+    }
+  ],
+  "summary": {
+    "duration_fiber_multiple_instant_pairs": 2,
+    "exact_candidate_matches": 18,
+    "group_cases": 8,
+    "marginal_earliest_exact_joint_family_matches": 3,
+    "nullness_shortcut_exact_family_matches": 0,
+    "paired_time_cases": 10,
+    "projection_has_fewer_legal_bags": 3,
+    "sealed_cases": 18
+  }
+}

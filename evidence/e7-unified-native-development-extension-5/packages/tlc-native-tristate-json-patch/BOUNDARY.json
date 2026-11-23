@@ -1,0 +1,14 @@
+{
+  "clear": 0,
+  "clear_prior_has_value": 0,
+  "coalesce_scalar_mismatches": 0,
+  "coalesce_typed_mismatches": 0,
+  "keep": 8,
+  "keep_prior_has_value": 1,
+  "omission_coerced_scalar_mismatches": 1,
+  "omission_coerced_typed_mismatches": 8,
+  "rows": 12,
+  "stock_merge_scalar_mismatches": 0,
+  "stock_merge_typed_mismatches": 0,
+  "write": 4
+}

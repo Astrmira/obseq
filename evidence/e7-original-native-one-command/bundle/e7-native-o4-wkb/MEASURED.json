@@ -1,0 +1,331 @@
+{
+  "engines": {
+    "gdal": "3.10.3",
+    "geos": "3.13.1-CAPI-1.19.2"
+  },
+  "rows": [
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "input_bytes": [
+        21,
+        21
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "gdal_typed": true,
+      "geos_typed": true,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": true,
+      "geos_topology": true
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "input_bytes": [
+        21,
+        21
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            -2.0,
+            1.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            1.0,
+            -2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            -2.0,
+            1.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "gdal_typed": false,
+      "geos_typed": false,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": true,
+      "geos_topology": false
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "input_bytes": [
+        21,
+        21
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            -0.0,
+            3.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            0.0,
+            3.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            -0.0,
+            3.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            0.0,
+            3.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "gdal_typed": true,
+      "geos_typed": true,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": true,
+      "geos_topology": true
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "input_bytes": [
+        21,
+        20
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            0.0,
+            2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "rejected",
+          "strict_reason": "native reader rejected",
+          "native_issue": "OGR Error: Not enough data to deserialize"
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "POINT",
+          "xy": [
+            0.0,
+            2.0
+          ],
+          "empty": false,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "rejected",
+          "strict_reason": "native reader rejected"
+        }
+      ],
+      "gdal_typed": false,
+      "geos_typed": false,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": false,
+      "geos_topology": null
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "input_bytes": [
+        9,
+        9
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "gdal_typed": true,
+      "geos_typed": true,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": true,
+      "geos_topology": true
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "input_bytes": [
+        9,
+        9
+      ],
+      "gdal": [
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "MULTIPOINT",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "geos": [
+        {
+          "native_parse": "accepted",
+          "geometry": "LINESTRING",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        },
+        {
+          "native_parse": "accepted",
+          "geometry": "MULTIPOINT",
+          "xy": null,
+          "empty": true,
+          "dimension": 2,
+          "strict_reason": null
+        }
+      ],
+      "gdal_typed": false,
+      "geos_typed": false,
+      "byte_equality": false,
+      "gdal_typeblind_unordered": true,
+      "geos_topology": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "cases": 24,
+  "decision": [
+    {
+      "id": "0fef24d89e77",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "141dabb17d93",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "6ccfc8a42756",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "618af6b50cc6",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "a28378eb9bfc",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "02b73fcb7d52",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "83780c82d0ca",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "e436679a970f",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "3023f90ccf7e",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "a0aa4ff33d00",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "ea649f8d2e2e",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "fee874afb3d7",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "a28b90557544",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "0972bb8f044e",
+      "legal": true,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "1b84f76666e3",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "d6af50298f3d",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "27af05c4d444",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "9e65d3809066",
+      "legal": true,
+      "native_same_file_hash": true
+    },
+    {
+      "id": "99367f60a5ea",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "5a94c041b448",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "75a68d29b87f",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "352b71303f70",
+      "legal": false,
+      "native_same_file_hash": false
+    },
+    {
+      "id": "5eb606b73f15",
+      "legal": true,
+      "native_same_file_hash": true
+    },
+    {
+      "id": "03d1af37e95d",
+      "legal": true,
+      "native_same_file_hash": false
+    }
+  ],
+  "scored": {
+    "FN": 10,
+    "TN": 12,
+    "TP": 2
+  },
+  "tool": "DVC 3.66.1"
+}

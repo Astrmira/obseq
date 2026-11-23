@@ -1,0 +1,14 @@
+{
+  "ARROW19": "/absolute/path/to/arrow19",
+  "ARROW22": "/absolute/path/to/arrow22",
+  "DUCK143": "/absolute/path/to/duck143",
+  "E4_DEPS": "/absolute/path/to/e4_deps",
+  "E4_INPUTS": "/absolute/path/to/e4_inputs",
+  "GX_DEPS": "/absolute/path/to/gx_deps",
+  "NY_TZ": "/absolute/path/to/ny_tz",
+  "OISST1": "/absolute/path/to/oisst1",
+  "OISST2": "/absolute/path/to/oisst2",
+  "OISST3": "/absolute/path/to/oisst3",
+  "OSM": "/absolute/path/to/osm",
+  "TLC": "/absolute/path/to/tlc"
+}

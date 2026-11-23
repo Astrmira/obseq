@@ -1,0 +1,41 @@
+{
+  "commit": "a51be850a113a6b7c0ada57ad3c7806c6c3f25a4",
+  "stock_sha": "941642673be85e434bef85415ffe0c9f87db0c978a4169da8cac0f8f8d3d7ce0",
+  "scipy": "1.17.0",
+  "e23_sql_legal_cutoff_accepted": 15,
+  "relative_fixture": {
+    "ref": [
+      1.0,
+      1.0000014
+    ],
+    "answer": [
+      1.0000005,
+      0.9999995
+    ],
+    "matching": true,
+    "stock_original_order": false,
+    "stock_permuted_order": true,
+    "pair_edge_matrix": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        false
+      ]
+    ]
+  },
+  "exhaustive": {
+    "groups": 441,
+    "legal": 199,
+    "all_candidate_orders": 882,
+    "legal_orders_rejected": 40,
+    "illegal_orders_accepted": 0,
+    "groups_order_sensitive": 40
+  },
+  "exact_identifier": {
+    "distinct_int_as_numeric_accepted": true,
+    "distinct_int_exact_text_accepted": false
+  }
+}

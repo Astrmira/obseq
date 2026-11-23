@@ -1,0 +1,11 @@
+# Collation requirements can fail on a direct filter but pass a value-equivalent expression
+
+**Contract.** Match explicit SQLite BINARY, built-in ASCII-only NOCASE, or trailing-ASCII-space-only RTRIM for equality on nullable, valid UTF-8 keys, with exact stable row IDs. A separate Python oracle computes each rule, and independent stdlib SQLite checks both SQL shapes. For these known TEXT values, concatenating the empty string leaves non-null values unchanged and keeps NULL as NULL. Thus `k = target COLLATE coll` and `(k || '') = target COLLATE coll` have the same declared result. No embedded NUL, coercions, locale collation, or Unicode normalization is in scope.
+
+Using native GDAL SQLITE-dialect ExecuteSQL, query the same authored rows in OGR Memory and in a GeoPackage. Assert untouched key values and row IDs first. Then compare direct and computed predicates over 13 targets, three collations and two drivers: 156 native queries. Upper/lower non-ASCII, sharp-S, trailing tab, repeated key, empty string and canonically equivalent spellings provide negative controls, with one NULL row.
+
+The Memory source disagrees with explicit BINARY and RTRIM for some direct predicates. For example, direct BINARY equality to 'a' also selects 'A', while the computed expression matches the independent SQLite oracle. Direct RTRIM can both fabricate a case-folded match and omit a space-trimmed match. Computed forms all agree; on this GeoPackage fixture both forms agree. Direct NOCASE also agrees for Memory on this test set. The divergence appears only for a source/shape combination, despite an exact pre-filter row read.
+
+This supports a shape-metamorphic case in an EA&B suite: freeze semantic equivalence, then vary expression shape and source backend independently and score false and missing stable IDs separately. The result is consistent with delegation of the direct filter but does not instrument the actual planner or establish root cause. Do not treat a no-op concatenation as an unqualified production workaround: other schemas, index averse plans and performance are untested. No cross-version, Arrow transport, or universal SQLite claim.
+
+Replay: `/usr/bin/python3 -IB check.py | cmp - result.json`.

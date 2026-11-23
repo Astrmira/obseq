@@ -1,0 +1,35 @@
+{
+  "admitted_rows": 10000000,
+  "clean_mixed_moment": 244050428700432830971183947,
+  "duckdb": "1.4.3",
+  "left_groups": 9501,
+  "modulus": 618970019642690137449562111,
+  "no_hidden_row_ordinal": true,
+  "payload_only_exact_sum_unchanged": true,
+  "payload_only_swap_mixed_moment": 480872184797280275068714255,
+  "payload_swap_delta": 236821756096847444097530308,
+  "reference_mixed_moment": 244050428700432830971183947,
+  "rows": 10000000,
+  "sha256": {
+    "J1_1e7_1e1_5_0.csv": "035dd56bbe5a599248fa069566887d92d6998ed7c1f9a2a8822e8773edadcd82",
+    "J1_1e7_1e4_5_0.csv": "f2e8ce2fd70647d1930a6401b3ca4786f361f85b7456ff7ddcee90a5e721fce1",
+    "J1_1e7_1e7_5_0.csv": "6ee50b2d93e75ee813e03b33d05aca75395a2d708abd4530ab3d285bdcd95fef",
+    "J1_1e7_NA_5_0.csv": "29205553b85cee0eb36a52b0d16ed1a8067ba066ac28d7c2a995a5db371f7061"
+  },
+  "stock_projection_fields": [
+    "id1",
+    "id2",
+    "id3",
+    "id4",
+    "id5",
+    "id6",
+    "v1",
+    "medium_id1",
+    "medium_id4",
+    "medium_id5",
+    "v2"
+  ],
+  "weak_id3_only_unchanged": true,
+  "whole_right_swap_delta": 591145700976907135303335307,
+  "whole_right_swap_mixed_moment": 216226110034649828824957143
+}

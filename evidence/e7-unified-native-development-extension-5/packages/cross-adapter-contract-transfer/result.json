@@ -1,0 +1,383 @@
+{
+  "cases": {
+    "cached": {
+      "gates": {
+        "artifact": true,
+        "derived": false,
+        "output": false
+      },
+      "receipt": {
+        "ids": [
+          12,
+          20,
+          22
+        ],
+        "logical_rows_hash": "ef453c8953ee8783c5735602da281b87e9d4979fa5a6660db101e8f10aa705d6",
+        "manifest_hash": "be7f48034e707ca50db8e1f66f608c9e4590073fab82157d829b1272bdf020a9",
+        "runtime_epoch": 1,
+        "scores": [
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            6
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            23,
+            8
+          ],
+          [
+            24,
+            8
+          ]
+        ]
+      },
+      "strict_epoch_gate": false,
+      "strict_evidence": [
+        [
+          10,
+          0,
+          "cache@0"
+        ],
+        [
+          11,
+          0,
+          "cache@0"
+        ],
+        [
+          12,
+          0,
+          "cache@0"
+        ],
+        [
+          20,
+          0,
+          "cache@0"
+        ],
+        [
+          21,
+          0,
+          "cache@0"
+        ],
+        [
+          22,
+          0,
+          "cache@0"
+        ],
+        [
+          23,
+          0,
+          "cache@0"
+        ],
+        [
+          24,
+          0,
+          "cache@0"
+        ]
+      ]
+    },
+    "forward": {
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "receipt": {
+        "ids": [
+          10,
+          20,
+          21
+        ],
+        "logical_rows_hash": "ef453c8953ee8783c5735602da281b87e9d4979fa5a6660db101e8f10aa705d6",
+        "manifest_hash": "be7f48034e707ca50db8e1f66f608c9e4590073fab82157d829b1272bdf020a9",
+        "runtime_epoch": 1,
+        "scores": [
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            10
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            23,
+            9
+          ],
+          [
+            24,
+            8
+          ]
+        ]
+      },
+      "strict_epoch_gate": true,
+      "strict_evidence": [
+        [
+          10,
+          1,
+          "computed"
+        ],
+        [
+          11,
+          1,
+          "computed"
+        ],
+        [
+          12,
+          1,
+          "computed"
+        ],
+        [
+          20,
+          1,
+          "computed"
+        ],
+        [
+          21,
+          1,
+          "computed"
+        ],
+        [
+          22,
+          1,
+          "computed"
+        ],
+        [
+          23,
+          1,
+          "computed"
+        ],
+        [
+          24,
+          1,
+          "computed"
+        ]
+      ]
+    },
+    "invariant-cache": {
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "receipt": {
+        "ids": [
+          10,
+          20,
+          21
+        ],
+        "logical_rows_hash": "ef453c8953ee8783c5735602da281b87e9d4979fa5a6660db101e8f10aa705d6",
+        "manifest_hash": "be7f48034e707ca50db8e1f66f608c9e4590073fab82157d829b1272bdf020a9",
+        "runtime_epoch": 1,
+        "scores": [
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            10
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            23,
+            9
+          ],
+          [
+            24,
+            8
+          ]
+        ]
+      },
+      "strict_epoch_gate": false,
+      "strict_evidence": [
+        [
+          10,
+          1,
+          "computed"
+        ],
+        [
+          11,
+          1,
+          "computed"
+        ],
+        [
+          12,
+          0,
+          "cache@0"
+        ],
+        [
+          20,
+          0,
+          "cache@0"
+        ],
+        [
+          21,
+          1,
+          "computed"
+        ],
+        [
+          22,
+          0,
+          "cache@0"
+        ],
+        [
+          23,
+          1,
+          "computed"
+        ],
+        [
+          24,
+          0,
+          "cache@0"
+        ]
+      ]
+    },
+    "reverse": {
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "receipt": {
+        "ids": [
+          12,
+          21,
+          20
+        ],
+        "logical_rows_hash": "ef453c8953ee8783c5735602da281b87e9d4979fa5a6660db101e8f10aa705d6",
+        "manifest_hash": "be7f48034e707ca50db8e1f66f608c9e4590073fab82157d829b1272bdf020a9",
+        "runtime_epoch": 1,
+        "scores": [
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            10
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            23,
+            9
+          ],
+          [
+            24,
+            8
+          ]
+        ]
+      },
+      "strict_epoch_gate": true,
+      "strict_evidence": [
+        [
+          10,
+          1,
+          "computed"
+        ],
+        [
+          11,
+          1,
+          "computed"
+        ],
+        [
+          12,
+          1,
+          "computed"
+        ],
+        [
+          20,
+          1,
+          "computed"
+        ],
+        [
+          21,
+          1,
+          "computed"
+        ],
+        [
+          22,
+          1,
+          "computed"
+        ],
+        [
+          23,
+          1,
+          "computed"
+        ],
+        [
+          24,
+          1,
+          "computed"
+        ]
+      ]
+    }
+  },
+  "openpyxl": "3.1.5",
+  "pandas": "2.2.3",
+  "shared_contract_code_sha256": "b7d01df28d38e78bccdd0bb3deefee26a289fde5301932f00b85029530644297"
+}

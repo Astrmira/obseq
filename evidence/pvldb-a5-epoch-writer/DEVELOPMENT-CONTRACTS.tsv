@@ -1,0 +1,59 @@
+id	family	source	clauses
+lakefs-native-snapshot-checksums	O1	declared_once	object identity, commit reference, checksum carrier
+slt-native-port-framing-scope	comparison	declared_once	stock runner, typed cells, row order, hash threshold
+stock-dbt-scoped-freshness	O2	declared_once	loaded timestamp, freshness threshold, observed partition
+eab-native-collation-equivalence	O4	declared_once	collation, nullable key, stable row identity
+eab-stream-to-storage-write-intent	O5	per_case_statement	stable FID, patch coverage, CLEAR, WRITE, formula-cache authority
+eab-fid-keyed-write-intent	O5	per_case_statement	stable FID, signed key encoding, per-row operation, closed-file state
+eab-semantic-snapshot-binding	O1,O5	per_case_statement	operation identity, typed payload, KEEP, CLEAR, logical workbook content
+eab-destination-projection-binding	O1,O5	per_case_statement	destination before-state, source operation, affected identity, post-state
+eab-geometric-set-equality	O4	declared_once	closed unit squares, exact incidence, feature identity
+eab-typed-lineage-geometry-interventions	O4,O5	per_case_statement	stable FID, action, before geometry, proposal authority, unit-grid set equivalence
+eab-workbook-dst-authority	O4	per_case_statement	civil zone, repeated-time selector, gap policy, instant encoding, wall-time projection
+eab-immutable-calendar-recurrence-anchor	O4	declared_once	immutable date anchor, slot index, month advance, original-day clamp
+eab-cascade-lineage-closure	O5	per_case_statement	stable ID, forest edge, selected roots, descendant closure, survivor state
+eab-sql-allowed-result-families	O3	per_case_statement	eligible inputs, identity, integer order key, window cardinality, peer rule
+eab-coupled-sql-allowed-family	O3	per_case_statement	group, stable ID, score, metric, quota, joint admissibility
+eab-typed-sql-group-representatives	O3,O4	per_case_statement	typed domain, exact key equality, group eligibility, representative rule
+eab-sqlite-transactional-snapshot-binding	O1	per_case_statement	transaction snapshot, stable ID, projected state
+eab-sqlite-semantic-dependency-binding	O1,O2	per_case_statement	logical file state, registered collation, index dependency, dependency identity
+compact-native-conformance-corpus	O1,O2,O3,O4,O5	per_case_statement	native route, domain, reference, development or transfer membership
+cross-adapter-contract-transfer	O1,O5	declared_once	inherited manifest, formula policy, adapter projection
+native-contract-harness	O1,O2,O3,O4,O5	declared_once	manifest, independent reference, adapter receipt
+external-native-corpus-admission	O1,O4	per_case_statement	pinned corpus, layer selector, stable key order, geometry observation
+crs-relative-clearance-certificates	O4	per_case_statement	pinned feature, source and target CRS, ring projection, clearance test
+crs-round-trip-boundary-identity	O4	per_case_statement	pinned FIDs, admitted ring structure, source and target CRS, boundary identity
+partial-refresh-epoch-granularity	O2	per_case_statement	input geometry, changed scope, production epoch, dependent score
+selective-interval-peer-matching	O3,O4	per_case_statement	peer universe, interval rule, selected positions, projection
+pipeline-typed-null-join-isolation	comparison	per_case_statement	stable IDs, signed integer keys, inner bag join, NULL policy
+pipeline-engine-semantics-oracle	comparison	per_case_statement	side identity, typed key, mixed predicate, bag multiplicity
+pipeline-native-transport-semantics	O4	declared_once	OGR dialect, projected type, scalar value, aggregate rule
+pipeline-native-write-intent	O5	per_case_statement	stable feature ID, KEEP, CLEAR, ZERO, unaffected field
+eab-composed-semantic-receipt	O1,O5	per_case_statement	signed-int64 keys, NULL, stable row ID, typed operation, expected effect
+eab-receipt-independent-observables	O1,O5	declared_once	int64 string encoding, nullable values, receipt kind, projected operation and effects
+workbook-stream-dimension-completeness	O1	per_case_statement	worksheet extent, physical cells, formula and cache status, admitted value projection
+workbook-general-numeric-token-fidelity	O4	declared_once	General number format, exact integer, binary64 bits, signed zero
+workbook-binary64-token-inverse-fiber	O4	declared_once	positive normal binary64, formatter version, token inverse, admissible source domain
+workbook-named-formula-copy-resolution	O5	per_case_statement	source sheet, clone cell, local name, global name, reference-resolution rule
+workbook-structured-move-preflight	O5	per_case_statement	anchored formula group, group extent, blank destination, affected members
+workbook-staged-structural-preflight	O5	declared_once	move plan, atomic staging, structural checks, committed effects
+workbook-print-title-native-consumer	O5	per_case_statement	ordered body labels, title labels, page coverage, native rendering projection
+native-variant-write-intent-preservation	O5	per_case_statement	typed variant presence, absent member, explicit null, stored value
+native-schema-presence-write-intent	O5	per_case_statement	column presence, value nullness, consumer action, stable identity
+variant-native-presence-projection	O5	declared_once	variant path presence, child tag, typed value, operation label
+partial-cut-sum-reference-identity	O5	per_case_statement	cut rectangle, destination, admitted SUM grammar, original reference identity
+safe-shared-formula-rectangles	O5	per_case_statement	OOXML shared group, original formula expansion, cut, retargeted identities
+scalar-cut-reference-identity	O5	per_case_statement	cut rectangle, blank destination, scalar grammar, original cell identity
+shared-formula-cut-identity	O5	per_case_statement	shared index, master, child, bystander reference, post-cut identity
+workbook-date-serial-preservation	O4	declared_once	stored numeric serial, display format, parsed date, original calculation semantics
+stale-join-key-eligibility	O2	per_case_statement	materialized join key, dependency revision, row eligibility, stable ID bag
+sqlite-stored-field-evaluation-epoch	O2	per_case_statement	stored generated field, deterministic function contract, evaluation epoch
+dbt-native-unit-and-relationship-scope	comparison	declared_once	stock dbt version, unit expectation, relationships scope, key declaration
+specbridge-tolerant-peer-permutation	O3	per_case_statement	complete tie pool, numeric tolerance, peer order, projected membership
+stock-null-stage-attribution	comparison	declared_once	stock CWI comparator, NULL policy, original producer version, attributed stage
+stock-gx-typed-token-anchors	O4	declared_once	regex matching semantics, typed token, anchoring, valid numeric domain
+stock-deequ-common-keyed	comparison	declared_once	key projection, nullable long values, stock constraint, independent labels
+stock-dvc-keyed-fingerprint-audit	O1	declared_once	serialized carrier, hash algorithm, logical key, pinned interpretation
+polars-group-min-cross-version	O3,O4	per_case_statement	original string, lowercase group, minimal original value, exact group bag
+tpch-scoped-epoch-binding	O2	declared_once	exact source tables, relevant projection, update scope, tracked revision
+clickbench-native-footer-epoch-binding	O1,O2	declared_once	pinned Parquet source, signed key, footer projection, binding scope

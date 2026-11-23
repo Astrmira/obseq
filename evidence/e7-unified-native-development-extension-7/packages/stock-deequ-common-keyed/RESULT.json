@@ -1,0 +1,158 @@
+{
+  "decisions": {
+    "02b73fcb7d52": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "03d1af37e95d": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "0972bb8f044e": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "0fef24d89e77": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "141dabb17d93": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "1b84f76666e3": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "27af05c4d444": {
+      "keys": false,
+      "keys_count": false,
+      "suggested": false
+    },
+    "3023f90ccf7e": {
+      "keys": true,
+      "keys_count": false,
+      "suggested": false
+    },
+    "352b71303f70": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "5a94c041b448": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "5eb606b73f15": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "618af6b50cc6": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "6ccfc8a42756": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "75a68d29b87f": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "83780c82d0ca": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "99367f60a5ea": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "9e65d3809066": {
+      "keys": false,
+      "keys_count": false,
+      "suggested": false
+    },
+    "a0aa4ff33d00": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "a28378eb9bfc": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "a28b90557544": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "d6af50298f3d": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "e436679a970f": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "ea649f8d2e2e": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    },
+    "fee874afb3d7": {
+      "keys": true,
+      "keys_count": true,
+      "suggested": false
+    }
+  },
+  "deequ": "2.0.15-spark-4.0",
+  "scores": {
+    "keys": {
+      "false_admit": 11,
+      "false_reject": 1
+    },
+    "keys_count": {
+      "false_admit": 10,
+      "false_reject": 1
+    },
+    "suggested": {
+      "false_admit": 0,
+      "false_reject": 12
+    }
+  },
+  "spark": "4.0.1",
+  "suggestion_fit": {
+    "pass": false,
+    "reference_id": "02b73fcb7d52"
+  },
+  "suggestion_fit_rules": {
+    ".hasCompleteness(\"v\", _ >= 0.44, Some(\"It should be above 0.44!\"))": "Success",
+    ".isComplete(\"g\")": "Success",
+    ".isComplete(\"id\")": "Success",
+    ".isContainedIn(\"g\", Array(\"reed\", \"alfa\"))": "Success",
+    ".isContainedIn(\"v\", Array(\"-15\", \"0\", \"17\"))": "Failure"
+  },
+  "suggestions": [
+    ".hasCompleteness(\"v\", _ >= 0.44, Some(\"It should be above 0.44!\"))",
+    ".isComplete(\"g\")",
+    ".isComplete(\"id\")",
+    ".isContainedIn(\"g\", Array(\"reed\", \"alfa\"))",
+    ".isContainedIn(\"v\", Array(\"-15\", \"0\", \"17\"))"
+  ]
+}

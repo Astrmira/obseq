@@ -1,0 +1,285 @@
+{
+  "cases": 12,
+  "operators": {
+    "==": {
+      "default": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 135
+      },
+      "default-exact-policy": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 51
+      },
+      "drop-all": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      },
+      "typed-exact-policy": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      },
+      "typed-only": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              null
+            ],
+            [
+              0,
+              null
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 64
+      }
+    },
+    "=N": {
+      "default": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 119
+      },
+      "default-exact-policy": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 59
+      },
+      "drop-all": {
+        "first": {
+          "false_pair_keys": null,
+          "missing_pair_keys": [
+            [
+              0,
+              null
+            ],
+            [
+              0,
+              null
+            ]
+          ]
+        },
+        "fn": 16,
+        "fp": 0
+      },
+      "typed-exact-policy": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      },
+      "typed-only": {
+        "first": {
+          "false_pair_keys": [
+            [
+              null,
+              -9007199254740992
+            ],
+            [
+              null,
+              -9007199254740992
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 48
+      }
+    },
+    "N=": {
+      "default": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 111
+      },
+      "default-exact-policy": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 63
+      },
+      "drop-all": {
+        "first": {
+          "false_pair_keys": null,
+          "missing_pair_keys": [
+            [
+              null,
+              -9007199254740992
+            ],
+            [
+              null,
+              -9007199254740992
+            ]
+          ]
+        },
+        "fn": 24,
+        "fp": 0
+      },
+      "typed-exact-policy": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      },
+      "typed-only": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              null
+            ],
+            [
+              0,
+              null
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 40
+      }
+    },
+    "NN": {
+      "default": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 71
+      },
+      "default-exact-policy": {
+        "first": {
+          "false_pair_keys": [
+            [
+              0,
+              -9007199254740992
+            ],
+            [
+              0,
+              -9007199254740993
+            ]
+          ],
+          "missing_pair_keys": null
+        },
+        "fn": 0,
+        "fp": 71
+      },
+      "drop-all": {
+        "first": {
+          "false_pair_keys": null,
+          "missing_pair_keys": [
+            [
+              0,
+              null
+            ],
+            [
+              0,
+              null
+            ]
+          ]
+        },
+        "fn": 64,
+        "fp": 0
+      },
+      "typed-exact-policy": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      },
+      "typed-only": {
+        "first": null,
+        "fn": 0,
+        "fp": 0
+      }
+    }
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "sqlite": "3.53.1"
+  }
+}

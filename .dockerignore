@@ -1,0 +1,6 @@
+.git
+.venv
+scratch
+**/__pycache__
+**/*.egg-info
+**/LOCAL_BINDINGS.json

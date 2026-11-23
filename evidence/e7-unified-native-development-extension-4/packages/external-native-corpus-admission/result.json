@@ -1,0 +1,59 @@
+{
+  "admission": [
+    [
+      1,
+      "noninteger-envelope"
+    ],
+    [
+      2,
+      "noninteger-envelope"
+    ],
+    [
+      3,
+      "noninteger-envelope"
+    ],
+    [
+      4,
+      "noninteger-envelope"
+    ],
+    [
+      8,
+      "outside-declared-standard-gpkg-wrapper"
+    ],
+    [
+      9,
+      "noninteger-envelope"
+    ],
+    [
+      10,
+      "noninteger-envelope"
+    ],
+    [
+      13,
+      "noninteger-envelope"
+    ],
+    [
+      14,
+      "noninteger-envelope"
+    ],
+    [
+      16,
+      "noninteger-envelope"
+    ],
+    [
+      18,
+      "noninteger-envelope"
+    ],
+    [
+      21,
+      "noninteger-envelope"
+    ]
+  ],
+  "artifact_sha256": "386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669",
+  "gdal": "3100300",
+  "independent_envelope_matches": 11,
+  "layer": "countries",
+  "policy_sha256": "d86a6213d095060ac420cccbc18e04733c1837596f16b8218c928d99590cc525",
+  "sqlite": "3.46.1",
+  "unchanged_overlap_runner_admitted": false
+}

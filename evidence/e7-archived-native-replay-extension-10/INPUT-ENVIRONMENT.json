@@ -1,0 +1,27 @@
+{
+  "crs-relative-clearance-certificates": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "crs-round-trip-boundary-identity": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "exact-dyadic-predicate-gate": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "external-native-corpus-admission": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "external-native-hole-containment": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "external-native-planar-containment": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "whole-multipolygon-point-admission": {
+    "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
+  },
+  "xlsx-native-style-type-drift": {
+    "OBSEQ_XLSX_ARCHIVE": "XLSX_ARCHIVE",
+    "OBSEQ_XLSX_SELECTION": "XLSX_SELECTION"
+  }
+}

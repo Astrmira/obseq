@@ -1,0 +1,140 @@
+{
+  "baseline_contributors": 19837,
+  "baseline_dependency_sha256": "62b421f6b797ce86be9967548b110335e647eb33bb56c6714932785afc7d5745",
+  "baseline_groups": 5,
+  "baseline_source_projection_sha256": "804b98571c2d1cea09822cd3601eaeab9af430fdc9f65abde55586edc4175850",
+  "cases": [
+    {
+      "contributors_delta": 0,
+      "count_max_equal": true,
+      "exact_dependency_changed": true,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        1,
+        0
+      ],
+      "output_changed": true,
+      "scoped_epochs": [
+        1,
+        0
+      ],
+      "transition": "selected_amount"
+    },
+    {
+      "contributors_delta": 0,
+      "count_max_equal": true,
+      "exact_dependency_changed": false,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        0,
+        0
+      ],
+      "output_changed": false,
+      "scoped_epochs": [
+        0,
+        0
+      ],
+      "transition": "outside_amount"
+    },
+    {
+      "contributors_delta": 1,
+      "count_max_equal": true,
+      "exact_dependency_changed": true,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        0,
+        0
+      ],
+      "output_changed": true,
+      "scoped_epochs": [
+        1,
+        0
+      ],
+      "transition": "supplier_enters"
+    },
+    {
+      "contributors_delta": -1,
+      "count_max_equal": true,
+      "exact_dependency_changed": true,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        1,
+        0
+      ],
+      "output_changed": true,
+      "scoped_epochs": [
+        1,
+        0
+      ],
+      "transition": "supplier_leaves"
+    },
+    {
+      "contributors_delta": 3991,
+      "count_max_equal": true,
+      "exact_dependency_changed": true,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        0,
+        0
+      ],
+      "output_changed": true,
+      "scoped_epochs": [
+        0,
+        1
+      ],
+      "transition": "nation_enters"
+    },
+    {
+      "contributors_delta": 0,
+      "count_max_equal": true,
+      "exact_dependency_changed": false,
+      "global_epoch": 1,
+      "old_only_epochs": [
+        0,
+        0
+      ],
+      "output_changed": false,
+      "scoped_epochs": [
+        0,
+        0
+      ],
+      "transition": "outside_nation_renamed"
+    },
+    {
+      "contributors_delta": 0,
+      "count_max_equal": true,
+      "exact_dependency_changed": false,
+      "global_epoch": 0,
+      "old_only_epochs": [
+        0,
+        0
+      ],
+      "output_changed": false,
+      "scoped_epochs": [
+        0,
+        0
+      ],
+      "transition": "rollback"
+    },
+    {
+      "contributors_delta": 0,
+      "count_max_equal": true,
+      "exact_dependency_changed": false,
+      "global_epoch": 2,
+      "old_only_epochs": [
+        2,
+        0
+      ],
+      "output_changed": false,
+      "scoped_epochs": [
+        2,
+        0
+      ],
+      "transition": "semantic_compensation"
+    }
+  ],
+  "duckdb": "1.4.3",
+  "nation_rows": 25,
+  "supplier_rows": 100000,
+  "timings": null
+}

@@ -1,0 +1,16 @@
+# EA&B: locate null loss at the reader or comparator, not just the end result
+
+This executes the original [CWI roundingdiff.py](https://github.com/cwida/tpcds-result-reproduction/blob/61ba82e7f6868760dcfbfa4347fe06cfd67a798f/roundingdiff.py) with pandas 2.2.3 and replays the underlying [upstream DuckDB issue #25501](https://github.com/duckdb/duckdb/issues/25501) in installed 1.4.2, 1.4.3, and 2.0.1. Keep each stage's observation distinct.
+
+**CWI comparator loss.** Each headerless authored TSV has three rows with the same integer keys. The comparison accepts both directions after moving the missing value from key 102 to key 101, despite different parsed pandas masks. Row count, key set and total null count are all unchanged, but Arrow's validity-by-key differs. The stock test only counts numeric differences that exceed tolerance; NaN arithmetic yields no threshold violation. It rejects the two finite-change controls, so it was not a universal pass. In a separate arm, the declared typed contract distinguishes a legitimate IEEE NaN from NULL. Arrow constructs that representation with from_pandas=False and a valid NaN; default textual pandas NA parsing gives it the same mask as NULL before comparison. This last arm illustrates parsing, whereas the swapped-position arm isolates comparison after the two masks remain distinguishable. [Arrow validity bitmap](https://arrow.apache.org/docs/format/Columnar.html#validity-bitmaps).
+
+**DuckDB reader loss.** Keyed VARCHAR states NULL, empty, literal NULL, and nonempty are preserved distinctly by the CSV writer, which quotes the collision under both default and explicit NULLSTR settings. Native export/import in the two tested 1.4.x builds collapses quoted empty (default) or quoted literal NULL (explicit marker); generated load.sql omitted the preserving option. In tested 2.0.1 the same native writer format is paired with allow_quoted_nulls false in load.sql, and all four values round-trip by key. An explicit preserving read and Parquet control preserve them on all three; explicitly enabling quoted-null recognition still collapses the rows. Align the paths and options before comparing versions. This reproduces the public report's mechanism and verifies the tested release boundary; it does not assert the first fixed release or a general CSV default defect. [DuckDB CSV options](https://duckdb.org/docs/current/data/csv/overview).
+
+A keyed validity check catches the specific missingness mutation; it does not replace comparing values or type. For positional agreement the stable key set and duplicate-key policy must both have been checked. These are controlled source-reuse tests, not an incidence estimate or TPC qualification.
+
+## Replay
+
+Use pinned CWI file (not redistributed), pandas 2.2.3, Arrow 26.0.1, and the exact installed official DuckDB builds. Provide paths to version-specific isolated package sites. ARROW_SITE only loads Arrow in the surrounding process; each DuckDB version runs in its own child interpreter. Authored values are frozen in PLAN.json; native import/export is inside owned scratch.
+
+    python3 -IB check.py CWI_FILE ARROW_SITE DUCK142_SITE DUCK143_SITE DUCK201_SITE | cmp - result.json
+    sha256sum -c SHA256SUMS

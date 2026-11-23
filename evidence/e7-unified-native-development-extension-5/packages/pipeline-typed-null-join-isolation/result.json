@@ -1,0 +1,301 @@
+{
+  "comparisons": {
+    "near-extreme-clean": {
+      "infer-native": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "near-extreme-null": {
+      "infer-native": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "negative-boundary-clean": {
+      "infer-native": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "negative-boundary-null": {
+      "infer-native": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "positive-boundary-clean": {
+      "infer-native": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "positive-boundary-null": {
+      "infer-native": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "float64",
+        "extra": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "small-clean": {
+      "infer-native": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    },
+    "small-null": {
+      "infer-native": {
+        "dtype": "float64",
+        "extra": [
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "infer-sql-null": {
+        "dtype": "float64",
+        "extra": [],
+        "missing": []
+      },
+      "int64-native": {
+        "dtype": "Int64",
+        "extra": [
+          [
+            3,
+            2
+          ]
+        ],
+        "missing": []
+      },
+      "int64-sql-null": {
+        "dtype": "Int64",
+        "extra": [],
+        "missing": []
+      }
+    }
+  },
+  "versions": {
+    "gdal": "3100300",
+    "numpy": "2.2.4",
+    "pandas": "2.2.3",
+    "sqlite": "3.46.1"
+  }
+}

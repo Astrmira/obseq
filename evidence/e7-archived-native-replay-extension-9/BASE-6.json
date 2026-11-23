@@ -1,0 +1,361 @@
+{
+  "cases": [
+    {
+      "case_id": "partial-cut-sum-reference-identity",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "f29f3370e96c34ff1c30cb947aa41a5f90acf20b8b54e3fd0d2a0e77cb11f344"
+        },
+        "README.md": {
+          "sha256": "1809bee5aac5424b1d5db238c72164cd3ce5df75e471425f5056baaf3db9a9b9"
+        },
+        "check.py": {
+          "sha256": "64458a4479a3fa2ec1ead8fefb40ea93e8f88380dc59e95668c7725fce0643d8"
+        },
+        "consumer.json": {
+          "sha256": "5250056b1340478b2c8c2cd47c49b835f4aba8f2a1f32f405f13eaa415b358b4"
+        },
+        "result.json": {
+          "sha256": "c3d96badaeadaeef586348772e315cf7b3402b779ce3fb12f4bb1d41ec489893"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "safe-shared-formula-rectangles",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "ff3f63b77d9ac1ded9e8b0cd61908321b36a20f0b2e62b7aff9a2724b198f9ed"
+        },
+        "README.md": {
+          "sha256": "7aa170dd6d11a7c63e0ba9a8cb895c476d47eeac01228211db61e6156f9b0a53"
+        },
+        "check.py": {
+          "sha256": "d7d65f53a3da49bbff722bc425ba699685e61080e54e5dd5665a51d3f9f4a49c"
+        },
+        "consumer.json": {
+          "sha256": "c39800481b938dd52f75c3cc5ccd93fdc9b170b408c1a67acc06c44e5967d2f7"
+        },
+        "result.json": {
+          "sha256": "b10c33655c15a5ce7fff7ba6b79f63e65fe18bd69947b2ff2cd722126dd6bdab"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "scalar-cut-reference-identity",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "a9510b2083d1c824250ae4733c7300b13b16f41b0cf76b0062fd2ec92c763c79"
+        },
+        "README.md": {
+          "sha256": "4bdb1946944f3bda4488cb6f49fc46688bd457b4e3c54bf49e52fa5402cdf671"
+        },
+        "check.py": {
+          "sha256": "4cf56f2cae7fdeec6559dddaec456992181753ac367343197fe67b938ba2b9d9"
+        },
+        "consumer.json": {
+          "sha256": "4fa08097d3f5542d4de83cc3722041b08d13c1a949f802d1d004f5ea31025ca2"
+        },
+        "result.json": {
+          "sha256": "b1d920cea9d1a1c955858f82ce0ba8bf480c43f4bbb76cc58a4c4ab11b1ccebe"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "shared-formula-cut-identity",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "e07907d36a817d6fb9eb556dfa43fb87dac7c3474be10bfcc344c710d2f25a56"
+        },
+        "README.md": {
+          "sha256": "4f1951a3fda30871a4ee3ee9ebe9446cc29c065af9654b86b7f91143fb3ee8a3"
+        },
+        "check.py": {
+          "sha256": "372f8cfacf3d2a2e5e1776ec2b66cd3edf5dd97c791ae9445ae510b21d78faa1"
+        },
+        "consumer.json": {
+          "sha256": "fbd11304c50a32b986415d5921b2a4996d610b9cc82dcc33d9826f65d45174f2"
+        },
+        "result.json": {
+          "sha256": "5f0ae9dce8701b70e606e676a909a62109f6a636e1c4da349132681212c77b19"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "workbook-date-serial-preservation",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "README.md": {
+          "sha256": "c9cddf888f47268ebce2df98664b19a9f4f2bbd0f02fabed6496694c73a1bfe0"
+        },
+        "check.py": {
+          "sha256": "fba17725010af1722bb81ea8d35759be3161d4579ef353b305b5eaebab3f7ca9"
+        },
+        "consumer.json": {
+          "sha256": "ecd153739af7fca95ae1b8cbed72d9a48cdb4c7cd77dccda6b907b2d5187b4d1"
+        },
+        "result.json": {
+          "sha256": "266b3c36b5619afc3ed4bad307b1cf3fd50e8d51a0b73cc0db9a00d944ebe1e5"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "stale-join-key-eligibility",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "551833d7283b79dc830f00eae94832ef9cd095518ae3cfbdde14c4a9261fffeb"
+        },
+        "README.md": {
+          "sha256": "d2c4630d62b7a859f5359dcc61094a7faf5d79981de85e392c32b3a8aa86ab7f"
+        },
+        "check.py": {
+          "sha256": "51df2a60d48c9cf8d82e4d9ba2fc41021c78514ecffeba654c8066a4cd756796"
+        },
+        "manifest.json": {
+          "sha256": "0d1147f56d851a1657f6d1b65089507808b2d8889bc0a53c247c80c809f9ce87"
+        },
+        "result.json": {
+          "sha256": "856cd6e6c46d77f11fa7c2c2ac4bb4d8812b7f0ee81fc7b721ae961c7d6de0d7"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "sqlite-stored-field-evaluation-epoch",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "dd11d307b345e0cc4b35b6da1aabb28fd14c14be5f357ac4457da6111c5cbc00"
+        },
+        "README.md": {
+          "sha256": "506d0523af4be19c10c92b227562f8c229b9bf6375abc2afd08cda0fe7c3c647"
+        },
+        "check.py": {
+          "sha256": "ef10d8d4dcd4fbfe07aae7f44f1320710698cadfb5591aa74fc09325673d7e7d"
+        },
+        "manifest.json": {
+          "sha256": "7a22249e84ec819eb69da8df33e3852d22a316b2e6d86ecb7a368bf8fb5865c7"
+        },
+        "result.json": {
+          "sha256": "a390ababe8416150623bb1cd09f717a9529eaee514b4e0f81e74645fb3e1e428"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "parquet-pandas-null-valid-nan",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{TLC}",
+        "{SCRATCH}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "4de288b01b1a15fa46fa3e42d35f6b7130bb69b5bd57e068b7078ef62e3f688c"
+        },
+        "ORIGINAL-PRE.sha256": {
+          "sha256": "163ec5cf048c2095af66563433b1e6582b27bc9e61de0961225d63dd3dfc2261"
+        },
+        "PLAN.md": {
+          "sha256": "b0755d0d89291251c6f1ae47327cf03101adf9875429a3d4251f40638572043a"
+        },
+        "README.md": {
+          "sha256": "22099375fe918fedbee71ccc1d33f0514bb85dd3d14dcd256fc98b2c3752de8c"
+        },
+        "REPLAY.sha256": {
+          "sha256": "aabe9f5e5568f25e0d66e9258585b16b94817e491107ca01fb70131e69b1a743"
+        },
+        "RESULT.json": {
+          "sha256": "7537d62be6d3922049a5ecce83f2f13d6fa550cfb3a79134f168be90effa4ad8"
+        },
+        "SHA256SUMS": {
+          "sha256": "fa47518efceeaa0f1f29218f8120d6a454be750d2faa3bdb1d5a95cd464084d3"
+        },
+        "run.py": {
+          "sha256": "19110fd0153a98bc21b042d57f8161736f2ccf58e569183b4751177efd8a2be4"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "native-topk-cutoff-membership",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "result.json",
+      "args": [
+        "{E4_INPUTS}"
+      ],
+      "python_path": [
+        "E4_DEPS"
+      ],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "ae49088fb7e37526b1e0749aa09c3b7837808e973d115ac9da5bbb656502d75d"
+        },
+        "INPUTS.sha256": {
+          "sha256": "7454ba993257ebef3ed90152b4df7c80df624300f6744c260a25abc3fe69cd37"
+        },
+        "PLAN.json": {
+          "sha256": "6364c90c741749c574fbc2d065507dce978a229cecee3be0ced6430942ed09ed"
+        },
+        "PREEXECUTION.sha256": {
+          "sha256": "3a59386b675075e233bb8a948dead09a76d257c009211b16730ae2c9c01a4887"
+        },
+        "README.md": {
+          "sha256": "3e7f6896fbaeb3fcccbc12cd2ab5b953b350ee31e8b49a0d2c68e1a8d8d939d2"
+        },
+        "SHA256SUMS": {
+          "sha256": "50f20d76a701232bc835dc5cc08b923c3254455a54a28105124d00707b208a3c"
+        },
+        "TIMING-RETRY.json": {
+          "sha256": "f1d3c09c480b2fb8a2d49dcbfabedd0769835051ef579426e832c7ad543c7600"
+        },
+        "TIMING-RETRY.sha256": {
+          "sha256": "83aa08691226de474a400617421e4b9b1c2c4e1d91867714012dd31bf6c52aa9"
+        },
+        "check.py": {
+          "sha256": "80be7d6b4021ca77166d66929a683550ce4c2a766719881b2c69a7c1b61f8c2b"
+        },
+        "result.json": {
+          "sha256": "a2e16d22a42bf033260f84690ab6b17654db57930732af7652896e193a2d8a91"
+        },
+        "summarize.py": {
+          "sha256": "69baf27572e839b319388f1579f3475c06650596dbe6441b617a3de0bad5c70c"
+        },
+        "timing-summary.json": {
+          "sha256": "7af02457b869cca31e223bc4108cc3c3c6c377dad482470fc532cc8c4eb36a25"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "xlsx-native-early-date-readers",
+      "kind": "native_external_transfer",
+      "mode": "default",
+      "entry": "check.py",
+      "expected": "RESULTS.json",
+      "args": [
+        "{XLSX_ARCHIVE}",
+        "{XLSX_SELECTION}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "CALIBRATION.json": {
+          "sha256": "da0574f1bed62c094db41edd552a1f64a70cdd0779d0a97033eb06ed61dea54d"
+        },
+        "EVIDENCE.json": {
+          "sha256": "c697ffa4e535465d3be3161f723a2160009047cc0fa1a0cf3430567aea207488"
+        },
+        "PLAN.txt": {
+          "sha256": "b7ca8d6d6ee094dec6339a4b5902a59579d147c1b7c0c9c0af82e7a3b384944d"
+        },
+        "PREFREEZE.sha256": {
+          "sha256": "9b7f76061d03ae38aa21f35fcaf697d886589495625fa80dce9d3a68d84205e4"
+        },
+        "README.md": {
+          "sha256": "879f8fe2237098a7e4a540347739aec5cbd610f218ec0051fc283a0257729830"
+        },
+        "RESULTS.json": {
+          "sha256": "1180915b4978d7d5e2a21ffa0c9d9f7fff0c434dc5eeeed43a888793b87d9741"
+        },
+        "SHA256SUMS": {
+          "sha256": "28c9af363666ca70f511c2aa87f62376515f64835905185d72bd1954163838b8"
+        },
+        "calibration.py": {
+          "sha256": "029eae3eddf2e3994362140e52572da39505d6f33f76798f57af9597baecec16"
+        },
+        "check.py": {
+          "sha256": "ab0b0a65b40667a698fcd41070824f371a13bd542377fd796c541cf9d75de796"
+        },
+        "gdal_read.py": {
+          "sha256": "892d8e97458131a91ebd865ac1b04916b11d0e2ab994925b6fe5721ee6b5611d"
+        }
+      },
+      "extension": 6
+    },
+    {
+      "case_id": "dbt-native-unit-and-relationship-scope",
+      "kind": "native_authored_development",
+      "mode": "default",
+      "entry": "run.py",
+      "expected": "RESULT.json",
+      "args": [
+        "{DBT_DEPS}",
+        "{SCRATCH}"
+      ],
+      "python_path": [],
+      "blobs": {
+        "EVIDENCE.json": {
+          "sha256": "bc4adcfc1d57331c07122c487e23d8636203511f481decc1adf6db32d8fee8ce"
+        },
+        "README.md": {
+          "sha256": "57352c95ef7376266f86269c14224a277d9cc0d0dc22dbaad82c953c7f1760b6"
+        },
+        "REPLAY.sha256": {
+          "sha256": "f6a1b6b242a1142dd94756714cbd8775d7b735be034db761621468d953e5d9e1"
+        },
+        "RESULT.json": {
+          "sha256": "f7fd08012a484c1c583aec7a5221db748d57e1f73c6f11c695b5ff0bfd8c0442"
+        },
+        "SHA256SUMS": {
+          "sha256": "bef98fde21c8f6289af3eb249875213f77c4a1fe12f2c0c389d504d7453a7b29"
+        },
+        "run.py": {
+          "sha256": "2ed212dc8e63b5b7e7f6081b5108dd6f3e0c578dd5386a82588614694b48a009"
+        }
+      },
+      "extension": 6
+    }
+  ]
+}

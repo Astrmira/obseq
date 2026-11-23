@@ -1,0 +1,130 @@
+2026-11-23T01:38:34+08:00 downloading or verifying source shards
+hits_91.parquet 131821351 bytes verified
+hits_90.parquet 179154543 bytes verified
+hits_88.parquet 139626186 bytes verified
+2026-11-23T01:39:21+08:00 download_exit=0
+2026-11-23T01:39:21+08:00 running 43 stock queries on both thread counts
+threads=8 q=1 status=ok
+threads=8 q=2 status=ok
+threads=8 q=3 status=ok
+threads=8 q=4 status=ok
+threads=8 q=5 status=ok
+threads=8 q=6 status=ok
+threads=8 q=7 status=ok
+threads=8 q=8 status=ok
+threads=8 q=9 status=ok
+threads=8 q=10 status=ok
+threads=8 q=11 status=ok
+threads=8 q=12 status=ok
+threads=8 q=13 status=ok
+threads=8 q=14 status=ok
+threads=8 q=15 status=ok
+threads=8 q=16 status=ok
+threads=8 q=17 status=ok
+threads=8 q=18 status=ok
+threads=8 q=19 status=ok
+threads=8 q=20 status=ok
+threads=8 q=21 status=ok
+threads=8 q=22 status=ok
+threads=8 q=23 status=ok
+threads=8 q=24 status=ok
+threads=8 q=25 status=ok
+threads=8 q=26 status=ok
+threads=8 q=27 status=ok
+threads=8 q=28 status=ok
+threads=8 q=29 status=ok
+threads=8 q=30 status=ok
+threads=8 q=31 status=ok
+threads=8 q=32 status=ok
+threads=8 q=33 status=ok
+threads=8 q=34 status=ok
+threads=8 q=35 status=ok
+threads=8 q=36 status=ok
+threads=8 q=37 status=ok
+threads=8 q=38 status=ok
+threads=8 q=39 status=ok
+threads=8 q=40 status=ok
+threads=8 q=41 status=ok
+threads=8 q=42 status=ok
+threads=8 q=43 status=ok
+threads=1 q=1 status=ok
+threads=1 q=2 status=ok
+threads=1 q=3 status=ok
+threads=1 q=4 status=ok
+threads=1 q=5 status=ok
+threads=1 q=6 status=ok
+threads=1 q=7 status=ok
+threads=1 q=8 status=ok
+threads=1 q=9 status=ok
+threads=1 q=10 status=ok
+threads=1 q=11 status=ok
+threads=1 q=12 status=ok
+threads=1 q=13 status=ok
+threads=1 q=14 status=ok
+threads=1 q=15 status=ok
+threads=1 q=16 status=ok
+threads=1 q=17 status=ok
+threads=1 q=18 status=ok
+threads=1 q=19 status=ok
+threads=1 q=20 status=ok
+threads=1 q=21 status=ok
+threads=1 q=22 status=ok
+threads=1 q=23 status=ok
+threads=1 q=24 status=ok
+threads=1 q=25 status=ok
+threads=1 q=26 status=ok
+threads=1 q=27 status=ok
+threads=1 q=28 status=ok
+threads=1 q=29 status=ok
+threads=1 q=30 status=ok
+threads=1 q=31 status=ok
+threads=1 q=32 status=ok
+threads=1 q=33 status=ok
+threads=1 q=34 status=ok
+threads=1 q=35 status=ok
+threads=1 q=36 status=ok
+threads=1 q=37 status=ok
+threads=1 q=38 status=ok
+threads=1 q=39 status=ok
+threads=1 q=40 status=ok
+threads=1 q=41 status=ok
+threads=1 q=42 status=ok
+threads=1 q=43 status=ok
+2026-11-23T01:49:53+08:00 query_exit=0
+2026-11-23T01:49:53+08:00 running native identifier cast analysis
+WatchID checked on 99997497 original rows
+UserID checked on 99997497 original rows
+2026-11-23T01:52:03+08:00 id_cast_exit=0
+2026-11-23T01:52:03+08:00 running full cutoff census
+cutoff query=9 status=verified
+cutoff query=10 status=verified
+cutoff query=11 status=verified
+cutoff query=12 status=verified
+cutoff query=13 status=verified
+cutoff query=14 status=verified
+cutoff query=15 status=verified
+cutoff query=16 status=verified
+cutoff query=17 status=verified
+cutoff query=19 status=verified
+cutoff query=22 status=verified
+cutoff query=23 status=verified
+cutoff query=24 status=verified
+cutoff query=25 status=verified
+cutoff query=26 status=verified
+cutoff query=27 status=verified
+cutoff query=28 status=verified
+cutoff query=29 status=verified
+cutoff query=31 status=verified
+cutoff query=32 status=verified
+cutoff query=33 status=verified
+cutoff query=34 status=verified
+cutoff query=35 status=verified
+cutoff query=36 status=verified
+cutoff query=37 status=verified
+cutoff query=38 status=verified
+cutoff query=39 status=verified
+cutoff query=40 status=verified
+cutoff query=41 status=verified
+cutoff query=42 status=verified
+cutoff query=43 status=verified
+2026-11-23T01:53:35+08:00 cutoff_exit=0

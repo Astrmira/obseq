@@ -1,0 +1,24 @@
+{
+  "biggest_group_cents": 2038277362,
+  "german_suppliers": 4049,
+  "qualifying_input_groups": 304774,
+  "qualifying_input_rows": 323920,
+  "results": {
+    "bundled": {
+      "fraction": "1/10000",
+      "matched_exact_oracle": true,
+      "output_rows": 0,
+      "threshold_cents_rational": "81029137652468/10000",
+      "value_tie_count_excess": 0
+    },
+    "scale_bound": {
+      "fraction": "1/100000",
+      "matched_exact_oracle": true,
+      "output_rows": 8685,
+      "threshold_cents_rational": "81029137652468/100000",
+      "value_tie_count_excess": 2
+    }
+  },
+  "scale_bound_sql_digest": "bbbb76a3350a92622a9c004f06b826663aef08974ae34df5a5d0a9f387077115",
+  "stock_sql_digest": "f313c766fac507c1204fb6f2bacd35719a61a11c0f69601302555150dddeda78"
+}

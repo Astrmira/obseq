@@ -1,0 +1,387 @@
+{
+  "failures_by_family": {},
+  "numpy": "2.3.5",
+  "observations": [
+    {
+      "case": "after",
+      "family": "pandas-groupby-snapshot",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "alias",
+      "family": "pandas-groupby-snapshot",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "before",
+      "family": "pandas-groupby-snapshot",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "none",
+      "family": "pandas-groupby-snapshot",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "0",
+      "family": "pandas-index-uniqueness-cache",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "10",
+      "family": "pandas-index-uniqueness-cache",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "-20",
+      "family": "pandas-index-uniqueness-cache",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "first_assignment",
+      "family": "pandas-idempotent-partial-key-write",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "same_assignment_repeated",
+      "family": "pandas-idempotent-partial-key-write",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "qualified_tuple_control",
+      "family": "pandas-idempotent-partial-key-write",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56134:-6",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56147:-6",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56134:0",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56147:0",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56134:3",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "56147:3",
+      "family": "pandas-annual-boundaries",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "50946:0",
+      "family": "pandas-asof-string-boundary",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "50946:120",
+      "family": "pandas-asof-string-boundary",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    },
+    {
+      "case": "50946:365",
+      "family": "pandas-asof-string-boundary",
+      "legal": true,
+      "observers": {
+        "byte_hash": null,
+        "multiset": true,
+        "ordered": true,
+        "pandas_check_like": true,
+        "pandas_default": true,
+        "pandas_dtype_relaxed": true,
+        "rowcount": true,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "schema": true,
+        "set": true,
+        "sqlite_integrity": null,
+        "sum": true
+      }
+    }
+  ],
+  "pandas": "3.0.0"
+}

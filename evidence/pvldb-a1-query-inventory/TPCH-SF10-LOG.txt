@@ -1,0 +1,6 @@
+{"extension_sha256": "415c1b36d3e30f0d94b7eba826b03f3628787c5b8a1b1fb6336f002b478bf775", "scale": 10, "suite": "tpch", "witness_rows": 59986052, "witness_table": "lineitem"}
+cutoff query=2 status=verified
+cutoff query=3 status=verified
+cutoff query=10 status=verified
+cutoff query=18 status=verified
+cutoff query=21 status=verified

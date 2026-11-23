@@ -1,0 +1,14 @@
+pipeline-typed-null-join-isolation
+pipeline-engine-semantics-oracle
+pipeline-native-transport-semantics
+pipeline-native-write-intent
+eab-composed-semantic-receipt
+eab-receipt-independent-observables
+workbook-stream-dimension-completeness
+workbook-general-numeric-token-fidelity
+workbook-binary64-token-inverse-fiber
+workbook-named-formula-copy-resolution
+workbook-structured-move-preflight
+workbook-staged-structural-preflight
+workbook-print-title-native-consumer
+whole-multipolygon-point-admission

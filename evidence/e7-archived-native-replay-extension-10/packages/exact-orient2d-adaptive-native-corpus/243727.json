@@ -1,0 +1,92 @@
+{
+  "gdal": "3.10.3",
+  "geos": "3.13.1-CAPI-1.19.2",
+  "hard_control_geos_mismatch": 0,
+  "measurements": {
+    "one_in_64_cancellation_controls": {
+      "exact_labels_sha": "65b23de159ca30850ae15a7ba4608518ced359c29ee0b7de68716ca8ea2fac52",
+      "fallback_count": 3859,
+      "label_counts": {
+        "0": 77977,
+        "1": 1318,
+        "2": 164432
+      },
+      "median_ns": {
+        "always_exact": 586627523,
+        "filtered": 100888755
+      },
+      "samples": {
+        "always_exact": [
+          701784106,
+          586627523,
+          578607530
+        ],
+        "filtered": [
+          98390645,
+          101556612,
+          100888755
+        ]
+      }
+    },
+    "ring_tiled": {
+      "exact_labels_sha": "ec28fa8322b34953da30154b344344606f2b6aef75973c7ff58ce8e0bf40ffb5",
+      "fallback_count": 53,
+      "label_counts": {
+        "0": 77957,
+        "1": 52,
+        "2": 165718
+      },
+      "median_ns": {
+        "always_exact": 552531198,
+        "filtered": 84662226
+      },
+      "samples": {
+        "always_exact": [
+          572127232,
+          549760777,
+          552531198
+        ],
+        "filtered": [
+          103229445,
+          84662226,
+          84519080
+        ]
+      }
+    }
+  },
+  "n": 243727,
+  "ring_native_comparison": {
+    "gis_osm_buildings_a_free": {
+      "candidate_uncertified": 4,
+      "float_sign_mismatch": 0,
+      "geos_sign_mismatch": 0,
+      "n": 118757
+    },
+    "gis_osm_landuse_a_free": {
+      "candidate_uncertified": 34,
+      "float_sign_mismatch": 0,
+      "geos_sign_mismatch": 0,
+      "n": 109765
+    },
+    "gis_osm_natural_a_free": {
+      "candidate_uncertified": 0,
+      "float_sign_mismatch": 0,
+      "geos_sign_mismatch": 0,
+      "n": 51
+    },
+    "gis_osm_water_a_free": {
+      "candidate_uncertified": 2,
+      "float_sign_mismatch": 0,
+      "geos_sign_mismatch": 0,
+      "n": 4789
+    },
+    "ne_110m_admin_0_countries": {
+      "candidate_uncertified": 13,
+      "float_sign_mismatch": 0,
+      "geos_sign_mismatch": 0,
+      "n": 10365
+    }
+  },
+  "ring_pool": 243727,
+  "worker_peak_kib": 97664
+}

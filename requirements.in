@@ -1,0 +1,7 @@
+duckdb==1.4.3
+pyarrow==22.0.0
+sqlglot==28.0.0
+pandas==2.2.3
+polars==1.31.0
+numpy==2.2.6
+datacompy==0.16.8

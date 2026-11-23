@@ -1,0 +1,95 @@
+{
+  "different_valid_class_histograms": 51,
+  "matched_base": {
+    "forward": {
+      "canonical_ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "dist": [
+        [
+          1,
+          "integer"
+        ],
+        [
+          "1",
+          "text"
+        ],
+        [
+          "31",
+          "blob"
+        ],
+        [
+          null,
+          "null"
+        ]
+      ],
+      "storage_class_counts": [
+        [
+          "blob",
+          1
+        ],
+        [
+          "integer",
+          1
+        ],
+        [
+          "null",
+          1
+        ],
+        [
+          "text",
+          1
+        ]
+      ]
+    },
+    "reverse": {
+      "canonical_ids": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "dist": [
+        [
+          1.0,
+          "real"
+        ],
+        [
+          null,
+          "null"
+        ],
+        [
+          "31",
+          "blob"
+        ],
+        [
+          "1",
+          "text"
+        ]
+      ],
+      "storage_class_counts": [
+        [
+          "blob",
+          1
+        ],
+        [
+          "null",
+          1
+        ],
+        [
+          "real",
+          1
+        ],
+        [
+          "text",
+          1
+        ]
+      ]
+    }
+  },
+  "seeded_native_cases": 96,
+  "sqlite": "3.53.1"
+}

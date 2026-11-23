@@ -1,0 +1,11 @@
+case_id	status	note
+h2o-native-null-policy-join	PASS	Reran the extension-8 reserve; first denominator admission now.
+tpch-q11-all-nation-scale-binding	PASS	Reran the extension-8 reserve; first denominator admission now.
+tpch-sf10-bundled-vs-workload-q11	PASS	Signed bundled-query execution and scale substitution; overlaps the Germany source arm of the all-nation census; not independent.
+slt-native-port-framing-scope	PASS	Actual stock DuckDB Python port; stdout and generated SCORES.csv match; not a C SQLite runner.
+stock-dbt-scoped-freshness	PASS	Actual stock dbt source freshness. Matches stable normalized outcome; does not claim volatile native timestamps repeat.
+workbook-shared-formula-expansion-order	NA	Original check.py Git blob absent from local partial mirror.
+workbook-row-edit-formula-rule-fragmentation	NA	Original check.py Git blob absent from local partial mirror.
+lakefs-native-snapshot-checksums	NA	No unpacked pinned binaries on local authorized roots; no service retry.
+tpcds-sf10-native-matrix-rollup	NA_not_attempted	Full native matrix beyond time/I/O budget; receipt check not substituted.
+exact-orient2d-adaptive-native-corpus	NA_not_attempted	Runtime measurements in original receipt not suitable for byte-exact comparison; no receipt-only inflation.

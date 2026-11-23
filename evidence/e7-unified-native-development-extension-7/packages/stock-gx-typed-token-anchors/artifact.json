@@ -1,0 +1,10 @@
+{
+  "digests": {
+    "blake2b_256": "a99052c55b6dfa9a7763868be57dc74b7422d93a1ed93aa8c11800e081df082b",
+    "md5": "4123d6dd2d5b6ee1d4a7d32d358f5602",
+    "sha256": "9a25408681cac68f24758f063f0d8051f405d0eac061f8050697e29a13e35795"
+  },
+  "filename": "great_expectations-1.25.0-py3-none-any.whl",
+  "size": 5760979,
+  "url": "https://files.pythonhosted.org/packages/a9/90/52c55b6dfa9a7763868be57dc74b7422d93a1ed93aa8c11800e081df082b/great_expectations-1.25.0-py3-none-any.whl"
+}

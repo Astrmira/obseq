@@ -1,0 +1,141 @@
+{
+  "openpyxl": "3.1.5",
+  "runs": [
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "0b32b5d93868917eaab8cb6cbf662755357abcd99d4172f8b61f756b3099a191"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "418e7d0b59faeef2fad1ce04c6512a3f94caf371634169cb9dd135b2266ff5f1"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "df5caad88f078fcdc7add1dcd41d581d30b794dbe1ffc6fc7333e5972df88c5b"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "ec47931b72361c1064c18a79c3519122de77be1e6a8e9b0d4a4fc566c7cf9405"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "ad7057c19be42aafb85fe203b02fe8267e11d81985709c219a79f4ab552af09a"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "4ca7971d9f04057185fcdfe4ccd0cafe5bf5e7519b63a61dcb06a623672c6090"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "349eff8745a013c37b18bc6ed45caf024a46c9afe979b7b2ddfb11bd43e5d434"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "aa9785056fc771a6ecff2ba32b5dc37feee65aa3ac847a898c64a8636315ebe4"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "7a88a8601ed57c973a2318b8e08f164c082ccc0b4b83e305c010ad41a8a811af"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "714e5453731284ab6d950750d3ed735cc1db054b385f4bc6094854fddd6cd69b"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "8da9f9d4f014dc3c02bce264a770d0a81d29e989efd033b59e08eab82720014a"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "a00cf27061c4408594703bba9994eb3b7961ffcd79cdc8883564e49fca1bb9f7"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "25eaf637738bfd1cfb498d385a49ac232cce00b065dc657a3debcd8067f66394"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "7fc97bb4d304b95afa015d69d673f78e0d27d24856918adb6afee1a3b1b55770"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "936483d12111909350c7a69d516f1553d246a6998f4ed22dab3b1e63a4ab5824"
+    },
+    {
+      "ordered_storage_detect": false,
+      "type_after": "datetime",
+      "type_before": "int",
+      "typed_schema_detect": true,
+      "untyped_serial_detect": false,
+      "workbook_sha256": "1cb0880d602ebe28df256494f5b1e72b4a8854a546d2a7481092ae7514a56c20"
+    }
+  ],
+  "wilson_detection_0_of_16": [
+    0,
+    0.193608
+  ],
+  "wilson_detection_16_of_16": [
+    0.806392,
+    1
+  ]
+}

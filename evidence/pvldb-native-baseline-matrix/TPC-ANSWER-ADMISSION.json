@@ -1,0 +1,20 @@
+{
+  "duckdb": "1.4.3",
+  "extensions_sha256": {
+    "tpcds": "0dc0c8fcdc401257a3dceeffc1675111beb6358913ab50ffd46bc24fb581ca02",
+    "tpch": "415c1b36d3e30f0d94b7eba826b03f3628787c5b8a1b1fb6336f002b478bf775"
+  },
+  "tpcds": {
+    "error": "Not implemented Error: Don't have TPC-DS answers for SF 10.000000!",
+    "executed": false,
+    "sql": "SELECT * FROM tpcds_answers() LIMIT 1"
+  },
+  "tpch": {
+    "scales": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "sql": "SELECT DISTINCT scale_factor FROM tpch_answers() ORDER BY scale_factor"
+  }
+}

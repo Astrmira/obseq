@@ -1,0 +1,12 @@
+{
+  "files_sha256": {
+    "DUCK143.json": "a609160f8191db22c794ed31b017c1867e2b5e45bbb0dd0cdbf7f6cc73335bcb",
+    "DUCK201.json": "325b3199821cab18bea9da741c37e0785e44633daf1d6adb62d107cf31275642",
+    "INPUTS.sha256": "ab3a07f353a1971eb4d49f33a53e41825601bdeaf22700cdbf1f2bfabf63006f",
+    "README.md": "c5f1dcdf793e99ec8c92e94d9d5c51896e591ccd61082b2200361ab05b370e96",
+    "SHA256SUMS": "f9f66a55e9039a5a8194bf84369eddd2046e8d1729ec6be40d4e875273fef95a",
+    "check.py": "d7b248ba2aa1c1dd9f3946dd476c95ad5a3a5085a85e997b4c3bfc99d2d39285"
+  },
+  "predecessor": "0bd8034673fde656fcaa6d3ed0b5f599bcb90c1b",
+  "project": "semantic-benchmark"
+}

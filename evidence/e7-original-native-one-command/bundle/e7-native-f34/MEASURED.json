@@ -1,0 +1,2440 @@
+{
+  "engine_versions": {
+    "sqlite": "3.53.1",
+    "duckdb": "1.4.3"
+  },
+  "totals": {
+    "exact": {
+      "valid": 24
+    },
+    "exact|sqlite": {
+      "valid": 12
+    },
+    "exact|F3": {
+      "valid": 12
+    },
+    "control": {
+      "invalid": 22,
+      "valid": 2
+    },
+    "control|sqlite": {
+      "invalid": 11,
+      "valid": 1
+    },
+    "control|F3": {
+      "invalid": 12
+    },
+    "exact|F4": {
+      "valid": 12
+    },
+    "control|F4": {
+      "invalid": 10,
+      "valid": 2
+    },
+    "exact|duckdb": {
+      "valid": 12
+    },
+    "control|duckdb": {
+      "invalid": 11,
+      "valid": 1
+    }
+  },
+  "rows": [
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-01",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "present": false
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, payload VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            4,
+            "mint"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            18,
+            null
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            21,
+            "plum"
+          ]
+        },
+        {
+          "sql": "SELECT payload FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            18
+          ]
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-01",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "present": true
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, payload VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            4,
+            "mint"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            18,
+            null
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            21,
+            "plum"
+          ]
+        },
+        {
+          "sql": "SELECT payload FROM q WHERE commit_id<=? AND payload IS NOT NULL ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            18
+          ]
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-02",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "balance": 17
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, balance BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            20,
+            17
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            32,
+            19
+          ]
+        },
+        {
+          "sql": "SELECT balance FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            31
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-02",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "balance": 19
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, balance BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            20,
+            17
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            32,
+            19
+          ]
+        },
+        {
+          "sql": "SELECT balance FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-03",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "active": 1
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, id VARCHAR, op VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            "a",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            "b",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            6,
+            "a",
+            "delete"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            8,
+            "c",
+            "insert"
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT op, ROW_NUMBER() OVER (PARTITION BY id ORDER BY commit_id DESC) AS rn FROM q WHERE commit_id<=?) t WHERE rn=1 AND op='insert'",
+          "args": [
+            6
+          ]
+        }
+      ],
+      "reopen_source_row_count": 4,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-03",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "active": 2
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, id VARCHAR, op VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            "a",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            "b",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            6,
+            "a",
+            "delete"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            8,
+            "c",
+            "insert"
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT op, ROW_NUMBER() OVER (PARTITION BY id ORDER BY commit_id DESC) AS rn FROM q WHERE commit_id<?) t WHERE rn=1 AND op='insert'",
+          "args": [
+            6
+          ]
+        }
+      ],
+      "reopen_source_row_count": 4,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-04",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "debit": 4,
+        "credit": 7
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, debit BIGINT, credit BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            11,
+            8,
+            2
+          ]
+        },
+        {
+          "sql": "SELECT debit,credit FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            9
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-04",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "debit": 4,
+        "credit": 2
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, debit BIGINT, credit BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            11,
+            8,
+            2
+          ]
+        },
+        {
+          "sql": "SELECT debit,credit FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "SELECT credit FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-05",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "value": "west"
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, event_date VARCHAR, val VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            12,
+            "2025-04-19",
+            "east"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            14,
+            "2025-04-10",
+            "west"
+          ]
+        },
+        {
+          "sql": "SELECT val FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            14
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-05",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "value": "east"
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, event_date VARCHAR, val VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            12,
+            "2025-04-19",
+            "east"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            14,
+            "2025-04-10",
+            "west"
+          ]
+        },
+        {
+          "sql": "SELECT val FROM q WHERE commit_id<=? ORDER BY event_date DESC, commit_id DESC LIMIT 1",
+          "args": [
+            14
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-06",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "values": [
+          "amber",
+          "amber"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, val VARCHAR)",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            "amber"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM q",
+          "args": []
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            12,
+            "blue"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F3-06",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "values": [
+          "amber",
+          "blue"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, val VARCHAR)",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            "amber"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            12,
+            "blue"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-01",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "subtotal": 99
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(units BIGINT, price BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            11
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT units*price FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET units=?",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT units*price FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-01",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "subtotal": 77
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(units BIGINT, price BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            11
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT units*price FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET units=?",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-02",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "mean": 16.5
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "q",
+            5
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "r",
+            15
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "s",
+            28
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT AVG(v) FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "DELETE FROM q WHERE id=?",
+          "args": [
+            "r"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT AVG(v) FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-02",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "mean": 16.0
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "q",
+            5
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "r",
+            15
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "s",
+            28
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT AVG(v) FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "DELETE FROM q WHERE id=?",
+          "args": [
+            "r"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-03",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "ids": []
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "k",
+            "CEDAR"
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET v=? WHERE id=?",
+          "args": [
+            "ELM",
+            "k"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-03",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "ids": [
+          "k"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "k",
+            "CEDAR"
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET v=? WHERE id=?",
+          "args": [
+            "ELM",
+            "k"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-04",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "grandTotal": 35
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(qty BIGINT, price BIGINT, ship BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            14,
+            3
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT qty*price+ship FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET price=?",
+          "args": [
+            16
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT qty*price+ship FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-04",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "grandTotal": 31
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(qty BIGINT, price BIGINT, ship BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            14,
+            3
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT qty*price+ship FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET price=?",
+          "args": [
+            16
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-05",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "A": 3,
+        "B": 8
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, bucket VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "u",
+            "A",
+            8
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "v",
+            "A",
+            3
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "w",
+            "B",
+            5
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET bucket=? WHERE id=?",
+          "args": [
+            "B",
+            "u"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-05",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "A": 8,
+        "B": 5
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, bucket VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "u",
+            "A",
+            8
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "v",
+            "A",
+            3
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "w",
+            "B",
+            5
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET bucket=? WHERE id=?",
+          "args": [
+            "B",
+            "u"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "invalid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-06",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "width": 6
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(lo BIGINT, hi BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            2,
+            8
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT hi-lo FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET lo=?,hi=?",
+          "args": [
+            5,
+            11
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT hi-lo FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "sqlite",
+      "version": "3.53.1",
+      "case_id": "E7H-F4-06",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "width": 6
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(lo BIGINT, hi BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            2,
+            8
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT hi-lo FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET lo=?,hi=?",
+          "args": [
+            5,
+            11
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-01",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "present": false
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, payload VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            4,
+            "mint"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            18,
+            null
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            21,
+            "plum"
+          ]
+        },
+        {
+          "sql": "SELECT payload FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            18
+          ]
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-01",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "present": true
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, payload VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            4,
+            "mint"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            18,
+            null
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            21,
+            "plum"
+          ]
+        },
+        {
+          "sql": "SELECT payload FROM q WHERE commit_id<=? AND payload IS NOT NULL ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            18
+          ]
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-02",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "balance": 17
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, balance BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            20,
+            17
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            32,
+            19
+          ]
+        },
+        {
+          "sql": "SELECT balance FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            31
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-02",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "balance": 19
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, balance BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            20,
+            17
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            32,
+            19
+          ]
+        },
+        {
+          "sql": "SELECT balance FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-03",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "active": 1
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, id VARCHAR, op VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            "a",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            "b",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            6,
+            "a",
+            "delete"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            8,
+            "c",
+            "insert"
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT op, ROW_NUMBER() OVER (PARTITION BY id ORDER BY commit_id DESC) AS rn FROM q WHERE commit_id<=?) t WHERE rn=1 AND op='insert'",
+          "args": [
+            6
+          ]
+        }
+      ],
+      "reopen_source_row_count": 4,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-03",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "active": 2
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, id VARCHAR, op VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            "a",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            "b",
+            "insert"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            6,
+            "a",
+            "delete"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            8,
+            "c",
+            "insert"
+          ]
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM (SELECT op, ROW_NUMBER() OVER (PARTITION BY id ORDER BY commit_id DESC) AS rn FROM q WHERE commit_id<?) t WHERE rn=1 AND op='insert'",
+          "args": [
+            6
+          ]
+        }
+      ],
+      "reopen_source_row_count": 4,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-04",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "debit": 4,
+        "credit": 7
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, debit BIGINT, credit BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            11,
+            8,
+            2
+          ]
+        },
+        {
+          "sql": "SELECT debit,credit FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            9
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-04",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "debit": 4,
+        "credit": 2
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, debit BIGINT, credit BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            11,
+            8,
+            2
+          ]
+        },
+        {
+          "sql": "SELECT debit,credit FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "SELECT credit FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-05",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "value": "west"
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, event_date VARCHAR, val VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            12,
+            "2025-04-19",
+            "east"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            14,
+            "2025-04-10",
+            "west"
+          ]
+        },
+        {
+          "sql": "SELECT val FROM q WHERE commit_id<=? ORDER BY commit_id DESC LIMIT 1",
+          "args": [
+            14
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-05",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "value": "east"
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, event_date VARCHAR, val VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            12,
+            "2025-04-19",
+            "east"
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            14,
+            "2025-04-10",
+            "west"
+          ]
+        },
+        {
+          "sql": "SELECT val FROM q WHERE commit_id<=? ORDER BY event_date DESC, commit_id DESC LIMIT 1",
+          "args": [
+            14
+          ]
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-06",
+      "class_": "F3",
+      "arm": "exact",
+      "candidate": {
+        "values": [
+          "amber",
+          "amber"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, val VARCHAR)",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            "amber"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "SELECT COUNT(*) FROM q",
+          "args": []
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            12,
+            "blue"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F3-06",
+      "class_": "F3",
+      "arm": "control",
+      "candidate": {
+        "values": [
+          "amber",
+          "blue"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(commit_id BIGINT, val VARCHAR)",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            "amber"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        },
+        {
+          "connection": "writer",
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            12,
+            "blue"
+          ]
+        },
+        {
+          "connection": "writer",
+          "sql": "COMMIT"
+        },
+        {
+          "sql": "SELECT val FROM q ORDER BY commit_id DESC LIMIT 1",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-01",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "subtotal": 99
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(units BIGINT, price BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            11
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT units*price FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET units=?",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT units*price FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-01",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "subtotal": 77
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(units BIGINT, price BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            7,
+            11
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT units*price FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET units=?",
+          "args": [
+            9
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-02",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "mean": 16.5
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "q",
+            5
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "r",
+            15
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "s",
+            28
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT AVG(v) FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "DELETE FROM q WHERE id=?",
+          "args": [
+            "r"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT AVG(v) FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-02",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "mean": 16.0
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "q",
+            5
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "r",
+            15
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "s",
+            28
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT AVG(v) FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "DELETE FROM q WHERE id=?",
+          "args": [
+            "r"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 2,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-03",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "ids": []
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "k",
+            "CEDAR"
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET v=? WHERE id=?",
+          "args": [
+            "ELM",
+            "k"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-03",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "ids": [
+          "k"
+        ]
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, v VARCHAR)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            "k",
+            "CEDAR"
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT id FROM q WHERE LOWER(v)='cedar'",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET v=? WHERE id=?",
+          "args": [
+            "ELM",
+            "k"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-04",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "grandTotal": 35
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(qty BIGINT, price BIGINT, ship BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            14,
+            3
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT qty*price+ship FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET price=?",
+          "args": [
+            16
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT qty*price+ship FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-04",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "grandTotal": 31
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(qty BIGINT, price BIGINT, ship BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            2,
+            14,
+            3
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT qty*price+ship FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET price=?",
+          "args": [
+            16
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-05",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "A": 3,
+        "B": 8
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, bucket VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "u",
+            "A",
+            8
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "v",
+            "A",
+            3
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "w",
+            "B",
+            5
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET bucket=? WHERE id=?",
+          "args": [
+            "B",
+            "u"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-05",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "A": 8,
+        "B": 5
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(id VARCHAR, bucket VARCHAR, v BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "u",
+            "A",
+            8
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "v",
+            "A",
+            3
+          ]
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?,?)",
+          "args": [
+            "w",
+            "B",
+            5
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT bucket,MAX(v) FROM q GROUP BY bucket",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET bucket=? WHERE id=?",
+          "args": [
+            "B",
+            "u"
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 3,
+      "status": "invalid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-06",
+      "class_": "F4",
+      "arm": "exact",
+      "candidate": {
+        "width": 6
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(lo BIGINT, hi BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            2,
+            8
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT hi-lo FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET lo=?,hi=?",
+          "args": [
+            5,
+            11
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT hi-lo FROM q",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    },
+    {
+      "engine": "duckdb",
+      "version": "1.4.3",
+      "case_id": "E7H-F4-06",
+      "class_": "F4",
+      "arm": "control",
+      "candidate": {
+        "width": 6
+      },
+      "sql_trace": [
+        {
+          "sql": "CREATE TABLE q(lo BIGINT, hi BIGINT)",
+          "args": []
+        },
+        {
+          "sql": "INSERT INTO q VALUES (?,?)",
+          "args": [
+            2,
+            8
+          ]
+        },
+        {
+          "sql": "CREATE TABLE cache AS SELECT hi-lo FROM q",
+          "args": []
+        },
+        {
+          "sql": "BEGIN",
+          "args": []
+        },
+        {
+          "sql": "UPDATE q SET lo=?,hi=?",
+          "args": [
+            5,
+            11
+          ]
+        },
+        {
+          "sql": "COMMIT",
+          "args": []
+        },
+        {
+          "sql": "SELECT * FROM cache",
+          "args": []
+        }
+      ],
+      "reopen_source_row_count": 1,
+      "status": "valid"
+    }
+  ]
+}

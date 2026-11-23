@@ -1,0 +1,31 @@
+suite	query	sql_sha256	mechanism_labels	basis	scope_note
+clickbench	28	fd12bf0b7528b94af179e65bb2108ff3ab64082df7e065935763db30f2644111	a,b	AVG(STRLEN(URL)) 相等的 CounterID 仍可带不同分组键或计数。DESC LIMIT 25 可选不同同均值组。STRLEN 返回 BIGINT，AVG 以整数累加。	
+clickbench	18	a794a1834894a8634dec53076578c67070fdb2a475fea6127ba4e0ab32dc2817	a0	GROUP BY(UserID, SearchPhrase) 后直接 LIMIT 10。合法成员取自分组结果，SQL 允许不同的十组同时改变结果多重集。	
+clickbench	8	8e005cb0f598476fb343a88c7f21aa59a50a0b1f40df5656d1cd3631ea611ec6	b	COUNT(*) 排序未覆盖 AdvEngineID。两个不同引擎可有相同计数并交换呈现位置。无截断。	
+clickbench	6	97a507d4fd581b2948c05056256da098569a96999864e4b283ca80176c91aa8a	f	单输出行的 COUNT(DISTINCT SearchPhrase) 统计不同非空值数。无需为 DISTINCT 选整行。	
+clickbench	11	3466c76d1bc529188c0f92081709c19d24785b0eecf4b1f67524721f3e6219b2	a,b	MobilePhoneModel 分组后仅按不同用户数 u 排序。不同机型可同分，LIMIT 10 可截断同分组。	
+h2o	groupby-8	28e4a9b5907ced05063782783336ab354028879916724886356b9485e601d14c	f	max(v3, 2) 取最高两个标量并由 UNNEST 展开。并列源行贡献相同的 v3，观察只包含 id6 和 v3，故多重集确定。	查询无外层 ORDER BY，允许呈现重排。
+h2o	groupby-9	58c0313948ec17a7936afe0e227e583b0653759b2d345d5cbbf030740763587f	corr	CORR(v1,v2) 将两个整型输入绑定到 DOUBLE 协方差与方差状态。POW(...,2) 保留这种数值依赖。分组本身固定。	CORR 在原 e 项函数清单之外。查询无外层 ORDER BY。
+h2o	groupby-4	765f9cf8c2484f6b161357e443f28d6d8f1d4a5010a57636eae045ebb833d622	e	v1、v2 为 INTEGER，AVG 用整数累加。v3 为 FLOAT，AVG 采用 DOUBLE 累加，聚合次序可影响 v3 均值。	查询无外层 ORDER BY。
+h2o	groupby-6	f48bcf9d1bd723fdc970234267477f3cf806666fa2e00a82e4028d933d6fc180	e	STDDEV(v3) 在 DOUBLE 上聚合。QUANTILE_CONT 按 v3 值域取分位并插值，等值候选交换不改变中位数。	查询无外层 ORDER BY。
+h2o	groupby-2	a96c899aa846c650c5f1e591d5fdbaa2162bc5b7bab06db349032c594df83cfa	f	SUM(v1) 在 INTEGER 输入上使用精确整数总和。GROUP BY(id1,id2) 选择固定分组。	查询无外层 ORDER BY，允许呈现重排。
+job	31c	8064d891a412b1d953c11b8b8c60d5666c3e017aa3048dc29e1648e393d984b3	f	四个各自的标量 MIN 对固定连接结果产生单行。MIN(mi.info) 与 MIN(mi_idx.info) 使用文本排序规则。	
+job	22a	eec5b2d12dc15e51fb6bf5e83d13c0bc185ca150b4d75c07bda8eb57f861a29c	f	公司名、文本评分和片名分别取标量 MIN。文本比较依赖固定排序规则，输出只有一行。	
+job	27b	5e807f3f664f140b3bbe7637036c8bd85183ad9343b9e18d4dde49a4b30751d6	f	对公司、链接类别和片名分别取标量 MIN。选取最小标量的值，无需为三列选同一行。	
+job	30a	9ec9bb8b2521099af76e45201b970cc4373478ad8c0eb0323a4a02068751c802	f	四个标量 MIN 输入为文本字段。不同字段的最小值可来自不同行，查询语义仍固定。	
+job	16d	83e7744d08279ea388a184256ab2deb8bf3c05fb93679c320fb508d10be32293	f	别名和剧名分别取文本 MIN。全局聚合固定为一行，空结果时为 NULL。	
+ssb	3.1	eac0bfaa2992d55bdadd0ab7ea646fc4bf6a2858a5846d8f20afa178777c9529	b	GROUP BY(c_nation,s_nation,yr) 形成国别对。排序只用 yr 和 BIGINT 的收入总和，国别对可同年同收入。	
+ssb	1.2	2d94b891c2d1c87c4f7c63665c275143f86cf23be8cc26d83f0fd7a995e0b9c2	f	SUM(xp*discount) 的两个输入字段均为 BIGINT，无分组输出或截断。	
+ssb	2.3	53e1f4eb2fa16e2aca683134be1244cd3bd2d67327d04ade76a7803d0a183d5f	f	分组键与 ORDER BY 都是 yr、brand。rev 的精确整数总和是该组的单值。	
+ssb	4.1	d1e9f4e4f905b216622ee15f5cfd8f806eb9cc3c96e9c4d4fecfd0b841744392	f	yr 和 c_nation 既是完整分组键也是完整排序键。SUM(rev-cost) 为整数归约。	
+ssb	2.2	ced391ab914d66f18e07dff5f1dad034e7d8abe70caff8b6a02c8253392bd67f	f	完整分组键 yr、brand 决定输出行及排序。rev 的 SUM 使用精确整数。	
+tpcds	39	a8b5c4867a595122e52f3823ceb116729c8ea4ad80cb446bab230982e96bd6be	e	STDDEV_SAMP 将 INTEGER 库存量绑定到 DOUBLE 累加，影响 stdev、cov 及阈值判定。AVG 的累加是整数。ORDER BY 覆盖投影或其连接等值列。	
+tpcds	49	cc63838caa7eff20a130494b4f8d12ec29de4b2b861bb84748ecd0edd01d7bb3	f	各渠道按 item 分组，每 (channel,item) 一行。两个 RANK 在相等值上给同一秩，ORDER BY 1,4,5,2 包含该行键。总和精确，DECIMAL 除法为逐组的定值 DOUBLE 运算。	
+tpcds	88	45cdbfbeace0830783132bd88c3b1c870d1f53690d13253b8abe05eb27cbd758	f	八个标量 COUNT 子查询各输出一行，笛卡尔乘积仍是一行。计数精确。	
+tpcds	38	7c54ae009047285b53df3619392f87eab007197aaa39ebb3987e2a070759dad3	f	INTERSECT 比较完整的姓名和日期元组。外层 COUNT 只输出一行，LIMIT 100 不能选出另一个成员。	
+tpcds	46	0c87a152ab2e194901ef6e429c783011c76825a1e656bb4067729207196b07b3	a,b	内层按 ticket、customer_sk、ss_addr_sk 和城市分组。外层省略两个代理键，姓名和城市可相同，金额或利润仍可不同。ORDER BY 无法证明 LIMIT 100 或同行顺序唯一。	此标签依据 SQL 与分组键，实际数据是否出现同键要另外扫描。
+tpch	20	fa96ad5cb897bf31ec9b96a6b2a0d1f7132e71e2f481321e6db16628bc3e5fd5	b	ORDER BY s_name，但 schema 的供应商行键是 s_suppkey。同名不同地址在该约束下允许。SUM(l_quantity) 为 DECIMAL。	此标签依据 schema 约束，生成器的供应商命名可以给出更强的实例保证。
+tpch	19	341f97d1f74deb30aca2a8b0ee849772a3b0e098a06cf12266c63573cb985478	f	DECIMAL 的价格与折扣表达式和 SUM 都做精确定点运算。全局聚合只返回一行。	
+tpch	10	0b48b00cffa3776b32e67e9041191dea25095e2a952ee5251990b9c8585031ed	a,b	按客户分组，但 ORDER BY 只用 DECIMAL 收入。同收入客户可有不同 ID，既可跨 LIMIT 20 边界，也可在边界内换位。	
+tpch	4	2a2be89752fc917bc71e1a59168ead9d00d40c40ea0bbe646206e414b372f888	f	EXISTS 只判断是否存在。分组和排序均由 o_orderpriority 决定，COUNT 精确。	
+tpch	12	3814c9f4b7a476ee894c477d43cedb299603b1ed0f5315790d52839c8da355bf	f	分组与排序均用 l_shipmode，两个 CASE 只生成整数 0/1，SUM 是精确归约。	

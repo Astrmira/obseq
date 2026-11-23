@@ -1,0 +1,72 @@
+{
+  "benchmark": "TPC-DS",
+  "e2_source_sha256": "bf7bc7a593debbf7e42559c4acbc77ab01543c58323ed9197ba617017c02edc6",
+  "observations": [
+    {
+      "arm": "native_1_to_4",
+      "byte_hash": false,
+      "legal": true,
+      "multiset": false,
+      "ordered": false,
+      "rowcount": true,
+      "rtol1e-5": true,
+      "rtol1e-9": true,
+      "schema": true,
+      "set": false,
+      "sqlite_integrity": null,
+      "stock_cwi": true,
+      "sum": false
+    },
+    {
+      "arm": "native_4_to_1",
+      "byte_hash": false,
+      "legal": true,
+      "multiset": false,
+      "ordered": false,
+      "rowcount": true,
+      "rtol1e-5": true,
+      "rtol1e-9": true,
+      "schema": true,
+      "set": false,
+      "sqlite_integrity": null,
+      "stock_cwi": true,
+      "sum": false
+    },
+    {
+      "arm": "M1_exact_key_plus_one",
+      "byte_hash": false,
+      "legal": false,
+      "multiset": false,
+      "ordered": false,
+      "rowcount": true,
+      "rtol1e-5": false,
+      "rtol1e-9": false,
+      "schema": true,
+      "set": false,
+      "sqlite_integrity": null,
+      "stock_cwi": true,
+      "sum": false
+    },
+    {
+      "arm": "large_float_control",
+      "byte_hash": false,
+      "legal": false,
+      "multiset": false,
+      "ordered": false,
+      "rowcount": true,
+      "rtol1e-5": false,
+      "rtol1e-9": false,
+      "schema": true,
+      "set": false,
+      "sqlite_integrity": null,
+      "stock_cwi": false,
+      "sum": false
+    }
+  ],
+  "pandas": "2.2.3",
+  "population": 2433,
+  "query": 39,
+  "rows_with_native_drift": 458,
+  "scale": 10,
+  "stock_cwi_sha256": "65171e4a8a54b5330fba5c97c4d705f34410c62748d9180cb2e161b628a7540f"
+}

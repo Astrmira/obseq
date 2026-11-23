@@ -1,0 +1,122 @@
+{
+  "issue": "https://github.com/pandas-dev/pandas/issues/54380",
+  "oracle": {
+    "excess_sample_kurtosis": "-430/289",
+    "expected": [
+      0.541387050951085,
+      -1.4878892733564013
+    ],
+    "mean": "6/5",
+    "population_central_moments": [
+      "34/25",
+      "72/125",
+      "1882/625"
+    ],
+    "positive_skew_squared": "1440/4913",
+    "tol": 1e-10
+  },
+  "releases": [
+    {
+      "engine": "8ca933011e6bc239f235ee74bd98b480efb08be9f92d82817c2e1a3ba0a16566",
+      "matches_independent_oracle": {
+        "future_outlier": [
+          false,
+          false
+        ],
+        "ordinary_suffix": [
+          true,
+          true
+        ],
+        "standalone": [
+          true,
+          true
+        ]
+      },
+      "numpy": "2.3.5",
+      "values": {
+        "future_outlier": [
+          0.5413388666515749,
+          -2.678554036220792
+        ],
+        "ordinary_suffix": [
+          0.5413870509510853,
+          -1.4878892733564004
+        ],
+        "standalone": [
+          0.5413870509510851,
+          -1.4878892733564004
+        ]
+      },
+      "version": "2.2.3"
+    },
+    {
+      "engine": "fb6bf55cbeaf3c5e7192f97464ee07707ee78d5e64853942533a8d8af4285b36",
+      "matches_independent_oracle": {
+        "future_outlier": [
+          false,
+          false
+        ],
+        "ordinary_suffix": [
+          true,
+          true
+        ],
+        "standalone": [
+          true,
+          true
+        ]
+      },
+      "numpy": "2.3.5",
+      "values": {
+        "future_outlier": [
+          0.5413388666515749,
+          -2.678554036220792
+        ],
+        "ordinary_suffix": [
+          0.5413870509510853,
+          -1.4878892733564004
+        ],
+        "standalone": [
+          0.5413870509510851,
+          -1.4878892733564004
+        ]
+      },
+      "version": "2.3.3"
+    },
+    {
+      "engine": "a2c7026b0266fbc671c032a8a6efe1480a7b0439807d3fae89b10fff2b6c5ae8",
+      "matches_independent_oracle": {
+        "future_outlier": [
+          true,
+          true
+        ],
+        "ordinary_suffix": [
+          true,
+          true
+        ],
+        "standalone": [
+          true,
+          true
+        ]
+      },
+      "numpy": "2.3.5",
+      "values": {
+        "future_outlier": [
+          0.541387050951085,
+          -1.4878892733564002
+        ],
+        "ordinary_suffix": [
+          0.541387050951085,
+          -1.4878892733564002
+        ],
+        "standalone": [
+          0.541387050951085,
+          -1.4878892733564002
+        ]
+      },
+      "version": "3.0.0"
+    }
+  ],
+  "remediation_family_count": 1,
+  "roster_in_sample": false,
+  "roster_sha256": "057b0c7256bea60b1da76462e76654d0c978ef950699c11ae7eb9cd8e990383f"
+}

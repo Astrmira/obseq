@@ -1,0 +1,239 @@
+{
+  "engines": {
+    "gdal": "3.10.3",
+    "geos": "3.13.1-CAPI-1.19.2"
+  },
+  "totals": {
+    "gdal_typed": {
+      "correct": 6
+    },
+    "geos_typed": {
+      "correct": 6
+    },
+    "byte_equality": {
+      "false_reject": 3,
+      "correct": 3
+    },
+    "gdal_typeblind_unordered": {
+      "correct": 4,
+      "false_accept": 2
+    },
+    "geos_topology": {
+      "correct": 4,
+      "no_predicate": 1,
+      "false_accept": 1
+    }
+  },
+  "scores": [
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "method": "gdal_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "method": "geos_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "method": "byte_equality",
+      "legal": true,
+      "value": false,
+      "status": "false_reject"
+    },
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "method": "gdal_typeblind_unordered",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-01",
+      "method": "geos_topology",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "method": "gdal_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "method": "geos_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "method": "byte_equality",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "method": "gdal_typeblind_unordered",
+      "legal": false,
+      "value": true,
+      "status": "false_accept"
+    },
+    {
+      "case_id": "E7H-O4-wkb-02",
+      "method": "geos_topology",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "method": "gdal_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "method": "geos_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "method": "byte_equality",
+      "legal": true,
+      "value": false,
+      "status": "false_reject"
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "method": "gdal_typeblind_unordered",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-03",
+      "method": "geos_topology",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "method": "gdal_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "method": "geos_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "method": "byte_equality",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "method": "gdal_typeblind_unordered",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-04",
+      "method": "geos_topology",
+      "legal": false,
+      "value": null,
+      "status": "no_predicate"
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "method": "gdal_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "method": "geos_typed",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "method": "byte_equality",
+      "legal": true,
+      "value": false,
+      "status": "false_reject"
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "method": "gdal_typeblind_unordered",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-05",
+      "method": "geos_topology",
+      "legal": true,
+      "value": true,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "method": "gdal_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "method": "geos_typed",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "method": "byte_equality",
+      "legal": false,
+      "value": false,
+      "status": "correct"
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "method": "gdal_typeblind_unordered",
+      "legal": false,
+      "value": true,
+      "status": "false_accept"
+    },
+    {
+      "case_id": "E7H-O4-wkb-06",
+      "method": "geos_topology",
+      "legal": false,
+      "value": true,
+      "status": "false_accept"
+    }
+  ]
+}

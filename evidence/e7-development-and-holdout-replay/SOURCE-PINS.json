@@ -1,0 +1,12 @@
+{
+  "compact:README.md": "c7c354dcb0446f4cfc053647c364f752a9f8e56b11e8ca186368a90bccfd3a9a",
+  "compact:manifest.json": "85ad7af95966039a353de67c79d1ae43222686091e163e100cd08d773a53b62e",
+  "compact:rank.py": "4ff978186ccb76de7c771376a520916e46e22aa137d3a2082435b341c19a084a",
+  "compact:result.json": "4c06b9f973209a74cde7abaf4a7afb36956f83a079c1d28514a12aa1d00e32e2",
+  "compact:run.py": "d670a56019eaffa47876abefe458da255f999851b18f7c3f37b183e797eb9eec",
+  "compact:spatial.py": "a95bebeef19e405a247775e9df32fcb9654547a71a7a1b1b1af80bc9f55f5a58",
+  "old-cases": "c7c0508b861c2c3074d79c05df054c77602f3a5242abf5f3367dd271a97af597",
+  "old-manifest": "6136da4fa8e08f0ca0764515801c835c87e179d9c2e625838eb839505cc5ba71",
+  "six": "7e2e01023ee39a29afcd4af3d01216749cff2790ebcb33e718a9924dd90dee57",
+  "wkb-manifest": "9f210d18ced41e8df69dedf199cf1a0b6c2de9f538c16d9bc08a85d6158a1140"
+}

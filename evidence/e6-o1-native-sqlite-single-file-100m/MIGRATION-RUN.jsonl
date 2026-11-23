@@ -1,0 +1,27 @@
+{"method": "sqlite_native_read", "verified_against_original": true}
+{"method": "raw_file_sha256", "verified_against_original": true}
+{"method": "sqlite_backup_only", "verified_against_original": true}
+{"method": "sqlite_backup_logical", "verified_against_original": true}
+{"current_bytes": 99328000, "free_disk_mib": 41332, "phase": "insert", "rows": 5000000}
+{"current_bytes": 202547200, "free_disk_mib": 41204, "phase": "insert", "rows": 10000000}
+{"current_bytes": 305770496, "free_disk_mib": 40948, "phase": "insert", "rows": 15000000}
+{"current_bytes": 408997888, "free_disk_mib": 40948, "phase": "insert", "rows": 20000000}
+{"current_bytes": 512217088, "free_disk_mib": 40948, "phase": "insert", "rows": 25000000}
+{"current_bytes": 615452672, "free_disk_mib": 40435, "phase": "insert", "rows": 30000000}
+{"current_bytes": 718675968, "free_disk_mib": 40435, "phase": "insert", "rows": 35000000}
+{"current_bytes": 821899264, "free_disk_mib": 40435, "phase": "insert", "rows": 40000000}
+{"current_bytes": 925126656, "free_disk_mib": 40435, "phase": "insert", "rows": 45000000}
+{"current_bytes": 1028349952, "free_disk_mib": 40435, "phase": "insert", "rows": 50000000}
+{"current_bytes": 1131577344, "free_disk_mib": 40371, "phase": "insert", "rows": 55000000}
+{"current_bytes": 1234804736, "free_disk_mib": 40179, "phase": "insert", "rows": 60000000}
+{"current_bytes": 1338028032, "free_disk_mib": 40051, "phase": "insert", "rows": 65000000}
+{"current_bytes": 1441251328, "free_disk_mib": 39667, "phase": "insert", "rows": 70000000}
+{"current_bytes": 1544474624, "free_disk_mib": 39411, "phase": "insert", "rows": 75000000}
+{"current_bytes": 1647697920, "free_disk_mib": 38899, "phase": "insert", "rows": 80000000}
+{"current_bytes": 1750921216, "free_disk_mib": 38387, "phase": "insert", "rows": 85000000}
+{"current_bytes": 1854148608, "free_disk_mib": 38387, "phase": "insert", "rows": 90000000}
+{"current_bytes": 1957376000, "free_disk_mib": 38387, "phase": "insert", "rows": 95000000}
+{"current_bytes": 2060599296, "free_disk_mib": 38387, "phase": "insert", "rows": 100000000}
+{"file_bytes": 2062352384, "generation_s": 240.21751268208027, "page_count": 503504, "page_size": 4096, "phase": "sealed_single_source"}
+{"cpu_ns": 12696699186, "hwm_kib": 22780, "method": "sqlite_native_read", "n": 100000000, "result": [100000000, 5236399455089], "setup_hwm_kib": 21704, "valid": true, "wall_ns": 12704842872}
+{"cpu_ns": 3673789243, "hwm_kib": 22796, "method": "raw_file_sha256", "n": 100000000, "result": "71bea136edf1c471e67872ec74637ba187631798c073ccff174b589507949191", "setup_hwm_kib": 21456, "valid": true, "wall_ns": 3676237958}

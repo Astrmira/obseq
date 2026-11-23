@@ -1,0 +1,1 @@
+{"schema":"patch-join/v1","key":"signed-int64-nullable","rows":[[1,9007199254740992,7],[2,9007199254740993,8],[3,4,9],[4,null,10],[5,0,11]],"patch":[[1,"KEEP",null],[2,"WRITE",9007199254740993],[3,"CLEAR",null],[4,"KEEP",null],[5,"WRITE",0]],"right":[[21,9007199254740992],[22,9007199254740993],[23,null],[24,0],[25,0]],"join_modes":["eq","null_safe"]}

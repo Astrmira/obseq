@@ -1,0 +1,271 @@
+case,mode,expected_typed_legal,query_gold,query_candidate,documented_ascii_gold,documented_ascii_candidate,documented_ascii_equal,native_stock_plain,native_plain_detail,native_stock_hash,native_hash_detail,gold_native_hash,candidate_native_hash
+null-sentinel,nosort,False,"SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""NULL""]","[""NULL""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61
+null-sentinel,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""NULL""]","[""NULL""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61
+null-sentinel,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST(NULL AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('NULL' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""NULL""]","[""NULL""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61,1 values hashing to ca35c56c0c379f292f8fab68b3a19f61
+empty-sentinel,nosort,False,"SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""(empty)""]","[""(empty)""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to 3df2c591789f064dfe0b67892769d185,1 values hashing to 3df2c591789f064dfe0b67892769d185
+empty-sentinel,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""(empty)""]","[""(empty)""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to 3df2c591789f064dfe0b67892769d185,1 values hashing to 3df2c591789f064dfe0b67892769d185
+empty-sentinel,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST('' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST('(empty)' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""(empty)""]","[""(empty)""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,1 values hashing to 3df2c591789f064dfe0b67892769d185,1 values hashing to 3df2c591789f064dfe0b67892769d185
+canonical-control-replacement,nosort,False,"SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""A@B""]","[""A@B""]",True,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+A	B <> A@B
+================================================================================
+Expected result:
+================================================================================
+A@B
+================================================================================
+Actual result:
+================================================================================
+A	B",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+================================================================================",1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d,1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+canonical-control-replacement,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""A@B""]","[""A@B""]",True,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+A	B <> A@B
+================================================================================
+Expected result:
+================================================================================
+A@B
+================================================================================
+Actual result:
+================================================================================
+A	B",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+================================================================================",1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d,1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+canonical-control-replacement,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST('A@B' AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal","[""A@B""]","[""A@B""]",True,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+A	B <> A@B
+================================================================================
+Expected result:
+================================================================================
+A@B
+================================================================================
+Actual result:
+================================================================================
+A	B",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(CHR(65)||CHR(9)||CHR(66) AS VARCHAR))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+================================================================================",1 values hashing to 62ddcb8c5a7dcab5560e19d7c50ffd6d,1 values hashing to b88e6f34c60235fdd8530e1b1cdc1a7b
+native-newline-shift,nosort,False,"SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""a@b"", ""c""]","[""a"", ""b@c""]",False,NA,embedded delimiter not admitted in plaintext gold,accept,Type.SUCCESS,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69
+native-newline-shift,rowsort,False,"SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""a@b"", ""c""]","[""a"", ""b@c""]",False,NA,embedded delimiter not admitted in plaintext gold,accept,Type.SUCCESS,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69
+native-newline-shift,valuesort,False,"SELECT c0, c1 FROM (VALUES (0, CAST(CHR(97)||CHR(10)||CHR(98) AS VARCHAR), CAST('c' AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('a' AS VARCHAR), CAST(CHR(98)||CHR(10)||CHR(99) AS VARCHAR))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""a@b"", ""c""]","[""a"", ""b@c""]",False,NA,embedded delimiter not admitted in plaintext gold,accept,Type.SUCCESS,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69,2 values hashing to 40c53c58fdafacc83cfff6ee3d2f6d69
+canonical-real-rounding,nosort,False,"SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.000""]",True,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+================================================================================",1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011,1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+canonical-real-rounding,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.000""]",True,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+================================================================================",1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011,1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+canonical-real-rounding,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST(1.000401 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.000""]",True,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.000449 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+================================================================================",1 values hashing to 88d56a0d4065bf2fc26b7ab50838d011,1 values hashing to 8f1e1a210dc17c7b96b6da8d6e434b7d
+native-real-tolerance,nosort,False,"SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.004""]",False,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+================================================================================",1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be,1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+native-real-tolerance,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.004""]",False,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+================================================================================",1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be,1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+native-real-tolerance,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST(1.0 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal","[""1.000""]","[""1.004""]",False,accept,Type.SUCCESS,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(1.004 AS DOUBLE))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+================================================================================",1 values hashing to 2542b79651fab56d0ebfff75a0fdf7be,1 values hashing to cfc9f5e5ecbb12b27d2e858d11ad950f
+wide-integer-exact-control,nosort,False,"SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","[""9007199254740993""]","[""9007199254740992""]",False,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+9007199254740992 <> 9007199254740993
+================================================================================
+Expected result:
+================================================================================
+9007199254740993
+================================================================================
+Actual result:
+================================================================================
+9007199254740992",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+================================================================================",1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9,1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+wide-integer-exact-control,rowsort,False,"SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","[""9007199254740993""]","[""9007199254740992""]",False,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+9007199254740992 <> 9007199254740993
+================================================================================
+Expected result:
+================================================================================
+9007199254740993
+================================================================================
+Actual result:
+================================================================================
+9007199254740992",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+================================================================================",1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9,1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+wide-integer-exact-control,valuesort,False,"SELECT c0 FROM (VALUES (0, CAST(9007199254740993 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal","[""9007199254740993""]","[""9007199254740992""]",False,reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result in query! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Mismatch on row 1, column 1
+9007199254740992 <> 9007199254740993
+================================================================================
+Expected result:
+================================================================================
+9007199254740993
+================================================================================
+Actual result:
+================================================================================
+9007199254740992",reject,"<scratch>/fixture.test:1 
+================================================================================
+Wrong result hash when comparing to previous query result! (<scratch>/fixture.test:1)!
+================================================================================
+SELECT c0 FROM (VALUES (0, CAST(9007199254740992 AS BIGINT))) AS fixture(ordinal,c0) ORDER BY ordinal;
+================================================================================
+Expected hash value:
+================================================================================
+1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9
+================================================================================
+Actual hash value:
+================================================================================
+1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+================================================================================",1 values hashing to 2512dd6e4937f17c5d6972b1bb1ee7d9,1 values hashing to ba75daf85b8a6e237c5c49b3375dce54
+unchanged-typed-positive-control,nosort,True,"SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""same"", ""1""]","[""same"", ""1""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,2 values hashing to 714611d82c30080a2c294d0b3b162be0,2 values hashing to 714611d82c30080a2c294d0b3b162be0
+unchanged-typed-positive-control,rowsort,True,"SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""same"", ""1""]","[""same"", ""1""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,2 values hashing to 714611d82c30080a2c294d0b3b162be0,2 values hashing to 714611d82c30080a2c294d0b3b162be0
+unchanged-typed-positive-control,valuesort,True,"SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","SELECT c0, c1 FROM (VALUES (0, CAST('same' AS VARCHAR), CAST(1 AS BIGINT))) AS fixture(ordinal,c0, c1) ORDER BY ordinal","[""1"", ""same""]","[""1"", ""same""]",True,accept,Type.SUCCESS,accept,Type.SUCCESS,2 values hashing to a4402e61b2c4784575b97f9f5703216a,2 values hashing to a4402e61b2c4784575b97f9f5703216a

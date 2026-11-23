@@ -1,0 +1,8 @@
+31690a1efc178d1dbaf3e874d1a8bc6cd7b0ad940badcde50a5cb7633a180d3b  a4-closing/legacy_pairs.py
+605c79658e4a6e45b28ef894d669c68decf1c9b6ef3f0dd1a526eca2c13afdb5  a4-closing/paired_pandas.py
+bf0401f0e6da19e5482bf627695bdfcbf0a90f5c699105f0468c26ea03703cfa  a4-closing/pilot.py
+149e9f798baed2d498dc0a22aa006366c8c9fdb7eb0007d85301e1cdc535aaa9  a4-closing/NEW-PILOT.json
+163896d6466093c6e68b7722b85197b35ae77c2c0bc8551bb4d16f94bdec552b  a4-closing/OLD-PILOT.json
+8a2035ab76e80c2a79bd7d7cbec1953e23d588dc906838714392bff01c91f456  a4-closing/PAIRED-PANDAS-2.3.3.json
+d568f7ce0cb6a3a02ac16a140101aeba2399573b08c87633a8cd861d6b63cb63  a4-closing/PAIRED-PANDAS-3.0.0.json
+29ae4649e9759173b4221e78d61a943ec698dd4f8c6a67a678c1e9632d2833e0  a3-later-e5/e5_pairs.py

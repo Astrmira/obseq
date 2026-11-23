@@ -1,0 +1,68 @@
+{
+  "exact_bucket_safe_stored_ids": [
+    14,
+    15
+  ],
+  "hybrid_exact": true,
+  "manifest_sha256": "97fbeebb23f3f4a38af404b12c066def18f1a752d5528416207f8b4119602a1a",
+  "materialized_pairs": [
+    [
+      11,
+      21
+    ],
+    [
+      11,
+      22
+    ],
+    [
+      12,
+      23
+    ],
+    [
+      12,
+      24
+    ],
+    [
+      13,
+      25
+    ],
+    [
+      13,
+      26
+    ]
+  ],
+  "runtime_pairs": [
+    [
+      11,
+      23
+    ],
+    [
+      11,
+      24
+    ],
+    [
+      12,
+      25
+    ],
+    [
+      12,
+      26
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      13,
+      22
+    ]
+  ],
+  "same_payload_multiset": true,
+  "sqlite": "3.53.1",
+  "stale_values_on_eligible_rows": [
+    11,
+    12,
+    13,
+    14
+  ]
+}

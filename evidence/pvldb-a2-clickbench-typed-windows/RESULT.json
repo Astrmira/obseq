@@ -1,0 +1,535 @@
+{
+  "acquisition_sha256": "8788eb357b3b76507b2e16345d80e36dcc41c770018a5624c44e3164eae0719b",
+  "e2_sha256": "bf7bc7a593debbf7e42559c4acbc77ab01543c58323ed9197ba617017c02edc6",
+  "queries": {
+    "31": {
+      "group_count": 5730331,
+      "lower_peers": 1,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": true,
+            "multiset": true,
+            "ordered": true,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": true,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M2_swap_nonkeys",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "arm": "M5_two_ulp_width",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        }
+      ],
+      "offset": 0,
+      "scores_in_window": [
+        1633,
+        1331,
+        1144,
+        1140,
+        1105,
+        1102,
+        1083,
+        1082,
+        1080,
+        1058
+      ],
+      "upper_peers": 2
+    },
+    "32": {
+      "group_count": 13172392,
+      "lower_peers": 13172392,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M2_swap_nonkeys",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "arm": "M6_id_float64_roundtrip",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M5_two_ulp_width",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        }
+      ],
+      "offset": 0,
+      "scores_in_window": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "upper_peers": 13172392
+    },
+    "33": {
+      "group_count": 99997493,
+      "lower_peers": 4,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M2_swap_nonkeys",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        },
+        {
+          "arm": "M6_id_float64_roundtrip",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M5_two_ulp_width",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        }
+      ],
+      "offset": 0,
+      "scores_in_window": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "upper_peers": 99997489
+    },
+    "39": {
+      "group_count": 13299,
+      "lower_peers": 1235,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        }
+      ],
+      "offset": 1000,
+      "scores_in_window": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "upper_peers": 1235
+    },
+    "40": {
+      "group_count": 426328,
+      "lower_peers": 114,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        }
+      ],
+      "offset": 1000,
+      "scores_in_window": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "upper_peers": 114
+    },
+    "41": {
+      "group_count": 41194,
+      "lower_peers": 9,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": true,
+            "rtol1e-9": true,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M2_swap_nonkeys",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": true
+          }
+        }
+      ],
+      "offset": 100,
+      "scores_in_window": [
+        27,
+        27,
+        26,
+        26,
+        25,
+        25,
+        25,
+        24,
+        24,
+        24
+      ],
+      "upper_peers": 9
+    },
+    "42": {
+      "group_count": 10948,
+      "lower_peers": 4276,
+      "native_membership": {
+        "1": true,
+        "8": true
+      },
+      "not_admitted_mutations": [],
+      "observations": [
+        {
+          "arm": "native_1_thread",
+          "legal": true,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        },
+        {
+          "arm": "M1_integer_key_plus_one",
+          "legal": false,
+          "observers": {
+            "byte_hash": false,
+            "multiset": false,
+            "ordered": false,
+            "rowcount": true,
+            "rtol1e-5": false,
+            "rtol1e-9": false,
+            "schema": true,
+            "set": false,
+            "sqlite_integrity": null,
+            "sum": false
+          }
+        }
+      ],
+      "offset": 10000,
+      "scores_in_window": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "upper_peers": 4276
+    }
+  },
+  "source_rows": 99997497,
+  "stock_sql_sha256": "274ffe1c4f83baad2fc177bbb6773bbdab0db779faeb2970de8cc531292a5dc6"
+}

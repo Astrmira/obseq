@@ -1,0 +1,117 @@
+{
+  "cases": {
+    "A1:D10": {
+      "formula": {
+        "clipped": [
+          "10,11",
+          "30,10",
+          "38,3",
+          "42,14"
+        ],
+        "default_cells": 40,
+        "default_rows": 10,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [
+          "10,11",
+          "30,10",
+          "38,3"
+        ],
+        "default_cells": 40,
+        "default_rows": 10,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    },
+    "A1:L20": {
+      "formula": {
+        "clipped": [
+          "30,10",
+          "38,3",
+          "42,14"
+        ],
+        "default_cells": 240,
+        "default_rows": 20,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [
+          "30,10",
+          "38,3"
+        ],
+        "default_cells": 240,
+        "default_rows": 20,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    },
+    "A1:N42": {
+      "formula": {
+        "clipped": [],
+        "default_cells": 588,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [],
+        "default_cells": 588,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    },
+    "A1:Z55": {
+      "formula": {
+        "clipped": [],
+        "default_cells": 1092,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [],
+        "default_cells": 1092,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    },
+    "D10:N42": {
+      "formula": {
+        "clipped": [],
+        "default_cells": 588,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [],
+        "default_cells": 588,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    },
+    "None": {
+      "formula": {
+        "clipped": [],
+        "default_cells": 45,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      },
+      "values": {
+        "clipped": [],
+        "default_cells": 45,
+        "default_rows": 42,
+        "repair_cells": 45,
+        "repair_rows": 42
+      }
+    }
+  },
+  "openpyxl": "3.1.5"
+}

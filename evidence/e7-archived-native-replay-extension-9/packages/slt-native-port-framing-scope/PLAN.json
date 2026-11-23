@@ -1,0 +1,6 @@
+{
+  "admission": "No canonical SQLite SLT binary or separate Rust runner found locally. SQLite C SLT is not executed; no challenge handling, artifact download or install attempted. Native comparator evidence is the already admitted pinned unmodified DuckDB Python SQLLogicTest runner against DuckDB 1.4.3, explicitly distinct from original C.",
+  "tests": "Independent plain/hashes stock DuckDB port and canonical SQLite SLT documented ASCII render model. Query input only closed generated SELECT VALUES, unique ordinals and fixed explicit SELECT types. Freeze exact typed identity labels and raw expected gold literal policy.",
+  "modes": "nosort, rowsort, valuesort, plain when representable in the line-based expected fixture and explicit native golden hash independently generated for every arm.",
+  "outcomes": "Report correct, false accept, false reject, errors, and NA plainly. Also show optional hash preimage text for concatenation thought experiment, not mandatory general comparator semantics. These are authored controls, not pooled with earlier E2/E3 cohorts."
+}

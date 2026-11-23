@@ -1,0 +1,8 @@
+{
+ "schema":"derived-binding/v1",
+ "source_type":"signed integer",
+ "logical_function":"score/1",
+ "profiles":{"old":{"operation":"multiply","coefficient":2},"new":{"operation":"multiply","coefficient":3}},
+ "fields":{"source":"exact stable-ID value","cached":"current-profile value unless explicitly version-tagged historical","current":"current-profile value","ad_hoc":"current-profile value"},
+ "golden_rows":[[11,0],[12,9],[13,-7]]
+}

@@ -1,0 +1,5 @@
+arm,stock_cwi,stock_exit,typed_contract
+native one to four,match,1,True
+native four to one,match,1,True
+coherent integer key mutation,match,1,False
+large numerical mutation,diff,0,False

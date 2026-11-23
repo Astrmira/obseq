@@ -1,0 +1,9 @@
+# Identical relocated database bytes do not bind comparison semantics
+
+This standalone native fixture has no WAL or concurrent writer. An application registers a named SQLite collation and builds a covering persisted index. The database is closed and copied byte for byte. Two explicit application comparator profiles implement opposite codepoint order under the same collation name; exact text equality still agrees. A separate Python grouping-and-sorting oracle computes both absolute expected stable-ID orders and preserves ascending ID ties.
+
+The relocated copy retains the same bytes, row values, schema and collation name. With the changed registration, the native forced-index query returns its old persisted ordering, while the native forced-sort query returns the new comparator's ordering. EXPLAIN QUERY PLAN confirms temporary sorting only in the latter arm. An integrity check now rejects the incompatible persisted index. Explicit rebuilding with REINDEX under the selected profile aligns indexed readback to the forced-sort and independent Python expected order, and the reopened integrity check succeeds.
+
+The reproducibility guard is broader than snapshot bytes, query string and schema object names: include the implementation identity and relevant configuration/dependencies of application-provided comparison semantics, and bind or regenerate derived physical structures for the chosen semantics. Do not silently assume that a named comparator's implementation was shipped with a file. A source-code hash alone may omit external locale/rule data. Separate persisted data equality from semantics of ordered queries. This result is intentionally scoped to an authored custom comparator, exact codepoint strings and SQLite 3.53.1; no requirement to REINDEX an unchanged comparator or external repair recipe.
+
+Replay: `python3 -IB check.py | cmp - result.json`.

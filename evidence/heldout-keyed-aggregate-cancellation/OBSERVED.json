@@ -1,0 +1,393 @@
+{
+  "case_sha256": "b7421e79d5488b7faa9dee89c606750e9471cebc687852ba7534872a3059fa0b",
+  "cases": {
+    "02b73fcb7d52": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "03d1af37e95d": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "0972bb8f044e": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "0fef24d89e77": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "141dabb17d93": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "1b84f76666e3": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "27af05c4d444": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": false
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": false
+      }
+    },
+    "3023f90ccf7e": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": false
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": false
+      }
+    },
+    "352b71303f70": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "5a94c041b448": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "5eb606b73f15": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "618af6b50cc6": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "6ccfc8a42756": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "75a68d29b87f": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": false,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "83780c82d0ca": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "99367f60a5ea": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "9e65d3809066": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "a0aa4ff33d00": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "a28378eb9bfc": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "a28b90557544": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "d6af50298f3d": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "e436679a970f": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "ea649f8d2e2e": {
+      "DuckDB": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": true,
+        "per_group_moments_extrema": true,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": true,
+        "shape_count_and_distinct_keys": true
+      }
+    },
+    "fee874afb3d7": {
+      "DuckDB": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      },
+      "SQLite": {
+        "exact_keyed_bag": false,
+        "per_group_moments_extrema": false,
+        "per_group_sum_and_counts": true,
+        "per_group_value_bag": false,
+        "shape_count_and_distinct_keys": true
+      }
+    }
+  },
+  "versions": {
+    "DuckDB": "2.0.1",
+    "SQLite": "3.53.1"
+  }
+}

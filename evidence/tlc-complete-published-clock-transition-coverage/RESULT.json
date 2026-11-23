@@ -1,0 +1,35 @@
+{
+  "missing_from_publisher": [
+    "2026-11"
+  ],
+  "new_native_months": 24,
+  "observed_transition_months": 35,
+  "previously_sealed_months": 11,
+  "published_not_observed": [],
+  "published_transition_months": 35,
+  "total_rows": 316763226,
+  "transition_totals": {
+    "ambiguous": {
+      "affected": 481749,
+      "in_month": 149314076,
+      "months": 17,
+      "months_with_nonzero": 17,
+      "null": 0,
+      "off_month": 1833,
+      "parse_rejected": 0,
+      "rows": 149315909,
+      "transition_date_nonnull": 4862375
+    },
+    "nonexistent": {
+      "affected": 9724,
+      "in_month": 167444660,
+      "months": 18,
+      "months_with_nonzero": 6,
+      "null": 0,
+      "off_month": 2657,
+      "parse_rejected": 0,
+      "rows": 167447317,
+      "transition_date_nonnull": 5047877
+    }
+  }
+}

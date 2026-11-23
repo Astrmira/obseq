@@ -1,0 +1,485 @@
+{
+  "development": [
+    {
+      "case": "rank-dev",
+      "contract_hash": "4f3d587c15e502305a2d573d20cc96e7cf9f7937b64f24b2c950e616c79f1b33",
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "mode": "correct",
+      "scores": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "selected": [
+        2
+      ],
+      "source_hash": "68faa8f6caa0d00925b8680f0de350dcf33610e4a721f057c21f5c3c8ec77ac2",
+      "versions": {
+        "sqlite": "3.53.1"
+      }
+    },
+    {
+      "case": "xlsx-dev",
+      "contract_hash": "63b93e82bd8432f9ce231cc4eeb86ba00e5a1ef5e86f51580863b933d4131c13",
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "mode": "correct",
+      "scores": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "selected": [
+        1
+      ],
+      "source_hash": "6cf6a28d7cb2a08a12ac0050d050433d5af76921872eef6abdf087b87b196ad0",
+      "versions": {
+        "openpyxl": "3.1.5",
+        "pandas": "2.2.3"
+      }
+    },
+    {
+      "case": "shape-dev",
+      "contract_hash": "509e86d0527a63f1c648523d6bf597d63ea958fe3860ad10cc404fdd5300ce44",
+      "gates": {
+        "artifact": true,
+        "derived": true,
+        "output": true
+      },
+      "mode": "correct",
+      "scores": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "selected": [
+        2
+      ],
+      "source_hash": "d283d24601abecbbd9ff2cd11bb98b3448fad420f314bf7f0a3bef77578b4188",
+      "versions": {
+        "gdal": "3100300",
+        "geos": [
+          3,
+          13,
+          1
+        ]
+      }
+    }
+  ],
+  "held_out": {
+    "all_current": [
+      {
+        "case": "rank-shift",
+        "contract_hash": "1e0e8c275cfa60746644ce1fbaec8e1dde0f1e9a85b775f60924382a3646e653",
+        "gates": {
+          "artifact": true,
+          "derived": true,
+          "output": true
+        },
+        "mode": "correct",
+        "scores": [
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "selected": [
+          1,
+          5
+        ],
+        "source_hash": "ffcaff0f3c133f8b5fe761db847b2bfefaa15a3706451cfa725957d1adf22e45",
+        "versions": {
+          "sqlite": "3.53.1"
+        }
+      },
+      {
+        "case": "xlsx-order",
+        "contract_hash": "aa0c2dd015992ec80025ea659cba8055c7b4acd4064f24f90d14ead6652de400",
+        "gates": {
+          "artifact": true,
+          "derived": true,
+          "output": true
+        },
+        "mode": "correct",
+        "scores": [
+          [
+            12,
+            9
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            15,
+            9
+          ],
+          [
+            16,
+            5
+          ],
+          [
+            17,
+            100
+          ]
+        ],
+        "selected": [
+          12,
+          14,
+          15
+        ],
+        "source_hash": "4fe316475ba386f8a48193b14b729f41fe63f7e26af4f0732aa3134419447465",
+        "versions": {
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3"
+        }
+      },
+      {
+        "case": "shape-cancellation",
+        "contract_hash": "25fb6d7dbc4662e8101319eeb08e1a3468337e3ae2e405457977ac7c08de655c",
+        "gates": {
+          "artifact": true,
+          "derived": true,
+          "output": true
+        },
+        "mode": "correct",
+        "scores": [
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "selected": [
+          11,
+          12
+        ],
+        "source_hash": "645a59f42b391fc2da75997ffcaa40d5d38a3576969e8c4dd2c49be2d7642602",
+        "versions": {
+          "gdal": "3100300",
+          "geos": [
+            3,
+            13,
+            1
+          ]
+        }
+      }
+    ],
+    "all_default": [
+      {
+        "case": "rank-shift",
+        "contract_hash": "1e0e8c275cfa60746644ce1fbaec8e1dde0f1e9a85b775f60924382a3646e653",
+        "gates": {
+          "artifact": true,
+          "derived": false,
+          "output": false
+        },
+        "mode": "default",
+        "scores": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "selected": [
+          3,
+          4
+        ],
+        "source_hash": "ffcaff0f3c133f8b5fe761db847b2bfefaa15a3706451cfa725957d1adf22e45",
+        "versions": {
+          "sqlite": "3.53.1"
+        }
+      },
+      {
+        "case": "xlsx-order",
+        "contract_hash": "aa0c2dd015992ec80025ea659cba8055c7b4acd4064f24f90d14ead6652de400",
+        "gates": {
+          "artifact": true,
+          "derived": false,
+          "output": false
+        },
+        "mode": "default",
+        "scores": [
+          [
+            12,
+            9
+          ],
+          [
+            13,
+            3
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            15,
+            8
+          ],
+          [
+            16,
+            10
+          ],
+          [
+            17,
+            99
+          ]
+        ],
+        "selected": [
+          12,
+          14,
+          16
+        ],
+        "source_hash": "4fe316475ba386f8a48193b14b729f41fe63f7e26af4f0732aa3134419447465",
+        "versions": {
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3"
+        }
+      },
+      {
+        "case": "shape-cancellation",
+        "contract_hash": "25fb6d7dbc4662e8101319eeb08e1a3468337e3ae2e405457977ac7c08de655c",
+        "gates": {
+          "artifact": true,
+          "derived": false,
+          "output": false
+        },
+        "mode": "default",
+        "scores": [
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "selected": [
+          10,
+          12
+        ],
+        "source_hash": "645a59f42b391fc2da75997ffcaa40d5d38a3576969e8c4dd2c49be2d7642602",
+        "versions": {
+          "gdal": "3100300",
+          "geos": [
+            3,
+            13,
+            1
+          ]
+        }
+      }
+    ],
+    "mixed": [
+      {
+        "case": "rank-shift",
+        "contract_hash": "1e0e8c275cfa60746644ce1fbaec8e1dde0f1e9a85b775f60924382a3646e653",
+        "gates": {
+          "artifact": true,
+          "derived": true,
+          "output": true
+        },
+        "mode": "correct",
+        "scores": [
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "selected": [
+          1,
+          5
+        ],
+        "source_hash": "ffcaff0f3c133f8b5fe761db847b2bfefaa15a3706451cfa725957d1adf22e45",
+        "versions": {
+          "sqlite": "3.53.1"
+        }
+      },
+      {
+        "case": "xlsx-order",
+        "contract_hash": "aa0c2dd015992ec80025ea659cba8055c7b4acd4064f24f90d14ead6652de400",
+        "gates": {
+          "artifact": true,
+          "derived": false,
+          "output": false
+        },
+        "mode": "default",
+        "scores": [
+          [
+            12,
+            9
+          ],
+          [
+            13,
+            3
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            15,
+            8
+          ],
+          [
+            16,
+            10
+          ],
+          [
+            17,
+            99
+          ]
+        ],
+        "selected": [
+          12,
+          14,
+          16
+        ],
+        "source_hash": "4fe316475ba386f8a48193b14b729f41fe63f7e26af4f0732aa3134419447465",
+        "versions": {
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3"
+        }
+      },
+      {
+        "case": "shape-cancellation",
+        "contract_hash": "25fb6d7dbc4662e8101319eeb08e1a3468337e3ae2e405457977ac7c08de655c",
+        "gates": {
+          "artifact": true,
+          "derived": true,
+          "output": true
+        },
+        "mode": "correct",
+        "scores": [
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "selected": [
+          11,
+          12
+        ],
+        "source_hash": "645a59f42b391fc2da75997ffcaa40d5d38a3576969e8c4dd2c49be2d7642602",
+        "versions": {
+          "gdal": "3100300",
+          "geos": [
+            3,
+            13,
+            1
+          ]
+        }
+      }
+    ]
+  },
+  "manifest_hash": "5dfbfe154b1668f2e08e5a1c2fe92264ca2a7f7f12421a244c84a60aebbb116b",
+  "publication": {
+    "all_current_committed": true,
+    "mixed_preserved_prior": true
+  }
+}

@@ -1,0 +1,10 @@
+[
+ {"case":"null-sentinel","types":"T","gold":[[null]],"candidate":[["NULL"]],"legal":false},
+ {"case":"empty-sentinel","types":"T","gold":[[""]],"candidate":[["(empty)"]],"legal":false},
+ {"case":"canonical-control-replacement","types":"T","gold":[["A@B"]],"candidate":[["A\tB"]],"legal":false},
+ {"case":"native-newline-shift","types":"TT","gold":[["a\nb","c"]],"candidate":[["a","b\nc"]],"legal":false},
+ {"case":"canonical-real-rounding","types":"R","gold":[[1.000401]],"candidate":[[1.000449]],"legal":false},
+ {"case":"native-real-tolerance","types":"R","gold":[[1.0]],"candidate":[[1.004]],"legal":false},
+ {"case":"wide-integer-exact-control","types":"I","gold":[[9007199254740993]],"candidate":[[9007199254740992]],"legal":false},
+ {"case":"unchanged-typed-positive-control","types":"TI","gold":[["same",1]],"candidate":[["same",1]],"legal":true}
+]

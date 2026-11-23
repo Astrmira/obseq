@@ -1,0 +1,51 @@
+{
+  "geos": "3.13.1-CAPI-1.19.2",
+  "pins": {
+    "BLIND.json": "8e86163e65e0deaa46f3450f7600aa03361141f9406e73b235e0c648a5804831",
+    "check.py": "f005d93a52f8a4b69f772ef5c81a1cdc469df4c93a695f2f8ac24b57292b1cb6"
+  },
+  "results": {
+    "E7H-F10-01": {
+      "candidate_admissible": false,
+      "contrast": "contains_vs_covers",
+      "independent_rational": false,
+      "native_contract": false,
+      "native_counterfactual": true
+    },
+    "E7H-F10-02": {
+      "candidate_admissible": true,
+      "contrast": "closed_intersection_vs_proper_crossing",
+      "independent_rational": true,
+      "native_contract": true,
+      "native_counterfactual": false
+    },
+    "E7H-F10-03": {
+      "candidate_admissible": false,
+      "contrast": "positive_area_vs_touching",
+      "independent_rational": false,
+      "native_contract": false,
+      "native_counterfactual": true
+    },
+    "E7H-F10-04": {
+      "candidate_admissible": true,
+      "contrast": "hole_vs_shell_only",
+      "independent_rational": false,
+      "native_contract": false,
+      "native_counterfactual": true
+    },
+    "E7H-F10-05": {
+      "candidate_admissible": true,
+      "contrast": "inclusive_vs_exclusive_metric",
+      "independent_rational": true,
+      "native_contract": true,
+      "native_counterfactual": false
+    },
+    "E7H-F10-06": {
+      "candidate_admissible": false,
+      "contrast": "segments_vs_envelopes",
+      "independent_rational": false,
+      "native_contract": false,
+      "native_counterfactual": true
+    }
+  }
+}

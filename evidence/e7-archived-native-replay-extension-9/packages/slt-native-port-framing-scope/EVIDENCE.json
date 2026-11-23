@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "ADAPTER.lock": "8dea308453da569d207fe7a2cd51224d8274f2531142387a560ac18d19004aee",
+    "FIXTURES.json": "a9b5c3bbd4b842a8ee303386e4f33987008425b70194263a972b6d102e032821",
+    "NATIVE-INPUT.lock": "564c57d4ad1403f6540fcedb6c66174152e9e862481924614cda23ae9b06c8d7",
+    "ORIGINAL-RECEIPT.txt": "41be730b2b57f4c5484ce9b05cf5d74ca6e4b086f17a9fda9db92aa10d869c62",
+    "PLAN.json": "d8015e723fbb7f4c1ad934660dec4e9b853a23daa8bf325858942fcc57868b4c",
+    "README.md": "db8fb5cd3d95333334695792b95898b244e473d0841d7a4ca9dc45a88f0ba98d",
+    "RESULT.json": "2df21728b859b9acc39bccecc9728739b07ec6b3f264dfe4292a13661435463c",
+    "SCORES.csv": "ddee1b09bd55fa43580bc43eb0a375b23f58b2e56d5a0266fe021a20c8e112a6",
+    "SHA256SUMS": "c3c0e030c4102807e799e5bcb53afb2d17d0b95dd439a031c7012972ed2fc847",
+    "run.py": "e087504c44c32274b70823f1e9b620f4f43972e8d2e17ce4f061bc6bc15efb64"
+  },
+  "predecessor": "0e3f8f215e08c944ff7cbbc7fba5ca4e1d78cc4b",
+  "project": "semantic-benchmark"
+}

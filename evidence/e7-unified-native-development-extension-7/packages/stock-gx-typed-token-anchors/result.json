@@ -1,0 +1,165 @@
+{
+  "batch_decision_pandas": [
+    {
+      "arm": "legal_only",
+      "ground_truth": true,
+      "stock_results": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "arm": "add_final_LF",
+      "ground_truth": false,
+      "stock_results": [
+        true,
+        true,
+        false
+      ]
+    }
+  ],
+  "engines": {
+    "great_expectations": "1.25.0",
+    "pandas": "3.1.1",
+    "python": "3.12.14",
+    "sqlalchemy": "2.0.51",
+    "sqlite": "3.53.1"
+  },
+  "native": {
+    "pandas": [
+      {
+        "elements": 12,
+        "faults_accepted": [
+          "newline_0",
+          "newline_1",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ],
+        "legal_rejected": [],
+        "pattern": "[A-Z]{3}-[0-9]{2}",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2"
+        ]
+      },
+      {
+        "elements": 12,
+        "faults_accepted": [
+          "newline_0"
+        ],
+        "legal_rejected": [],
+        "pattern": "^[A-Z]{3}-[0-9]{2}$",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "newline_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ]
+      },
+      {
+        "elements": 12,
+        "faults_accepted": [],
+        "legal_rejected": [],
+        "pattern": "\\A[A-Z]{3}-[0-9]{2}\\Z",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "newline_0",
+          "newline_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ]
+      }
+    ],
+    "sqlite": [
+      {
+        "elements": 12,
+        "faults_accepted": [
+          "newline_0",
+          "newline_1",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ],
+        "legal_rejected": [],
+        "pattern": "[A-Z]{3}-[0-9]{2}",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2"
+        ]
+      },
+      {
+        "elements": 12,
+        "faults_accepted": [
+          "newline_0"
+        ],
+        "legal_rejected": [],
+        "pattern": "^[A-Z]{3}-[0-9]{2}$",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "newline_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ]
+      },
+      {
+        "elements": 12,
+        "faults_accepted": [],
+        "legal_rejected": [],
+        "pattern": "\\A[A-Z]{3}-[0-9]{2}\\Z",
+        "success": false,
+        "unexpected_ids": [
+          "ascii_0",
+          "ascii_1",
+          "newline_0",
+          "newline_1",
+          "out_of_grammar_0",
+          "out_of_grammar_1",
+          "out_of_grammar_2",
+          "out_of_grammar_3",
+          "wrapped_0",
+          "wrapped_1"
+        ]
+      }
+    ]
+  },
+  "oracle_bad": [
+    "ascii_0",
+    "ascii_1",
+    "newline_0",
+    "newline_1",
+    "out_of_grammar_0",
+    "out_of_grammar_1",
+    "out_of_grammar_2",
+    "out_of_grammar_3",
+    "wrapped_0",
+    "wrapped_1"
+  ]
+}

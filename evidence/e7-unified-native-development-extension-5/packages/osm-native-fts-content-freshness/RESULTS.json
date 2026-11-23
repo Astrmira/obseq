@@ -1,0 +1,94 @@
+{
+  "changed_bound_fids": 128,
+  "native_sqlite": "3.53.1",
+  "nonempty_names": 3200,
+  "phases": {
+    "baseline": {
+      "all_row_projection_current": true,
+      "content_bound": "ok",
+      "generic_db_integrity": [
+        [
+          "ok"
+        ]
+      ],
+      "global_token_occurrences_preserved": true,
+      "internal_only": "ok",
+      "match_rows": 196,
+      "missing": 0,
+      "missing_index_postings": 0,
+      "projected_labels_without_term": 0,
+      "wrong_inclusions": 0,
+      "wrong_index_postings": 0
+    },
+    "bounded_repair": {
+      "all_row_projection_current": true,
+      "content_bound": "ok",
+      "generic_db_integrity": [
+        [
+          "ok"
+        ]
+      ],
+      "global_token_occurrences_preserved": true,
+      "internal_only": "ok",
+      "match_rows": 196,
+      "missing": 0,
+      "missing_index_postings": 0,
+      "projected_labels_without_term": 0,
+      "wrong_inclusions": 0,
+      "wrong_index_postings": 0
+    },
+    "late_triggers": {
+      "all_row_projection_current": true,
+      "content_bound": "SQLITE_CORRUPT_VTAB",
+      "generic_db_integrity": [
+        [
+          "ok"
+        ]
+      ],
+      "global_token_occurrences_preserved": true,
+      "internal_only": "ok",
+      "match_rows": 196,
+      "missing": 64,
+      "missing_index_postings": 249,
+      "projected_labels_without_term": 64,
+      "wrong_inclusions": 64,
+      "wrong_index_postings": 249
+    },
+    "only_content_changed": {
+      "all_row_projection_current": true,
+      "content_bound": "SQLITE_CORRUPT_VTAB",
+      "generic_db_integrity": [
+        [
+          "ok"
+        ]
+      ],
+      "global_token_occurrences_preserved": true,
+      "internal_only": "ok",
+      "match_rows": 196,
+      "missing": 64,
+      "missing_index_postings": 249,
+      "projected_labels_without_term": 64,
+      "wrong_inclusions": 64,
+      "wrong_index_postings": 249
+    },
+    "trigger_maintained_reverse": {
+      "all_row_projection_current": true,
+      "content_bound": "ok",
+      "generic_db_integrity": [
+        [
+          "ok"
+        ]
+      ],
+      "global_token_occurrences_preserved": true,
+      "internal_only": "ok",
+      "match_rows": 196,
+      "missing": 0,
+      "missing_index_postings": 0,
+      "projected_labels_without_term": 0,
+      "wrong_inclusions": 0,
+      "wrong_index_postings": 0
+    }
+  },
+  "rows": 14665,
+  "total_literal_postings": 4075
+}

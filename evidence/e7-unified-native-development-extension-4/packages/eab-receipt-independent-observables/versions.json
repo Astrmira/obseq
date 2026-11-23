@@ -1,0 +1,5 @@
+{
+  "gdal": "3100300",
+  "pandas": "2.2.3",
+  "sqlite_writer_oracle": "3.46.1"
+}

@@ -1,0 +1,24 @@
+{
+  "files_sha256": {
+    "INPUTS.sha256": "e992937a6a75a19931ad86e327c1ec08be025971d0473c7aa9bafbd8bb6384aa",
+    "PLAN.json": "21733ab10e3276e718c2dd543c876c5ef3461163e7ac2aecb284ed6fd8aac01a",
+    "PLAN.sha256": "0abefd84a3dc8ea061ed6a0c9708063ac4677ba17a5d85d23e30943d1eefc950",
+    "PUBLICATION-FILES.txt": "e50efa54bd19cc4f7cb9d12ef41dd51accce264997c4f809a2e441205e10ec4a",
+    "README.md": "5ccd30b7a9f9782f0a50c7aabec41071c545b41a1f2d27c3dfaf2f107f4c2b9d",
+    "SHA256SUMS": "08e390568079486e6e41b26190365a7d71730074071f541018483c43264d257c",
+    "check.py": "279190960ead84225b619dcdbb780b2dbd2953b648206a1ee2541293a95d99bb",
+    "generate.py": "d40d799ab1ece48205dd4bffe1e873ff85e8207bb87f63c29a083827d49c05e3",
+    "q39-portable-result.json": "e7c8abf8040400014cfb29202f652e8f5f1d3772829be65de50acd826e477543",
+    "q39-raw-part-00.jsonl": "bbb8b82bf911c754cf5df25565d23494024137d53ebdd06f26966b2fd039884d",
+    "q39-raw-part-01.jsonl": "d84d30d10da06300094c81e20939d83390b498d036c18c9bb3cb95f1a3b32977",
+    "q39-raw-part-02.jsonl": "fff3cdace62f4fdf3b0041270044f793ec30c1e18b6180caa45091fd135871b3",
+    "q39-raw-part-03.jsonl": "8582606f417846dc135f6bd35309da0210c4b44d1cac95b6ab79c62b8ece5411",
+    "q39-raw-part-04.jsonl": "417ab3de3497ff63fb6d042aa2ad5b9fc28acc7dd15dd58f65f4e951d77ee128",
+    "q39-replay-result.json": "8df880aef4c7b45c3c499ac27d31115655be919c9b2e3c819054ce530ab80903",
+    "q39-result.json": "5ac0966c6548a1367e8f6a25757d3e7a56ae0bcb393a7e806b3251d9ce392c08",
+    "q39.py": "a1ca2966ec94b5fb756e13445c1dba657e9ab7c47f8a163b4343b2e648cecbd9",
+    "tpcds-counts.json": "14eccf438acd954192d10c2761a8e9bbbbcde116a3cba1da9ec1e539516e2d84"
+  },
+  "predecessor": "909508ac835d9adfbb0b8bd92858fd41855507bc",
+  "project": "semantic-benchmark"
+}

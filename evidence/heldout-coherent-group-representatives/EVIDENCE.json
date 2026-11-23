@@ -1,0 +1,17 @@
+{
+  "files_sha256": {
+    "CASES.json": "4c1862db300aaa915957701225e7bc3fb692cf9c202f6db764c3fb61c1d158a2",
+    "PREDICTIONS.json": "929c0c7601e4abf5d03b7fb3ee45e30fcdb0126104d68d787dd73649a63224c3",
+    "PREDICTIONS.sha256": "f11c3c77c9ccee2c9ee40de9c2c87a412c807776482298ad50a004566ea24662",
+    "PROTOCOL.md": "0c14cbe90e2c7e714b0f45977a3636808077934e1ac386b85935be66b551e701",
+    "PROTOCOL.sha256": "34e8e338497ea34f2b6479ba16dbf9987a9887845f0ccfcc3906a778779c40ff",
+    "README.md": "e0724d27c96f855a0cbd57116cf9731d4371d02048550add2a64d5c62b89e143",
+    "RESULT.json": "28b5ba3edb6532873e3b34f57cd335c0fe36cab6db3c11cfb3e1f0e1ddc3785c",
+    "SEALED_LABELS.json": "bf950fdd516e48ade8824c7a276fcd39ce962b4b88aa6830ad238092d4bb7745",
+    "SHA256SUMS": "12f77681838e7fe1ccd87d2a0bea826e512cabb715536f3d9f3d46aa7d7c2694",
+    "run.py": "d75465bcbafbd95843c2aa60429c96f179de329da3c9e5eaa6ba75f619298f24",
+    "score.py": "5821c7da89e29321d1db6af4c763babc3064385ad21a86205db9da7a166ddb54"
+  },
+  "predecessor": "b5814a2ad9f3c21559b37c73dee5fbe17a152fdd",
+  "project": "semantic-benchmark"
+}

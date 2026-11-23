@@ -1,0 +1,2625 @@
+[
+  {
+    "case_id": "E7H-F1-01",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Match integer keys by mathematical equality, without approximate comparison.",
+    "inputs": {
+      "left": "9007199254740993",
+      "right": "9007199254740992"
+    },
+    "candidate": {
+      "match": true
+    }
+  },
+  {
+    "case_id": "E7H-F1-02",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Return the signed integer stored for receipt R, preserving its value.",
+    "inputs": {
+      "R": "-9007199254740995"
+    },
+    "candidate": {
+      "value": "-9007199254740996"
+    }
+  },
+  {
+    "case_id": "E7H-F1-03",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Group exact integer tokens by numeric value; report number of groups.",
+    "inputs": {
+      "tokens": [
+        "18014398509481984",
+        "18014398509481985",
+        "18014398509481984"
+      ]
+    },
+    "candidate": {
+      "groups": 2
+    }
+  },
+  {
+    "case_id": "E7H-F1-04",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Cast a decimal integer string to integer exactly; leading zeros carry no identity.",
+    "inputs": {
+      "token": "0009007199254740997"
+    },
+    "candidate": {
+      "integer": "9007199254740997"
+    }
+  },
+  {
+    "case_id": "E7H-F1-05",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Return the larger of two exact signed keys.",
+    "inputs": {
+      "keys": [
+        "-9223372036854775808",
+        "-9223372036854775807"
+      ]
+    },
+    "candidate": {
+      "max": "-9223372036854775808"
+    }
+  },
+  {
+    "case_id": "E7H-F1-06",
+    "cohort": "holdout",
+    "class": "F1",
+    "subtype": "integral_identity",
+    "contract": "Return the exact difference between two integer readings in the indicated order.",
+    "inputs": {
+      "end": "4611686018427387919",
+      "start": "4611686018427387904"
+    },
+    "candidate": {
+      "difference": "15"
+    }
+  },
+  {
+    "case_id": "E7H-F2-01",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "Inner join ordinary SQL equality on nullable badge only; list paired IDs.",
+    "inputs": {
+      "left": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "X"
+        ]
+      ],
+      "right": [
+        [
+          "c",
+          null
+        ],
+        [
+          "d",
+          "X"
+        ]
+      ]
+    },
+    "candidate": {
+      "pairs": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F2-02",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "Use NULL-safe equality on both components and list qualifying pairs.",
+    "inputs": {
+      "left": [
+        [
+          "a",
+          "Q",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "r",
+          "Q",
+          null
+        ],
+        [
+          "s",
+          "P",
+          null
+        ]
+      ]
+    },
+    "candidate": {
+      "pairs": [
+        [
+          "a",
+          "r"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F2-03",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "A partial key with NULL in either component never joins under ordinary SQL conjunction.",
+    "inputs": {
+      "left": [
+        [
+          "a",
+          3,
+          null
+        ]
+      ],
+      "right": [
+        [
+          "b",
+          3,
+          null
+        ]
+      ]
+    },
+    "candidate": {
+      "pairs": []
+    }
+  },
+  {
+    "case_id": "E7H-F2-04",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "Use NULL-safe equality; preserve all matching row pairs, not just distinct key values.",
+    "inputs": {
+      "left": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "c",
+          null
+        ]
+      ]
+    },
+    "candidate": {
+      "pairs": [
+        [
+          "a",
+          "c"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F2-05",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "A literal empty string is distinct from missing; NULL-safe compare the two fields.",
+    "inputs": {
+      "left": "",
+      "right": null
+    },
+    "candidate": {
+      "equal": true
+    }
+  },
+  {
+    "case_id": "E7H-F2-06",
+    "cohort": "holdout",
+    "class": "F2",
+    "subtype": "null_policy",
+    "contract": "A left outer join on ordinary equality retains every unmatched left row with NULL right ID.",
+    "inputs": {
+      "left": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "c",
+          null
+        ],
+        [
+          "d",
+          0
+        ]
+      ]
+    },
+    "candidate": {
+      "pairs": [
+        [
+          "a",
+          null
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F3-01",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "At snapshot s return the latest committed revision at or before s. Tombstone means absent.",
+    "inputs": {
+      "s": 18,
+      "history": [
+        [
+          4,
+          "mint"
+        ],
+        [
+          18,
+          null
+        ],
+        [
+          21,
+          "plum"
+        ]
+      ]
+    },
+    "candidate": {
+      "present": false
+    }
+  },
+  {
+    "case_id": "E7H-F3-02",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "Read balance from the newest committed revision no later than the requested snapshot.",
+    "inputs": {
+      "s": 31,
+      "revisions": [
+        [
+          20,
+          17
+        ],
+        [
+          32,
+          19
+        ]
+      ]
+    },
+    "candidate": {
+      "balance": 19
+    }
+  },
+  {
+    "case_id": "E7H-F3-03",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "Report the count of active entities at commit 6, after all events through 6.",
+    "inputs": {
+      "events": [
+        [
+          2,
+          "a",
+          "insert"
+        ],
+        [
+          3,
+          "b",
+          "insert"
+        ],
+        [
+          6,
+          "a",
+          "delete"
+        ],
+        [
+          8,
+          "c",
+          "insert"
+        ]
+      ]
+    },
+    "candidate": {
+      "active": 1
+    }
+  },
+  {
+    "case_id": "E7H-F3-04",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "For every field use the same pinned commit. A commit atomically changes both fields.",
+    "inputs": {
+      "s": 9,
+      "versions": [
+        [
+          3,
+          {
+            "debit": 4,
+            "credit": 7
+          }
+        ],
+        [
+          11,
+          {
+            "debit": 8,
+            "credit": 2
+          }
+        ]
+      ]
+    },
+    "candidate": {
+      "debit": 4,
+      "credit": 2
+    }
+  },
+  {
+    "case_id": "E7H-F3-05",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "Read at commit 14 by commit order, not by event dates; use latest value written by then.",
+    "inputs": {
+      "s": 14,
+      "writes": [
+        {
+          "commit": 12,
+          "event": "2025-04-19",
+          "v": "east"
+        },
+        {
+          "commit": 14,
+          "event": "2025-04-10",
+          "v": "west"
+        }
+      ]
+    },
+    "candidate": {
+      "value": "west"
+    }
+  },
+  {
+    "case_id": "E7H-F3-06",
+    "cohort": "holdout",
+    "class": "F3",
+    "subtype": "logical_snapshot",
+    "contract": "Read-only transaction keeps its start snapshot for every statement; output both reads.",
+    "inputs": {
+      "start": 10,
+      "commits": [
+        [
+          7,
+          "amber"
+        ],
+        [
+          12,
+          "blue"
+        ]
+      ],
+      "readTimes": [
+        11,
+        14
+      ]
+    },
+    "candidate": {
+      "values": [
+        "amber",
+        "blue"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F4-01",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "After applying all writes, subtotal must equal units times price in cents.",
+    "inputs": {
+      "prior": {
+        "units": 7,
+        "price": 11,
+        "subtotal": 77
+      },
+      "changes": {
+        "units": 9
+      }
+    },
+    "candidate": {
+      "subtotal": 77
+    }
+  },
+  {
+    "case_id": "E7H-F4-02",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "After deleting a member, average uses only current members.",
+    "inputs": {
+      "prior": [
+        [
+          "q",
+          5
+        ],
+        [
+          "r",
+          15
+        ],
+        [
+          "s",
+          28
+        ]
+      ],
+      "delete": "r"
+    },
+    "candidate": {
+      "mean": 16.5
+    }
+  },
+  {
+    "case_id": "E7H-F4-03",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "A rename refreshes lowercase lookup keys; return the IDs under the old key.",
+    "inputs": {
+      "prior": [
+        [
+          "k",
+          "CEDAR"
+        ]
+      ],
+      "rename": [
+        "k",
+        "ELM"
+      ],
+      "lookup": "cedar"
+    },
+    "candidate": {
+      "ids": [
+        "k"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F4-04",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "Compute grand total with shipping from recomputed subtotal; all quantities in cents.",
+    "inputs": {
+      "before": {
+        "quantity": 2,
+        "unitPrice": 14,
+        "shipping": 3
+      },
+      "patch": {
+        "unitPrice": 16
+      }
+    },
+    "candidate": {
+      "grandTotal": 35
+    }
+  },
+  {
+    "case_id": "E7H-F4-05",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "For each bucket return current maximum after moving an item.",
+    "inputs": {
+      "before": [
+        [
+          "u",
+          "A",
+          8
+        ],
+        [
+          "v",
+          "A",
+          3
+        ],
+        [
+          "w",
+          "B",
+          5
+        ]
+      ],
+      "move": [
+        "u",
+        "B"
+      ]
+    },
+    "candidate": {
+      "A": 8,
+      "B": 8
+    }
+  },
+  {
+    "case_id": "E7H-F4-06",
+    "cohort": "holdout",
+    "class": "F4",
+    "subtype": "derived_freshness",
+    "contract": "Measure width as the difference of current bounds, independently of revision identity.",
+    "inputs": {
+      "old": {
+        "lo": 2,
+        "hi": 8
+      },
+      "new": {
+        "lo": 5,
+        "hi": 11
+      }
+    },
+    "candidate": {
+      "width": 6
+    }
+  },
+  {
+    "case_id": "E7H-F5-01",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "For a nullable text field, omitted key keeps, explicit null clears, literal text writes.",
+    "inputs": {
+      "old": {
+        "nick": "ivory",
+        "note": "ok"
+      },
+      "patch": {
+        "note": null
+      }
+    },
+    "candidate": {
+      "nick": "ivory",
+      "note": null
+    }
+  },
+  {
+    "case_id": "E7H-F5-02",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "An empty array is a present value; only an absent key preserves existing tags.",
+    "inputs": {
+      "old": {
+        "tags": [
+          "red"
+        ]
+      },
+      "patch": {
+        "tags": []
+      }
+    },
+    "candidate": {
+      "tags": [
+        "red"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F5-03",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "A present false writes false, not absence. Preserve omitted fields.",
+    "inputs": {
+      "old": {
+        "enabled": true,
+        "retries": 4
+      },
+      "patch": {
+        "enabled": false
+      }
+    },
+    "candidate": {
+      "enabled": false,
+      "retries": 4
+    }
+  },
+  {
+    "case_id": "E7H-F5-04",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "Patches apply in sequence; omission keeps the result of earlier patches.",
+    "inputs": {
+      "old": {
+        "memo": "oak"
+      },
+      "patches": [
+        {
+          "memo": null
+        },
+        {}
+      ]
+    },
+    "candidate": {
+      "memo": "oak"
+    }
+  },
+  {
+    "case_id": "E7H-F5-05",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "A present numeric zero overwrites the old count.",
+    "inputs": {
+      "old": {
+        "count": 12
+      },
+      "patch": {
+        "count": 0
+      }
+    },
+    "candidate": {
+      "count": 0
+    }
+  },
+  {
+    "case_id": "E7H-F5-06",
+    "cohort": "holdout",
+    "class": "F5",
+    "subtype": "keep_clear_write",
+    "contract": "Patching a nullable text field with a JSON string stores its literal content.",
+    "inputs": {
+      "old": {
+        "tag": null
+      },
+      "patch": {
+        "tag": "null"
+      }
+    },
+    "candidate": {
+      "tag": null
+    }
+  },
+  {
+    "case_id": "E7H-F6-01",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Select exactly two lowest-cost IDs; any peer at the cutoff is admissible, output order immaterial.",
+    "inputs": {
+      "rows": [
+        [
+          "u",
+          0
+        ],
+        [
+          "v",
+          2
+        ],
+        [
+          "w",
+          2
+        ],
+        [
+          "x",
+          5
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "u",
+        "w"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F6-02",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Select one nearest reading to target by absolute distance; admit either equidistant neighbor.",
+    "inputs": {
+      "target": 15,
+      "rows": [
+        [
+          "a",
+          12
+        ],
+        [
+          "b",
+          18
+        ],
+        [
+          "c",
+          19
+        ]
+      ]
+    },
+    "candidate": {
+      "id": "c"
+    }
+  },
+  {
+    "case_id": "E7H-F6-03",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Report an ID in the half-open validity interval start <= t < end at t=7.",
+    "inputs": {
+      "t": 7,
+      "rows": [
+        [
+          "p",
+          3,
+          7
+        ],
+        [
+          "q",
+          7,
+          9
+        ]
+      ]
+    },
+    "candidate": {
+      "id": "p"
+    }
+  },
+  {
+    "case_id": "E7H-F6-04",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Return one item with the maximum non-NULL score; NULLs are not witnesses.",
+    "inputs": {
+      "rows": [
+        [
+          "p",
+          null
+        ],
+        [
+          "q",
+          -4
+        ],
+        [
+          "r",
+          -4
+        ]
+      ]
+    },
+    "candidate": {
+      "id": "q"
+    }
+  },
+  {
+    "case_id": "E7H-F6-05",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Return exactly two distinct source IDs with the highest scores; ties admit either order.",
+    "inputs": {
+      "rows": [
+        [
+          "h",
+          8
+        ],
+        [
+          "j",
+          8
+        ],
+        [
+          "k",
+          8
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "j",
+        "j"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F6-06",
+    "cohort": "holdout",
+    "class": "F6",
+    "subtype": "boundary_witness",
+    "contract": "Return any ID whose measurement belongs to the closed interval [1.25, 1.5].",
+    "inputs": {
+      "rows": [
+        [
+          "r",
+          "1.2500"
+        ],
+        [
+          "s",
+          "1.5001"
+        ]
+      ]
+    },
+    "candidate": {
+      "id": "r"
+    }
+  },
+  {
+    "case_id": "E7H-F7-01",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Balances must agree by account ID; total agreement alone is not enough.",
+    "inputs": {
+      "reference": {
+        "north": 23,
+        "south": 38
+      }
+    },
+    "candidate": {
+      "north": 28,
+      "south": 33
+    }
+  },
+  {
+    "case_id": "E7H-F7-02",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Compare the bag of signed line items; row order is immaterial.",
+    "inputs": {
+      "reference": [
+        -9,
+        3,
+        3,
+        7
+      ]
+    },
+    "candidate": {
+      "items": [
+        3,
+        7,
+        -9,
+        3
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F7-03",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Compare counts per category, not just the number of source rows.",
+    "inputs": {
+      "reference": {
+        "open": 3,
+        "closed": 1,
+        "held": 2
+      }
+    },
+    "candidate": {
+      "open": 2,
+      "closed": 2,
+      "held": 2
+    }
+  },
+  {
+    "case_id": "E7H-F7-04",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Output is only the net sum; no row-level reconciliation is part of this contract.",
+    "inputs": {
+      "amounts": [
+        33,
+        -33,
+        8,
+        -2
+      ]
+    },
+    "candidate": {
+      "net": 6
+    }
+  },
+  {
+    "case_id": "E7H-F7-05",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Compare all per-key integer changes, including zero-valued keys.",
+    "inputs": {
+      "reference": {
+        "a": 4,
+        "b": -4,
+        "c": 0
+      }
+    },
+    "candidate": {
+      "a": 4,
+      "b": -4
+    }
+  },
+  {
+    "case_id": "E7H-F7-06",
+    "cohort": "holdout",
+    "class": "F7",
+    "subtype": "aggregate_cancellation",
+    "contract": "Compare the bag of event triples exactly, without significance of arrival order.",
+    "inputs": {
+      "reference": [
+        [
+          "a",
+          "refund",
+          -2
+        ],
+        [
+          "b",
+          "sale",
+          2
+        ]
+      ]
+    },
+    "candidate": {
+      "events": [
+        [
+          "b",
+          "sale",
+          2
+        ],
+        [
+          "a",
+          "refund",
+          -2
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F8-01",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "In America/New_York select the later occurrence of a repeated fall-back wall time.",
+    "inputs": {
+      "local": "2023-11-05T01:40:00",
+      "zone": "America/New_York",
+      "occurrence": "later"
+    },
+    "candidate": {
+      "utc": "2023-11-05T06:40:00Z"
+    }
+  },
+  {
+    "case_id": "E7H-F8-02",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "Reject nonexistent local clock times in Europe/Berlin; do not silently shift them.",
+    "inputs": {
+      "local": "2024-03-31T02:20:00",
+      "zone": "Europe/Berlin"
+    },
+    "candidate": {
+      "utc": "2024-03-31T01:20:00Z"
+    }
+  },
+  {
+    "case_id": "E7H-F8-03",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "Ambiguous New York times without fold or offset are errors; do not assume earliest.",
+    "inputs": {
+      "local": "2024-11-03T01:01:00",
+      "zone": "America/New_York",
+      "offset": null
+    },
+    "candidate": {
+      "error": "ambiguous"
+    }
+  },
+  {
+    "case_id": "E7H-F8-04",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "Use the explicit later offset +10:30 of the repeated Lord Howe wall reading.",
+    "inputs": {
+      "local": "2024-04-07T01:45:00",
+      "zone": "Australia/Lord_Howe",
+      "offset": "+10:30"
+    },
+    "candidate": {
+      "utc": "2024-04-06T14:45:00Z"
+    }
+  },
+  {
+    "case_id": "E7H-F8-05",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "For this supplied offset timeline a gap normalizes by adding the gap duration before conversion.",
+    "inputs": {
+      "local": "2029-06-10T02:12:00",
+      "timeline": "Synthetic zone: at local 02:00 clock advances to 02:30, from +01:00 to +01:30."
+    },
+    "candidate": {
+      "utc": "2029-06-10T01:12:00Z"
+    }
+  },
+  {
+    "case_id": "E7H-F8-06",
+    "cohort": "holdout",
+    "class": "F8",
+    "subtype": "civil_time",
+    "contract": "Reject a claimed local offset not in the valid offset set for the wall time.",
+    "inputs": {
+      "local": "2031-09-16T01:15:00",
+      "validOffsets": [
+        "-03:00",
+        "-04:00"
+      ],
+      "claimedOffset": "-02:00"
+    },
+    "candidate": {
+      "utc": "2031-09-16T03:15:00Z"
+    }
+  },
+  {
+    "case_id": "E7H-F9-01",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "Group numeric peers together but a representative must be a complete typed value present in the group.",
+    "inputs": {
+      "peers": [
+        [
+          "integer",
+          "4"
+        ],
+        [
+          "decimal",
+          "4.0"
+        ]
+      ]
+    },
+    "candidate": {
+      "repr": [
+        "float64",
+        "4.0"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F9-02",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "Choose any original tagged string in this case-insensitively collated peer group.",
+    "inputs": {
+      "peers": [
+        [
+          "varchar",
+          "Haze"
+        ],
+        [
+          "text",
+          "HAZE"
+        ]
+      ]
+    },
+    "candidate": {
+      "repr": [
+        "text",
+        "HAZE"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F9-03",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "Return an actual (type, value) pair without combining attributes across peers.",
+    "inputs": {
+      "peers": [
+        [
+          "smallint",
+          "7"
+        ],
+        [
+          "decimal",
+          "7.00"
+        ]
+      ]
+    },
+    "candidate": {
+      "repr": [
+        "smallint",
+        "7.00"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F9-04",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "Grouping regards Boolean true and integer one as peers here, but representative identity remains typed.",
+    "inputs": {
+      "peers": [
+        [
+          "boolean",
+          true
+        ],
+        [
+          "integer",
+          1
+        ]
+      ]
+    },
+    "candidate": {
+      "repr": [
+        "boolean",
+        true
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F9-05",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "When representative policy is first inserted, preserve its exact stored tag and payload.",
+    "inputs": {
+      "inOrder": [
+        [
+          "bytes",
+          "41"
+        ],
+        [
+          "text",
+          "A"
+        ]
+      ],
+      "groupKey": "A"
+    },
+    "candidate": {
+      "repr": [
+        "text",
+        "A"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F9-06",
+    "cohort": "holdout",
+    "class": "F9",
+    "subtype": "representative_identity",
+    "contract": "Either original signed-zero encoding may represent this equal-valued peer group.",
+    "inputs": {
+      "peers": [
+        [
+          "binary64-bits",
+          "8000000000000000"
+        ],
+        [
+          "binary64-bits",
+          "0000000000000000"
+        ]
+      ]
+    },
+    "candidate": {
+      "repr": [
+        "binary64-bits",
+        "8000000000000000"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-F10-01",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "Determine whether a point is strictly inside the polygon; boundary is excluded.",
+    "inputs": {
+      "shell": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pt": [
+        0,
+        2
+      ]
+    },
+    "candidate": {
+      "inside": true
+    }
+  },
+  {
+    "case_id": "E7H-F10-02",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "Two closed segments intersect if they share even a single endpoint.",
+    "inputs": {
+      "a": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "b": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "candidate": {
+      "intersects": true
+    }
+  },
+  {
+    "case_id": "E7H-F10-03",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "Rectangles overlap with positive area only if their interiors share area.",
+    "inputs": {
+      "a": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "b": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "format": "xmin,ymin,xmax,ymax"
+    },
+    "candidate": {
+      "overlap": true
+    }
+  },
+  {
+    "case_id": "E7H-F10-04",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "The polygon excludes the interior of its hole; compute membership for the given point.",
+    "inputs": {
+      "shell": [
+        [
+          0,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "hole": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "pt": [
+        3,
+        3
+      ]
+    },
+    "candidate": {
+      "member": false
+    }
+  },
+  {
+    "case_id": "E7H-F10-05",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "Use Euclidean distance <= 5, in planar units.",
+    "inputs": {
+      "p": [
+        0,
+        0
+      ],
+      "q": [
+        3,
+        4
+      ]
+    },
+    "candidate": {
+      "within": true
+    }
+  },
+  {
+    "case_id": "E7H-F10-06",
+    "cohort": "holdout",
+    "class": "F10",
+    "subtype": "geometry_predicate",
+    "contract": "Return whether the two segments meet, not whether their bounding boxes intersect.",
+    "inputs": {
+      "a": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "b": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "candidate": {
+      "meet": true
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-01",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "Select exactly 3 distinct row IDs by score DESC; output order irrelevant.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          17
+        ],
+        [
+          "b",
+          12
+        ],
+        [
+          "c",
+          12
+        ],
+        [
+          "d",
+          12
+        ],
+        [
+          "e",
+          11
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "d",
+        "a",
+        "c"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-02",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "Select exactly two by descending score, breaking ties by ascending ID.",
+    "inputs": {
+      "rows": [
+        [
+          "z",
+          4
+        ],
+        [
+          "c",
+          2
+        ],
+        [
+          "b",
+          2
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "z",
+        "c"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-03",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "FETCH FIRST 2 WITH TIES on ascending lag includes all peers at the cutoff.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          5
+        ],
+        [
+          "c",
+          5
+        ],
+        [
+          "d",
+          8
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "a",
+        "c",
+        "b"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-04",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "Take at most three by priority ASC NULLS LAST, with arbitrary ordering among exact ties.",
+    "inputs": {
+      "rows": [
+        [
+          "h",
+          null
+        ],
+        [
+          "j",
+          1
+        ],
+        [
+          "k",
+          3
+        ],
+        [
+          "l",
+          3
+        ],
+        [
+          "m",
+          null
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "j",
+        "k",
+        "h"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-05",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "Select one highest row per supplied division, not one for the entire table.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          "A",
+          -2
+        ],
+        [
+          "b",
+          "A",
+          -2
+        ],
+        [
+          "c",
+          "B",
+          -9
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "b",
+        "c"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-topk-06",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "top-k tie",
+    "contract": "Select exactly two distinct row IDs by descending score; unspecified ties permit any source peers.",
+    "inputs": {
+      "rows": [
+        [
+          "q",
+          10
+        ],
+        [
+          "r",
+          10
+        ],
+        [
+          "s",
+          10
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "s",
+        "t"
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-01",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Assign consecutive ROW_NUMBER values per partition by ascending key, ties unordered.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          "X",
+          1
+        ],
+        [
+          "b",
+          "X",
+          1
+        ],
+        [
+          "c",
+          "Y",
+          7
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "a": 2,
+        "b": 1,
+        "c": 1
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-02",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Number the partition by ascending key without gaps, assigning one position per row.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          3
+        ],
+        [
+          "b",
+          3
+        ],
+        [
+          "c",
+          9
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "a": 1,
+        "b": 1,
+        "c": 3
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-03",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Number by value ASC NULLS FIRST, arbitrary order among equal values.",
+    "inputs": {
+      "rows": [
+        [
+          "x",
+          null
+        ],
+        [
+          "y",
+          null
+        ],
+        [
+          "z",
+          -20
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "x": 2,
+        "y": 1,
+        "z": 3
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-04",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Number by score DESC then stable ID ASC.",
+    "inputs": {
+      "rows": [
+        [
+          "q",
+          3
+        ],
+        [
+          "r",
+          3
+        ],
+        [
+          "s",
+          2
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "q": 2,
+        "r": 1,
+        "s": 3
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-05",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Number the full partition ascending by value before filtering to keep=true rows.",
+    "inputs": {
+      "rows": [
+        [
+          "h",
+          1,
+          false
+        ],
+        [
+          "i",
+          2,
+          true
+        ],
+        [
+          "j",
+          2,
+          true
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "i": 3,
+        "j": 2
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-row_number-06",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "ROW_NUMBER tie",
+    "contract": "Number all rows by key ASC; reordering is legal only within equal-key blocks.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          0
+        ],
+        [
+          "b",
+          1
+        ],
+        [
+          "c",
+          1
+        ],
+        [
+          "d",
+          2
+        ]
+      ]
+    },
+    "candidate": {
+      "numbers": {
+        "a": 1,
+        "b": 2,
+        "c": 4,
+        "d": 3
+      }
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-01",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "Select any minimum-cost offer, returning its vendor and shipping days from the same offer.",
+    "inputs": {
+      "offers": [
+        [
+          1,
+          "m",
+          2
+        ],
+        [
+          1,
+          "n",
+          5
+        ],
+        [
+          3,
+          "x",
+          2
+        ]
+      ]
+    },
+    "candidate": {
+      "vendor": "m",
+      "days": 5
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-02",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "Choose one tied captaining row per team and output its original (name, badge) as a pair.",
+    "inputs": {
+      "teams": {
+        "A": [
+          [
+            "U",
+            4
+          ],
+          [
+            "V",
+            9
+          ]
+        ],
+        "B": [
+          [
+            "Z",
+            8
+          ]
+        ]
+      }
+    },
+    "candidate": {
+      "A": [
+        "V",
+        9
+      ],
+      "B": [
+        "Z",
+        8
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-03",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "Use a single ascending tie-broken permutation to produce matching first and last row IDs.",
+    "inputs": {
+      "rows": [
+        [
+          "j",
+          0
+        ],
+        [
+          "k",
+          0
+        ]
+      ]
+    },
+    "candidate": {
+      "first": "j",
+      "last": "j"
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-04",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "Select a single maximum-weight edge; return its endpoint pair in either orientation.",
+    "inputs": {
+      "edges": [
+        [
+          "p",
+          "q",
+          9
+        ],
+        [
+          "r",
+          "s",
+          9
+        ],
+        [
+          "p",
+          "s",
+          5
+        ]
+      ]
+    },
+    "candidate": {
+      "from": "s",
+      "to": "r"
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-05",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "Select exactly two distinct highest-score IDs then compute the sum of costs over precisely that selection.",
+    "inputs": {
+      "rows": [
+        [
+          "a",
+          9,
+          1
+        ],
+        [
+          "b",
+          9,
+          4
+        ],
+        [
+          "c",
+          9,
+          8
+        ]
+      ]
+    },
+    "candidate": {
+      "ids": [
+        "a",
+        "c"
+      ],
+      "sum": 5
+    }
+  },
+  {
+    "case_id": "E7H-O3-coupled-06",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "coupled choices",
+    "contract": "A single tied representative supplies raw and normalized spelling; normalization is lowercase.",
+    "inputs": {
+      "peers": [
+        "ALoe",
+        "Aloe"
+      ]
+    },
+    "candidate": {
+      "raw": "ALoe",
+      "normalized": "aloe"
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-01",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "Group case-insensitively; emit one original spelling and the group count.",
+    "inputs": {
+      "values": [
+        "Teal",
+        "TEAL",
+        "gold"
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          "TEAL",
+          2
+        ],
+        [
+          "gold",
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-02",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "Group ignoring trailing ASCII spaces; output one member spelling unchanged per group.",
+    "inputs": {
+      "values": [
+        "x ",
+        "x  ",
+        "y"
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          "x",
+          2
+        ],
+        [
+          "y",
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-03",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "Group by absolute integer value; report a representative signed input value and multiplicity.",
+    "inputs": {
+      "values": [
+        -3,
+        3,
+        3,
+        -1
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          3,
+          3
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-04",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "Group by (department, lower(name)); keep representative spellings from the respective group.",
+    "inputs": {
+      "rows": [
+        [
+          "P",
+          "Bee"
+        ],
+        [
+          "Q",
+          "BEE"
+        ],
+        [
+          "Q",
+          "bee"
+        ]
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          "P",
+          "BEE",
+          1
+        ],
+        [
+          "Q",
+          "bee",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-05",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "Within an equivalent group, emit the earliest inserted spelling; count all rows.",
+    "inputs": {
+      "inOrder": [
+        "sKy",
+        "Sky",
+        "SKY"
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          "sKy",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O3-group_repr-06",
+    "cohort": "holdout",
+    "class": "O3",
+    "subtype": "GROUP BY representative",
+    "contract": "NULL values form one group; representative is an original nullable text value, no sentinel coercion.",
+    "inputs": {
+      "values": [
+        null,
+        null,
+        "NULL"
+      ]
+    },
+    "candidate": {
+      "groups": [
+        [
+          "NULL",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-01",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "For OGC 2D Point WKB compare numeric XY, ignoring byte order.",
+    "inputs": {
+      "referenceHex": "0101000000000000000000f03f00000000000000c0"
+    },
+    "candidate": {
+      "hex": "00000000013ff0000000000000c000000000000000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-02",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "Compare decoded 2D points by equality of both ordinates, not their unordered set.",
+    "inputs": {
+      "referenceHex": "0101000000000000000000f03f00000000000000c0"
+    },
+    "candidate": {
+      "hex": "0000000001c0000000000000003ff0000000000000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-03",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "For 2D point equality allow either IEEE zero sign in any ordinate.",
+    "inputs": {
+      "referenceHex": "000000000180000000000000004008000000000000"
+    },
+    "candidate": {
+      "hex": "010100000000000000000000000000000000000840"
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-04",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "Strictly decode a single OGC 2D point WKB; malformed or incomplete geometry is not equivalent.",
+    "inputs": {
+      "referenceHex": "000000000100000000000000004000000000000000"
+    },
+    "candidate": {
+      "hex": "0000000001000000000000000040000000000000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-05",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "Compare empty 2D LineString WKB by type and decoded coordinates, independent of byte order.",
+    "inputs": {
+      "referenceHex": "010200000000000000"
+    },
+    "candidate": {
+      "hex": "000000000200000000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-wkb-06",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent WKB",
+    "contract": "Require matching geometry type as well as coordinate membership for empty WKB geometries.",
+    "inputs": {
+      "referenceHex": "010200000000000000"
+    },
+    "candidate": {
+      "hex": "010400000000000000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-01",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Compare finite decimal numerals by their exact mathematical value; exponent notation allowed.",
+    "inputs": {
+      "reference": "-0.0006250"
+    },
+    "candidate": {
+      "text": "-625E-6"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-02",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Compare decimal spellings exactly as rationals without binary floating conversion.",
+    "inputs": {
+      "reference": "1.00000000000000001"
+    },
+    "candidate": {
+      "text": "1"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-03",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Signed zero encodings are equal; optional exponent is allowed.",
+    "inputs": {
+      "reference": "-0.00E+11"
+    },
+    "candidate": {
+      "text": "+0.000"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-04",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Grammar is signed base-10 digits with optional decimal and exponent, with no thousands separators.",
+    "inputs": {
+      "reference": "1234"
+    },
+    "candidate": {
+      "text": "1,234"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-05",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Normalize exact finite decimal values, no scale requirement.",
+    "inputs": {
+      "reference": "3400000000000000000000"
+    },
+    "candidate": {
+      "text": "34e20"
+    }
+  },
+  {
+    "case_id": "E7H-O4-numtext-06",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "numeric text",
+    "contract": "Recognize finite exact numeric values only; an underflow to binary zero may not erase a decimal.",
+    "inputs": {
+      "reference": "0.0"
+    },
+    "candidate": {
+      "text": "1e-500"
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-01",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "Date serial is Gregorian days since 2000-03-01; serial 0 is epoch and negatives are allowed.",
+    "inputs": {
+      "referenceDate": "2000-02-29",
+      "epoch": "2000-03-01"
+    },
+    "candidate": {
+      "serial": -1
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-02",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "Spreadsheet date system 1904 has serial 0 on 1904-01-01, counting real calendar days.",
+    "inputs": {
+      "referenceDate": "1904-03-01",
+      "system": "1904"
+    },
+    "candidate": {
+      "serial": 59
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-03",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "Day fractions are exact elapsed fractions of a 24 h UTC day after the epoch.",
+    "inputs": {
+      "reference": "1970-01-02T06:00:00Z",
+      "epoch": "1970-01-01T00:00:00Z"
+    },
+    "candidate": {
+      "serial": "1.25"
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-04",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "Use continuous signed day offsets from the UTC epoch, not absolute fractional parts.",
+    "inputs": {
+      "reference": "1969-12-31T18:00:00Z",
+      "epoch": "1970-01-01T00:00:00Z"
+    },
+    "candidate": {
+      "serial": "-1.25"
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-05",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "Compatibility system reserves fictitious serial 60; serial 59 = 1900-02-28 and 61 = 1900-03-01.",
+    "inputs": {
+      "referenceDate": "1900-03-01",
+      "system": "1900-compat"
+    },
+    "candidate": {
+      "serial": 61
+    }
+  },
+  {
+    "case_id": "E7H-O4-dateserial-06",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "date serial",
+    "contract": "An integral day serial represents midnight UTC only; do not discard the input time.",
+    "inputs": {
+      "reference": "2020-05-03T12:00:00Z",
+      "epoch": "2020-05-01T00:00:00Z"
+    },
+    "candidate": {
+      "serial": 2
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-01",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Compare unordered 2D coordinate sets; duplicates have no weight.",
+    "inputs": {
+      "points": [
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -1
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-02",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Compare exact pairs, not independent x and y coordinate sets.",
+    "inputs": {
+      "points": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-03",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Compare exact decimal point sets, ignoring spelling and permutation.",
+    "inputs": {
+      "points": [
+        [
+          "1.00",
+          "-0"
+        ],
+        [
+          ".50",
+          "2.5"
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          "0.5",
+          "2.50"
+        ],
+        [
+          "1",
+          "+0.000"
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-04",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Require equality of unique point sets, not equality of their convex hulls.",
+    "inputs": {
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-05",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Project triples to XY; compare the resulting unordered set and discard all z ordinates.",
+    "inputs": {
+      "points": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          4,
+          8,
+          9
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          4,
+          8,
+          0
+        ],
+        [
+          1,
+          3,
+          -1
+        ]
+      ]
+    }
+  },
+  {
+    "case_id": "E7H-O4-pointset-06",
+    "cohort": "holdout",
+    "class": "O4",
+    "subtype": "equivalent point set",
+    "contract": "Identity includes all three coordinates; compare unordered XYZ point sets.",
+    "inputs": {
+      "points": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          7
+        ]
+      ]
+    },
+    "candidate": {
+      "points": [
+        [
+          1,
+          3,
+          0
+        ]
+      ]
+    }
+  }
+]

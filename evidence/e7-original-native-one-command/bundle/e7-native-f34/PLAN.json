@@ -1,0 +1,6 @@
+{
+ "scope":"All 6 F3 snapshot and all 6 F4 derived-state holdout fixtures, executed in SQLite and DuckDB.",
+ "F3":"Persist version/event records and perform native temporal reads at fixture commit cutoff; one atomic multi-column snapshot version. Repeat-read case uses two live connections and a real committed writer in between reads; exact reader has one transaction, control reads in autocommit. Other controls use latest even if newer, skip a tombstone, strict cutoff instead of inclusive, combine attributes across versions, or order by event date instead of commit ID.",
+ "F4":"Persist source data, materialize the old derived value as a normal table, apply actual SQL mutations in a transaction, then execute a fresh native query and compare against stale pre-mutation results. The no-op width control is retained. No engine-maintained materialized view, refresh policy or incremental performance claims.",
+ "oracle":"Use frozen independently locked semantic checker, with model/candidate reconstructed from measured query tuples. Inputs from blinded fixtures. Every planned arm retained, errors separately recorded."
+}

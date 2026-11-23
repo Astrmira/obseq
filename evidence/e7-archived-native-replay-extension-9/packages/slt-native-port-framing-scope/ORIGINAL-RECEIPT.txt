@@ -1,0 +1,2 @@
+Original frozen adapter SHA-256: 9d36cde926abba4744ab2f78d165cd74a81aa97df78d08c8c6ac31016dd6bf36
+Portable copy supplies two local runtime paths explicitly and keeps the exact runtime/input hashes, unchanged fixtures and scoring.

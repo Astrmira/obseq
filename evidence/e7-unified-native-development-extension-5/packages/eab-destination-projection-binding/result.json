@@ -1,0 +1,95 @@
+{
+  "cases": {
+    "baseline": {
+      "rows": [
+        [
+          11,
+          0,
+          101
+        ],
+        [
+          12,
+          null,
+          102
+        ],
+        [
+          13,
+          43,
+          103
+        ]
+      ],
+      "safe_scoped_reuse": true,
+      "same_final": true,
+      "whole_state_accepts": true
+    },
+    "overwritten-only": {
+      "rows": [
+        [
+          11,
+          0,
+          101
+        ],
+        [
+          12,
+          null,
+          102
+        ],
+        [
+          13,
+          43,
+          103
+        ]
+      ],
+      "safe_scoped_reuse": true,
+      "same_final": true,
+      "whole_state_accepts": false
+    },
+    "preserved-value": {
+      "rows": [
+        [
+          11,
+          0,
+          101
+        ],
+        [
+          12,
+          null,
+          102
+        ],
+        [
+          13,
+          9,
+          103
+        ]
+      ],
+      "safe_scoped_reuse": false,
+      "same_final": false,
+      "whole_state_accepts": false
+    },
+    "protected-control": {
+      "rows": [
+        [
+          11,
+          0,
+          801
+        ],
+        [
+          12,
+          null,
+          102
+        ],
+        [
+          13,
+          43,
+          103
+        ]
+      ],
+      "safe_scoped_reuse": false,
+      "same_final": false,
+      "whole_state_accepts": false
+    }
+  },
+  "exact_projection_controls": 3645,
+  "gdal": "3100300",
+  "sqlite": "3.46.1"
+}

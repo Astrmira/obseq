@@ -1,0 +1,42 @@
+OMP_NUM_THREADS=1 without affinity or OMP_THREAD_LIMIT
+R version 4.5.0 (2025-04-11); data.table=1.17.0; requested threads=9
+  OpenMP version (_OPENMP)       201511
+  omp_get_num_procs()            9
+  R_DATATABLE_NUM_PROCS_PERCENT  unset (default 50)
+  R_DATATABLE_NUM_THREADS        unset
+  R_DATATABLE_THROTTLE           unset (default 1024)
+  omp_get_thread_limit()         2147483647
+  omp_get_max_threads()          1
+  OMP_THREAD_LIMIT               unset
+  OMP_NUM_THREADS                1
+  RestoreAfterFork               true
+  data.table is using 9 threads with throttle==1024. See ?setDTthreads.
+[1] 9
+OMP_THREAD_LIMIT=1 without affinity
+R version 4.5.0 (2025-04-11); data.table=1.17.0; requested threads=1
+  OpenMP version (_OPENMP)       201511
+  omp_get_num_procs()            9
+  R_DATATABLE_NUM_PROCS_PERCENT  unset (default 50)
+  R_DATATABLE_NUM_THREADS        unset
+  R_DATATABLE_THROTTLE           unset (default 1024)
+  omp_get_thread_limit()         1
+  omp_get_max_threads()          1
+  OMP_THREAD_LIMIT               1
+  OMP_NUM_THREADS                1
+  RestoreAfterFork               true
+  data.table is using 1 threads with throttle==1024. See ?setDTthreads.
+[1] 1
+OMP_THREAD_LIMIT=1 and single affinity
+R version 4.5.0 (2025-04-11); data.table=1.17.0; requested threads=1
+  OpenMP version (_OPENMP)       201511
+  omp_get_num_procs()            1
+  R_DATATABLE_NUM_PROCS_PERCENT  unset (default 50)
+  R_DATATABLE_NUM_THREADS        unset
+  R_DATATABLE_THROTTLE           unset (default 1024)
+  omp_get_thread_limit()         1
+  omp_get_max_threads()          1
+  OMP_THREAD_LIMIT               1
+  OMP_NUM_THREADS                1
+  RestoreAfterFork               true
+  data.table is using 1 threads with throttle==1024. See ?setDTthreads.
+[1] 1

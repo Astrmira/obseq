@@ -1,0 +1,7 @@
+{
+ "objective":"Test exact equivalence of tied-row multiset or cut-pool outputs with per-coordinate declared numerical tolerance and exact identifier keys.",
+ "reference":"Independent rectangular SciPy maximum bipartite matching using direct rational edge predicate versus compressed scalar or adaptive interval admission; literal permutations for small positive and negative controls.",
+ "generators":{"seed":72193453,"small_trials":450,"scale_per_axis":10000},
+ "tolerance":"Fractions, finite inputs, either fixed abs >=0 or simultaneous mixed absolute+relative max with 0<=r<1; not transitive equivalence. Test both signed domains and exact threshold equality.",
+ "real_scope":"The prior stock SpecBridge measured issue motivates this authored math/algorithm packet; not workload rates or a runtime benchmark."
+}

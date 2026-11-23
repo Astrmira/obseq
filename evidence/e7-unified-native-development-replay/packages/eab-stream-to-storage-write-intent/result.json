@@ -1,0 +1,133 @@
+{
+  "gdal": "3100300",
+  "openpyxl": "3.1.5",
+  "results": {
+    "contract": {
+      "intent_drift": [],
+      "persisted": {
+        "11": [
+          4,
+          111
+        ],
+        "12": [
+          null,
+          112
+        ],
+        "13": [
+          43,
+          113
+        ],
+        "14": [
+          0,
+          114
+        ]
+      },
+      "status": {
+        "11": [
+          "WRITE",
+          "success"
+        ],
+        "12": [
+          "CLEAR",
+          "success"
+        ],
+        "13": [
+          "UNCACHED",
+          "needs-value"
+        ],
+        "14": [
+          "WRITE",
+          "success"
+        ]
+      },
+      "value_drift": []
+    },
+    "default": {
+      "intent_drift": [
+        13,
+        14
+      ],
+      "persisted": {
+        "11": [
+          4,
+          111
+        ],
+        "12": [
+          null,
+          112
+        ],
+        "13": [
+          null,
+          113
+        ],
+        "14": [
+          44,
+          114
+        ]
+      },
+      "status": {
+        "11": [
+          "WRITE",
+          "success"
+        ],
+        "12": [
+          "CLEAR",
+          "success"
+        ],
+        "13": [
+          "CLEAR",
+          "success"
+        ]
+      },
+      "value_drift": [
+        13,
+        14
+      ]
+    },
+    "reset_only": {
+      "intent_drift": [
+        13
+      ],
+      "persisted": {
+        "11": [
+          4,
+          111
+        ],
+        "12": [
+          null,
+          112
+        ],
+        "13": [
+          null,
+          113
+        ],
+        "14": [
+          0,
+          114
+        ]
+      },
+      "status": {
+        "11": [
+          "WRITE",
+          "success"
+        ],
+        "12": [
+          "CLEAR",
+          "success"
+        ],
+        "13": [
+          "CLEAR",
+          "success"
+        ],
+        "14": [
+          "WRITE",
+          "success"
+        ]
+      },
+      "value_drift": [
+        13
+      ]
+    }
+  },
+  "sqlite": "3.46.1"
+}

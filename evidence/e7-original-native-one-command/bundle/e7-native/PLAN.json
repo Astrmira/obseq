@@ -1,0 +1,23 @@
+{
+  "source": "../e7-scored/BLIND.json",
+  "scope": "All twelve F1/F2 heldout inputs, not all E7 failure modes.",
+  "engines": [
+    "sqlite",
+    "duckdb",
+    "polars",
+    "datafusion"
+  ],
+  "execute": "Native SQL (sqlite/duckdb/datafusion), native eager dataframe operations (polars). Text intake is preserved for integral casts; signed inputs are within Int64. Python only loads fixture bytes, supplies expected contract output and compares results after native operation. No labels are used to select cases or operations.",
+  "F1": {
+    "exact": "Cast fixture strings to signed BIGINT/Int64; native mathematical equality, projection, distinct count, decimal-string cast, max, subtraction.",
+    "control": "Cast same fixture strings to double/binary64; perform identical operation and expose its output without rounding or coercing it back to Int64. Binary64 integral values compare numerically to exact integers, without type-only rejection, so accidentally correct values remain accepted.",
+    "reference": "Pure Python signed int, exact operations; native FLOAT is interpreted by Fraction(value), not string-rounded."
+  },
+  "F2": {
+    "exact": "NULL-safe comparison/join precisely where specified, otherwise ordinary SQL nonmatch at NULL, plus left outer where specified. Preserve multiplicities.",
+    "control": "Flip NULL policy only, preserve input/outer behavior and multiplicities. The full cohort is kept, including controls whose outputs remain valid.",
+    "reference": "Independent nested loops over exact typed input keys with contract SQL missing-value policy; row pairs compared as a bag."
+  },
+  "count_policy": "Every engine/case/arm gets one row. Errors or unsupported cases are recorded with exception type, confer no passes, and are not converted to observed invalid outputs. Mutant/control results are negative challenge only, not engine bugs. Correctness is output-level, not latency, benchmark or full engine claims.",
+  "adapter_revision": "After initial lock, explicitly parenthesized each component comparison in compound joins in SQL to remove DataFusion precedence ambiguity. Initial lock/script/results retained. No data, control, engine versions, reference, or reducer changes."
+}

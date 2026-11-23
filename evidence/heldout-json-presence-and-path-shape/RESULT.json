@@ -1,0 +1,24 @@
+{
+  "collapsed_nonvalue_cases": 16,
+  "distinct_collapsed_nonvalue_classes": 4,
+  "exact_engine_matches": {
+    "duckdb": 24,
+    "postgres": 24,
+    "sqlite": 24
+  },
+  "failures": [],
+  "maximum_label_only_recall_among_collapsed_cases": 8,
+  "panel": 24,
+  "truth_status_counts": {
+    "explicit-null": 2,
+    "missing-index": 3,
+    "missing-key": 3,
+    "value": 8,
+    "wrong-container": 8
+  },
+  "versions": {
+    "duckdb": "2.0.1",
+    "postgres": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+    "sqlite": "3.53.1"
+  }
+}

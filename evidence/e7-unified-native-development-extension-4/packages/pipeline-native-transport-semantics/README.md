@@ -1,0 +1,12 @@
+# Scalar SQL NULL is not always an explicit write
+
+This witness tests actual GDAL OGRSQL and SQLITE dialects over one OGR Memory layer. COUNT/SUM/AVG return one row; the oracle is independent SQLite plus direct arithmetic. We intentionally separate projected scalar value, GDAL field state and Arrow validity, and actual stored SQLite value after a GeoPackage write. See contract.md for scope defined before the tests.
+
+- The isolated aggregate projections and Arrow masks agree in all 40 dialect/selection/operator cases. For each SUM and AVG with no non-NULL inputs (empty selection, all explicitly null, all unset), both project None and have a masked Arrow slot. But the OGRSQL feature field is UNSET, whereas the SQLITE feature field is explicitly NULL.
+- The test manually transports those three field states to a GeoPackage feature. In the nullable no-default column, the written values agree in all cases. In the nullable DEFAULT 99 column, the six OGRSQL absent aggregates become 99 under state-preserving copy rather than SQL NULL. All provided values, including ordinary zero COUNT results, survive.
+- With explicit SQL-null normalization at the write boundary, all 40 writes conform in both columns. Across the two treatments there are 80 feature materializations and six default-induced differences. Readback queries SQLite directly after closing the GeoPackage writer.
+
+This is not an isolated dialect bug assertion. Under OGR semantics both states read as absent, and omitting a defaulted field can intentionally invoke its default. The mismatch is in treating an aggregate NULL as an omitted INSERT assignment. The preservation rule needs an operation-level distinction between producing a SQL NULL value and making no assignment. The Arrow validity bit does not encode this distinction, so a benchmark should require a sink-aware operation contract when that choice is observable; it should not demand distinct Arrow arrays for scalar values that are both missing. Verify explicit NULL, omission, and provided values under a destination default, and include an otherwise matched no-default control to separate stage losses that remain latent from ones that actually change output. This experiment does not use Arrow to write GeoPackage, cover other dialects/versions, or measure performance.
+
+Replay on GDAL 3.10.3, NumPy 2.2.4 and SQLite 3.46.1:
+`/usr/bin/python3 -IB check.py | cmp - result.json`

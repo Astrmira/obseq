@@ -1,0 +1,27 @@
+{
+  "construct": "private persisted staged copies with source strings unchanged",
+  "duckdb": "1.4.3",
+  "exact_cast_integer_comparisons_agree": 17914,
+  "explicit_text_serialization_recovers": 17914,
+  "json_uncoerced_key_comparisons_agree": 0,
+  "native_readback_json_types_duckdb": {
+    "ordinary": {
+      "UBIGINT": 17914
+    },
+    "strict": {
+      "VARCHAR": 17914
+    }
+  },
+  "source_rows": 17914,
+  "sqlite": "3.53.1",
+  "sqlite_type_counts": {
+    "ordinary": {
+      "integer": 17914
+    },
+    "strict": {
+      "text": 17914
+    }
+  },
+  "strictness_flag_differs": true,
+  "typed_fid_attribute_declarations_equal": true
+}

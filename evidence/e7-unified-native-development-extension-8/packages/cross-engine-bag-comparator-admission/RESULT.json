@@ -1,0 +1,43 @@
+{
+  "authored_null_rows": 1,
+  "changed_exact_ids": 10665,
+  "collision_classes": 1,
+  "postgres_assertions": {
+    "bound_common_type": "double precision",
+    "exact_lift_1": "10665",
+    "exact_lift_2": "10665",
+    "exact_value_eq_count": "12078",
+    "exact_widening_1": "0",
+    "exact_widening_2": "0",
+    "json_presence_1": "1",
+    "json_presence_2": "1",
+    "native_mixed_1": "0",
+    "native_mixed_2": "0",
+    "native_mixed_eq_count": "22743",
+    "native_multiset_dup_1": "1",
+    "native_multiset_dup_2": "1",
+    "native_set_dup_1": "0",
+    "native_set_dup_2": "0"
+  },
+  "postgres_version": "postgres (PostgreSQL) 17.12 (Debian 17.12-0+deb13u1)",
+  "sqlite": {
+    "duplicate_grouped_bag_directions": [
+      1,
+      1
+    ],
+    "explicit_both_real_distinct_directions": [
+      0,
+      0
+    ],
+    "mixed_grouped_bag_directions": [
+      10665,
+      10665
+    ],
+    "mixed_native_distinct_directions": [
+      10665,
+      10665
+    ],
+    "version": "3.53.1"
+  },
+  "tweet_rows": 22743
+}

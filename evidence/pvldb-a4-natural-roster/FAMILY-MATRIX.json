@@ -1,0 +1,6265 @@
+{
+  "families": {
+    "categorical-membership-logical-equality": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "copy-summary-bound": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "group-collation-type": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "group-null-reassignment": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "insert-decimal-export": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "melt-timezone": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "nested-sibling-null-explode": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "nested-timezone": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "null-sort-topn": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "nullable-cumulative-group-type": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "pandas-annual-boundaries": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 6,
+        "legal_accepted": 0,
+        "legal_na": 6,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "multiset": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-5": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 6
+      },
+      "set": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 6,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 6,
+        "legal_accepted": 0,
+        "legal_na": 6,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 6,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 6
+      }
+    },
+    "pandas-asof-string-boundary": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "multiset": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "rtol1e-5": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "set": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      }
+    },
+    "pandas-groupby-snapshot": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 7,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 7,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 7,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "pandas-historical-rolling-moments": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 0,
+        "legal_na": 0,
+        "legal_rejected": 1,
+        "missed": 0
+      }
+    },
+    "pandas-idempotent-partial-key-write": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 5,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 5,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 5,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "pandas-index-uniqueness-cache": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "multiset": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "rtol1e-5": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      },
+      "set": {
+        "detected": 3,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 3,
+        "legal_accepted": 0,
+        "legal_na": 3,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 3,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 3
+      }
+    },
+    "pandas-reversed-positional-write": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 4,
+        "legal_accepted": 0,
+        "legal_na": 8,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "multiset": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "rtol1e-5": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "set": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 4,
+        "legal_accepted": 0,
+        "legal_na": 8,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 4,
+        "illegal_na": 0,
+        "legal_accepted": 8,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "pandas-timedelta-cancellation": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 96,
+        "legal_accepted": 0,
+        "legal_na": 444,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 96
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 96
+      },
+      "multiset": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 96
+      },
+      "rtol1e-5": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 96
+      },
+      "set": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 96,
+        "legal_accepted": 0,
+        "legal_na": 444,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 96,
+        "legal_accepted": 0,
+        "legal_na": 444,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 96,
+        "illegal_na": 0,
+        "legal_accepted": 444,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "pivot-null-buckets": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "polars-cache-lineage": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "polars-categorical-series-topk": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 20,
+        "legal_accepted": 0,
+        "legal_na": 28,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 16,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 4
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 20
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 20
+      },
+      "multiset": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 20
+      },
+      "rtol1e-5": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 20
+      },
+      "set": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 20,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 20,
+        "legal_accepted": 0,
+        "legal_na": 28,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 28,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 20
+      }
+    },
+    "polars-grouped-coupled-representative": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 52,
+        "legal_accepted": 0,
+        "legal_na": 236,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 236,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 52
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 236,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 52
+      },
+      "multiset": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 236,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 52
+      },
+      "rtol1e-5": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 236,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 52
+      },
+      "set": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 52,
+        "legal_accepted": 0,
+        "legal_na": 236,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 52,
+        "illegal_na": 0,
+        "legal_accepted": 84,
+        "legal_na": 0,
+        "legal_rejected": 152,
+        "missed": 0
+      }
+    },
+    "precision-ring-measure": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "multiset": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "rtol1e-5": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "set": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "prepared-snapshot-count": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      }
+    },
+    "rolling-variance-cancellation": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "styler-index-representation": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-9": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "uint64-mixed-input": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-9": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    },
+    "upsert-state-and-receipt": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "multiset": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "rtol1e-5": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      },
+      "set": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 2,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 2,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 2
+      }
+    },
+    "valid-segment-intersection": {
+      "byte_hash": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "datacompy_keyed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_stock_relationships": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dbt_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "deequ_stock_size": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "deequ_typed_fixed_golden": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "dvc_fingerprint": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "great_expectations_rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "multiset": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "ordered": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_check_like": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "pandas_dtype_relaxed": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_default": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "polars_ignore_order": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rowcount": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "rtol1e-5": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "rtol1e-9": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "schema": {
+        "detected": 0,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 1
+      },
+      "set": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_nosort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_rowsort_hash_threshold1": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "slt_valuesort": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sqlite_integrity": {
+        "detected": 0,
+        "illegal_na": 1,
+        "legal_accepted": 0,
+        "legal_na": 1,
+        "legal_rejected": 0,
+        "missed": 0
+      },
+      "sum": {
+        "detected": 1,
+        "illegal_na": 0,
+        "legal_accepted": 1,
+        "legal_na": 0,
+        "legal_rejected": 0,
+        "missed": 0
+      }
+    }
+  },
+  "method_totals": {
+    "datacompy_keyed": {
+      "pairs_with_any_fault_detected": 27,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 27
+    },
+    "dbt_stock_relationships": {
+      "pairs_with_any_fault_detected": 26,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 24
+    },
+    "dbt_typed_fixed_golden": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "deequ_stock_size": {
+      "pairs_with_any_fault_detected": 4,
+      "pairs_with_any_legal_arm_rejected": 0,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 4
+    },
+    "deequ_typed_fixed_golden": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "dvc_fingerprint": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "great_expectations_rowcount": {
+      "pairs_with_any_fault_detected": 4,
+      "pairs_with_any_legal_arm_rejected": 0,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 4
+    },
+    "multiset": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "ordered": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "pandas_check_like": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "pandas_default": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "pandas_dtype_relaxed": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "polars_default": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "polars_ignore_order": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "rowcount": {
+      "pairs_with_any_fault_detected": 4,
+      "pairs_with_any_legal_arm_rejected": 0,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 4
+    },
+    "rtol1e-5": {
+      "pairs_with_any_fault_detected": 27,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 27
+    },
+    "rtol1e-9": {
+      "pairs_with_any_fault_detected": 27,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 27
+    },
+    "schema": {
+      "pairs_with_any_fault_detected": 6,
+      "pairs_with_any_legal_arm_rejected": 0,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 6
+    },
+    "set": {
+      "pairs_with_any_fault_detected": 29,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 29
+    },
+    "slt_nosort": {
+      "pairs_with_any_fault_detected": 24,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 24,
+      "pairs_with_determinate_legal_arm": 26,
+      "pairs_with_every_illegal_arm_detected": 24
+    },
+    "slt_rowsort": {
+      "pairs_with_any_fault_detected": 24,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 24,
+      "pairs_with_determinate_legal_arm": 26,
+      "pairs_with_every_illegal_arm_detected": 24
+    },
+    "slt_rowsort_hash_threshold1": {
+      "pairs_with_any_fault_detected": 22,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 22,
+      "pairs_with_determinate_legal_arm": 22,
+      "pairs_with_every_illegal_arm_detected": 22
+    },
+    "slt_valuesort": {
+      "pairs_with_any_fault_detected": 22,
+      "pairs_with_any_legal_arm_rejected": 1,
+      "pairs_with_determinate_illegal_arm": 23,
+      "pairs_with_determinate_legal_arm": 26,
+      "pairs_with_every_illegal_arm_detected": 22
+    },
+    "sum": {
+      "pairs_with_any_fault_detected": 17,
+      "pairs_with_any_legal_arm_rejected": 2,
+      "pairs_with_determinate_illegal_arm": 29,
+      "pairs_with_determinate_legal_arm": 29,
+      "pairs_with_every_illegal_arm_detected": 17
+    }
+  },
+  "release_pairs": 29
+}

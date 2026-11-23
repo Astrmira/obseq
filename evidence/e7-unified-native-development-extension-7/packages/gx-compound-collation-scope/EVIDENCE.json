@@ -1,0 +1,11 @@
+{
+  "files_sha256": {
+    "GX-ARTIFACT.json": "23a079a5b9cbaf15572e715e6268c3d524356350075558981fe64c0fe0137f00",
+    "README.md": "5b0953c25d6cc7eeb86b557f99770a7a222ec43f5dda6ef97a19e9a33e8183f7",
+    "RESULT.json": "ef9260200a5d1f68af7209d432cfc730a39a2e96bfd8e6dce75bf59cd35e71a4",
+    "SHA256SUMS": "af2f912b966147a82dd61f7cf7edf307e073d909e45acc6c703a9a52523f1a59",
+    "check.py": "df17eb9690c25764a89a0fbe3efd4f8dacf9e96e2249c93aaf101685295d4cdd"
+  },
+  "predecessor": "94a7253bd7768a7c67539be44b5ee6801358253f",
+  "project": "semantic-benchmark"
+}

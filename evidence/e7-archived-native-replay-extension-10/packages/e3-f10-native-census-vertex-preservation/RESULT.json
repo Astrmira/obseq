@@ -1,0 +1,49 @@
+{
+  "baseline_covers": 52,
+  "cells": [
+    {
+      "grid": 1e-09,
+      "row_count": 52,
+      "weak_pass": 52,
+      "weak_pass_anchor_loss": 4,
+      "witness_ordinal_sha256": "5aadbca47058f6a22638315b45b0dda3433315a8e84c1742bd1eaa860968b4ef"
+    },
+    {
+      "grid": 1e-08,
+      "row_count": 52,
+      "weak_pass": 52,
+      "weak_pass_anchor_loss": 2,
+      "witness_ordinal_sha256": "3f0b6caee7dd1f1e7e6a6f7062b490709b303d89c95e63eb73f3686d3488c8bd"
+    },
+    {
+      "grid": 1e-07,
+      "row_count": 52,
+      "weak_pass": 52,
+      "weak_pass_anchor_loss": 4,
+      "witness_ordinal_sha256": "9aba8b57d0c4dfb805bd9e7552744a8805f439d9a7c777ee1d49914ba44324d2"
+    },
+    {
+      "grid": 1e-06,
+      "row_count": 52,
+      "weak_pass": 52,
+      "weak_pass_anchor_loss": 2,
+      "witness_ordinal_sha256": "c1eceeb00a0dfe46da470a1edff1b0ae4c997b376a9e16a847b569e4b3922beb"
+    },
+    {
+      "grid": 1e-05,
+      "row_count": 52,
+      "weak_pass": 52,
+      "weak_pass_anchor_loss": 36,
+      "witness_ordinal_sha256": "2b34eab4b07ee60b997d5883aa759da9f28b5d26b60d119502eb9edb5a0b9598"
+    }
+  ],
+  "excluded": 0,
+  "geos": "3.14.1",
+  "shapely": "2.2.0",
+  "source": {
+    "count": 52,
+    "gdal": "3.10.3",
+    "srs": "4269"
+  },
+  "source_sha256": "7bc773d83c01b6df69b8aada9c2b5983d97f22f4551947cc5c00b87c663223ef"
+}

@@ -1,0 +1,95 @@
+{
+  "purpose": "Unscored case inventory; no expected values, classification or outcome counts.",
+  "cases": [
+    {
+      "id": "E7G01",
+      "family": "group",
+      "operator": "limit"
+    },
+    {
+      "id": "E7G02",
+      "family": "group",
+      "operator": "rank"
+    },
+    {
+      "id": "E7G03",
+      "family": "group",
+      "operator": "limit"
+    },
+    {
+      "id": "E7G04",
+      "family": "group",
+      "operator": "rank"
+    },
+    {
+      "id": "E7G05",
+      "family": "group",
+      "operator": "dense_rank"
+    },
+    {
+      "id": "E7G06",
+      "family": "group",
+      "operator": "limit"
+    },
+    {
+      "id": "E7G07",
+      "family": "group",
+      "operator": "rank"
+    },
+    {
+      "id": "E7G08",
+      "family": "group",
+      "operator": "limit"
+    },
+    {
+      "id": "E7T01",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T02",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T03",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T04",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T05",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T06",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T07",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T08",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T09",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    },
+    {
+      "id": "E7T10",
+      "family": "paired_civil",
+      "operator": "nonnegative_duration"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "eligible_rows": 4072024,
+    "excluded_rows": 109420,
+    "groups": 260,
+    "groups_where_marginals_overaccept": 122,
+    "groups_with_any_null_winning_payload": 233,
+    "groups_with_payload_ties": 186,
+    "groups_with_source_row_ties": 190,
+    "last_ordinal_differs_from_first": 190,
+    "last_payload_differs_from_first": 185,
+    "max_winning_source_rows": 542,
+    "native_independent_min_false_accept_groups": 120,
+    "native_ordinal_differs_from_first": 0,
+    "native_payload_differs_from_first": 0,
+    "noncoherent_marginal_payloads": 66849,
+    "physical_rows": 4181444,
+    "winning_source_rows": 14922
+  },
+  "duckdb": "1.4.3",
+  "native_legal_cases": 3,
+  "pyarrow": "26.0.1",
+  "rank_and_membership": "exact finite stored binary64 and typed tuple",
+  "timings": null
+}

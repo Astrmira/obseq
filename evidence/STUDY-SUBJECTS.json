@@ -1,0 +1,16 @@
+{
+  "counting_unit": "producer or consumer family in the study design",
+  "runtime_families": [
+    "DuckDB",
+    "PostgreSQL",
+    "SQLite",
+    "DataFusion",
+    "Polars",
+    "pandas",
+    "GDAL/GEOS",
+    "openpyxl",
+    "LibreOffice Calc"
+  ],
+  "carrier": "PyArrow",
+  "reference": "papers/pvldb-typed-oracles/paper/sections/design.tex, subject table"
+}

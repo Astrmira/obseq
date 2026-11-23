@@ -1,0 +1,174 @@
+{
+  "polars": "1.35.2",
+  "sqlite": "3.53.1",
+  "results": {
+    "target": {
+      "sql": "SELECT MIN(v),COUNT(*) FROM q GROUP BY LOWER(v)",
+      "polars": [
+        [
+          "a",
+          1
+        ],
+        [
+          "a",
+          3
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "polars_plan": "SELECT [col(\"v\").min(), col(\"len\")]\n  AGGREGATE[maintain_order: false]\n    [len()] BY [col(\"v\").str.lowercase()]\n    FROM\n    DF [\"v\"]; PROJECT */1 COLUMNS"
+    },
+    "aggregate_alias": {
+      "sql": "SELECT MIN(v) AS lo, COUNT(*) AS n FROM q GROUP BY LOWER(v)",
+      "polars": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ]
+    },
+    "min_alias_only": {
+      "sql": "SELECT MIN(v) AS lo, COUNT(*) FROM q GROUP BY LOWER(v)",
+      "polars": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "polars_plan": "SELECT [col(\"lo\"), col(\"len\")]\n  AGGREGATE[maintain_order: false]\n    [col(\"v\").min().alias(\"lo\"), len()] BY [col(\"v\").str.lowercase()]\n    FROM\n    DF [\"v\"]; PROJECT */1 COLUMNS"
+    },
+    "count_alias_only": {
+      "sql": "SELECT MIN(v), COUNT(*) AS n FROM q GROUP BY LOWER(v)",
+      "polars": [
+        [
+          "a",
+          1
+        ],
+        [
+          "a",
+          3
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "polars_plan": "SELECT [col(\"v\").min(), col(\"n\")]\n  AGGREGATE[maintain_order: false]\n    [len().alias(\"n\")] BY [col(\"v\").str.lowercase()]\n    FROM\n    DF [\"v\"]; PROJECT */1 COLUMNS"
+    },
+    "named_key": {
+      "sql": "SELECT LOWER(v) AS k,MIN(v) AS lo,COUNT(*) AS n FROM q GROUP BY k",
+      "polars": {
+        "error": "ColumnNotFoundError",
+        "message": "unable to find column \"k\"; valid columns: [\"v\"]"
+      },
+      "sqlite": [
+        [
+          "a",
+          "A",
+          3
+        ],
+        [
+          "b",
+          "B",
+          1
+        ]
+      ]
+    },
+    "named_subquery": {
+      "sql": "SELECT MIN(v) AS lo,COUNT(*) AS n FROM (SELECT v,LOWER(v) AS k FROM q) s GROUP BY k",
+      "polars": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          3
+        ],
+        [
+          "B",
+          1
+        ]
+      ]
+    },
+    "grouping_base_control": {
+      "sql": "SELECT MIN(v),COUNT(*) FROM q GROUP BY v",
+      "polars": [
+        [
+          "A",
+          1
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "sqlite": [
+        [
+          "A",
+          1
+        ],
+        [
+          "B",
+          1
+        ],
+        [
+          "a",
+          2
+        ]
+      ]
+    }
+  }
+}

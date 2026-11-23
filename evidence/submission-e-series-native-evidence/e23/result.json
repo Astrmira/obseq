@@ -1,0 +1,4056 @@
+{
+  "plan_hash": "2e622e438ebc1fdf5fdb2f0c160e601273295a911645e43f21cd680ad9ed45d0",
+  "cohort": "authored_development",
+  "engine_versions": {
+    "sqlite": "3.53.1",
+    "duckdb": "1.4.3",
+    "polars": "1.35.2",
+    "datafusion": "50.1.0",
+    "gdal": "3.10.3",
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5"
+  },
+  "observations": [
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "datafusion",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3,
+          "blue"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "datafusion",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "datafusion",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "duckdb",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "duckdb",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3,
+          "blue"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "duckdb",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "duckdb",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3,
+          "blue"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-coupled",
+      "adapter": "sqlite",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          6,
+          "gray"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2,
+          "green"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "datafusion",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "datafusion",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "datafusion",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "duckdb",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "duckdb",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "duckdb",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "duckdb",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "polars",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "polars",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "polars",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "polars",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          3
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-group-representative",
+      "adapter": "sqlite",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1
+        ],
+        [
+          "b",
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          2
+        ],
+        [
+          "b",
+          4
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "datafusion",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "datafusion",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "datafusion",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "duckdb",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "duckdb",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "duckdb",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "duckdb",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-row-number",
+      "adapter": "sqlite",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          5,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "a",
+          1,
+          "red"
+        ],
+        [
+          "b",
+          4,
+          "white"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "datafusion",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "datafusion",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "datafusion",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "duckdb",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "duckdb",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "duckdb",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "duckdb",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "polars",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "polars",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "polars",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "polars",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          4,
+          "b",
+          90,
+          "white"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O3-top-k",
+      "adapter": "sqlite",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "datafusion:0",
+      "observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          "a",
+          100,
+          "red"
+        ],
+        [
+          5,
+          "b",
+          90,
+          "black"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-date-serial-45001",
+      "adapter": "openpyxl",
+      "arm": "style",
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "openpyxl:raw",
+      "observation": [
+        [
+          "2023-03-16T00:00:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          45001
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-date-serial-59",
+      "adapter": "openpyxl",
+      "arm": "style",
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "openpyxl:raw",
+      "observation": [
+        [
+          "1900-02-28T00:00:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          59
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-date-serial-61",
+      "adapter": "openpyxl",
+      "arm": "style",
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "openpyxl:raw",
+      "observation": [
+        [
+          "1900-03-01T00:00:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          61
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-exact-numeric-text",
+      "adapter": "python_csv",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "python_csv:0",
+      "observation": [
+        [
+          "1.000"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-exact-numeric-text",
+      "adapter": "python_csv",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "python_csv:0",
+      "observation": [
+        [
+          "1e0"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-exact-numeric-text",
+      "adapter": "python_csv",
+      "arm": 3,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "python_csv:0",
+      "observation": [
+        [
+          "+01.00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-point-set-and-wkb",
+      "adapter": "gdal-geos",
+      "arm": 1,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": true,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "gdal-geos:0",
+      "observation": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "gold_observation": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "experiment": "E2",
+      "case": "O4-point-set-and-wkb",
+      "adapter": "gdal-geos",
+      "arm": 2,
+      "expected_legal": true,
+      "typed_oracle_pass": true,
+      "tests": {
+        "ordered": false,
+        "multiset": true,
+        "set": true,
+        "byte_hash": false,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "gold_arm": "gdal-geos:0",
+      "observation": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "gold_observation": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "experiment": "E3",
+      "case": "F1",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1.8014398509481984e+16
+        ],
+        [
+          1.8014398509481984e+16
+        ]
+      ],
+      "gold_observation": [
+        [
+          18014398509481984
+        ],
+        [
+          18014398509481985
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F2",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": false,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          10,
+          30
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          11,
+          32
+        ]
+      ],
+      "gold_observation": [
+        [
+          10,
+          30
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F3",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          1,
+          0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          100
+        ]
+      ],
+      "detail": "old main-file digest vs active WAL main-file digest"
+    },
+    {
+      "experiment": "E3",
+      "case": "F4",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          3,
+          6
+        ]
+      ],
+      "gold_observation": [
+        [
+          3,
+          7
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F5",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "detail": {
+        "keep_nonnull": [
+          [
+            1,
+            4
+          ]
+        ],
+        "clear_nonnull": [
+          [
+            1,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F6",
+      "adapter": "python_fixture",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          10
+        ],
+        [
+          100,
+          9
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F7",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          27
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          30
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F8",
+      "adapter": "pandas",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          "2024-11-03 01:15:00",
+          "2024-11-03T01:15:00-04:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "2024-11-03 01:15:00",
+          "reject"
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F9",
+      "adapter": "sqlite",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": true,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1.0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": {
+        "native_typeof": "real"
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F10",
+      "adapter": "python_fraction_control",
+      "arm": 0,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F1",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1.801439850948199e+16
+        ],
+        [
+          1.801439850948199e+16
+        ]
+      ],
+      "gold_observation": [
+        [
+          18014398509481992
+        ],
+        [
+          18014398509481993
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F2",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": false,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          10,
+          30
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          11,
+          32
+        ]
+      ],
+      "gold_observation": [
+        [
+          10,
+          30
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F3",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          1,
+          1
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          101
+        ]
+      ],
+      "detail": "old main-file digest vs active WAL main-file digest"
+    },
+    {
+      "experiment": "E3",
+      "case": "F4",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          4,
+          8
+        ]
+      ],
+      "gold_observation": [
+        [
+          4,
+          9
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F5",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "detail": {
+        "keep_nonnull": [
+          [
+            1,
+            5
+          ]
+        ],
+        "clear_nonnull": [
+          [
+            1,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F6",
+      "adapter": "python_fixture",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          11
+        ],
+        [
+          101,
+          10
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          10
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F7",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          29
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F8",
+      "adapter": "pandas",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          "2025-11-02 01:31:00",
+          "2025-11-02T01:31:00-05:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "2025-11-02 01:31:00",
+          "reject"
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F9",
+      "adapter": "sqlite",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          "1"
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": {
+        "native_typeof": "text"
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F10",
+      "adapter": "python_fraction_control",
+      "arm": 1,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F1",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": false,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1.8014398509482e+16
+        ],
+        [
+          1.8014398509482e+16
+        ]
+      ],
+      "gold_observation": [
+        [
+          18014398509482000
+        ],
+        [
+          18014398509482001
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F2",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": false,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          10,
+          30
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          11,
+          32
+        ]
+      ],
+      "gold_observation": [
+        [
+          10,
+          30
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F3",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": true,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          1,
+          2
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          102
+        ]
+      ],
+      "detail": "old main-file digest vs active WAL main-file digest"
+    },
+    {
+      "experiment": "E3",
+      "case": "F4",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": true
+      },
+      "observation": [
+        [
+          5,
+          10
+        ]
+      ],
+      "gold_observation": [
+        [
+          5,
+          11
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F5",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": true,
+        "multiset": true,
+        "set": true,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          null
+        ]
+      ],
+      "detail": {
+        "keep_nonnull": [
+          [
+            1,
+            6
+          ]
+        ],
+        "clear_nonnull": [
+          [
+            1,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F6",
+      "adapter": "python_fixture",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          12
+        ],
+        [
+          102,
+          11
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          11
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F7",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          25
+        ]
+      ],
+      "gold_observation": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          28
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F8",
+      "adapter": "pandas",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": true,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          "2025-03-09 02:18:00",
+          "2025-03-09T03:00:00-04:00"
+        ]
+      ],
+      "gold_observation": [
+        [
+          "2025-03-09 02:18:00",
+          "reject"
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "experiment": "E3",
+      "case": "F9",
+      "adapter": "sqlite",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": true,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": true,
+        "rtol1e-9": true,
+        "sum": true,
+        "rowcount": true,
+        "schema": false,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          1.0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": {
+        "native_typeof": "real"
+      }
+    },
+    {
+      "experiment": "E3",
+      "case": "F10",
+      "adapter": "python_fraction_control",
+      "arm": 2,
+      "expected_legal": false,
+      "typed_oracle_pass": false,
+      "tests": {
+        "ordered": false,
+        "multiset": false,
+        "set": false,
+        "byte_hash": null,
+        "rtol1e-5": false,
+        "rtol1e-9": false,
+        "sum": false,
+        "rowcount": true,
+        "schema": true,
+        "sqlite_integrity": null
+      },
+      "observation": [
+        [
+          0
+        ]
+      ],
+      "gold_observation": [
+        [
+          1
+        ]
+      ],
+      "detail": null
+    }
+  ],
+  "errors": [
+    {
+      "case": "O3-row-number",
+      "adapter": "polars",
+      "arm": 0,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-row-number",
+      "adapter": "polars",
+      "arm": 1,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-row-number",
+      "adapter": "polars",
+      "arm": 2,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-row-number",
+      "adapter": "polars",
+      "arm": 3,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-coupled",
+      "adapter": "polars",
+      "arm": 0,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-coupled",
+      "adapter": "polars",
+      "arm": 1,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-coupled",
+      "adapter": "polars",
+      "arm": 2,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    },
+    {
+      "case": "O3-coupled",
+      "adapter": "polars",
+      "arm": 3,
+      "error": "SQLInterfaceError",
+      "message": "unsupported function 'row_number'"
+    }
+  ],
+  "comparators": {
+    "E2/typed_oracle": {
+      "metric": "false_reject",
+      "events": 0,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0,
+        0.060171852
+      ]
+    },
+    "E2/ordered": {
+      "metric": "false_reject",
+      "events": 34,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.441034388,
+        0.684276032
+      ]
+    },
+    "E2/multiset": {
+      "metric": "false_reject",
+      "events": 33,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.424919359,
+        0.669063456
+      ]
+    },
+    "E2/set": {
+      "metric": "false_reject",
+      "events": 32,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.40893427,
+        0.65372094
+      ]
+    },
+    "E2/byte_hash": {
+      "metric": "false_reject",
+      "events": 8,
+      "assessed": 8,
+      "na": 52,
+      "wilson95": [
+        0.675592435,
+        1
+      ]
+    },
+    "E2/rtol1e-5": {
+      "metric": "false_reject",
+      "events": 34,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.441034388,
+        0.684276032
+      ]
+    },
+    "E2/rtol1e-9": {
+      "metric": "false_reject",
+      "events": 34,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.441034388,
+        0.684276032
+      ]
+    },
+    "E2/sum": {
+      "metric": "false_reject",
+      "events": 30,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.377350242,
+        0.622649758
+      ]
+    },
+    "E2/rowcount": {
+      "metric": "false_reject",
+      "events": 0,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0,
+        0.060171852
+      ]
+    },
+    "E2/schema": {
+      "metric": "false_reject",
+      "events": 3,
+      "assessed": 60,
+      "na": 0,
+      "wilson95": [
+        0.017149502,
+        0.137005165
+      ]
+    },
+    "E2/sqlite_integrity": {
+      "metric": "false_reject",
+      "events": 0,
+      "assessed": 0,
+      "na": 60,
+      "wilson95": null
+    },
+    "E3/typed_oracle": {
+      "metric": "false_accept",
+      "events": 0,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0,
+        0.113513393
+      ]
+    },
+    "E3/ordered": {
+      "metric": "false_accept",
+      "events": 5,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.073365424,
+        0.335643505
+      ]
+    },
+    "E3/multiset": {
+      "metric": "false_accept",
+      "events": 3,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.034599889,
+        0.256210826
+      ]
+    },
+    "E3/set": {
+      "metric": "false_accept",
+      "events": 3,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.034599889,
+        0.256210826
+      ]
+    },
+    "E3/byte_hash": {
+      "metric": "false_accept",
+      "events": 3,
+      "assessed": 3,
+      "na": 27,
+      "wilson95": [
+        0.438502968,
+        1
+      ]
+    },
+    "E3/rtol1e-5": {
+      "metric": "false_accept",
+      "events": 8,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.141826633,
+        0.444479617
+      ]
+    },
+    "E3/rtol1e-9": {
+      "metric": "false_accept",
+      "events": 8,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.141826633,
+        0.444479617
+      ]
+    },
+    "E3/sum": {
+      "metric": "false_accept",
+      "events": 11,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.218739208,
+        0.544864363
+      ]
+    },
+    "E3/rowcount": {
+      "metric": "false_accept",
+      "events": 27,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.743789174,
+        0.965400111
+      ]
+    },
+    "E3/schema": {
+      "metric": "false_accept",
+      "events": 24,
+      "assessed": 30,
+      "na": 0,
+      "wilson95": [
+        0.626943036,
+        0.904948928
+      ]
+    },
+    "E3/sqlite_integrity": {
+      "metric": "false_accept",
+      "events": 6,
+      "assessed": 6,
+      "na": 24,
+      "wilson95": [
+        0.609665712,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,1195 @@
+{
+  "cases": {
+    "GPKG": [
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      }
+    ],
+    "Memory": [
+      {
+        "collation": "BINARY",
+        "extra": [
+          [
+            1,
+            "a"
+          ],
+          [
+            14,
+            "a"
+          ]
+        ],
+        "missing": [],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [
+          [
+            0,
+            "A"
+          ]
+        ],
+        "missing": [],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [
+          [
+            5,
+            "A "
+          ]
+        ],
+        "missing": [],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [
+          [
+            2,
+            "a "
+          ]
+        ],
+        "missing": [],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [
+          [
+            1,
+            "a"
+          ],
+          [
+            14,
+            "a"
+          ]
+        ],
+        "missing": [
+          [
+            5,
+            "A "
+          ]
+        ],
+        "shape": "direct",
+        "target": "A"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [
+          [
+            0,
+            "A"
+          ]
+        ],
+        "missing": [
+          [
+            2,
+            "a "
+          ],
+          [
+            3,
+            "a  "
+          ]
+        ],
+        "shape": "direct",
+        "target": "a"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [
+          [
+            5,
+            "A "
+          ]
+        ],
+        "missing": [
+          [
+            1,
+            "a"
+          ],
+          [
+            3,
+            "a  "
+          ],
+          [
+            14,
+            "a"
+          ]
+        ],
+        "shape": "direct",
+        "target": "a "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [
+          [
+            1,
+            "a"
+          ],
+          [
+            2,
+            "a "
+          ],
+          [
+            14,
+            "a"
+          ]
+        ],
+        "shape": "direct",
+        "target": "a  "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "a\t"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [
+          [
+            2,
+            "a "
+          ]
+        ],
+        "missing": [
+          [
+            0,
+            "A"
+          ]
+        ],
+        "shape": "direct",
+        "target": "A "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00df"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "SS"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "direct",
+        "target": ""
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "BINARY",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "NOCASE",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a  "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "a\t"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "A "
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00c4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e4"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00df"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "SS"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "\u00e9"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": "e\u0301"
+      },
+      {
+        "collation": "RTRIM",
+        "extra": [],
+        "missing": [],
+        "shape": "computed",
+        "target": ""
+      }
+    ]
+  },
+  "gdal": "3100300",
+  "sqlite": "3.46.1"
+}

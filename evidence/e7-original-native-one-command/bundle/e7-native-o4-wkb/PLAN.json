@@ -1,0 +1,8 @@
+{
+ "heldout_scope":"All six O4 equivalent WKB frozen fixture pairs only. No O4 numeric text, date serial, point-set or container claim.",
+ "native_paths":["GDAL/OGR CreateGeometryFromWkb","GEOS C GEOSWKBReader_read_r"],
+ "strict_contract":"Pinned OGC 2D finite points and empty LineString/MultiPoint forms only. Decode with each native reader, enforce scope and same-span encoding length independently; compare native geometry type and ordered XY (signed zero numeric equivalence). Observed parser rejection is a different field from contract rejection.",
+ "comparators":["raw byte equality to witness over-rejection","type-blind unordered ordinates intentionally fail point-order/empty-type distinctions","GEOS Equals topology, not a typed representation comparator"],
+ "oracle":"Frozen independent e7-scored PREDICTIONS.json verdicts and blind fixtures, checked only in separate score after execution.",
+ "limitations":"No parser defect claims, no topological or container-general extrapolation, no performance."
+}

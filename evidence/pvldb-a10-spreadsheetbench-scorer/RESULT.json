@@ -1,0 +1,734 @@
+{
+  "archive_sha256": "9cf7228b54f1edcdd4b372eb736774adf29cb4f804c9920229bac6c154833399",
+  "evaluator_sha256": "4ae77cee8df01d1f34684fceab972810d696886533d33be2e89373de6b4d3de3",
+  "grader_transitions": {
+    "fail -> fail": 1,
+    "pass -> fail": 26,
+    "pass -> pass": 23
+  },
+  "groups": {
+    "missing_cache": {
+      "cells": 2389,
+      "cells_in_answer_position": 1198,
+      "intersecting_workbooks_pass_to_fail": 25,
+      "tasks": 33,
+      "tasks_with_intersection": 19,
+      "workbooks": 49,
+      "workbooks_with_intersection": 27
+    },
+    "textafter": {
+      "cells": 42042,
+      "cells_in_answer_position": 42042,
+      "intersecting_workbooks_pass_to_fail": 1,
+      "tasks": 1,
+      "tasks_with_intersection": 1,
+      "workbooks": 1,
+      "workbooks_with_intersection": 1
+    }
+  },
+  "metadata_sha256": "e5137ecbec4273d91344a0c8feb2aff2d4a93d5881ac40e490250dfd8db227de",
+  "observations": [
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 285,
+          "in_answer_position": 78
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "a2e6d105d49553ee95e0d82f4a55d66be738c6504ae7157c6244d4465f5107f5",
+      "workbook": "00ba35ee334aa554e4641de6999cc9242c5bdcc9b8ffb1710fd1e18a4f9d6974"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 1,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "9eb2d282cfd4af3159d216afa26ca6f2803abc50b4f59e25872f67a3403dcf37",
+      "workbook": "021d1ff92203c3f1770261480f2e91b8919f75db9e411e7f409011dfc9a25a8b"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "86ff58eb621285a47cad32ecf490994998f48402b8c39b45e60b0e4dd49ca740",
+      "workbook": "058cb7e930c3649867385025eda4bf25177e6534de5fa053bc614cf9a6b9e36d"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 69,
+          "in_answer_position": 69
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "761faa485e4909657b4652910272b43eb8746503cc73425879f5f15d4b83e25f",
+      "workbook": "07843feb092ded1c8b7e6d59f43e4713e4fc03291fec5fcba06b5bc90a5d5be0"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 30,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "8b3b96a1430a90ac38bc16912b7cb660cfb51efae9b7e43372a48be4a1a5e9a3",
+      "workbook": "0d1b9fba6995bd5ee88287219501e3ab0d016d547acd3fa0c4bd1dc89ad1ae9a"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": true,
+      "original_against_original": "fail",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "caf3adf4e500a678a6027beb032bd4fa513c1b2be456197b0f89ab4249ad3142",
+      "workbook": "0d21cceba6b97b312ec2990d76601073d7a588714010c16ca6378ab3e449b1e3"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 612,
+          "in_answer_position": 612
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "8f29359bb1a23f08fc506e6232611ed3ee59006575fb569929bfa48d321655a2",
+      "workbook": "12d4dba82f1cefb27652905bb2deae25b9e13364595a11974097b75afafb8463"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 69,
+          "in_answer_position": 69
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "761faa485e4909657b4652910272b43eb8746503cc73425879f5f15d4b83e25f",
+      "workbook": "12e8769ee1a1f1586e5962374a443631c4fd31f653bc92d2fee241e77c790eca"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 3,
+          "in_answer_position": 3
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "8e35e0d787d441044dfcd73666770749bda4c9848624cd77d667f1381bd7b895",
+      "workbook": "13bc42f2443fdabfdfc68c5192c02e87d2ec76c719dd0042b790cf2862658fff"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 4,
+          "in_answer_position": 3
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "e209388017e8617f146fe1186c9d6cf195a6274a287cddab9f6163859de0dea6",
+      "workbook": "17bfb8afb7baa39ab4f99b374bb34e1a083b3fcc7f74bef0e6b6d5cfdbc98fa6"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "5946de323e7dee41c8da6e3f306514abd4378cab468fb9c08c6c22678ef31225",
+      "workbook": "1acc3da151ed5cc1eb325f6662840d54b63d0b88bec2721d43251d24d636ace1"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 7,
+          "in_answer_position": 6
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "a9f0f7d5605a5ff1a068f63ec1a2921a34c6e012cf351ad2aa4d84594a7db30c",
+      "workbook": "1ecb0a3f8a8b3fe2dce9aaa9d8ddcf1646040e8b4c7569b570ba021766c5339a"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 84,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "5f37a8263fafb53a5320a57d9e6205c338f08bfa8b445a4557da510a7fcfd819",
+      "workbook": "20823de80eebe4af9f2f4dceaf033823b3f900978dfaafbb9a302b615cf2888f"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 13,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "c36d5a960e559edc7fe89418e5fd7e4abb230425f1ef064bd06668ed9cf3bdb9",
+      "workbook": "21acb8b7e6582b5453a7aba982a03d56b489182336deba9964500ff64499d9a7"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 84,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "5f37a8263fafb53a5320a57d9e6205c338f08bfa8b445a4557da510a7fcfd819",
+      "workbook": "227b62f082fe7ed7640758dd00cccdd4f4fbdb30b9fea64f4e9edf5aa490476a"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 4,
+          "in_answer_position": 4
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "b486b76b31bf1fd7fda957155e31dbbba1781603a3891f5b03797de3359b07a4",
+      "workbook": "24afd10cd67e9d6be8c22635743ea05b25798d8100d777149c03feb00a08dde3"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 10,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "dd501ce8e46efd37347e7a7c02e558aa0163ed2b238924b499dda9858363632b",
+      "workbook": "28c8841b8795f0c2a8805bc3b3a88f69fa969bf54e3ca19bd83b341426a23dc0"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 9
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "aa48f267a9153acd4a938f728101d7c175939e140289ddbe32bbc8bf70495fed",
+      "workbook": "2a639f3f9797015cccf7b0b41e9678e3df821ab1b0fd74c95c911e8c1b9b7427"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 16,
+          "in_answer_position": 1
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "2ad4e4fe6cdaf03924465e5703443bd661ce2dfba8dbb252721cf55392c2256d",
+      "workbook": "2c7a52c473d13aee23e6e24f02fce8217b8668c5ba3eb3258ae4f88ecbcead16"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 149,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "e82d1105ab98ea8a57a5fbfbe7c47fd58b466ff4fa835504c9e8ab6a5c0bdb2d",
+      "workbook": "2de7634d82ce0fbaca7cb73ec7e202c2603730dbd15b1cde8c935031d6cb13b9"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 17,
+          "in_answer_position": 7
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "dd501ce8e46efd37347e7a7c02e558aa0163ed2b238924b499dda9858363632b",
+      "workbook": "2e6c8c8d6c7f47aa58ee19e81c39958654c321bf998f77f3cc55d03ebdde0156"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 9
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "aa48f267a9153acd4a938f728101d7c175939e140289ddbe32bbc8bf70495fed",
+      "workbook": "2f866b155e5ada5fd0a6fc9376a5d4ebb847a3e561a0ef6a8ef130be2b54658a"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "af4670f53ac4c9a8cf3e779466053a23b961b616bcb8756e57e5135b78f31400",
+      "workbook": "3008947bf990bd246ca89e3270161b0f0d465f594d8530263330bc3285e6c84d"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 285,
+          "in_answer_position": 78
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "a2e6d105d49553ee95e0d82f4a55d66be738c6504ae7157c6244d4465f5107f5",
+      "workbook": "316648a681b5838b4eba70267ebb5e29db14be1af275a612efda2aeb574dac18"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 9
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "72b428e98cf67eeb600d9e5bee3cabfa4819858b5df056a21fe9cc58c950c8cb",
+      "workbook": "330c409436ab565cbf78f5cb45cbb2e79d5366e6884ca5a0343cbd98c47e5dc2"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "7c820d9a0e8dc8d322ad017146559d42220fd5440e4748678b4e4aa4b044b99c",
+      "workbook": "34404d147a229fe17ccc626ffc337fceaeb843c599c81f01f1d9c72e570cb327"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "7c820d9a0e8dc8d322ad017146559d42220fd5440e4748678b4e4aa4b044b99c",
+      "workbook": "366fffbd301b9f98a815f534824cb34ab98c4e4afbeca770cbe866037c51797f"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 11,
+          "in_answer_position": 11
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "a9605be10379c8c75a87e258faaed0df91870c00396252a863e533359318889f",
+      "workbook": "375109a2b59ee35a84cdea3e2cd2847a660c09e57446f918f9d04f8eee1a505f"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "5946de323e7dee41c8da6e3f306514abd4378cab468fb9c08c6c22678ef31225",
+      "workbook": "375be9746bed97decff36cf3aa116349fe9f4a64584a726742ecc0f5f3d9a467"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 14,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "24a55e90b06823462343a44af245c74f586012c0a70cd059377e70206565a586",
+      "workbook": "389158ccffdef2367650a91f9f9dc70dacb1217dfdc1c23efcc5edc7bec6ad59"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 9
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "aa48f267a9153acd4a938f728101d7c175939e140289ddbe32bbc8bf70495fed",
+      "workbook": "38f0b321cc5fba6d15c392df702936230d120e387275cfca4952b86a5e1a9ea6"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 154,
+          "in_answer_position": 154
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "c39853a27bcc0eb65435b8d14beeed0781d1766b1a2cfbdcffc37ecf725fdded",
+      "workbook": "3adc601a193ec783c7c6d76696506694f5a1795e8698623a2cbb96158701b7b2"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 84,
+          "in_answer_position": 7
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "c70cfb0acb588a94d2713a4b289f6e09f0de81de549d5653087bfcbb4c48f92d",
+      "workbook": "3af1b94089f8ff1b7b440bcf62b20dd797bc393d19fd6256d516d0df508bdca0"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 34,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "a13a4f94caafe80bf63b743884babe09d9617f55895704c032670b69a46dcfab",
+      "workbook": "3b54b664a3a44a758c5348d8aa24326dd23e058504f35bd2df875ec1967daa24"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 4,
+          "in_answer_position": 3
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "e209388017e8617f146fe1186c9d6cf195a6274a287cddab9f6163859de0dea6",
+      "workbook": "3c0b0c786b61f83f352c5f5e7d7af18bfca02f0590a49f443de492fa1a2d5754"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 20,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "f1518c971ba1c56691a0457cdcbfcecdd389e7324e9d3700099776626c661476",
+      "workbook": "3d1c53834d7f24e983168413c3b7b63da46cd1791eba9ccd696183af1da6f8ed"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 30,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "8b3b96a1430a90ac38bc16912b7cb660cfb51efae9b7e43372a48be4a1a5e9a3",
+      "workbook": "3f3d190708d8d6d48dace91cc53db5889b0f290930fa8443c98f5962b4eae9c1"
+    },
+    {
+      "groups": {
+        "textafter": {
+          "cells": 42042,
+          "in_answer_position": 42042
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "0d4e37b7ba5bd54da47d099b9e1d4ec560d8e5182fa268e0ed9b530eabb7102d",
+      "workbook": "403b81b52b9fdb20f924fa4d2305847b5c51333cb6aebe5a44193ba4bc146fda"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 2
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "632055d5263961167181f73fb1ad87ea47e63dee3ddea1614d6dde01532004a8",
+      "workbook": "41285c62b300737fb3319366fd0063ece55984395ccbe6e83ad547f805e2ad87"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 3,
+          "in_answer_position": 3
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "d89b5450a39fcf2c723da8f0f48f62cf9b9f1a82ab7c291fce2419de4df4e50f",
+      "workbook": "417c15f4516ec5cb6a34ee6404769b9d8dcf00d3328cc11a293c25223fd1061d"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 36,
+          "in_answer_position": 36
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "2273df44b3a04b5d26481fe89342e04745225de783ece2ad77e498ce9a06f3fa",
+      "workbook": "4317f16645742444c57f87c1e186e906cb12f0f52b637dabb38c3813be8c69a2"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 9,
+          "in_answer_position": 9
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "72b428e98cf67eeb600d9e5bee3cabfa4819858b5df056a21fe9cc58c950c8cb",
+      "workbook": "491749311c7b8852f25eca5e41ee5806165c39df28617aba341c38dd2fc94e0a"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 47,
+          "in_answer_position": 1
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "61bb498ecf81f2edaa1ec9a9c5089692288b6a75b04ce277a58464b4920c4b91",
+      "workbook": "4925d22d5b2e8070a07a38b7b1dfa232bdcaf2a86974deb5d59d85ee5903667e"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 1,
+          "in_answer_position": 1
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 1,
+      "task": "c9be26fa66373f72eab671e2eeedeabd0357a45f9c4b7ef9ae53a9bb138977db",
+      "workbook": "4c5cf9379e868d13b8c1b6c3367b27fa39234362c2a960b78a52a8077afe93eb"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 5,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "94fcbb186d9844fd1fd2ca7f8ae1f4df9c560f589c6f3a108c992f30b3664477",
+      "workbook": "4c9a905062b682990f8a0a704a69d9366fb095fb09de40f53254eef889895001"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 7,
+          "in_answer_position": 3
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 3,
+      "task": "a9f0f7d5605a5ff1a068f63ec1a2921a34c6e012cf351ad2aa4d84594a7db30c",
+      "workbook": "51dc5d372324549047ccee4eda01065f7b0227e5e1b3800e28cb7be741971f5e"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 2
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "fail",
+      "slot": 2,
+      "task": "632055d5263961167181f73fb1ad87ea47e63dee3ddea1614d6dde01532004a8",
+      "workbook": "543d760469b91190a70b9f2fd2908424a206f3e186d4af0e43532d5cb29ca1e4"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 2,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 3,
+      "task": "af4670f53ac4c9a8cf3e779466053a23b961b616bcb8756e57e5135b78f31400",
+      "workbook": "54f820a59be37eba5f06ec26837af76e89d4700bbe72d3156b8d8e51654055d2"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 34,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 2,
+      "task": "a13a4f94caafe80bf63b743884babe09d9617f55895704c032670b69a46dcfab",
+      "workbook": "566d59c396c2da9fa4e95c3ea79c1dac9a80a0c648b0e2b101de1341ee696e17"
+    },
+    {
+      "groups": {
+        "missing_cache": {
+          "cells": 84,
+          "in_answer_position": 0
+        }
+      },
+      "missing_original_grading_sheet": false,
+      "original_against_original": "pass",
+      "original_against_recalculated": "pass",
+      "slot": 1,
+      "task": "5f37a8263fafb53a5320a57d9e6205c338f08bfa8b445a4557da510a7fcfd819",
+      "workbook": "58a11a0d837d5e2f78aa724ed986337c5989628a87519a436a72a42e35646141"
+    }
+  ],
+  "openpyxl": "3.1.5",
+  "targeted_workbooks": 50
+}

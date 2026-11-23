@@ -1,0 +1,21 @@
+# E5/O5 native replay: schema-union equality cannot adjudicate write intent
+
+This is separate from NULL joins, snapshot epochs, tied top-k, and geometric representation. It uses published formats/readers and makes no claim that documented schema unification is defective. The contract is an **authored consumer**: absent update field means KEEP, present NULL means CLEAR, and present non-NULL means WRITE (including zero). NYC fee columns are not actual update logs, and there is no inferred update intent for any real taxi observation.
+
+## Real file boundary, native effects
+
+Digest-pin official [NYC TLC Yellow Taxi Parquet](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page), 2014-03 and 2026-03. After checking schema only, pre-register the exact fee name and first 2,048 physical rows per source. Old footer lacks cbd_congestion_fee; new footer has its typed field. Copy just that field where present and add non-interpretable new ordinal keys to tiny native Parquet projections (no taxi IDs or timestamps in results). All 2,048 projected modern values in this slice are nonnull; no real CLEAR arose here. The entire filtered matrix therefore has 2,048 authored KEEP and 2,048 authored WRITE decisions.
+
+Actual [DuckDB union_by_name](https://duckdb.org/docs/1.4/data/parquet/tips), [Polars missing_columns=insert](https://docs.pola.rs/api/python/version/1/reference/api/polars.scan_parquet.html) and [Arrow's declared-schema dataset scan](https://arrow.apache.org/docs/python/dataset.html) agree exactly on unified values and fill old absence with NULL. Native DuckDB MERGE overwriting with the unified values clears all 2,048 old authored targets incorrectly under the stated update contract. Restricting MERGE to non-NULL rows works on this slice **because it has no explicit CLEAR**. A presence-aware MERGE gives zero wrong effects. A resolvable sidecar for the homogeneous file contract is one bit per file/field, bound to immutable input identity and joined against row origin (here DuckDB's filename output, then actual source digest and footer). A scratch replacement under the same path retains unified NULL values but changes the physical field-presence fact; path alone is insufficient, while the hash gate rejects the stale sidecar. This is a trusted immutable-input scope, not a concurrent filesystem authorization protocol.
+
+## Stronger mixed-row nonidentifiability
+
+Materialize 20 authored JSONL variants for six immutable keys, with three explicit NULL fields and three absent fields, cycling through every choice of three clears. In native DuckDB JSON evaluation, raw-object json_exists exactly distinguishes them; JSON scalar extraction collapses both to SQL NULL. After discarding the existence indicator and writing projected typed values to a single Parquet file, **all 20 files have identical whole-file SHA-256/bytes**. Their footer schemas, values, row counts, sums and hashes necessarily agree. The corresponding intended MERGE effects are all different. Keeping the presence column before writing (or a row-keyed, source-bound receipt) yields 20 distinct files and 20 correct native target states. No late footer inspection or more careful comparison of the collapsed file can undo that mapping. With even the number of CLEARs supplied independently, a fixed-length receipt must distinguish 20 states, hence at least ceil(log2 20)=5 bits in this control. Six simple presence bits suffice; this is not a storage compression or performance claim. File-level homogeneous masks remain useful where the contract actually warrants homogeneity, not as a substitute for row-level intent on mixed records.
+
+## Replay
+
+Use the existing pinned E1 scratch dependencies (DuckDB 1.4.3, Arrow 22.0.0, Polars 1.35.2), already pinned E4 inputs, no network, no existing files modified. Shared input bytes aren't distributed. SHA256SUMS and PREEXECUTION.sha256 bind the authored plan and code/output.
+
+    python3 -IB check.py /tmp/pvl-eab-submission/e4/inputs | cmp - result.json
+
+The effects are direct SQL operations on a fresh in-memory scratch target only. Not a real-world prevalence percentage, a new Parquet correctness mechanism, or a claim about defaults other than the explicitly tested adapters.

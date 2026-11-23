@@ -1,0 +1,11 @@
+{
+  "artifact": "/usr/share/qgis/resources/data/world_map.gpkg",
+  "comparison": "Old and roundtrip ring/query coordinates: original, point-only, edge-only, both. Certify by observed relative endpoint envelopes, no projection error model.",
+  "limits": "planar byte observations, not projected straight-edge or geodesic equivalence; no geometry-changing repairs or threshold adjustment after observation",
+  "operation": "EPSG:4326 to EPSG:3857 to EPSG:4326, traditional GIS axis order; apply same round-trip to all vertices and probes; persist/reopen round-tripped polygons as EPSG:4326 in disposable GeoPackage",
+  "oracle": "exact dyadic ring simplicity and point category independently on original and round-tripped coordinate records; distinguish predicate error at one representation from category change between representations",
+  "probes": "Predeclare every exact binary64 edge midpoint, signed y offsets by 1,2,4,8,16,32,64,128,256 observed ULPS at midpoint, and fixed 3x3 interior bounding-box lattice; one component within fixed FIDs.",
+  "schema": "real-crs-clearance-v1",
+  "selection": "countries FIDs 1,2,3,4,9,10, first simple non-hole component of at most 80 vertices with all latitudes in [-80,80] and longitudes strictly between -180 and 180; record exclusions",
+  "sha256": "386bc75f4ac46c329cdc44caff01e2e27385d3d89ca3ded26495090def11f669"
+}

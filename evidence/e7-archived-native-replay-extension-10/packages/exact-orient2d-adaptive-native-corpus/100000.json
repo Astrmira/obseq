@@ -1,0 +1,61 @@
+{
+  "gdal": "3.10.3",
+  "geos": "3.13.1-CAPI-1.19.2",
+  "hard_control_geos_mismatch": 0,
+  "measurements": {
+    "one_in_64_cancellation_controls": {
+      "exact_labels_sha": "de455f4a77119ec349938d2c04c69eded2de8e4f0c5e45ff44179e9f8d606abe",
+      "fallback_count": 1577,
+      "label_counts": {
+        "0": 22701,
+        "1": 534,
+        "2": 76765
+      },
+      "median_ns": {
+        "always_exact": 287983000,
+        "filtered": 39378127
+      },
+      "samples": {
+        "always_exact": [
+          312158729,
+          287983000,
+          243855279
+        ],
+        "filtered": [
+          39378127,
+          40599446,
+          39086128
+        ]
+      }
+    },
+    "ring_tiled": {
+      "exact_labels_sha": "873ad117f094a7511598ffe158803d3eb95a4328530210674f7782364fa7dc66",
+      "fallback_count": 14,
+      "label_counts": {
+        "0": 22541,
+        "1": 13,
+        "2": 77446
+      },
+      "median_ns": {
+        "always_exact": 232193896,
+        "filtered": 34322325
+      },
+      "samples": {
+        "always_exact": [
+          234376082,
+          232193896,
+          229910859
+        ],
+        "filtered": [
+          35351844,
+          33630333,
+          34322325
+        ]
+      }
+    }
+  },
+  "n": 100000,
+  "ring_native_comparison": null,
+  "ring_pool": 243727,
+  "worker_peak_kib": 97024
+}
