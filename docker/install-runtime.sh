@@ -51,6 +51,13 @@ fetch https://conda.anaconda.org/conda-forge/linux-64/micromamba-2.3.3-0.tar.bz2
 tar -xf "$work/mamba.tar.bz2" -C "$work" bin/micromamba
 MAMBA_ROOT_PREFIX="$work/mamba" "$work/bin/micromamba" create --yes \
     --prefix "$root/gdal" --file docker/gdal-linux-64.lock
+cat > "$root/tools/gdal-python" <<'SH'
+#!/bin/sh
+# GDAL requires the SQLite library shipped with its conda environment.
+unset LD_PRELOAD
+exec /opt/obseq/gdal/bin/python "$@"
+SH
+chmod 755 "$root/tools/gdal-python"
 
 fetch https://www.sqlite.org/2026/sqlite-autoconf-3530100.tar.gz \
     83e6b2020a034e9a7ad4a72feea59e1ad52f162e09cbd26735a3ffb98359fc4f "$work/sqlite.tgz"

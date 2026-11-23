@@ -17,6 +17,9 @@
   "external-native-planar-containment": {
     "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
   },
+  "stock-null-stage-attribution": {
+    "PYTHONPATH": "E4_DEPS"
+  },
   "whole-multipolygon-point-admission": {
     "OBSEQ_QGIS_WORLD_MAP": "QGIS_WORLD_MAP"
   },

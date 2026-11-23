@@ -103,7 +103,9 @@ def execute(case, archive, inputs, work, args, policy):
 
     def run(py, entry, path=sites, stdin=None, extra=()):
         settings = {**env, "PYTHONPATH": os.pathsep.join(path)} if path else env
-        return subprocess.run([py, "-B" if path else "-IB", entry, *extra],
+        # A case-bound import site must be available before any dependency imports.
+        flags = "-B" if "PYTHONPATH" in settings else "-IB"
+        return subprocess.run([py, flags, entry, *extra],
                               input=stdin, cwd=pkg, env=settings, capture_output=True, timeout=timeout)
 
     try:

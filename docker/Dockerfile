@@ -34,14 +34,14 @@ ENV PATH="/opt/obseq/venv/bin:/opt/obseq/tools:/opt/obseq/pgsql/bin:${PATH}" \
     GDAL_DATA="/opt/obseq/gdal/share/gdal" \
     PROJ_NETWORK="OFF" \
     PYTHONTZPATH="/opt/obseq/zoneinfo" \
-    OBSEQ_SYSTEM_PYTHON="/opt/obseq/gdal/bin/python" \
+    OBSEQ_SYSTEM_PYTHON="/opt/obseq/tools/gdal-python" \
     OBSEQ_RUNTIME_BINDINGS="/opt/obseq/docker/runtime-bindings.json"
 
 ARG PIP_INDEX_URL
 ARG OBSEQ_SOURCE_MIRROR
 RUN bash docker/install-runtime.sh
 
-# Match the archived date API where Ubuntu's system Python links older SQLite.
+# Match the archived date API for Ubuntu Python; gdal-python uses its own SQLite.
 ENV LD_PRELOAD="/opt/obseq/sqlite/lib/libsqlite3.so.0"
 RUN python -IB replay.py \
     && python -B replay.py --comparators \
