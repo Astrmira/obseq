@@ -5,7 +5,10 @@ root=/opt/obseq
 work=$(mktemp -d)
 trap 'rm -rf -- "$work"' EXIT
 fetch() {
-    curl --fail --silent --show-error --location --retry 3 "$1" -o "$3"
+    if [[ -z ${OBSEQ_SOURCE_MIRROR:-} ]] || ! curl --fail --silent --location \
+        "${OBSEQ_SOURCE_MIRROR%/}/$2" -o "$3"; then
+        curl --fail --silent --show-error --location --retry 3 "$1" -o "$3"
+    fi
     printf '%s  %s\n' "$2" "$3" | sha256sum --check -
 }
 unpack() {

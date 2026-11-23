@@ -14,6 +14,10 @@ docker run --rm obseq-native python -B replay.py --comparators
 
 To use a reachable PyPI mirror, pass `--build-arg PIP_INDEX_URL=HTTPS_INDEX_URL`.
 The image still checks the wheel hashes in the dependency locks.
+For native source archives already cached on a build network, pass
+`--build-arg OBSEQ_SOURCE_MIRROR=BASE_URL`. Serve each file at
+`BASE_URL/<sha256>`. The installer verifies the same digest and uses the
+upstream URL when that file is unavailable on the mirror.
 
 To bind downloaded large-scale benchmark datasets (such as ClickBench `hits` shards or generated `TPC-H`/`TPC-DS` `SF10` databases) into the container, mount your host data directory and pass the corresponding `LOCAL_BINDINGS.json`:
 
