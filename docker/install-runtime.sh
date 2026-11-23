@@ -38,7 +38,7 @@ for name in sorted({file.parts[0] for file in wheel.files} - {".."}):
 PY
 
 fetch https://conda.anaconda.org/conda-forge/linux-64/micromamba-2.3.3-0.tar.bz2 \
-    e7274528ceb9c20d048a428d6c22d7e02e268ff8ffb762c4c365422347c8b8ba2 "$work/mamba.tar.bz2"
+    e7274528ceb9c20d048a428d6c22d7e02e268f8ffb762c4c365422347c8b8ba2 "$work/mamba.tar.bz2"
 tar -xf "$work/mamba.tar.bz2" -C "$work" bin/micromamba
 MAMBA_ROOT_PREFIX="$work/mamba" "$work/bin/micromamba" create --yes \
     --prefix "$root/gdal" --file docker/gdal-linux-64.lock
