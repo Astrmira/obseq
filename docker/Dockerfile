@@ -36,6 +36,7 @@ ENV PATH="/opt/obseq/venv/bin:/opt/obseq/tools:/opt/obseq/pgsql/bin:${PATH}" \
     OBSEQ_SYSTEM_PYTHON="/opt/obseq/gdal/bin/python" \
     OBSEQ_RUNTIME_BINDINGS="/opt/obseq/docker/runtime-bindings.json"
 
+ARG PIP_INDEX_URL
 RUN bash docker/install-runtime.sh
 
 # Match the archived date API where Ubuntu's system Python links older SQLite.
