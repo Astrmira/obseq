@@ -68,7 +68,7 @@ ln -s soffice "$root/tools/libreoffice"
 fetch https://codeload.github.com/gregrahn/sqllogictest/tar.gz/c93ac416f05635ff5cc490009add936d9753d01d \
     0b02c1f4ab85a6c3fc69ace07bb05d24a2b256b99503f78700b2832fb1296b80 "$work/c-slt.tgz"
 unpack "$work/c-slt.tgz" "$work/c-slt"
-make -C "$work/c-slt/src" OPTS="-DSQLITE_NO_SYNC=1 -DOMIT_ODBC=1" sqllogictest
+make -C "$work/c-slt/src" CC="gcc -g -Wall -DSQLITE_NO_SYNC=1 -DOMIT_ODBC=1" sqllogictest
 install "$work/c-slt/src/sqllogictest" "$root/tools/sqllogictest"
 
 fetch https://codeload.github.com/duckdb/duckdb-sqllogictest-python/tar.gz/66b0687fd7b21d22eb8c2216c5e26030dc6a3286 \
