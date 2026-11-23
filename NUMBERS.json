@@ -67,9 +67,9 @@
       "denominator": 44695,
       "unit": "cells",
       "scope": "Occurrences of unsupported TEXTAFTER in the dominant answer workbook, out of the original Calc cache type disagreements.",
+      "artifact_path": "evidence/pvldb-a6-cache-transitions/TEXTAFTER-CLUSTER.json",
       "source_sha256": "d9e2b65f72986e131dbbf62bbbd6306debaf9e3a455ee60335dcd60325bb89e6",
-      "replay": "/usr/bin/python3 -IB textafter.py FROZEN_CALC cluster WORKSPACE",
-      "artifact_path": "evidence/pvldb-a6-cache-transitions/TEXTAFTER-CLUSTER.json"
+      "replay": "python -B scripts/recount_numbers.py a6.textafter_name_error"
     },
     {
       "id": "a7.partition0.split_cutoff",
@@ -77,12 +77,12 @@
       "denominator": 31,
       "unit": "ORDER BY/LIMIT queries",
       "scope": "Eight-thread cutoff census on the one-million-row publisher shard hits_0.parquet.",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/PART0-CUTOFFS.jsonl",
       "source_sha256": "d14107b63ab8e4b95e5b4bac104302d51e27b3e407e65b23a1a988e855bbe3f3",
-      "replay": "Use A1 cutoffs.py census with the pinned stock SQL, one hits_0.parquet adapter and threads=8.",
+      "replay": "python -B scripts/recount_numbers.py a7.partition0.split_cutoff",
       "status": "superseded_for_population_estimates",
       "full_cohort_source": "a7.full.split_cutoff",
-      "superseded_by": "a7.full.split_cutoff",
-      "artifact_path": "evidence/pvldb-a7-typed-candidates/PART0-CUTOFFS.jsonl"
+      "superseded_by": "a7.full.split_cutoff"
     },
     {
       "id": "a7.full.split_cutoff",
@@ -300,9 +300,9 @@
       "denominator": 316763226,
       "unit": "source rows",
       "scope": "All 35 published clock-transition months in the pinned NYC TLC index.",
+      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json",
       "source_sha256": "ac7b30cb1c5cf7e107a7c6049b9b563934a9d6227302eb8220c6db8e295ef2ef",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e4.tlc.transition_month_population"
     },
     {
       "id": "e4.tlc.ambiguous_trips",
@@ -310,9 +310,9 @@
       "denominator": 149314076,
       "unit": "in-month pickup rows",
       "scope": "Ambiguous local hours in the 17 published NYC TLC fall transition months.",
+      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json",
       "source_sha256": "ac7b30cb1c5cf7e107a7c6049b9b563934a9d6227302eb8220c6db8e295ef2ef",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e4.tlc.ambiguous_trips"
     },
     {
       "id": "e5.common.configurations",
@@ -320,9 +320,9 @@
       "denominator": 16,
       "unit": "tested configurations",
       "scope": "Shared E2/E3 cohort, with applicability recorded independently per method.",
+      "artifact_path": "evidence/e5-practical-denominator-crosswalk/RESULT.json",
       "source_sha256": "79a48305afb26c0f36f82b0456822ed170fb85278ceb820747bf2da1de122817",
-      "replay": "python -B check.py LOCAL_RECEIPTS_ROOT",
-      "artifact_path": "evidence/e5-practical-denominator-crosswalk/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e5.common.configurations"
     },
     {
       "id": "e9.sample.wrong_result_yes",
@@ -330,9 +330,9 @@
       "denominator": 300,
       "unit": "sampled public issues",
       "scope": "Adjudicated, deliberately query-selected frozen public issue sample. The coded unresolved cases remain in the denominator.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
       "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e9.sample.wrong_result_yes"
     },
     {
       "id": "e9.native_release_pairs",
@@ -340,9 +340,9 @@
       "denominator": 29,
       "unit": "release-pair families",
       "scope": "15 from the frozen public issue sample and 14 purposefully found supplements.",
+      "artifact_path": "evidence/e9-all-class-release-coverage/RESULT.json",
       "source_sha256": "ae0bea6fdc03d3802ae42b204a36384937249494030822c614e94af803ee7169",
-      "replay": "python -B check.py ORIGINAL_ROSTER.csv",
-      "artifact_path": "evidence/e9-all-class-release-coverage/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e9.native_release_pairs"
     },
     {
       "id": "e23.byte_hash.false_reject",
@@ -369,20 +369,20 @@
       "value": 1605.347673,
       "denominator": 100,
       "unit": "percent of stated baseline",
-      "scope": "Separate SQLite native read median.",
+      "scope": "SQLite backup and typed logical digest relative to native count/sum.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o1.backup_and_typed_digest"
     },
     {
       "id": "e6.o2.trusted_epoch_check",
       "value": 0.009832,
       "denominator": 100,
       "unit": "percent of stated baseline",
-      "scope": "Separate H2O Q1 producer median. Reader check only.",
+      "scope": "Dependency epoch check relative to the H2O Q1 native producer.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o2.trusted_epoch_check"
     },
     {
       "id": "e6.o3.topk_guard_increment",
@@ -390,9 +390,9 @@
       "denominator": 100,
       "unit": "percent of stated baseline",
       "scope": "Additional checker time versus producer in same worker.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_increment"
     },
     {
       "id": "e6.o3.topk_family_increment",
@@ -400,29 +400,29 @@
       "denominator": 100,
       "unit": "percent of stated baseline",
       "scope": "Additional checker time versus producer in same worker.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_increment"
     },
     {
       "id": "e6.o4.lazy_filtered_vs_generate",
       "value": 133.340831,
       "denominator": 100,
       "unit": "percent of stated baseline",
-      "scope": "Separate C++ generation/checksum median. Derived dyadic queries.",
+      "scope": "Filtered exact predicates relative to the separate generation/checksum arm.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.lazy_filtered_vs_generate"
     },
     {
       "id": "e6.o5.witness_vs_sparse_apply",
       "value": 36.345638,
       "denominator": 100,
       "unit": "percent of stated baseline",
-      "scope": "Within-worker witness stage over scoped sparse apply. 100M backing rows and four intent rows.",
+      "scope": "Intent witness relative to sparse apply in the same worker.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -IB check.py",
-      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+      "replay": "python -B scripts/recount_numbers.py e6.o5.witness_vs_sparse_apply"
     },
     {
       "id": "a1.clickbench.typed_ordered_windows",

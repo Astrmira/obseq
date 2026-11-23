@@ -418,6 +418,55 @@ def recount(root=ROOT):
         "tolerance_only": sum(row["same_bag_with_float_tolerance"] and not row["same_typed_bag"] for row in tpch),
     }, len(tpch), "query output bags", "Table 3. DuckDB and PostgreSQL on the pinned SF1 tables.")
 
+    path = "evidence/pvldb-a7-typed-candidates/PART0-CUTOFFS.jsonl"
+    shard = [json.loads(line) for line in source(path).splitlines()]
+    add("a7.partition0.split_cutoff", path, sum(row["lower_boundary_split"] or row["upper_boundary_split"]
+        for row in shard), len(shard), "ORDER BY/LIMIT queries",
+        "Eight-thread cutoff census on the one-million-row publisher shard hits_0.parquet.")
+    rows["a7.partition0.split_cutoff"].update(status="superseded_for_population_estimates",
+        full_cohort_source="a7.full.split_cutoff", superseded_by="a7.full.split_cutoff")
+    path = "evidence/pvldb-a6-cache-transitions/TEXTAFTER-CLUSTER.json"
+    add("a6.textafter_name_error", path, read(path)["counts"]["cells"],
+        calc["counts"]["total"]["type_disagreement"], "cells",
+        "Occurrences of unsupported TEXTAFTER in the dominant answer workbook, out of the original Calc cache type disagreements.")
+    path = "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json"
+    ambiguous = tlc["transition_totals"]["ambiguous"]
+    add("e4.tlc.transition_month_population", path, tlc["total_rows"], tlc["total_rows"], "source rows",
+        "All 35 published clock-transition months in the pinned NYC TLC index.")
+    add("e4.tlc.ambiguous_trips", path, ambiguous["affected"], ambiguous["in_month"], "in-month pickup rows",
+        "Ambiguous local hours in the 17 published NYC TLC fall transition months.")
+    path = "evidence/e5-practical-denominator-crosswalk/RESULT.json"
+    add("e5.common.configurations", path, len(c1_tools["methods"]), c1_tools["number_configurations"],
+        "tested configurations", "Shared E2/E3 cohort, with applicability recorded independently per method.")
+    path = "evidence/e9-independent-annotation-and-adjudication/RESULT.json"
+    add("e9.sample.wrong_result_yes", path, issues["adjudicated"]["status"]["yes"], total, "sampled public issues",
+        "Adjudicated, deliberately query-selected frozen public issue sample. The coded unresolved cases remain in the denominator.")
+    path = "evidence/e9-all-class-release-coverage/RESULT.json"
+    release_pairs = read(path)["across_both_sources_strict"]["n"]
+    add("e9.native_release_pairs", path, release_pairs, len(roster), "release-pair families",
+        "15 from the frozen public issue sample and 14 purposefully found supplements.")
+    path = "evidence/e6-cross-scale-and-ratio-audit/RESULT.json"
+    ratios = {
+        "e6.o1.backup_and_typed_digest": (
+            stages["O1"]["arm"]["sqlite_backup_logical"]["percent_of_separate_native_read_median"],
+            "SQLite backup and typed logical digest relative to native count/sum."),
+        "e6.o2.trusted_epoch_check": (
+            stages["O2"]["arm"]["epoch"]["percent_of_separate_native_producer_median"],
+            "Dependency epoch check relative to the H2O Q1 native producer."),
+        "e6.o4.lazy_filtered_vs_generate": (
+            geom["arm"]["lazy_filtered"]["percent_of_separate_generation_checksum_median"],
+            "Filtered exact predicates relative to the separate generation/checksum arm."),
+        "e6.o5.witness_vs_sparse_apply": (
+            stages["O5"]["stages"]["witness_over_apply_median_within_trial_pct"],
+            "Intent witness relative to sparse apply in the same worker."),
+    }
+    for arm in ("guard", "family"):
+        ratios[f"e6.o3.topk_{arm}_increment"] = (
+            topk[arm]["median_within_trial_checker_over_producer_pct"],
+            "Additional checker time versus producer in same worker.")
+    for id_, (value, scope) in ratios.items():
+        add(id_, path, value, 100, "percent of stated baseline", scope)
+
     return rows
 
 
