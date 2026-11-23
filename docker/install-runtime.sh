@@ -5,11 +5,17 @@ root=/opt/obseq
 work=$(mktemp -d)
 trap 'rm -rf -- "$work"' EXIT
 fetch() {
+    local url=$1 digest=$2 output=$3 alternate=${4:-}
     if [[ -z ${OBSEQ_SOURCE_MIRROR:-} ]] || ! curl --fail --silent --location \
-        "${OBSEQ_SOURCE_MIRROR%/}/$2" -o "$3"; then
-        curl --fail --silent --show-error --location --retry 3 "$1" -o "$3"
+        "${OBSEQ_SOURCE_MIRROR%/}/$digest" -o "$output"; then
+        printf 'Downloading %s\n' "$url"
+        curl --fail --silent --show-error --location --retry 3 "$url" -o "$output" || {
+            [[ -n $alternate ]] || return
+            printf 'Downloading %s\n' "$alternate"
+            curl --fail --silent --show-error --location --retry 3 "$alternate" -o "$output" || return
+        }
     fi
-    printf '%s  %s\n' "$2" "$3" | sha256sum --check -
+    printf '%s  %s\n' "$digest" "$output" | sha256sum --check -
 }
 unpack() {
     mkdir -p "$2"
@@ -103,5 +109,8 @@ PY
 fetch "$spark_url" 9d1f22d994f60369228397e3479003ffe2dd736ba79165003246ff7bd48e2c73 "$work/pyspark.tgz"
 tar -xzf "$work/pyspark.tgz" -C "$root/deequ" --wildcards \
     'pyspark-4.0.1/deps/bin/*' 'pyspark-4.0.1/deps/jars/*'
-fetch https://repo.maven.apache.org/maven2/com/amazon/deequ/deequ/2.0.15-spark-4.0/deequ-2.0.15-spark-4.0.jar \
-    cc51910a73b8de05f07353e48a167baa35232c46a9f7861a4e6fc290501703f2 "$root/deequ/deequ.jar"
+deequ_path=com/amazon/deequ/deequ/2.0.15-spark-4.0/deequ-2.0.15-spark-4.0.jar
+# Use the Maven Central cache first because shared CI runners can hit Maven Central's rate limit.
+fetch "https://maven-central.storage-download.googleapis.com/maven2/$deequ_path" \
+    cc51910a73b8de05f07353e48a167baa35232c46a9f7861a4e6fc290501703f2 "$root/deequ/deequ.jar" \
+    "https://repo.maven.apache.org/maven2/$deequ_path"
