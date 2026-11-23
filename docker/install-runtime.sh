@@ -16,7 +16,7 @@ unpack() {
 mkdir -p "$root/tools" "$root/deequ" "$root/slt"
 python3.12 -m venv "$root/venv"
 python -m pip install --no-cache-dir --require-hashes -r requirements.lock
-python -m pip install --no-cache-dir --no-deps -e .
+python -m pip install --no-cache-dir --no-build-isolation --no-deps -e .
 python -m pip install --no-cache-dir --require-hashes --no-deps -r docker/requirements-default.lock
 python -m pip install --no-cache-dir --require-hashes --no-deps --target "$root/e4-site" \
     -r docker/requirements-e4.lock

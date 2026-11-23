@@ -5,3 +5,4 @@ pandas==2.2.3
 polars==1.31.0
 numpy==2.2.6
 datacompy==0.16.8
+setuptools==80.9.0
