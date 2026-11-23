@@ -1,0 +1,238 @@
+{
+  "cohorts": [
+    {
+      "admitted": 141111,
+      "changed_pickup_bins": 44247,
+      "day": 2,
+      "excluded_no_duration_match": 30038,
+      "report": [
+        {
+          "count": 27315,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T04:00:00"
+        },
+        {
+          "count": 34358,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T05:00:00"
+        },
+        {
+          "count": 4533,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T06:00:00"
+        },
+        {
+          "count": 12707,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T07:00:00"
+        },
+        {
+          "count": 10396,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T08:00:00"
+        },
+        {
+          "count": 13670,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T04:00:00"
+        },
+        {
+          "count": 20082,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T05:00:00"
+        },
+        {
+          "count": 2872,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T06:00:00"
+        },
+        {
+          "count": 8465,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T07:00:00"
+        },
+        {
+          "count": 6713,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T08:00:00"
+        },
+        {
+          "count": 27315,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T04:00:00"
+        },
+        {
+          "count": 6518,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T05:00:00"
+        },
+        {
+          "count": 32373,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T06:00:00"
+        },
+        {
+          "count": 12707,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T07:00:00"
+        },
+        {
+          "count": 10396,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-02T08:00:00"
+        },
+        {
+          "count": 13670,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T04:00:00"
+        },
+        {
+          "count": 3675,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T05:00:00"
+        },
+        {
+          "count": 19279,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T06:00:00"
+        },
+        {
+          "count": 8465,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T07:00:00"
+        },
+        {
+          "count": 6713,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-02T08:00:00"
+        }
+      ]
+    },
+    {
+      "admitted": 102821,
+      "changed_pickup_bins": 0,
+      "day": 9,
+      "excluded_no_duration_match": 20839,
+      "report": [
+        {
+          "count": 21609,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T05:00:00"
+        },
+        {
+          "count": 17391,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T06:00:00"
+        },
+        {
+          "count": 13631,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T07:00:00"
+        },
+        {
+          "count": 10538,
+          "policy": "earliest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T08:00:00"
+        },
+        {
+          "count": 13594,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T05:00:00"
+        },
+        {
+          "count": 11192,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T06:00:00"
+        },
+        {
+          "count": 8521,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T07:00:00"
+        },
+        {
+          "count": 6345,
+          "policy": "earliest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T08:00:00"
+        },
+        {
+          "count": 21609,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T05:00:00"
+        },
+        {
+          "count": 17391,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T06:00:00"
+        },
+        {
+          "count": 13631,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T07:00:00"
+        },
+        {
+          "count": 10538,
+          "policy": "latest",
+          "provider": "HV0003",
+          "utc_hour": "2025-11-09T08:00:00"
+        },
+        {
+          "count": 13594,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T05:00:00"
+        },
+        {
+          "count": 11192,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T06:00:00"
+        },
+        {
+          "count": 8521,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T07:00:00"
+        },
+        {
+          "count": 6345,
+          "policy": "latest",
+          "provider": "HV0005",
+          "utc_hour": "2025-11-09T08:00:00"
+        }
+      ]
+    }
+  ],
+  "duckdb": "2.0.1",
+  "source_sha256": "a17ebafe3b6b1927f9b1b4cfc9062a328867b79a871ce762bfb16a841024f1e0"
+}

@@ -68,7 +68,9 @@ with duckdb.connect() as conn:
 
 ## Paper-to-Repository Map
 
-Every number reported in the paper is registered with its exact denominator, `artifact_path`, SHA-256 digest, and replay command in **`NUMBERS.json`**.
+The [numerical ledger](NUMBERS.json) links experimental results to their denominators, archived receipts, SHA-256 digests, and recomputation commands. Run `python -B scripts/recount_numbers.py <id>` for a supplemental entry or `python -B replay.py` to verify the ledger offline.
+
+The [public Docker receipt](evidence/PUBLIC-DOCKER-VALIDATION.json) records the network-disabled run with bundled inputs. It completed 56 of 101 archive entries (55 native re-executions and one receipt-only check). The 45 other entries had unbound optional inputs. The historical remote runs used different bindings and are labeled separately in the ledger.
 
 | Paper Section / Artifact | Description | Primary Repository Location |
 | --- | --- | --- |

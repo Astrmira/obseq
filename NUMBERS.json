@@ -1139,7 +1139,7 @@
       "value": 22,
       "denominator": 101,
       "unit": "archive entries",
-      "scope": "Remote run with system Python 3.10.12. Includes one receipt-only entry.",
+      "scope": "Historical pre-migration run with a different binding set. Remote run with system Python 3.10.12. Includes one receipt-only entry.",
       "source_sha256": "b70b385014e2b9d50a9bfc86cf23cba44cf9ef943d2dfa599ba644c8b0f1f6ae",
       "replay": "python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH",
       "artifact_path": "evidence/NATIVE-ARCHIVE-VALIDATION.json"
@@ -1149,7 +1149,7 @@
       "value": 25,
       "denominator": 101,
       "unit": "archive entries",
-      "scope": "Second remote run with pinned GDAL, GEOS and PROJ. Includes one receipt-only entry.",
+      "scope": "Historical pre-migration run with a different binding set. Second remote run with pinned GDAL, GEOS and PROJ. Includes one receipt-only entry.",
       "source_sha256": "b70b385014e2b9d50a9bfc86cf23cba44cf9ef943d2dfa599ba644c8b0f1f6ae",
       "replay": "python -B replay.py --native-inputs LOCAL_BINDINGS.json --scratch SCRATCH --system-python GDAL_PYTHON",
       "artifact_path": "evidence/NATIVE-ARCHIVE-VALIDATION.json"
@@ -1283,6 +1283,2859 @@
       "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
       "source_sha256": "0c11d9763be3f81fb3aa394ccc7f33d179d89ee15afad33046e2d9d6b8a3c0bc",
       "replay": "python -B q59.py QUERIES_JSON SF10_TPCDS_DB --verify-window ../pvldb-a1-query-inventory/verify_windows.py"
+    },
+    {
+      "id": "c4.contract_replay.arms_scored",
+      "value": 968,
+      "denominator": 968,
+      "unit": "archived arms",
+      "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
+      "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.arms_scored"
+    },
+    {
+      "id": "c4.contract_replay.legal_arms_accepted",
+      "value": 760,
+      "denominator": 760,
+      "unit": "archived arms",
+      "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
+      "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.legal_arms_accepted"
+    },
+    {
+      "id": "c4.contract_replay.faulty_arms_rejected",
+      "value": 208,
+      "denominator": 208,
+      "unit": "archived arms",
+      "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
+      "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.faulty_arms_rejected"
+    },
+    {
+      "id": "a8.native.public_docker.completed",
+      "value": 56,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.completed"
+    },
+    {
+      "id": "a8.native.public_docker.native_reexecuted",
+      "value": 55,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.native_reexecuted"
+    },
+    {
+      "id": "a8.native.public_docker.receipt_only",
+      "value": 1,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.receipt_only"
+    },
+    {
+      "id": "a8.native.public_docker.pass_exact",
+      "value": 45,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_exact"
+    },
+    {
+      "id": "a8.native.public_docker.pass_stable",
+      "value": 11,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_stable"
+    },
+    {
+      "id": "a8.native.public_docker.missing_optional_inputs",
+      "value": 45,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.missing_optional_inputs"
+    },
+    {
+      "id": "a8.native.public_docker.failed",
+      "value": 0,
+      "denominator": 101,
+      "unit": "archive entries",
+      "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
+      "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
+      "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.failed"
+    },
+    {
+      "id": "e6.o3.topk_guard_peak_rss",
+      "value": 466,
+      "denominator": 5,
+      "unit": "MiB",
+      "scope": "Section 7. Median peak resident memory (VmHWM), converted from KiB and rounded to MiB.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_peak_rss"
+    },
+    {
+      "id": "e6.o3.topk_family_peak_rss",
+      "value": 566,
+      "denominator": 5,
+      "unit": "MiB",
+      "scope": "Section 7. Median peak resident memory (VmHWM), converted from KiB and rounded to MiB.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_peak_rss"
+    },
+    {
+      "id": "e6.o3.topk_guard_memory_reduction",
+      "value": 17.737785656639513,
+      "denominator": 566.30078125,
+      "unit": "percent",
+      "scope": "Section 7. Reduction relative to the explicit family's median MiB.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_memory_reduction"
+    },
+    {
+      "id": "e6.o4.eager_vs_generate",
+      "value": 16.456446255530327,
+      "denominator": 0.263282931,
+      "unit": "times",
+      "scope": "Section 7 and Table 7. Eager exact median seconds divided by generation/checksum median seconds.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o4.eager_vs_generate"
+    },
+    {
+      "id": "e6.o4.filtered_speedup_vs_eager",
+      "value": 12.34164072818397,
+      "denominator": 0.351063647,
+      "unit": "times",
+      "scope": "Sections 1 and 7. Ratio of the unrounded eager and filtered exact wall-clock medians in seconds.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o4.filtered_speedup_vs_eager"
+    },
+    {
+      "id": "e6.o4.exact_fallbacks",
+      "value": 21744,
+      "denominator": 100000000,
+      "unit": "predicate calls",
+      "scope": "Section 7. Exact dyadic fallbacks at the largest scale.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o4.exact_fallbacks"
+    },
+    {
+      "id": "e6.o4.geometry_seed_count",
+      "value": 243727,
+      "denominator": 100000000,
+      "unit": "real seeds",
+      "scope": "Table 7. Unique seeds expanded into the generated dyadic workload.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.o4.geometry_seed_count"
+    },
+    {
+      "id": "e6.table7.o1.time",
+      "value": {
+        "raw_file_sha256": 1.528284689,
+        "sqlite_backup_logical": 72.485318674,
+        "sqlite_backup_only": 3.32991807,
+        "sqlite_native_read": 4.515241145
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o1.time"
+    },
+    {
+      "id": "e6.table7.o2.time",
+      "value": {
+        "epoch": 0.00021875999664189294,
+        "exact": 13.998960844000976,
+        "producer": 2.2250756729990826
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o2.time"
+    },
+    {
+      "id": "e6.table7.o4.time",
+      "value": {
+        "eager_exact": 4.332701404,
+        "generation_checksum": 0.263282931,
+        "lazy_filtered": 0.351063647
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o4.time"
+    },
+    {
+      "id": "e6.table7.o3_topk.time",
+      "value": {
+        "family": {
+          "total_wall_seconds": 19.197998442,
+          "median_within_trial_checker_over_producer_pct": 131.917311
+        },
+        "guard": {
+          "total_wall_seconds": 22.57737025,
+          "median_within_trial_checker_over_producer_pct": 180.726236
+        },
+        "producer": {
+          "total_wall_seconds": 7.861431847,
+          "median_within_trial_checker_over_producer_pct": 0.0
+        }
+      },
+      "denominator": 5,
+      "unit": "seconds and percent",
+      "scope": "Table 7. Total duration and median within-worker incremental ratio.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_topk.time"
+    },
+    {
+      "id": "e6.table7.o3_group.time",
+      "value": {
+        "claimed": {
+          "total_wall_seconds": 23.723329194,
+          "median_within_trial_checker_over_producer_pct": 164.750756
+        },
+        "family": {
+          "total_wall_seconds": 20.853520688,
+          "median_within_trial_checker_over_producer_pct": 116.757802
+        },
+        "producer": {
+          "total_wall_seconds": 9.301556715,
+          "median_within_trial_checker_over_producer_pct": 0.0
+        }
+      },
+      "denominator": 5,
+      "unit": "seconds and percent",
+      "scope": "Table 7. Total duration and median within-worker incremental ratio.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_group.time"
+    },
+    {
+      "id": "e6.table7.o5.time",
+      "value": {
+        "apply_wall_s": 0.0017546809976920485,
+        "verify_over_apply_median_within_trial_pct": 443268.334314,
+        "verify_wall_s": 8.037785722997796,
+        "vmhwm_kib": 284368,
+        "witness_over_apply_median_within_trial_pct": 36.345638,
+        "witness_wall_s": 0.0006377500030794181
+      },
+      "denominator": 5,
+      "unit": "seconds, percent and KiB",
+      "scope": "Section 7 and Table 7. Sparse apply, intent witness and full verification.",
+      "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
+      "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o5.time"
+    },
+    {
+      "id": "a5.original.contract_words_min",
+      "value": 8,
+      "denominator": 108,
+      "unit": "words",
+      "scope": "Section 7. Minimum over the original held-out case declarations.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.original.contract_words_min"
+    },
+    {
+      "id": "a5.original.contract_words_max",
+      "value": 17,
+      "denominator": 108,
+      "unit": "words",
+      "scope": "Section 7. Maximum over the original held-out case declarations.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.original.contract_words_max"
+    },
+    {
+      "id": "a5.later.contract_clauses_min",
+      "value": 3,
+      "denominator": 138,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.later.contract_clauses_min"
+    },
+    {
+      "id": "a5.later.contract_clauses_max",
+      "value": 4,
+      "denominator": 138,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.later.contract_clauses_max"
+    },
+    {
+      "id": "a5.later.contract_clauses_median",
+      "value": 3.0,
+      "denominator": 138,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.later.contract_clauses_median"
+    },
+    {
+      "id": "a5.development.contract_clauses_min",
+      "value": 3,
+      "denominator": 58,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.development.contract_clauses_min"
+    },
+    {
+      "id": "a5.development.contract_clauses_max",
+      "value": 6,
+      "denominator": 58,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.development.contract_clauses_max"
+    },
+    {
+      "id": "a5.development.contract_clauses_median",
+      "value": 4.0,
+      "denominator": 58,
+      "unit": "clauses",
+      "scope": "Section 7. Distribution over the case roster using its recorded contract definitions.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.development.contract_clauses_median"
+    },
+    {
+      "id": "a5.later.contract_panels",
+      "value": 6,
+      "denominator": 138,
+      "unit": "panels",
+      "scope": "Section 7. Later held-out cases.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a5.later.contract_panels"
+    },
+    {
+      "id": "a1.static_only_queries",
+      "value": 189,
+      "denominator": 305,
+      "unit": "queries",
+      "scope": "Section 7. Static inventory only.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
+      "replay": "python -B scripts/recount_numbers.py a1.static_only_queries"
+    },
+    {
+      "id": "a5.durable.write_times",
+      "value": {
+        "outside_change": {
+          "tracked": 15.8157925,
+          "untracked": 7.7023475
+        },
+        "scoped_change": {
+          "tracked": 15.851855,
+          "untracked": 6.7242655
+        },
+        "scoped_zero": {
+          "tracked": 9.007216,
+          "untracked": 7.652253
+        }
+      },
+      "denominator": 5,
+      "unit": "milliseconds",
+      "scope": "Section 7. Single-writer, one-commit-per-transaction medians.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json",
+      "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
+      "replay": "python -B scripts/recount_numbers.py a5.durable.write_times"
+    },
+    {
+      "id": "a5.durable.wal_bytes",
+      "value": {
+        "tracked": 19464,
+        "untracked": 15752
+      },
+      "denominator": 96,
+      "unit": "bytes",
+      "scope": "Section 7. Median WAL size after the reported number of commits.",
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json",
+      "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
+      "replay": "python -B scripts/recount_numbers.py a5.durable.wal_bytes"
+    },
+    {
+      "id": "a1.table3.queries_by_suite",
+      "value": {
+        "tpch": 22,
+        "tpcds": 99,
+        "ssb": 13,
+        "job": 113,
+        "clickbench": 43,
+        "h2o": 15
+      },
+      "denominator": 305,
+      "unit": "queries",
+      "scope": "Tables 2 and 3. All frozen SQL queries parsed by the static inventory.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/INVENTORY.json",
+      "source_sha256": "97b173fd39266cf3575ece16df851478cfdee9bcdc43860afd691961f870f7a4",
+      "replay": "python -B scripts/recount_numbers.py a1.table3.queries_by_suite"
+    },
+    {
+      "id": "a1.table3.ordered_windows_by_suite",
+      "value": {
+        "tpch": 5,
+        "tpcds": 80,
+        "ssb": 0,
+        "job": 0,
+        "clickbench": 31,
+        "h2o": 0
+      },
+      "denominator": {
+        "tpch": 22,
+        "tpcds": 99,
+        "ssb": 13,
+        "job": 113,
+        "clickbench": 43,
+        "h2o": 15
+      },
+      "unit": "queries",
+      "scope": "Table 3. Top-level ordered LIMIT windows by benchmark.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/INVENTORY.json",
+      "source_sha256": "97b173fd39266cf3575ece16df851478cfdee9bcdc43860afd691961f870f7a4",
+      "replay": "python -B scripts/recount_numbers.py a1.table3.ordered_windows_by_suite"
+    },
+    {
+      "id": "a1.audit.frozen_queries",
+      "value": 30,
+      "denominator": 305,
+      "unit": "queries",
+      "scope": "Section 4.1. Frozen selected queries with recorded review labels.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SQL-AUDIT.tsv",
+      "source_sha256": "720f05b101eab1c55a202ba48b5ddb96668a24ae60e2a760b75421578b40ddc0",
+      "replay": "python -B scripts/recount_numbers.py a1.audit.frozen_queries"
+    },
+    {
+      "id": "a1.audit.cells",
+      "value": {
+        "resolved": 135,
+        "unresolved": 15,
+        "positive": 3,
+        "negative": 132
+      },
+      "denominator": 150,
+      "unit": "review cells",
+      "scope": "Section 4.1. Five axes across the frozen review sample.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SQL-AUDIT.md",
+      "source_sha256": "acf620651c3edc2ddcde8b5613d0c47cf32c8f402d34be00a69b5066d62afd98",
+      "replay": "python -B scripts/recount_numbers.py a1.audit.cells"
+    },
+    {
+      "id": "a1.native_outputs_accepted",
+      "value": 232,
+      "denominator": 232,
+      "unit": "outputs",
+      "scope": "Sections 1 and 4.1. Native SQL window replay over the suite/scale roster.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B scripts/recount_numbers.py a1.native_outputs_accepted"
+    },
+    {
+      "id": "a1.shape_controls_rejected",
+      "value": 201,
+      "denominator": 201,
+      "unit": "controls",
+      "scope": "Sections 1 and 4.1. Native SQL window replay over the suite/scale roster.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B scripts/recount_numbers.py a1.shape_controls_rejected"
+    },
+    {
+      "id": "a1.equal_length_controls_by_kind",
+      "value": {
+        "membership": 199,
+        "multiplicity": 177,
+        "order": 173
+      },
+      "denominator": 549,
+      "unit": "controls",
+      "scope": "Section 4.1. Equal-length negative controls.",
+      "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
+      "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
+      "replay": "python -B scripts/recount_numbers.py a1.equal_length_controls_by_kind"
+    },
+    {
+      "id": "c3.clickbench.table4.configured_tools",
+      "value": {
+        "datacompy_keyed": {
+          "false_reject": 9,
+          "false_accept": 7,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "dbt_stock_relationships": {
+          "false_reject": 8,
+          "false_accept": 0,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "dbt_typed_fixed_golden": {
+          "false_reject": 8,
+          "false_accept": 0,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "deequ_stock_size": {
+          "false_reject": 0,
+          "false_accept": 19,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "deequ_typed_fixed_golden": {
+          "false_reject": 8,
+          "false_accept": 0,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "dvc_fingerprint": {
+          "false_reject": 9,
+          "false_accept": 0,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "great_expectations_rowcount": {
+          "false_reject": 0,
+          "false_accept": 19,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "pandas_check_like": {
+          "false_reject": 9,
+          "false_accept": 3,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "pandas_default": {
+          "false_reject": 9,
+          "false_accept": 3,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "pandas_dtype_relaxed": {
+          "false_reject": 9,
+          "false_accept": 3,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "polars_default": {
+          "false_reject": 9,
+          "false_accept": 3,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "polars_ignore_order": {
+          "false_reject": 8,
+          "false_accept": 3,
+          "illegal_applicable": 19,
+          "legal_applicable": 10
+        },
+        "slt_nosort": {
+          "false_reject": 4,
+          "false_accept": 3,
+          "illegal_na": 4,
+          "legal_na": 5,
+          "illegal_applicable": 15,
+          "legal_applicable": 5
+        },
+        "slt_rowsort": {
+          "false_reject": 4,
+          "false_accept": 3,
+          "illegal_na": 4,
+          "legal_na": 5,
+          "illegal_applicable": 15,
+          "legal_applicable": 5
+        },
+        "slt_rowsort_hash_threshold1": {
+          "false_reject": 4,
+          "false_accept": 0,
+          "illegal_na": 4,
+          "legal_na": 5,
+          "illegal_applicable": 15,
+          "legal_applicable": 5
+        },
+        "slt_valuesort": {
+          "false_reject": 4,
+          "false_accept": 9,
+          "illegal_na": 4,
+          "legal_na": 5,
+          "illegal_applicable": 15,
+          "legal_applicable": 5
+        }
+      },
+      "denominator": {
+        "legal": 10,
+        "illegal": 19
+      },
+      "unit": "comparison arms",
+      "scope": "Table 4. Configured tool errors and applicable denominators by suite.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.configured_tools"
+    },
+    {
+      "id": "c3.tpc.table4.configured_tools",
+      "value": {
+        "datacompy_keyed": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "dbt_stock_relationships": {
+          "false_reject": 1,
+          "false_accept": 3,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "dbt_typed_fixed_golden": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "deequ_stock_size": {
+          "false_reject": 0,
+          "false_accept": 5,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "deequ_typed_fixed_golden": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "dvc_fingerprint": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "great_expectations_rowcount": {
+          "false_reject": 0,
+          "false_accept": 5,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "pandas_check_like": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "pandas_default": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "pandas_dtype_relaxed": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "polars_default": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "polars_ignore_order": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "slt_nosort": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "slt_rowsort": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "slt_rowsort_hash_threshold1": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        },
+        "slt_valuesort": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "illegal_applicable": 8,
+          "legal_applicable": 3
+        }
+      },
+      "denominator": {
+        "legal": 3,
+        "illegal": 8
+      },
+      "unit": "comparison arms",
+      "scope": "Table 4. Configured tool errors and applicable denominators by suite.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json",
+      "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.configured_tools"
+    },
+    {
+      "id": "c3.tpc.table4.generic",
+      "value": {
+        "byte_hash": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_na": 3,
+          "illegal_na": 8
+        },
+        "multiset": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "ordered": {
+          "false_reject": 1,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "rowcount": {
+          "false_reject": 0,
+          "false_accept": 5,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "rtol1e-5": {
+          "false_reject": 0,
+          "false_accept": 1,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "rtol1e-9": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "schema": {
+          "false_reject": 0,
+          "false_accept": 6,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "set": {
+          "false_reject": 1,
+          "false_accept": 1,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        },
+        "sqlite_integrity": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_na": 3,
+          "illegal_na": 8
+        },
+        "sum": {
+          "false_reject": 1,
+          "false_accept": 1,
+          "legal_applicable": 3,
+          "illegal_applicable": 8
+        }
+      },
+      "denominator": 11,
+      "unit": "comparison arms",
+      "scope": "Table 4. Generic TPC comparators with explicit applicability.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.generic"
+    },
+    {
+      "id": "c3.tpc.table4.cwi",
+      "value": {
+        "roundingdiff": {
+          "false_reject": 0,
+          "false_accept": 2,
+          "legal_applicable": 1,
+          "illegal_applicable": 3
+        }
+      },
+      "denominator": 4,
+      "unit": "comparison arms",
+      "scope": "Table 4. Pinned CWI comparator on the Q39 subset.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.cwi"
+    },
+    {
+      "id": "c3.tpch_11.source_reference",
+      "value": {
+        "biggest_group_cents": 2038277362,
+        "results": {
+          "bundled": {
+            "fraction": "1/10000",
+            "matched_exact_oracle": true,
+            "output_rows": 0,
+            "threshold_cents_rational": "81029137652468/10000",
+            "value_tie_count_excess": 0
+          },
+          "scale_bound": {
+            "fraction": "1/100000",
+            "matched_exact_oracle": true,
+            "output_rows": 8685,
+            "threshold_cents_rational": "81029137652468/100000",
+            "value_tie_count_excess": 2
+          }
+        }
+      },
+      "denominator": 10,
+      "unit": "query-specific measurements at SF10",
+      "scope": "Section 4.2. Independent exact source rescan.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B scripts/recount_numbers.py c3.tpch_11.source_reference"
+    },
+    {
+      "id": "c3.tpch_21.source_reference",
+      "value": {
+        "qualifying_suppliers": 4009,
+        "boundary_count": 16,
+        "mandatory_before_boundary": 92,
+        "peers_at_boundary": 74,
+        "taken_from_boundary": 8,
+        "memberships_admissible_if_dropping_secondary_sort": 15071474661,
+        "ordered_position_differences_with_reverse_secondary": 98
+      },
+      "denominator": 10,
+      "unit": "query-specific measurements at SF10",
+      "scope": "Section 4.2. Independent exact source rescan.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B scripts/recount_numbers.py c3.tpch_21.source_reference"
+    },
+    {
+      "id": "c3.tpcds_86.source_reference",
+      "value": {
+        "tagged_output_rows_before_limit": 168,
+        "qualifying_join_facts": 1446551,
+        "null_dimension_rendering_collisions": 11,
+        "groups_wrongly_inferred_by_nullability": 57,
+        "stock_head_hierarchy_counts": {
+          "0": 88,
+          "1": 11,
+          "2": 1
+        },
+        "wrong_head_hierarchy_counts": {
+          "0": 32,
+          "1": 65,
+          "2": 3
+        }
+      },
+      "denominator": 10,
+      "unit": "query-specific measurements at SF10",
+      "scope": "Section 4.2. Independent exact source rescan.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
+      "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
+      "replay": "python -B scripts/recount_numbers.py c3.tpcds_86.source_reference"
+    },
+    {
+      "id": "c3.q59.source_scan_and_cutoff",
+      "value": {
+        "sales_rows_scanned": 11213853,
+        "cutoff_peer_size": 49,
+        "cutoff_peer_output_rows": 2,
+        "required_rows": 100,
+        "position_differences_ascending_vs_descending": 0
+      },
+      "denominator": 5,
+      "unit": "source rows and cutoff counts",
+      "scope": "Sections 3 and 4.1. SF10 independent Decimal source rescan and typed window decisions.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
+      "source_sha256": "0c11d9763be3f81fb3aa394ccc7f33d179d89ee15afad33046e2d9d6b8a3c0bc",
+      "replay": "python -B scripts/recount_numbers.py c3.q59.source_scan_and_cutoff"
+    },
+    {
+      "id": "c3.tpch_sf10.lineitem_rows",
+      "value": 59986052,
+      "denominator": 10,
+      "unit": "source rows",
+      "scope": "Section 3. Source lineitem table at SF10, used by the Q21 rescan.",
+      "artifact_path": "evidence/e7-archived-native-replay-extension-9/packages/tpch-sf10-bundled-vs-workload-q11/tpch-counts.json",
+      "source_sha256": "269015a4c05f0988f1756d4b3f519096e4bf5da8ab5dae7f9e81f4a85fd516d7",
+      "replay": "python -B scripts/recount_numbers.py c3.tpch_sf10.lineitem_rows"
+    },
+    {
+      "id": "c3.clickbench.table4.q18_q25_generic",
+      "value": {
+        "byte_hash": {
+          "false_reject": 3,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "multiset": {
+          "false_reject": 2,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "ordered": {
+          "false_reject": 3,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "rowcount": {
+          "false_reject": 0,
+          "false_accept": 4,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "rtol1e-5": {
+          "false_reject": 3,
+          "false_accept": 2,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "rtol1e-9": {
+          "false_reject": 3,
+          "false_accept": 2,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "schema": {
+          "false_reject": 0,
+          "false_accept": 4,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "set": {
+          "false_reject": 2,
+          "false_accept": 0,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        },
+        "sqlite_integrity": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_na": 3,
+          "illegal_na": 4
+        },
+        "sum": {
+          "false_reject": 1,
+          "false_accept": 2,
+          "legal_applicable": 3,
+          "illegal_applicable": 4
+        }
+      },
+      "denominator": 7,
+      "unit": "comparison arms",
+      "scope": "Table 4. Generic decisions on Q18 and Q25.",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-A2.json",
+      "source_sha256": "e12710b224994f8c65fd39b74db0d72463dd12fec53b8a0d9ad46020d94eceab",
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.q18_q25_generic"
+    },
+    {
+      "id": "c3.clickbench.table4.grouped_generic",
+      "value": {
+        "byte_hash": {
+          "false_reject": 6,
+          "false_accept": 0,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "multiset": {
+          "false_reject": 6,
+          "false_accept": 0,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "ordered": {
+          "false_reject": 6,
+          "false_accept": 0,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "rowcount": {
+          "false_reject": 0,
+          "false_accept": 15,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "rtol1e-5": {
+          "false_reject": 6,
+          "false_accept": 8,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "rtol1e-9": {
+          "false_reject": 6,
+          "false_accept": 8,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "schema": {
+          "false_reject": 0,
+          "false_accept": 15,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "set": {
+          "false_reject": 6,
+          "false_accept": 0,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        },
+        "sqlite_integrity": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_na": 7,
+          "illegal_na": 15
+        },
+        "sum": {
+          "false_reject": 5,
+          "false_accept": 4,
+          "legal_applicable": 7,
+          "illegal_applicable": 15
+        }
+      },
+      "denominator": 22,
+      "unit": "comparison arms",
+      "scope": "Table 4. Generic decisions on Q31–Q33 and Q39–Q42.",
+      "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
+      "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.grouped_generic"
+    },
+    {
+      "id": "c3.clickbench.table4.generic",
+      "value": {
+        "byte_hash": {
+          "false_reject": 9,
+          "false_accept": 0,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "multiset": {
+          "false_reject": 8,
+          "false_accept": 0,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "ordered": {
+          "false_reject": 9,
+          "false_accept": 0,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "rowcount": {
+          "false_reject": 0,
+          "false_accept": 19,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "rtol1e-5": {
+          "false_reject": 9,
+          "false_accept": 10,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "rtol1e-9": {
+          "false_reject": 9,
+          "false_accept": 10,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "schema": {
+          "false_reject": 0,
+          "false_accept": 19,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "set": {
+          "false_reject": 8,
+          "false_accept": 0,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        },
+        "sqlite_integrity": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_na": 10,
+          "illegal_na": 19
+        },
+        "sum": {
+          "false_reject": 6,
+          "false_accept": 6,
+          "legal_applicable": 10,
+          "illegal_applicable": 19
+        }
+      },
+      "denominator": 29,
+      "unit": "comparison arms",
+      "scope": "Table 4. Grouped-window receipt combined with FULL-A2.json for Q18 and Q25.",
+      "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
+      "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.generic"
+    },
+    {
+      "id": "a7.full.cutoff_examples",
+      "value": {
+        "q25_candidates": 13172392,
+        "q25_peers": 8,
+        "q25_legal_bags": 28,
+        "q32_candidates": 13172392,
+        "order_and_bag_difference_counts": {
+          "bag_difference_with_split_cutoff": 6,
+          "different_bag": 7,
+          "different_order": 9,
+          "different_order_same_bag": 2
+        },
+        "offset_boundary_peer_counts": {
+          "39": [
+            1235,
+            1235
+          ],
+          "40": [
+            114,
+            114
+          ],
+          "41": [
+            9,
+            9
+          ],
+          "42": [
+            4276,
+            4276
+          ]
+        }
+      },
+      "denominator": 43,
+      "unit": "counts",
+      "scope": "Section 4.1. Cutoff and legal output census on full ClickBench.",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json",
+      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
+      "replay": "python -B scripts/recount_numbers.py a7.full.cutoff_examples"
+    },
+    {
+      "id": "c3.q39.sf1.drift",
+      "value": {
+        "changed_rows": 57,
+        "max_ulp": {
+          "1": 2,
+          "4": 1
+        }
+      },
+      "denominator": 243,
+      "unit": "rows and ULP",
+      "scope": "Table 3. SF1 one/four-thread variation versus exact reference.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e1/q39-retry-reference.json",
+      "source_sha256": "d6a19c750e963e1b8847ed329596cc5643f95ff84600c70c1c75b0eeb5beacc9",
+      "replay": "python -B scripts/recount_numbers.py c3.q39.sf1.drift"
+    },
+    {
+      "id": "c3.q39.sf10.drift",
+      "value": {
+        "changed_rows": 458,
+        "max_ulp": {
+          "1": 2,
+          "4": 2
+        }
+      },
+      "denominator": 2433,
+      "unit": "rows and ULP",
+      "scope": "Table 3. SF10 one/four-thread variation versus exact reference.",
+      "artifact_path": "evidence/e7-archived-native-replay-extension-10/packages/tpcds-sf10-q39-exact-threshold/q39-result.json",
+      "source_sha256": "5ac0966c6548a1367e8f6a25757d3e7a56ae0bcb393a7e806b3251d9ce392c08",
+      "replay": "python -B scripts/recount_numbers.py c3.q39.sf10.drift"
+    },
+    {
+      "id": "a1.h2o.q8_unique_groups",
+      "value": 95001,
+      "denominator": 95001,
+      "unit": "groups",
+      "scope": "Table 3. Groups with a unique top-two cutoff.",
+      "artifact_path": "evidence/e7-unified-native-development-extension-8/packages/publisher-cutoff-observability/RESULT.json",
+      "source_sha256": "eddfaabd7ec95794aa8254d92574d5f2c61bbf078a63e4880627c3f3e62b1ee9",
+      "replay": "python -B scripts/recount_numbers.py a1.h2o.q8_unique_groups"
+    },
+    {
+      "id": "c3.h2o.q3_checksum",
+      "value": {
+        "M2_payload_exchange": "475042480.57;423957578.77",
+        "clean": "475042480.57;423957578.77",
+        "positive_control_plus_one": "475042480.57;423957579.77"
+      },
+      "denominator": 10000000,
+      "unit": "formatted column sums",
+      "scope": "Section 4.2. Native H2O checksum and mutation control.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/H2O-RESULT.json",
+      "source_sha256": "d26d40f72e5c67bb52f2243e65e8647ffc94cfb9a22f69c28cb49bd86136bdfc",
+      "replay": "python -B scripts/recount_numbers.py c3.h2o.q3_checksum"
+    },
+    {
+      "id": "c1.figure2.generic_by_mechanism",
+      "value": {
+        "ordered": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 2
+        },
+        "multiset": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 1
+        },
+        "set": {
+          "legal_mechanisms_rejected": 6,
+          "fault_mechanisms_accepted": 1
+        },
+        "byte_hash": {
+          "legal_mechanisms_rejected": 3,
+          "fault_mechanisms_accepted": 1
+        },
+        "rtol1e-5": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 3
+        },
+        "rtol1e-9": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 3
+        },
+        "sum": {
+          "legal_mechanisms_rejected": 6,
+          "fault_mechanisms_accepted": 4
+        },
+        "rowcount": {
+          "legal_mechanisms_rejected": 0,
+          "fault_mechanisms_accepted": 9
+        },
+        "schema": {
+          "legal_mechanisms_rejected": 1,
+          "fault_mechanisms_accepted": 8
+        },
+        "sqlite_integrity": {
+          "legal_mechanisms_rejected": 0,
+          "fault_mechanisms_accepted": 2
+        }
+      },
+      "denominator": {
+        "legal": 7,
+        "fault": 10
+      },
+      "unit": "mechanisms",
+      "scope": "Figure 2 and Table 5. A mechanism contributes if any arm is misclassified.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "python -B scripts/recount_numbers.py c1.figure2.generic_by_mechanism"
+    },
+    {
+      "id": "c1.table5.generic_and_typed_by_arm",
+      "value": {
+        "byte_hash": {
+          "false_reject": 8,
+          "false_accept": 3,
+          "legal_na": 52,
+          "legal_applicable": 8,
+          "illegal_na": 27,
+          "illegal_applicable": 3
+        },
+        "multiset": {
+          "false_reject": 33,
+          "false_accept": 3,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "ordered": {
+          "false_reject": 34,
+          "false_accept": 5,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "rowcount": {
+          "false_reject": 0,
+          "false_accept": 27,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "rtol1e-5": {
+          "false_reject": 34,
+          "false_accept": 8,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "rtol1e-9": {
+          "false_reject": 34,
+          "false_accept": 8,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "schema": {
+          "false_reject": 3,
+          "false_accept": 24,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "set": {
+          "false_reject": 32,
+          "false_accept": 3,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "sqlite_integrity": {
+          "false_reject": 0,
+          "false_accept": 6,
+          "legal_na": 60,
+          "illegal_na": 24,
+          "illegal_applicable": 6
+        },
+        "sum": {
+          "false_reject": 30,
+          "false_accept": 11,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        },
+        "ObsEq": {
+          "false_reject": 0,
+          "false_accept": 0,
+          "legal_applicable": 60,
+          "illegal_applicable": 30
+        }
+      },
+      "denominator": 90,
+      "unit": "arms",
+      "scope": "Figure 2 and Table 5. Generic comparison and typed-oracle decision counts.",
+      "artifact_path": "evidence/submission-e-series-native-evidence/e23/result.json",
+      "source_sha256": "b52c3180408a46c1d0c960f2b4fcd9c71f5c0101228b0029afd30b04f3d6d4ef",
+      "replay": "python -B scripts/recount_numbers.py c1.table5.generic_and_typed_by_arm"
+    },
+    {
+      "id": "c1.table5.tool_native_masks",
+      "value": {
+        "datacompy_keyed": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 9,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "dbt_stock_relationships": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 32,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "dbt_typed_fixed_golden": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 33,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "deequ_stock_size": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 0,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 27,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "deequ_typed_fixed_golden": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 33,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "duckdb_python_slt_hash_rowsort": {
+          "E2": {
+            "NA": 3,
+            "incorrect": 30,
+            "native_determinate": 57,
+            "total": 60
+          },
+          "E3": {
+            "NA": 6,
+            "incorrect": 3,
+            "native_determinate": 24,
+            "total": 30
+          }
+        },
+        "duckdb_python_slt_literal_nosort": {
+          "E2": {
+            "NA": 3,
+            "incorrect": 31,
+            "native_determinate": 57,
+            "total": 60
+          },
+          "E3": {
+            "NA": 6,
+            "incorrect": 3,
+            "native_determinate": 24,
+            "total": 30
+          }
+        },
+        "duckdb_python_slt_literal_rowsort": {
+          "E2": {
+            "NA": 3,
+            "incorrect": 30,
+            "native_determinate": 57,
+            "total": 60
+          },
+          "E3": {
+            "NA": 6,
+            "incorrect": 3,
+            "native_determinate": 24,
+            "total": 30
+          }
+        },
+        "duckdb_python_slt_literal_valuesort": {
+          "E2": {
+            "NA": 3,
+            "incorrect": 30,
+            "native_determinate": 57,
+            "total": 60
+          },
+          "E3": {
+            "NA": 6,
+            "incorrect": 3,
+            "native_determinate": 24,
+            "total": 30
+          }
+        },
+        "dvc_fixed_bytes": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "gx_reference_rowcount": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 0,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 27,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "pandas_check_like": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "pandas_default": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "pandas_dtype_relaxed": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 8,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "polars_default": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 34,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        },
+        "polars_ignore_order": {
+          "E2": {
+            "NA": 0,
+            "incorrect": 33,
+            "native_determinate": 60,
+            "total": 60
+          },
+          "E3": {
+            "NA": 0,
+            "incorrect": 3,
+            "native_determinate": 30,
+            "total": 30
+          }
+        }
+      },
+      "denominator": 90,
+      "unit": "arms",
+      "scope": "Figure 2 and Table 5. Per-tool applicable arms and errors.",
+      "artifact_path": "evidence/e5-practical-denominator-crosswalk/RESULT.json",
+      "source_sha256": "79a48305afb26c0f36f82b0456822ed170fb85278ceb820747bf2da1de122817",
+      "replay": "python -B scripts/recount_numbers.py c1.table5.tool_native_masks"
+    },
+    {
+      "id": "c2.table6.cases_by_cohort",
+      "value": {
+        "later": 138,
+        "original": 108
+      },
+      "denominator": 246,
+      "unit": "authored cases",
+      "scope": "Section 5.2 and Table 6. Independent original/later case rosters.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B scripts/recount_numbers.py c2.table6.cases_by_cohort"
+    },
+    {
+      "id": "c2.table6.original_mechanisms",
+      "value": {
+        "byte_hash": {
+          "legal_mechanisms_rejected": 0,
+          "fault_mechanisms_accepted": 0
+        },
+        "datacompy_keyed": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 1
+        },
+        "dbt_stock_relationships": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 3
+        },
+        "dbt_typed_fixed_golden": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "deequ_stock_size": {
+          "legal_mechanisms_rejected": 1,
+          "fault_mechanisms_accepted": 10
+        },
+        "deequ_typed_fixed_golden": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "dvc_fingerprint": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "great_expectations_rowcount": {
+          "legal_mechanisms_rejected": 1,
+          "fault_mechanisms_accepted": 10
+        },
+        "multiset": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "ordered": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "pandas_check_like": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "pandas_default": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "pandas_dtype_relaxed": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "polars_default": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "polars_ignore_order": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "rowcount": {
+          "legal_mechanisms_rejected": 1,
+          "fault_mechanisms_accepted": 10
+        },
+        "rtol1e-5": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 1
+        },
+        "rtol1e-9": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 1
+        },
+        "schema": {
+          "legal_mechanisms_rejected": 0,
+          "fault_mechanisms_accepted": 10
+        },
+        "set": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "slt_nosort": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "slt_rowsort": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "slt_rowsort_hash_threshold1": {
+          "legal_mechanisms_rejected": 7,
+          "fault_mechanisms_accepted": 0
+        },
+        "slt_valuesort": {
+          "legal_mechanisms_rejected": 6,
+          "fault_mechanisms_accepted": 0
+        },
+        "sqlite_integrity": {
+          "legal_mechanisms_rejected": 0,
+          "fault_mechanisms_accepted": 0
+        },
+        "sum": {
+          "legal_mechanisms_rejected": 2,
+          "fault_mechanisms_accepted": 9
+        }
+      },
+      "denominator": {
+        "legal": 8,
+        "fault": 10
+      },
+      "unit": "mechanisms",
+      "scope": "Table 6. Any erroneous observed arm marks its original held-out mechanism.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B scripts/recount_numbers.py c2.table6.original_mechanisms"
+    },
+    {
+      "id": "c2.table6.ordered_intervention_receipts",
+      "value": {
+        "byte_hash": {
+          "NA": 24
+        },
+        "datacompy_keyed": {
+          "false_accept": 8,
+          "false_reject": 1,
+          "true_accept": 11,
+          "true_reject": 4
+        },
+        "dbt_stock_relationships": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "dbt_typed_fixed_golden": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "deequ_stock_size": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "deequ_typed_fixed_golden": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "dvc_fingerprint": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "great_expectations_rowcount": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "multiset": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "ordered": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_check_like": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_default": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "pandas_dtype_relaxed": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "polars_default": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "polars_ignore_order": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "rowcount": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "rtol1e-5": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "rtol1e-9": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "schema": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "set": {
+          "false_accept": 9,
+          "true_accept": 12,
+          "true_reject": 3
+        },
+        "slt_nosort": {
+          "NA": 2,
+          "false_accept": 8,
+          "true_accept": 11,
+          "true_reject": 3
+        },
+        "slt_rowsort": {
+          "NA": 2,
+          "false_accept": 8,
+          "true_accept": 11,
+          "true_reject": 3
+        },
+        "slt_rowsort_hash_threshold1": {
+          "NA": 2,
+          "false_accept": 8,
+          "true_accept": 11,
+          "true_reject": 3
+        },
+        "slt_valuesort": {
+          "NA": 2,
+          "false_accept": 9,
+          "true_accept": 11,
+          "true_reject": 2
+        },
+        "sqlite_integrity": {
+          "NA": 24
+        },
+        "sum": {
+          "false_accept": 10,
+          "true_accept": 12,
+          "true_reject": 2
+        }
+      },
+      "denominator": {
+        "illegal": 12,
+        "legal": 12
+      },
+      "unit": "comparison arms",
+      "scope": "Section 5.2. Later held-out panel decisions.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B scripts/recount_numbers.py c2.table6.ordered_intervention_receipts"
+    },
+    {
+      "id": "c2.table6.keyed_aggregate_cancellation",
+      "value": {
+        "byte_hash": {
+          "NA": 24
+        },
+        "datacompy_keyed": {
+          "NA": 1,
+          "false_reject": 1,
+          "true_accept": 11,
+          "true_reject": 11
+        },
+        "dbt_stock_relationships": {
+          "false_accept": 1,
+          "true_accept": 12,
+          "true_reject": 11
+        },
+        "dbt_typed_fixed_golden": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "deequ_stock_size": {
+          "false_accept": 11,
+          "true_accept": 12,
+          "true_reject": 1
+        },
+        "deequ_typed_fixed_golden": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "dvc_fingerprint": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "great_expectations_rowcount": {
+          "false_accept": 11,
+          "true_accept": 12,
+          "true_reject": 1
+        },
+        "multiset": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "ordered": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_check_like": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_default": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "pandas_dtype_relaxed": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "polars_default": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "polars_ignore_order": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "rowcount": {
+          "false_accept": 11,
+          "true_accept": 12,
+          "true_reject": 1
+        },
+        "rtol1e-5": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "rtol1e-9": {
+          "false_reject": 10,
+          "true_accept": 2,
+          "true_reject": 12
+        },
+        "schema": {
+          "false_accept": 12,
+          "true_accept": 12
+        },
+        "set": {
+          "true_accept": 12,
+          "true_reject": 12
+        },
+        "slt_nosort": {
+          "NA": 1,
+          "false_reject": 10,
+          "true_accept": 1,
+          "true_reject": 12
+        },
+        "slt_rowsort": {
+          "NA": 1,
+          "true_accept": 11,
+          "true_reject": 12
+        },
+        "slt_rowsort_hash_threshold1": {
+          "NA": 1,
+          "true_accept": 11,
+          "true_reject": 12
+        },
+        "slt_valuesort": {
+          "NA": 2,
+          "false_accept": 3,
+          "true_accept": 11,
+          "true_reject": 8
+        },
+        "sqlite_integrity": {
+          "NA": 24
+        },
+        "sum": {
+          "false_accept": 8,
+          "true_accept": 12,
+          "true_reject": 4
+        }
+      },
+      "denominator": {
+        "illegal": 12,
+        "legal": 12
+      },
+      "unit": "comparison arms",
+      "scope": "Section 5.2. Later held-out panel decisions.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B scripts/recount_numbers.py c2.table6.keyed_aggregate_cancellation"
+    },
+    {
+      "id": "c2.table6.coherent_group_representatives",
+      "value": {
+        "byte_hash": {
+          "NA": 24
+        },
+        "datacompy_keyed": {
+          "NA": 1,
+          "false_accept": 3,
+          "false_reject": 4,
+          "true_accept": 6,
+          "true_reject": 10
+        },
+        "dbt_stock_relationships": {
+          "false_accept": 4,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 10
+        },
+        "dbt_typed_fixed_golden": {
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 11
+        },
+        "deequ_stock_size": {
+          "false_accept": 10,
+          "true_accept": 10,
+          "true_reject": 4
+        },
+        "deequ_typed_fixed_golden": {
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 11
+        },
+        "dvc_fingerprint": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "great_expectations_rowcount": {
+          "false_accept": 10,
+          "true_accept": 10,
+          "true_reject": 4
+        },
+        "multiset": {
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 11
+        },
+        "ordered": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "pandas_check_like": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "pandas_default": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "pandas_dtype_relaxed": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "polars_default": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "polars_ignore_order": {
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 11
+        },
+        "rowcount": {
+          "false_accept": 10,
+          "true_accept": 10,
+          "true_reject": 4
+        },
+        "rtol1e-5": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "rtol1e-9": {
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 12
+        },
+        "schema": {
+          "false_accept": 5,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 9
+        },
+        "set": {
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 11
+        },
+        "slt_nosort": {
+          "NA": 2,
+          "false_accept": 2,
+          "false_reject": 2,
+          "true_accept": 6,
+          "true_reject": 12
+        },
+        "slt_rowsort": {
+          "NA": 2,
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 6,
+          "true_reject": 11
+        },
+        "slt_rowsort_hash_threshold1": {
+          "NA": 3,
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 6,
+          "true_reject": 10
+        },
+        "slt_valuesort": {
+          "NA": 3,
+          "false_accept": 3,
+          "false_reject": 2,
+          "true_accept": 6,
+          "true_reject": 10
+        },
+        "sqlite_integrity": {
+          "NA": 24
+        },
+        "sum": {
+          "false_accept": 6,
+          "false_reject": 2,
+          "true_accept": 8,
+          "true_reject": 8
+        }
+      },
+      "denominator": {
+        "illegal": 14,
+        "legal": 10
+      },
+      "unit": "comparison arms",
+      "scope": "Section 5.2. Later held-out panel decisions.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
+      "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
+      "replay": "python -B scripts/recount_numbers.py c2.table6.coherent_group_representatives"
+    },
+    {
+      "id": "c4.table6.methods_by_release_pair",
+      "value": {
+        "datacompy_keyed": {
+          "pairs_with_any_fault_detected": 27,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 27
+        },
+        "dbt_stock_relationships": {
+          "pairs_with_any_fault_detected": 26,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 24
+        },
+        "dbt_typed_fixed_golden": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "deequ_stock_size": {
+          "pairs_with_any_fault_detected": 4,
+          "pairs_with_any_legal_arm_rejected": 0,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 4
+        },
+        "deequ_typed_fixed_golden": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "dvc_fingerprint": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "great_expectations_rowcount": {
+          "pairs_with_any_fault_detected": 4,
+          "pairs_with_any_legal_arm_rejected": 0,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 4
+        },
+        "multiset": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "ordered": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "pandas_check_like": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "pandas_default": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "pandas_dtype_relaxed": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "polars_default": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "polars_ignore_order": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "rowcount": {
+          "pairs_with_any_fault_detected": 4,
+          "pairs_with_any_legal_arm_rejected": 0,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 4
+        },
+        "rtol1e-5": {
+          "pairs_with_any_fault_detected": 27,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 27
+        },
+        "rtol1e-9": {
+          "pairs_with_any_fault_detected": 27,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 27
+        },
+        "schema": {
+          "pairs_with_any_fault_detected": 6,
+          "pairs_with_any_legal_arm_rejected": 0,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 6
+        },
+        "set": {
+          "pairs_with_any_fault_detected": 29,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 29
+        },
+        "slt_nosort": {
+          "pairs_with_any_fault_detected": 24,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 24,
+          "pairs_with_determinate_legal_arm": 26,
+          "pairs_with_every_illegal_arm_detected": 24
+        },
+        "slt_rowsort": {
+          "pairs_with_any_fault_detected": 24,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 24,
+          "pairs_with_determinate_legal_arm": 26,
+          "pairs_with_every_illegal_arm_detected": 24
+        },
+        "slt_rowsort_hash_threshold1": {
+          "pairs_with_any_fault_detected": 22,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 22,
+          "pairs_with_determinate_legal_arm": 22,
+          "pairs_with_every_illegal_arm_detected": 22
+        },
+        "slt_valuesort": {
+          "pairs_with_any_fault_detected": 22,
+          "pairs_with_any_legal_arm_rejected": 1,
+          "pairs_with_determinate_illegal_arm": 23,
+          "pairs_with_determinate_legal_arm": 26,
+          "pairs_with_every_illegal_arm_detected": 22
+        },
+        "sum": {
+          "pairs_with_any_fault_detected": 17,
+          "pairs_with_any_legal_arm_rejected": 2,
+          "pairs_with_determinate_illegal_arm": 29,
+          "pairs_with_determinate_legal_arm": 29,
+          "pairs_with_every_illegal_arm_detected": 17
+        }
+      },
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Table 6. Natural release-pair decisions and per-method applicability.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json",
+      "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
+      "replay": "python -B scripts/recount_numbers.py c4.table6.methods_by_release_pair"
+    },
+    {
+      "id": "c4.release_pair_sources",
+      "value": {
+        "supplemental": 14,
+        "frozen_300": 15
+      },
+      "denominator": 29,
+      "unit": "release pairs",
+      "scope": "Section 3. Frozen bug-tracker and supplemental release-pair sources.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/ROSTER.json",
+      "source_sha256": "49af0e8bd91077d544c2067e528be1e9123ba32914a8827031acdedfb8dec28b",
+      "replay": "python -B scripts/recount_numbers.py c4.release_pair_sources"
+    },
+    {
+      "id": "c4.pandas.pilot_illegal_arms_accepted_by_shape",
+      "value": 100,
+      "denominator": 276,
+      "unit": "pilot observations",
+      "scope": "Section 5.2. Old pandas outputs passing both shape checks.",
+      "artifact_path": "evidence/pvldb-a4-natural-roster/OLD-PILOT.json",
+      "source_sha256": "163896d6466093c6e68b7722b85197b35ae77c2c0bc8551bb4d16f94bdec552b",
+      "replay": "python -B scripts/recount_numbers.py c4.pandas.pilot_illegal_arms_accepted_by_shape"
+    },
+    {
+      "id": "c3.spreadsheetbench.grader_transitions",
+      "value": {
+        "fail -> fail": 1,
+        "pass -> fail": 26,
+        "pass -> pass": 23
+      },
+      "denominator": 50,
+      "unit": "workbooks",
+      "scope": "Section 4.2. Official original-versus-recalculated grader transitions.",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -B scripts/recount_numbers.py c3.spreadsheetbench.grader_transitions"
+    },
+    {
+      "id": "c3.spreadsheetbench.grading_range_coverage",
+      "value": {
+        "missing_cache": {
+          "cells": 2389,
+          "cells_in_answer_position": 1198,
+          "intersecting_workbooks_pass_to_fail": 25,
+          "tasks": 33,
+          "tasks_with_intersection": 19,
+          "workbooks": 49,
+          "workbooks_with_intersection": 27
+        },
+        "textafter": {
+          "cells": 42042,
+          "cells_in_answer_position": 42042,
+          "intersecting_workbooks_pass_to_fail": 1,
+          "tasks": 1,
+          "tasks_with_intersection": 1,
+          "workbooks": 1,
+          "workbooks_with_intersection": 1
+        }
+      },
+      "denominator": 50,
+      "unit": "cells, tasks and workbooks",
+      "scope": "Section 4.2. Affected gold formulas overlapping grading ranges.",
+      "artifact_path": "evidence/pvldb-a10-spreadsheetbench-scorer/RESULT.json",
+      "source_sha256": "b4ea7db9fb07e87aecfec444fc49e742d7674346c679391bf86c7e1296bb2eaa",
+      "replay": "python -B scripts/recount_numbers.py c3.spreadsheetbench.grading_range_coverage"
+    },
+    {
+      "id": "a6.recalculated.workbooks",
+      "value": 897,
+      "denominator": 2000,
+      "unit": "workbooks",
+      "scope": "Section 6.4. Recalculation admission within the frozen source sample.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py a6.recalculated.workbooks"
+    },
+    {
+      "id": "a6.recalculated.formula_cells",
+      "value": {
+        "all_source_formula_cells": 496192,
+        "equal_typed_cache": 124514,
+        "extra_exported_formulas": 13823,
+        "missing_or_untyped_original": 3184,
+        "missing_or_untyped_recalculated": 1,
+        "missing_original_with_computed_value": 3184,
+        "numeric_difference_within_1e_12": 2270,
+        "physical_formulas": 175517,
+        "signed_zero_difference": 4,
+        "type_disagreement": 44695,
+        "value_disagreement": 853
+      },
+      "denominator": 897,
+      "unit": "formula cells",
+      "scope": "Section 6.4. Typed cache comparison counts over the admitted workbooks.",
+      "artifact_path": "evidence/remote-calc-recalculation/RESULT.json",
+      "source_sha256": "42fabec93776d02b3dbfbc5949a2bfffdb197d954c07edf032bd196b3e9d68fe",
+      "replay": "python -B scripts/recount_numbers.py a6.recalculated.formula_cells"
+    },
+    {
+      "id": "e4.tlc.transition_census",
+      "value": {
+        "ambiguous": {
+          "affected": 481749,
+          "in_month": 149314076,
+          "months": 17,
+          "months_with_nonzero": 17,
+          "null": 0,
+          "off_month": 1833,
+          "parse_rejected": 0,
+          "rows": 149315909,
+          "transition_date_nonnull": 4862375
+        },
+        "nonexistent": {
+          "affected": 9724,
+          "in_month": 167444660,
+          "months": 18,
+          "months_with_nonzero": 6,
+          "null": 0,
+          "off_month": 2657,
+          "parse_rejected": 0,
+          "rows": 167447317,
+          "transition_date_nonnull": 5047877
+        }
+      },
+      "denominator": 316763226,
+      "unit": "months and pickup rows",
+      "scope": "Section 6.1. All published transition months of yellow-taxi data.",
+      "artifact_path": "evidence/tlc-complete-published-clock-transition-coverage/RESULT.json",
+      "source_sha256": "ac7b30cb1c5cf7e107a7c6049b9b563934a9d6227302eb8220c6db8e295ef2ef",
+      "replay": "python -B scripts/recount_numbers.py e4.tlc.transition_census"
+    },
+    {
+      "id": "e4.tlc.nonexistent_by_storage_type",
+      "value": {
+        "string": 9522,
+        "timestamp[us]": 202
+      },
+      "denominator": 9724,
+      "unit": "pickup rows",
+      "scope": "Section 6.1. Nonexistent local times split by source column type.",
+      "artifact_path": "evidence/TLC-TRANSITION-MONTHS.json",
+      "source_sha256": "e1df72fdc3c93e5a53ac112779000b1d1f86cc5517e576b7f9db7b0d411362d6",
+      "replay": "python -B scripts/recount_numbers.py e4.tlc.nonexistent_by_storage_type"
+    },
+    {
+      "id": "e8.hvfhv.utc_policy_counts",
+      "value": {
+        "selected": 171149,
+        "moved_pickups": 44247,
+        "hour_bins": {
+          "earliest": {
+            "04": 40985,
+            "05": 54440,
+            "06": 7405,
+            "07": 21172,
+            "08": 17109
+          },
+          "latest": {
+            "04": 40985,
+            "05": 10193,
+            "06": 51652,
+            "07": 21172,
+            "08": 17109
+          },
+          "mixed": {
+            "04": 40985,
+            "05": 26600,
+            "06": 35245,
+            "07": 21172,
+            "08": 17109
+          }
+        },
+        "two_fold_hours_total": 61845,
+        "ordinary_control_agrees": true
+      },
+      "denominator": 141111,
+      "unit": "pickup counts",
+      "scope": "Section 6.1 and the NYC ride-hail figure.",
+      "artifact_path": "evidence/HVFHV-UTC-HOURS.json",
+      "source_sha256": "c70c9742ba3f5d1c931c80eb8c026a29014a464c9b08f293ace08be99aea3ef1",
+      "replay": "python -B scripts/recount_numbers.py e8.hvfhv.utc_policy_counts"
+    },
+    {
+      "id": "a7.full.id_cast_counts",
+      "value": {
+        "UserID": {
+          "authored_null_pairs_added": 1,
+          "both_false_pairs": 0,
+          "both_lost_pairs": 0,
+          "collided_buckets": 0,
+          "collided_exact_keys": 0,
+          "distinct": 17630976,
+          "exact_pairs": 2246850804,
+          "keys_changed": 17109782,
+          "original_nulls": 0,
+          "population": 99997497,
+          "source_exact_nonnull_pairs": 2246850803,
+          "unilateral_false_pairs": 0,
+          "unilateral_lost_pairs": 2193366948
+        },
+        "WatchID": {
+          "authored_null_pairs_added": 1,
+          "both_false_pairs": 1,
+          "both_lost_pairs": 0,
+          "collided_buckets": 1,
+          "collided_exact_keys": 2,
+          "distinct": 99997493,
+          "exact_pairs": 4,
+          "keys_changed": 99899862,
+          "original_nulls": 0,
+          "population": 99997497,
+          "source_exact_nonnull_pairs": 3,
+          "unilateral_false_pairs": 0,
+          "unilateral_lost_pairs": 3
+        }
+      },
+      "denominator": 99997497,
+      "unit": "keys and pairs",
+      "scope": "Section 6.2. Full ClickBench distinct keys and symmetric/asymmetric cast effects.",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ID-CAST.json",
+      "source_sha256": "81dfc61e31ed041e1c7bee9524e6335e00d6f03ad9d3e5505a99c57b82fb4be1",
+      "replay": "python -B scripts/recount_numbers.py a7.full.id_cast_counts"
+    },
+    {
+      "id": "a2.clickbench.left_rollup_rows",
+      "value": 49998749,
+      "denominator": 99997497,
+      "unit": "rows",
+      "scope": "Section 6.2. Exact and corrupted one-output-per-left-row products.",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -B scripts/recount_numbers.py a2.clickbench.left_rollup_rows"
+    },
+    {
+      "id": "a2.clickbench.left_rollup_sample_rows",
+      "value": 6199,
+      "denominator": 49998749,
+      "unit": "rows",
+      "scope": "Section 6.2. Fixed-stride projection used by the comparator crosswalk.",
+      "artifact_path": "evidence/pvldb-a2-clickbench-left-join/RESULT.json",
+      "source_sha256": "19d96f09cea1bae8d07e120a83ef2f01c2815b0f1fef8f432b8037c032d73317",
+      "replay": "python -B scripts/recount_numbers.py a2.clickbench.left_rollup_sample_rows"
+    },
+    {
+      "id": "a7.shard.id_cast_duckdb143",
+      "value": {
+        "watch_id_keys_changed": 999005,
+        "user_id_widened_negative_differences": 18,
+        "user_id_additional_lost_pairs": 122
+      },
+      "denominator": 1000000,
+      "unit": "keys and pairs",
+      "scope": "Section 6.2. Native direct and widened casts on one shard.",
+      "artifact_path": "evidence/e7-unified-native-development-extension-8/packages/clickbench-native-id-cast-boundaries/result-143.json",
+      "source_sha256": "6c6c7ee64bb71e7ffe9c60d160a0a9c9db0c352f9306db30fcace1e3d37e9311",
+      "replay": "python -B scripts/recount_numbers.py a7.shard.id_cast_duckdb143"
+    },
+    {
+      "id": "a7.shard.id_cast_duckdb201",
+      "value": {
+        "watch_id_keys_changed": 999005,
+        "user_id_widened_negative_differences": 0,
+        "user_id_additional_lost_pairs": 0
+      },
+      "denominator": 1000000,
+      "unit": "keys and pairs",
+      "scope": "Section 6.2. Native direct and widened casts on one shard.",
+      "artifact_path": "evidence/e7-unified-native-development-extension-8/packages/clickbench-native-id-cast-boundaries/result-201.json",
+      "source_sha256": "bcbcc510fbf4d3e9b771e2646e4a4502bbb42c873d04e47e6a0037a67fb9a85e",
+      "replay": "python -B scripts/recount_numbers.py a7.shard.id_cast_duckdb201"
+    },
+    {
+      "id": "e3.tweet_ids.float64_false_pairs",
+      "value": 2,
+      "denominator": 22743,
+      "unit": "spurious self-join pairs",
+      "scope": "Section 6.2. Published tweet IDs and symmetric float64 comparison.",
+      "artifact_path": "evidence/e7-archived-native-replay-extension-9/packages/sparse-float-join-discriminators/result.json",
+      "source_sha256": "bdd7b638501482f37bb36370e2b63961d0cd86fdb2a2d92af84f31f0e38f7db4",
+      "replay": "python -B scripts/recount_numbers.py e3.tweet_ids.float64_false_pairs"
+    },
+    {
+      "id": "e4.geometry.scanned_features",
+      "value": 22005,
+      "denominator": 3,
+      "unit": "features",
+      "scope": "Section 6.3. Polygonal feature scans across three GEOS releases.",
+      "artifact_path": "evidence/e4-direct-geos-version-order-matrix/RESULT.json",
+      "source_sha256": "8ac9364022306ae6ad64a26523f7da2444333e5ebd2f0e30fdae3842a502c247",
+      "replay": "python -B scripts/recount_numbers.py e4.geometry.scanned_features"
+    },
+    {
+      "id": "e4.geometry.union_order_and_release",
+      "value": {
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|n": 15,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|wkb_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|n": 29,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|wkb_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|n": 3,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|wkb_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|n": 15,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|wkb_diff": 14,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|n": 29,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|wkb_diff": 17,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|n": 3,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|topology_diff": 0,
+        "same-order-vary-release|forward|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|wkb_diff": 1,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|n": 15,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|topology_diff": 0,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|wkb_diff": 14,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|n": 29,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|topology_diff": 0,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|wkb_diff": 17,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|n": 3,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|topology_diff": 0,
+        "same-order-vary-release|forward|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|wkb_diff": 1,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|n": 15,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|CENSUS|wkb_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|n": 29,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|NE|wkb_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|n": 3,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.14.1-CAPI-1.20.5|OSM|wkb_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|n": 15,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|CENSUS|wkb_diff": 14,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|n": 29,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|NE|wkb_diff": 19,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|n": 3,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|topology_diff": 0,
+        "same-order-vary-release|reverse|3.13.1-CAPI-1.19.2|3.15.0-CAPI-1.21.0|OSM|wkb_diff": 1,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|n": 15,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|topology_diff": 0,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|CENSUS|wkb_diff": 14,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|n": 29,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|topology_diff": 0,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|NE|wkb_diff": 19,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|n": 3,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|topology_diff": 0,
+        "same-order-vary-release|reverse|3.14.1-CAPI-1.20.5|3.15.0-CAPI-1.21.0|OSM|wkb_diff": 1,
+        "same-vary-order|3.13.1-CAPI-1.19.2|CENSUS|n": 15,
+        "same-vary-order|3.13.1-CAPI-1.19.2|CENSUS|topology_diff": 0,
+        "same-vary-order|3.13.1-CAPI-1.19.2|CENSUS|wkb_diff": 15,
+        "same-vary-order|3.13.1-CAPI-1.19.2|NE|n": 29,
+        "same-vary-order|3.13.1-CAPI-1.19.2|NE|topology_diff": 0,
+        "same-vary-order|3.13.1-CAPI-1.19.2|NE|wkb_diff": 29,
+        "same-vary-order|3.13.1-CAPI-1.19.2|OSM|n": 3,
+        "same-vary-order|3.13.1-CAPI-1.19.2|OSM|topology_diff": 0,
+        "same-vary-order|3.13.1-CAPI-1.19.2|OSM|wkb_diff": 3,
+        "same-vary-order|3.14.1-CAPI-1.20.5|CENSUS|n": 15,
+        "same-vary-order|3.14.1-CAPI-1.20.5|CENSUS|topology_diff": 0,
+        "same-vary-order|3.14.1-CAPI-1.20.5|CENSUS|wkb_diff": 15,
+        "same-vary-order|3.14.1-CAPI-1.20.5|NE|n": 29,
+        "same-vary-order|3.14.1-CAPI-1.20.5|NE|topology_diff": 0,
+        "same-vary-order|3.14.1-CAPI-1.20.5|NE|wkb_diff": 29,
+        "same-vary-order|3.14.1-CAPI-1.20.5|OSM|n": 3,
+        "same-vary-order|3.14.1-CAPI-1.20.5|OSM|topology_diff": 0,
+        "same-vary-order|3.14.1-CAPI-1.20.5|OSM|wkb_diff": 3,
+        "same-vary-order|3.15.0-CAPI-1.21.0|CENSUS|n": 15,
+        "same-vary-order|3.15.0-CAPI-1.21.0|CENSUS|topology_diff": 0,
+        "same-vary-order|3.15.0-CAPI-1.21.0|CENSUS|wkb_diff": 15,
+        "same-vary-order|3.15.0-CAPI-1.21.0|NE|n": 29,
+        "same-vary-order|3.15.0-CAPI-1.21.0|NE|topology_diff": 0,
+        "same-vary-order|3.15.0-CAPI-1.21.0|NE|wkb_diff": 29,
+        "same-vary-order|3.15.0-CAPI-1.21.0|OSM|n": 3,
+        "same-vary-order|3.15.0-CAPI-1.21.0|OSM|topology_diff": 0,
+        "same-vary-order|3.15.0-CAPI-1.21.0|OSM|wkb_diff": 3
+      },
+      "denominator": 47,
+      "unit": "features",
+      "scope": "Section 6.3. WKB and topology deltas for all order/release comparisons.",
+      "artifact_path": "evidence/e4-direct-geos-version-order-matrix/RESULT.json",
+      "source_sha256": "8ac9364022306ae6ad64a26523f7da2444333e5ebd2f0e30fdae3842a502c247",
+      "replay": "python -B scripts/recount_numbers.py e4.geometry.union_order_and_release"
+    },
+    {
+      "id": "e4.geometry.natural_earth_admin1_invalid",
+      "value": 1,
+      "denominator": 4596,
+      "unit": "features",
+      "scope": "Section 6.3. Independent Natural Earth province validity scan.",
+      "artifact_path": "evidence/NATURAL-EARTH-ADMIN1-VALIDITY.json",
+      "source_sha256": "49bcb995d6e25f7bd509e2bd6352b7d5447d00621580de08a6e16c0dc3c08c10",
+      "replay": "python -B scripts/recount_numbers.py e4.geometry.natural_earth_admin1_invalid"
+    },
+    {
+      "id": "e9.sample.adjudicated_status",
+      "value": {
+        "no": 203,
+        "unknown": 15,
+        "yes": 82
+      },
+      "denominator": 300,
+      "unit": "issues",
+      "scope": "Section 6.5. Adjudicated yes/no/unresolved counts.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.adjudicated_status"
+    },
+    {
+      "id": "e9.sample.adjudicated_classes",
+      "value": {
+        "F1": 6,
+        "F10": 14,
+        "F2": 12,
+        "F3": 3,
+        "F4": 2,
+        "F5": 1,
+        "F6": 2,
+        "F7": 1,
+        "F8": 9,
+        "F9": 13,
+        "O4": 8,
+        "other": 11,
+        "O3": 0
+      },
+      "denominator": 82,
+      "unit": "issues",
+      "scope": "Section 6.5. Classes of evidenced wrong results.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.adjudicated_classes"
+    },
+    {
+      "id": "e9.sample.kappa.wrong_result",
+      "value": 0.8709765041423333,
+      "denominator": 300,
+      "unit": "Cohen's kappa",
+      "scope": "Section 6.5. Two independent rater annotations before adjudication.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.kappa.wrong_result"
+    },
+    {
+      "id": "e9.sample.kappa.joint_wrong_result_and_class",
+      "value": 0.8334589000356873,
+      "denominator": 300,
+      "unit": "Cohen's kappa",
+      "scope": "Section 6.5. Two independent rater annotations before adjudication.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.kappa.joint_wrong_result_and_class"
+    },
+    {
+      "id": "e9.sample.kappa.class_given_both_yes",
+      "value": 0.8666666666666667,
+      "denominator": 78,
+      "unit": "Cohen's kappa",
+      "scope": "Section 6.5. Two independent rater annotations before adjudication.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.kappa.class_given_both_yes"
+    },
+    {
+      "id": "e9.sample.adjudicated_disagreements",
+      "value": 28,
+      "denominator": 300,
+      "unit": "issues",
+      "scope": "Section 6.5. Cases sent to a third rater.",
+      "artifact_path": "evidence/e9-independent-annotation-and-adjudication/RESULT.json",
+      "source_sha256": "1a39eb93a1e6e9e787c52183f71b1ad35e4d8b7940fd9a90e6b0abf2aed4c6cf",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.adjudicated_disagreements"
+    },
+    {
+      "id": "e9.sample.eligible_population",
+      "value": {
+        "eligible": 2633,
+        "sampled": 300
+      },
+      "denominator": 2633,
+      "unit": "issues",
+      "scope": "Table 2 and Section 6.5. Unique eligible issues and the deterministic sample size.",
+      "artifact_path": "evidence/ISSUE-SAMPLE-COUNTS.txt",
+      "source_sha256": "c612c8e71930816ad6b5558f0f278e9d4a809498bd634ec07a0027dcddf838b3",
+      "replay": "python -B scripts/recount_numbers.py e9.sample.eligible_population"
+    },
+    {
+      "id": "a1.tpch.sf1.postgres_comparison",
+      "value": {
+        "exact": 18,
+        "tolerance_only": 4
+      },
+      "denominator": 22,
+      "unit": "query output bags",
+      "scope": "Table 3. DuckDB and PostgreSQL on the pinned SF1 tables.",
+      "artifact_path": "evidence/TPCH-SF1-CROSS-ENGINE.json",
+      "source_sha256": "ee17e65ec5138b707c5871fb2f09edc6534702511263a732750e30eff30f70d3",
+      "replay": "python -B scripts/recount_numbers.py a1.tpch.sf1.postgres_comparison"
     }
   ]
 }

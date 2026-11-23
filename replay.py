@@ -37,6 +37,8 @@ def verify_files():
     for row in numbers:
         if row["source_sha256"] != digest(ROOT / row["artifact_path"]):
             raise ValueError(f"ledger source mismatch: {row['id']}")
+    recount = runpy.run_path(str(ROOT / "scripts/recount_numbers.py"))
+    recount["verify"](ROOT, numbers)
     return len(numbers)
 
 

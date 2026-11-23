@@ -1,0 +1,161 @@
+{
+  "counts": {
+    "both_repair_comparable": 1,
+    "features": 4596,
+    "gdal_invalid": 1,
+    "linework_attempted": 1,
+    "linework_feature_changed": 0,
+    "linework_feature_comparable": 1,
+    "linework_probe_changed": 0,
+    "linework_probe_comparable": 9,
+    "nonempty_polygon": 4596,
+    "repair_methods_different": 0,
+    "shapely_invalid": 1,
+    "structure_attempted": 1,
+    "structure_feature_changed": 0,
+    "structure_feature_comparable": 1,
+    "structure_probe_changed": 0,
+    "structure_probe_comparable": 9,
+    "validity_disagree": 0
+  },
+  "invalid": [
+    {
+      "before": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "fid": 3813,
+      "gdal_valid": false,
+      "linework": {
+        "after": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "changed": 0,
+        "compared": 9,
+        "type": "Polygon",
+        "valid": true
+      },
+      "reason": "Ring Self-intersection",
+      "repairs_equal": true,
+      "structure": {
+        "after": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "changed": 0,
+        "compared": 9,
+        "type": "Polygon",
+        "valid": true
+      },
+      "wkb_sha256": "443c7a659614b2527a55f1fc8d255c61951a895eff31727690f95612b82782eb"
+    }
+  ],
+  "rates": {
+    "gdal_invalid": {
+      "den": 4596,
+      "num": 1,
+      "rate": 0.0002175805047867711,
+      "wilson95": [
+        3.8409334349779516e-05,
+        0.001231516786580431
+      ]
+    },
+    "linework_feature_changed": {
+      "den": 1,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "linework_probe_changed": {
+      "den": 9,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2991450484195441
+      ]
+    },
+    "repair_methods_different": {
+      "den": 1,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "shapely_invalid": {
+      "den": 4596,
+      "num": 1,
+      "rate": 0.0002175805047867711,
+      "wilson95": [
+        3.8409334349779516e-05,
+        0.001231516786580431
+      ]
+    },
+    "structure_feature_changed": {
+      "den": 1,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "structure_probe_changed": {
+      "den": 9,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2991450484195441
+      ]
+    },
+    "validity_disagree": {
+      "den": 4596,
+      "num": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.0008351285267294837
+      ]
+    }
+  },
+  "shapely": "2.2.0",
+  "shapely_geos": "3.14.1",
+  "source_head": {
+    "gdal": "3.10.3",
+    "gdal_geos": [
+      3,
+      13,
+      1
+    ],
+    "n": 4596
+  },
+  "source_sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05"
+}
