@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "ObsEq: Benchmark, Multi-Tool Adapter Suite, and SQL Validator for Correctness Oracles in Data Systems"
+message: "If you use ObsEq in your research or engineering, please cite our PVLDB paper."
+type: software
+authors:
+  - given-names: Xu
+    family-names: Cao
+    email: x.cao@astrmira.com
+    affiliation: Astrmira Tech.
+  - given-names: Wenxuan
+    family-names: Xiao
+    email: w.xiao@astrmira.com
+    affiliation: Astrmira Tech.
+repository-code: "https://github.com/Astrmira/obseq"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Stricter Is Not Safer: An Experimental Study of Correctness Oracles in Data Systems [Experiment, Analysis & Benchmark]"
+  authors:
+    - given-names: Xu
+      family-names: Cao
+      affiliation: Astrmira Tech.
+    - given-names: Wenxuan
+      family-names: Xiao
+      affiliation: Astrmira Tech.
+  journal: "Proceedings of the VLDB Endowment (PVLDB)"
+  volume: 20
+  year: 2027

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "obseq"
+version = "0.1.0"
+description = "ObsEq: Benchmark, multi-tool adapter suite, and zero-annotation SQL cutoff validator for correctness oracles in data systems"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [
+  { name = "Xu Cao", email = "x.cao@astrmira.com" },
+  { name = "Wenxuan Xiao", email = "w.xiao@astrmira.com" },
+]
+dependencies = ["duckdb==1.4.3", "pyarrow==22.0.0", "sqlglot==28.0.0"]
+
+[project.urls]
+Repository = "https://github.com/Astrmira/obseq"
+
+[project.scripts]
+obseq-verify-windows = "verify_windows:main"
+pvldb-verify-windows = "verify_windows:main"
+
+[tool.setuptools]
+py-modules = ["verify_windows", "cutoffs"]
+package-dir = { "" = "evidence/pvldb-a1-query-inventory" }
