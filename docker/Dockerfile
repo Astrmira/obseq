@@ -16,7 +16,8 @@ RUN printf '%s  %s\n' 641de77d8f142cfd62a1a6f964ba67b20754d3337c480efb529d086075
         ca-certificates \
         bison build-essential bzip2 curl flex libicu-dev libreadline-dev \
         openjdk-17-jdk-headless python3.12 python3.12-venv pkg-config zlib1g-dev \
-        libdbus-1-3 libfontconfig1 libglib2.0-0t64 libxext6 libxinerama1 libxrender1 \
+        libcairo2 libcups2t64 libdbus-1-3 libfontconfig1 libglib2.0-0t64 \
+        libice6 libsm6 libxext6 libxinerama1 libxrender1 \
     && rm -rf /var/lib/apt/lists/* /tmp/ubuntu-ca /tmp/ubuntu-ca.deb /tmp/ubuntu-ca.pem
 
 COPY docker /opt/obseq/docker
@@ -44,7 +45,8 @@ RUN bash docker/install-runtime.sh
 ENV LD_PRELOAD="/opt/obseq/sqlite/lib/libsqlite3.so.0"
 RUN python -IB replay.py \
     && python -B replay.py --comparators \
-    && obseq-verify-windows --help
+    && obseq-verify-windows --help \
+    && soffice --headless --version
 
 RUN useradd --create-home obseq
 USER obseq
