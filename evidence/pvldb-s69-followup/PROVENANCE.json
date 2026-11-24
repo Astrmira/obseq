@@ -1,0 +1,32 @@
+{
+  "environment": "TABLE7-ENV.txt",
+  "inputs": {
+    "h2o_input": "Same prior regenerated 100M input as O5, verified all 100 separately sealed Parquet files",
+    "h2o_manifest_sha256": "2464f35a9a0e2b97780c30e2adbfd2f2a73930e01816e98f8807340cee33a45e",
+    "h2o_stock_groupby_script_sha256": "d23ede9d21ca8933f2aea169639a5ffc8cea2b05ad24b2325a02df495d6ade5f",
+    "sqlite_100m_file_sha256": "71bea136edf1c471e67872ec74637ba187631798c073ccff174b589507949191",
+    "tpcds_sf10_duckdb_sha256": "04873e09dec07413aa1494487fa384837511705c7cbca7c7693fa5a37c3a1ce7"
+  },
+  "pinned_cpu": 95,
+  "pressure_binary_sha256": "9b9abea65e0cdb8e650913d9f51d18922f4045342b91cb8f163605f6bc9b1b2b",
+  "pressure_disassembled_loop_has_indirect_call": true,
+  "pressure_disassembled_loop_sha256": "08c54eb775f0934e05e7164e826650d6a7e9a02adfbc907d9f6733c39017f87c",
+  "q39_completed_after_timing": true,
+  "q39_stats_sha256": "174459289de7fbc59cc4ea8e370bf8158aec0cafc07f8fc0d663b693eb5e047e",
+  "remote_bundle_sha256": "27fd7bae775bd951b2249256150869bf13fe87f58bf93aa4c118267694c76af2",
+  "timed_sequence": [
+    "O1",
+    "O2",
+    "O3 top-k",
+    "O3 representatives",
+    "O4 pressure"
+  ],
+  "worker_code_sha256": {
+    "epoch.py": "3ff3fc213eb90cd5a521ba41059c5d6c8cf4f82e1d9948ab0d2e71b86fcae896",
+    "geometry_pressure.cpp": "ce962da521ab81bc5519cf69203b0b9346417f7b8430aacf67aa49b0de411225",
+    "q39_bound.py": "0e074c3c7df96225980c3f9e87a536f9a3613f2cdbcc963e48c4a75aae5392a5",
+    "representative.py": "0acf0212e5b8038f2d0ba595a355efe5656f4a1ebcb746e58f3b2a3d1704cbc2",
+    "run_table7.py": "0b448afd07d80147f48dbafca11d82d4d5ab56bc2b6f283080799ab41bf0b998",
+    "topk.py": "43b9911e612b60ecc245bba22f6eb93003f4e7fb702323067af77a9b8a71ef62"
+  }
+}

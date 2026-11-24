@@ -5633,6 +5633,608 @@
       "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
       "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
       "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.confirmed_classes"
+    },
+    {
+      "id": "s69.table7.o1.sqlite_backup_logical.seconds",
+      "value": {
+        "median": 157.937771071,
+        "min": 152.585074162,
+        "max": 178.538839177
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.seconds"
+    },
+    {
+      "id": "s69.table7.o1.sqlite_backup_only.seconds",
+      "value": {
+        "median": 1.902889577,
+        "min": 1.893951874,
+        "max": 1.955707514
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_only.seconds"
+    },
+    {
+      "id": "s69.table7.o1.raw_file_sha256.seconds",
+      "value": {
+        "median": 2.795289713,
+        "min": 2.769747177,
+        "max": 2.830837781
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.seconds"
+    },
+    {
+      "id": "s69.table7.o1.sqlite_native_read.seconds",
+      "value": {
+        "median": 8.612846959,
+        "min": 8.549557486,
+        "max": 8.665760926
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_native_read.seconds"
+    },
+    {
+      "id": "s69.table7.o1.raw_file_sha256.over_native_read",
+      "value": 0.3245488659332394,
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.over_native_read"
+    },
+    {
+      "id": "s69.table7.o1.sqlite_backup_logical.over_native_read",
+      "value": 18.33746400265046,
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.over_native_read"
+    },
+    {
+      "id": "s69.table7.o2.exact.seconds",
+      "value": {
+        "median": 22.004071429371834,
+        "min": 21.85094927251339,
+        "max": 22.212105199694633
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
+      "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.exact.seconds"
+    },
+    {
+      "id": "s69.table7.o2.epoch.seconds",
+      "value": {
+        "median": 0.0003205835819244385,
+        "min": 0.0003166496753692627,
+        "max": 0.0003896653652191162
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
+      "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.seconds"
+    },
+    {
+      "id": "s69.table7.o2.producer.seconds",
+      "value": {
+        "median": 3.704264134168625,
+        "min": 3.670184403657913,
+        "max": 3.919864848256111
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
+      "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.producer.seconds"
+    },
+    {
+      "id": "s69.table7.o2.epoch.over_producer_pct",
+      "value": 0.008654447153682505,
+      "denominator": 5,
+      "unit": "percent",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
+      "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.over_producer_pct"
+    },
+    {
+      "id": "s69.table7.o3.topk.family.producer_seconds",
+      "value": {
+        "median": 11.816711233,
+        "min": 11.787538315,
+        "max": 11.905578916
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.family.check_seconds",
+      "value": {
+        "median": 17.428974523,
+        "min": 17.395768384,
+        "max": 17.552834111
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.family.total_seconds",
+      "value": {
+        "median": 29.225327383,
+        "min": 29.216512838,
+        "max": 29.42531396
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.total_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.family.check_over_producer",
+      "value": {
+        "median": 1.4732490909962526,
+        "min": 1.4705339721853143,
+        "max": 1.48542464691707
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_over_producer"
+    },
+    {
+      "id": "s69.table7.o3.topk.producer.producer_seconds",
+      "value": {
+        "median": 11.824021101,
+        "min": 11.785289775,
+        "max": 12.51565107
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.producer.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.guard.producer_seconds",
+      "value": {
+        "median": 11.837250218,
+        "min": 11.767404978,
+        "max": 12.187602089
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.guard.check_seconds",
+      "value": {
+        "median": 21.952093894,
+        "min": 21.674581671,
+        "max": 22.332696771
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.guard.total_seconds",
+      "value": {
+        "median": 33.745086191,
+        "min": 33.676664993,
+        "max": 34.234774981
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.total_seconds"
+    },
+    {
+      "id": "s69.table7.o3.topk.guard.check_over_producer",
+      "value": {
+        "median": 1.8614524067470442,
+        "min": 1.7784123171007145,
+        "max": 1.8763695194202556
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
+      "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_over_producer"
+    },
+    {
+      "id": "s69.table7.o3.representative.family.producer_seconds",
+      "value": {
+        "median": 13.218187985,
+        "min": 13.152076384,
+        "max": 14.39536327
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.family.check_seconds",
+      "value": {
+        "median": 17.983049185,
+        "min": 17.856960846,
+        "max": 18.25336449
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.family.total_seconds",
+      "value": {
+        "median": 31.295500147,
+        "min": 31.036417084,
+        "max": 32.319861328
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.total_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.family.check_over_producer",
+      "value": {
+        "median": 1.3585499558032696,
+        "min": 1.2451577443241555,
+        "max": 1.3676089478008735
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_over_producer"
+    },
+    {
+      "id": "s69.table7.o3.representative.claimed.producer_seconds",
+      "value": {
+        "median": 13.19769888,
+        "min": 13.183432599,
+        "max": 13.282013225
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.claimed.check_seconds",
+      "value": {
+        "median": 22.870993996,
+        "min": 22.71648071,
+        "max": 23.043416568
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.claimed.total_seconds",
+      "value": {
+        "median": 36.068826396999995,
+        "min": 35.985395159999996,
+        "max": 36.235771036
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.total_seconds"
+    },
+    {
+      "id": "s69.table7.o3.representative.claimed.check_over_producer",
+      "value": {
+        "median": 1.732953161301404,
+        "min": 1.7120074739799078,
+        "max": 1.7467250917109
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_over_producer"
+    },
+    {
+      "id": "s69.table7.o3.representative.producer.producer_seconds",
+      "value": {
+        "median": 13.185041114,
+        "min": 13.147252989,
+        "max": 13.239516017
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
+      "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.producer.producer_seconds"
+    },
+    {
+      "id": "s69.table7.o4.eager_over_filtered",
+      "value": {
+        "median": 4.327375883746141,
+        "min": 4.316993200789076,
+        "max": 4.3827058262522325
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
+      "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o4.eager_over_filtered"
+    },
+    {
+      "id": "s69.table7.o5.3.witness_over_apply",
+      "value": {
+        "median": 0.3082246006669799,
+        "min": 0.29553895850312417,
+        "max": 0.3105503225760863
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.witness_over_apply"
+    },
+    {
+      "id": "s69.table7.o5.3.verify_seconds",
+      "value": {
+        "median": 5.501438865,
+        "min": 5.473046704,
+        "max": 5.644692463
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.verify_seconds"
+    },
+    {
+      "id": "s69.table7.o5.1000.witness_over_apply",
+      "value": {
+        "median": 0.22048779479098762,
+        "min": 0.21712622281080945,
+        "max": 0.23114349019700983
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.witness_over_apply"
+    },
+    {
+      "id": "s69.table7.o5.1000.verify_seconds",
+      "value": {
+        "median": 6.496089273,
+        "min": 6.487292507,
+        "max": 6.552073391
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.verify_seconds"
+    },
+    {
+      "id": "s69.table7.o5.100000.witness_over_apply",
+      "value": {
+        "median": 0.2587122050415888,
+        "min": 0.2577924307158296,
+        "max": 0.26618655602317853
+      },
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.witness_over_apply"
+    },
+    {
+      "id": "s69.table7.o5.100000.verify_seconds",
+      "value": {
+        "median": 77.984143878,
+        "min": 77.935708855,
+        "max": 84.995485027
+      },
+      "denominator": 5,
+      "unit": "seconds",
+      "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
+      "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.verify_seconds"
+    },
+    {
+      "id": "s69.table7.time_cells_outside_30_pct",
+      "value": {},
+      "denominator": 14,
+      "unit": "displayed time cells",
+      "scope": "Fresh same-host O1\u2013O3 plus prior same-host O4 native and three-overlay O5. Ratios are not time cells.",
+      "artifact_path": "evidence/pvldb-s69-followup/TABLE7-RESULT.json",
+      "source_sha256": "38b96acd5718b09681c0738cbe3a3ef3ae8c684d572a0a8a8905a55419c3ecff",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.time_cells_outside_30_pct"
+    },
+    {
+      "id": "s69.o4.pressure.1_per_mille.same_call",
+      "value": {
+        "plain_binary64_s": {
+          "median": 1.568490804,
+          "min": 1.567153462,
+          "max": 1.573404419
+        },
+        "filtered_exact_s": {
+          "median": 1.61158167,
+          "min": 1.609157895,
+          "max": 1.783694227
+        },
+        "filtered_over_plain": {
+          "median": 1.0264356422852665,
+          "min": 1.024445513521848,
+          "max": 1.1372041343507935
+        },
+        "fallbacks_per_filtered_worker": 100000,
+        "wrong_signs_per_binary64_worker": 100000
+      },
+      "denominator": 5,
+      "unit": "worker pairs",
+      "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
+      "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
+      "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.1_per_mille.same_call"
+    },
+    {
+      "id": "s69.o4.pressure.10_per_mille.same_call",
+      "value": {
+        "plain_binary64_s": {
+          "median": 1.568611557,
+          "min": 1.565150251,
+          "max": 1.569675717
+        },
+        "filtered_exact_s": {
+          "median": 1.648345013,
+          "min": 1.647525694,
+          "max": 1.652945603
+        },
+        "filtered_over_plain": {
+          "median": 1.0510572201681556,
+          "min": 1.0500314409564129,
+          "max": 1.0530491012240077
+        },
+        "fallbacks_per_filtered_worker": 1000000,
+        "wrong_signs_per_binary64_worker": 1000000
+      },
+      "denominator": 5,
+      "unit": "worker pairs",
+      "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
+      "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
+      "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.10_per_mille.same_call"
+    },
+    {
+      "id": "s69.o4.pressure.100_per_mille.same_call",
+      "value": {
+        "plain_binary64_s": {
+          "median": 1.591465589,
+          "min": 1.587481686,
+          "max": 1.595021218
+        },
+        "filtered_exact_s": {
+          "median": 2.015080791,
+          "min": 2.012574705,
+          "max": 2.020382265
+        },
+        "filtered_over_plain": {
+          "median": 1.2666804944033039,
+          "min": 1.262671795650641,
+          "max": 1.267778219269485
+        },
+        "fallbacks_per_filtered_worker": 10000000,
+        "wrong_signs_per_binary64_worker": 10000000
+      },
+      "denominator": 5,
+      "unit": "worker pairs",
+      "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
+      "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
+      "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.100_per_mille.same_call"
+    },
+    {
+      "id": "s69.ast.successful_workers",
+      "value": 580,
+      "denominator": 580,
+      "unit": "fresh workers",
+      "scope": "All 116 full-scale SQL windows completed five successful workers each.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
+      "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
+      "replay": "python -B scripts/recount_numbers.py s69.ast.successful_workers"
+    },
+    {
+      "id": "s69.q39.max_cv_relative_bound",
+      "value": "75761/1125899906842624",
+      "denominator": 1019995,
+      "unit": "relative error, rational",
+      "scope": "Order-independent analytic bound from exact integer groups and DuckDB 1.4.3 source.",
+      "artifact_path": "evidence/pvldb-s69-followup/Q39-STATS.csv.gz",
+      "source_sha256": "174459289de7fbc59cc4ea8e370bf8158aec0cafc07f8fc0d663b693eb5e047e",
+      "replay": "python -B scripts/recount_numbers.py s69.q39.max_cv_relative_bound"
+    },
+    {
+      "id": "s69.q39.threshold_ambiguous_groups",
+      "value": 0,
+      "denominator": 1019995,
+      "unit": "January/February groups",
+      "scope": "Groups whose certified interval can alter the strict CV > 1 decision.",
+      "artifact_path": "evidence/pvldb-s69-followup/Q39-STATS.csv.gz",
+      "source_sha256": "174459289de7fbc59cc4ea8e370bf8158aec0cafc07f8fc0d663b693eb5e047e",
+      "replay": "python -B scripts/recount_numbers.py s69.q39.threshold_ambiguous_groups"
     }
   ]
 }

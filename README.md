@@ -72,6 +72,8 @@ The [numerical ledger](NUMBERS.json) links experimental results to their denomin
 
 The [second-review experiment packet](evidence/pvldb-s68-review-followup/README.md) includes identical-witness Python/dbt comparisons, DVC dependency tracking, execution-binding fault injections, SpreadsheetBench missing-cache counterexamples, full-window validator timing and the [29-pair upstream source table](evidence/pvldb-s68-review-followup/C4-SOURCES.md).
 
+The [timing and numerical follow-up](evidence/pvldb-s69-followup/README.md) reports the same-host Table 7 timings, the geometry pressure comparison with a common call boundary, and the order-independent Q39 error certificate.
+
 The [public Docker receipt](evidence/PUBLIC-DOCKER-VALIDATION.json) records the network-disabled run with bundled inputs. It completed 56 of 101 archive entries (55 native re-executions and one receipt-only check). The 45 other entries had unbound optional inputs. The historical remote runs used different bindings and are labeled separately in the ledger.
 
 | Paper Section / Artifact | Description | Primary Repository Location |

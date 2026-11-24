@@ -1,0 +1,15 @@
+{"arm": "exact", "duckdb": "1.4.3", "rep": 0, "result": [100000000, 0], "vmhwm_kib": 308276, "wall_s": 22.212105199694633}
+{"arm": "epoch", "duckdb": "1.4.3", "rep": 0, "result": true, "vmhwm_kib": 56560, "wall_s": 0.0003896653652191162}
+{"arm": "producer", "duckdb": "1.4.3", "rep": 0, "result": [100, 299991302], "vmhwm_kib": 245784, "wall_s": 3.919864848256111}
+{"arm": "epoch", "duckdb": "1.4.3", "rep": 1, "result": true, "vmhwm_kib": 56436, "wall_s": 0.0003166496753692627}
+{"arm": "producer", "duckdb": "1.4.3", "rep": 1, "result": [100, 299991302], "vmhwm_kib": 245536, "wall_s": 3.704264134168625}
+{"arm": "exact", "duckdb": "1.4.3", "rep": 1, "result": [100000000, 0], "vmhwm_kib": 308444, "wall_s": 22.0158082395792}
+{"arm": "epoch", "duckdb": "1.4.3", "rep": 2, "result": true, "vmhwm_kib": 56448, "wall_s": 0.0003205835819244385}
+{"arm": "producer", "duckdb": "1.4.3", "rep": 2, "result": [100, 299991302], "vmhwm_kib": 245872, "wall_s": 3.670184403657913}
+{"arm": "exact", "duckdb": "1.4.3", "rep": 2, "result": [100000000, 0], "vmhwm_kib": 307496, "wall_s": 21.881979003548622}
+{"arm": "producer", "duckdb": "1.4.3", "rep": 3, "result": [100, 299991302], "vmhwm_kib": 245264, "wall_s": 3.680548310279846}
+{"arm": "epoch", "duckdb": "1.4.3", "rep": 3, "result": true, "vmhwm_kib": 56368, "wall_s": 0.00031691789627075195}
+{"arm": "exact", "duckdb": "1.4.3", "rep": 3, "result": [100000000, 0], "vmhwm_kib": 312276, "wall_s": 21.85094927251339}
+{"arm": "epoch", "duckdb": "1.4.3", "rep": 4, "result": true, "vmhwm_kib": 56192, "wall_s": 0.00033208727836608887}
+{"arm": "exact", "duckdb": "1.4.3", "rep": 4, "result": [100000000, 0], "vmhwm_kib": 308168, "wall_s": 22.004071429371834}
+{"arm": "producer", "duckdb": "1.4.3", "rep": 4, "result": [100, 299991302], "vmhwm_kib": 246228, "wall_s": 3.737572029232979}

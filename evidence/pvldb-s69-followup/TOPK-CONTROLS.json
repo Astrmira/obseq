@@ -1,0 +1,7 @@
+{
+  "cases": 6,
+  "cutoff": 9999,
+  "rows": 100000000,
+  "strict_winners": 1,
+  "tied_members": 9975
+}

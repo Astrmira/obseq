@@ -1,0 +1,15 @@
+o2_o3_started_utc=2026-11-24T02:54:54Z
+CPU(s):                          128
+Model name:                      Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz
+available CPU affinity: 64-95
+/dev/md0       xfs  104857600 84368304  20489296  81% data-volume
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+Linux 5.4.0-155-generic
+c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+/sys/fs/cgroup/cpu/cpu.cfs_quota_us=3200000
+/sys/fs/cgroup/cpu/cpu.cfs_period_us=100000
+/sys/fs/cgroup/memory/memory.limit_in_bytes=64424509440
+3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]
+duckdb=1.4.3
+sqlite=3.53.1
+pin=95; duckdb_threads=1; warm OS cache; no explicit cache flush

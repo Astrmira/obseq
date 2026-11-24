@@ -471,6 +471,9 @@ def recount(root=ROOT):
     followup = runpy.run_path(str(root / "evidence/pvldb-s68-review-followup/recount.py"))
     for metric in followup["metrics"](root):
         add(*metric)
+    followup = runpy.run_path(str(root / "evidence/pvldb-s69-followup/recount.py"))
+    for metric in followup["metrics"](root):
+        add(*metric)
     return rows
 
 

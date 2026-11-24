@@ -1,0 +1,28 @@
+{
+  "arm": "control",
+  "wall_s": 22.063775673508644,
+  "vmhwm_kib": 396108,
+  "result": {
+    "irrelevant_column": {
+      "epoch": true,
+      "typed_diffs": 0,
+      "producer_equal": true
+    },
+    "rolled_back_relevant": {
+      "epoch": true,
+      "typed_diffs": 0,
+      "producer_equal": true
+    },
+    "committed_relevant": {
+      "epoch": false,
+      "typed_diffs": 1,
+      "producer_equal": false
+    },
+    "simulated_missed_token": {
+      "epoch": true,
+      "typed_diffs": 1,
+      "producer_equal": false
+    }
+  },
+  "duckdb": "1.4.3"
+}
