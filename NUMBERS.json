@@ -159,7 +159,7 @@
       "value": 14,
       "denominator": 14,
       "unit": "native outputs",
-      "scope": "Independent Parquet/NumPy source adjudication of Q31–Q33 and Q39–Q42 at 1 and 8 threads.",
+      "scope": "Independent Parquet/NumPy source adjudication of Q31\u2013Q33 and Q39\u2013Q42 at 1 and 8 threads.",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
       "replay": "python -IB run.py ACQUISITION STOCK_SQL FULL_OUTPUT FROZEN_RUNNER A2_RUNNER E2_SOURCE STORE_1 STORE_2",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json"
@@ -2346,7 +2346,7 @@
       },
       "denominator": 22,
       "unit": "comparison arms",
-      "scope": "Table 4. Generic decisions on Q31–Q33 and Q39–Q42.",
+      "scope": "Table 4. Generic decisions on Q31\u2013Q33 and Q39\u2013Q42.",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
       "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.grouped_generic"
@@ -5565,6 +5565,74 @@
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
       "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_100000"
+    },
+    {
+      "id": "s68.e9.human_review.status_counts",
+      "value": {
+        "yes": 67,
+        "no": 8,
+        "unknown": 7
+      },
+      "denominator": 82,
+      "unit": "reviewed model-adjudicated positives",
+      "scope": "Human review of all 82 frozen E9 positives against upstream discussions, fixes and reproductions.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
+      "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.status_counts"
+    },
+    {
+      "id": "s68.e9.human_review.wrong_result_agreement",
+      "value": 67,
+      "denominator": 82,
+      "unit": "reviewed model-adjudicated positives",
+      "scope": "Frozen model-adjudicated positives confirmed as evidenced wrong results by human review.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
+      "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.wrong_result_agreement"
+    },
+    {
+      "id": "s68.e9.human_review.conditional_class_agreement",
+      "value": 65,
+      "denominator": 67,
+      "unit": "human-confirmed wrong results",
+      "scope": "Primary mechanism class agreement among human-confirmed wrong-result issues.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
+      "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.conditional_class_agreement"
+    },
+    {
+      "id": "s68.e9.human_review.joint_agreement",
+      "value": 65,
+      "denominator": 82,
+      "unit": "reviewed model-adjudicated positives",
+      "scope": "Exact joint agreement on both wrong-result confirmation and primary mechanism class across all 82 positives.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
+      "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.joint_agreement"
+    },
+    {
+      "id": "s68.e9.human_review.confirmed_classes",
+      "value": {
+        "F1": 4,
+        "F2": 10,
+        "F3": 3,
+        "F4": 2,
+        "F5": 0,
+        "F6": 1,
+        "F7": 1,
+        "F8": 8,
+        "F9": 9,
+        "F10": 13,
+        "O3": 0,
+        "O4": 5,
+        "other": 11
+      },
+      "denominator": 67,
+      "unit": "human-confirmed wrong results",
+      "scope": "Human-verified primary mechanism class distribution among the confirmed wrong-result issues.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-HUMAN-REVIEW-QUEUE.tsv",
+      "source_sha256": "8aa71ff46963ae47ff9e87356f801642cf6eaae9af9259e1e72db13b8b8fd22e",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.human_review.confirmed_classes"
     }
   ]
 }

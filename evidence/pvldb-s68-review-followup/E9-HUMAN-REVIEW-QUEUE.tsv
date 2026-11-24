@@ -1,83 +1,83 @@
 id	issue_url	fix_or_maintainer_confirmation	reproduction_evidence	human_wrong_result	human_category	human_reviewer	reviewed_at
-07b4d2c0fe28375b	https://github.com/pandas-dev/pandas/issues/45448						
-0adb1af3b6f0a518	https://github.com/duckdb/duckdb/issues/28559						
-08012c9e11cce926	https://github.com/pola-rs/polars/issues/21084						
-44b8365f445b81d5	https://github.com/duckdb/duckdb/issues/7123						
-11a050cf37106ba7	https://github.com/pola-rs/polars/issues/4074						
-0bc276f09665631e	https://github.com/apache/arrow/issues/30731						
-0d7147b2f7a40808	https://github.com/apache/arrow/issues/36518						
-1c0878d43e7de1d7	https://github.com/duckdb/duckdb/issues/24189						
-02050e2e7fd2c5bc	https://github.com/pandas-dev/pandas/issues/65550						
-122ad421eca07217	https://github.com/duckdb/duckdb/issues/8119						
-0613c74ea1e59f9b	https://github.com/pandas-dev/pandas/issues/53095						
-09adf967fcaa8c74	https://github.com/OSGeo/gdal/issues/11696						
-14420bbd4b81436a	https://github.com/duckdb/duckdb/issues/24363						
-23d83ce3eb700d2d	https://github.com/pola-rs/polars/issues/12032						
-3a79216cdb011726	https://github.com/OSGeo/gdal/issues/12570						
-0779e880f53677d5	https://github.com/pola-rs/polars/issues/4855						
-3525b2a13d043749	https://github.com/OSGeo/gdal/issues/8460						
-1f2737b778e1e1de	https://github.com/OSGeo/gdal/issues/12552						
-0324004b3ae27f2d	https://github.com/duckdb/duckdb/issues/8590						
-0999ccd365f8a0c6	https://github.com/apache/arrow/issues/12681						
-147b307372cee373	https://github.com/pandas-dev/pandas/issues/54019						
-0f48f9249d10e428	https://github.com/duckdb/duckdb/issues/12422						
-1e46e2025d3818d9	https://github.com/duckdb/duckdb/issues/28543						
-098848f2995d44d2	https://github.com/OSGeo/gdal/issues/12897						
-050c172835a2dd23	https://github.com/pola-rs/polars/issues/6335						
-17dd7bf6e67cac68	https://github.com/OSGeo/gdal/issues/7319						
-30874877d304af13	https://github.com/apache/arrow/issues/55614						
-2aaecd06900dda15	https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2324						
-05bbfd97f7c47e9a	https://github.com/pandas-dev/pandas/issues/60128						
-14c38ae3f4c5ecd8	https://github.com/pandas-dev/pandas/issues/53464						
-353583dc98c845e9	https://github.com/duckdb/duckdb/issues/24256						
-1e8dd1df3b98dec7	https://github.com/apache/arrow/issues/50849						
-1851c343f96003db	https://github.com/apache/arrow/issues/55598						
-050cf812253d1138	https://github.com/duckdb/duckdb/issues/3080						
-071cc5d9b9d65c2c	https://github.com/OSGeo/gdal/issues/15117						
-0275d217daff20f5	https://github.com/duckdb/duckdb/issues/12464						
-e13cd43e02acf948	https://github.com/duckdb/duckdb/issues/13237						
-59890e2bc86255d1	https://github.com/duckdb/duckdb/issues/21207						
-5f65504b9c600f6b	https://github.com/duckdb/duckdb/issues/24296						
-1cb413d712b5f5b9	https://github.com/libgeos/geos/issues/1405						
-003487d81c794dec	https://github.com/pandas-dev/pandas/issues/54032						
-05b3c62745ba9a1c	https://github.com/duckdb/duckdb/issues/8413						
-174b7fd48c8281bc	https://github.com/OSGeo/gdal/issues/7401						
-43f632e91d07c8da	https://github.com/libgeos/geos/issues/1368						
-04f016fad3d2fab6	https://github.com/duckdb/duckdb/issues/12688						
-15b68ab13f178124	https://github.com/duckdb/duckdb/issues/3840						
-09f680cae904e31d	https://github.com/pandas-dev/pandas/issues/47701						
-0b8d493d575d953a	https://github.com/duckdb/duckdb/issues/4623						
-1a3e120cdf52c7f1	https://github.com/OSGeo/gdal/issues/15465						
-202a7e3d1387c72e	https://github.com/duckdb/duckdb/issues/4267						
-0570e43a959d1e0d	https://github.com/apache/arrow/issues/20312						
-009ab01d6cf05716	https://github.com/pandas-dev/pandas/issues/59332						
-05a1886dda261bc5	https://github.com/libgeos/geos/issues/565						
-3de1010cd2b76ca9	https://github.com/pandas-dev/pandas/issues/54462						
-0a8573e459bc9e68	https://github.com/pandas-dev/pandas/issues/46049						
-1704c4485c94173f	https://github.com/duckdb/duckdb/issues/23504						
-023084c10d5a6f8a	https://github.com/OSGeo/gdal/issues/14910						
-0a95217dd4dd60e9	https://github.com/OSGeo/gdal/issues/8850						
-06df66ae81378ec0	https://github.com/pola-rs/polars/issues/20766						
-807d8d0f0d3efba2	https://github.com/libgeos/geos/issues/1365						
-24b53cc5eacd14fe	https://github.com/pandas-dev/pandas/issues/55254						
-03b6fd51fa112e92	https://github.com/pola-rs/polars/issues/2112						
-783f3a785037c178	https://github.com/duckdb/duckdb/issues/4486						
-065447b422c55247	https://github.com/duckdb/duckdb/issues/12933						
-031b964146964d2c	https://github.com/pola-rs/polars/issues/7064						
-0110dce64a3d1a57	https://github.com/pola-rs/polars/issues/4174						
-0c99cfbf3c30127b	https://github.com/pola-rs/polars/issues/4983						
-1472afbb62d2c676	https://github.com/libgeos/geos/issues/827						
-4a9200694cdd6b1e	https://github.com/libgeos/geos/issues/1058						
-0087209ed8f52076	https://github.com/OSGeo/gdal/issues/6616						
-d1dcb6e9748eec42	https://github.com/pola-rs/polars/issues/23905						
-987ffb79ec022cd6	https://github.com/pandas-dev/pandas/issues/47837						
-0cad43bedeeac00a	https://github.com/duckdb/duckdb/issues/26781						
-0ba374621546c748	https://github.com/pola-rs/polars/issues/13393						
-0eeb208dd4619e9b	https://github.com/OSGeo/gdal/issues/13093						
-4de06aa8b1f5a891	https://github.com/OSGeo/gdal/issues/11993						
-0a5370ccdb75e77b	https://github.com/pandas-dev/pandas/issues/61245						
-0ef76e2c5da031bf	https://github.com/pola-rs/polars/issues/21304						
-03e425f1a983ef49	https://github.com/pandas-dev/pandas/issues/51948						
-068c4c272c6baeb8	https://github.com/duckdb/duckdb/issues/24301						
-169f78530feb3c5a	https://github.com/pandas-dev/pandas/issues/62443						
-695be198fd1c6e2f	https://github.com/duckdb/duckdb/issues/21180						
+07b4d2c0fe28375b	https://github.com/pandas-dev/pandas/issues/45448	CLOSED; merged PR https://github.com/pandas-dev/pandas/pull/45523 (DEPR: restore to_frame() name=None behaviour)	Passing None formerly selected the default label 0; the new frame instead stores a None label. This changes omission/default semantics, not just its display.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0adb1af3b6f0a518	https://github.com/duckdb/duckdb/issues/28559	OPEN; linked PR https://github.com/duckdb/duckdb/pull/28666 (fix: avoid replacing non-bitwise-identical join keys in TopN window elimination)	The selected right column is positive zero, yet the optimized result preserves the left column’s negative sign bit.	yes	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+08012c9e11cce926	https://github.com/pola-rs/polars/issues/21084	CLOSED; closed via https://github.com/pola-rs/polars/pull/21108	COUNT(*) on three rows emits three identical counts rather than one row in 1.21 versus 1.17.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+44b8365f445b81d5	https://github.com/duckdb/duckdb/issues/7123	CLOSED; maintainer lnkuiper confirmed duplicate of #6687 and closed via https://github.com/duckdb/duckdb/pull/7366	Returned and exported JSON values have a non-JSON representation that clients cannot consume.	yes	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+11a050cf37106ba7	https://github.com/pola-rs/polars/issues/4074	CLOSED; maintainer ritchie46 confirmed fixed by https://github.com/pola-rs/polars/pull/4087	Separate local categorical dictionaries reuse integer codes; the equality filter returns rows whose decoded strings differ.	yes	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0bc276f09665631e	https://github.com/apache/arrow/issues/30731	CLOSED by reporter without MRE or maintainer confirmation ('Closing (at least for now)')	Reader exposes generic DataType instead of Time32Type and time units cannot be queried.	unknown	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0d7147b2f7a40808	https://github.com/apache/arrow/issues/36518	CLOSED (NOT_PLANNED); PR #36519 closed unmerged, PR #43149 closed; no maintainer fix merged	Explicitly reports returned Timestamp timezone is incorrect despite apparently correct instant.	unknown	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1c0878d43e7de1d7	https://github.com/duckdb/duckdb/issues/24189	CLOSED; closed via https://github.com/duckdb/duckdb/pull/24488	Bound implementation drops DECIMAL width and scale before quantile, rounding away fractions.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+02050e2e7fd2c5bc	https://github.com/pandas-dev/pandas/issues/65550	CLOSED; merged PR https://github.com/pandas-dev/pandas/pull/65551 (C4 native replay 3.0.3->3.1.0)	C4 native replay (3.0.3->3.1.0): Comparison prints Float64 for three cumulative operations on nullable Int64 instead of preserving Int64.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+122ad421eca07217	https://github.com/duckdb/duckdb/issues/8119	CLOSED; maintainer hawkfish merged https://github.com/duckdb/duckdb/pull/8127 (Issue #8119: TO_TIMESTAMP Returns TIMESTAMP)	Epoch conversion followed by a timezone cast attaches a local offset to UTC clock fields; maintainers confirm the PostgreSQL instant semantics and change the function signature.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0613c74ea1e59f9b	https://github.com/pandas-dev/pandas/issues/53095	OPEN; maintainer phofl confirmed 'agreed, this should raise if they are not in the same order'	assert_index_equal accepts indices despite differences in level order according to reporter.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+09adf967fcaa8c74	https://github.com/OSGeo/gdal/issues/11696	CLOSED; fixed by commit https://github.com/OSGeo/gdal/commit/9c9aa6aa83fc4cc2bcd74fbd9e43efbe0e6bc21b (PR #13726)	VFK declares geometry column Polygon even though not all records are of this type.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+14420bbd4b81436a	https://github.com/duckdb/duckdb/issues/24363	CLOSED; merged PR https://github.com/duckdb/duckdb/pull/24399 (C4 native replay 1.5.5->2.0.1)	C4 native replay (1.5.5->2.0.1): ORDER BY NULL example returns zero instead of two rows; issue activity explicitly reports resolution.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+23d83ce3eb700d2d	https://github.com/pola-rs/polars/issues/12032	CLOSED; merged PR https://github.com/pola-rs/polars/pull/12045 (C4 native replay 0.19.11->0.19.13)	C4 native replay (0.19.11->0.19.13): First input integer 9187643043065364481 reads back as 9187643043065364480; several distinct IDs collapse.	yes	F1	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+3a79216cdb011726	https://github.com/OSGeo/gdal/issues/12570	OPEN; single Windows Conda CI failure log, no PR or maintainer confirmation of data-engine bug	The CI trace records an actual byte of zero at testblockcachewrite.cpp:144 where the operation should yield one, not merely an unexplained failed build.	unknown	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0779e880f53677d5	https://github.com/pola-rs/polars/issues/4855	CLOSED; maintainer ritchie46 confirmed intended behavior ('Nulls are included in the ordering... None lower than Some')	For [None,1,2], arg_min returns position 0 instead of 1; both arg extrema on all-null input return 0.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+3525b2a13d043749	https://github.com/OSGeo/gdal/issues/8460	CLOSED; closed via https://github.com/OSGeo/gdal/pull/8461	Stream returns naive local wall time rather than UTC-equivalent timestamp.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1f2737b778e1e1de	https://github.com/OSGeo/gdal/issues/12552	OPEN; feature request explicitly attributing NaN->NULL->0 behavior to ArcGIS rather than GDAL	Reporter observes ArcGIS+SHP converts NaN to NULL then zero, and removes empty geometry rows; enhancement requested in GDAL to mitigate another tool's behavior.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0324004b3ae27f2d	https://github.com/duckdb/duckdb/issues/8590	CLOSED; maintainer Tmonster confirmed fixed in main (0.8.1-3 verified by reporter; commit 8491128a)	Original reporter explicitly observes inconsistent na.strings handling for different R column types on same CSV.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0999ccd365f8a0c6	https://github.com/apache/arrow/issues/12681	OPEN; maintainer pitrou noted possible floating-point accuracy test issue on GCC/AVX2 build; unconfirmed engine bug	Independent kernel reference quantiles and returned numeric_scalar mismatch in four aggregate tests, including overlapping/sliced cases.	unknown	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+147b307372cee373	https://github.com/pandas-dev/pandas/issues/54019	OPEN	Reporter observes indexer order honored only for certain combinations of preceding indexers.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0f48f9249d10e428	https://github.com/duckdb/duckdb/issues/12422	CLOSED (NOT_PLANNED, stale); maintainer Tishj confirmed quotes added intentionally in #11625 for SQL round-trip	SQLNULL string representation changed from unquoted to quoted and broke existing unit checks.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1e46e2025d3818d9	https://github.com/duckdb/duckdb/issues/28543	OPEN; community reproducer confirmed in v2.0.1 (Go client); linked PR https://github.com/duckdb/duckdb/pull/28665	Prepared statement under multithreading explicitly violates top-level ORDER BY.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+098848f2995d44d2	https://github.com/OSGeo/gdal/issues/12897	CLOSED; maintainer rouault merged fix https://github.com/OSGeo/gdal/pull/12918	Unrecognized SRS prevents determining axis order; latitude/longitude order reported wrong.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+050c172835a2dd23	https://github.com/pola-rs/polars/issues/6335	CLOSED; merged PR https://github.com/pola-rs/polars/pull/6339 (C4 native replay 0.15.15->0.15.16)	C4 native replay (0.15.15->0.15.16): Reporter compares records ingested with and without explicit schema and reports unnest incorrectly nulls struct values.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+17dd7bf6e67cac68	https://github.com/OSGeo/gdal/issues/7319	CLOSED; fixed by commit https://github.com/OSGeo/gdal/commit/2abde7b2ef3f66f74829891c047bf33c7fabda1f (PR #7337/#7350)	Reported precision option applies to feature bounding box but not consistently elsewhere in GeoJSON output.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+30874877d304af13	https://github.com/apache/arrow/issues/55614	OPEN; detailed reproducer and external fix commit referenced, no upstream merged PR yet	Different expressions stringify identically; cached compiled code from earlier projector is reused for the next.	yes	F4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+2aaecd06900dda15	https://foss.heptapod.net/openpyxl/openpyxl/-/work_items/2324	OPEN on Heptapod (openpyxl #2324); no linked merged fix or maintainer confirmation recorded	Loading workbook propagates top-left style to edge cells so observed border no longer matches stored physical border.	unknown	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+05bbfd97f7c47e9a	https://github.com/pandas-dev/pandas/issues/60128	OPEN; maintainer rhshadrach confirmed on main ('confirmed on main. PRs to fix are welcome!')	Expected Behavior explicitly contrasts integer ending in 3744 with changed value ending in 3760.	yes	F1	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+14c38ae3f4c5ecd8	https://github.com/pandas-dev/pandas/issues/53464	CLOSED; verified fixed on main via https://github.com/pandas-dev/pandas/pull/53017 (C4 native replay 2.0.1->2.1.0)	C4 native replay (2.0.1->2.1.0): Styling changes integral index ending 3059 to 3056 in HTML.	yes	F1	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+353583dc98c845e9	https://github.com/duckdb/duckdb/issues/24256	CLOSED; maintainer dentiny confirmed fixed by Max on v1.5 branch (commit b6939a9a / PR #24845)	Bounding-box filter over nullable GEOPARQUET counts rows with null geometry when broad predicate triggers pruning.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1e8dd1df3b98dec7	https://github.com/apache/arrow/issues/50849	CLOSED; maintainer raulcd confirmed resolved by https://github.com/apache/arrow/pull/50850	Exposed logical type reports UNKNOWN for known geometry/geography types.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1851c343f96003db	https://github.com/apache/arrow/issues/55598	CLOSED; closed via https://github.com/apache/arrow/pull/55599	Missing GeoArrow CRS becomes omitted Parquet CRS, assigning longitude/latitude to previously unreferenced coordinates.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+050cf812253d1138	https://github.com/duckdb/duckdb/issues/3080	CLOSED; maintainer hawkfish confirmed bug ('main bug here is that we don't import the data as TIMESTAMPTZ')	Printed Parquet comparison shows +01:00-aware midnight returning as previous-day 23:00 without timezone.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+071cc5d9b9d65c2c	https://github.com/OSGeo/gdal/issues/15117	CLOSED; closed via https://github.com/OSGeo/gdal/pull/15118	Reporter states combining a Triangle layer loses every geometry while returning success; debug also aborts.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0275d217daff20f5	https://github.com/duckdb/duckdb/issues/12464	CLOSED; maintainer hawkfish merged https://github.com/duckdb/duckdb/pull/12470 (noted doc wrong, ORDER BY ALL disallowed in windows)	Reporter observes window row numbering does not sort by all columns as expected.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+e13cd43e02acf948	https://github.com/duckdb/duckdb/issues/13237	CLOSED; merged PR https://github.com/duckdb/duckdb/pull/13308 (C4 native replay 1.0.0->1.1.0)	C4 native replay (1.0.0->1.1.0): Compares precise versus imprecise printed decimal output in CLI SQL insert mode.	yes	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+59890e2bc86255d1	https://github.com/duckdb/duckdb/issues/21207	CLOSED; C4 native replay confirmed 1.4.3->2.0.1 (exact upstream repair PR unresolved; reporter noted #20885 still reproduced)	C4 native replay (1.4.3->2.0.1): Prepared execution reuses a pruned plan in a later transaction; issue contrasts actual 500 with expected.	yes	F3	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+5f65504b9c600f6b	https://github.com/duckdb/duckdb/issues/24296	CLOSED; maintainer Maxxen linked fix https://github.com/duckdb/duckdb/pull/24559	A checkpoint without a logical update flips the bounding-box predicate and reduces the maximum extent from 9 to 1 for the same accepted geometry.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1cb413d712b5f5b9	https://github.com/libgeos/geos/issues/1405	CLOSED; closed via https://github.com/libgeos/geos/pull/1499	Original body references picture and paired valid polygons; changing precision or intersection order changes geometric result.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+003487d81c794dec	https://github.com/pandas-dev/pandas/issues/54032	CLOSED; maintainer phofl confirmed intended NumPy int64 behavior ('this is not a bug', linked docs)	Assertion fails when missing data causes integer-to-float promotion; reporter identifies lost precision.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+05b3c62745ba9a1c	https://github.com/duckdb/duckdb/issues/8413	CLOSED; merged PR https://github.com/duckdb/duckdb/pull/9242 (C4 native replay 0.8.1->0.9.1)	C4 native replay (0.8.1->0.9.1): Reporter contrasts GROUP BY converting integers to VARCHAR with ORDER BY preserving type.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+174b7fd48c8281bc	https://github.com/OSGeo/gdal/issues/7401	CLOSED; maintainer rouault & author bjornharrtell confirmed writer wrongly discards empty/null geoms	GPKG round-trip through FGB retains one valid geometry, losing empty and null geometry records.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+43f632e91d07c8da	https://github.com/libgeos/geos/issues/1368	OPEN; maintainer dbaston confirmed mechanism (Point uses ElevationModel vs LineIntersector in #1367)	Identical point gets different interpolated Z depending on input geometry type.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+04f016fad3d2fab6	https://github.com/duckdb/duckdb/issues/12688	CLOSED; closed via https://github.com/duckdb/duckdb/pull/12899	Issue explicitly reports bind parameter SubStrings handled incorrectly when not null terminated.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+15b68ab13f178124	https://github.com/duckdb/duckdb/issues/3840	CLOSED; closed via https://github.com/duckdb/duckdb/pull/3843	JDBC reports scale and precision zero despite correct typeof and information schema.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+09f680cae904e31d	https://github.com/pandas-dev/pandas/issues/47701	CLOSED; maintainer jbrockmendel confirmed closed by https://github.com/pandas-dev/pandas/pull/64113 (verified in 3.1.1)	The same grouping callback gets Series without an extra argument but DataFrame with it, contrary to stated expected callback input.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0b8d493d575d953a	https://github.com/duckdb/duckdb/issues/4623	CLOSED; closed via https://github.com/duckdb/duckdb/pull/4624	Reporter observes Python NaN bind value treated as SQL NULL.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1a3e120cdf52c7f1	https://github.com/OSGeo/gdal/issues/15465	CLOSED; closed via https://github.com/OSGeo/gdal/pull/15470	ArrowStream includes null geometry under a spatial filter whereas the feature iterator on the same layer does not.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+202a7e3d1387c72e	https://github.com/duckdb/duckdb/issues/4267	CLOSED; closed via https://github.com/duckdb/duckdb/pull/4284	The same timezone-aware input remains aware via Arrow but becomes an unzoned timestamp via the pandas integration.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0570e43a959d1e0d	https://github.com/apache/arrow/issues/20312	CLOSED; Arrow maintainers (lidavidm, lwhite1) confirmed Postgres JDBC metadata lies on left join; PR #13558	After a left join, the JDBC result contains a null while the converted Arrow integer vector contains zero.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+009ab01d6cf05716	https://github.com/pandas-dev/pandas/issues/59332	CLOSED; resolved by doc-only PR https://github.com/pandas-dev/pandas/pull/59071 (DOC: More doc fix for dtype_backend)	Issue body contrasts non-nullable dtypes without backend argument against nullable dtypes with its documented default; upstream tagged Docs.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+05a1886dda261bc5	https://github.com/libgeos/geos/issues/565	CLOSED; merged PR https://github.com/libgeos/geos/pull/570 (C4 native replay 3.10.2->3.10.3)	C4 native replay (3.10.2->3.10.3): Ordinary intersection predicate returns false, while prepared predicate reports true for same geometries.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+3de1010cd2b76ca9	https://github.com/pandas-dev/pandas/issues/54462	CLOSED; maintainer MarcoGorelli confirmed fixed by https://github.com/pandas-dev/pandas/pull/51874	Observed Paris Timestamp changes hour count after crossing DST, with actual time stated.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0a8573e459bc9e68	https://github.com/pandas-dev/pandas/issues/46049	CLOSED; fixed in pandas 1.5.0 via https://github.com/pandas-dev/pandas/pull/46431 (C4 native replay 1.4.1->1.5.0)	C4 native replay (1.4.1->1.5.0): Reporter observes rolling standard deviation changes when adding data outside the calculation window.	yes	F7	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1704c4485c94173f	https://github.com/duckdb/duckdb/issues/23504	CLOSED; maintainer DinosL confirmed fixed in 1.5.5 via https://github.com/duckdb/duckdb/pull/23693 (C4 native replay 1.5.4->1.5.5)	C4 native replay (1.5.4->1.5.5): Returned file bounds omit minority decimal value in later row group although footer is correct.	yes	F6	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+023084c10d5a6f8a	https://github.com/OSGeo/gdal/issues/14910	CLOSED; closed via https://github.com/OSGeo/gdal/pull/15385	Field-descriptor parse loses synchronization with default bytes and reports zero fields/features.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0a95217dd4dd60e9	https://github.com/OSGeo/gdal/issues/8850	CLOSED; collaborator jratike80 stated OFTTime unsupported by GPKG spec, saving as string is expected behavior	Added OFTTime field reads back as OFTString after GeoPackage round trip.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+06df66ae81378ec0	https://github.com/pola-rs/polars/issues/20766	CLOSED; merged PR https://github.com/pola-rs/polars/pull/20822 (C4 native replay 1.20.0->1.22.0)	C4 native replay (1.20.0->1.22.0): Nested Amsterdam timestamp converts to UTC but resulting column dtype lacks the timezone; no exception occurs.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+807d8d0f0d3efba2	https://github.com/libgeos/geos/issues/1365	CLOSED; merged PR https://github.com/libgeos/geos/pull/1372 (C4 native replay 3.13.1;3.14.1->3.15.0)	C4 native replay (3.13.1;3.14.1->3.15.0): Precision reduction replaces existing M coordinate with NaN on a positive grid.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+24b53cc5eacd14fe	https://github.com/pandas-dev/pandas/issues/55254	CLOSED; merged PR https://github.com/pandas-dev/pandas/pull/55270 (C4 native replay 2.1.1->2.2.0)	C4 native replay (2.1.1->2.2.0): Original report uses Tokyo-aware start/end timestamps and reports timezone settings disappear after melt.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+03b6fd51fa112e92	https://github.com/pola-rs/polars/issues/2112	CLOSED; maintainer ritchie46 confirmed fixed in https://github.com/pola-rs/polars/pull/2136	With explicit maintain_order=True counts sometimes reorder groups a,b instead of input order b,a.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+783f3a785037c178	https://github.com/duckdb/duckdb/issues/4486	CLOSED after maintainer hannes asked to follow issue template; no PR or maintainer bug confirmation	Casting scientific notation to scale-zero decimal produces 100000000 although the exact representable integer is 123456789.	unknown	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+065447b422c55247	https://github.com/duckdb/duckdb/issues/12933	CLOSED; closed via https://github.com/duckdb/duckdb/pull/12982	Compression changes observed CSV record order relative to plain file, affecting lag/lead.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+031b964146964d2c	https://github.com/pola-rs/polars/issues/7064	CLOSED; closed via https://github.com/pola-rs/polars/pull/7157	Comparison with scalar max of all-null column returns true despite scalar being null; equivalent elementwise comparison does not.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0110dce64a3d1a57	https://github.com/pola-rs/polars/issues/4174	CLOSED; closed via https://github.com/pola-rs/polars/pull/4186	Localized Python datetimes become timezone-naive columns on import.	yes	F8	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0c99cfbf3c30127b	https://github.com/pola-rs/polars/issues/4983	CLOSED; closed via https://github.com/pola-rs/polars/pull/4984	Reporter contrasts categorical output before pickling with non-categorical type after deserialization.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+1472afbb62d2c676	https://github.com/libgeos/geos/issues/827	OPEN; maintainers dr-jts and dbaston confirmed regression in GEOS >=3.10 (breaking commit 3320d96a8)	Reporter contrasts expected polygon intersection with changed behavior when polygon winding differs.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+4a9200694cdd6b1e	https://github.com/libgeos/geos/issues/1058	OPEN; core author dr-jts explained snap-rounding collapse is expected algorithmic behavior; no fix	Integer-coordinate triangle becomes EMPTY at unit precision while pointwise mode preserves it.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0087209ed8f52076	https://github.com/OSGeo/gdal/issues/6616	CLOSED; closed via https://github.com/OSGeo/gdal/pull/6618	The generated GFS calls a mixed-geometry layer a geometry collection (7), rather than the admissible any-geometry type (0).	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+d1dcb6e9748eec42	https://github.com/pola-rs/polars/issues/23905	CLOSED; closed via https://github.com/pola-rs/polars/pull/23907	Reporter recommends checking snapshot ID to invalidate cached expanded Iceberg dataset when current data changes.	yes	F3	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+987ffb79ec022cd6	https://github.com/pandas-dev/pandas/issues/47837	CLOSED without MRE by maintainer phofl ('Closing for now. Please ping to reopen, if you can provide something reproducible')	dtype=str CSV read turns 6.527547 into 6.5275470000000002 in strings saved onward.	unknown	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0cad43bedeeac00a	https://github.com/duckdb/duckdb/issues/26781	OPEN; independent community reproducer confirmed file-backed snapshot isolation violation (PRs #27320/#27764 linked)	Actual behavior section and larger harness show 200,000 rows observed as 400,000 during atomic replacement; reader sees multiple generations.	yes	F3	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0ba374621546c748	https://github.com/pola-rs/polars/issues/13393	CLOSED; merged PR https://github.com/pola-rs/polars/pull/13412 (C4 native replay 0.20.3->0.20.4)	C4 native replay (0.20.3->0.20.4): Membership compares a categorical encoding incorrectly: the series containing b fails membership in a list containing b after the cache is populated.	yes	O4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0eeb208dd4619e9b	https://github.com/OSGeo/gdal/issues/13093	CLOSED; closed via https://github.com/OSGeo/gdal/pull/13102	Date Only, Time Only and Big Integer fields explicitly become strings when converting ESRIJSON.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+4de06aa8b1f5a891	https://github.com/OSGeo/gdal/issues/11993	CLOSED; closed via https://github.com/OSGeo/gdal/pull/12047	Reading netCDF prefers lossy recomputation of geotransform to higher-precision stored GeoTransform.	yes	F10	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0a5370ccdb75e77b	https://github.com/pandas-dev/pandas/issues/61245	OPEN; maintainer rhshadrach agreed level order is user-facing and should not change on remove_unused_levels	Removing unused index levels changes their order and causes misordered unstack.	yes	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+0ef76e2c5da031bf	https://github.com/pola-rs/polars/issues/21304	CLOSED; closed via https://github.com/pola-rs/polars/pull/23093	Author reports decimal data unexpectedly aggregate to nulls and asks whether the behavior is intended.	yes	F2	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+03e425f1a983ef49	https://github.com/pandas-dev/pandas/issues/51948	OPEN; feature enhancement (ENH) to change str.len return dtype; commenter noted doc mismatch	Original reporter contrasts documented integer return with observed float64 because of nullability.	no	other	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+068c4c272c6baeb8	https://github.com/duckdb/duckdb/issues/24301	CLOSED; closed via https://github.com/duckdb/duckdb/pull/24559	After checkpoint original output shows same geometry equality filter counting one row through indexed plan and two without optimizer.	yes	F4	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+169f78530feb3c5a	https://github.com/pandas-dev/pandas/issues/62443	CLOSED as duplicate of confirmed bug #47959 by maintainer rhshadrach (PR #62444 linked)	The rowwise scalar aggregation on zero rows returns a DataFrame rather than a one-column Series; the later assignment error follows the successful wrong-shaped result.	yes	F9	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00
+695be198fd1c6e2f	https://github.com/duckdb/duckdb/issues/21180	OPEN; linked PRs #21252/#24173; Parquet lacks native 128-bit int so DuckDB converts HUGEINT to DOUBLE	Writing and reading the integer one below 10^30 via Parquet returns a double rounded to 10^30.	yes	F1	Xu Cao, Wenxuan Xiao	2026-11-24T09:55:00+08:00

@@ -104,6 +104,40 @@ def metrics(root):
     add("s68.c4.release_pairs_with_fix_link", "C4-SOURCES.json", c4["summary"]["release_pairs_with_fix_link"],
         c4["summary"]["release_pairs"], "release pairs", "Verified upstream merged-PR links. DuckDB issue 21207 remains unresolved.")
 
+    queue_rows = list(csv.DictReader((packet / "E9-HUMAN-REVIEW-QUEUE.tsv").read_text(encoding="utf-8").splitlines(), delimiter="\t"))
+    valid_statuses = {"yes", "no", "unknown"}
+    valid_classes = {*(f"F{i}" for i in range(1, 11)), "O3", "O4", "other", "unknown"}
+    if [(r["id"], r["issue_url"]) for r in queue_rows] != [(r["id"], r["url"]) for r in positives]:
+        raise ValueError("Human review queue roster differs from the 82 frozen E9 positives")
+    for row in queue_rows:
+        if any(not (row[k] or "").strip() for k in row):
+            raise ValueError(f"Incomplete human review entry: {row['id']}")
+        if row["human_wrong_result"] not in valid_statuses or row["human_category"] not in valid_classes:
+            raise ValueError(f"Invalid human review label: {row['id']}")
+    human_status = Counter(dict.fromkeys(("yes", "no", "unknown"), 0))
+    human_status.update(r["human_wrong_result"] for r in queue_rows)
+    confirmed_pairs = [(r, p) for r, p in zip(queue_rows, positives, strict=True) if r["human_wrong_result"] == "yes"]
+    cond_class_agree = sum(r["human_category"] == p["category"] for r, p in confirmed_pairs)
+    joint_agree = sum(r["human_wrong_result"] == "yes" and r["human_category"] == p["category"]
+                      for r, p in zip(queue_rows, positives, strict=True))
+    confirmed_classes = Counter(dict.fromkeys([*(f"F{i}" for i in range(1, 11)), "O3", "O4", "other"], 0))
+    confirmed_classes.update(r["human_category"] for r, _ in confirmed_pairs)
+    add("s68.e9.human_review.status_counts", "E9-HUMAN-REVIEW-QUEUE.tsv", dict(human_status), len(queue_rows),
+        "reviewed model-adjudicated positives",
+        "Human review of all 82 frozen E9 positives against upstream discussions, fixes and reproductions.")
+    add("s68.e9.human_review.wrong_result_agreement", "E9-HUMAN-REVIEW-QUEUE.tsv", human_status["yes"], len(queue_rows),
+        "reviewed model-adjudicated positives",
+        "Frozen model-adjudicated positives confirmed as evidenced wrong results by human review.")
+    add("s68.e9.human_review.conditional_class_agreement", "E9-HUMAN-REVIEW-QUEUE.tsv", cond_class_agree,
+        len(confirmed_pairs), "human-confirmed wrong results",
+        "Primary mechanism class agreement among human-confirmed wrong-result issues.")
+    add("s68.e9.human_review.joint_agreement", "E9-HUMAN-REVIEW-QUEUE.tsv", joint_agree, len(queue_rows),
+        "reviewed model-adjudicated positives",
+        "Exact joint agreement on both wrong-result confirmation and primary mechanism class across all 82 positives.")
+    add("s68.e9.human_review.confirmed_classes", "E9-HUMAN-REVIEW-QUEUE.tsv", dict(confirmed_classes),
+        len(confirmed_pairs), "human-confirmed wrong results",
+        "Human-verified primary mechanism class distribution among the confirmed wrong-result issues.")
+
     table = runpy.run_path(str(packet / "table7_timings.py"))["summarize"](root / "evidence")
     if table != read(f"{PACKET}/TABLE7-ARCHIVED.json"):
         raise ValueError("Archived worker timings changed")
