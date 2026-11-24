@@ -644,6 +644,19 @@
       "oracle": [
         "O1"
       ],
+      "upstream_disposition": {
+        "https://github.com/duckdb/duckdb/issues/21207": {
+          "close_event": "https://api.github.com/repos/duckdb/duckdb/issues/events/33108312484",
+          "closed_as": "completed",
+          "closed_at": "2026-10-13T06:47:36Z",
+          "earlier_candidate": "https://github.com/duckdb/duckdb/pull/20885",
+          "earlier_candidate_outcome": "On March 8, 2026 the reporter replied that the issue still reproduced on main.",
+          "label": "fixed on nightly",
+          "label_event": "https://api.github.com/repos/duckdb/duckdb/issues/events/33066292492",
+          "labeled_at": "2026-10-12T17:04:55Z",
+          "repair_commit": null
+        }
+      },
       "upstream_fix_links": [],
       "versions": [
         "1.4.3",

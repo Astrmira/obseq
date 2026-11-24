@@ -99,10 +99,11 @@
       "value": 7,
       "denominator": 43,
       "unit": "stock queries",
-      "scope": "Exact bag comparison between one-thread and eight-thread native outputs.",
-      "source_sha256": "593f70402f15f72eea6ecc1e815dcb588f4a66296a105958b2c8dabdaa54f89a",
-      "replay": "python -IB summarize.py ../pvldb-a1-query-inventory/INVENTORY.json",
-      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+      "scope": "Section 4.1. Recount of exact bag comparison verdicts between one-thread and eight-thread native outputs.",
+      "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-CANDIDATES.jsonl",
+      "source_sha256": "c752fde7edea1933b5efb9c8981209a9b5dc036f2f500308e9dcca05b60d9643",
+      "replay": "python -B scripts/recount_numbers.py a7.full.native_bag_difference",
+      "check_path": "offline-recount"
     },
     {
       "id": "a7.full.native_order_difference",
@@ -372,7 +373,8 @@
       "scope": "SQLite backup and typed logical digest relative to native count/sum.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o1.backup_and_typed_digest"
+      "replay": "python -B scripts/recount_numbers.py e6.o1.backup_and_typed_digest",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o2.trusted_epoch_check",
@@ -382,7 +384,8 @@
       "scope": "Dependency epoch check relative to the H2O Q1 native producer.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o2.trusted_epoch_check"
+      "replay": "python -B scripts/recount_numbers.py e6.o2.trusted_epoch_check",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o3.topk_guard_increment",
@@ -392,7 +395,8 @@
       "scope": "Additional checker time versus producer in same worker.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_increment"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_increment",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o3.topk_family_increment",
@@ -402,7 +406,8 @@
       "scope": "Additional checker time versus producer in same worker.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_increment"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_increment",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o4.lazy_filtered_vs_generate",
@@ -412,7 +417,8 @@
       "scope": "Filtered exact predicates relative to the separate generation/checksum arm.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o4.lazy_filtered_vs_generate"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.lazy_filtered_vs_generate",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o5.witness_vs_sparse_apply",
@@ -422,7 +428,8 @@
       "scope": "Intent witness relative to sparse apply in the same worker.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o5.witness_vs_sparse_apply"
+      "replay": "python -B scripts/recount_numbers.py e6.o5.witness_vs_sparse_apply",
+      "check_path": "external-input"
     },
     {
       "id": "a1.clickbench.typed_ordered_windows",
@@ -722,7 +729,8 @@
       "scope": "Queries with an ordered-window contract evaluated on the pinned snapshots.",
       "source_sha256": "00c3a2cf2bf8169f20254ffc6cecbe5f9cff4f2539646b284962c9e26061fdb5",
       "replay": "python -B contract_inventory.py EVIDENCE",
-      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json"
+      "artifact_path": "evidence/pvldb-a5-epoch-writer/CONTRACT-INVENTORY.json",
+      "check_path": "offline-recount"
     },
     {
       "id": "a5.development.declared_once",
@@ -1162,7 +1170,8 @@
       "scope": "Across the TPC-H, TPC-DS and ClickBench suite/scale windows.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B summarize_controls.py ."
+      "replay": "python -B summarize_controls.py .",
+      "check_path": "offline-recount"
     },
     {
       "id": "a1.windows_with_equal_length_controls",
@@ -1172,7 +1181,8 @@
       "scope": "TPC-DS Q17 is empty at both scales.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B summarize_controls.py ."
+      "replay": "python -B summarize_controls.py .",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.clickbench.datacompy_natural_key.false_reject",
@@ -1262,7 +1272,8 @@
       "scope": "Case-specific typed contracts evaluated over archived native output projections.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
       "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
-      "replay": "python -B verify_contracts.py .."
+      "replay": "python -B verify_contracts.py ..",
+      "check_path": "offline-recount"
     },
     {
       "id": "c4.contract_replay.pairs_with_legal_rejects",
@@ -1272,7 +1283,8 @@
       "scope": "Case-specific typed contracts evaluated over archived native output projections.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
       "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
-      "replay": "python -B verify_contracts.py .."
+      "replay": "python -B verify_contracts.py ..",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.q59.independent_labels_agreement",
@@ -1281,7 +1293,7 @@
       "unit": "candidate arms",
       "scope": "Independent TPC-DS SF10 source reconstruction versus the typed window verifier.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
-      "source_sha256": "0c11d9763be3f81fb3aa394ccc7f33d179d89ee15afad33046e2d9d6b8a3c0bc",
+      "source_sha256": "b683c07c8c035daae35e2aab796193de69c405c0a050c216c48307edcd7d7c9a",
       "replay": "python -B q59.py QUERIES_JSON SF10_TPCDS_DB --verify-window ../pvldb-a1-query-inventory/verify_windows.py"
     },
     {
@@ -1292,7 +1304,8 @@
       "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
       "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
-      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.arms_scored"
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.arms_scored",
+      "check_path": "offline-recount"
     },
     {
       "id": "c4.contract_replay.legal_arms_accepted",
@@ -1302,7 +1315,8 @@
       "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
       "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
-      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.legal_arms_accepted"
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.legal_arms_accepted",
+      "check_path": "offline-recount"
     },
     {
       "id": "c4.contract_replay.faulty_arms_rejected",
@@ -1312,7 +1326,8 @@
       "scope": "Section 3 and Table 6. Case-specific contract decisions over archived native projections.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json",
       "source_sha256": "8db8f0cf02893db892b95d01ce57ab2c632504e17da09ee0fd4b21f6ccfc440c",
-      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.faulty_arms_rejected"
+      "replay": "python -B scripts/recount_numbers.py c4.contract_replay.faulty_arms_rejected",
+      "check_path": "offline-recount"
     },
     {
       "id": "a8.native.public_docker.completed",
@@ -1322,7 +1337,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.completed"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.completed",
+      "check_path": "offline-recount"
     },
     {
       "id": "a8.native.public_docker.native_reexecuted",
@@ -1332,7 +1348,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.native_reexecuted"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.native_reexecuted",
+      "check_path": "native-rerun"
     },
     {
       "id": "a8.native.public_docker.receipt_only",
@@ -1342,7 +1359,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.receipt_only"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.receipt_only",
+      "check_path": "offline-recount"
     },
     {
       "id": "a8.native.public_docker.pass_exact",
@@ -1352,7 +1370,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_exact"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_exact",
+      "check_path": "offline-recount"
     },
     {
       "id": "a8.native.public_docker.pass_stable",
@@ -1362,7 +1381,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_stable"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.pass_stable",
+      "check_path": "native-rerun"
     },
     {
       "id": "a8.native.public_docker.missing_optional_inputs",
@@ -1372,7 +1392,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.missing_optional_inputs"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.missing_optional_inputs",
+      "check_path": "offline-recount"
     },
     {
       "id": "a8.native.public_docker.failed",
@@ -1382,7 +1403,8 @@
       "scope": "Section 3. GitHub Actions Linux/amd64, network disabled, empty external input map.",
       "artifact_path": "evidence/PUBLIC-DOCKER-VALIDATION.json",
       "source_sha256": "a9de54259a3cf332cc94d57b731c55b481666ebb2f0083ac479a7a4c4f74267e",
-      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.failed"
+      "replay": "python -B scripts/recount_numbers.py a8.native.public_docker.failed",
+      "check_path": "offline-recount"
     },
     {
       "id": "e6.o3.topk_guard_peak_rss",
@@ -1392,7 +1414,8 @@
       "scope": "Section 7. Median peak resident memory (VmHWM), converted from KiB and rounded to MiB.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_peak_rss"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_peak_rss",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o3.topk_family_peak_rss",
@@ -1402,7 +1425,8 @@
       "scope": "Section 7. Median peak resident memory (VmHWM), converted from KiB and rounded to MiB.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_peak_rss"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_family_peak_rss",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o3.topk_guard_memory_reduction",
@@ -1412,7 +1436,8 @@
       "scope": "Section 7. Reduction relative to the explicit family's median MiB.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_memory_reduction"
+      "replay": "python -B scripts/recount_numbers.py e6.o3.topk_guard_memory_reduction",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o4.eager_vs_generate",
@@ -1422,7 +1447,8 @@
       "scope": "Section 7 and Table 7. Eager exact median seconds divided by generation/checksum median seconds.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o4.eager_vs_generate"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.eager_vs_generate",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o4.filtered_speedup_vs_eager",
@@ -1432,7 +1458,8 @@
       "scope": "Sections 1 and 7. Ratio of the unrounded eager and filtered exact wall-clock medians in seconds.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o4.filtered_speedup_vs_eager"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.filtered_speedup_vs_eager",
+      "check_path": "external-input"
     },
     {
       "id": "e6.o4.exact_fallbacks",
@@ -1442,7 +1469,8 @@
       "scope": "Section 7. Exact dyadic fallbacks at the largest scale.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o4.exact_fallbacks"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.exact_fallbacks",
+      "check_path": "offline-recount"
     },
     {
       "id": "e6.o4.geometry_seed_count",
@@ -1452,7 +1480,8 @@
       "scope": "Table 7. Unique seeds expanded into the generated dyadic workload.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.o4.geometry_seed_count"
+      "replay": "python -B scripts/recount_numbers.py e6.o4.geometry_seed_count",
+      "check_path": "offline-recount"
     },
     {
       "id": "e6.table7.o1.time",
@@ -1467,7 +1496,8 @@
       "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o1.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o1.time",
+      "check_path": "external-input"
     },
     {
       "id": "e6.table7.o2.time",
@@ -1481,7 +1511,8 @@
       "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o2.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o2.time",
+      "check_path": "external-input"
     },
     {
       "id": "e6.table7.o4.time",
@@ -1495,7 +1526,8 @@
       "scope": "Table 7. Median wall time across five fresh workers per arm at 100 million rows or calls.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o4.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o4.time",
+      "check_path": "external-input"
     },
     {
       "id": "e6.table7.o3_topk.time",
@@ -1518,7 +1550,8 @@
       "scope": "Table 7. Total duration and median within-worker incremental ratio.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_topk.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_topk.time",
+      "check_path": "external-input"
     },
     {
       "id": "e6.table7.o3_group.time",
@@ -1541,7 +1574,8 @@
       "scope": "Table 7. Total duration and median within-worker incremental ratio.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_group.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o3_group.time",
+      "check_path": "external-input"
     },
     {
       "id": "e6.table7.o5.time",
@@ -1558,7 +1592,8 @@
       "scope": "Section 7 and Table 7. Sparse apply, intent witness and full verification.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py e6.table7.o5.time"
+      "replay": "python -B scripts/recount_numbers.py e6.table7.o5.time",
+      "check_path": "external-input"
     },
     {
       "id": "a5.original.contract_words_min",
@@ -1681,7 +1716,8 @@
       "scope": "Section 7. Single-writer, one-commit-per-transaction medians.",
       "artifact_path": "evidence/pvldb-a5-epoch-writer/DURABLE-RESULT.json",
       "source_sha256": "435be33b1bfb286c22ac8f1f693e5752d49c67b8d530096c7d898cb2c031e76d",
-      "replay": "python -B scripts/recount_numbers.py a5.durable.write_times"
+      "replay": "python -B scripts/recount_numbers.py a5.durable.write_times",
+      "check_path": "external-input"
     },
     {
       "id": "a5.durable.wal_bytes",
@@ -1735,7 +1771,8 @@
       "scope": "Table 3. Top-level ordered LIMIT windows by benchmark.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/INVENTORY.json",
       "source_sha256": "97b173fd39266cf3575ece16df851478cfdee9bcdc43860afd691961f870f7a4",
-      "replay": "python -B scripts/recount_numbers.py a1.table3.ordered_windows_by_suite"
+      "replay": "python -B scripts/recount_numbers.py a1.table3.ordered_windows_by_suite",
+      "check_path": "offline-recount"
     },
     {
       "id": "a1.audit.frozen_queries",
@@ -1770,7 +1807,8 @@
       "scope": "Sections 1 and 4.1. Native SQL window replay over the suite/scale roster.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B scripts/recount_numbers.py a1.native_outputs_accepted"
+      "replay": "python -B scripts/recount_numbers.py a1.native_outputs_accepted",
+      "check_path": "offline-recount"
     },
     {
       "id": "a1.shape_controls_rejected",
@@ -1780,7 +1818,8 @@
       "scope": "Sections 1 and 4.1. Native SQL window replay over the suite/scale roster.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B scripts/recount_numbers.py a1.shape_controls_rejected"
+      "replay": "python -B scripts/recount_numbers.py a1.shape_controls_rejected",
+      "check_path": "offline-recount"
     },
     {
       "id": "a1.equal_length_controls_by_kind",
@@ -1794,7 +1833,8 @@
       "scope": "Section 4.1. Equal-length negative controls.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B scripts/recount_numbers.py a1.equal_length_controls_by_kind"
+      "replay": "python -B scripts/recount_numbers.py a1.equal_length_controls_by_kind",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.clickbench.table4.configured_tools",
@@ -1912,7 +1952,8 @@
       "scope": "Table 4. Configured tool errors and applicable denominators by suite.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json",
       "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
-      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.configured_tools"
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.configured_tools",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.tpc.table4.configured_tools",
@@ -2022,7 +2063,8 @@
       "scope": "Table 4. Configured tool errors and applicable denominators by suite.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/BENCHMARK-E5-RESULT.json",
       "source_sha256": "499ecfe83a8f48220abc1715575f9a089f719e58e063a5ad38eefb68704bf802",
-      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.configured_tools"
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.configured_tools",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.tpc.table4.generic",
@@ -2093,7 +2135,8 @@
       "scope": "Table 4. Generic TPC comparators with explicit applicability.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
       "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
-      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.generic"
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.generic",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.tpc.table4.cwi",
@@ -2110,7 +2153,8 @@
       "scope": "Table 4. Pinned CWI comparator on the Q39 subset.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/TPC-RESULT.json",
       "source_sha256": "a62f855ed9d6ad47242b8359c5ff7bf2eb1d84c04a2e486da095d9a58c1baff2",
-      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.cwi"
+      "replay": "python -B scripts/recount_numbers.py c3.tpc.table4.cwi",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.tpch_11.source_reference",
@@ -2196,7 +2240,7 @@
       "unit": "source rows and cutoff counts",
       "scope": "Sections 3 and 4.1. SF10 independent Decimal source rescan and typed window decisions.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
-      "source_sha256": "0c11d9763be3f81fb3aa394ccc7f33d179d89ee15afad33046e2d9d6b8a3c0bc",
+      "source_sha256": "b683c07c8c035daae35e2aab796193de69c405c0a050c216c48307edcd7d7c9a",
       "replay": "python -B scripts/recount_numbers.py c3.q59.source_scan_and_cutoff"
     },
     {
@@ -2278,7 +2322,8 @@
       "scope": "Table 4. Generic decisions on Q18 and Q25.",
       "artifact_path": "evidence/pvldb-a7-typed-candidates/FULL-A2.json",
       "source_sha256": "e12710b224994f8c65fd39b74db0d72463dd12fec53b8a0d9ad46020d94eceab",
-      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.q18_q25_generic"
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.q18_q25_generic",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.clickbench.table4.grouped_generic",
@@ -2349,7 +2394,8 @@
       "scope": "Table 4. Generic decisions on Q31–Q33 and Q39–Q42.",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
-      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.grouped_generic"
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.grouped_generic",
+      "check_path": "offline-recount"
     },
     {
       "id": "c3.clickbench.table4.generic",
@@ -2420,7 +2466,8 @@
       "scope": "Table 4. Grouped-window receipt combined with FULL-A2.json for Q18 and Q25.",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
-      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.generic"
+      "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.generic",
+      "check_path": "offline-recount"
     },
     {
       "id": "a7.full.cutoff_examples",
@@ -2897,7 +2944,8 @@
       "scope": "Section 5.2 and Table 6. Independent original/later case rosters.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
       "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
-      "replay": "python -B scripts/recount_numbers.py c2.table6.cases_by_cohort"
+      "replay": "python -B scripts/recount_numbers.py c2.table6.cases_by_cohort",
+      "check_path": "offline-recount"
     },
     {
       "id": "c2.table6.original_mechanisms",
@@ -3015,7 +3063,8 @@
       "scope": "Table 6. Any erroneous observed arm marks its original held-out mechanism.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
       "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
-      "replay": "python -B scripts/recount_numbers.py c2.table6.original_mechanisms"
+      "replay": "python -B scripts/recount_numbers.py c2.table6.original_mechanisms",
+      "check_path": "offline-recount"
     },
     {
       "id": "c2.table6.ordered_intervention_receipts",
@@ -3156,7 +3205,8 @@
       "scope": "Section 5.2. Later held-out panel decisions.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
       "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
-      "replay": "python -B scripts/recount_numbers.py c2.table6.ordered_intervention_receipts"
+      "replay": "python -B scripts/recount_numbers.py c2.table6.ordered_intervention_receipts",
+      "check_path": "offline-recount"
     },
     {
       "id": "c2.table6.keyed_aggregate_cancellation",
@@ -3293,7 +3343,8 @@
       "scope": "Section 5.2. Later held-out panel decisions.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
       "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
-      "replay": "python -B scripts/recount_numbers.py c2.table6.keyed_aggregate_cancellation"
+      "replay": "python -B scripts/recount_numbers.py c2.table6.keyed_aggregate_cancellation",
+      "check_path": "offline-recount"
     },
     {
       "id": "c2.table6.coherent_group_representatives",
@@ -3459,7 +3510,8 @@
       "scope": "Section 5.2. Later held-out panel decisions.",
       "artifact_path": "evidence/pvldb-native-baseline-matrix/HOLDOUT-MATRIX.json",
       "source_sha256": "9534f662419b5413796f8e8e7798910616d5fe7337bfd5f7cd1c26924da17b70",
-      "replay": "python -B scripts/recount_numbers.py c2.table6.coherent_group_representatives"
+      "replay": "python -B scripts/recount_numbers.py c2.table6.coherent_group_representatives",
+      "check_path": "offline-recount"
     },
     {
       "id": "c4.table6.methods_by_release_pair",
@@ -3638,7 +3690,8 @@
       "scope": "Table 6. Natural release-pair decisions and per-method applicability.",
       "artifact_path": "evidence/pvldb-a4-natural-roster/FAMILY-MATRIX.json",
       "source_sha256": "ce071d524a00e018d349002199077b472e7b6afc4ad88499ad0b37d352a4fbd6",
-      "replay": "python -B scripts/recount_numbers.py c4.table6.methods_by_release_pair"
+      "replay": "python -B scripts/recount_numbers.py c4.table6.methods_by_release_pair",
+      "check_path": "offline-recount"
     },
     {
       "id": "c4.release_pair_sources",
@@ -4282,7 +4335,7 @@
       "unit": "frozen positive public issues",
       "scope": "Distinct frozen E9 positive labels whose IDs and issue URLs match a native C4 release-pair family.",
       "artifact_path": "evidence/pvldb-s68-review-followup/C4-SOURCES.json",
-      "source_sha256": "180686aee252ea2004c6293a9e63e849e3239075d0dfd9612e3c9220594c4698",
+      "source_sha256": "ca310ac1a8c859630a2eee7e3332a44f0bd9267a77608387c74c24d03139dd5e",
       "replay": "python -B scripts/recount_numbers.py s68.c4.e9_positive_links"
     },
     {
@@ -4290,9 +4343,9 @@
       "value": 28,
       "denominator": 29,
       "unit": "release pairs",
-      "scope": "Verified upstream merged-PR links. DuckDB issue 21207 remains unresolved.",
+      "scope": "Verified upstream merged-PR links. DuckDB #21207 was labeled fixed on nightly and closed as completed. Its repair commit remains unresolved.",
       "artifact_path": "evidence/pvldb-s68-review-followup/C4-SOURCES.json",
-      "source_sha256": "180686aee252ea2004c6293a9e63e849e3239075d0dfd9612e3c9220594c4698",
+      "source_sha256": "ca310ac1a8c859630a2eee7e3332a44f0bd9267a77608387c74c24d03139dd5e",
       "replay": "python -B scripts/recount_numbers.py s68.c4.release_pairs_with_fix_link"
     },
     {
@@ -4314,7 +4367,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.raw_file_sha256"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.raw_file_sha256",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o1.sqlite_backup_logical",
@@ -4335,7 +4389,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_logical"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_logical",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o1.sqlite_backup_only",
@@ -4356,7 +4411,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_only"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_backup_only",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o1.sqlite_native_read",
@@ -4377,7 +4433,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_native_read"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o1.sqlite_native_read",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o2.epoch",
@@ -4398,7 +4455,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.epoch"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.epoch",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o2.exact",
@@ -4419,7 +4477,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.exact"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.exact",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o2.producer",
@@ -4440,7 +4499,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.producer"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o2.producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-topk.family",
@@ -4476,7 +4536,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.family"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.family",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-topk.guard",
@@ -4512,7 +4573,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.guard"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.guard",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-topk.producer",
@@ -4548,7 +4610,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.producer"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-topk.producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-representative.claimed",
@@ -4584,7 +4647,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.claimed"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.claimed",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-representative.family",
@@ -4620,7 +4684,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.family"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.family",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o3-representative.producer",
@@ -4656,7 +4721,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.producer"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o3-representative.producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o4.generation_checksum",
@@ -4677,7 +4743,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.generation_checksum"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.generation_checksum",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o4.eager_exact",
@@ -4698,7 +4765,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.eager_exact"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.eager_exact",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o4.lazy_filtered",
@@ -4719,7 +4787,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.lazy_filtered"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o4.lazy_filtered",
+      "check_path": "external-input"
     },
     {
       "id": "s68.table7.o5.overlay_and_intent",
@@ -4755,7 +4824,8 @@
       "scope": "Archived 100M-row/call workers. Every metric includes median and min/max. Ratios use paired workers.",
       "artifact_path": "evidence/pvldb-s68-review-followup/TABLE7-ARCHIVED.json",
       "source_sha256": "6c6c0ac42ff1656887e50b8fafea3ee488eeef498ccffda75906ff0c8b0c9482",
-      "replay": "python -B scripts/recount_numbers.py s68.table7.o5.overlay_and_intent"
+      "replay": "python -B scripts/recount_numbers.py s68.table7.o5.overlay_and_intent",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.1_per_mille.mode0",
@@ -4773,7 +4843,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode0"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode0",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.1_per_mille.mode1",
@@ -4791,7 +4862,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode1"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode1",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.1_per_mille.mode2",
@@ -4809,7 +4881,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode2"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.1_per_mille.mode2",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.10_per_mille.mode0",
@@ -4827,7 +4900,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode0"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode0",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.10_per_mille.mode1",
@@ -4845,7 +4919,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode1"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode1",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.10_per_mille.mode2",
@@ -4863,7 +4938,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode2"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.10_per_mille.mode2",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.100_per_mille.mode0",
@@ -4881,7 +4957,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode0"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode0",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.100_per_mille.mode1",
@@ -4899,7 +4976,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode1"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode1",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.pressure.100_per_mille.mode2",
@@ -4917,7 +4995,8 @@
       "scope": "Five authored pressure workers per cell. Modes 0/1/2 are binary64, filtered exact and eager exact. Shared remote host.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-pressure/RAW.csv",
       "source_sha256": "69e316e403b80f78dfceaaffb90c7225a057ebbe8d312d9a2e27cde822e1fc56",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode2"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.pressure.100_per_mille.mode2",
+      "check_path": "external-input"
     },
     {
       "id": "s68.q39.m5.distance_outside_envelope_ulp",
@@ -5000,7 +5079,8 @@
       "scope": "Archived Table 7 applies three overlays over a 100M-row immutable backing relation and records four intents.",
       "artifact_path": "evidence/e6-cross-scale-and-ratio-audit/RESULT.json",
       "source_sha256": "0d2456b9d7295b577081ccc957df2c7489ed37f1b7be17c7b7fe9e8ffd0bebf0",
-      "replay": "python -B scripts/recount_numbers.py s68.o5.archived_overlay_writes"
+      "replay": "python -B scripts/recount_numbers.py s68.o5.archived_overlay_writes",
+      "check_path": "offline-recount"
     },
     {
       "id": "s68.ast.negative_controls_rejected",
@@ -5010,7 +5090,8 @@
       "scope": "201 shape controls plus 549 equal-cardinality membership, multiplicity and ordering controls.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SAME-CARDINALITY-SUMMARY.json",
       "source_sha256": "7280e8ef9aa79d71ed66c8aab80b749fe0aab964d3f52c52579e14662a1dd0a8",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.negative_controls_rejected"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.negative_controls_rejected",
+      "check_path": "offline-recount"
     },
     {
       "id": "s68.ast.completed_windows",
@@ -5020,7 +5101,8 @@
       "scope": "Five fresh full-scale workers per window, TPC SF10 and all publisher ClickBench partitions.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.completed_windows"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.completed_windows",
+      "check_path": "offline-recount"
     },
     {
       "id": "s68.ast.producer_ns",
@@ -5034,7 +5116,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.producer_ns"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.producer_ns",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.validator_ns",
@@ -5048,7 +5131,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_ns"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_ns",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.compile_ns",
@@ -5062,7 +5146,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_ns"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_ns",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.candidate_ns",
@@ -5076,7 +5161,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_ns"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_ns",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.staged_check_ns",
@@ -5090,7 +5176,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_ns"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_ns",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.e2e_worker_peak_rss_kib",
@@ -5104,7 +5191,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.e2e_worker_peak_rss_kib"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.e2e_worker_peak_rss_kib",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.staged_worker_peak_rss_kib",
@@ -5118,7 +5206,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_worker_peak_rss_kib"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_worker_peak_rss_kib",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.validator_over_producer",
@@ -5132,7 +5221,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.validator_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.compile_over_producer",
@@ -5146,7 +5236,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.compile_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.candidate_over_producer",
@@ -5160,7 +5251,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.candidate_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.staged_check_over_producer",
@@ -5174,7 +5266,8 @@
       "scope": "Median, interpolated p90 and max across per-window five-worker medians. Unchanged validator recomputes candidates. Staged phases reuse a separately materialized relation. Shared remote host, no system cache drop. RSS includes producer allocations.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.staged_check_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.slowest_validator",
@@ -5251,7 +5344,8 @@
       "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.slowest_validator"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.slowest_validator",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.largest_candidate",
@@ -5282,7 +5376,8 @@
       "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_candidate"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_candidate",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.largest_boundary_peer_group",
@@ -5313,7 +5408,8 @@
       "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_boundary_peer_group"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.largest_boundary_peer_group",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.clickbench_q32",
@@ -5344,7 +5440,8 @@
       "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.clickbench_q32"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.clickbench_q32",
+      "check_path": "external-input"
     },
     {
       "id": "s68.ast.max_relative_overhead_window",
@@ -5375,7 +5472,8 @@
       "scope": "Five-worker median times, candidate and peer counts for the required slow/large-window analysis.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s68.ast.max_relative_overhead_window"
+      "replay": "python -B scripts/recount_numbers.py s68.ast.max_relative_overhead_window",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.native.generation_checksum",
@@ -5393,7 +5491,8 @@
       "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.native.generation_checksum"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.generation_checksum",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.native.eager_exact",
@@ -5411,7 +5510,8 @@
       "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.native.eager_exact"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.eager_exact",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.native.filtered_exact",
@@ -5429,7 +5529,8 @@
       "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_exact"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_exact",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.native.pure_binary64",
@@ -5447,7 +5548,8 @@
       "scope": "Five rotated workers on the original native wedges. AST and O5 pilot measurements finished before this series.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.native.pure_binary64"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.pure_binary64",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o4.native.filtered_over_plain_float",
@@ -5462,7 +5564,8 @@
       "scope": "Filtered exact predicate versus ordinary binary64 on identical inputs, with fixed compiler flags and rotated arm order.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_over_plain_float"
+      "replay": "python -B scripts/recount_numbers.py s68.o4.native.filtered_over_plain_float",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o5.overlay_3",
@@ -5496,7 +5599,8 @@
       "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_3"
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_3",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o5.overlay_1000",
@@ -5530,7 +5634,8 @@
       "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_1000"
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_1000",
+      "check_path": "external-input"
     },
     {
       "id": "s68.o5.overlay_100000",
@@ -5564,7 +5669,8 @@
       "scope": "Five rotated fresh workers with KEEP, CLEAR, equal-value WRITE and changed-value WRITE. Full verification builds an independent oracle and scans all backing rows. Rebuilt CSV SHA256 and partition counts match the archive. Parquet bytes are sealed separately.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_100000"
+      "replay": "python -B scripts/recount_numbers.py s68.o5.overlay_100000",
+      "check_path": "external-input"
     },
     {
       "id": "s68.e9.human_review.status_counts",
@@ -5646,7 +5752,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o1.sqlite_backup_only.seconds",
@@ -5660,7 +5767,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_only.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_only.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o1.raw_file_sha256.seconds",
@@ -5674,7 +5782,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o1.sqlite_native_read.seconds",
@@ -5688,7 +5797,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_native_read.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_native_read.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o1.raw_file_sha256.over_native_read",
@@ -5698,7 +5808,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.over_native_read"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.raw_file_sha256.over_native_read",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o1.sqlite_backup_logical.over_native_read",
@@ -5708,7 +5819,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
       "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.over_native_read"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_logical.over_native_read",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o2.exact.seconds",
@@ -5722,7 +5834,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
       "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.exact.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.exact.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o2.epoch.seconds",
@@ -5736,7 +5849,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
       "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o2.producer.seconds",
@@ -5750,7 +5864,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
       "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.producer.seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.producer.seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o2.epoch.over_producer_pct",
@@ -5760,7 +5875,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/O2-RAW.jsonl",
       "source_sha256": "ce355c3497e44302d2035b89be5a9aeaf1f8dd10bdd3787fb20a28a2c3774f77",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.over_producer_pct"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o2.epoch.over_producer_pct",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.family.producer_seconds",
@@ -5774,7 +5890,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.family.check_seconds",
@@ -5788,7 +5905,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.family.total_seconds",
@@ -5802,7 +5920,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.total_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.total_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.family.check_over_producer",
@@ -5816,7 +5935,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.family.check_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.producer.producer_seconds",
@@ -5830,7 +5950,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.producer.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.producer.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.guard.producer_seconds",
@@ -5844,7 +5965,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.guard.check_seconds",
@@ -5858,7 +5980,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.guard.total_seconds",
@@ -5872,7 +5995,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.total_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.total_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.topk.guard.check_over_producer",
@@ -5886,7 +6010,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/TOPK-RAW.jsonl",
       "source_sha256": "f3a2971882c2be39efd85f8b53d4ab83a3f7ae28d6381e8befa4992e7914ee01",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.topk.guard.check_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.family.producer_seconds",
@@ -5900,7 +6025,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.family.check_seconds",
@@ -5914,7 +6040,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.family.total_seconds",
@@ -5928,7 +6055,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.total_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.total_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.family.check_over_producer",
@@ -5942,7 +6070,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.family.check_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.claimed.producer_seconds",
@@ -5956,7 +6085,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.claimed.check_seconds",
@@ -5970,7 +6100,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.claimed.total_seconds",
@@ -5984,7 +6115,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.total_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.total_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.claimed.check_over_producer",
@@ -5998,7 +6130,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_over_producer"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.claimed.check_over_producer",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o3.representative.producer.producer_seconds",
@@ -6012,7 +6145,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s69-followup/REP-RAW.jsonl",
       "source_sha256": "41b41e1a42d694ce0d084b864434c8b0ee9266e24972b4b94b2a911217ef6b7f",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.producer.producer_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o3.representative.producer.producer_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o4.eager_over_filtered",
@@ -6026,7 +6160,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/geometry-native/NEW-RAW.csv",
       "source_sha256": "752d99ed06329ca64d520c49440b245ce2c0ddb14318c06c399093be0a2e8e99",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o4.eager_over_filtered"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o4.eager_over_filtered",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.3.witness_over_apply",
@@ -6040,7 +6175,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.witness_over_apply"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.witness_over_apply",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.3.verify_seconds",
@@ -6054,7 +6190,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.verify_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.3.verify_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.1000.witness_over_apply",
@@ -6068,7 +6205,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.witness_over_apply"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.witness_over_apply",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.1000.verify_seconds",
@@ -6082,7 +6220,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.verify_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.1000.verify_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.100000.witness_over_apply",
@@ -6096,7 +6235,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.witness_over_apply"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.witness_over_apply",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.o5.100000.verify_seconds",
@@ -6110,7 +6250,8 @@
       "scope": "Five fresh 8352V workers per arm. O1/O2 separate-arm comparisons divide medians. O3/O4/O5 paired comparisons take the median of paired ratios.",
       "artifact_path": "evidence/pvldb-s68-review-followup/o5-data/COST-RAW.jsonl",
       "source_sha256": "a20fa88e63ca759b84d7bfa16837a9a6a364d2a67b26b30a44bc47135bd08882",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.verify_seconds"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o5.100000.verify_seconds",
+      "check_path": "external-input"
     },
     {
       "id": "s69.table7.time_cells_outside_30_pct",
@@ -6120,7 +6261,8 @@
       "scope": "Fresh same-host O1–O3 plus prior same-host O4 native and three-overlay O5. Ratios are not time cells.",
       "artifact_path": "evidence/pvldb-s69-followup/TABLE7-RESULT.json",
       "source_sha256": "38b96acd5718b09681c0738cbe3a3ef3ae8c684d572a0a8a8905a55419c3ecff",
-      "replay": "python -B scripts/recount_numbers.py s69.table7.time_cells_outside_30_pct"
+      "replay": "python -B scripts/recount_numbers.py s69.table7.time_cells_outside_30_pct",
+      "check_path": "external-input"
     },
     {
       "id": "s69.o4.pressure.1_per_mille.same_call",
@@ -6148,7 +6290,8 @@
       "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
       "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
       "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
-      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.1_per_mille.same_call"
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.1_per_mille.same_call",
+      "check_path": "external-input"
     },
     {
       "id": "s69.o4.pressure.10_per_mille.same_call",
@@ -6176,7 +6319,8 @@
       "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
       "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
       "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
-      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.10_per_mille.same_call"
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.10_per_mille.same_call",
+      "check_path": "external-input"
     },
     {
       "id": "s69.o4.pressure.100_per_mille.same_call",
@@ -6204,7 +6348,8 @@
       "scope": "100M calls per worker. Same non-specialized caller and input sequence per arm.",
       "artifact_path": "evidence/pvldb-s69-followup/PRESSURE-RAW.csv",
       "source_sha256": "8f4a9234ac93498245e0fb1122d52fb50effa0ae8c3cc3f6240c65fbceeb8150",
-      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.100_per_mille.same_call"
+      "replay": "python -B scripts/recount_numbers.py s69.o4.pressure.100_per_mille.same_call",
+      "check_path": "external-input"
     },
     {
       "id": "s69.ast.successful_workers",
@@ -6214,7 +6359,8 @@
       "scope": "All 116 full-scale SQL windows completed five successful workers each.",
       "artifact_path": "evidence/pvldb-s68-review-followup/AST-RAW.jsonl",
       "source_sha256": "706539982ceb35b79ba3f31f69ccf3ba640b70049727c9a6d82ef8baadb04d97",
-      "replay": "python -B scripts/recount_numbers.py s69.ast.successful_workers"
+      "replay": "python -B scripts/recount_numbers.py s69.ast.successful_workers",
+      "check_path": "offline-recount"
     },
     {
       "id": "s69.q39.max_cv_relative_bound",
@@ -6259,6 +6405,39 @@
       "artifact_path": "evidence/pvldb-s68-review-followup/E9-BOUNDARY-REVIEW.tsv",
       "source_sha256": "db11d9c89464a8ce78836ed14973357ecc25dbc609542213d1d9314b3df13270",
       "replay": "python -B scripts/recount_numbers.py s68.e9.boundary_review.f5_stratum_false_negatives"
+    },
+    {
+      "id": "s70.q59.cutoff_distinct_projections.sf1",
+      "value": 1,
+      "denominator": 49,
+      "unit": "distinct projected rows",
+      "scope": "Section 4.1. Independent Decimal reference on TPC-DS SF1. Projection multiplicities [49]; window selects 2 rows from the boundary group.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-SF1-INDEPENDENT-RESULT.json",
+      "source_sha256": "178b50a50bc20d1c262efc3ea25826bb7ef4ea23572b97f99dc4143769031fea",
+      "replay": "python -B scripts/recount_numbers.py s70.q59.cutoff_distinct_projections.sf1",
+      "check_path": "offline-recount"
+    },
+    {
+      "id": "s70.q59.cutoff_distinct_projections.sf10",
+      "value": 1,
+      "denominator": 49,
+      "unit": "distinct projected rows",
+      "scope": "Section 4.1. Independent Decimal reference on TPC-DS SF10. Projection multiplicities [49]; window selects 2 rows from the boundary group.",
+      "artifact_path": "evidence/pvldb-native-baseline-matrix/Q59-INDEPENDENT-RESULT.json",
+      "source_sha256": "b683c07c8c035daae35e2aab796193de69c405c0a050c216c48307edcd7d7c9a",
+      "replay": "python -B scripts/recount_numbers.py s70.q59.cutoff_distinct_projections.sf10",
+      "check_path": "offline-recount"
+    },
+    {
+      "id": "s69.table7.o1.sqlite_backup_only.over_native_read",
+      "value": 0.22093618823814978,
+      "denominator": 5,
+      "unit": "ratio",
+      "scope": "Section 7. Unrounded consistent-backup median divided by the separate native count/sum median, five workers per arm on the same host.",
+      "artifact_path": "evidence/pvldb-s69-followup/O1-RAW.jsonl",
+      "source_sha256": "f7a4da80dda911397491cf2b1b12dc17eb9f21cde783824591c014c86a37bc45",
+      "replay": "python -B scripts/recount_numbers.py s69.table7.o1.sqlite_backup_only.over_native_read",
+      "check_path": "external-input"
     }
   ]
 }

@@ -1,5 +1,9 @@
 {
+  "cutoff_peer_distinct_projections": 1,
   "cutoff_peer_output_rows": 2,
+  "cutoff_peer_projection_multiplicities": [
+    49
+  ],
   "cutoff_peer_size": 49,
   "decisions": {
     "native": {

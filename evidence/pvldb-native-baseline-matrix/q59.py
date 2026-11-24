@@ -144,6 +144,8 @@ def evaluate(database, query_file, verifier=None):
         "selected_peer_bands": len(bands),
         "cutoff_peer_size": sum(bands[-1][2].values()),
         "cutoff_peer_output_rows": bands[-1][1],
+        "cutoff_peer_distinct_projections": len(bands[-1][2]),
+        "cutoff_peer_projection_multiplicities": sorted(bands[-1][2].values()),
         "position_differences_ascending_vs_descending": sum(
             a != b for a, b in zip(cases["projected_peer_sort_asc"], cases["projected_peer_sort_desc"])
         ),

@@ -76,6 +76,15 @@ The [timing and numerical follow-up](evidence/pvldb-s69-followup/README.md) repo
 
 The [public Docker receipt](evidence/PUBLIC-DOCKER-VALIDATION.json) records the network-disabled run with bundled inputs. It completed 56 of 101 archive entries (55 native re-executions and one receipt-only check). The 45 other entries had unbound optional inputs. The historical remote runs used different bindings and are labeled separately in the ledger.
 
+The ledger's `check_path` field identifies how to verify selected headline numbers.
+
+| Results | `check_path` | What the check does |
+| --- | --- | --- |
+| ClickBench 7/43, Table 4, Table 6 and 968 C4 arms | `offline-recount` | Recounts per-query comparison verdicts and per-arm results from archived records. |
+| A1 across 116 windows and Q59's cutoff multiplicities | `offline-recount` | Counts recorded validator results and controls, and checks the independent Q59 projection counts against the cutoff census. Regenerating these full-scale results uses the source datasets. |
+| Bundled native executions in the public Linux image | `native-rerun` | Runs the bundled producers inside the container with networking disabled. The receipt-only check remains a separate entry. |
+| Table 7, AST timings and memory, and the geometry pressure timings | `external-input` | Fresh measurements need the documented input datasets or another timed run. The archived worker records also support offline recounting of the reported statistics. |
+
 | Paper Section / Artifact | Description | Primary Repository Location |
 | --- | --- | --- |
 | **§2, Table 1** | Formal $(\pi, \approx, r)$ model, `O1`–`O5`, `F1`–`F10`, `M1`–`M7` | [`TAXONOMY.md`](TAXONOMY.md) |

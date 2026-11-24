@@ -14,6 +14,12 @@ and the key mutation. Count and E2 schema accept all four. The four
 observations are from one query and share their source outputs.
 Byte hashes cover the experimental TSV serialization.
 
+The pinned CWI script sets `delta = 0.05` at line 11, converts integer columns
+to floats at line 22 and tests `abs(first - second) > 0.05 * abs(first)` for
+numeric cells at line 58. M1 changes item key 1265 to 1266, a relative
+change of `1/1265 ≈ 7.9e-4` against the original file. Table 4 reports the stock
+5% rule separately from the generic `1e-5` and `1e-9` relative tolerances.
+
 The [full ClickBench A7 packet](../pvldb-a7-typed-candidates/README.md)
 adds a distinct Q18/Q25 real-output pilot, scored with the same E2
 observers against independently scanned exact source groups and peers.

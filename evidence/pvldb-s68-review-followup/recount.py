@@ -102,7 +102,9 @@ def metrics(root):
         c4["summary"]["e9_positive_count"], "frozen positive public issues",
         "Distinct frozen E9 positive labels whose IDs and issue URLs match a native C4 release-pair family.")
     add("s68.c4.release_pairs_with_fix_link", "C4-SOURCES.json", c4["summary"]["release_pairs_with_fix_link"],
-        c4["summary"]["release_pairs"], "release pairs", "Verified upstream merged-PR links. DuckDB issue 21207 remains unresolved.")
+        c4["summary"]["release_pairs"], "release pairs",
+        "Verified upstream merged-PR links. DuckDB #21207 was labeled fixed on nightly and closed as completed. "
+        "Its repair commit remains unresolved.")
 
     queue_rows = list(csv.DictReader((packet / "E9-HUMAN-REVIEW-QUEUE.tsv").read_text(encoding="utf-8").splitlines(), delimiter="\t"))
     valid_statuses = {"yes", "no", "unknown"}

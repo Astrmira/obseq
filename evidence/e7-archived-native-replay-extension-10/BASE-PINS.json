@@ -26,8 +26,9 @@
       "source_path": "evidence/e7-unified-native-development-extension-8/MANIFEST.json"
     },
     "extension-9": {
-      "manifest_sha256": "2f3427b2de6cabfb0216014e9444238b61e3bfca61301e3d0f719f564e4bb8fb",
-      "source_path": "evidence/e7-archived-native-replay-extension-9/MANIFEST.json"
+      "manifest_sha256": "df51c75a313f9cf89fa243b0ad3bd496993c4c8edcd2f7b68c02fba7321f3649",
+      "source_path": "evidence/e7-archived-native-replay-extension-9/MANIFEST.json",
+      "provenance": "Public archive resealed for the CWI comparator README clarification. Executable and result blobs unchanged."
     }
   }
 }

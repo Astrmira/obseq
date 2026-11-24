@@ -83,9 +83,12 @@ calculation using exact Decimal subtotals over 11,213,853 scanned sales,
 Python week and store pairing, and date-dimension multiplicities. The
 independent calculation and the typed window checker agree on all five
 arms, including the rejection of a changed ratio with the same 100 rows.
-The two within-peer sort variants produce identical projections, and the
-49-member final peer band contributes two rows. Run
-`python -B q59.py QUERIES_JSON SF10_TPCDS_DB --verify-window ../pvldb-a1-query-inventory/verify_windows.py`.
+The [SF1](Q59-SF1-INDEPENDENT-RESULT.json) and [SF10](Q59-INDEPENDENT-RESULT.json)
+reference receipts each count one distinct projected row with multiplicity
+49 in the split peer band. The window takes two copies of that row, so all
+selections within that band produce the same projected multiset. Run
+`python -B q59.py QUERIES_JSON TPCDS_DB --verify-window ../pvldb-a1-query-inventory/verify_windows.py`
+with a DuckDB 1.4.3 TPC-DS database at either scale.
 Q86 has 57 incorrectly inferred grouping roles out of 168
 groups before LIMIT when using nullness instead of `GROUPING`. Q11's bundled
 qualification fraction returns 0 rows, and the SF10 workload fraction returns

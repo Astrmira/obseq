@@ -41,6 +41,17 @@
   "https://github.com/duckdb/duckdb/issues/21207": {
     "closing_merged_prs": [],
     "closing_refs": [],
+    "disposition": {
+      "label": "fixed on nightly",
+      "labeled_at": "2026-10-12T17:04:55Z",
+      "label_event": "https://api.github.com/repos/duckdb/duckdb/issues/events/33066292492",
+      "closed_at": "2026-10-13T06:47:36Z",
+      "closed_as": "completed",
+      "close_event": "https://api.github.com/repos/duckdb/duckdb/issues/events/33108312484",
+      "repair_commit": null,
+      "earlier_candidate": "https://github.com/duckdb/duckdb/pull/20885",
+      "earlier_candidate_outcome": "On March 8, 2026 the reporter replied that the issue still reproduced on main."
+    },
     "state": "CLOSED",
     "status": "read"
   },

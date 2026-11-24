@@ -16,6 +16,29 @@ ROOT = Path(__file__).resolve().parents[1]
 MATRIX = "evidence/pvldb-native-baseline-matrix"
 
 
+def check_path(id_):
+    """Identify the evidence route for the headline ledger entries."""
+    if id_ in {"a8.native.public_docker.native_reexecuted",
+               "a8.native.public_docker.pass_stable"}:
+        return "native-rerun"
+    if id_ in {"s68.ast.negative_controls_rejected", "s68.ast.completed_windows",
+               "s69.ast.successful_workers", "s68.o5.archived_overlay_writes",
+               "e6.o4.geometry_seed_count", "e6.o4.exact_fallbacks"}:
+        return "offline-recount"
+    if (id_ == "a5.durable.write_times"
+            or re.match(r"^(?:(?:e6|s68|s69)\.table7\.|s6[89]\.(?:ast|o4|o5)\.|e6\.o[1-5]\.)", id_)):
+        return "external-input"
+    if (id_.startswith(("c2.table6.", "c4.table6.", "c4.contract_replay.",
+                        "s70.q59.", "a8.native.public_docker."))
+            or re.match(r"^c3\.[^.]+\.table4\.", id_)
+            or id_ in {"a7.full.native_bag_difference", "a1.derived_ordered_windows",
+                       "a1.table3.ordered_windows_by_suite", "a1.native_outputs_accepted",
+                       "a1.shape_controls_rejected", "a1.equal_length_window_controls_rejected",
+                       "a1.windows_with_equal_length_controls", "a1.equal_length_controls_by_kind"}):
+        return "offline-recount"
+    return None
+
+
 def comparison_counts(rows, verdicts):
     counts = defaultdict(Counter)
     for row in rows:
@@ -51,6 +74,8 @@ def recount(root=ROOT):
             "source_sha256": hashlib.sha256(source(path)).hexdigest(),
             "replay": f"python -B scripts/recount_numbers.py {id_}",
         }
+        if route := check_path(id_):
+            rows[id_]["check_path"] = route
 
     path = "evidence/pvldb-a4-natural-roster/CONTRACT-CHECKS.json"
     arms = read(path)["observations"]
@@ -207,6 +232,25 @@ def recount(root=ROOT):
         "sales_rows_scanned", "cutoff_peer_size", "cutoff_peer_output_rows", "required_rows",
         "position_differences_ascending_vs_descending")}, len(q59["decisions"]), "source rows and cutoff counts",
         "Sections 3 and 4.1. SF10 independent Decimal source rescan and typed window decisions.")
+    for scale, receipt_path in (("sf1", f"{MATRIX}/Q59-SF1-INDEPENDENT-RESULT.json"), ("sf10", path)):
+        receipt = read(receipt_path)
+        multiplicities = receipt["cutoff_peer_projection_multiplicities"]
+        cutoff_path = f"evidence/pvldb-a1-query-inventory/TPCDS-{scale.upper()}-CUTOFFS.jsonl"
+        cutoff, = (row for row in map(json.loads, source(cutoff_path).splitlines()) if row["query"] == 59)
+        if (len(multiplicities) != receipt["cutoff_peer_distinct_projections"]
+                or sum(multiplicities) != receipt["cutoff_peer_size"]
+                or not cutoff["upper_boundary_split"]
+                or cutoff["upper_peers"] != receipt["cutoff_peer_size"]
+                or cutoff["sql_sha256"] != receipt["query_sha256"]
+                or not 0 < receipt["cutoff_peer_output_rows"] < receipt["cutoff_peer_size"]):
+            raise ValueError(f"Q59 {scale} projection counts disagree with the cutoff receipts")
+        if {arm: row["accepted"] for arm, row in receipt["decisions"].items()} != receipt["typed_window_verdicts"]:
+            raise ValueError(f"Q59 {scale} independent and typed window decisions disagree")
+        add(f"s70.q59.cutoff_distinct_projections.{scale}", receipt_path, len(multiplicities),
+            receipt["cutoff_peer_size"], "distinct projected rows",
+            f"Section 4.1. Independent Decimal reference on TPC-DS {scale.upper()}. "
+            f"Projection multiplicities {multiplicities}; window selects {receipt['cutoff_peer_output_rows']} "
+            "rows from the boundary group.")
     path = "evidence/e7-archived-native-replay-extension-9/packages/tpch-sf10-bundled-vs-workload-q11/tpch-counts.json"
     add("c3.tpch_sf10.lineitem_rows", path, read(path)["tables"]["lineitem"], 10, "source rows",
         "Section 3. Source lineitem table at SF10, used by the Q21 rescan.")
@@ -223,7 +267,21 @@ def recount(root=ROOT):
         len(ungrouped) + len(grouped), "comparison arms",
         "Table 4. Grouped-window receipt combined with FULL-A2.json for Q18 and Q25.")
 
-    path = "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    path = "evidence/pvldb-a7-typed-candidates/FULL-CANDIDATES.jsonl"
+    candidates = [json.loads(line) for line in source(path).splitlines()]
+    roster = {(row["query"], row["threads"]): row for row in candidates}
+    if (len(candidates) != 86 or roster.keys() != {(q, t) for q in range(1, 44) for t in (1, 8)}
+            or any(row["status"] != "ok" or not isinstance(row["same_bag_as_first_arm"], bool)
+                   for row in candidates)):
+        raise ValueError("ClickBench per-query receipts do not cover both thread arms")
+    changed = [q for q in range(1, 44) if not roster[q, 1]["same_bag_as_first_arm"]]
+    analysis_path = "evidence/pvldb-a7-typed-candidates/FULL-ANALYSIS.json"
+    if changed != read(analysis_path)["thread_comparison"]["different_bag"]:
+        raise ValueError("ClickBench bag difference recount disagrees with the archived summary")
+    add("a7.full.native_bag_difference", path, len(changed), len(roster) // 2, "stock queries",
+        "Section 4.1. Recount of exact bag comparison verdicts between one-thread and eight-thread native outputs.")
+
+    path = analysis_path
     full = read(path)
     cutoffs = {row["query"]: row for row in full["queries"] if row["cutoff"]}
     q25, q32 = cutoffs[25], cutoffs[32]
@@ -474,6 +532,12 @@ def recount(root=ROOT):
     followup = runpy.run_path(str(root / "evidence/pvldb-s69-followup/recount.py"))
     for metric in followup["metrics"](root):
         add(*metric)
+    backup, native = (rows[f"s69.table7.o1.sqlite_{arm}.seconds"]["value"]["median"]
+                      for arm in ("backup_only", "native_read"))
+    add("s69.table7.o1.sqlite_backup_only.over_native_read",
+        "evidence/pvldb-s69-followup/O1-RAW.jsonl", backup / native, 5, "ratio",
+        "Section 7. Unrounded consistent-backup median divided by the separate native count/sum median, "
+        "five workers per arm on the same host.")
     return rows
 
 
@@ -481,6 +545,9 @@ def verify(root, ledger):
     published = {row["id"]: row for row in ledger}
     if len(published) != len(ledger):
         raise ValueError("Duplicate IDs in NUMBERS.json")
+    for id_, row in published.items():
+        if row.get("check_path") != check_path(id_):
+            raise ValueError(f"Unexpected check_path for ledger entry: {id_}")
     for id_, row in recount(root).items():
         if published.get(id_) != row:
             raise ValueError(f"Recounted ledger entry differs: {id_}")

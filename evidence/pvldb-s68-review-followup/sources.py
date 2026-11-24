@@ -60,6 +60,10 @@ def render(root, upstream, positives=None):
                                    "matches_issue": row["url"] in issues} for row in matched],
                      "e9_unresolved_ids": [k for k in keys if k not in current],
                      "archived_contract_arms": len(observations)})
+        dispositions = {issue: upstream[issue]["disposition"] for issue in issues
+                        if "disposition" in upstream.get(issue, {})}
+        if dispositions:
+            rows[-1]["upstream_disposition"] = dispositions
     linked = [row for row in rows if row["e9_links"]]
     positive = {match["id"] for row in linked for match in row["e9_links"]
                 if match["status"] == "yes" and match["matches_issue"]}
@@ -88,6 +92,17 @@ def markdown(data):
         lines.append(f"| {row['mechanism']} | {links(row['issues'])} | {fixes} | "
                      f"{row['versions'][0]} → {row['versions'][1]} | {row['category']} | "
                      f"{'yes' if row['visible_to_ordered_equality'] else 'no'} | {', '.join(row['oracle'])} | {match} |")
+    for row in data["rows"]:
+        for issue, info in row.get("upstream_disposition", {}).items():
+            lines.extend([
+                "",
+                f"For {links([issue])}, maintainers added the [`{info['label']}` label]"
+                f"({info['label_event']}) on {info['labeled_at'][:10]} and "
+                f"[closed the issue as {info['closed_as']}]({info['close_event']}) on {info['closed_at'][:10]}. "
+                f"The repair commit is {info['repair_commit'] or 'unresolved'}. "
+                f"An earlier candidate was {links([info['earlier_candidate']])}. "
+                f"{info['earlier_candidate_outcome']} The table gives the tested versions.",
+            ])
     return "\n".join(lines) + "\n"
 
 
