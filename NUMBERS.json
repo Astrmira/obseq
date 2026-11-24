@@ -159,7 +159,7 @@
       "value": 14,
       "denominator": 14,
       "unit": "native outputs",
-      "scope": "Independent Parquet/NumPy source adjudication of Q31\u2013Q33 and Q39\u2013Q42 at 1 and 8 threads.",
+      "scope": "Independent Parquet/NumPy source adjudication of Q31–Q33 and Q39–Q42 at 1 and 8 threads.",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
       "replay": "python -IB run.py ACQUISITION STOCK_SQL FULL_OUTPUT FROZEN_RUNNER A2_RUNNER E2_SOURCE STORE_1 STORE_2",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json"
@@ -950,7 +950,7 @@
       "denominator": 135,
       "unit": "decisive mechanism cells",
       "scope": "30 frozen queries and five axes, with 3 positive and 132 negative agreements. 15 of 150 cells are unresolved.",
-      "source_sha256": "acf620651c3edc2ddcde8b5613d0c47cf32c8f402d34be00a69b5066d62afd98",
+      "source_sha256": "d65c09fba73bb8c8d901aa612e1d36660a5bd44f27ce4ee32c5093561d56088f",
       "replay": "Recompute the five-axis projection from SQL-AUDIT.tsv and INVENTORY.json",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SQL-AUDIT.md"
     },
@@ -1759,7 +1759,7 @@
       "unit": "review cells",
       "scope": "Section 4.1. Five axes across the frozen review sample.",
       "artifact_path": "evidence/pvldb-a1-query-inventory/SQL-AUDIT.md",
-      "source_sha256": "acf620651c3edc2ddcde8b5613d0c47cf32c8f402d34be00a69b5066d62afd98",
+      "source_sha256": "d65c09fba73bb8c8d901aa612e1d36660a5bd44f27ce4ee32c5093561d56088f",
       "replay": "python -B scripts/recount_numbers.py a1.audit.cells"
     },
     {
@@ -2346,7 +2346,7 @@
       },
       "denominator": 22,
       "unit": "comparison arms",
-      "scope": "Table 4. Generic decisions on Q31\u2013Q33 and Q39\u2013Q42.",
+      "scope": "Table 4. Generic decisions on Q31–Q33 and Q39–Q42.",
       "artifact_path": "evidence/pvldb-a2-clickbench-typed-windows/RESULT.json",
       "source_sha256": "58d85aae61dc62fca7db91cbef59a465577d2b868f9714acc23d6b1a86e776d5",
       "replay": "python -B scripts/recount_numbers.py c3.clickbench.table4.grouped_generic"
@@ -6117,7 +6117,7 @@
       "value": {},
       "denominator": 14,
       "unit": "displayed time cells",
-      "scope": "Fresh same-host O1\u2013O3 plus prior same-host O4 native and three-overlay O5. Ratios are not time cells.",
+      "scope": "Fresh same-host O1–O3 plus prior same-host O4 native and three-overlay O5. Ratios are not time cells.",
       "artifact_path": "evidence/pvldb-s69-followup/TABLE7-RESULT.json",
       "source_sha256": "38b96acd5718b09681c0738cbe3a3ef3ae8c684d572a0a8a8905a55419c3ecff",
       "replay": "python -B scripts/recount_numbers.py s69.table7.time_cells_outside_30_pct"
@@ -6235,6 +6235,30 @@
       "artifact_path": "evidence/pvldb-s69-followup/Q39-STATS.csv.gz",
       "source_sha256": "174459289de7fbc59cc4ea8e370bf8158aec0cafc07f8fc0d663b693eb5e047e",
       "replay": "python -B scripts/recount_numbers.py s69.q39.threshold_ambiguous_groups"
+    },
+    {
+      "id": "s68.e9.boundary_review.status_counts",
+      "value": {
+        "yes": 0,
+        "no": 31,
+        "unknown": 3
+      },
+      "denominator": 34,
+      "unit": "reviewed boundary non-positive issues",
+      "scope": "Human review of all 24 non-positive F5-stratum issues and all 10 non-positive initial-rater-yes disagreements.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-BOUNDARY-REVIEW.tsv",
+      "source_sha256": "db11d9c89464a8ce78836ed14973357ecc25dbc609542213d1d9314b3df13270",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.boundary_review.status_counts"
+    },
+    {
+      "id": "s68.e9.boundary_review.f5_stratum_false_negatives",
+      "value": 0,
+      "denominator": 24,
+      "unit": "reviewed F5-stratum non-positive issues",
+      "scope": "Evidenced wrong-result issues missed among all 24 non-positive F5-stratum ('default') issues.",
+      "artifact_path": "evidence/pvldb-s68-review-followup/E9-BOUNDARY-REVIEW.tsv",
+      "source_sha256": "db11d9c89464a8ce78836ed14973357ecc25dbc609542213d1d9314b3df13270",
+      "replay": "python -B scripts/recount_numbers.py s68.e9.boundary_review.f5_stratum_false_negatives"
     }
   ]
 }

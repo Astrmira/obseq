@@ -138,6 +138,35 @@ def metrics(root):
         len(confirmed_pairs), "human-confirmed wrong results",
         "Human-verified primary mechanism class distribution among the confirmed wrong-result issues.")
 
+    e9_dir = root / "evidence/e9-independent-annotation-and-adjudication"
+    e9_strata = {r["id"]: r["stratum"] for r in csv.DictReader((e9_dir / "STRATA.csv").read_text(encoding="utf-8").splitlines())}
+    e9_ra = {json.loads(l)["id"]: json.loads(l) for l in (e9_dir / "RATER-A.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
+    e9_rb = {json.loads(l)["id"]: json.loads(l) for l in (e9_dir / "RATER-B.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
+    expected_boundary = [
+        (row["id"], row["url"]) for row in full_labels.values()
+        if row["status"] != "yes" and (e9_strata[row["id"]] == "F5"
+                                       or e9_ra[row["id"]]["wrong_result"] == "yes"
+                                       or e9_rb[row["id"]]["wrong_result"] == "yes")
+    ]
+    boundary_rows = list(csv.DictReader((packet / "E9-BOUNDARY-REVIEW.tsv").read_text(encoding="utf-8").splitlines(), delimiter="\t"))
+    if [(r["id"], r["issue_url"]) for r in boundary_rows] != expected_boundary:
+        raise ValueError("Boundary human review roster differs from the 34 expected E9 non-positive boundary issues")
+    for row in boundary_rows:
+        if any(not (row[k] or "").strip() for k in row):
+            raise ValueError(f"Incomplete boundary review entry: {row['id']}")
+        if row["human_wrong_result"] not in valid_statuses or row["human_category"] not in valid_classes:
+            raise ValueError(f"Invalid boundary review label: {row['id']}")
+    boundary_status = Counter(dict.fromkeys(("yes", "no", "unknown"), 0))
+    boundary_status.update(r["human_wrong_result"] for r in boundary_rows)
+    f5_rows = [r for r in boundary_rows if r["stratum"] == "F5"]
+    f5_false_neg = sum(r["human_wrong_result"] == "yes" for r in f5_rows)
+    add("s68.e9.boundary_review.status_counts", "E9-BOUNDARY-REVIEW.tsv", dict(boundary_status), len(boundary_rows),
+        "reviewed boundary non-positive issues",
+        "Human review of all 24 non-positive F5-stratum issues and all 10 non-positive initial-rater-yes disagreements.")
+    add("s68.e9.boundary_review.f5_stratum_false_negatives", "E9-BOUNDARY-REVIEW.tsv", f5_false_neg, len(f5_rows),
+        "reviewed F5-stratum non-positive issues",
+        "Evidenced wrong-result issues missed among all 24 non-positive F5-stratum ('default') issues.")
+
     table = runpy.run_path(str(packet / "table7_timings.py"))["summarize"](root / "evidence")
     if table != read(f"{PACKET}/TABLE7-ARCHIVED.json"):
         raise ValueError("Archived worker timings changed")

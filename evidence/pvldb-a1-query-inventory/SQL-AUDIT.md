@@ -4,9 +4,9 @@ Xu Cao, Wenxuan Xiao · 2026-11-23
 
 The [per-query review](SQL-AUDIT.tsv) covers the five frozen queries in
 each of six suites. Each SQL hash matches the [selection](HUMAN-AUDIT-QUEUE.tsv).
-The review uses the original query, pinned schema and engine semantics, with
-labels recorded before opening the [static results](INVENTORY.json) for the
-selected queries. The sample was selected for coverage of distinct signatures.
+The review checks each selected query against its original SQL, pinned schema
+and engine semantics, and compares the resulting labels with the
+[static results](INVENTORY.json). The sample was selected for coverage of distinct signatures.
 
 ## Reviewed mechanisms
 
